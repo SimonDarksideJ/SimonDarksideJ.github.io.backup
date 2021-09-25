@@ -28,7 +28,7 @@ Here is the journey to create this interesting little project for all to enjoy.
 
 ## Project Setup
 
-For this example you can create a new project using Unity's new **AR project template** using the latest **Unity 2020 LTS**, this will give ou everything you need setup ready to use ARFoundation.
+For this example you can create a new project using Unity's new **AR project template** using the latest **Unity 2020 LTS**, this will give you everything you need setup ready to use ARFoundation.
 
 ![Unity Project hub with the AR Template selected](../Images/01-02-ARFoundationProjectTemplate.png)
 
@@ -39,11 +39,11 @@ Everything should be setup ready in the **ExampleAssets\SampleScene**
 > * AR Foundation 4.1.7 (or later)
 > * ARCore XR Plugin (Android) or ARKit XR Plugin (iOS) or both
 > 
-> Then create a new scene, delete your main main camera and add the session origin using ***"GameObject -> XR -> AR Session Origin"*** and a AR Session ***"GameObject -> XR -> AR Session"*** to have everything configured to run AR Foundation.
+> Then create a new scene, delete your main camera and add the session origin using ***"GameObject -> XR -> AR Session Origin"*** and a AR Session ***"GameObject -> XR -> AR Session"*** to have everything configured to run AR Foundation.
 
 ## First Step - grabbing a screenshot
 
-The first step is usually the easiest, surely.  Getting a screenshot in Unity is actually quite easy, no need to "faff" around with cameras, or native device plugins, Unity just provides a simple way to get what is currently on the users screen and thankfully this includes camera feeds plus any 3D content, just "copy the Unity camera".
+The first step is usually the easiest, surely.  Getting a screenshot in Unity is actually quite easy, no need to "faff" around with cameras, or native device plugins, Unity just provides a simple way to get what is currently on the user's screen and thankfully this includes camera feeds plus any 3D content, just "copy the Unity camera".
 
 ```csharp
     var screenShot = new Texture2D(screenShotWidth, screenShotHeight, TextureFormat.RGB24, false);
@@ -64,13 +64,13 @@ This being Unity, you cannot use the above code just anywhere, it can only be ru
 This gives you two options, either:
 
 * Write a MonoBehaviour script to apply to the Camera to perform the act on demand
-* Write a MonoBehaviour to expose the 'OnPostRender' event that your scripts can attach to in order to capture the event
+* Write a MonoBehaviour to expose the 'OnPostRender' event that your scripts can attach to, in order to capture the event
 
 My preference is always the second option, to avoid bloating "other" objects with code I actually need elsewhere.
 
 ###  Screenshot solution
 
-To solve this implementation, I wrote two scripts, one for the camera and another for the button that will actually take the screenshot.
+To solve this implementation, I wrote two scripts, one for the camera and another for the button that will take the screenshot.
 
 ***1 - "CameraRenderEvent" script***
 
@@ -172,7 +172,7 @@ Placing an object in the scene and applying the grabbed texture to it, easy... O
     // Spawn a Quad Primitive
     var spawnedObject = GameObject.CreatePrimitive(PrimitiveType.Quad);
 
-    // Set a position Forward fo the camera view
+    // Set a position Forward for the camera view
     Vector3 pos = cam.transform.position + cam.transform.forward;
     spawnedObject.transform.position = pos;
 
@@ -198,7 +198,7 @@ In this script, we simply:
 >   Vector3 pos = gameObject.transform.position + Vector.forward;
 > ```
 >
-> Else you will be in for a little head scratching when it does not appear where you expect!
+> Else you will be in for a little head-scratching when it does not appear where you expect!
 
 Job done, surely.
 
@@ -215,7 +215,7 @@ The issues here are on several fronts:
 
 ###  Placing solution
 
-In order to overcome these little complexities, we need to alter our implementation to address these limitations. Some by just coping with the setup of the device and some by sheer brute force.
+To overcome these little complexities, we need to alter our implementation to address these limitations. Some by just coping with the setup of the device and some by sheer brute force.
 
 Rotating the quad to face the camera is fairly easy by simply forcing the Gameobject to face the camera like this:
 
@@ -318,7 +318,7 @@ public class Screenshot : MonoBehaviour
             spawnedObject.transform.SetParent(cam.transform.parent);
             spawnedObject.transform.LookAt(spawnedObject.transform.position + cam.transform.rotation * Vector3.forward, cam.transform.rotation * Vector3.up);
 
-            // Set a position Forward fo the camera view
+            // Set a position Forward for the camera view
             Vector3 pos = cam.transform.position + cam.transform.forward * 0.75f;
 
             //Get the current scale of the Quad
@@ -369,11 +369,11 @@ So we have our image, it is placed in our view, in the correct proportions, We a
 For the astute of you, you might notice the image is a little bright.  If you deploy the app to a device and walk around you will notice this brightness changes when you take screenshots.
 You might simply put this down to the lighting conditions in the space, except it isn't.
 
-By default the Quad you generate will use the Unity **Standard shader**, which receives lighting from all sources, including, the directional light that is included in default scenes.
+By default, the Quad you generate will use the Unity **Standard shader**, which receives lighting from all sources, including, the directional light that is included in default scenes.
 
-As we do not want any additional lighting in our screenshots, we need to either remove lighting (which would be bad, as it would affect any 3D content we want placed in the scene), or more simply, use a different shader for our Quad that ignores lighting.
+As we do not want any additional lighting in our screenshots, we need to either remove lighting (which would be bad, as it would affect any 3D content we want to be placed in the scene), or more simply, use a different shader for our Quad that ignores lighting.
 
-###  Placing solution
+###  Lighting solution
 
 So as described, we want to use an **Unlit shader** for our screenshot object, that way it will not be affected by anything else in our scene and luckily Unity provides us one out of the box, which we can access by assigning it to our Quad in the scene:
 
@@ -410,7 +410,7 @@ So as described, we want to use an **Unlit shader** for our screenshot object, t
 
 For our sample, we will implement the UnLit shader by caching the Shader instance to avoid calling "Find" every time we need to place a screenshot.  It isn't very often, but you should get in the habit of caching "anything" that needs a "Find" function wherever possible.
 
-Final update to the Screenshot code is as follows:
+Ths final update to the Screenshot code is as follows:
 
 ```csharp
 using UnityEngine;
@@ -468,7 +468,7 @@ public class Screenshot : MonoBehaviour
             spawnedObject.transform.SetParent(cam.transform.parent);
             spawnedObject.transform.LookAt(spawnedObject.transform.position + cam.transform.rotation * Vector3.forward, cam.transform.rotation * Vector3.up);
 
-            // Set a position Forward fo the camera view
+            // Set a position Forward for the camera view
             Vector3 pos = cam.transform.position + cam.transform.forward * 0.75f;
 
             //Get the current scale of the Quad
@@ -510,8 +510,8 @@ However, if you run this code now you will hit a small snag which results in you
 The answer is because Unity does NOT by default include the Unlit shader in Unity builds (but of course, why would Unity include shaders you have requested to use?). Fixing it is VERY simply thankfully, just tell Unity to include it in your Unity Project settings:
 
 1. Open The Project settings using ***"Menu -> Edit -> Project Settings"***
-2. Select the **Graphics** option in the left hand window
-3. Scroll down to the bottom of the right hand window to find the **Always Included Shaders** section
+2. Select the **Graphics** option in the left-hand window
+3. Scroll down to the bottom of the right-hand window to find the **Always Included Shaders** section
 4. Increase the **Size** value by One
 5. Click on the circle icon next to the new **Element** (Element 10 in the screenshot below) and select the "Unlit/Texture" shader
 6. Done.
@@ -524,7 +524,7 @@ Fun wasn't it.
 
 ## Conclusion
 
-This was a fun ride that took me quite a few more hours that I would have expected as I had not taken in to account I was using Unity..
+This was a fun ride that took me quite a few more hours than I would have expected as I had not taken into account I was using Unity..
 Things are not always as simple as they initially appear and there are almost always a few bumps in the road.  Being used to Unity, I should know better but it seems I am eternally bound to repeating past mistakes when trying to do something new.
 
 ![Joey from friends suddenly being surprised by something he did not expect](https://th.bing.com/th/id/R.e68da6e3069cb1986b8ac76a08bdd78a?rik=XnRxesFRxlQO9Q&riu=http%3a%2f%2fartisantalent.com%2fwp-content%2fuploads%2f2016%2f02%2fgiphy-3.gif&ehk=jPk%2bY9z%2fzn%2f%2bc2wmJr0RY1lcuYCuQ4YMHkELhs5ejh4%3d&risl=&pid=ImgRaw&r=0)
