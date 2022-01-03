@@ -116,8 +116,8 @@ If you are struggling with some Quests or achievements, my goto place is [Pure X
 
 [![](https://images.purexbox.com/996fa2573f855/xbox-game-pass-quests-december-2021.large.jpg)](https://www.purexbox.com/tags/xbox-game-pass-quests)
 
-## in conclusion
+## In conclusion
 
 Whether you are earning points to get more GamePass or for some interesting reward / gift cards is up to you, but it would be wise to sign up and get that little bit extra for what you are doing already, playing games.
 
-Personally, I've loved GamePass quests as it has opened my eyes to new franchises and games, sme I would have never considered before, such as Destiny 2 and the Division.  It cost me nothing to try them and now they are among my favorite things to pick up and play when I want something different.
+Personally, I've loved GamePass quests as it has opened my eyes to new franchises and games, some I would have never considered before, such as Destiny 2 and the Division.  It cost me nothing to try them and now they are among my favorite things to pick up and play when I want something different.
