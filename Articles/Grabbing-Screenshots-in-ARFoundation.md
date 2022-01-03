@@ -204,7 +204,7 @@ Job done, surely.
 
 ### Except!
 
-![square Screenshot at an angle with a little puppy sleeping on a sofa](../Images/01-03-ScreenshotImage.jpg)
+![Square Screenshot at an angle with a little puppy sleeping on a sofa](../Images/01-03-ScreenshotImage.jpg)
 
 The issues here are on several fronts:
 
