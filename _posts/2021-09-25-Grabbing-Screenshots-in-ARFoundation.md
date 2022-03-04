@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Grabbing Screenshots in AR Foundation"
+date:   2021-09-25 15:27:55 +0000
+categories: AR Foundation
+---
+
 # Grabbing Screenshots in AR Foundation
 
 ![](https://media.giphy.com/media/zUYnySVEILN50cDUls/giphy.gif?cid=ecf05e47vswhba2wh0vgy343mfamreh1jq6blvx9gttra5ag&rid=giphy.gif&ct=g)
@@ -16,7 +23,7 @@ Easy I said, no problem, forgetting a couple of little problems:
 
 This was the eventual result that was desired (apologies for the low res)
 
-![Gif of Placing Screenshot in an AR scene](../Images/01-01-ARFoundationPictureResult.gif) 
+![Gif of Placing Screenshot in an AR scene](/Images/ARFoundationScreenshot/01-01-ARFoundationPictureResult.gif) 
 
 Here is the journey to create this interesting little project for all to enjoy.
 
@@ -30,7 +37,7 @@ Here is the journey to create this interesting little project for all to enjoy.
 
 For this example you can create a new project using Unity's new **AR project template** using the latest **Unity 2020 LTS**, this will give you everything you need setup ready to use ARFoundation.
 
-![Unity Project hub with the AR Template selected](../Images/01-02-ARFoundationProjectTemplate.png)
+![Unity Project hub with the AR Template selected](/Images/ARFoundationScreenshot/01-02-ARFoundationProjectTemplate.png)
 
 Everything should be setup ready in the **ExampleAssets\SampleScene**
 
@@ -97,6 +104,7 @@ public class CameraRenderEvent : MonoBehaviour
     }
 }
 ```
+
 A simple script to attach to the camera that you want to capture the screenshot from.
 
 ***2 - "Screenshot" script***
@@ -204,7 +212,7 @@ Job done, surely.
 
 ### Except!
 
-![Square Screenshot at an angle with a little puppy sleeping on a sofa](../Images/01-03-ScreenshotImage.jpg)
+![Square Screenshot at an angle with a little puppy sleeping on a sofa](/Images/ARFoundationScreenshot/01-03-ScreenshotImage.jpg)
 
 The issues here are on several fronts:
 
@@ -222,6 +230,7 @@ Rotating the quad to face the camera is fairly easy by simply forcing the Gameob
 ```csharp
     spawnedObject.transform.LookAt(spawnedObject.transform.position + cam.transform.rotation * Vector3.forward, cam.transform.rotation * Vector3.up);
 ```
+
 The **LookAt** method simply takes the position and rotation of another gameobject (in this case the camera) and orientates it to face its own Forward direction face it.
 
 * The Cameras position, taking in to account its forward rotation
@@ -356,7 +365,7 @@ public class Screenshot : MonoBehaviour
 
 Almost there, but not quite
 
-![Screenshot of a screenshot of a puppy on a sofa with the image almost filling the screen as the device was pulled back to show image size](../Images/01-04-ScreenshotFixed-.jpg)
+![Screenshot of a screenshot of a puppy on a sofa with the image almost filling the screen as the device was pulled back to show image size](/Images/ARFoundationScreenshot/01-04-ScreenshotFixed-.jpg)
 
 > In the Screenshot above (pun intended) the device was pulled back slightly to show the proportions of the image now fill the screen, when the image was taken, it was full screen.
 
@@ -516,7 +525,7 @@ The answer is because Unity does NOT by default include the Unlit shader in Unit
 5. Click on the circle icon next to the new **Element** (Element 10 in the screenshot below) and select the "Unlit/Texture" shader
 6. Done.
 
-![Graphics Settings window in Unity showing the Always Included Shaders](../Images/01-05-GraphicsSettings.png)
+![Graphics Settings window in Unity showing the Always Included Shaders](/Images/ARFoundationScreenshot/01-05-GraphicsSettings.png)
 
 If you build and run the project now, you should get the same result as shown in the beginning of this article.
 

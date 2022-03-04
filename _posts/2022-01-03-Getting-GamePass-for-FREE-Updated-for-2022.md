@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Getting GamePass for FREE - updated for 2022"
+date:   2022-01-03 15:27:55 +0000
+categories: GamePass
+---
 # Getting GamePass for FREE - updated for 2022
 
 ![](https://media.giphy.com/media/3o6wO4lpSaVQn1J8aI/giphy.gif)
@@ -49,7 +55,7 @@ If you are a GamePass Ultimate member, you can also use Microsoft's Game streami
 
 Bing search is by far the easiest way to earn Microsoft points, simply visit [Bing.com](https://www.bing.com/) while signed in with your Microsoft account, then complete the "Bing Dailies" (as shown below) and the "More Activities" for starters.  You then also are awarded points for searching, but I just read the news headlines for the day and that is enough.
 
-![](https://github.com/SimonDarksideJ/SimonDarksideJ.github.io/raw/main/Images/GamePassRewards/01_BingRewards.jpg)
+![](/Images/GamePassRewards/01_BingRewards.jpg)
 
 > Make sure you are signed in (Identity Icon in the top-right), else your points do not count.
 
@@ -64,7 +70,7 @@ Bing search is by far the easiest way to earn Microsoft points, simply visit [Bi
 
 The Xbox app on mobile gives you access to your Xbox and lots of info on Xbox titles.  It also now has its own ability to earn you points through 4 new daily tasks:
 
-![](https://github.com/SimonDarksideJ/SimonDarksideJ.github.io/raw/main/Images/GamePassRewards/02_XboxAppRewards.jpg)
+![](/Images/GamePassRewards/02_XboxAppRewards.jpg)
 
 * Play Jewel - simple little match 3 game played on mobile, just play a level and collect the points
 * Play any GamePass title on PC - start a game on pc and this is complete
@@ -84,7 +90,7 @@ You also get additional points for using the app daily and bonus points for havi
 
 The main method of earning points is by simply playing GamePass games and included with these are the GamePass Quests.
 
-![](https://github.com/SimonDarksideJ/SimonDarksideJ.github.io/raw/main/Images/GamePassRewards/03_GamePassRewards.jpg)
+![](/Images/GamePassRewards/03_GamePassRewards.jpg)
 
 These are broken up in to Daily, Weekly and Monthly quests, each refreshing appropriately.  Some will have you playing games, others will be for completing other quests (open x dailies) or simply starting the app, all very easy.
 Even better, that if you have GamePass Ultimate, most titles can be played on Microsoft Cloud Gaming from PC, Mobile or Xbox, so you do not even need to install anything (although one quest is for installing games via the app).
@@ -104,7 +110,7 @@ Often missed for those extra few points, the Microsoft Rewards app on Xbox is qu
 
 The only limitation with the Microsoft Rewards app on Xbox, is that this is ONLY available on Xbox and sometimes it can be challenging to remember to switch over to the app to claim those extra 50 points for daily achievements.
 
-![](https://github.com/SimonDarksideJ/SimonDarksideJ.github.io/raw/main/Images/GamePassRewards/04_Xbox_Rewards.png)
+![](/Images/GamePassRewards/04_Xbox_Rewards.png)
 
 The weekly rewards gain bonuses every few weeks and will challenge you, from simply logging in, to getting a few achievements.  And do not forget to check in after you earn achievements for an extra 50 points each day you gain them (only once a day though)
 
