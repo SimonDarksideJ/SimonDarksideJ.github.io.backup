@@ -4,7 +4,6 @@ title:  "Getting GamePass for FREE - updated for 2022"
 date:   2022-01-03 15:27:55 +0000
 categories: GamePass
 ---
-# Getting GamePass for FREE - updated for 2022
 
 ![](https://media.giphy.com/media/3o6wO4lpSaVQn1J8aI/giphy.gif)
 

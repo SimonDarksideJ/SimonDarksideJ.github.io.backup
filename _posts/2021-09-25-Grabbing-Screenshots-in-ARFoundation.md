@@ -5,8 +5,6 @@ date:   2021-09-25 15:27:55 +0000
 categories: AR Foundation
 ---
 
-# Grabbing Screenshots in AR Foundation
-
 ![](https://media.giphy.com/media/zUYnySVEILN50cDUls/giphy.gif?cid=ecf05e47vswhba2wh0vgy343mfamreh1jq6blvx9gttra5ag&rid=giphy.gif&ct=g)
 
 An interesting challenge came across my desk that, on the face of it, should have been very easy.  
