@@ -30,7 +30,7 @@ twitter_username: simondarksidej
 github_username:  simondarksidej
 
 # Build settings
-theme: jekyll-theme-slate
+theme: minima
 plugins:
   - jekyll-feed
 github: [metadata]
