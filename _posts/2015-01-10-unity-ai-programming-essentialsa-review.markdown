@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unity AI Programming Essentials&ndash;A Review
+title: Unity AI Programming Essentials - A Review
 date: '2015-01-10 18:31:46'
 tags:
 - ai

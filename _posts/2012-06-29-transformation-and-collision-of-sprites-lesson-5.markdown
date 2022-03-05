@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Transformation and collision of Sprites &ndash; Lesson 5
+title: Transformation and collision of Sprites - Lesson 5
 date: '2012-06-29 10:38:56'
 tags:
 - 2d

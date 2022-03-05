@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unity Game Development Blueprints &ndash; A Review
+title: Unity Game Development Blueprints - A Review
 date: '2014-12-14 16:28:22'
 tags:
 - game-development

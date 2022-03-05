@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Developing for a cause&ndash;The ICHealthHack for Cystic Fibrosis
+title: Developing for a cause - The ICHealthHack for Cystic Fibrosis
 date: '2017-03-27 13:55:14'
 tags:
 - call-to-action

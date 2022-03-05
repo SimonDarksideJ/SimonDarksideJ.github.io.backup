@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Breakpoint&ndash;Alternate Particle solutions
+title: Breakpoint - Alternate Particle solutions
 date: '2012-06-29 11:07:52'
 tags:
 - 2d
