@@ -3,9 +3,7 @@ layout: post
 title: Oculus Rift 3D stereoscopic rendering support in SunBurn is here!
 date: '2013-03-19 12:00:48'
 tags:
-- '72'
 - information
-- ramblings
 - steroscopic
 - sunburn
 - xna

@@ -3,11 +3,9 @@ layout: post
 title: Automation and continuous delivery with MonoGame
 date: '2015-05-23 21:06:24'
 tags:
-- '68'
 - information
 - monogame
 - nuget
-- ramblings
 - windows-10
 ---
 

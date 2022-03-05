@@ -3,7 +3,6 @@ layout: post
 title: I must have eaten some really hot porridge this morning
 date: '2007-08-02 08:33:57'
 tags:
-- ramblings
 - tutorials-resources
 ---
 

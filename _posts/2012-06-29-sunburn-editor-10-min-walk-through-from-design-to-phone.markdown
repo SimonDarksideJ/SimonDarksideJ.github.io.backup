@@ -3,7 +3,6 @@ layout: post
 title: SunBurn editor 10 min walk-through - from design to phone
 date: '2012-06-29 22:52:09'
 tags:
-- ramblings
 - sunburn
 - sunburn-tutorials
 ---

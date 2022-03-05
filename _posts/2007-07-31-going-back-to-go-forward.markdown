@@ -3,7 +3,6 @@ layout: post
 title: Going back to go forward
 date: '2007-07-31 11:49:52'
 tags:
-- ramblings
 - tutorials-resources
 ---
 

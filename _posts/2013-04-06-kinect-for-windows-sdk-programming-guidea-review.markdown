@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Kinect for Windows SDK Programming Guide&ndash;a review
+title: Kinect for Windows SDK Programming Guide - a review
 date: '2013-04-06 23:02:06'
 tags:
 - book-review
 - information
 - kinect
-- ramblings
 - winforms
 - wpf
 - xna

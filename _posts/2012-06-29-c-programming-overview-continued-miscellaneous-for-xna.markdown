@@ -1,11 +1,10 @@
 ---
 layout: post
-title: C# Programming Overview continued &ndash; Miscellaneous for XNA
+title: C# Programming Overview continued - Miscellaneous for XNA
 date: '2012-06-29 09:26:07'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

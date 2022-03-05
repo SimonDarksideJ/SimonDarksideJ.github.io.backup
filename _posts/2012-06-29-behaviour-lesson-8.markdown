@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Behaviour &ndash; Lesson 8
+title: Behaviour - Lesson 8
 date: '2012-06-29 21:08:07'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

@@ -3,7 +3,6 @@ layout: post
 title: Who'd of beleived it - But Microsoft pulls one out of the bag yet again!
 date: '2007-03-09 08:55:50'
 tags:
-- ramblings
 - xna-related
 ---
 

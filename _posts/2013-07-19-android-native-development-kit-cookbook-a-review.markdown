@@ -1,14 +1,11 @@
 ---
 layout: post
-title: Android Native Development Kit Cookbook &ndash; a review
+title: Android Native Development Kit Cookbook - a review
 date: '2013-07-19 15:38:59'
 tags:
-- '41'
-- '72'
 - android
 - information
 - packtpub
-- ramblings
 ---
 
 Just before I come up for air and start blogging in earnest I received an interesting offer to review another Android book.  if you cast you mind back I did a review of “Android 4: New features for Application Development” ([http://bit.ly/12E5q2u](http://bit.ly/12E5q2u "http://bit.ly/12E5q2u")) which was a good highlight of the new bits, this book takes you back to basics and walks you through setting up, your first app and beyond.

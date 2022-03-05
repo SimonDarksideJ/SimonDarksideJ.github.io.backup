@@ -3,12 +3,9 @@ layout: post
 title: Developing games for Cystic Fibrosis treatment - Getting started with Fizzyo
 date: '2017-05-09 13:08:45'
 tags:
-- '68'
-- '72'
-- codeproject-2
+- codeproject
 - fizzyo
 - monogame
-- ramblings
 - unity-3d-tutorials
 - unity3d
 ---

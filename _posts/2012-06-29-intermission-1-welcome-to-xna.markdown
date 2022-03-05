@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 'Intermission #1 &ndash; Welcome to XNA'
+title: 'Intermission #1 - Welcome to XNA'
 date: '2012-06-29 09:26:58'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

@@ -3,7 +3,6 @@ layout: post
 title: 50 Books For Everyone In the Game Industry
 date: '2006-12-15 13:35:23'
 tags:
-- ramblings
 - tutorials-resources
 ---
 

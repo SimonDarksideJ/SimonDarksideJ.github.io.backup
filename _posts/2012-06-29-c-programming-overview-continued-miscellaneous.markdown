@@ -5,7 +5,6 @@ date: '2012-06-29 09:24:09'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

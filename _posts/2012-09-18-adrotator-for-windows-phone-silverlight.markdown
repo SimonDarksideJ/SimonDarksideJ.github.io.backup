@@ -3,9 +3,7 @@ layout: post
 title: AdRotator for Windows Phone Silverlight
 date: '2012-09-18 16:07:22'
 tags:
-- '72'
 - adrotator
-- ramblings
 - silverlight
 - tutorials-resources
 - windows-phone

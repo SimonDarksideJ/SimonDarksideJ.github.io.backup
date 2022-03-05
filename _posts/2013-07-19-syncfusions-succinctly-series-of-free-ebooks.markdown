@@ -1,16 +1,13 @@
 ---
 layout: post
-title: Syncfusion&rsquo;s &ldquo;Succinctly&rdquo; series of Free ebooks
+title: Syncfusion 'Succinctly' series of Free ebooks
 date: '2013-07-19 23:33:39'
 tags:
-- '41'
-- '72'
 - book-review
 - information
 - ios
 - javascript
 - jquery
-- ramblings
 - syncfusion
 - windows-8
 - winrt

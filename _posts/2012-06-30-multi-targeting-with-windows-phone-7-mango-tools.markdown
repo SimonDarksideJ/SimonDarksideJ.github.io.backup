@@ -3,7 +3,6 @@ layout: post
 title: Multi-Targeting with Windows Phone 7 Mango tools
 date: '2012-06-30 23:36:17'
 tags:
-- ramblings
 - tutorials-resources
 - windows-phone
 ---

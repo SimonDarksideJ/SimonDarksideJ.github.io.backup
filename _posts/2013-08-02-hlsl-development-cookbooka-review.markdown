@@ -1,14 +1,11 @@
 ---
 layout: post
-title: HLSL Development Cookbook&ndash;a review
+title: HLSL Development Cookbook - a review
 date: '2013-08-02 16:25:21'
 tags:
-- '41'
-- '72'
 - book-review
 - hlsl
 - information
-- ramblings
 - shaders
 - tutorials-resources
 ---

@@ -3,7 +3,6 @@ layout: post
 title: Things to note when Writing XNA components
 date: '2006-10-06 12:56:58'
 tags:
-- ramblings
 - tutorials-resources
 ---
 

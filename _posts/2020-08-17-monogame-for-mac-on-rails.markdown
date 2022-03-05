@@ -5,7 +5,6 @@ date: '2020-08-17 16:16:36'
 tags:
 - mac
 - monogame
-- ramblings
 ---
 
 <figure class="wp-block-image size-large"><img src="https://media.giphy.com/media/idwHsrrEkqQws34iPk/giphy.gif" alt="/&gt;&lt;/figure&gt;

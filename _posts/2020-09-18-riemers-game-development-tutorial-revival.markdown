@@ -4,7 +4,6 @@ title: Riemers Game Development tutorial revival
 date: '2020-09-18 13:38:43'
 tags:
 - monogame
-- ramblings
 - tutorials-resources
 - xnagamestudio-archive
 ---

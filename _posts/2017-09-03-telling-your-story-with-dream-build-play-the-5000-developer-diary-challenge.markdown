@@ -1,15 +1,11 @@
 ---
 layout: post
-title: Telling your story with Dream Build Play&ndash;the $5000 developer diary challenge
+title: Telling your story with Dream Build Play - the $5000 developer diary challenge
 date: '2017-09-03 17:54:36'
 tags:
-- '135'
-- '166'
-- '68'
 - dbp2017
-- events-2
+- events
 - information
-- ramblings
 - tutorials-resources
 - unity-3d-tutorials
 ---

@@ -3,12 +3,9 @@ layout: post
 title: In lament for XNA Framework, long live the XNA platform
 date: '2013-02-02 00:45:48'
 tags:
-- '72'
 - book
-- codeproject-2
+- codeproject
 - information
-- lastwords
-- ramblings
 - xna
 - xna-related
 ---

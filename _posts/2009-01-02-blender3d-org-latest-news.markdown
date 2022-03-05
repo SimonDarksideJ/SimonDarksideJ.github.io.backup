@@ -4,7 +4,6 @@ title: 'Blender3d.org: Latest News'
 date: '2009-01-02 14:22:07'
 tags:
 - information
-- ramblings
 ---
 
 The Mythical Blender 2.5 project is finally getting momentum and great progress! Currently over 90k of the 300k lines that needed to be recoded are back. Not to say we’re on one-third of the work though…  the new system requires to wrap or recode every (!) tool in Blender. Luckily this kind of work now is getting well defined, and interesting smaller tasks are available for all developers interested to help porting now.

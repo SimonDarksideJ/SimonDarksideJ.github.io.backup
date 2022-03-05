@@ -1,9 +1,8 @@
 ---
 layout: post
-title: XNA to SilverXNA&ndash;Part 1 an Overview
+title: XNA to SilverXNA - Part 1 an Overview
 date: '2012-07-01 18:48:40'
 tags:
-- ramblings
 - silverlight
 - silverxna
 - silverxna-tutorials

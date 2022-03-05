@@ -1,10 +1,9 @@
 ---
 layout: post
-title: SunBurn Vs Unity&ndash;The face off!
+title: SunBurn Vs Unity - The face off!
 date: '2012-07-02 13:51:07'
 tags:
 - information
-- ramblings
 - sunburn
 - sunburn-tutorials
 - unity-3d-tutorials

@@ -1,11 +1,10 @@
 ---
 layout: post
-title: ReCap video for the XNA 3D AT&amp;T Webcast
+title: ReCap video for the XNA 3D AT&T Webcast
 date: '2012-06-30 23:18:30'
 tags:
 - 3d
 - game-development
-- ramblings
 - xna
 - xna-3d-tutorials
 ---

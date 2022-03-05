@@ -3,11 +3,8 @@ layout: post
 title: Making your game stand out with Cortana on Windows 10
 date: '2016-04-18 09:19:40'
 tags:
-- '166'
-- '72'
-- codeproject-2
+- codeproject
 - cortana
-- ramblings
 - tutorials-resources
 - unity3d
 - uwp

@@ -3,16 +3,12 @@ layout: post
 title: IARC and You - Updating your store Age Ratings
 date: '2016-06-26 03:17:06'
 tags:
-- '166'
-- '72'
 - age-ratings
 - iarc
 - information
-- ramblings
 - tutorials-resources
 - windows-10
 - windows-8
-- windows8-tutorials
 - windows-store
 ---
 

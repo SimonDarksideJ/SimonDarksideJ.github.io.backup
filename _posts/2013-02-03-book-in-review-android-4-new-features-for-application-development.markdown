@@ -6,7 +6,6 @@ tags:
 - android
 - book-review
 - information
-- ramblings
 ---
 
 A while ago myself whilst playing around with “other” platforms decided to review a set of books from the fantastic [Packt Publishers](http://www.packtpub.com/) who kindly sent us a few titles to give out opinion on, I picked up:

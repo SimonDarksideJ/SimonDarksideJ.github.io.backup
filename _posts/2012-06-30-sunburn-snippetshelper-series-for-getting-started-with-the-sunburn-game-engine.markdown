@@ -1,12 +1,11 @@
 ---
 layout: post
-title: SunBurn snippets&ndash;helper series for getting started with the SunBurn Game
+title: SunBurn snippets - helper series for getting started with the SunBurn Game
   Engine
 date: '2012-06-30 23:23:58'
 tags:
 - 3d
 - game-development
-- ramblings
 - sunburn
 - sunburn-tutorials
 - xna

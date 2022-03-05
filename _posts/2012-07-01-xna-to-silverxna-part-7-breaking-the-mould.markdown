@@ -3,7 +3,6 @@ layout: post
 title: XNA to SilverXNA-part 7 Breaking the mould
 date: '2012-07-01 23:15:29'
 tags:
-- ramblings
 - silverlight
 - silverxna
 - silverxna-tutorials

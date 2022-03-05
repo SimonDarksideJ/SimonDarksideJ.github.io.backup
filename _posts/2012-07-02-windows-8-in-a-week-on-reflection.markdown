@@ -4,7 +4,6 @@ title: Windows 8 in a week on reflection
 date: '2012-07-02 12:30:59'
 tags:
 - information
-- ramblings
 - windows-8
 ---
 

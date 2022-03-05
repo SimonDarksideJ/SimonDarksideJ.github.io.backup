@@ -3,9 +3,7 @@ layout: post
 title: So you want to be a Unity3D game developer?
 date: '2013-11-14 18:14:06'
 tags:
-- '72'
 - information
-- ramblings
 - unity-3d-tutorials
 - unity3d
 ---

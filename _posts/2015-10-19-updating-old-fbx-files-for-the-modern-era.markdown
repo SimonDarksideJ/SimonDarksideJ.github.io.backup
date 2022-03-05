@@ -3,11 +3,8 @@ layout: post
 title: Updating old FBX files for the modern era
 date: '2015-10-19 08:43:21'
 tags:
-- '68'
-- '72'
 - fbx
 - monogame
-- ramblings
 - tutorials-resources
 ---
 

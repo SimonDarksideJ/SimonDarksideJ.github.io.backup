@@ -3,7 +3,6 @@ layout: post
 title: Remote machine debugging with Windows 8
 date: '2012-08-24 08:24:46'
 tags:
-- ramblings
 - tutorials-resources
 - windows-8
 - windows8-tutorials

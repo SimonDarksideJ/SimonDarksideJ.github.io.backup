@@ -6,7 +6,6 @@ tags:
 - information
 - offers
 - packtpub
-- ramblings
 ---
 
 [![ src=]()](http://www.packtpub.com/ebookbonanza?utm_source=$5%20eBook%20Bonanza&utm_medium=$5%20eBook%20Bonanza&utm_campaign=$5%20eBook%20Bonanza)

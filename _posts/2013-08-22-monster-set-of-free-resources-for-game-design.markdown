@@ -5,11 +5,9 @@ date: '2013-08-22 16:37:47'
 tags:
 - 2d
 - 3d
-- '72'
 - audio
 - free
 - links
-- ramblings
 - resources
 - tutorials-resources
 - unity3d

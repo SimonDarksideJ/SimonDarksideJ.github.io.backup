@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Pictures, barcodes and effects&ndash;oh my
+title: Pictures, barcodes and effects - oh my
 date: '2012-06-29 21:34:15'
 tags:
-- ramblings
 - samples
 - tutorials-resources
 ---

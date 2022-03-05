@@ -3,7 +3,6 @@ layout: post
 title: XNA in Windows 8 from dream to reality
 date: '2012-10-15 14:44:29'
 tags:
-- ramblings
 - windows-8
 - windows8-tutorials
 - xna

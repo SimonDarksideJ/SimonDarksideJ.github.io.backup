@@ -3,7 +3,6 @@ layout: post
 title: Game engine source now available for Free
 date: '2007-08-02 15:27:36'
 tags:
-- ramblings
 - tutorials-resources
 ---
 

@@ -3,11 +3,8 @@ layout: post
 title: 'MonoGame: Building Portable Solutions'
 date: '2013-05-19 22:50:41'
 tags:
-- '68'
-- '72'
 - monogame
 - portable-class-libraries
-- ramblings
 - tutorials-resources
 - xna
 - xna-related

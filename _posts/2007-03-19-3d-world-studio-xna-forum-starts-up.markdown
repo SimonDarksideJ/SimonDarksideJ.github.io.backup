@@ -4,7 +4,6 @@ title: 3D World Studio XNA Forum starts up
 date: '2007-03-19 16:48:10'
 tags:
 - information
-- ramblings
 ---
 
 I’ve been in talks with Leadwerks, who make 3D World Studio and they seem very interested in getting into the XNA domain.  

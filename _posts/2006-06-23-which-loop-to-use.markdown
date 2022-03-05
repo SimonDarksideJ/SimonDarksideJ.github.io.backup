@@ -3,7 +3,6 @@ layout: post
 title: Which Loop to Use
 date: '2006-06-23 12:43:22'
 tags:
-- ramblings
 - tutorials-resources
 ---
 

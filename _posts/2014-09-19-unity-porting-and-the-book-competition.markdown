@@ -3,9 +3,7 @@ layout: post
 title: Unity Porting and the Book competition
 date: '2014-09-19 09:28:20'
 tags:
-- '146'
 - mastering-unity-2d
-- ramblings
 - unity-3d-tutorials
 - unity3d
 - unityportinguk

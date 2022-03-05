@@ -3,9 +3,6 @@ layout: post
 title: Unity Shaders and Effects Cookbook - A Review
 date: '2013-09-02 17:51:40'
 tags:
-- '41'
-- '72'
-- ramblings
 - shaders
 - unity-3d-tutorials
 - unity3d

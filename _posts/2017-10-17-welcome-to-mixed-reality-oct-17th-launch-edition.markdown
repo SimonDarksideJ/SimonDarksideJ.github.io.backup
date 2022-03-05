@@ -1,13 +1,11 @@
 ---
 layout: post
-title: Welcome to Mixed Reality&ndash;Oct 17th launch edition
+title: Welcome to Mixed Reality - Oct 17th launch edition
 date: '2017-10-17 12:35:21'
 tags:
-- '201'
-- events-2
+- events
 - fall-creators
 - mixed-reality
-- ramblings
 - windows-10
 ---
 

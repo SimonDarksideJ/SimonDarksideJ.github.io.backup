@@ -3,11 +3,9 @@ layout: post
 title: Telerik Cloud sync and Everlive&ndash;the great companions
 date: '2013-07-21 22:09:06'
 tags:
-- '72'
 - data-sync
 - everlive
 - information
-- ramblings
 - telerik
 - tutorials-resources
 ---

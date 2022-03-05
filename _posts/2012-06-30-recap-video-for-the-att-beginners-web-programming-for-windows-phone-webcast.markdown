@@ -1,9 +1,8 @@
 ---
 layout: post
-title: ReCap video for the AT&amp;T Beginners Web programming for Windows Phone webcast
+title: ReCap video for the AT&T Beginners Web programming for Windows Phone webcast
 date: '2012-06-30 23:29:14'
 tags:
-- ramblings
 - silverlight-tutorials
 - wcf
 - windows-phone

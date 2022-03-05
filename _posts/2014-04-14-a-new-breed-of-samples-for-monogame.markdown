@@ -3,11 +3,8 @@ layout: post
 title: A new breed of samples for MonoGame
 date: '2014-04-14 14:03:12'
 tags:
-- '68'
-- '72'
 - information
 - monogame
-- ramblings
 - samples
 ---
 

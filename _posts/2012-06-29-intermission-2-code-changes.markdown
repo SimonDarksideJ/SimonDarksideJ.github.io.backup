@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 'Intermission #2 &ndash; Code Changes'
+title: 'Intermission #2 - Code Changes'
 date: '2012-06-29 10:27:58'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

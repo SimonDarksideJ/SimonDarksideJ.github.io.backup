@@ -3,7 +3,6 @@ layout: post
 title: XNA to SilverXNA-part 6 Adding a bit of Flash
 date: '2012-07-01 23:09:06'
 tags:
-- ramblings
 - silverlight
 - silverxna
 - silverxna-tutorials

@@ -3,7 +3,6 @@ layout: post
 title: Is my XNA game dead yet?
 date: '2012-06-29 11:30:19'
 tags:
-- ramblings
 - tutorials-resources
 - windows-phone
 ---

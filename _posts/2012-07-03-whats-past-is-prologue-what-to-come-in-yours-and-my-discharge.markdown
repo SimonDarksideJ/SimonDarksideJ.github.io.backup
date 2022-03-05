@@ -9,7 +9,6 @@ tags:
 - information
 - metro
 - mono
-- ramblings
 - sunburn
 - unity3d
 - xna

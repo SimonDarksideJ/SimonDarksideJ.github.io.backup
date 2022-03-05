@@ -3,7 +3,6 @@ layout: post
 title: Dream.Build.Play. - get a head start now!
 date: '2007-01-25 14:28:21'
 tags:
-- ramblings
 - xna-related
 ---
 

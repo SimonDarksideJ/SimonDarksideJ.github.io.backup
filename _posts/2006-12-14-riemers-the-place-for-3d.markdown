@@ -3,7 +3,6 @@ layout: post
 title: Riemers - The place for 3D
 date: '2006-12-14 09:40:16'
 tags:
-- ramblings
 - tutorials-resources
 ---
 

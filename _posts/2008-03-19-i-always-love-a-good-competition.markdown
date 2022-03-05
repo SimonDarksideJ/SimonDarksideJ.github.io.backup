@@ -4,7 +4,6 @@ title: I always love a good Competition
 date: '2008-03-19 17:03:01'
 tags:
 - information
-- ramblings
 ---
 
 Competitions are always a good thing as they make people strive to compete and bring out their best work (or not in my case, hack-1 was never finished enough for my likes when i published it for the XBOX360Homebrew Contest).

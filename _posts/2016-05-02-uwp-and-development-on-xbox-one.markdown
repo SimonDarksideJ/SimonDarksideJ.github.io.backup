@@ -3,19 +3,14 @@ layout: post
 title: UWP and development on Xbox One
 date: '2016-05-02 15:07:04'
 tags:
-- '135'
-- '166'
-- '68'
-- '72'
-- codeproject-2
+- codeproject
 - cryengine
 - information
-- ramblings
 - unity-3d-tutorials
 - unity3d
 - unreal
 - uwp
-- xboxone-2
+- xboxone
 ---
 
 ![](http://www.develop-online.net/cimages/c92d44030c6fd4670881b7419395ca5a.png)

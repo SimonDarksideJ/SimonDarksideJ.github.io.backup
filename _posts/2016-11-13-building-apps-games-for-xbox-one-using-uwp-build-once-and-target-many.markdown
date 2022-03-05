@@ -3,12 +3,9 @@ layout: post
 title: Building apps & games for Xbox One using UWP - Build once and target many
 date: '2016-11-13 11:43:04'
 tags:
-- '68'
-- '72'
-- events-2
+- events
 - futuredecoded
 - monogame
-- ramblings
 - tutorials-resources
 - unity-3d-tutorials
 - unity3d

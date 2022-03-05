@@ -1,16 +1,13 @@
 ---
 layout: post
-title: Start building for XBOX ONE &ndash; NOW!!!
+title: Start building for XBOX ONE - NOW!!!
 date: '2013-12-12 17:26:41'
 tags:
-- '135'
-- '72'
 - game-development
 - information
 - publishing
-- ramblings
 - unity3d
-- xboxone-2
+- xboxone
 ---
 
 ![src=]()

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Intermission #8&ndash;What&rsquo;s gone wrong?'
+title: 'Intermission #8 - What has gone wrong?'
 date: '2012-06-29 11:13:06'
 tags:
 - 2d

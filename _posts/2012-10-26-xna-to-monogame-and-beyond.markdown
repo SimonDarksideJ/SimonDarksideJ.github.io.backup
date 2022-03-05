@@ -3,10 +3,7 @@ layout: post
 title: XNA to MonoGame and beyond
 date: '2012-10-26 00:13:32'
 tags:
-- '68'
-- '72'
 - monogame
-- ramblings
 - tutorials-resources
 - windows-8
 - windows8-tutorials

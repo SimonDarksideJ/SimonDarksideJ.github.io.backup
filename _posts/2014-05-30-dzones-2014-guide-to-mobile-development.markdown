@@ -6,10 +6,8 @@ tags:
 - dzone
 - information
 - mobile
-- ramblings
 ---
 
-[ ![ /> </a><br />
 <a href=](http://dzone.com/sites/all/files/mobile-guide-cover_2.png)Get Your Free Guide Today](http://www.dzone.com/research/guide-to-mobile-development?utm_source=mvb&utm_medium=blog&utm_campaign=Simon_Jackson)
 
 # Get the Latest From DZone Research:

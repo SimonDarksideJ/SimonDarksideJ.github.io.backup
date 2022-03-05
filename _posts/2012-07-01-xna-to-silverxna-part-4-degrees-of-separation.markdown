@@ -3,7 +3,6 @@ layout: post
 title: XNA to SilverXNA-part 4 Degrees of Separation
 date: '2012-07-01 22:39:39'
 tags:
-- ramblings
 - silverlight
 - silverxna
 - silverxna-tutorials

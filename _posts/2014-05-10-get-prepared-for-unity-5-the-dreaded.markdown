@@ -3,9 +3,7 @@ layout: post
 title: Architecting Unity3D - Accessing Components on MonoBehaviour
 date: '2014-05-10 16:16:45'
 tags:
-- '72'
 - information
-- ramblings
 - unity-3d-tutorials
 - unity3d
 ---

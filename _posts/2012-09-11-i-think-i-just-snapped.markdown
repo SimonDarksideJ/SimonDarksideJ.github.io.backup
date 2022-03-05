@@ -3,7 +3,6 @@ layout: post
 title: I think I just snapped
 date: '2012-09-11 09:32:07'
 tags:
-- ramblings
 - tutorials-resources
 - windows-8
 - windows8-tutorials

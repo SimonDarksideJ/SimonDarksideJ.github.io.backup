@@ -1,9 +1,8 @@
 ---
 layout: post
-title: XNA to SilverXNA&ndash;Part 2 Getting our XNA project running in Silverlight
+title: XNA to SilverXNA - Part 2 Getting our XNA project running in Silverlight
 date: '2012-07-01 21:18:55'
 tags:
-- ramblings
 - silverlight
 - silverxna
 - silverxna-tutorials

@@ -3,11 +3,8 @@ layout: post
 title: MonoGame goes Portable
 date: '2013-02-16 00:24:39'
 tags:
-- '68'
-- '72'
 - monogame
 - portable-class-libraries
-- ramblings
 - tutorials-resources
 - x-platform
 - xna

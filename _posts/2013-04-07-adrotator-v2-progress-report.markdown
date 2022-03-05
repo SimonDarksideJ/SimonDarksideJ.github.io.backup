@@ -3,10 +3,8 @@ layout: post
 title: AdRotator V2 progress report
 date: '2013-04-07 13:22:32'
 tags:
-- '39'
 - adrotator
 - adrotator-v2
-- ramblings
 ---
 
 Quite a few people have asked me of the last few weeks about what is happening with the AdRotator project, is it dead, are we on a permanent holiday (Vacation for our American chums) or did we just get board with the whole thing as we have been fairly quiet of late.

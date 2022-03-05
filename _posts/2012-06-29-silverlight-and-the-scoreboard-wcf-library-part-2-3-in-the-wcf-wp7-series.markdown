@@ -4,7 +4,6 @@ title: Silverlight and the Scoreboard WCF library (part 2 / 3 in the WCF WP7 ser
 date: '2012-06-29 21:22:26'
 tags:
 - networking
-- ramblings
 - tutorials-resources
 - wcf
 - windows-phone

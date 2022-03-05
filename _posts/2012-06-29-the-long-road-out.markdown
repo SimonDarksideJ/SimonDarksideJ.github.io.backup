@@ -4,7 +4,6 @@ title: The long road out
 date: '2012-06-29 21:34:52'
 tags:
 - lob
-- ramblings
 - real-world-experiences
 ---
 

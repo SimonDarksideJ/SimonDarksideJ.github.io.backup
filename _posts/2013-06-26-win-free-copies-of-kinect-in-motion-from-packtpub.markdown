@@ -6,7 +6,6 @@ tags:
 - competition
 - kinect
 - packtpub
-- ramblings
 ---
 
 Readers would be pleased to know that I have teamed up with Packt Publishing to organize a Giveaway of a new book

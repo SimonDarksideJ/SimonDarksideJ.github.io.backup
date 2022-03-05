@@ -1,15 +1,12 @@
 ---
 layout: post
-title: Learning Windows 8 Game Development &ndash; A Review
+title: Learning Windows 8 Game Development - A Review
 date: '2014-01-07 19:40:28'
 tags:
-- '41'
-- '72'
 - book-review
 - c
 - directx
 - game-development
-- ramblings
 - windows8-tutorials
 ---
 

@@ -3,12 +3,7 @@ layout: post
 title: Get a little extra help with Dream Build Play 2017
 date: '2017-08-22 16:11:41'
 tags:
-- '135'
-- '166'
-- '68'
-- '72'
 - dbp2017
-- ramblings
 - unity-3d-tutorials
 ---
 

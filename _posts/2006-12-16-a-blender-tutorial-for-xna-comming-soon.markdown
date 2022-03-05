@@ -3,7 +3,6 @@ layout: post
 title: A Blender tutorial for XNA - Comming Soon
 date: '2006-12-16 23:13:04'
 tags:
-- ramblings
 - tutorials-resources
 ---
 

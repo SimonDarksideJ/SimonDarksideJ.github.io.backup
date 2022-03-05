@@ -5,7 +5,6 @@ date: '2008-07-25 10:12:31'
 tags:
 - 3d
 - information
-- ramblings
 - tools
 ---
 

@@ -3,7 +3,6 @@ layout: post
 title: Storage Helper for Windows 8
 date: '2012-08-12 09:13:14'
 tags:
-- ramblings
 - storage
 - tutorials-resources
 - windows-8

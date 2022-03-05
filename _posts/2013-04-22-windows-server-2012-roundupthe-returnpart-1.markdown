@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Windows Server 2012 roundup&ndash;the return!&ndash;Part 1
+title: Windows Server 2012 roundup&ndash;the return! - Part 1
 date: '2013-04-22 11:49:59'
 tags:
 - information
-- ramblings
 - review
 - teched
 - windows-server

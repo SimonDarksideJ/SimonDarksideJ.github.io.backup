@@ -3,11 +3,9 @@ layout: post
 title: AdRotator V2 - Alpha 1 is out
 date: '2013-06-09 12:41:15'
 tags:
-- '39'
 - adrotator
 - alpha
 - information
-- ramblings
 - release
 ---
 

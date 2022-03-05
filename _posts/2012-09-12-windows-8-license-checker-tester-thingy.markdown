@@ -3,8 +3,6 @@ layout: post
 title: Windows 8 License Checker / tester / thingy
 date: '2012-09-12 14:43:52'
 tags:
-- '72'
-- ramblings
 - tutorials-resources
 - windows-8
 - winrt

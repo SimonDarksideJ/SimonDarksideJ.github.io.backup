@@ -3,7 +3,6 @@ layout: post
 title: Another Busy day
 date: '2007-02-27 14:56:52'
 tags:
-- ramblings
 - tutorials-resources
 ---
 

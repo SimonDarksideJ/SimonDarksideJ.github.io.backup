@@ -3,7 +3,6 @@ layout: post
 title: Ziggyware
 date: '2006-10-04 13:28:58'
 tags:
-- ramblings
 - tutorials-resources
 ---
 

@@ -3,7 +3,6 @@ layout: post
 title: Collision detection - A little more info
 date: '2007-01-29 12:13:34'
 tags:
-- ramblings
 - tutorials-resources
 ---
 

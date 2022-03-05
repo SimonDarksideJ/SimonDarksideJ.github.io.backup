@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 'Intermission #2 &ndash; Spritesheets (and Clean-up)'
+title: 'Intermission #2 - Spritesheets (and Clean-up)'
 date: '2012-06-29 10:21:54'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

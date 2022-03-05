@@ -3,7 +3,6 @@ layout: post
 title: Adventures in Unhandled Exception Handling for XNA/Silverlight
 date: '2012-07-02 13:57:27'
 tags:
-- ramblings
 - silverlight
 - silverxna
 - tutorials-resources

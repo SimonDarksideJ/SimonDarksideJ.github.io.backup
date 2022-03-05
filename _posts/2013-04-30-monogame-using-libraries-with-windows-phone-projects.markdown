@@ -3,10 +3,7 @@ layout: post
 title: 'MonoGame: Using libraries with Windows Phone projects'
 date: '2013-04-30 13:17:06'
 tags:
-- '68'
-- '72'
 - monogame
-- ramblings
 - tutorials-resources
 - windows-phone
 ---

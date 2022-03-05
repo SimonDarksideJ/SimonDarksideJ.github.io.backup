@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Session 1 continued &ndash; Game Development Introductions
+title: Session 1 continued - Game Development Introductions
 date: '2012-06-29 09:09:07'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

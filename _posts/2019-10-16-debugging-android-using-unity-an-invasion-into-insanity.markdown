@@ -3,12 +3,9 @@ layout: post
 title: Debugging Android using Unity (an invasion into insanity)
 date: '2019-10-16 18:14:43'
 tags:
-- '72'
 - android
-- codeproject-2
-- ramblings
+- codeproject
 - tutorials-resources
-- unity-3d-tutorials
 - unity3d
 - xrtk
 ---

@@ -7,8 +7,6 @@ tags:
 - xna-related
 ---
 
- 
-
 ## XNA Games Studio Express.
 
 Just sounds great when saying it and looks like it should be a great hit, reducing the time and effort required to build multi-platform titles (albeit Microsoft software only) and gives the community a low-cost option of getting their work seen by the outside world.

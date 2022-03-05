@@ -5,7 +5,6 @@ date: '2012-07-02 14:02:58'
 tags:
 - async
 - mvvm
-- ramblings
 - tutorials-resources
 - windows-8
 - windows8-tutorials

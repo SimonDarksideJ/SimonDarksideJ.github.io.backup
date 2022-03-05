@@ -1,17 +1,14 @@
 ---
 layout: post
-title: Would you like Ads with that!&ndash;Intro to AdRotator for WP7
+title: Would you like Ads with that! - Intro to AdRotator for WP7
 date: '2012-07-02 13:16:37'
 tags:
 - adrotator
 - mobile-advertising
-- ramblings
 - silverlight
 - silverxna
 - tutorials-resources
 ---
-
- 
 
 One of those things we always strive for when we write games and apps for a platform is the hope of some recognition for our efforts or failing that a huge pile of cash to admire from our yacht parked in some temperate climate ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile10.png)
 

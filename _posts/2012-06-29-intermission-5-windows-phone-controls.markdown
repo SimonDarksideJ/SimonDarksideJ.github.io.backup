@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 'Intermission #5 &ndash; Windows Phone controls'
+title: 'Intermission #5 - Windows Phone controls'
 date: '2012-06-29 10:46:15'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

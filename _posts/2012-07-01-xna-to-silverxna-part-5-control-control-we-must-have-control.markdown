@@ -3,7 +3,6 @@ layout: post
 title: XNA to SilverXNA-part 5 Control, Control, we must have control
 date: '2012-07-01 22:54:48'
 tags:
-- ramblings
 - silverlight
 - silverxna
 - silverxna-tutorials

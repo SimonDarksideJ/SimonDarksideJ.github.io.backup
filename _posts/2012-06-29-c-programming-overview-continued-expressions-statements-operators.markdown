@@ -1,11 +1,10 @@
 ---
 layout: post
-title: C# Programming Overview continued - Expressions, Statements &amp; Operators
+title: C# Programming Overview continued - Expressions, Statements & Operators
 date: '2012-06-29 09:18:03'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

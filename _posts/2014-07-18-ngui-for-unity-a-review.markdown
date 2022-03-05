@@ -1,12 +1,10 @@
 ---
 layout: post
-title: NGUI for Unity &ndash; A Review
+title: NGUI for Unity - A Review
 date: '2014-07-18 13:43:20'
 tags:
-- '41'
 - book-review
 - packtpub
-- ramblings
 - unity-3d-tutorials
 - unity3d
 ---

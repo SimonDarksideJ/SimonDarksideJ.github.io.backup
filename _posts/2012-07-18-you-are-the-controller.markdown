@@ -4,7 +4,6 @@ title: You are the controller – a step in to WP7 -> Win8 networking
 date: '2012-07-18 15:36:59'
 tags:
 - networking
-- ramblings
 - samples
 - tutorials-resources
 - windows-8
@@ -46,15 +45,24 @@ Before I forget and if you run into issues with the code REMEMBER, UDP networkin
 <p>In short this just wrapped up all the necessary work for getting a “UdpAnySourceMulticastClient” going and functions to send and receive messages all nicely wrapped in a single class (well almost). I’m not going to post that here as you can find it in the sample.</p>
 <p>Its use is oh so simple with that in place.</p>
 <p>First set it up and hook up the necessary events:</p>
-<pre class=](/Images/wordpress/2012/07/071812_1536_Youaretheco33.png ">
-private void CreateChannel()
-{
- this.Channel = new UdpAnySourceMulticastChannel(GroupAddress, GroupPort);
-
-this.RegisterEvents();
-
-this.Channel.Open();
-}
+<pre class=](/Images/wordpress/2012/07/071812_1536_Youaretheco33.png ">
+
+private void CreateChannel()
+
+{
+
+ this.Channel = new UdpAnySourceMulticastChannel(GroupAddress, GroupPort);
+
+
+
+this.RegisterEvents();
+
+
+
+this.Channel.Open();
+
+}
+
 </pre>
 <p>Then sending a message becomes as easy as:</p>
 <pre class=")http://bit.ly/MIJbzH ( create a listener socket and start it up / create a server socket and send messages all using a DataWriter and DataReader to handle the stream data) – see the sample for more info

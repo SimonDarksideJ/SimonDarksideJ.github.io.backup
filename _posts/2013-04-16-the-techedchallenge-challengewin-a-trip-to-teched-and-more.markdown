@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 'The #TechEdChallenge challenge&ndash;win a trip to TechEd and More'
+title: 'The #TechEdChallenge challenge - win a trip to TechEd and More'
 date: '2013-04-16 14:00:02'
 tags:
 - azure
 - information
-- ramblings
 - system-center
 - teched
 - windows-server

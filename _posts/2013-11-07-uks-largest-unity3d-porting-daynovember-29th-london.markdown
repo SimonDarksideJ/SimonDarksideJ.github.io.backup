@@ -1,13 +1,11 @@
 ---
 layout: post
-title: UK&rsquo;s largest Unity3D porting day&ndash;November 29th London
+title: UK's largest Unity3D porting day - November 29th London
 date: '2013-11-07 15:24:29'
 tags:
-- events-2
 - events
 - microsoft
 - nokia
-- ramblings
 - unity3d
 - windows-8
 - windows-phone

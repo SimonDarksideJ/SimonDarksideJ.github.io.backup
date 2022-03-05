@@ -3,12 +3,9 @@ layout: post
 title: Mastering Unity 2D 2nd Edition and competition results!
 date: '2014-10-17 13:59:03'
 tags:
-- '146'
-- competition
 - competitions
 - mastering-unity-2d
 - packtpub
-- ramblings
 - unity3d
 ---
 

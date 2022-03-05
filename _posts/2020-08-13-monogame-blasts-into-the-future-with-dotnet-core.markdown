@@ -5,7 +5,6 @@ date: '2020-08-13 21:31:15'
 tags:
 - game-development
 - monogame
-- ramblings
 ---
 
 MonoGame is certainly one of those frameworks where if you take your eye off it for a little while, it comes back to slap you in the face and remind you why it is still relevant.  

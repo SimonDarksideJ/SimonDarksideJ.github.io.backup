@@ -3,11 +3,9 @@ layout: post
 title: Lotaris–a new way to get paid
 date: '2013-05-27 09:53:10'
 tags:
-- '72'
 - information
 - lotaris
 - monitisation
-- ramblings
 - tutorials-resources
 ---
 

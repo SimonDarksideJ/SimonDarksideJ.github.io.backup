@@ -3,12 +3,9 @@ layout: post
 title: MonoGame 3.2 NuGet packages are GO!
 date: '2014-04-13 10:05:52'
 tags:
-- '68'
-- '72'
 - information
 - monogame
 - nuget
-- ramblings
 ---
 
 [![image](/Images/wordpress/2014/04/image_thumb.png "image")](/Images/wordpress/2014/04/image.png)  [![image](/Images/wordpress/2014/04/image_thumb1.png "image")](/Images/wordpress/2014/04/image1.png)     [![image](/Images/wordpress/2014/04/image_thumb2.png "image")](/Images/wordpress/2014/04/image2.png)

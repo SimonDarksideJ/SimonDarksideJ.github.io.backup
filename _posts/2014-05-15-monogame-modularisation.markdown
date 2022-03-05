@@ -3,11 +3,8 @@ layout: post
 title: MonoGame Modularisation
 date: '2014-05-15 09:27:54'
 tags:
-- '68'
-- '72'
 - monogame
 - networking
-- ramblings
 - xna-related
 ---
 

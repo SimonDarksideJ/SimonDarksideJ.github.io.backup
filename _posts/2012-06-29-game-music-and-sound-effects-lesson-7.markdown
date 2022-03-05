@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Game Music and Sound Effects &ndash; Lesson 7
+title: Game Music and Sound Effects - Lesson 7
 date: '2012-06-29 11:25:57'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

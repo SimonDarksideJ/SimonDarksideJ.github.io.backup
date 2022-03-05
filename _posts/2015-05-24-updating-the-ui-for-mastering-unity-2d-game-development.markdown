@@ -3,11 +3,7 @@ layout: post
 title: Updating the UI for Mastering Unity 2D Game Development
 date: '2015-05-24 14:41:06'
 tags:
-- '146'
-- '156'
 - mastering-unity-2d
-- ramblings
-- tutorial
 - tutorials-resources
 - unity-3d-ui-essentials
 ---

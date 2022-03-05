@@ -3,8 +3,6 @@ layout: post
 title: The Unity UI Extensions update
 date: '2015-09-01 15:37:12'
 tags:
-- '156'
-- ramblings
 - tutorials-resources
 - uiextensions
 - unity-3d-tutorials

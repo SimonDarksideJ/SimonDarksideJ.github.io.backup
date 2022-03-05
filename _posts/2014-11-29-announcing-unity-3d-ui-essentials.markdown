@@ -3,9 +3,7 @@ layout: post
 title: Announcing Unity 3D UI Essentials
 date: '2014-11-29 11:23:18'
 tags:
-- '156'
 - information
-- ramblings
 - unity-3d-ui-essentials
 - unity3d
 ---

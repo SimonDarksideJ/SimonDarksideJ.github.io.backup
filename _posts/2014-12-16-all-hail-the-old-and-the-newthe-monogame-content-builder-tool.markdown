@@ -1,14 +1,11 @@
 ---
 layout: post
-title: All hail the old and the new&ndash;The MonoGame content builder tool
+title: All hail the old and the new - The MonoGame content builder tool
 date: '2014-12-16 18:09:30'
 tags:
-- '68'
-- '72'
 - game-development
 - information
 - monogame
-- ramblings
 - xna
 ---
 

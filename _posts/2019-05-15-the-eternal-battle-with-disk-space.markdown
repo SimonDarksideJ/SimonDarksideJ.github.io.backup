@@ -3,11 +3,7 @@ layout: post
 title: The eternal battle with disk space
 date: '2019-05-15 13:42:31'
 tags:
-- '166'
-- '72'
-- codeproject-2
-- disk-space
-- ramblings
+- codeproject
 - tips-and-tricks
 - tutorials-resources
 - with-audio

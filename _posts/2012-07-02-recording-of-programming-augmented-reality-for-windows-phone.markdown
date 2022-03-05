@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Recording of &ldquo;Programming Augmented Reality for Windows Phone&rdquo;
+title: Recording of 'Programming Augmented Reality for Windows Phone'
 date: '2012-07-02 14:06:34'
 tags:
 - augmented-reality
-- ramblings
 - silverlight
 - silverxna
 - tutorials-resources

@@ -1,12 +1,11 @@
 ---
 layout: post
-title: PacktPub&ndash;You Buy One, You Get One FREE - Until 26th March
+title: PacktPub - You Buy One, You Get One FREE - Until 26th March
 date: '2014-03-20 15:10:25'
 tags:
 - book-offers
 - information
 - packtpub
-- ramblings
 ---
 
 [![2000th-Book-Home-Page-Banner](/Images/wordpress/2014/03/2000th-Book-Home-Page-Banner.png "2000th-Book-Home-Page-Banner")](http://www.packtpub.com/?utm_source=referral&utm_medium=marketingPR&utm_campaign=2000thTitle)

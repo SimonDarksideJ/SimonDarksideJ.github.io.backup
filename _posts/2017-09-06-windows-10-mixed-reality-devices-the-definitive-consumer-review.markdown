@@ -3,12 +3,7 @@ layout: post
 title: Windows 10 Mixed Reality Devices - The definitive consumer review
 date: '2017-09-06 14:53:07'
 tags:
-- '135'
-- '166'
-- '201'
-- '72'
 - mixed-reality
-- ramblings
 - showcase
 ---
 

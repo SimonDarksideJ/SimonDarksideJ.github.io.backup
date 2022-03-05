@@ -3,11 +3,9 @@ layout: post
 title: OneDrive is my saviour
 date: '2014-03-02 13:21:00'
 tags:
-- '72'
 - backup
 - information
 - onedrive
-- ramblings
 - unity-3d-tutorials
 - unity3d
 ---

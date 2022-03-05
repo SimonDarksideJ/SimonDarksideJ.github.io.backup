@@ -3,19 +3,15 @@ layout: post
 title: Injecting intelligence - Building apps using Microsoft Cognitive Services
 date: '2016-07-03 18:03:27'
 tags:
-- '185'
-- '72'
 - cognitive-services
-- events-2
+- events
 - hack
 - machine-learning
-- moov2
-- ramblings
 - showcase
 - tutorials-resources
 ---
 
-[![image](/Images/wordpress/2016/07/image_thumb.png "image")](/Images/wordpress/2016/07/image.png)
+![image](/Images/wordpress/2016/07/image.png)
 
 Technology it seems is moving ever faster and faster, especially in the world of Artificial Intelligence and Machine Learning.  Barriers to entry are breaking down and huge cloud offerings from all the major suppliers are popping up left right and center.  We see these on our devices (Siri, Cortana, Google Now), in our browsers yet to date, it is being used mainly for one thing it seems, Ads (joy).
 

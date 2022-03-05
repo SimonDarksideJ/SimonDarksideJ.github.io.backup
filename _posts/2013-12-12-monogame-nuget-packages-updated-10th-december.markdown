@@ -3,15 +3,11 @@ layout: post
 title: MonoGame NuGet packages updated 10th December
 date: '2013-12-12 16:03:46'
 tags:
-- '68'
 - information
 - monogame
 - nuget
 - portable-class-libraries
-- ramblings
 ---
-
-![src=]()
 
 After a flurry of activity the MonoGame NuGet packages have been updated.
 

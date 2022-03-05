@@ -3,12 +3,8 @@ layout: post
 title: Getting started with MonoGame using XML
 date: '2017-05-31 19:24:35'
 tags:
-- '191'
-- '68'
-- '72'
 - content-pipeline
 - monogame
-- ramblings
 - tutorials-resources
 - xml
 - xna-related

@@ -3,7 +3,6 @@ layout: post
 title: How to market yourself with your windows 8 app quickly
 date: '2012-09-12 11:03:47'
 tags:
-- ramblings
 - tutorials-resources
 - windows-8
 - windows8-tutorials

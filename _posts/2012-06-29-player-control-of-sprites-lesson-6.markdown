@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Player Control of Sprites &ndash; Lesson 6
+title: Player Control of Sprites - Lesson 6
 date: '2012-06-29 10:39:55'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

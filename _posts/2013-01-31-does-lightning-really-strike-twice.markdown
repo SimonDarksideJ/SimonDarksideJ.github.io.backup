@@ -3,11 +3,8 @@ layout: post
 title: Does lightning really strike twice?
 date: '2013-01-31 22:15:56'
 tags:
-- '68'
-- '72'
 - lightning
 - monogame
-- ramblings
 - tutorials-resources
 - xna
 - xna-related

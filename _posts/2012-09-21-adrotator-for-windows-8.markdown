@@ -3,9 +3,7 @@ layout: post
 title: AdRotator for Windows 8
 date: '2012-09-21 20:47:59'
 tags:
-- '72'
 - adrotator
-- ramblings
 - tutorials-resources
 - windows-8
 ---

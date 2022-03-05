@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Hold on I forgot to mention&hellip;
+title: Hold on I forgot to mention!
 date: '2012-10-08 13:00:35'
 tags:
-- '72'
 - adrotator
 - ramblings
 - tutorials-resources

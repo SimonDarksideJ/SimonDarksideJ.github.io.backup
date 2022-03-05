@@ -1,9 +1,8 @@
 ---
 layout: post
-title: UKTechdays Online&ndash;Follow up
+title: UKTechdays Online - Follow up
 date: '2012-06-30 23:31:34'
 tags:
-- ramblings
 - techdays
 - tutorials-resources
 - windows-phone

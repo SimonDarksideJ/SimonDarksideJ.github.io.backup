@@ -4,7 +4,6 @@ title: The long road back
 date: '2012-06-29 21:44:13'
 tags:
 - game-development
-- ramblings
 - real-world-experiences
 - tutorials-resources
 - windows-phone

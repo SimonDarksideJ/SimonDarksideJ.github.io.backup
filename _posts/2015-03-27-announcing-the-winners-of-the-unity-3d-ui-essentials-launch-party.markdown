@@ -3,9 +3,7 @@ layout: post
 title: Announcing the winners of the Unity 3D UI Essentials launch party
 date: '2015-03-27 14:24:57'
 tags:
-- '156'
 - information
-- ramblings
 - unity-3d-ui-essentials
 ---
 

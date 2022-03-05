@@ -3,18 +3,14 @@ layout: post
 title: Choosing the right Data Provider
 date: '2013-07-20 15:28:40'
 tags:
-- '72'
 - azure
 - buddy
 - information
 - parse
-- ramblings
 - telerik
 - tutorials-resources
 - wams
 ---
-
-![src=]()
 
 In the progress of my last few “@Dvlup challenges I had to employ a backend data provider to both store and sync data from my client applications as part of the requirements for those challenges.  This gave me the opportunity to properly evaluate what the options were and who was offering the best services for my requirements.
 

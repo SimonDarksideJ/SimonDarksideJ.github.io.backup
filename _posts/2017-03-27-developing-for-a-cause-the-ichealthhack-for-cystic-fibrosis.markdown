@@ -3,14 +3,11 @@ layout: post
 title: Developing for a cause&ndash;The ICHealthHack for Cystic Fibrosis
 date: '2017-03-27 13:55:14'
 tags:
-- '68'
-- '72'
 - call-to-action
 - cystic-fibrosis
-- events-2
+- events
 - fizzyo
 - monogame
-- ramblings
 - unity-3d-tutorials
 - unity3d
 ---

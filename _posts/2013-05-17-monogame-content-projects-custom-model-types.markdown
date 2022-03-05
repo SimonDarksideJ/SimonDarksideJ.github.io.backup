@@ -1,13 +1,10 @@
 ---
 layout: post
-title: 'MonoGame: Content Projects &amp; Custom Model Types'
+title: 'MonoGame: Content Projects - Custom Model Types'
 date: '2013-05-17 15:36:02'
 tags:
-- '68'
-- '72'
 - content-projects
 - monogame
-- ramblings
 - tutorials-resources
 - xna
 - xna-2d-tutorials

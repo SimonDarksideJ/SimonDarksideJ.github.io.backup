@@ -3,12 +3,8 @@ layout: post
 title: The Uber Unity 3D UI Essentials Launch
 date: '2015-02-02 16:56:17'
 tags:
-- '146'
-- '156'
-- competition
 - competitions
 - mastering-unity-2d
-- ramblings
 - unity-3d-ui-essentials
 - unity3d
 ---

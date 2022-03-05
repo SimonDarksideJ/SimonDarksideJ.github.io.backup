@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 'Intermission #10&ndash;(Part 2) lets tax the brain'
+title: 'Intermission #10 - (Part 2) lets tax the brain'
 date: '2012-06-29 11:22:49'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

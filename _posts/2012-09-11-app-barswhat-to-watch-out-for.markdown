@@ -1,9 +1,8 @@
 ---
 layout: post
-title: App Bars&ndash;What to watch out for
+title: App Bars - What to watch out for
 date: '2012-09-11 10:39:56'
 tags:
-- ramblings
 - tutorials-resources
 - windows-8
 - windows8-tutorials

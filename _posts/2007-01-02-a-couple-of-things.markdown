@@ -3,7 +3,6 @@ layout: post
 title: A Couple of things!
 date: '2007-01-02 10:55:08'
 tags:
-- ramblings
 - tutorials-resources
 ---
 

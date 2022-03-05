@@ -1,16 +1,13 @@
 ---
 layout: post
-title: Augmented Reality with Kinect &ndash; A Review
+title: Augmented Reality with Kinect - A Review
 date: '2013-09-16 14:07:06'
 tags:
-- '41'
-- '72'
 - book-review
 - c
 - game-development
 - kinect
 - packtpub
-- ramblings
 ---
 
 Book review season is back again, this time with a title that opens up your eyes to Microsoft’s wondrous sensor, the Kinect.

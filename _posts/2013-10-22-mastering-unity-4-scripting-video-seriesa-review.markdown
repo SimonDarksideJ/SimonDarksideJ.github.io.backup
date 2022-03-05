@@ -1,13 +1,10 @@
 ---
 layout: post
-title: Mastering Unity 4 Scripting (video series)&ndash;A Review
+title: Mastering Unity 4 Scripting (video series) - A Review
 date: '2013-10-22 21:15:28'
 tags:
-- '41'
-- '72'
 - book-review
 - packtpub
-- ramblings
 - unity-3d-tutorials
 - unity3d
 ---

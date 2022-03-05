@@ -4,7 +4,6 @@ title: CC Notice - New Extra Credit Samples for Phone
 date: '2012-06-29 21:17:09'
 tags:
 - information
-- ramblings
 - samples
 ---
 

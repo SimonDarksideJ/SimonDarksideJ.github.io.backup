@@ -3,7 +3,6 @@ layout: post
 title: Configuring Unity3D to use the new lightweight Visual Studio Code editor
 date: '2015-04-30 17:30:14'
 tags:
-- ramblings
 - unity-3d-tutorials
 - unity3d
 - visual-studio-code

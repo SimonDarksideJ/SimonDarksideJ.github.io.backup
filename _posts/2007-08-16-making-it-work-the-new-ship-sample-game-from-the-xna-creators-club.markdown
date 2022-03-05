@@ -3,7 +3,6 @@ layout: post
 title: Making it work - The new SHIP sample game from the XNA creators club
 date: '2007-08-16 13:34:20'
 tags:
-- ramblings
 - tutorials-resources
 ---
 

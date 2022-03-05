@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 'Intermission #6 &ndash; More meat on the bone'
+title: 'Intermission #6 - More meat on the bone'
 date: '2012-06-29 10:47:16'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

@@ -3,10 +3,7 @@ layout: post
 title: MonoGame Content Project tool walkthrough
 date: '2016-08-29 11:30:34'
 tags:
-- '68'
-- '72'
 - monogame
-- ramblings
 - tutorials-resources
 - xna
 ---

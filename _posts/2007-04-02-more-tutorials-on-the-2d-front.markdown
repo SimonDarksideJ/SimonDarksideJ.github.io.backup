@@ -3,7 +3,6 @@ layout: post
 title: More tutorials on the 2D front
 date: '2007-04-02 15:18:41'
 tags:
-- ramblings
 - xna-2d-tutorials
 ---
 

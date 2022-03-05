@@ -1,14 +1,12 @@
 ---
 layout: post
-title: Packt&rsquo;s $5 eBonanza returns
+title: Packt's $5 eBonanza returns
 date: '2014-12-29 12:53:38'
 tags:
-- '146'
 - information
 - mastering-unity-2d
 - offers
 - packtpub
-- ramblings
 ---
 
 [![image](/Images/wordpress/2014/12/image6.png "image")](http://bit.ly/1w1Vkps)

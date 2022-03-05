@@ -3,10 +3,8 @@ layout: post
 title: Resolving build issues for UWP packages with Unity
 date: '2017-08-31 10:47:44'
 tags:
-- '72'
 - dbp2017
 - information
-- ramblings
 - unity-3d-tutorials
 - unity3d
 ---

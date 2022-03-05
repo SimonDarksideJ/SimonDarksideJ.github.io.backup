@@ -4,7 +4,6 @@ title: 'Game Web Cast Project: Game Components'
 date: '2012-06-29 09:26:00'
 tags:
 - 2d
-- ramblings
 - windows-phone
 - xna
 - xna-2d-tutorials

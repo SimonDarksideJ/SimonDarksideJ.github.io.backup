@@ -3,15 +3,11 @@ layout: post
 title: Parse the salt please
 date: '2013-07-21 13:39:33'
 tags:
-- '72'
 - facebook
 - information
 - parse
-- ramblings
 - tutorials-resources
 ---
-
-![src=]()
 
 After playing a lot with Parse over the last few weeks I thought I would share some of my findings.
 

@@ -3,7 +3,6 @@ layout: post
 title: The Starter2D and Starter3D tutorials now on the Marketplace
 date: '2012-07-02 12:39:56'
 tags:
-- ramblings
 - samples
 - tutorials-resources
 ---

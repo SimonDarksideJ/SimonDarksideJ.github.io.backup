@@ -3,13 +3,10 @@ layout: post
 title: Intel Perceptual computing and the Perceptual challenge
 date: '2013-08-17 17:10:55'
 tags:
-- '68'
 - competitions
 - intel
 - monogame
-- perceptual-computing-2
 - perceptual-computing
-- ramblings
 ---
 
 ![src=]()

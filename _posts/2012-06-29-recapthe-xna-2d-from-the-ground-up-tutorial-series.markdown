@@ -1,11 +1,10 @@
 ---
 layout: post
-title: ReCap&ndash;The XNA 2D &ldquo;from the ground up&rdquo; tutorial series
+title: ReCap - The XNA 2D 'from the ground up' tutorial series
 date: '2012-06-29 22:47:03'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

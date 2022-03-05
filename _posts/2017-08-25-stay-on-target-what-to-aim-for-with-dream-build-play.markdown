@@ -3,13 +3,9 @@ layout: post
 title: Stay on Target - What to aim for with Dream Build Play
 date: '2017-08-25 17:15:19'
 tags:
-- '135'
-- '166'
-- '68'
 - competition
 - dbp2017
-- events-2
-- ramblings
+- events
 - unity-3d-tutorials
 ---
 

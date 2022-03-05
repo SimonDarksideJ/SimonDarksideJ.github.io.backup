@@ -4,9 +4,7 @@ title: Converting DirectX .X files for use in games
 date: '2012-11-01 16:24:31'
 tags:
 - 3d
-- '72'
 - information
-- ramblings
 - unity-3d-tutorials
 - unity3d
 - xna

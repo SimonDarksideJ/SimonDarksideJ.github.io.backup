@@ -1,20 +1,14 @@
 ---
 layout: post
-title: MonoGame NuGet packages are go&hellip;
+title: MonoGame NuGet packages are go!
 date: '2013-10-16 13:48:57'
 tags:
-- '68'
 - monogame
 - nuget
-- ramblings
 - tutorials-resources
 ---
 
-![src=]()
-
 After a few last rash hours and feedback from the NuGet team themselves, I can finally announce that MonoGame finally has NuGet support 😀
-
-![src=]()
 
 > **\*Note**
 > 

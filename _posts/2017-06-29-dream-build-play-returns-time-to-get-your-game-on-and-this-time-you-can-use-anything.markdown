@@ -1,18 +1,14 @@
 ---
 layout: post
-title: Dream Build Play Returns&ndash;Time to get your Game on and this time you can
+title: Dream Build Play Returns - Time to get your Game on and this time you can
   use ANYTHING
 date: '2017-06-29 12:36:02'
 tags:
-- '135'
-- '166'
-- '72'
 - competition
 - directx
 - dream-build-play
-- events-2
+- events
 - monogame
-- ramblings
 - unity3d
 - unreal
 - uwp

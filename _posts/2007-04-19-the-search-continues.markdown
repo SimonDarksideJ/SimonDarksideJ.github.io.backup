@@ -4,7 +4,6 @@ title: The search continues
 date: '2007-04-19 17:39:30'
 tags:
 - information
-- ramblings
 ---
 
 Life goes on and yet more work doesn’t get done, seems to be my mottos these days, trying to find the time to do something continues.  Sure I work on little things, small cogs in the machine but not much to show for it.

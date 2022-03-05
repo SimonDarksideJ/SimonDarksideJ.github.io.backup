@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 'Intermission #7 &ndash; Resource pools and Particles'
+title: 'Intermission #7 - Resource pools and Particles'
 date: '2012-06-29 10:54:05'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

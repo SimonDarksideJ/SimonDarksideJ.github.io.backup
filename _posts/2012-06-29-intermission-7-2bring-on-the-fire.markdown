@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 'Intermission #7 / 2&ndash;Bring on the Fire'
+title: 'Intermission #7 / 2 - Bring on the Fire'
 date: '2012-06-29 11:01:40'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

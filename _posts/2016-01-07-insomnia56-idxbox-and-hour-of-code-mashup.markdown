@@ -3,15 +3,13 @@ layout: post
 title: Insomnia56, ID@Xbox and Hour of code mashup
 date: '2016-01-07 18:07:19'
 tags:
-- '135'
-- events-2
+- events
 - hour-of-code
 - idxbox
 - insomnia
-- ramblings
 ---
 
-![width=](http://bc-gb.com/wp-content/uploads/2015/09/i562-900x450.jpg)
+![](http://bc-gb.com/wp-content/uploads/2015/09/i562-900x450.jpg)
 
 It is gaming festival season again and they really do not come much bigger than Insomnia in the UK.
 

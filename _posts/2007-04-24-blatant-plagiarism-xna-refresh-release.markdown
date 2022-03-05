@@ -3,7 +3,6 @@ layout: post
 title: Blatant plagiarism - XNA Refresh release
 date: '2007-04-24 11:07:31'
 tags:
-- ramblings
 - xna-related
 ---
 

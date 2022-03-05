@@ -6,7 +6,6 @@ date: '2012-07-02 13:31:27'
 tags:
 - book-review
 - information
-- ramblings
 - xna
 ---
 

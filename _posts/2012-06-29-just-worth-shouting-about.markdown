@@ -4,7 +4,6 @@ title: Just worth shouting about!
 date: '2012-06-29 11:26:27'
 tags:
 - information
-- ramblings
 - samples
 ---
 

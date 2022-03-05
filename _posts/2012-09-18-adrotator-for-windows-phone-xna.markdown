@@ -3,9 +3,7 @@ layout: post
 title: AdRotator for Windows Phone XNA
 date: '2012-09-18 16:49:58'
 tags:
-- '72'
 - adrotator
-- ramblings
 - tutorials-resources
 - windows-phone
 - xna

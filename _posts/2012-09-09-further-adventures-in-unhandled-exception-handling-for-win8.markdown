@@ -3,7 +3,6 @@ layout: post
 title: Further Adventures in Unhandled Exception Handling for Win8
 date: '2012-09-09 22:46:07'
 tags:
-- ramblings
 - tutorials-resources
 - unhandled-exception
 - windows-8

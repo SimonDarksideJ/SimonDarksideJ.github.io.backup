@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 'Intermission #6/2&ndash; Analogue Controls'
+title: 'Intermission #6/2 - Analogue Controls'
 date: '2012-06-29 10:51:41'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

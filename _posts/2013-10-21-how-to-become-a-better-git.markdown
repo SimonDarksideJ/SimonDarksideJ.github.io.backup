@@ -3,10 +3,8 @@ layout: post
 title: How to become a better GIT Collaborator
 date: '2013-10-21 13:07:59'
 tags:
-- '72'
-- codeproject-2
+- codeproject
 - git
-- ramblings
 - tutorial
 - tutorials-resources
 ---

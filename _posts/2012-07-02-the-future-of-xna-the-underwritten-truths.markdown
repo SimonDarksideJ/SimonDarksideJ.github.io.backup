@@ -3,9 +3,7 @@ layout: post
 title: The future of XNA, the underwritten truths
 date: '2012-07-02 13:39:27'
 tags:
-- '72'
 - information
-- ramblings
 - xna
 ---
 

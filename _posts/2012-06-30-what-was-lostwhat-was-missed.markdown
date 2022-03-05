@@ -1,10 +1,9 @@
 ---
 layout: post
-title: What was lost&ndash;What was Missed
+title: What was lost - What was Missed
 date: '2012-06-30 23:49:53'
 tags:
 - information
-- ramblings
 - samples
 - silverlight
 - windows-phone
@@ -25,12 +24,9 @@ Not what i was expecting because there has been little announcement (either that
 
 In short here is the headlines (and by no means all of) the new content on the App Hub, which if you are making or thinking of making games for Windows Phone 7 you should absolutely take note of:
 
-| 
-
-[![ src=]()](http://create.msdn.com/education/catalog/article/PEGI_Express)
+![](http://create.msdn.com/education/catalog/article/PEGI_Express)
 
 ###### [PEGI Express Rating Tool Information](http://create.msdn.com/education/catalog/article/PEGI_Express)
- | 
 
 Area
 
@@ -40,25 +36,18 @@ Description
 
 pegi express is the name of a newly developed version of the pegi (pan european game information) rating sytem that allows games for windows phone to get an age rating.
 
- |
-| 
-
-[![ src=]()](http://create.msdn.com/education/catalog/article/which_product_for_windows_phone)
+![](http://create.msdn.com/education/catalog/article/which_product_for_windows_phone)
 
 ###### [XNA Game Studio or Silverlight: Which Product is Right for Me? (Updated for Mango)](http://create.msdn.com/education/catalog/article/which_product_for_windows_phone)
- | 
 
 Description
 
 this article will help developers make an informed decision when choosing between the two.
 
- |
-| 
 
-[![ src=]()](http://create.msdn.com/education/catalog/sample/silverlight_xna_game_components)
+![](http://create.msdn.com/education/catalog/sample/silverlight_xna_game_components)
 
 ###### [Silverlight XNA Game Components (Mango, C#/VB)](http://create.msdn.com/education/catalog/sample/silverlight_xna_game_components)
- | 
 
 Area
 
@@ -68,13 +57,9 @@ Description
 
 this sample provides an implementation and demonstration of a gamecomponent system for use in games leveraging silverlight and the xna framework.
 
- |
-| 
-
-[![ src=]()](http://create.msdn.com/education/catalog/sample/paddle_battle)
+![](http://create.msdn.com/education/catalog/sample/paddle_battle)
 
 ###### [Paddle Battle (Mango, C#/VB)](http://create.msdn.com/education/catalog/sample/paddle_battle)
- | 
 
 Area
 
@@ -84,13 +69,9 @@ Description
 
 this sample shows a very basic game written on top of the new silverlight/xna framework application model.
 
- |
-| 
-
-[![ src=]()](http://create.msdn.com/education/catalog/sample/model_viewer_demo)
+![](http://create.msdn.com/education/catalog/sample/model_viewer_demo)
 
 ###### [Model Viewer Demo (Mango)](http://create.msdn.com/education/catalog/sample/model_viewer_demo)
- | 
 
 Area
 
@@ -100,25 +81,19 @@ Description
 
 this sample showcases a complex application built on top of the integrated silverlight/xna framework application model.
 
- |
-| 
 
-[![ src=]()](http://create.msdn.com/education/catalog/article/migration_guide_moving_to_silverlight_xna)
+![](http://create.msdn.com/education/catalog/article/migration_guide_moving_to_silverlight_xna)
 
 ###### [Migration Guide: From the Game Class to Silverlight/XNA (Mango, C#/VB)](http://create.msdn.com/education/catalog/article/migration_guide_moving_to_silverlight_xna)
- | 
 
 Description
 
 this document explains why and how to move your windows phone game to an architecture that integrates silverlight with the xna framework.
 
- |
-| 
 
-[![ src=]()](http://create.msdn.com/education/catalog/sample/dynamic_menu)
+![](http://create.msdn.com/education/catalog/sample/dynamic_menu)
 
 ###### [Dynamic Menu](http://create.msdn.com/education/catalog/sample/dynamic_menu)
- | 
 
 Area
 
@@ -128,13 +103,10 @@ Description
 
 this sample demonstrates how to develop a dynamic user interface, which can be layed out in code or in xml, or a combination of both.
 
- |
-| 
 
-[![ src=]()](http://create.msdn.com/education/catalog/sample/bing_maps_pathfinding)
+![](http://create.msdn.com/education/catalog/sample/bing_maps_pathfinding)
 
 ###### [Bing Maps for Games with Pathfinding](http://create.msdn.com/education/catalog/sample/bing_maps_pathfinding)
- | 
 
 Area
 
@@ -144,13 +116,10 @@ Description
 
 this sample expands on the bing maps sample by using road data to allow a tank to travel to markers while driving on the roads.
 
- |
-| 
 
-[![ src=]()](http://create.msdn.com/education/catalog/sample/windows_phone_music_manager)
+![](http://create.msdn.com/education/catalog/sample/windows_phone_music_manager)
 
 ###### [Music Management for Windows Phone 7](http://create.msdn.com/education/catalog/sample/windows_phone_music_manager)
- | 
 
 Area
 
@@ -160,13 +129,10 @@ Description
 
 this sample implements and demonstrates the usage of backgroundmusicmanager, a class that helps your windows phone 7 game play music and reliably respond to external events that affect music playback.
 
- |
-| 
 
-[![ src=]()](http://create.msdn.com/education/catalog/starterkit/yacht)
+![](http://create.msdn.com/education/catalog/starterkit/yacht)
 
 ###### [Yacht](http://create.msdn.com/education/catalog/starterkit/yacht)
- | 
 
 Area
 
@@ -176,13 +142,10 @@ Description
 
 this is a complete wi-fi supported multiplayer dice game for windows phone.
 
- |
-| 
 
-[![ src=]()](http://create.msdn.com/education/catalog/sample/tilt_perspective)
+![](http://create.msdn.com/education/catalog/sample/tilt_perspective)
 
 ###### [Tilt Perspective](http://create.msdn.com/education/catalog/sample/tilt_perspective)
- | 
 
 Area
 
@@ -192,7 +155,6 @@ Description
 
 this sample uses the accelerometer to estimate the orientation of the phone’s screen relative to the user’s eyes, and renders a 3d scene corrected for that viewpoint in order to create an illusion of depth.
 
- |
 
 As you can see there is a lot of really cool new stuff and even more located on the AppHub educational content section, so i suggest you get yourself over there and check out this fantastic wealth of information.
 

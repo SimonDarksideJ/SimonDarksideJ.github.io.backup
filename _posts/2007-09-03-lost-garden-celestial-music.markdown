@@ -3,7 +3,6 @@ layout: post
 title: 'Lost Garden: Celestial Music'
 date: '2007-09-03 15:11:55'
 tags:
-- ramblings
 - tutorials-resources
 ---
 

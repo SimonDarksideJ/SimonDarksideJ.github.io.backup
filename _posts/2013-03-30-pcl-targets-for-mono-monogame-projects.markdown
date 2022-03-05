@@ -3,11 +3,8 @@ layout: post
 title: PCL targets for Mono / MonoGame projects
 date: '2013-03-30 21:48:09'
 tags:
-- '68'
-- '72'
 - mono
 - monogame
-- ramblings
 - tutorials-resources
 - visual-studio
 - xamarin-studio

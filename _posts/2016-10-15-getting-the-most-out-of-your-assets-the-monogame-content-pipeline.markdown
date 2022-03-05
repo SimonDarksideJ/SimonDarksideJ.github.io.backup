@@ -3,12 +3,8 @@ layout: post
 title: Getting the most out of your assets - The MonoGame Content Pipeline
 date: '2016-10-15 17:50:46'
 tags:
-- '191'
-- '68'
-- '72'
 - content-pipeline
 - monogame
-- ramblings
 - samples
 - tutorials-resources
 - xna

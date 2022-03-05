@@ -3,10 +3,7 @@ layout: post
 title: MonoGame - Building multi-platform solutions
 date: '2016-09-14 19:50:53'
 tags:
-- '68'
-- '72'
 - monogame
-- ramblings
 - tutorials-resources
 - xna
 - xna-related

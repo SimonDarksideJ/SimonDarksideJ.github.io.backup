@@ -3,11 +3,9 @@ layout: post
 title: XNA to the Sunburn Gaming Engine and Beyond
 date: '2013-01-04 15:00:00'
 tags:
-- '72'
-- codeproject-2
+- codeproject
 - futures
 - information
-- ramblings
 - sunburn
 - sunburn-tutorials
 - tutorials-resources

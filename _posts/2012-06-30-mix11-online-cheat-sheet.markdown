@@ -6,7 +6,6 @@ tags:
 - html5
 - information
 - mix11
-- ramblings
 - windows-phone
 - xna
 ---

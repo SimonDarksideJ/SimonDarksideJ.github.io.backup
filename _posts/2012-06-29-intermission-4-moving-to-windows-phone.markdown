@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 'Intermission #4 &ndash; Moving to Windows Phone'
+title: 'Intermission #4 - Moving to Windows Phone'
 date: '2012-06-29 10:31:55'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

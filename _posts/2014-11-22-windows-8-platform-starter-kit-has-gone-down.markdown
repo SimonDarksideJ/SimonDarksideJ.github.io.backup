@@ -5,7 +5,6 @@ date: '2014-11-22 10:35:31'
 tags:
 - assets
 - free
-- ramblings
 - tutorials-resources
 - win8platstarter
 ---

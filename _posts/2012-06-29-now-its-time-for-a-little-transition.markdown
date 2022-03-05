@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Now it&rsquo;s time for a little transition
+title: Now it is time for a little transition
 date: '2012-06-29 11:31:29'
 tags:
 - gsm
-- ramblings
 - tutorials-resources
 - xna
 ---

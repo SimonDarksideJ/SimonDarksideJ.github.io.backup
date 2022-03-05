@@ -5,7 +5,6 @@ date: '2012-06-29 11:17:56'
 tags:
 - errors
 - information
-- ramblings
 ---
 
 In [Aaron Stebner’s WebLog](fr:feed/146), a good blog has appeared to help show how to install the Local Help for the Windows Phone tools beta.

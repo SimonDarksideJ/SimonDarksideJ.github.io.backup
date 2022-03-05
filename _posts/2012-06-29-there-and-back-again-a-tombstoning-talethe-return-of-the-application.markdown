@@ -1,10 +1,9 @@
 ---
 layout: post
-title: There and Back again &ldquo;A Tombstoning tale&rdquo;&ndash;The return of the
+title: There and Back again  - 'A Tombstoning tale' The return of the
   application.
 date: '2012-06-29 21:49:37'
 tags:
-- ramblings
 - tutorials-resources
 - windows-phone
 ---

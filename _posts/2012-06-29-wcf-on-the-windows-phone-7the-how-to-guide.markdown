@@ -1,10 +1,9 @@
 ---
 layout: post
-title: WCF on the Windows Phone 7&ndash;The How to Guide
+title: WCF on the Windows Phone 7 - The How to Guide
 date: '2012-06-29 21:06:53'
 tags:
 - networking
-- ramblings
 - tutorials-resources
 - wcf
 - windows-phone

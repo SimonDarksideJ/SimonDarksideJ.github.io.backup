@@ -3,10 +3,8 @@ layout: post
 title: Be careful of those SPECIAL names in Unity
 date: '2016-02-02 20:06:24'
 tags:
-- '72'
-- codeproject-2
+- codeproject
 - information
-- ramblings
 - unity-3d-tutorials
 - unity3d
 ---

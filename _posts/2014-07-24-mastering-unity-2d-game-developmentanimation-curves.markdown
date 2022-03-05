@@ -1,12 +1,9 @@
 ---
 layout: post
-title: Mastering Unity 2D Game Development&ndash;Animation Curves
+title: Mastering Unity 2D Game Development - Animation Curves
 date: '2014-07-24 20:12:43'
 tags:
-- '146'
-- '72'
 - information
-- ramblings
 - unity-3d-tutorials
 ---
 

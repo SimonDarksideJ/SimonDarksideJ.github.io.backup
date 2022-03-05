@@ -3,8 +3,6 @@ layout: post
 title: XNA to UnityXNA and Beyond
 date: '2012-10-31 15:38:34'
 tags:
-- '72'
-- ramblings
 - unity-3d-tutorials
 - unity3d
 - xna

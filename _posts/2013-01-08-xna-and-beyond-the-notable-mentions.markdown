@@ -3,11 +3,9 @@ layout: post
 title: XNA and Beyond, the notable mentions
 date: '2013-01-08 16:24:51'
 tags:
-- '72'
 - frameworks
 - gearset
 - information
-- ramblings
 - sunburn
 - tide
 - tiled

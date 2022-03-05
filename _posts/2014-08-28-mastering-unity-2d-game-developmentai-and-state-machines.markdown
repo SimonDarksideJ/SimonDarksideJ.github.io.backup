@@ -1,13 +1,10 @@
 ---
 layout: post
-title: Mastering Unity 2D Game Development&ndash;AI and State machines
+title: Mastering Unity 2D Game Development - AI and State machines
 date: '2014-08-28 18:50:01'
 tags:
-- '146'
-- '72'
 - mastering-unity-2d
 - packtpub
-- ramblings
 - unity-3d-tutorials
 - unity3d
 - unitytips

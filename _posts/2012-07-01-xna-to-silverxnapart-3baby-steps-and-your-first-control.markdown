@@ -1,9 +1,8 @@
 ---
 layout: post
-title: XNA to SilverXNA&ndash;Part 3&ndash;Baby steps and your first control
+title: XNA to SilverXNA - Part 3 Baby steps and your first control
 date: '2012-07-01 21:24:22'
 tags:
-- ramblings
 - silverlight
 - silverxna
 - silverxna-tutorials

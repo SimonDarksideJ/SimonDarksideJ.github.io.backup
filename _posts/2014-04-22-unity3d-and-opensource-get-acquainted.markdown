@@ -3,10 +3,8 @@ layout: post
 title: Unity3D and Opensource get acquainted
 date: '2014-04-22 10:15:19'
 tags:
-- '72'
 - information
 - opensource
-- ramblings
 - unity-3d-tutorials
 - unity3d
 ---

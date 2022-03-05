@@ -4,7 +4,6 @@ title: SunBurn Past, Present and Future?
 date: '2012-07-02 13:47:28'
 tags:
 - information
-- ramblings
 - sunburn
 - sunburn-tutorials
 - xna

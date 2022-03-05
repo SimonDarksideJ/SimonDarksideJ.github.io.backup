@@ -1,14 +1,11 @@
 ---
 layout: post
-title: Unity Multiplayer Games &ndash; A Review
+title: Unity Multiplayer Games - A Review
 date: '2014-02-12 15:37:07'
 tags:
-- '41'
-- '72'
 - book-review
 - networking
 - packtpub
-- ramblings
 - unity3d
 ---
 

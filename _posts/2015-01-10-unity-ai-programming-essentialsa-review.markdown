@@ -3,12 +3,9 @@ layout: post
 title: Unity AI Programming Essentials&ndash;A Review
 date: '2015-01-10 18:31:46'
 tags:
-- '41'
-- '72'
 - ai
 - book-review
 - packtpub
-- ramblings
 - unity-3d-tutorials
 - unity3d
 ---

@@ -3,7 +3,6 @@ layout: post
 title: Looking on the Blender side of Life
 date: '2007-03-23 12:28:55'
 tags:
-- ramblings
 - tutorials-resources
 ---
 

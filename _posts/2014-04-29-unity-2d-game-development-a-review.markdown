@@ -1,13 +1,10 @@
 ---
 layout: post
-title: Unity 2D Game Development &ndash; A Review
+title: Unity 2D Game Development - A Review
 date: '2014-04-29 11:20:13'
 tags:
 - 2d
-- '41'
-- '72'
 - book-review
-- ramblings
 - unity-3d-tutorials
 - unity3d
 ---

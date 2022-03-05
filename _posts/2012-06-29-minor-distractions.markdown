@@ -6,7 +6,6 @@ tags:
 - 2d
 - game-development
 - physics
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

@@ -3,7 +3,6 @@ layout: post
 title: Getting your user group or meeting online
 date: '2020-03-18 00:25:00'
 tags:
-- ramblings
 - virtual-meetings
 - virtual-reality
 - vr

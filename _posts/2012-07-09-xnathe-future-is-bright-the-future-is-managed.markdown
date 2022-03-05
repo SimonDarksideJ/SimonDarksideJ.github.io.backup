@@ -1,11 +1,10 @@
 ---
 layout: post
-title: XNA&ndash;The future is bright, the future is Managed
+title: XNA - The future is bright, the future is Managed
 date: '2012-07-09 10:47:56'
 tags:
 - information
 - mono
-- ramblings
 - sunburn
 - unity3d
 - xna

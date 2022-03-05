@@ -5,7 +5,6 @@ date: '2012-07-02 13:23:14'
 tags:
 - adrotator
 - mobile-advertising
-- ramblings
 - tutorials-resources
 - xna
 ---

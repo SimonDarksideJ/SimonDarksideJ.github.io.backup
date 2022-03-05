@@ -3,12 +3,9 @@ layout: post
 title: Building your game for multiple platforms with UWP
 date: '2016-10-07 09:59:09'
 tags:
-- '68'
-- events-2
 - events
 - future-decoded
 - monogame
-- ramblings
 - unity-3d-tutorials
 - unity3d
 ---

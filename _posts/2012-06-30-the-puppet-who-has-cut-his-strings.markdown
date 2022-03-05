@@ -4,7 +4,6 @@ title: The puppet who has cut his strings
 date: '2012-06-30 23:35:27'
 tags:
 - notifications
-- ramblings
 - tutorials-resources
 - windows-phone
 ---

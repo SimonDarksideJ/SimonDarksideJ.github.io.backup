@@ -1,9 +1,8 @@
 ---
 layout: post
-title: These aren&rsquo;t the Droids you are looking for - A guide to obfuscation
+title: These are not the Droids you are looking for - A guide to obfuscation
 date: '2012-06-29 22:19:23'
 tags:
-- ramblings
 - tutorials-resources
 - windows-phone
 ---

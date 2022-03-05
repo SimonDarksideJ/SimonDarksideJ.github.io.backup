@@ -4,7 +4,6 @@ title: Can we get a little service here?
 date: '2012-06-29 21:15:21'
 tags:
 - networking
-- ramblings
 - tutorials-resources
 - wcf
 - windows-phone

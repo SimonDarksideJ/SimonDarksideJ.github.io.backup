@@ -1,13 +1,10 @@
 ---
 layout: post
-title: Getting Started with Unity &ndash; A Review
+title: Getting Started with Unity - A Review
 date: '2013-10-01 15:21:38'
 tags:
-- '41'
-- '72'
 - book-review
 - packtpub
-- ramblings
 - unity-3d-tutorials
 - unity3d
 ---

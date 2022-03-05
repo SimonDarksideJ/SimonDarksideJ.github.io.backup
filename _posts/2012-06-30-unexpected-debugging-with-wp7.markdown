@@ -5,7 +5,6 @@ date: '2012-06-30 23:46:38'
 tags:
 - blend
 - debugging
-- ramblings
 - tutorials-resources
 - windows-phone
 ---

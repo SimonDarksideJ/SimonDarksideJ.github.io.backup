@@ -3,11 +3,8 @@ layout: post
 title: MonoGame gets Shocked!
 date: '2013-02-04 13:57:31'
 tags:
-- '68'
-- '72'
 - lightning
 - monogame
-- ramblings
 - tutorials-resources
 - xna
 - xna-related

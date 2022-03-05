@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Intermission 9&ndash;Back to the future (Phone 7)
+title: 'Intermission #9 - Back to the future (Phone 7)'
 date: '2012-06-29 11:17:02'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

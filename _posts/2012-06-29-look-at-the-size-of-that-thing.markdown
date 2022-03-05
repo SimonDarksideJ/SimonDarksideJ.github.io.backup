@@ -3,7 +3,6 @@ layout: post
 title: Look at the size of that thing
 date: '2012-06-29 22:24:28'
 tags:
-- ramblings
 - real-world-experiences
 - tutorials-resources
 - windows-phone

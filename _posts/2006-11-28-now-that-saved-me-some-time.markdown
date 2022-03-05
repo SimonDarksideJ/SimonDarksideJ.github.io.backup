@@ -4,7 +4,6 @@ title: Now that saved me some time
 date: '2006-11-28 10:11:55'
 tags:
 - information
-- ramblings
 ---
 
 As some of you may know, I’m currently full into the [XBOX360Homebrew](http://xbox360homebrew.com/default) contest with my mini game Hack-1 (working title).

@@ -3,11 +3,9 @@ layout: post
 title: The gift that keeps on Giving - Packt Publishing donates sales to Charity
 date: '2015-02-17 17:49:10'
 tags:
-- '156'
 - information
 - packtpub
 - pwsa
-- ramblings
 - unity-3d-ui-essentials
 ---
 

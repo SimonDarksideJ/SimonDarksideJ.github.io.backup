@@ -4,7 +4,6 @@ title: Talking about Autodesk Launches Free Online Game Development Curriculum -
 date: '2010-03-23 15:52:53'
 tags:
 - information
-- ramblings
 ---
 
  ![src=]()

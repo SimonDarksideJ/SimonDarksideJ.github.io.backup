@@ -3,9 +3,7 @@ layout: post
 title: Debugging Unity 3D with VSCode
 date: '2016-01-22 21:53:39'
 tags:
-- '72'
-- codeproject-2
-- ramblings
+- codeproject
 - tutorials-resources
 - unity-3d-tutorials
 - unity3d

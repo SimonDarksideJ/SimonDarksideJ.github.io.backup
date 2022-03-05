@@ -3,7 +3,6 @@ layout: post
 title: 2 More updates - not mine again!
 date: '2007-02-01 10:33:53'
 tags:
-- ramblings
 - xna-related
 ---
 

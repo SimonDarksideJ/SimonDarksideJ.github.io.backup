@@ -4,7 +4,6 @@ title: XNA GSE V3 is out!!
 date: '2008-05-07 22:39:11'
 tags:
 - information
-- ramblings
 ---
 
 # I always promised I wouldn’t do this but here I am.

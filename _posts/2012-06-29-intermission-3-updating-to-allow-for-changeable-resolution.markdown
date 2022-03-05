@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 'Intermission #3 &ndash; updating to allow for changeable resolution'
+title: 'Intermission #3 - updating to allow for changeable resolution'
 date: '2012-06-29 10:29:36'
 tags:
 - 2d
 - game-development
-- ramblings
 - xna
 - xna-2d-tutorials
 ---

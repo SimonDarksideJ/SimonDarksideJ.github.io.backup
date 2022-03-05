@@ -4,7 +4,6 @@ title: Just where did I put that storyboard
 date: '2012-09-09 23:06:28'
 tags:
 - mvvm
-- ramblings
 - storyboards
 - tutorials-resources
 - windows-8

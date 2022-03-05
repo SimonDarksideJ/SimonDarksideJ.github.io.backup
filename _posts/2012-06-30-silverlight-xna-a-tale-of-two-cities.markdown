@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Silverlight &amp; XNA- A tale of two cities
+title: Silverlight & XNA- A tale of two cities
 date: '2012-06-30 23:45:22'
 tags:
-- ramblings
 - silverlight
 - silverxna
 - silverxna-tutorials

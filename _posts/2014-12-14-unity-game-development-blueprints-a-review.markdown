@@ -3,11 +3,8 @@ layout: post
 title: Unity Game Development Blueprints &ndash; A Review
 date: '2014-12-14 16:28:22'
 tags:
-- '41'
-- '72'
 - game-development
 - packtpub
-- ramblings
 - unity3d
 ---
 

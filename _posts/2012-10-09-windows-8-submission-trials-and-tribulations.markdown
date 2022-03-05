@@ -3,9 +3,7 @@ layout: post
 title: Windows 8 submission trials and tribulations
 date: '2012-10-09 12:41:41'
 tags:
-- '72'
 - certification-issues
-- ramblings
 - windows-8
 - windows8-tutorials
 - winrt

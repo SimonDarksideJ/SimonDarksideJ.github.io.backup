@@ -3,8 +3,6 @@ layout: post
 title: Windows 8 Corrupt Packages
 date: '2012-09-28 09:08:55'
 tags:
-- '72'
-- ramblings
 - windows-8
 - windows8-tutorials
 - winrt

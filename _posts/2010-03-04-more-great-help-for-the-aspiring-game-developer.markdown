@@ -4,7 +4,6 @@ title: More great help for the aspiring game developer
 date: '2010-03-04 21:16:22'
 tags:
 - information
-- ramblings
 ---
 
  Nelson Hurst over @ Nelxon – [http://www.nelxon.com/journal/entry-1002/xdsk/](http://www.nelxon.com/journal/entry-1002/xdsk/), (pronounced “nell-zahn“) has pulled together some of the best resources around the web to assist the indie development community in their prospective creations.

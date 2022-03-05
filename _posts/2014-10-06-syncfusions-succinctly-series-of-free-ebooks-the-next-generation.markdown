@@ -1,15 +1,11 @@
 ---
 layout: post
-title: Syncfusion&rsquo;s &ldquo;Succinctly&rdquo; series of Free ebooks &ndash; The
-  next generation
+title: Syncfusion 'Succinctly' series of Free ebooks - The next generation
 date: '2014-10-06 20:21:09'
 tags:
-- '41'
-- '72'
 - book-review
 - competitions
 - information
-- ramblings
 - syncfusion
 ---
 

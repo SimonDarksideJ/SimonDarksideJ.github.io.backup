@@ -1,10 +1,8 @@
 ---
 layout: post
-title: Creating E-Learning Games with Unity &ndash; A Review
+title: Creating E-Learning Games with Unity - A Review
 date: '2014-04-24 17:24:02'
 tags:
-- '41'
-- '72'
 - packtpub
 - ramblings
 - unity-3d-tutorials
