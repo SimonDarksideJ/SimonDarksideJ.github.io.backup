@@ -28,7 +28,7 @@ However, what is not immediately apparent, is that the profile system is there n
 
 Dream Build Play is meant to inspire all of us to Dream Big, Build the most uber project we can so everyone can Play it! **But we do not have to do it alone!**
 
-Thanks to the profile system, if you do not feel up to building your own project, then simply offer your services for either a share of the prizes or a share of the mountains of cash when it is on sale (or just for recognition and thanks?).&nbsp;&nbsp; This enables anyone who’s already in the competition to look for help they need and recruit you in to their projects.
+Thanks to the profile system, if you do not feel up to building your own project, then simply offer your services for either a share of the prizes or a share of the mountains of cash when it is on sale (or just for recognition and thanks?).   This enables anyone who’s already in the competition to look for help they need and recruit you in to their projects.
 
 Also, if you have this brilliant idea and not sure how to build it (or your art skills are like mine and a stickman is a bit of a challenge), then search for potential team members, reach out to them and then enter as one team, the choice is up to you.
 
@@ -40,21 +40,21 @@ In the profile screen, you will see a lot of details you can enter.
 
 Everything from Your nickname, country and a sneaky little avatar picture, along with all your networks, connections and such. like Github, twitter, facebook, etc.
 
-&nbsp;
+ 
 
-What is important if you want to put yourself out there, is a description of yourself and your Skills in the dedicated area.&nbsp;
+What is important if you want to put yourself out there, is a description of yourself and your Skills in the dedicated area. 
 
-&nbsp;
+ 
 
 > ### Focus on the description as that is what is shown on your public profile page!
 
-&nbsp;
+ 
 
 I have pictured mine just for reference (sorry, I am not really available as I am already busy ![Open-mouthed smile](/Images/wordpress/2017/08/wlEmoticon-openmouthedsmile-1.png))
 
  |
 
-&nbsp;
+ 
 
 Once done, you will be available on the site for all to see:
 
@@ -70,12 +70,12 @@ Now comes the fun bit, whether you are searching for your team mates or someone 
 
 [![image](/Images/wordpress/2017/08/image_thumb-3.png "image")](/Images/wordpress/2017/08/image-4.png)
 
-So, whether you are looking for an artist, programmer, modeller, animator or just someone to make coffee in your local town (I joke, as there is not a coffee Skill. But there SHOULD be!) then this feature will make your life much easier.&nbsp; once you are done searching, reach out get chatting and, more importantly, GET BUILDING!
+So, whether you are looking for an artist, programmer, modeller, animator or just someone to make coffee in your local town (I joke, as there is not a coffee Skill. But there SHOULD be!) then this feature will make your life much easier.  once you are done searching, reach out get chatting and, more importantly, GET BUILDING!
 
-&nbsp;
+ 
 
 [![image](/Images/wordpress/2017/08/image_thumb-4.png "image")](/Images/wordpress/2017/08/image-5.png)
 
 > ### P.S.  
-> As with last time, If you have read this far, be sure to check out my upcoming post about game dev diaries.&nbsp; In short, if you have not already, START ONE NOW!! ![Open-mouthed smile](/Images/wordpress/2017/08/wlEmoticon-openmouthedsmile.png?w=660&ssl=1)
+> As with last time, If you have read this far, be sure to check out my upcoming post about game dev diaries.  In short, if you have not already, START ONE NOW!! ![Open-mouthed smile](/Images/wordpress/2017/08/wlEmoticon-openmouthedsmile.png?w=660&ssl=1)
 

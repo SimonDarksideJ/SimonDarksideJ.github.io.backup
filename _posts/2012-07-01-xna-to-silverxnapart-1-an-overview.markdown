@@ -37,7 +37,7 @@ Follow along with the series here:
 
 Also [Channel 9](http://channel9.msdn.com/posts/Get-to-Windows-Phone-Mango-1-From-XNA-to-SLXNA) are running a similar [video series here](http://channel9.msdn.com/posts/Get-to-Windows-Phone-Mango-1-From-XNA-to-SLXNA) if you prefer videos! ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile.png)
 
-#### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the&nbsp;[SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
+#### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
 
 * * *
 
@@ -45,17 +45,17 @@ Also [Channel 9](http://channel9.msdn.com/posts/Get-to-Windows-Phone-Mango-1-Fro
 
 First off let’s get one thing straight, what each framework is best at:
 
-> ### ![align=](http://www.dotnetscraps.com/samples/bullets/036.gif)&nbsp;&nbsp;&nbsp; Silverlight
+> ### ![align=](http://www.dotnetscraps.com/samples/bullets/036.gif)    Silverlight
 > 
-> Fantastic for human interaction, Menu’s, prompts and basically everything where lists of information or text is displayed in a fashion that is readable and useful.&nbsp; Silverlight can do graphics but this is best when it is just representing a stored image that is rotated / scaled or manipulated for on-screen effect.
+> Fantastic for human interaction, Menu’s, prompts and basically everything where lists of information or text is displayed in a fashion that is readable and useful.  Silverlight can do graphics but this is best when it is just representing a stored image that is rotated / scaled or manipulated for on-screen effect.
 > 
-> ### ![align=](http://www.dotnetscraps.com/samples/bullets/036.gif)&nbsp;&nbsp;&nbsp; XNA
+> ### ![align=](http://www.dotnetscraps.com/samples/bullets/036.gif)    XNA
 > 
-> XNA’s power is graphics, not just 3D but any scenario where you want advanced graphical effects on screen to delight the player.&nbsp; It also best for audio and effects (in fact Silverlight uses XNA for playing audio in most cases).&nbsp; Let also be straight that XNA is terrible at UI or text without considerable effort, especially when compared to Silverlight.
+> XNA’s power is graphics, not just 3D but any scenario where you want advanced graphical effects on screen to delight the player.  It also best for audio and effects (in fact Silverlight uses XNA for playing audio in most cases).  Let also be straight that XNA is terrible at UI or text without considerable effort, especially when compared to Silverlight.
 > 
-> ### ![align=](http://www.dotnetscraps.com/samples/bullets/036.gif)&nbsp;&nbsp;&nbsp; Phone
+> ### ![align=](http://www.dotnetscraps.com/samples/bullets/036.gif)    Phone
 > 
-> The Phone has is benefits too, it provides a set of devices and sensors for use in either framework plus web interaction (something sorely missed in XNA on the XBOX).&nbsp; It also provides lots of native support such as the Media Player and Contact lists that can be used to give a more personal experience to the player.
+> The Phone has is benefits too, it provides a set of devices and sensors for use in either framework plus web interaction (something sorely missed in XNA on the XBOX).  It also provides lots of native support such as the Media Player and Contact lists that can be used to give a more personal experience to the player.
 
 * * *
 
@@ -67,25 +67,25 @@ I have discovered and gone through all of the below with the Platformer starter 
 
 So let’s run through those considerations:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)&nbsp;&nbsp;&nbsp; Game.CS
+> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)    Game.CS
 > 
-> The best recommendations when building your normal XNA game project state that you should keep your initial GAME class clean, using separate classes to do all the parts of work in your project and just having what is necessary in your core Update and Draw loops.&nbsp; All this ensures your game code is as portable as possible for all the platforms that XNA supports.&nbsp; This is even more true when we are preparing for using SilverXNA.
+> The best recommendations when building your normal XNA game project state that you should keep your initial GAME class clean, using separate classes to do all the parts of work in your project and just having what is necessary in your core Update and Draw loops.  All this ensures your game code is as portable as possible for all the platforms that XNA supports.  This is even more true when we are preparing for using SilverXNA.
 > 
 > So if you have not done so already, tidy up that Game class and keep it as minimalistic as possible and if possible reduce any dependency on the main Game class itself by either passing references to what is required.
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)&nbsp;&nbsp;&nbsp; GameTime
+> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)    GameTime
 > 
 > Time is irrelevant, Lunchtimes doubly so, so said Douglas Adams in the Hitchhikers guide to the Galaxy (actually Ford said it to Arthur but who’s nit-picking ![Smile](/Images/wordpress/2012/07/wlEmoticon-smile.png))
 > 
-> One of the things we loose in SilverXNA is the GameTime class, which is used by the base XNA framework to notify the game what has transpired since the last Draw or Update call and how long it took.&nbsp; In SilverXNA it has been replaced by a GameTimerEventArgs event handler, which should not be surprising since Silverlight is an Event based framework.&nbsp; Now if you simply replicated the XNA game framework when building your game you probably (as do most of the XNA samples) passed down the GameTime class from the Game Update and Draw classes to all your own subclasses, this would be fine if you actually then intended to use all parts of the GameTime class in the rest of your game however all anybody does with this is to extract the “ElapsedGameTime” to see how much time passed in the last frame and update your logic and screen (bit of a waste really).
+> One of the things we loose in SilverXNA is the GameTime class, which is used by the base XNA framework to notify the game what has transpired since the last Draw or Update call and how long it took.  In SilverXNA it has been replaced by a GameTimerEventArgs event handler, which should not be surprising since Silverlight is an Event based framework.  Now if you simply replicated the XNA game framework when building your game you probably (as do most of the XNA samples) passed down the GameTime class from the Game Update and Draw classes to all your own subclasses, this would be fine if you actually then intended to use all parts of the GameTime class in the rest of your game however all anybody does with this is to extract the “ElapsedGameTime” to see how much time passed in the last frame and update your logic and screen (bit of a waste really).
 > 
 > Now if you have done this in your game, it is time to change (and if you only use ElapsedGameTime then you probably should anyway) and update all your own code to just use the ElapsedGameTime value, so passing a float instead of a whole class.
 > 
-> If in the unlikely event you also need to use the “TotalGameTime” value (which shows how much time has passed since the game started) then you will need to replace all your GameTime references to GameTimerEventArgs BUT this will break compatibility for all other platforms and native XNA (since it does not exist).&nbsp; I would recommend passing down both values separately as floats if you really need to (Note “TotalGameTime” is now called “TotalTime” in SilverXNA).
+> If in the unlikely event you also need to use the “TotalGameTime” value (which shows how much time has passed since the game started) then you will need to replace all your GameTime references to GameTimerEventArgs BUT this will break compatibility for all other platforms and native XNA (since it does not exist).  I would recommend passing down both values separately as floats if you really need to (Note “TotalGameTime” is now called “TotalTime” in SilverXNA).
 > 
 > In the rarest of problems if you actually use even more of the GameTime class then I’m afraid you are out of luck and SIlverXNA on the phone simply will not be for you, so if you are depending on the “isRunningSlowly” or are using GameTime in any other way either stop or just implement those features yourself.
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)&nbsp;&nbsp;&nbsp; Orientation Support
+> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)    Orientation Support
 > 
 > Now this was a tricky one, both XNA and Silverlight support different Orientations for handling how to draw to the screen, problem is they are both different enumerations for each platform, basically Silverlight Supports more orientations than XNA does, it is not hard to se why they are different and most likely it just came down to time, but for SilverXNA it does present us with a bit of a problem.
 > 
@@ -93,7 +93,7 @@ So let’s run through those considerations:
 > 
 >     
 > 
-> &nbsp;&nbsp;&nbsp; Class Protection levels
+>     Class Protection levels
 > 
 > Last but not least we need to talk about scope, its recommended when you write your own games to keep your engine and logic in a separate library and just have the core code and assets in your Game project, if you have done this then you are well on your way already, if not however read on.
 > 
@@ -109,15 +109,15 @@ So let’s run through those considerations:
 > 
 > As a rough outline, here is what the following chapters are going to cover:
 > 
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/034.gif)&nbsp;&nbsp;&nbsp; The actual project migration – just getting it working  
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/034.gif)&nbsp;&nbsp;&nbsp; Text and the HUD re-envisioned – dropping XNA text and building a HUD  
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/034.gif)&nbsp;&nbsp;&nbsp; MVVM and the value in a bound framework – make tracking and tombstoning your state easier  
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/034.gif)&nbsp;&nbsp;&nbsp; Popups and transitions – bring in the pretty  
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/034.gif)&nbsp;&nbsp;&nbsp; Something else – have not thought further than this, maybe inspiration will hit me ![Smile](/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5775.wlEmoticon_2D00_smile_5F00_02C7FA23.png)
+> > ![align=](http://www.dotnetscraps.com/samples/bullets/034.gif)    The actual project migration – just getting it working  
+> > ![align=](http://www.dotnetscraps.com/samples/bullets/034.gif)    Text and the HUD re-envisioned – dropping XNA text and building a HUD  
+> > ![align=](http://www.dotnetscraps.com/samples/bullets/034.gif)    MVVM and the value in a bound framework – make tracking and tombstoning your state easier  
+> > ![align=](http://www.dotnetscraps.com/samples/bullets/034.gif)    Popups and transitions – bring in the pretty  
+> > ![align=](http://www.dotnetscraps.com/samples/bullets/034.gif)    Something else – have not thought further than this, maybe inspiration will hit me ![Smile](/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5775.wlEmoticon_2D00_smile_5F00_02C7FA23.png)
 > 
 > Hope you like it and actually want more!
 > 
 > If it is not for you do not worry you wont hurt my feelings but I’m sure I can find a nice pretty spot to sit while the class continues, maybe something really warm next to the kid with horns and a fiery disposition [![image](/Images/wordpress/2012/07/image_thumb46.png "image")](/Images/wordpress/2012/07/image45.png).
 > 
-> #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the&nbsp;[SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
+> #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
 

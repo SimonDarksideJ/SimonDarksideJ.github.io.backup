@@ -10,7 +10,7 @@ tags:
 - xna-2d-tutorials
 ---
 
-#### Here is the section for the specific updates for XNA, new improvements in .NET 3.5 and what is coming up for .NET 4.0.&nbsp; This refreshes the previous post from Digipen for more up to date info.
+#### Here is the section for the specific updates for XNA, new improvements in .NET 3.5 and what is coming up for .NET 4.0.  This refreshes the previous post from Digipen for more up to date info.
 
 * * *
 
@@ -18,13 +18,13 @@ tags:
 
 With the release of _Visual Studio 2008_, the _C#_ language has been updated to make use of .NET 3.5.
 
-If you follow [this link](http://msdn.microsoft.com/en-us/library/bb332048.aspx "MSDN - Whats new in .NET 3.5"), you will see what was added to .NET 3.5 which is what XNA is based upon and follow [this link](http://msdn.microsoft.com/en-us/library/bb383815(v=VS.90).aspx "What is new in C# 2008") for what is new in C# for 2008.
+If you follow [this link](http://msdn.microsoft.com/en-us/library/bb332048 "MSDN - Whats new in .NET 3.5"), you will see what was added to .NET 3.5 which is what XNA is based upon and follow [this link](http://msdn.microsoft.com/en-us/library/bb383815(v=VS.90).aspx "What is new in C# 2008") for what is new in C# for 2008.
 
 The main highlights for gaming are:
 
 ### 1.1.Common Language Runtime (.NET 3.5)
 
-1.1.1 [Collections](http://msdn.microsoft.com/en-us/library/bb397727.aspx "Collections improvements")
+1.1.1 [Collections](http://msdn.microsoft.com/en-us/library/bb397727 "Collections improvements")
 
 Collections have been improved with more Hashing support.
 
@@ -32,23 +32,23 @@ Collections have been improved with more Hashing support.
 
 Mainly used by Windows app, the diagnostic namespace has been improved to provide more diagnostic information to aid developers.
 
-1.1.3 [Garbage collection](http://msdn.microsoft.com/en-us/library/system.runtime.gcsettings.latencymode.aspx "New latency features")
+1.1.3 [Garbage collection](http://msdn.microsoft.com/en-us/library/system.runtime.gcsettings.latencymode "New latency features")
 
 The .NET garbage collector provides a high-speed allocation service with good use of memory and no long-term fragmentation problems.
 
 Garbage collection was improved to give a developer more control over when garbage is collected.
 
-Shawn (XNA God) Hargreaves wrote an excellent article on how to [maintain garbage in code](http://blogs.msdn.com/shawnhar/archive/2007/07/02/twin-paths-to-garbage-collector-nirvana.aspx).
+Shawn (XNA God) Hargreaves wrote an excellent article on how to [maintain garbage in code](http://blogs.msdn.com/shawnhar/archive/2007/07/02/twin-paths-to-garbage-collector-nirvana).
 
-1.1.4 [Threading](http://msdn.microsoft.com/en-us/library/system.threading.readerwriterlockslim.aspx "Better threadlock scenarios") – also see the [threadpool enhancements](http://msdn.microsoft.com/en-us/library/system.threading.threadpool.aspx "Threadpool enhancements")
+1.1.4 [Threading](http://msdn.microsoft.com/en-us/library/system.threading.readerwriterlockslim "Better threadlock scenarios") – also see the [threadpool enhancements](http://msdn.microsoft.com/en-us/library/system.threading.threadpool "Threadpool enhancements")
 
 ### 1.2. Networking (.NET 3.5)
 
 Microsoft’s Peer-to-Peer collaboration infrastructure provides a peer-to-peer network-based framework for collaborative serverless activities. Use of this framework enables decentralized networking applications that use the collective power of computers over a subnet or the Internet.
 
-The [Socket](http://msdn.microsoft.com/en-us/library/system.net.sockets.socket.aspx) class has been enhanced for use by applications that use asynchronous network I/O to achieve the highest performance. A series of new classes have been added as part of a set of enhancements to the [Socket](http://msdn.microsoft.com/en-us/library/system.net.sockets.socket.aspx) namespace. These classes provide an alternative asynchronous pattern that can be used by specialized high-performance socket applications.
+The [Socket](http://msdn.microsoft.com/en-us/library/system.net.sockets.socket) class has been enhanced for use by applications that use asynchronous network I/O to achieve the highest performance. A series of new classes have been added as part of a set of enhancements to the [Socket](http://msdn.microsoft.com/en-us/library/system.net.sockets.socket) namespace. These classes provide an alternative asynchronous pattern that can be used by specialized high-performance socket applications.
 
-### 1.3. [Linq](http://msdn.microsoft.com/en-us/netframework/aa904594.aspx "What is Linq") (.NET 3.5)
+### 1.3. [Linq](http://msdn.microsoft.com/en-us/netframework/aa904594 "What is Linq") (.NET 3.5)
 
 Language-Integrated Query (LINQ) is a new feature in Visual Studio 2008 and the .NET Framework 3.5. LINQ extends powerful query capabilities to the language syntax of C# and Visual Basic in the form of standard, easily-learned query patterns. This technology can be extended to support potentially any kind of data store.
 
@@ -58,7 +58,7 @@ Enables initialization of collections or objects with an initialization list rat
 
 ### 1.4. [Extension Methods](http://msdn.microsoft.com/en-us/library/bb383977(v=VS.90).aspx "Extension methods") (C# 3.0/2008)
 
-Extend existing classes by using static methods that can be invoked by using instance method syntax.&nbsp; Extensions are very useful for implementing your own methods on top of existing classes
+Extend existing classes by using static methods that can be invoked by using instance method syntax.  Extensions are very useful for implementing your own methods on top of existing classes
 
 [Nick Gravelyn](http://nickgravelyn.com/) and the guys at [http://www.xnawiki.com/](http://www.xnawiki.com/ "http://www.xnawiki.com/") have many details on how to use Extensions in XNA, there is even a whole [codeplex project](http://xnextensions.codeplex.com/ "XNA Extensions codeplex page") dedicated to them
 
@@ -86,7 +86,7 @@ Refactoring is the process of improving your code after it has been written by c
 
 With the release of _Visual Studio 2010_, the _C#_ language has been updated to make use of .NET 4.0.
 
-If you follow [this link](http://msdn.microsoft.com/en-us/library/ms171868(v=VS.100).aspx "MSDN - Whats new in .NET 4.0"), you will see what was added to .NET 4.0&nbsp; and follow [this link](http://msdn.microsoft.com/en-us/library/bb383815(v=VS.100).aspx "What is new in C# 2010") for what is new in C# for 2010.&nbsp; At this point it is unclear how much of the .NET 4.0 library will be available on the XBOX and Windows Phone 7.&nbsp; More on the subject when it is available.
+If you follow [this link](http://msdn.microsoft.com/en-us/library/ms171868(v=VS.100).aspx "MSDN - Whats new in .NET 4.0"), you will see what was added to .NET 4.0  and follow [this link](http://msdn.microsoft.com/en-us/library/bb383815(v=VS.100).aspx "What is new in C# 2010") for what is new in C# for 2010.  At this point it is unclear how much of the .NET 4.0 library will be available on the XBOX and Windows Phone 7.  More on the subject when it is available.
 
 The main highlights are:
 
@@ -110,7 +110,7 @@ Larger data types for those situations where you just do not have enough
 
 ### 2.5. [Tuples](http://msdn.microsoft.com/en-us/library/system.tuple(v=VS.100).aspx "New Tuples definition") (.NET 4.0)
 
-In [mathematics](http://en.wikipedia.org/wiki/Mathematics) and [computer science](http://en.wikipedia.org/wiki/Computer_science) a **tuple** represents the notion of an ordered list of elements.&nbsp; Tuples are often used to describe other mathematical objects and factor a lot in algebra and calculus.
+In [mathematics](http://en.wikipedia.org/wiki/Mathematics) and [computer science](http://en.wikipedia.org/wiki/Computer_science) a **tuple** represents the notion of an ordered list of elements.  Tuples are often used to describe other mathematical objects and factor a lot in algebra and calculus.
 
 ### 2.6. [Various other improvements](http://msdn.microsoft.com/en-us/library/ms171868(v=VS.100).aspx "See the "Other New Features" section of the what is new guide") (.NET 4.0)
 
@@ -136,7 +136,7 @@ IntelliSense now provides two alternatives for IntelliSense statement completion
 
 The Live Semantic Errors feature has been enhanced in Visual C# 2010. The use of wavy underlines to signal errors and warnings as you type has been extended to include constructs that are outside of method bodies, such as return types, parameter types, and default values in method declarations.
 
-&nbsp;
+ 
 
 * * *
 
@@ -154,7 +154,7 @@ It is one of the very fundamental offerings of XNA that the bulk of the hard wor
 
 **3.2. The “Texture” Class (separate classes for XNA)**
 
-XNA implements several Texture classes for manipulates a texture resource.&nbsp; These are Texture2D and Texture3D
+XNA implements several Texture classes for manipulates a texture resource.  These are Texture2D and Texture3D
 
 **3.3. The “PresentParameters” Class (no longer required)**
 
@@ -202,7 +202,7 @@ The XNA has two main methods for handling audio, these being namely:
 - Direct file access (for uncompressed audio only, e.g. WAV files)
 - XACT integration 
 
-Direct access is simple enough and similar to Direct Sounds implementations of playing a file.&nbsp; The XACT integration is something else though, it is effectively a Sound studio for creating sound projects for XNA which XNA can then read and process though code.&nbsp; XACT provides a lot of out of the box and easy to implement features such as:
+Direct access is simple enough and similar to Direct Sounds implementations of playing a file.  The XACT integration is something else though, it is effectively a Sound studio for creating sound projects for XNA which XNA can then read and process though code.  XACT provides a lot of out of the box and easy to implement features such as:
 
 - Sound
 - Music
@@ -217,7 +217,7 @@ We wo not be going into detail in this tutorial about XACT (trying to keep thing
 
 Video playback has been an issue for sometime in the XNA framework as there was no native support until recently (and by recently I mean XNA 4.0 which is not even released yet)
 
-To play video previously we had to rely on custom written components to break down a video into the pictures for each frame and then play them in sequence manually.&nbsp; This put a lot of drain on the XNA framework and limited the size of videos that could be deployed.
+To play video previously we had to rely on custom written components to break down a video into the pictures for each frame and then play them in sequence manually.  This put a lot of drain on the XNA framework and limited the size of videos that could be deployed.
 
 Now in XNA 4.0 however there is a dedicated media library extension for handling video and stored media (pictures on a phone)
 
@@ -227,13 +227,13 @@ This is outside the scope of this tutorial but will try to get back to cover it 
 
 ### 7. The “Vector2” Class (updated from previous Digipen post)
 
-This is the same in XNA as in Direct3D, but it does go further and we also have Vector3, Vector4 classes.&nbsp; There also a ton of helper methods on top of each class to manage and use them, we will cover some of these in this tutorial.
+This is the same in XNA as in Direct3D, but it does go further and we also have Vector3, Vector4 classes.  There also a ton of helper methods on top of each class to manage and use them, we will cover some of these in this tutorial.
 
 * * *
 
 ### 8. The “Matrix” Class (updated from previous Digipen post)
 
-Matrix’s are fully supported in XNA as they were in Direct3D with the addition of more helper methods.&nbsp; These will be covered in a future 3D tutorial.&nbsp; We can use Matrix’s in 2D for additional effect but they are not mandatory.
+Matrix’s are fully supported in XNA as they were in Direct3D with the addition of more helper methods.  These will be covered in a future 3D tutorial.  We can use Matrix’s in 2D for additional effect but they are not mandatory.
 
 * * *
 
@@ -243,7 +243,7 @@ I have been referring to XNA in passing so far in this tutorial, you should alre
 
 In short XNA is a game framework which is multi-platform (PC, XBOX360, Zune and Phone 7) and provides a much simpler framework for specifically developing games, this makes it easier for indie developers and newcomers to game development to build and deploy games.
 
-Big Studio’s on average still write games using C++ and the native DirectX library (and even bypass it in some situations) as it is felt that C# is to slow for big game productions.&nbsp; XNA may one day prove them wrong (after seeing some of the fantastic games written already using XNA) but I doubt it.
+Big Studio’s on average still write games using C++ and the native DirectX library (and even bypass it in some situations) as it is felt that C# is to slow for big game productions.  XNA may one day prove them wrong (after seeing some of the fantastic games written already using XNA) but I doubt it.
 
 SO direct from the MSDN page for XNA, this is a list of what XNA offers.
 

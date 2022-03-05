@@ -13,7 +13,7 @@ tags:
 - xna-related
 ---
 
-[![ src=]()](http://blogs.msdn.com/b/mikeormond/archive/2011/09/22/windows-phone-ebook-1st-edition-published.aspx)
+[![ src=]()](http://blogs.msdn.com/b/mikeormond/archive/2011/09/22/windows-phone-ebook-1st-edition-published)
 
 A ways back when, Mike Ormond (Microsoft Evangelist for Windows Phone and all round nice guy) put out a request for articles for a Microsoft sponsored Windows Phone book ([which you can still find the first edition of here](http://www.lulu.com/shop/pete-vickers-and-andy-gore-and-mike-hole-and-gergely-orosz/building-windows-phone-apps-a-developers-guide/paperback/product-17266975.html;jsessionid=0ADE9DCE924A5DC7702167D8E094EA5E)), I like so many others gladly took up the challenge and wrote a chapter or two for said book and submitted them.
 
@@ -152,7 +152,7 @@ Windows Phone natively supports both JPG and PNG image formats, when choosing be
 
 Now this isn’t the end of the story because XNA projects also support DDS (Direct Draw Surface) image files, the big advantage these have over JPG and PNG is that they are already decompressed and the phone knows this, so unlike JPG and PNG the hardware has no need to decode these images to present them and can just send them straight through to the graphics card.
 
-As described in the introduction to this section, size is important, but the correct size is also important. Shawn Hargreaves post about texture resolutions and mip-maps is a very good read and can be [found here](http://blogs.msdn.com/b/shawnhar/archive/2009/09/14/texture-filtering-mipmaps.aspx) (http://blogs.msdn.com/b/shawnhar/archive/2009/09/14/texture-filtering-mipmaps.aspx).
+As described in the introduction to this section, size is important, but the correct size is also important. Shawn Hargreaves post about texture resolutions and mip-maps is a very good read and can be [found here](http://blogs.msdn.com/b/shawnhar/archive/2009/09/14/texture-filtering-mipmaps) (http://blogs.msdn.com/b/shawnhar/archive/2009/09/14/texture-filtering-mipmaps).
 
 What this breaks down to is that you should size down your textures to the level that is visually acceptable on the device, the smaller the better, if possible also combine images that are used together on the same screen into a single texture and use rectangles to pick the images off that texture when drawing to the screen (this greatly reduces the amount of work needed to transfer images to the graphics device).
 
@@ -172,7 +172,7 @@ _Reduced to 800×480 – 120Kb JPG_
 
 This is all well and good and has also reduced the size of our image but let us not also forget that the phones graphics memory is also limited to 2Mb per frame (you get some very interesting issues when you try and go above this including the game crashing for no reason or logic)
 
-So I use a little tool from ATI called “The Compressonator” ([http://developer.amd.com/tools/compressonator/pages/default.aspx](http://developer.amd.com/tools/compressonator/pages/default.aspx)) which will compress or reduce your image and convert it to your requested format, as stated before having an image in DDS format makes the graphics card job easier and quicker. Within this we have two real options:
+So I use a little tool from ATI called “The Compressonator” ([http://developer.amd.com/tools/compressonator/pages/default](http://developer.amd.com/tools/compressonator/pages/default)) which will compress or reduce your image and convert it to your requested format, as stated before having an image in DDS format makes the graphics card job easier and quicker. Within this we have two real options:
 
 - 
 DXT 1 – flattens the image and removes the Alpha Channel to save space  
@@ -242,7 +242,7 @@ Environment Map Effect
 
 An environment map effect uses a diffuse texture to colour or detail an object, and a cube map texture containing an environment map to shade the object due to the environment. Because the object reflects the scene, this makes the object look more like it is in a real scene. Also, you can use the fresnel parameter to tune the amount of light reflected (shininess) based on the geometry of the surface.
 
-Now on their own these default effects can be used to create some stunning environments but as shown at the TechDays Online conference, Edward Powel of XNA-UK.NET showed how to get even more out of them with just a little effort, creating a fully working Skybox, a deformable ocean and shadowing techniques, all of which is available on [Ed’s blog](http://xna-uk.net/blogs/braindump/default.aspx) to view and learn from. ([http://xna-uk.net/blogs/braindump/default.aspx](http://xna-uk.net/blogs/braindump/default.aspx))
+Now on their own these default effects can be used to create some stunning environments but as shown at the TechDays Online conference, Edward Powel of XNA-UK.NET showed how to get even more out of them with just a little effort, creating a fully working Skybox, a deformable ocean and shadowing techniques, all of which is available on [Ed’s blog](http://xna-uk.net/blogs/braindump/default) to view and learn from. ([http://xna-uk.net/blogs/braindump/default](http://xna-uk.net/blogs/braindump/default))
 
 The general feel from reading Ed’s articles should give you the impression that with these shaders there is certainly not a one size fits all, in a lot of cases the BasicEffect shader will give you most of what you will need which is a testament to the skills of the XNA team that created them. Each of the other shader types are very specific for the tasks they were created for, the Dual Texture effect for example was for lighting situations where you want to get free and quick fixed lights into a scene and the Skinned Effect was for applying textures to models and support for animation in models.
 
@@ -286,7 +286,7 @@ For example in one of the particle effects I created for a 2D game on the phone 
 Now this might seem plain but when drawn approx 5 times on top of it ‘self on the screen and combined with another smoke type texture I was able to produce this after a few tweaks and a series of experimentation:
 
 | [![ src=]()](http://xna-uk.net/blogs/darkgenesis/image_3DE62F31.png) | [![ src=]()](http://xna-uk.net/blogs/darkgenesis/image_5B4798C9.png) | [![ src=]()](http://xna-uk.net/blogs/darkgenesis/image_69B26F21.png) | [![ src=]()](http://xna-uk.net/blogs/darkgenesis/image_01495AEE.png) | [![ src=]()](http://xna-uk.net/blogs/darkgenesis/image_77FCF9DF.png) |
-| 1st run, way too many particles and they didn’t follow the emitter, except flame up | Fewer particles but they didn’t last long enough or spawn quickly enough.&nbsp; Also too big | Got the fireball right but we needed more | Great effect, something to keep for later.&nbsp; Not the ball I wanted.  
+| 1st run, way too many particles and they didn’t follow the emitter, except flame up | Fewer particles but they didn’t last long enough or spawn quickly enough.  Also too big | Got the fireball right but we needed more | Great effect, something to keep for later.  Not the ball I wanted.  
 May be to use in a different colour as a plasma ball? | The end result. |
 
 Now as I wanted a very bright effect I could of also brightened up the original texture and done some additional brushed and highlights I might not have needed so much overdraw for the final result, however in this case I had enough performance to not warrant further work.
@@ -393,10 +393,10 @@ The project templates do this for you so I suggest you use them as a base for yo
 - 
 Through the SharedGraphicsDeviceManager you can get access to the GraphicsDevice as you did previously (almost all functionality it seems was ported over, you just need to refer to the “Current” Graphics device as shown above. This is a static class so it is always available (unlike before)
 
-&nbsp;
+ 
 
 - 
-Unlike XNA there is not in built Timer to run updates so you need to wire up one of your own, again the project templates do this for you so it’s good to take note of how it’s done. What is not clear at the moment is that in App.XAML.cs (The application class) a FrameworkDispatcherTimer (of type GameTimer) is already declared but not actively used so we can only assume at this point it is for audio and shouldn’t be used for anything else at this point.  
+Unlike XNA there is not in built Timer to run updates so you need to wire up one of your own, again the project templates do this for you so it’s good to take note of how it’s done. What is not clear at the moment is that in App.XAML.cs (The application class) a FrameworkDispatcherTimer (of type GameTimer) is already declared but not actively used so we can only assume at this point it is for audio and should not be used for anything else at this point.  
 
 - 
 Game Components were one of the things that didn’t make the cut, but thankfully the XNA team recognised this gap and have provided a sample to aid in emulating them yourself, see the link below:  
@@ -527,7 +527,7 @@ Farseer Physics engine integration (XNA and Silverlight) (http://farseerphysics.
 
 A full 2D physics engine that is free to use and also works on WP7
 
-&nbsp;
+ 
 
 - 
 Babylon 3D Engine library
@@ -601,14 +601,14 @@ Memory Management and Garbage Collection
 
 We don’t’ have to worry about the finer detail of memory management with XNA since it’s running under a managed framework however we still need to be aware of how it all works and code efficiently, check out this and other articles on Shawn Hargreaves blog who give some excellent tips and tricks for working in XNA.
 
-([http://blogs.msdn.com/b/shawnhar/archive/2006/09/06/743437.aspx](http://blogs.msdn.com/b/shawnhar/archive/2006/09/06/743437.aspx))
+([http://blogs.msdn.com/b/shawnhar/archive/2006/09/06/743437](http://blogs.msdn.com/b/shawnhar/archive/2006/09/06/743437))
 
 - 
 Particle effects and Resource Pools  
 
 My tutorial series on particle effects is fairly complete but don’t take my work on it, I also reference lots of other sources of info to checkup on and build out an efficient graphical system, alternatively you can also use one of the off the shelf systems such as the Mercury particle Engine.
 
-([/2010/07/09/intermission-7-resource-pools-and-particles.aspx](/2010/07/09/intermission-7-resource-pools-and-particles.aspx))
+([/2010/07/09/intermission-7-resource-pools-and-particles](/2010/07/09/intermission-7-resource-pools-and-particles))
 
 ([http://mpe.codeplex.com/](http://mpe.codeplex.com/)) \<- Mercury Particle Engine Home
 
@@ -639,4 +639,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js" language="javascript"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20) &nbsp;<script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList.aspx?amid=9502591)
+// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

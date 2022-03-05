@@ -11,9 +11,9 @@ tags:
 - winrt
 ---
 
- **\*Note** , a minor update in the wake of recent Windows Store experiences, added an option for a privacy policy. &nbsp;I highly **recommend adding one even you don’t think you need one, Just in case 😀**
+ **\*Note** , a minor update in the wake of recent Windows Store experiences, added an option for a privacy policy.  I highly **recommend adding one even you don’t think you need one, Just in case 😀**
 
-**\*UPDATE!! – Do NOT use the marketplace search option in the helper as the Store has deemed this violates Cert 1.2, advertising in the settings charm.&nbsp; This is a ludicrous violation that we cannot link to the Microsoft Store from here as it makes no sense, this was allowed on the Phone platform but not here.&nbsp; Should still be Ok to use this from within your about page so long as it’s not a charm or fly=out!**
+**\*UPDATE!! – Do NOT use the marketplace search option in the helper as the Store has deemed this violates Cert 1.2, advertising in the settings charm.  This is a ludicrous violation that we cannot link to the Microsoft Store from here as it makes no sense, this was allowed on the Phone platform but not here.  Should still be Ok to use this from within your about page so long as it’s not a charm or fly=out!**
 
 Also it seems the default “Settings” charm also includes a “Rate and Review” option so you may choose to not enable this option, just don’t set the AppPackageName varable.
 

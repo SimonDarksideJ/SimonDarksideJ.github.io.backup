@@ -13,7 +13,7 @@ tags:
 - windows-10
 ---
 
-I have been working long and hard on one of the most beneficial projects of my life.&nbsp; I have worked in healthcare for the past 2 decades professionally with healthcare software, ever since my Son was born with an untreatable genetic condition.&nbsp; I have wanted to “Pay forward” to all those clinical staff who helped us through our early years by creating better software to enable them to care more (and type less).&nbsp;
+I have been working long and hard on one of the most beneficial projects of my life.  I have worked in healthcare for the past 2 decades professionally with healthcare software, ever since my Son was born with an untreatable genetic condition.  I have wanted to “Pay forward” to all those clinical staff who helped us through our early years by creating better software to enable them to care more (and type less). 
 
 [![FizzyoFrameworkLogo](/Images/wordpress/2019/05/FizzyoFrameworkLogo.png "FizzyoFrameworkLogo")](https://link.medium.com/JQwWLrljGW)
 

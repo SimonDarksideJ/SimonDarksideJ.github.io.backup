@@ -36,7 +36,7 @@ If you manually reference the MonoGame framework from any project and try to use
 > ‘c:\Program Files (x86)\MonoGame\v3.0\Assemblies\WindowsPhone\x86\MonoGame.Framework.dll’ and  
 > ‘c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\WindowsPhone\v8.0\Microsoft.Xna.Framework.dll’
 
-The compiler is basically stating there are two versions of the class used (in this case the Vector3 struct) and it cannot decide which one to use.&nbsp; Using an alias would not help because they have the same name, same namespace and so on.
+The compiler is basically stating there are two versions of the class used (in this case the Vector3 struct) and it cannot decide which one to use.  Using an alias would not help because they have the same name, same namespace and so on.
 
 * * *
 
@@ -62,7 +62,7 @@ Another thing to note if you build your game project manually instead of using t
 
 > If you are targeting the emulator, then the “x86” versions of the assemblies are used to build the project.
 
-&nbsp;
+ 
 
 > If you are targeting a device (or publishing to the store) then the “ARM” versions of the framework are used.
 

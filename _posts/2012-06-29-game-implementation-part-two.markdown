@@ -16,15 +16,15 @@ Now with the engine in place we can start adding game elements into our game.
 
 Keep in mind this is still in the style of the original DigiPen tutorial, I will update it with new XNA methods and practices in the next post.
 
-Before starting this section please ensure you download [the code](http://startrooper2dxna.codeplex.com/releases/43706/download/121633) for the engine of the tutorial, this only includes the engine framework ready for this section of the tutorial.&nbsp; Alternatively you can download the completed project for this section can also be [found here](http://startrooper2dxna.codeplex.com/releases/44143/download/119497) (if you want to skip typing all this up)
+Before starting this section please ensure you download [the code](http://startrooper2dxna.codeplex.com/releases/43706/download/121633) for the engine of the tutorial, this only includes the engine framework ready for this section of the tutorial.  Alternatively you can download the completed project for this section can also be [found here](http://startrooper2dxna.codeplex.com/releases/44143/download/119497) (if you want to skip typing all this up)
 
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 # Game First Steps
 
@@ -46,26 +46,26 @@ The image for the background is a Texture2D object, we initialise the image by l
 
 <!--CRLF-->
 
-This declares a new Texture2D object for the background and then loads the reference to the image from the Content Manager.&nbsp; Note, the path and name supplied to the LOAD method of the content manager must be the same as the path used in the Content Project and the name on the properties of the image file.
+This declares a new Texture2D object for the background and then loads the reference to the image from the Content Manager.  Note, the path and name supplied to the LOAD method of the content manager must be the same as the path used in the Content Project and the name on the properties of the image file.
 
 Also of note is that I have prefixed the parameter with a “@” symbol, this enables us to write a simplified path to the file, otherwise it needs to be written in C# style like this “\\Pictures\\background” using double backslashes, if you have a fairly deep folder structure this can become unreadable quite easily.
 
-&nbsp;
+ 
 
-| [![image](/Images/wordpress/2012/07/image_thumb23.png "image")](/Images/wordpress/2012/07/image22.png) | &nbsp; | [![image](/Images/wordpress/2012/07/image_thumb24.png "image")](/Images/wordpress/2012/07/image23.png) |
+| [![image](/Images/wordpress/2012/07/image_thumb23.png "image")](/Images/wordpress/2012/07/image22.png) |   | [![image](/Images/wordpress/2012/07/image_thumb24.png "image")](/Images/wordpress/2012/07/image23.png) |
 | 
 
 Background image stored in the Pictures folder of the Content Project
 
- | &nbsp; | 
+ |   | 
 
-Properties of the Background.png image in the Content Project.&nbsp; Note the “Asset Name” property which is the name used to load objects from the Content Manager
+Properties of the Background.png image in the Content Project.  Note the “Asset Name” property which is the name used to load objects from the Content Manager
 
  |
 
-&nbsp;
+ 
 
-Animation as described in previous posts are single images which are played one after another fast enough to provide the illusion of motion (no different to the Cinema really).&nbsp; Each image in the animation loop is called a FRAME, in the Digipen tutorial we declare each frame individually this is implemented as using the frame class, which maintains the texture used for each frame.&nbsp; So we need to declare each frame for the background and supply our loaded background image.
+Animation as described in previous posts are single images which are played one after another fast enough to provide the illusion of motion (no different to the Cinema really).  Each image in the animation loop is called a FRAME, in the Digipen tutorial we declare each frame individually this is implemented as using the frame class, which maintains the texture used for each frame.  So we need to declare each frame for the background and supply our loaded background image.
 
 The background as an animation is very simple as it contains only one image (The Trooper and Condor described later contain several images), so we need to declare the background sprite and the animation container for the background, then add the individual frames to the animation:
 
@@ -73,7 +73,7 @@ The background as an animation is very simple as it contains only one image (The
 
 <!--CRLF-->
 
-     2:&nbsp; 
+     2:  
 
 <!--CRLF-->
 
@@ -95,7 +95,7 @@ Then declare and add the first (and only in this case) frame to the animation us
 
 <!--CRLF-->
 
-The first parameter for the new frame is the image for the animation, the second is the time (or delay) that this frame should show for, as the background animation is a single image, this is 0 to show it is continuous.&nbsp; Finally we add our new frame to the animation.
+The first parameter for the new frame is the image for the animation, the second is the time (or delay) that this frame should show for, as the background animation is a single image, this is 0 to show it is continuous.  Finally we add our new frame to the animation.
 
 Next we need to add the background animation to the background sprite and setup it is default parameters:
 
@@ -119,13 +119,13 @@ Next we need to add the background animation to the background sprite and setup 
 
 <!--CRLF-->
 
-So we first create a new background, then add the animation we have created for it and set it is start position on the screen.&nbsp; As this is a 2D game you will notice that the start position for the background is not in the centre of the screen.&nbsp; This is so we can animate the background scrolling up the screen like this:
+So we first create a new background, then add the animation we have created for it and set it is start position on the screen.  As this is a 2D game you will notice that the start position for the background is not in the centre of the screen.  This is so we can animate the background scrolling up the screen like this:
 
 [![image](/Images/wordpress/2012/07/image_thumb25.png "image")](/Images/wordpress/2012/07/image24.png)
 
 On the above illustration I have also noted the screen / viewport coordinates to make this easier to understand.
 
-The last few parameters we are setting on the background are the scaling and zOrdering settings,&nbsp; We scale the background image to fit our games intended resolution (currently fixed to 640 x 480 in the digipen tutorial, we will change this later to be more flexible).&nbsp; We then also set the layer in whic the background will draw, as it is the background we set this to 10 (the highest level in this implementation), higher values are interpreted as further away from the viewer.
+The last few parameters we are setting on the background are the scaling and zOrdering settings,  We scale the background image to fit our games intended resolution (currently fixed to 640 x 480 in the digipen tutorial, we will change this later to be more flexible).  We then also set the layer in whic the background will draw, as it is the background we set this to 10 (the highest level in this implementation), higher values are interpreted as further away from the viewer.
 
 Lastly we need to add the background sprite to the engine’s sprite list so it will be updated and drawn with everything else:
 
@@ -133,7 +133,7 @@ Lastly we need to add the background sprite to the engine’s sprite list so it 
 
 <!--CRLF-->
 
-You might ask, why is the image halfway down the screen, why just not put it in the centre.&nbsp; The answer to this is how we actually animate the background.&nbsp; There are two methods for using a single image as a rolling background image, we can use catchment rectangles on the same image and draw the correct portions of the same image to different parts of the screen, or we can simply use copy the image and prop them up next to each other (the method used here as it is easier)
+You might ask, why is the image halfway down the screen, why just not put it in the centre.  The answer to this is how we actually animate the background.  There are two methods for using a single image as a rolling background image, we can use catchment rectangles on the same image and draw the correct portions of the same image to different parts of the screen, or we can simply use copy the image and prop them up next to each other (the method used here as it is easier)
 
 So as we already have the original background added to the game, so we just need to clone (copy in memory) the original image for our second background and apply the same properties as before with one distinct difference, the start point:
 
@@ -157,7 +157,7 @@ So as we already have the original background added to the game, so we just need
 
 <!--CRLF-->
 
-     6:&nbsp; 
+     6:  
 
 <!--CRLF-->
 
@@ -169,7 +169,7 @@ With the copy of the background now being placed above the first (remembering 0 
 
 [![image](/Images/wordpress/2012/07/image_thumb26.png "image")](/Images/wordpress/2012/07/image25.png)
 
-Another thing to note is that we actually Cloned the original image, we did not copy it.&nbsp; The difference is memory, copy would create a second image in memory (which if fine for some cases) but since we want exactly the same image with no differences, what clone does is to just reference (point) to the same image in memory.&nbsp; The benefit being that there is only actually one image loaded into memory for the two that are drawn to the screen.&nbsp; For gaming we should always try to conserve memory wherever possible.&nbsp;
+Another thing to note is that we actually Cloned the original image, we did not copy it.  The difference is memory, copy would create a second image in memory (which if fine for some cases) but since we want exactly the same image with no differences, what clone does is to just reference (point) to the same image in memory.  The benefit being that there is only actually one image loaded into memory for the two that are drawn to the screen.  For gaming we should always try to conserve memory wherever possible. 
 
 * * *
 
@@ -187,7 +187,7 @@ Now unlike the background out trooper does have some animation for the character
 
 Looking at the images above we can see the animated effect results in the Trooper wagging it is tail and wings, these must be looped together and played at a rate sufficient to fool our eyes into thinking it is moving.
 
-Now in the original DigiPen implementation we had to mess around with transparency colours when loading the images (using a strong colour like magenta as the background) however XNA has support for several image formats and several inherently support transparency in the make up of the image format.&nbsp; I have already converted the original images to the PNG format to make things easier for handling transparency. (so that when the trooper is drawn on top of the background, we only see the trooper character itself)
+Now in the original DigiPen implementation we had to mess around with transparency colours when loading the images (using a strong colour like magenta as the background) however XNA has support for several image formats and several inherently support transparency in the make up of the image format.  I have already converted the original images to the PNG format to make things easier for handling transparency. (so that when the trooper is drawn on top of the background, we only see the trooper character itself)
 
 So like before we need to
 
@@ -204,7 +204,7 @@ SO:
 
 <!--CRLF-->
 
-     2:&nbsp; 
+     2:  
 
 <!--CRLF-->
 
@@ -212,7 +212,7 @@ SO:
 
 <!--CRLF-->
 
-     4:&nbsp; 
+     4:  
 
 <!--CRLF-->
 
@@ -240,11 +240,11 @@ SO:
 
 <!--CRLF-->
 
-     11:&nbsp; 
+     11:  
 
 <!--CRLF-->
 
-     12:&nbsp; 
+     12:  
 
 <!--CRLF-->
 
@@ -280,7 +280,7 @@ SO:
 
 <!--CRLF-->
 
-     21:&nbsp; 
+     21:  
 
 <!--CRLF-->
 
@@ -292,7 +292,7 @@ SO:
 
 <!--CRLF-->
 
-     24:&nbsp; 
+     24:  
 
 <!--CRLF-->
 
@@ -308,9 +308,9 @@ We could of compacted this further by doing this:
 
 <!--CRLF-->
 
-But this can produce unreadable code if you take it too far.&nbsp; However in the next post I’ll show you a better way for handling multiple images and animations(spritesheets).
+But this can produce unreadable code if you take it too far.  However in the next post I’ll show you a better way for handling multiple images and animations(spritesheets).
 
-Now there is a slight difference to the background sprite animation here as the trooper has multiple frames, so you will see above that not only have we changed the value for the delay in each frame, we have also told the animation to play and to loop continuously.&nbsp; This means the trooper animation starts when the game starts.
+Now there is a slight difference to the background sprite animation here as the trooper has multiple frames, so you will see above that not only have we changed the value for the delay in each frame, we have also told the animation to play and to loop continuously.  This means the trooper animation starts when the game starts.
 
 We also place the Trooper at the bottom middle of the screen (still forcing though to a fixed resolution though, fix this later)
 
@@ -328,13 +328,13 @@ And then after adding the trooper object to the engine’s sprite list, we simpl
 
 <!--CRLF-->
 
-”Trooper” (capital T) being our game trooper and “trooper” (lowercase t) being the instance of the trooper we just created.&nbsp; Usually I would try to avoid having objects with similar names as it can create confusion (even though C# understands because it is case sensitive, unlike VB which is not, in VB Trooper is the same as trooper)
+”Trooper” (capital T) being our game trooper and “trooper” (lowercase t) being the instance of the trooper we just created.  Usually I would try to avoid having objects with similar names as it can create confusion (even though C# understands because it is case sensitive, unlike VB which is not, in VB Trooper is the same as trooper)
 
 If you run the project at this point you should see the following:
 
 [![image](/Images/wordpress/2012/07/image_thumb33.png "image")](/Images/wordpress/2012/07/image32.png)
 
-The background should be scrolling down as the update for the Background class adds 1 to the Y axis in every update and then reset’s it if it reaches the bottom of the screen.&nbsp; The trooper should also be flapping happily at the bottom of the screen with not a care in the world.
+The background should be scrolling down as the update for the Background class adds 1 to the Y axis in every update and then reset’s it if it reaches the bottom of the screen.  The trooper should also be flapping happily at the bottom of the screen with not a care in the world.
 
 * * *
 
@@ -346,7 +346,7 @@ The Condor (arch enemy of the Trooper) is pretty much the same implementation as
 
 <!--CRLF-->
 
-     2:&nbsp; 
+     2:  
 
 <!--CRLF-->
 
@@ -354,7 +354,7 @@ The Condor (arch enemy of the Trooper) is pretty much the same implementation as
 
 <!--CRLF-->
 
-     4:&nbsp; 
+     4:  
 
 <!--CRLF-->
 
@@ -374,7 +374,7 @@ The Condor (arch enemy of the Trooper) is pretty much the same implementation as
 
 <!--CRLF-->
 
-     9:&nbsp; 
+     9:  
 
 <!--CRLF-->
 
@@ -422,7 +422,7 @@ So 4 Condor animations and 3 explosion animations and here is the code for the e
 
 <!--CRLF-->
 
-     4:&nbsp; 
+     4:  
 
 <!--CRLF-->
 
@@ -442,7 +442,7 @@ So 4 Condor animations and 3 explosion animations and here is the code for the e
 
 <!--CRLF-->
 
-     9:&nbsp; 
+     9:  
 
 <!--CRLF-->
 
@@ -452,7 +452,7 @@ So 4 Condor animations and 3 explosion animations and here is the code for the e
 
 Because this is an explosion (a one time thing) we do not loop it the same as the Trooper and Condor, so we do not set the Loop parameter.
 
-Lastly we put this all together and add it the main Condor instance.&nbsp; We have just one because like the background, every time we launch a new Condor, we are just going to clone the original and set him off going at the poor defenceless Trooper.
+Lastly we put this all together and add it the main Condor instance.  We have just one because like the background, every time we launch a new Condor, we are just going to clone the original and set him off going at the poor defenceless Trooper.
 
 Main Condor instance at start of game class:
 
@@ -474,7 +474,7 @@ And the final Condor code:
 
 <!--CRLF-->
 
-&nbsp;
+ 
 
 * * *
 
@@ -486,13 +486,13 @@ In this game, by default, sprite classes are created for you in order to only cr
 
 called ‘car.cs’ and create a class called “car” that is derived from the Sprite class.
 
-&nbsp;
+ 
 
 Using our game engine, you can even create a new game (totally different storyline) by Copying the “Engine” folder code and copying the engine specific elements from the game class (Startroopergame.cs).
 
 * * *
 
-Right, the game is under way.&nbsp; We don’t have much in there but we have covered over the basics of adding sprites to our game, layering them on top of each other and basic animation.&nbsp; Browse through the rest of the project at this point if you wish and see the basic implementation of all the theory discussed so far.
+Right, the game is under way.  We don’t have much in there but we have covered over the basics of adding sprites to our game, layering them on top of each other and basic animation.  Browse through the rest of the project at this point if you wish and see the basic implementation of all the theory discussed so far.
 
 Next up a intermission or two for improvements, up to and including
 

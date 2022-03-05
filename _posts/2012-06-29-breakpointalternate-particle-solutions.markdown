@@ -12,15 +12,15 @@ tags:
 
 I am always on the look out for new ideas and ways forward and what we have implemented so far is only one solution to implementing particle effects.
 
-Robin Debreuil has blogged about another (fantastic looking) approach to doing particle effect using purely mathematical equations and run-time procedural generation (another hobby of mine).&nbsp; This basically means we don’t use a typical particle storage as we have done so far (using pools to store particles), instead we use random number generation to predict where to draw particles.
+Robin Debreuil has blogged about another (fantastic looking) approach to doing particle effect using purely mathematical equations and run-time procedural generation (another hobby of mine).  This basically means we don’t use a typical particle storage as we have done so far (using pools to store particles), instead we use random number generation to predict where to draw particles.
 
 Here’s what Robin has to say on it:
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 ### [\<Excerpt from Robins Blog\>](http://blog.debreuil.com/?p=62)
 
@@ -40,7 +40,7 @@ So instead of particles, there is just a calculation waiting to happen. Not havi
 
 For anyone who does Flash, I am sure the Easing idea is familiar.[Robert Penner](http://robertpenner.com/)’s easing equations are universally popular, as they allow people to easily add tweening, fading and bouncing from code. I am basing the equations on these, and adding a few non easing ones that are useful for particles (trig functions, weird functions, etc).
 
-Rather than store the random numbers for each particle (which would require a particle class), we store the random seed and regenerate the same sequence of random numbers each update. This may sound slow, but reasonable random number generation can be surprisingly simple and blazingly fast (one billion numbers in 1.8 seconds [on a p4](http://software.intel.com/en-us/articles/fast-random-number-generator-on-the-intel-pentiumr-4-processor/)!). We are using the[FastRandom](http://www.codeproject.com/KB/cs/fastrandom.aspx) class by Colin Green which is really fast, and a drop in replacement for System.Random. This allows resetting the random seed without penalty. This is important as we reset the seed every update in order to get the same random number sequence time. It is also easy to extend – we have added saving state, so for example we can start at the 500th random number of a given seed without going through the first 499. Awesome code, I would recommend using it for anything random in your game.
+Rather than store the random numbers for each particle (which would require a particle class), we store the random seed and regenerate the same sequence of random numbers each update. This may sound slow, but reasonable random number generation can be surprisingly simple and blazingly fast (one billion numbers in 1.8 seconds [on a p4](http://software.intel.com/en-us/articles/fast-random-number-generator-on-the-intel-pentiumr-4-processor/)!). We are using the[FastRandom](http://www.codeproject.com/KB/cs/fastrandom) class by Colin Green which is really fast, and a drop in replacement for System.Random. This allows resetting the random seed without penalty. This is important as we reset the seed every update in order to get the same random number sequence time. It is also easy to extend – we have added saving state, so for example we can start at the 500th random number of a given seed without going through the first 499. Awesome code, I would recommend using it for anything random in your game.
 
 Note this code is available at [http://www.codeplex.com/swf](http://www.codeplex.com/swf) though the particle part has not yet been added (using git locally, so it is a pain).
 
@@ -48,17 +48,17 @@ Note this code is available at [http://www.codeplex.com/swf](http://www.codeplex
 
 There are also some videos showing Robins effects in action, he does talk a bit fast and does not explain some of the finer points but that is not hard to pick up from his code.
 
-&nbsp;
+ 
 
-I will look into maybe implementing this in the WP7 update and compare the performance between the two implementations (although, looking at his code, I suspect that this procedural way for generating effects may be quicker, if the phone can handle it), but first I need to finish up my current set of posts (yes nice and shiny but I’ll put it down for a bit.&nbsp; oooooh Shiny)
+I will look into maybe implementing this in the WP7 update and compare the performance between the two implementations (although, looking at his code, I suspect that this procedural way for generating effects may be quicker, if the phone can handle it), but first I need to finish up my current set of posts (yes nice and shiny but I’ll put it down for a bit.  oooooh Shiny)
 
 Robin has also created a SWF (flash for the acronym unaware) to XNA importer, which allows you to use Flash assets in XNA games, also including using Box2D for 2D physics, all interesting stuff!!
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 ### More from the Trenches
 
@@ -68,13 +68,13 @@ On another note for those of you interested in the maths behind Algorithms and t
 
 I have downloaded it for viewing later (only had time to sample some of if at the mo, too much to do still.) but I would recommend checking it out, as it gives a good “easy” (well as easy as maths gets) view of the effects of doing complex operations.
 
-&nbsp;
+ 
 
 * * *
 
 ### Back to the series
 
-On another note I meant to set a challenge on the back of the last post.&nbsp; With all the particle possibilities, have a go at creating you are own effect.&nbsp; and while you are at it, also try and recreate this:
+On another note I meant to set a challenge on the back of the last post.  With all the particle possibilities, have a go at creating you are own effect.  and while you are at it, also try and recreate this:
 
 [![JustForFun](http://xna-uk.net/blogs/darkgenesis/JustForFun_thumb_37EB209E.png "JustForFun")](http://xna-uk.net/blogs/darkgenesis/JustForFun_5A171A56.png)
 

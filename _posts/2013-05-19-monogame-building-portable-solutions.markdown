@@ -35,14 +35,14 @@ Now I waffled on about the theory [last time](http://darkgenesis.zenithmoon.com/
 
 So with this tutorial I will walk you through the practice of what it takes to go portable and what it can do for you.
 
-&nbsp;
+ 
 
 Two main things come to mind as to why you should use a PCL project for the core logic and state of your game projects are:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; One core project that contains all code that is completely compatible for all platforms, changes are validated by the project instead of at build time  
-> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; One library for all platforms instead of separate platform libraries to share code, only have to make a change once, especially useful if you add or remove classes from the core project
+> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)    One core project that contains all code that is completely compatible for all platforms, changes are validated by the project instead of at build time  
+> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)    One library for all platforms instead of separate platform libraries to share code, only have to make a change once, especially useful if you add or remove classes from the core project
 
-&nbsp;
+ 
 
 * * *
 
@@ -76,19 +76,19 @@ Creating and using PCL projects are simple enough so long as you have the right 
 > 
 > ### If you would like to see PCL support in the VS express editions, then vote with a [click over on UserVoice](http://visualstudio.uservoice.com/forums/121579-visual-studio/suggestions/3230383-add-the-ability-to-create-portable-libraries-in-vi)
 
-> ##### ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; Visual Studio 2010 (Pro & above only ![Sad smile](/Images/wordpress/2013/05/wlEmoticon-sadsmile.png))
+> ##### ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Visual Studio 2010 (Pro & above only ![Sad smile](/Images/wordpress/2013/05/wlEmoticon-sadsmile.png))
 > 
 > Studio 2010 does not have PCL support by default so you need to install it first, just launch NuGet and search for “Portable Library Tools” and you should locate Microsoft’s Portable Library Tools 2 package, install it and you are ready to go.
 > 
 > If you have not got NuGet yet, then install this [VSIX (visual Studio Extension) package](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c) and then “goto 1”
 > 
-> ##### ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; Visual Studio 2012 (Pro & above only ![Sad smile](/Images/wordpress/2013/05/wlEmoticon-sadsmile.png))
+> ##### ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Visual Studio 2012 (Pro & above only ![Sad smile](/Images/wordpress/2013/05/wlEmoticon-sadsmile.png))
 > 
 > Thankfully VS 2012 already comes with PCL support out of the box so you are ready to go.
 > 
-> ##### ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; Xamarin Studio
+> ##### ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Xamarin Studio
 > 
-> From&nbsp; version 4.03, PCL projects have been supported natively in Xamarin Studio
+> From  version 4.03, PCL projects have been supported natively in Xamarin Studio
 
 Lastly you will need a copy of the current version of MonoGame.Portable, you can either download the [current compiled DLL](https://lightningdemo.codeplex.com/releases/view/106819 "MonoGame.Portable build 2013-05-19") here, or just clone my [MonoGame.Portable branch](https://github.com/DDReaper/MonoGame/tree/develop.portable) in my MonoGame fork (if / when the PR is merged into the main MonoGame source, I’ll update the above links accordingly) and build it yourself.
 
@@ -120,9 +120,9 @@ Now if you build the Engine project at present you will get a whole load of buil
 
 At this point you might think “well I have my PCL library, why do not I just use one of my existing MonoGame references?”, as well you should but just try it and see. You will either get:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; No Error and No Reference added  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; No Error but the reference will be added  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; You’re development environment will through a wobbly and probably just crash (with or without an error)
+> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    No Error and No Reference added  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    No Error but the reference will be added  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    You’re development environment will through a wobbly and probably just crash (with or without an error)
 
 None of which will result in a project that will build, in fact in the second case above you might think it has worked but basically, it did not ![Open-mouthed smile](/Images/wordpress/2013/05/wlEmoticon-openmouthedsmile2.png), the answer is of course to have a PCL compatible DLL to add, namely in this case MonoGame.Portable.
 
@@ -136,17 +136,17 @@ So by either adding MonoGame.Portable to the solution as source and mapping a re
 
 ![src=]()
 
-OK, so having our logic in a separate lib is nice but what about the rest of the game, well let’s take this a bit further then.&nbsp; Copy over the original “Game.cs” class and embed that into the library as well and for good measure and rename it to something more meaningful for our engine like “LightningGame.cs”.
+OK, so having our logic in a separate lib is nice but what about the rest of the game, well let’s take this a bit further then.  Copy over the original “Game.cs” class and embed that into the library as well and for good measure and rename it to something more meaningful for our engine like “LightningGame.cs”.
 
 To use our core game code in a PCL however (or any separate lib for that matter) there are a few things we need to take into account, first and foremost (to quote Highlander), “There can be only ONE”, or in the case of XNA and MonoGame, there can only be one class in our game solution using the XNA GAME class as its base.
 
 To this end we need to:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; Remove the base class from our game class  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; Remove any functions that initialise the graphics device (that’s up to the platform)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; Remove any “override” statements, since this class is not inheriting anymore  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; Alter the scope of methods that need to be initialised or called (or add new ones) e.g Protected –\> Public or Internal  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; Satisfy any framework dependencies that are required for the class to function. e.g. if GraphicsDevice&nbsp; is used, which was part of the base game class)
+> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Remove the base class from our game class  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Remove any functions that initialise the graphics device (that’s up to the platform)  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Remove any “override” statements, since this class is not inheriting anymore  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Alter the scope of methods that need to be initialised or called (or add new ones) e.g Protected –\> Public or Internal  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Satisfy any framework dependencies that are required for the class to function. e.g. if GraphicsDevice  is used, which was part of the base game class)
 
 As an example here is a side by side comparison of the updates I made to make the old game code ready for the PCL
 

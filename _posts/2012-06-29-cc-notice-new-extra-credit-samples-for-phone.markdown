@@ -28,19 +28,19 @@ This sample shows how to determine – when in a three-dimensional scene – whe
 [**Particles Pipeline**](http://creators.xna.com/sample/particlespipeline)   
 This sample builds on the Particles 2D sample to allow authoring of particle effects in XML files, which makes creating new particle systems and modifying particle system parameters a much simpler task.
 
-&nbsp;
+ 
 
 * * *
 
 I am planning to do a little particle system editor in the future and looking at that last sample, it has probably made my life that much easier.
 
-&nbsp;
+ 
 
 And just noting the first three, if your thinking of making your own Tower Defence game, you will need those!.
 
 **Just remember, even though these samples are written with the phone in mind they will still work for XBOX and PC Games.**
 
-I will probably be taking a little rest from blogging after todays post due to all my webcast and training sessions planned, but I’ll still get something out.&nbsp;&nbsp; But it wo not be regular until things settle down a bit (A lot of efforts went in to the “[Build a game in 60 Mins](http://developer.att.com/developer/index.jsp?page=webcast&id=6.3_v1_10800360 "AT&T Webcast event 3D XNA Phone starter")” session)
+I will probably be taking a little rest from blogging after todays post due to all my webcast and training sessions planned, but I’ll still get something out.   But it wo not be regular until things settle down a bit (A lot of efforts went in to the “[Build a game in 60 Mins](http://developer.att.com/developer/index.jsp?page=webcast&id=6.3_v1_10800360 "AT&T Webcast event 3D XNA Phone starter")” session)
 
 But the 2D tutorial will continue with more goodness and I’ll kick off the 3D Digipen series revival as well shortly.
 

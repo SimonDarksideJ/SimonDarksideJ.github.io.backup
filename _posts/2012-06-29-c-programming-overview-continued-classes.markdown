@@ -149,7 +149,7 @@ A **_constant_** is a class member that represents a constant value that can be 
 
 A **_field_** represents a variable associated with an object or class. A _field-declaration_ introduces one or more fields of a given type. It declares that multiple fields are the same as multiple declarations of single fields with the same attributes, modifiers, and type.
 
-**&nbsp;**
+** **
 
 ### 5.1. Static and Instance Fields
 
@@ -169,7 +169,7 @@ Methods are declared using _method-declaration_s. The _return-type_ of a method 
 
 The _member-name_ specifies the name of the method.
 
-&nbsp;
+ 
 
 ### 6.1. Method Parameters
 
@@ -201,7 +201,7 @@ A **_property_** is a member that provides access to a characteristic of an obje
 
 The _type_ of a property must be at least as accessible as the property itself.
 
-&nbsp;
+ 
 
 ### 7.1. Static and Instance Properties
 
@@ -261,7 +261,7 @@ When a constructor declaration includes an extern modifier, the constructor is s
 
 Instance constructors are not inherited. Thus, a class has no instance constructors other than those actually declared in the class. If a class contains no instance constructor declarations, a default instance constructor is automatically provided. Instance constructors are invoked by _object-creation-expression_s and through _constructor-initialiser_s.
 
-&nbsp;
+ 
 
 ### 11.1. Default Constructors
 

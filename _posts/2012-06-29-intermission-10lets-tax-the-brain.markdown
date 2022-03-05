@@ -12,7 +12,7 @@ tags:
 
 2in the last intermission before getting back to the series we’re going to stay with the windows phone for now (the next part of the tutorial will start on the PW7 and then we will add the updates back to windows / XBOX, lets hope you can keep up)
 
-So far we have been trying to push (but not very hard) the graphics capabilities of the platforms, granted the phone has a lot less but it is been pretty solid so far.&nbsp; Now we will look at the brins a bit and push it is boundaries with some procedural effects.
+So far we have been trying to push (but not very hard) the graphics capabilities of the platforms, granted the phone has a lot less but it is been pretty solid so far.  Now we will look at the brins a bit and push it is boundaries with some procedural effects.
 
 As usual the code for this intermission can be found [here on codeplex](http://startrooper2dxna.codeplex.com/releases/46712/download/131322)
 
@@ -20,13 +20,13 @@ As usual the code for this intermission can be found [here on codeplex](http://s
 
 * * *
 
-&nbsp;
+ 
 
 ### Procedural effect using [Robin Debreuil](http://blog.debreuil.com/)’s effect generator (updated for phone)
 
 As you saw in my previous blog post “Breakpoint–Alternate Particle solutions”, Robin came up with an interesting was of generating effects procedurally, meaning that instead of using the class structure and a pool of particles, we simple define a pattern for how particles are generated and then draw them according to that pattern over time.
 
-The major difference between the two is that using a pool means we have all the effects in memory and they all individually update and draw each frame.&nbsp; By creating them procedurally we just predict where they are going to be and draw them, no memory involved.&nbsp; Sounds fantastic, but there is a draw back, which for the phone was a bit of a problem.&nbsp; All this prediction and calculation is heavy on the CPU, the brain of the box.&nbsp; Depending on the complexity of your effect the drain can be very demanding.
+The major difference between the two is that using a pool means we have all the effects in memory and they all individually update and draw each frame.  By creating them procedurally we just predict where they are going to be and draw them, no memory involved.  Sounds fantastic, but there is a draw back, which for the phone was a bit of a problem.  All this prediction and calculation is heavy on the CPU, the brain of the box.  Depending on the complexity of your effect the drain can be very demanding.
 
 that is not to say do not use it, used wisely it can be very good and it gives you a lot more flexibility to produce effects on the fly if you need them.
 
@@ -34,9 +34,9 @@ Here is what i got out of it as a basic effect (granted full screen) after only 
 
 | ![Effect pic 1](http://xna-uk.net/blogs/darkgenesis/Effectpic1_thumb_6F574A5A.png) | ![Effect pic 2](http://xna-uk.net/blogs/darkgenesis/Effectpic2_thumb_26512894.png) | ![Effect pic 3](http://xna-uk.net/blogs/darkgenesis/Effectpic3_thumb_3D9C2D05.png) | ![Effect pic 4](http://xna-uk.net/blogs/darkgenesis/Effectpic4_thumb_75023E33.png) |
 
-The effect you see was based on Robins original “ParticleEffectExample” effect using the explosion sprite from the StarTrooper Project.&nbsp; I was quite surprised by the green, but that was because the effect plays with some of the colours.&nbsp; The effect show explodes outwards like a supernova and slowly collapses inwards until it flames out at the end, the effect lasts just over 2 seconds. (looks better on the emulator ![Open-mouthed smile](/Images/wordpress/2012/06/wlEmoticon-openmouthedsmile3.png))
+The effect you see was based on Robins original “ParticleEffectExample” effect using the explosion sprite from the StarTrooper Project.  I was quite surprised by the green, but that was because the effect plays with some of the colours.  The effect show explodes outwards like a supernova and slowly collapses inwards until it flames out at the end, the effect lasts just over 2 seconds. (looks better on the emulator ![Open-mouthed smile](/Images/wordpress/2012/06/wlEmoticon-openmouthedsmile3.png))
 
-The phone holds up very well with just one of these effects u and running, add 5 however and unfortunately the poor CPU of the phone is a little outmatched for the calculations required, we can offset this however by reducing the number of cycles and particles generated and being a bit more clever with the numbers and calculations to be done in each effect.&nbsp; So it is still good to use but it takes a lot more tinkering to get the effect you are looking for.
+The phone holds up very well with just one of these effects u and running, add 5 however and unfortunately the poor CPU of the phone is a little outmatched for the calculations required, we can offset this however by reducing the number of cycles and particles generated and being a bit more clever with the numbers and calculations to be done in each effect.  So it is still good to use but it takes a lot more tinkering to get the effect you are looking for.
 
 I might at some point write a little effect generator tool for both particle platforms to aid in effect generation, but only after the main tutorial is finished (or if I get another plane ride to India or a train journey to one of our site offices and I get really board)
 
@@ -44,23 +44,23 @@ I might at some point write a little effect generator tool for both particle pla
 
 ### Proof of concept
 
-A good thing to implement if you are thinking of adding a major new feature to any game (or app for that matter) is to first proof it on it is own, in a little proof of concept application (rather than spending hours / days rewriting half your game code to get a new feature in only to find you do not like it in the end).&nbsp; Always better to test on it is own and then decide if it is worth the effort.
+A good thing to implement if you are thinking of adding a major new feature to any game (or app for that matter) is to first proof it on it is own, in a little proof of concept application (rather than spending hours / days rewriting half your game code to get a new feature in only to find you do not like it in the end).  Always better to test on it is own and then decide if it is worth the effort.
 
 In this case I re-used another proof of concept project that I put together for testing the WP7 touchscreen interface (because i could not initially get it working and needed to know why to fix my game).
 
-Basically, start a fresh project, copy in any bits you actually need to test with (and only if you really need them, best to start with nothing) and then build your feature in.&nbsp; So as I was building a particle effect system, i copied over the Particle Manager and Pool classes (because I still anted a pool of effects / emitters) from the tutorial project.&nbsp; This meant I used the same or at least similar management code as the tutorial so porting back later would be easy.
+Basically, start a fresh project, copy in any bits you actually need to test with (and only if you really need them, best to start with nothing) and then build your feature in.  So as I was building a particle effect system, i copied over the Particle Manager and Pool classes (because I still anted a pool of effects / emitters) from the tutorial project.  This meant I used the same or at least similar management code as the tutorial so porting back later would be easy.
 
-So copy the ParticleManager.cs and Pool.cs from the engine folder in the tutorial project to your proof of concept project, remember to rename the namespaces at the beginning of each file.&nbsp; Ignore any warnings you get for now.
+So copy the ParticleManager.cs and Pool.cs from the engine folder in the tutorial project to your proof of concept project, remember to rename the namespaces at the beginning of each file.  Ignore any warnings you get for now.
 
-Next we need some of the helper classes from Robin’s work.&nbsp; These are two classes which Robin has consumed in his work to help with some of the generation logic, one is the[FastRandom](http://www.codeproject.com/KB/cs/fastrandom.aspx) class written by Colin Green and the other is a Easing function library based on&nbsp; [Robert Penner](http://robertpenner.com/)’s easing equations (easing equations are a bit like [linear interpolations](http://en.wikipedia.org/wiki/Linear_interpolation) except a lot more flexible, a demo of the easing functions can be [found here](http://gizma.com/easing/#quint1)).&nbsp; You can either download the latest source from [Robin on GIThub](http://github.com/debreuil/Swf2XNA) (folders V2DRuntime\particles and V2DRuntime\Tween respectively), or get them from the Codeplex site [here](http://startrooper2dxna.codeplex.com/releases/46712/download/131309 "Fast Random Library on codeplex") and [here](http://startrooper2dxna.codeplex.com/releases/46712/download/131308 "Easing Function library on Codeplex").&nbsp; Just add these two classes to the POC project, again changing the Namespaces appropriately.
+Next we need some of the helper classes from Robin’s work.  These are two classes which Robin has consumed in his work to help with some of the generation logic, one is the[FastRandom](http://www.codeproject.com/KB/cs/fastrandom) class written by Colin Green and the other is a Easing function library based on  [Robert Penner](http://robertpenner.com/)’s easing equations (easing equations are a bit like [linear interpolations](http://en.wikipedia.org/wiki/Linear_interpolation) except a lot more flexible, a demo of the easing functions can be [found here](http://gizma.com/easing/#quint1)).  You can either download the latest source from [Robin on GIThub](http://github.com/debreuil/Swf2XNA) (folders V2DRuntime\particles and V2DRuntime\Tween respectively), or get them from the Codeplex site [here](http://startrooper2dxna.codeplex.com/releases/46712/download/131309 "Fast Random Library on codeplex") and [here](http://startrooper2dxna.codeplex.com/releases/46712/download/131308 "Easing Function library on Codeplex").  Just add these two classes to the POC project, again changing the Namespaces appropriately.
 
-Right, now we have our framework, lets add the effect generator.&nbsp; Like with the previous particle engine, we have an effect generator template and overloaded classes for the individual effects.&nbsp; This always makes it easier to add new effects without adding masses more code (granted using virtual functions can have a minor performance impact but for the scale of the game we should be fine, remember if you watched [Shawn’s webcast](http://channel9.msdn.com/learn/courses/WP7TrainingKit/WP7XNA/Mix10CL22Video/ "Building A High Performance 3D Game For Windows Phone") from mix, code safely and tune afterwards were you have the biggest problems.&nbsp; Do not try to fix everything at once.&nbsp; KISS!)
+Right, now we have our framework, lets add the effect generator.  Like with the previous particle engine, we have an effect generator template and overloaded classes for the individual effects.  This always makes it easier to add new effects without adding masses more code (granted using virtual functions can have a minor performance impact but for the scale of the game we should be fine, remember if you watched [Shawn’s webcast](http://channel9.msdn.com/learn/courses/WP7TrainingKit/WP7XNA/Mix10CL22Video/ "Building A High Performance 3D Game For Windows Phone") from mix, code safely and tune afterwards were you have the biggest problems.  Do not try to fix everything at once.  KISS!)
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 ### The Generator
 
@@ -760,39 +760,39 @@ Right, now this does start to get a bit tricky to explain, so let’s start with
     
     
     
-    Ignoring the End function (which is just the internal way the effect ends, it is here so it can be overridden by particle effects in case they want to do something tricky), next up is the update function, which again is very basic, it just checks if the effect has been setup properly yet by checking if it is the first time the effect has been updated and then set’s it up appropriately before running the main “”BatchUpdate” function that does all the hard work.&nbsp; it it followed by the functions that are called by the setup logic, again these can be overridden by individual effects for maximum damage.
+    Ignoring the End function (which is just the internal way the effect ends, it is here so it can be overridden by particle effects in case they want to do something tricky), next up is the update function, which again is very basic, it just checks if the effect has been setup properly yet by checking if it is the first time the effect has been updated and then set’s it up appropriately before running the main “”BatchUpdate” function that does all the hard work.  it it followed by the functions that are called by the setup logic, again these can be overridden by individual effects for maximum damage.
     
     
     
-    The BatchUpdate function itself does several things by default, it updates the effect generators location if it has been given a velocity (and optionally acceleration) and then goes on to set the start-up variables for the particles based on the effects current location.&nbsp; It then goes on to check if the effect has been running for long enough and kills it if it has. (this is where the end function can be a bit more clever and possibly fade out when an effect dies if it has not done so already).
+    The BatchUpdate function itself does several things by default, it updates the effect generators location if it has been given a velocity (and optionally acceleration) and then goes on to set the start-up variables for the particles based on the effects current location.  It then goes on to check if the effect has been running for long enough and kills it if it has. (this is where the end function can be a bit more clever and possibly fade out when an effect dies if it has not done so already).
     
     
     
-    The next three functions are the draw functions, Draw does exactly what it says on the tin and launches BatchDraw (the same way update calls BatchUpdate) if it is active (a little double check in case the pool has not destroyed it yet fro some reason).&nbsp;
+    The next three functions are the draw functions, Draw does exactly what it says on the tin and launches BatchDraw (the same way update calls BatchUpdate) if it is active (a little double check in case the pool has not destroyed it yet fro some reason). 
     
     
     
-    The batch draw controls the core of any procedural work be initialising the generation values and then launches the Particle Draw function in a loop for the amount of particles defined by the effect.&nbsp; Once it has drawn the particle it stores the generated value for the next generation for up to 4 generations (R0, R1, R2, R3).
+    The batch draw controls the core of any procedural work be initialising the generation values and then launches the Particle Draw function in a loop for the amount of particles defined by the effect.  Once it has drawn the particle it stores the generated value for the next generation for up to 4 generations (R0, R1, R2, R3).
     
     
     
-    Since the random number generator is predictable and always generates the same numbers in the same order, these can be then used to mathematically predict how you want the effect to be generated, using either the base generation alone or combinations of each generation value.&nbsp; This is not an elegant thing to try to describe and if you wish to know more about this I would suggest reading “Texturing and modelling a procedural approach by XX”, it is an intensive read and not for beginners.&nbsp; You do not have to know how this works just how to use it effectively in content generation which I’ll come on to next.
+    Since the random number generator is predictable and always generates the same numbers in the same order, these can be then used to mathematically predict how you want the effect to be generated, using either the base generation alone or combinations of each generation value.  This is not an elegant thing to try to describe and if you wish to know more about this I would suggest reading “Texturing and modelling a procedural approach by XX”, it is an intensive read and not for beginners.  You do not have to know how this works just how to use it effectively in content generation which I’ll come on to next.
     
     
     
-    &nbsp;
+     
     
     
     * * *
     
     
-    &nbsp;
+     
     
     
     ### Generated Effects
     
     
-    The sample project I’ve uploaded contains both of Robin’s sample template effects however I personally could only get the first one to display correctly using the particle files I have currently.&nbsp; Given more time I could play more but time is short, so we will work with what I got working.   
+    The sample project I’ve uploaded contains both of Robin’s sample template effects however I personally could only get the first one to display correctly using the particle files I have currently.  Given more time I could play more but time is short, so we will work with what I got working.   
     Here’s the code for the “ParticleEffectExample” effect from Robin’s code (with a few tweaks):
     
     
@@ -1020,7 +1020,7 @@ Right, now this does start to get a bit tricky to explain, so let’s start with
         
         
         Now as you can see there is not much here because it is all maths and using those easing functions I mentioned earlier.   
-        The first two functions are easy, as they are just the overloads for the base functions with a few tweaks, setting the MaxT(Max time to live) and setting the texture count and texture name (I really liked the idea in Robin’s work to use a spritesheet for an effect and loop through it when drawing having overlapping effects drawn with different particle images, even more inventiveness) and of course setting the blend state (or Sprite Blend Mode in GS3.1) for alpha blended effects or additive.&nbsp; It is interesting to see how the blend state effects what is drawn, try it and find out (but check your alpha value!!!!).
+        The first two functions are easy, as they are just the overloads for the base functions with a few tweaks, setting the MaxT(Max time to live) and setting the texture count and texture name (I really liked the idea in Robin’s work to use a spritesheet for an effect and loop through it when drawing having overlapping effects drawn with different particle images, even more inventiveness) and of course setting the blend state (or Sprite Blend Mode in GS3.1) for alpha blended effects or additive.  It is interesting to see how the blend state effects what is drawn, try it and find out (but check your alpha value!!!!).
         
         
         
@@ -1040,30 +1040,30 @@ Right, now this does start to get a bit tricky to explain, so let’s start with
 - The Green (G) also uses a Linear approach but reduces overtime instead
 - the Blue (B) is untouched. 
 
-Next it gets a little more tricky to explain, the origin of the whole effect is altered using the value of the 2nd generation (R1), using this to move the X portion of the effect out by a factor of 50 based on the R1 value.&nbsp; So for each particle it will rotate along a different origin of the drawn texture (changes where the centre of the image is when rotating).
+Next it gets a little more tricky to explain, the origin of the whole effect is altered using the value of the 2nd generation (R1), using this to move the X portion of the effect out by a factor of 50 based on the R1 value.  So for each particle it will rotate along a different origin of the drawn texture (changes where the centre of the image is when rotating).
 
 lastly the particle count is increased over time in a linear fashion (something Robin had commented out but I put it back in to see how it changes the effect)
 
 #### Draw
 
-The batchDraw function has more fun in it.&nbsp;
+The batchDraw function has more fun in it. 
 
 - First is the simple logic to pick which part of the image on a spritesheet to use based on which particle (the particle index) you are currently drawing.
 - The rotation is altered using a quadratic easing out function which decelerates to a zero velocity (Start fast and gradually gets slower)
 - Next the position is altered using standard trigonometry to form a circle around the effect centre that flies out and gradually comes back to the centre using the EasingoutElastic function to provide the force. 
 
-&nbsp;
+ 
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 Continued next –\>
 
-[Part 2](/blogs/darkgenesis/archive/2010/07/30/intermission-10-part-2-lets-tax-the-brain.aspx)
+[Part 2](/blogs/darkgenesis/archive/2010/07/30/intermission-10-part-2-lets-tax-the-brain)
 
-&nbsp;
+ 
 
 Technorati Tags: [XNA](http://technorati.com/tags/XNA),[wp7dev](http://technorati.com/tags/wp7dev),[Windows Phone 7 Development](http://technorati.com/tags/Windows+Phone+7+Development)

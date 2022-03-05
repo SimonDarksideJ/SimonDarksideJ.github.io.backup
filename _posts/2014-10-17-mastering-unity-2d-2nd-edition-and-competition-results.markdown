@@ -12,19 +12,19 @@ tags:
 - unity3d
 ---
 
-Phew, it has been a torturous time since my book was released back in August, my first experience releasing my work in printed / ebook form through a publisher only to find that lots of changes made it in to the book on release.&nbsp; Needless to say I was shocked and have been working hard with the publisher to fix what had been broken.
+Phew, it has been a torturous time since my book was released back in August, my first experience releasing my work in printed / ebook form through a publisher only to find that lots of changes made it in to the book on release.  Needless to say I was shocked and have been working hard with the publisher to fix what had been broken.
 
 Not every errata that cropped up was down to the publisher, I do have to hold my hand up and say a few of them were mine (Some were “fixes” from Unity) but the publisher has taken everything on board I have said and we have worked very hard to ensure this 2nd Edition is the best it can be.
 
-&nbsp;
+ 
 
 > No, “MonoBehaviour” is NOT spelt “Monobehavior”
 
-&nbsp;
+ 
 
-So much so we added a new reviewer to my book, one Simon Wheatley (aka The Captain), a diligent reader who purchased the book and has been invaluable identifying erroneous changes that were introduced.&nbsp; I have even invited Simon to be a Technical reviewer on my 2nd Title, he has that good!. All praise Simon! (Of course the best people are called Simon ![Open-mouthed smile](/Images/wordpress/2014/10/wlEmoticon-openmouthedsmile1.png)).
+So much so we added a new reviewer to my book, one Simon Wheatley (aka The Captain), a diligent reader who purchased the book and has been invaluable identifying erroneous changes that were introduced.  I have even invited Simon to be a Technical reviewer on my 2nd Title, he has that good!. All praise Simon! (Of course the best people are called Simon ![Open-mouthed smile](/Images/wordpress/2014/10/wlEmoticon-openmouthedsmile1.png)).
 
-&nbsp;
+ 
 
 All the errata for the 1st edition is listed here in the [forum for the book](http://darkgenesis.zenithmoon.com/DarkGenesisForums/forum/book-forums/mastering-unity-2d-game-development/ "Mastering Unity 2D Game Development")
 
@@ -57,7 +57,7 @@ For direct Links check out
 
 # About the book
 
-The book was an interesting challenge for me and is written with the same flair I use within my blog, I have always felt it is better to educate and show you, not only how to do things but also why you should do it one way over another, plus if there are any alternatives, I will point them out.&nbsp; As a reader you should be informed about your choices (and then make your own mind up ![Open-mouthed smile](/Images/wordpress/2014/10/wlEmoticon-openmouthedsmile1.png)).
+The book was an interesting challenge for me and is written with the same flair I use within my blog, I have always felt it is better to educate and show you, not only how to do things but also why you should do it one way over another, plus if there are any alternatives, I will point them out.  As a reader you should be informed about your choices (and then make your own mind up ![Open-mouthed smile](/Images/wordpress/2014/10/wlEmoticon-openmouthedsmile1.png)).
 
 Through its pages you will build an RPG game framework which you can then extend and make your own, the aim is to give you enough hints, tips and help to build your own finished game.
 
@@ -74,7 +74,7 @@ Here is what you should expect from the title:
 
 > My only regret with this book is that it couldn’t be bigger ![Open-mouthed smile](/Images/wordpress/2014/10/wlEmoticon-openmouthedsmile1.png) there is more than enough information within this titles pages to get you 90% there with your own game, all you got to do is finish it and add lots more content!.
 
-&nbsp;
+ 
 
 As with everything I do, if there is more you want to know on any subject within the book, drop me a line or comment on my blog and I will be more than happy to write even more on the subject.
 
@@ -82,31 +82,31 @@ As with everything I do, if there is more you want to know on any subject within
 
 # And now for the results
 
-Not that long ago I launched a comment competition on my blog for 3 lucky people to win eBook copies of my title, I have held off announcing the winners until the second edition was ready to go.&nbsp; We had a few delays due to sickness and some more awkward changes (some code got capitalised!!!, fine in the example code of course ![Confused smile](/Images/wordpress/2014/10/wlEmoticon-confusedsmile.png)) but we are finally there.
+Not that long ago I launched a comment competition on my blog for 3 lucky people to win eBook copies of my title, I have held off announcing the winners until the second edition was ready to go.  We had a few delays due to sickness and some more awkward changes (some code got capitalised!!!, fine in the example code of course ![Confused smile](/Images/wordpress/2014/10/wlEmoticon-confusedsmile.png)) but we are finally there.
 
-&nbsp;
+ 
 
 Not wanting to be dull, I decided to let the hero in my title do the picking, he was very honoured for such an honoured role and he headed out in to the forest o pick out the select few. Although it appears the Goblins had other things in mind:
 
-&nbsp;
+ 
 
 [![CompetitionGif3](/Images/wordpress/2014/10/CompetitionGif3_thumb.gif "CompetitionGif3")](/Images/wordpress/2014/10/CompetitionGif3.gif)
 
-&nbsp;
+ 
 
 So the winners are:
 
-### [![StarMox](/Images/wordpress/2014/10/StarMox_thumb.png "StarMox")](/Images/wordpress/2014/10/StarMox.png)&nbsp;&nbsp; StarMox
+### [![StarMox](/Images/wordpress/2014/10/StarMox_thumb.png "StarMox")](/Images/wordpress/2014/10/StarMox.png)   StarMox
 
-### [![Derek Lakin](/Images/wordpress/2014/10/Derek-Lakin_thumb.jpg "Derek Lakin")](/Images/wordpress/2014/10/Derek-Lakin.jpg)&nbsp;&nbsp; Derek Lakin
+### [![Derek Lakin](/Images/wordpress/2014/10/Derek-Lakin_thumb.jpg "Derek Lakin")](/Images/wordpress/2014/10/Derek-Lakin.jpg)   Derek Lakin
 
-### [![Symyon](/Images/wordpress/2014/10/Symyon_thumb.png "Symyon")](/Images/wordpress/2014/10/Symyon.png)&nbsp;&nbsp; Symyon
+### [![Symyon](/Images/wordpress/2014/10/Symyon_thumb.png "Symyon")](/Images/wordpress/2014/10/Symyon.png)   Symyon
 
-&nbsp;
+ 
 
 I will email the winners directly and pass on their email to Packt to add the book to their collection for download.
 
-&nbsp;
+ 
 
-Congrats to the winners and best wishes to all who entered.&nbsp; Here is hoping you still buy and love my title. ![Open-mouthed smile](/Images/wordpress/2014/10/wlEmoticon-openmouthedsmile1.png)
+Congrats to the winners and best wishes to all who entered.  Here is hoping you still buy and love my title. ![Open-mouthed smile](/Images/wordpress/2014/10/wlEmoticon-openmouthedsmile1.png)
 

@@ -11,27 +11,27 @@ tags:
 
 Autodesk has recently announcing it’s going to be offering a free (yes FREE) online training course for those people who want to get into the creative side of game development.
 
-&nbsp;
+ 
 
 Now it’s not quite ready yet as they are just refining the course and testing it out in the Laguna College of Art & Design (LCAD) in California.
 
-&nbsp;
+ 
 
 So it’s not available as yet, but keep you’re eye’s peeled for the notice.
 
-It’s also worth noting in this article that Autodesk are also offering a six-month student trial version of Autodesk’s Maya and a 30-day trial version of Mudbox to assit in the training with the goal to have game engine-ready assets and have them loaded and functioning in the game engine.
+It’s also worth noting in this article that Autodesk are also offering a six-month student trial version of Autodesk’s Maya and a 30-day trial version of Mudbox to assist in the training with the goal to have game engine-ready assets and have them loaded and functioning in the game engine.
 
-&nbsp;
+ 
 
-Check out the orriginal article over at Gamecarearguide here.
+Check out the original article over at Game career guide here.
 
 [http://www.gamecareerguide.com/news/27776/news/27776/autodesk\_launches\_free\_online\_game\_.php](http://www.gamecareerguide.com/news/27776/news/27776/autodesk_launches_free_online_game_.php)
 
-&nbsp;
+ 
 
 \*\* Update
 
-Looks like autodesk have some requirements for you to be elidgible for the course, see below
+Looks like autodesk have some requirements for you to be elidible for the course, see below
 
 **Access to the Curriculum**
 

@@ -28,11 +28,11 @@ In the webcast we covered:
 - Visual State chaining
 - Managing Visual states through code 
 
-&nbsp;
+ 
 
 Video for the second session coming soon
 
-Please excuse the little breakdown towards the end of the session, I hate it when code does not behave on the day.&nbsp; Rest assured this is resolved in the sample below (and this never happened even once during all my rehearsals).&nbsp; Thankfully the second session went off without a hitch.
+Please excuse the little breakdown towards the end of the session, I hate it when code does not behave on the day.  Rest assured this is resolved in the sample below (and this never happened even once during all my rehearsals).  Thankfully the second session went off without a hitch.
 
-Code for this session can be found here – &nbsp;[ProjectOne-Final.zip](/cfs-file.ashx/__key/CommunityServer.Components.PostAttachments/00.00.00.76.01/ProjectOne_2D00_Final.zip)
+Code for this session can be found here –  [ProjectOne-Final.zip](/cfs-file.ashx/__key/CommunityServer.Components.PostAttachments/00.00.00.76.01/ProjectOne_2D00_Final.zip)
 

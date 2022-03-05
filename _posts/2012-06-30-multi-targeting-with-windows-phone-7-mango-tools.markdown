@@ -14,7 +14,7 @@ As it was mentioned at Mix and a few other places, with the release of the New W
 
 As you can see above, this is simply done within your **Project** properties (not the solution properties), here you can select either 7.0 or 7.1.
 
-Note, if you are using features exclusively for Windows Phone 7.1 Mango, then it will only display V 7.1.&nbsp; This can be seen if you load up any of the new project templates as shown below:
+Note, if you are using features exclusively for Windows Phone 7.1 Mango, then it will only display V 7.1.  This can be seen if you load up any of the new project templates as shown below:
 
 Silverlight “New” Project Templates
 
@@ -26,23 +26,23 @@ XNA “New” Project Templates
 
 * * *
 
-Quick “For Reference” though.&nbsp; The two new projects for 3D apps in Silverlight are identical “Windows Phone 3D Graphics Application” (Silverlight) and “Windows Phone Rich Graphics Application (4.0)” (XNA).
+Quick “For Reference” though.  The two new projects for 3D apps in Silverlight are identical “Windows Phone 3D Graphics Application” (Silverlight) and “Windows Phone Rich Graphics Application (4.0)” (XNA).
 
-Goodness knows why they have different names but they are the same project template.&nbsp;
+Goodness knows why they have different names but they are the same project template. 
 
 \*\*Note
 
-As was highlighted at Mix, you can use XNA in your Silverlight projects and use custom Silverlight controls on top of your XNA game in Silverlight.&nbsp; BUT you CANNOT use Silverlight inside of an XNA project.
+As was highlighted at Mix, you can use XNA in your Silverlight projects and use custom Silverlight controls on top of your XNA game in Silverlight.  BUT you CANNOT use Silverlight inside of an XNA project.
 
 This is a bit of a fine line but I can understand how they have done this as XNA is abstracted within Silverlight in order to use it, it is not true integration as yet but we can hope for the future.
 
-&nbsp;
+ 
 
 Happy mango travels
 
 # \*\*Update
 
-Just tried (for a quick test) to select the new release for one of my existing projects and the tools warn this is a ONE TIME option only.&nbsp; Seems you are either in one platform or the other, you CANNOT go back.
+Just tried (for a quick test) to select the new release for one of my existing projects and the tools warn this is a ONE TIME option only.  Seems you are either in one platform or the other, you CANNOT go back.
 
 The tools do nicely warn you of this and tell you to do a backup before you do (I would recommend to do it in your source control app to make this easier).
 

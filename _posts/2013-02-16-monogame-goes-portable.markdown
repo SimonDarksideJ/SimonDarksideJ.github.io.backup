@@ -20,11 +20,11 @@ While I was putting together the [MonoGame](http://monogame.net/) solution for s
 
 Yes, having the exact same code files re-used on several projects sounds great until one of those projects needs a different using, or requires you to use the same parameter in a different way or god forbid, require additional parameters for certain functions.
 
-Portable libraries are one of the saviours from this practice by constructing a project that can be consumed by several different project types or platforms with a single codebase, main difference is that it is one code base used in a single way, the portable framework does not let you exceed these boundaries and keeps you in check.&nbsp; Got something that is platform specific then keep it on that platform and not clutter up the central core of your app or game.
+Portable libraries are one of the saviours from this practice by constructing a project that can be consumed by several different project types or platforms with a single codebase, main difference is that it is one code base used in a single way, the portable framework does not let you exceed these boundaries and keeps you in check.  Got something that is platform specific then keep it on that platform and not clutter up the central core of your app or game.
 
-Main problem here with MonoGame as it&nbsp;wasn’t&nbsp;possible to do this, until now…
+Main problem here with MonoGame as it wasn’t possible to do this, until now…
 
-### **\*update – Access the GitHub repo of&nbsp;[MonoGame.Portable here](https://github.com/DDReaper/MonoGame/tree/develop.portable "MonoGame.Portable on GitHub")**
+### **\*update – Access the GitHub repo of [MonoGame.Portable here](https://github.com/DDReaper/MonoGame/tree/develop.portable "MonoGame.Portable on GitHub")**
 
 * * *
 
@@ -56,9 +56,9 @@ Granted you could potentially create the same thing with multiple smaller projec
 
 Want to know more then try out some of these resources:
 
-> #### [How to Make Portable Class Libraries Work for You](http://blogs.msdn.com/b/dsplaisted/archive/2012/08/27/how-to-make-portable-class-libraries-work-for-you.aspx)
+> #### [How to Make Portable Class Libraries Work for You](http://blogs.msdn.com/b/dsplaisted/archive/2012/08/27/how-to-make-portable-class-libraries-work-for-you)
 > 
-> #### [Evolving the Reflection API](http://blogs.msdn.com/b/dotnet/archive/2012/08/28/evolving-the-reflection-api.aspx)
+> #### [Evolving the Reflection API](http://blogs.msdn.com/b/dotnet/archive/2012/08/28/evolving-the-reflection-api)
 > 
 > #### [Using Portable Class Libraries with Windows 8 / Windows Phone 8 MVVM](http://mobile.dzone.com/articles/using-portable-class-libraries)
 > 
@@ -66,7 +66,7 @@ Want to know more then try out some of these resources:
 > 
 > #### [Developing Mobile Solutions with Windows Azure Part II](http://channel9.msdn.com/Events/Build/2012/3-039) (also FYI check out [Pt1!!](http://channel9.msdn.com/Events/Build/2012/3-057))
 > 
-> #### [The Collection of MvvmCross Presentations](https://github.com/slodge/MvvmCross-Presentations)&nbsp; (fantastic Cross platform stuff using Mono/Xamarin)
+> #### [The Collection of MvvmCross Presentations](https://github.com/slodge/MvvmCross-Presentations)  (fantastic Cross platform stuff using Mono/Xamarin)
 
 Be aware though, a portable library enables you to develop a very simple and central shared project, you wo not however be able to actually run your project without at least one platform to run it on, the portable features just make enabling the project on other platforms a snap.
 
@@ -102,9 +102,9 @@ The portable allows a single project to be associated to many others so long as 
 
 ## 2. The single source of truth
 
-Portable libraries address one of the biggest headaches in multi-platform solutions because of the one simple truth, they are all different.&nbsp; Each platform has its own way of doing things that are generally incompatible with the next.
+Portable libraries address one of the biggest headaches in multi-platform solutions because of the one simple truth, they are all different.  Each platform has its own way of doing things that are generally incompatible with the next.
 
-Now I will be completely honest, portable libraries alone will not save you here but what they can do is make the job a lot easier and how you exactly what is compatible between ALL of your supported platforms and more importantly what is NOT.&nbsp; Try and put in something or reference a library that isn’t compatible with all platforms and you will just get compilation errors.
+Now I will be completely honest, portable libraries alone will not save you here but what they can do is make the job a lot easier and how you exactly what is compatible between ALL of your supported platforms and more importantly what is NOT.  Try and put in something or reference a library that isn’t compatible with all platforms and you will just get compilation errors.
 
 This ensures you put platform specific code in with a platform and central stuff in one place.
 
@@ -132,7 +132,7 @@ At present I have left the original drawing code as my initial portable experime
 
 # Breaking the mold
 
-Right, I am taking a little break from MonoGame for a little while now and returning to SunBurn.&nbsp; Why you may ask, to which the obvious answer should be:
+Right, I am taking a little break from MonoGame for a little while now and returning to SunBurn.  Why you may ask, to which the obvious answer should be:
 
 ### “There is something VERY interesting to see over there”
 
@@ -154,4 +154,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js" language="javascript"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20) &nbsp;<script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList.aspx?amid=9502591)
+// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

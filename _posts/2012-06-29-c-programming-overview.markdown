@@ -20,26 +20,26 @@ As this section is quite lengthy, I am going to push it out in just over one wee
 
 As in previous sections, where the Digipen tutorial differs from XNA and also where new improvements in .NET 3.5 and /NET 4 arise, I will comment as appropriate.
 
-Another good reference for this section of the series is the following webcast – [MSDN Video – introduction to C# language](https://msevents.microsoft.com/CUI/WebCastEventDetails.aspx?EventID=1032333532&EventCategory=5&culture=en-US&CountryCode=US). The available content on the Microsoft events webcasts are always invaluable.
+Another good reference for this section of the series is the following webcast – [MSDN Video – introduction to C# language](https://msevents.microsoft.com/CUI/WebCastEventDetails?EventID=1032333532&EventCategory=5&culture=en-US&CountryCode=US). The available content on the Microsoft events webcasts are always invaluable.
 
 Over the course of the next week or so, this section of the tutorial will be covering (I’ll update with links as each is posted):
 
-- [Types](/2010/04/26/c-programming-overview-continued-types.aspx "Types")
-- [Variables](/2010/04/26/c-programming-overview-continued-variables.aspx "Variables")
-- [Expressions](/2010/04/27/c-programming-overview-continued-expressions-statements-amp-operators.aspx "Expressions")
-- [Functions](/2010/04/27/c-programming-overview-continued-functions.aspx "Functions")
-- [Flow Control](/2010/04/28/c-programming-overview-continued-flow-control.aspx "Flow Control")
-- [Classes](/2010/04/28/c-programming-overview-continued-classes.aspx "Classes")
-- [Arrays](/2010/04/29/c-programming-overview-continued-arrays.aspx "Arrays")
-- [Structures](/2010/04/29/c-programming-overview-continued-structures.aspx "Structures")
-- [Miscellaneous features](/2010/04/30/c-programming-overview-continued-miscellaneous.aspx "Miscellaneous (Digipen)")
+- [Types](/2010/04/26/c-programming-overview-continued-types "Types")
+- [Variables](/2010/04/26/c-programming-overview-continued-variables "Variables")
+- [Expressions](/2010/04/27/c-programming-overview-continued-expressions-statements-amp-operators "Expressions")
+- [Functions](/2010/04/27/c-programming-overview-continued-functions "Functions")
+- [Flow Control](/2010/04/28/c-programming-overview-continued-flow-control "Flow Control")
+- [Classes](/2010/04/28/c-programming-overview-continued-classes "Classes")
+- [Arrays](/2010/04/29/c-programming-overview-continued-arrays "Arrays")
+- [Structures](/2010/04/29/c-programming-overview-continued-structures "Structures")
+- [Miscellaneous features](/2010/04/30/c-programming-overview-continued-miscellaneous "Miscellaneous (Digipen)")
 - New features in .NET 3.5 and 4.0 (as the original DigiPen tutorial was written in .NET 2.0)
 
 The overview below previews some of the facilities above as an introduction before we delve into detail.
 
 P.S
 
-I highly recommend the “[Plugin Collection for Windows Live Writer”](http://wlwplugincollection.codeplex.com/) Code Snippet plug-in for windows live writer fro inserting code into your blogs.&nbsp; It is highly customisable and has a very good interface (which you can even turn off for repeated inserts in the same style.
+I highly recommend the “[Plugin Collection for Windows Live Writer”](http://wlwplugincollection.codeplex.com/) Code Snippet plug-in for windows live writer fro inserting code into your blogs.  It is highly customisable and has a very good interface (which you can even turn off for repeated inserts in the same style.
 
 * * *
 

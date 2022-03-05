@@ -18,7 +18,7 @@ tags:
 <ul>
 <li>The Tower Game Starter kit (Tutorials, Art and assets for creating a simple TD game)</li>
 <li>The Windows 8 Platformer starter kit Art and assets for 2D platformers<br />
-This spurred many devs (including me) to create tutorials from these assets like <a title=](http://mediafiles.w00t.ms/Content/Images/win8platstarter_534_175_v1.01.png)http://bit.ly/Win8PlatformerTutorial&nbsp;](http://wootstudio.ca/win8platstarter "A Sad day for the loss of awesomness")
+This spurred many devs (including me) to create tutorials from these assets like <a title=](http://mediafiles.w00t.ms/Content/Images/win8platstarter_534_175_v1.01.png)http://bit.ly/Win8PlatformerTutorial ](http://wootstudio.ca/win8platstarter "A Sad day for the loss of awesomness")
 
 - The Unity porting kit and guides
 
@@ -32,9 +32,9 @@ Well, since everyone makes a lot of use of these assets (including readers of my
 
 [![image](http://digitalerr0r.files.wordpress.com/2013/09/image306.png?w=624&h=471)](http://bit.ly/PlatformerStarterKit "Free 2D Platformer game assets")
 
-The entire collection can now be found here –[&nbsp;http://bit.ly/PlatformerStarterKit](http://bit.ly/PlatformerStarterKit)
+The entire collection can now be found here –[ http://bit.ly/PlatformerStarterKit](http://bit.ly/PlatformerStarterKit)
 
-> **\*Note For readers of my book you can also find all the art and assets in the Code / Assets download that accompanies the book&nbsp;in the “Downloading the example code” section of the Preface.**
+> **\*Note For readers of my book you can also find all the art and assets in the Code / Assets download that accompanies the book in the “Downloading the example code” section of the Preface.**
 
 Long live the fighters!!
 

@@ -18,7 +18,7 @@ P.S I’m still going to be routing for [Catalin Zima](http://www.catalinzima.co
 
 ## More from George
 
-On the flip side [George Clingerman](http://geekswithblogs.net/clingermangw/Default.aspx) has been reinventing himself of late (lie Madonna but with a little less makeup) and hes been rewriting a lot of his old tutorials, the latest series to get the revitalisation treatment is his Wizard tutorial series.
+On the flip side [George Clingerman](http://geekswithblogs.net/clingermangw/Default) has been reinventing himself of late (lie Madonna but with a little less makeup) and hes been rewriting a lot of his old tutorials, the latest series to get the revitalisation treatment is his Wizard tutorial series.
 
 | 
 
@@ -29,7 +29,7 @@ Wizard Says Hi!
 
 Wizard gets asked to take a bath
 
- | &nbsp; ![/><img src=](http://www.xnadevelopment.com/livewriter/XNADevelopment.comTheWizardPartThree2.0_7491/thewizardducking.png)&nbsp;Wizard hides from bathWizard shoots at person asking him to take a bath |
+ |   ![/><img src=](http://www.xnadevelopment.com/livewriter/XNADevelopment.comTheWizardPartThree2.0_7491/thewizardducking.png) Wizard hides from bathWizard shoots at person asking him to take a bath |
 
-This tutorial takes a walk through the 2D park and is currently focusing on character development (displaying a sprite and giving it actions and things to do), the series looks as promising as ever and knowing George, should have a few nice extra surprises along the way.&nbsp; So keep a lookout on [Georges Developments](http://geekswithblogs.net/clingermangw/Default.aspx) over @ [XNADevelopment.com](http://www.xnadevelopment.com/) (now that he seems to be taking a rest from being constantly on for forums to do some actual Work!!)
+This tutorial takes a walk through the 2D park and is currently focusing on character development (displaying a sprite and giving it actions and things to do), the series looks as promising as ever and knowing George, should have a few nice extra surprises along the way.  So keep a lookout on [Georges Developments](http://geekswithblogs.net/clingermangw/Default) over @ [XNADevelopment.com](http://www.xnadevelopment.com/) (now that he seems to be taking a rest from being constantly on for forums to do some actual Work!!)
 

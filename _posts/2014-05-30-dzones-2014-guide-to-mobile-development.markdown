@@ -32,7 +32,7 @@ tags:
 “This should be suggested reading for all developers!”  
 “The solutions directory is extremely useful.”
 
-&nbsp;
+ 
 
 ### [GET YOUR COPY](http://www.dzone.com/research/guide-to-mobile-development?utm_source=mvb&utm_medium=blog&utm_campaign=Simon_Jackson)
 
@@ -51,7 +51,7 @@ Mobile Landscape, Native vs. Web vs. Hybrid, and more.
 
 Profiles on 39 mobile frameworks and tools.
 
-&nbsp;
+ 
 
  |
 | [Survey Results](http://library.dzone.com/assets/request/whitepaper/169291?utm_source=dzone&utm_medium=landing-page&utm_campaign=MobileGuide)

@@ -11,11 +11,11 @@ tags:
 - ramblings
 ---
 
-Just before I come up for air and start blogging in earnest I received an interesting offer to review another Android book.&nbsp; if you cast you mind back I did a review of “Android 4: New features for Application Development” ([http://bit.ly/12E5q2u](http://bit.ly/12E5q2u "http://bit.ly/12E5q2u")) which was a good highlight of the new bits, this book takes you back to basics and walks you through setting up, your first app and beyond.
+Just before I come up for air and start blogging in earnest I received an interesting offer to review another Android book.  if you cast you mind back I did a review of “Android 4: New features for Application Development” ([http://bit.ly/12E5q2u](http://bit.ly/12E5q2u "http://bit.ly/12E5q2u")) which was a good highlight of the new bits, this book takes you back to basics and walks you through setting up, your first app and beyond.
 
 [![1505OT](/Images/wordpress/2013/07/1505OT_thumb.jpg "1505OT")](http://www.packtpub.com/android-native-development-kit-cookbook/book)
 
-&nbsp;
+ 
 
 ### [Android Native Development cookbook](http://www.packtpub.com/android-native-development-kit-cookbook/book)
 
@@ -39,7 +39,7 @@ So long as you have read any of the “dummies” guides you will have enough kn
 
 ![src=]()
 
-Here is a brief run through what all the chapters are and what to expect from them.&nbsp;&nbsp; The book is laid out like a traditional cookbook focusing on each specific component and laying it out bare.
+Here is a brief run through what all the chapters are and what to expect from them.   The book is laid out like a traditional cookbook focusing on each specific component and laying it out bare.
 
 ### Chapter 1 “Hello NDK”
 
@@ -65,7 +65,7 @@ By the end of this chapter you should have most of what you need to be an effici
 
 ### Chapter 3 “Build and Debug NDK Applications”
 
-Everyone who’s ever touched or used an Android device knows the complexity involved with the different models / capabilities and options in Android development, in this chapter you will be guided through both the how and .what the best practices are when configuring your Android solutions&nbsp; and build environments.
+Everyone who’s ever touched or used an Android device knows the complexity involved with the different models / capabilities and options in Android development, in this chapter you will be guided through both the how and .what the best practices are when configuring your Android solutions  and build environments.
 
 Remember you are rarely building just one Android app but several, to cope with all the variety that exists.
 
@@ -73,17 +73,17 @@ This chapter also includes the know how to setup your Eclipse environment to do 
 
 ### Chapter 4 “Android NDK OpenGL ES API”
 
-The graphics system makes an entrance in this chapter going through all the nitty gritty with the 2D / 3D rendering system and a basic overview for using Open GL shaders.&nbsp;&nbsp; It includes several basic examples to get you started with an appreciation of the area, graphics on most platforms is a very tricky area and this does a good job of explaining the basics well.
+The graphics system makes an entrance in this chapter going through all the nitty gritty with the 2D / 3D rendering system and a basic overview for using Open GL shaders.   It includes several basic examples to get you started with an appreciation of the area, graphics on most platforms is a very tricky area and this does a good job of explaining the basics well.
 
 ### Chapter 5 “Android Native Application API”
 
-Here we start to get really native and work with Android Activities (pages) and working with the various input methods and sensors.&nbsp; There is also an important section on Assets which is critical since it is different on Android to most other platforms.
+Here we start to get really native and work with Android Activities (pages) and working with the various input methods and sensors.  There is also an important section on Assets which is critical since it is different on Android to most other platforms.
 
 ### Chapter 6 “Android NDK Multithreading”
 
 One of the biggest pains on any platform is getting the performance and balance of you app or game right and running at a level appropriate to the user, this becomes crucial when you start working with cheaper devices and need to drag every last ounce of what little power that device has.
 
-Multi-threading (or breaking up your app into little chunks of processing) is the solution in many cases, as with everything though there are good ways to do multi-threading and there are bad ways.&nbsp; This chapter gives a good overview and offers some good practices when it comes to multi-threading
+Multi-threading (or breaking up your app into little chunks of processing) is the solution in many cases, as with everything though there are good ways to do multi-threading and there are bad ways.  This chapter gives a good overview and offers some good practices when it comes to multi-threading
 
 ### Chapter 7 “Other Android NDK API”
 
@@ -91,7 +91,7 @@ As a sum up to the programming portion of the book, here the author rounds some 
 
 ### Chapter 8 “Porting and Using the Existing Libraries with Android NDK”
 
-In the first of two patterns and practices chapters, this chapter covers re-using existing C++ libraries in your Androids apps which is very useful if you do not want to write huge amounts of code yourself.&nbsp; There are a vast amount of libraries both free and paid written in native code and harnessing them is crucial in all but the smallest of apps.
+In the first of two patterns and practices chapters, this chapter covers re-using existing C++ libraries in your Androids apps which is very useful if you do not want to write huge amounts of code yourself.  There are a vast amount of libraries both free and paid written in native code and harnessing them is crucial in all but the smallest of apps.
 
 The chapter also covers some of the trickier parts of reusing libraries that require exception, RTTI, and STL support.
 
@@ -144,9 +144,9 @@ There is a lot of intro material included in the book including the programming 
 
 ![src=]()
 
-I can definitely say I learned a lot of new tips and tricks in this book and it makes a welcome companion to my reference shelf.&nbsp; On my work with MonoGame this will aid me a great deal with some of the trickier backend performance problems than can be faced in complex 3D games.
+I can definitely say I learned a lot of new tips and tricks in this book and it makes a welcome companion to my reference shelf.  On my work with MonoGame this will aid me a great deal with some of the trickier backend performance problems than can be faced in complex 3D games.
 
 The knowledge for how to really make the most out of third party native libraries will also be very handy to make games grow quicker.
 
-All in all I can say I feel a much better Android programmer after reading the&nbsp;[Android Native Development cookbook](http://www.packtpub.com/android-native-development-kit-cookbook/book)&nbsp;and will know where to look when my apps or games just do not work right.
+All in all I can say I feel a much better Android programmer after reading the [Android Native Development cookbook](http://www.packtpub.com/android-native-development-kit-cookbook/book) and will know where to look when my apps or games just do not work right.
 

@@ -10,7 +10,7 @@ tags:
 - xna-2d-tutorials
 ---
 
-Finally we get something more than just looking at a quiet screen blinking images on and off.&nbsp; For this section we look to excite our ears and bring in the sound.&nbsp; We will also look to adding some managed test to the screen to give our actions meaning.
+Finally we get something more than just looking at a quiet screen blinking images on and off.  For this section we look to excite our ears and bring in the sound.  We will also look to adding some managed test to the screen to give our actions meaning.
 
 As usual the original Digipen webcast and supporting materials can be found on [Codeplex here](http://startrooper2dxna.codeplex.com/releases/view/49595) with all the source (both GS3.1 and WP7) for this lesson.
 
@@ -24,20 +24,20 @@ Thankfully, there are no major changes to the audio framework between GS 3.1 and
 
 When playing sound in XNA (and indeed in silver light since it also uses the XNA audio libraries), we generally have 3 different types of audio we want to use:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Sound effect – use once and throw away effect, the simplest form of playing a sound.   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Prolonged or dynamic effect – where more advanced control is required, like altering the pitch, looping, etc.   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Streamed effect – Useful when playing large audio files like background music.
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Sound effect – use once and throw away effect, the simplest form of playing a sound.   
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Prolonged or dynamic effect – where more advanced control is required, like altering the pitch, looping, etc.   
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Streamed effect – Useful when playing large audio files like background music.
 
 In this section we will cover the first two and continue with 3 in the next intermission as it required the more advanced XACT sound library.
 
-&nbsp;
+ 
 
 #### 1.1 Sound Effects
 
 A sound effect is a sound that is triggered by a certain event in the game. This sound can be triggered by a certain   
 action or event, like firing a bullet, a tank explosion, or a ball hitting a wall.
 
-&nbsp;
+ 
 
 #### 1.2 Game Implementation: Adding Sound Effects
 
@@ -45,9 +45,9 @@ Implementing simple sound effects is very easy, just load the audio file and pla
 
 So to implement the sound effect we:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Add two static variables into the “StarTrooperGame.CS” with the rest of the main game variables (after the trooper and condor static variables):
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Add two static variables into the “StarTrooperGame.CS” with the rest of the main game variables (after the trooper and condor static variables):
 > 
-> &nbsp;
+>  
 > 
 >     
 >     
@@ -59,15 +59,15 @@ So to implement the sound effect we:
 >     
 >     
 >     
-> &nbsp;
+>  
 >     
 >     
 >     
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Load the sound files from the Content library in the main LoadContent() function.&nbsp; Ensure you have added the actual files themselves in to the Content project in a folder called “Sounds”:
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Load the sound files from the Content library in the main LoadContent() function.  Ensure you have added the actual files themselves in to the Content project in a folder called “Sounds”:
 >     
 >     
 >     
-> &nbsp;
+>  
 >     
 >     
 >     
@@ -81,11 +81,11 @@ So to implement the sound effect we:
 >         
 >         
 >         
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Call the “Play” function of the sound file in the Trooper code in “StarTrooperSprites.cs”, just add the following at the end of the TrooperFire() function:
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Call the “Play” function of the sound file in the Trooper code in “StarTrooperSprites.cs”, just add the following at the end of the TrooperFire() function:
 >         
 >         
 >         
-> &nbsp;
+>  
 >         
 >         
 >         
@@ -95,38 +95,38 @@ So to implement the sound effect we:
 
 This plays the sound effect file just once until it finishes.
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 ### 2. Prolonged / Dynamic effects
 
-Now some sounds need a bit more time tweaking or need to run continuously.&nbsp; We may also need to run multiple copies of the same sound, for this we need to create a separate copy of the sound effect, this is called a sound effect instance.
+Now some sounds need a bit more time tweaking or need to run continuously.  We may also need to run multiple copies of the same sound, for this we need to create a separate copy of the sound effect, this is called a sound effect instance.
 
 With a sound effect instance, using the same sound effect file we can:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Loop the sound continuously   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Raise or lower the pitch   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Raise or lower the volume   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Pan the sound around   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Apply 3D effects (Will be covered in the Intermission)
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Loop the sound continuously   
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Raise or lower the pitch   
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Raise or lower the volume   
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Pan the sound around   
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Apply 3D effects (Will be covered in the Intermission)
 
 #### 2.1 Music
 
 For the tutorial, the music is the sound that is played on the background while the game is being played. It can be repetitive or   
 just played once.
 
-&nbsp;
+ 
 
 #### 2.2 Game Implementation: Adding Music
 
 Applying an instance to a sound effect is no more difficult than implementing a sound effect, you just need a little extra:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Create two static properties for the music sound and one for the sound effect instance: (you can have more than one instance of a sound running at the same time)
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Create two static properties for the music sound and one for the sound effect instance: (you can have more than one instance of a sound running at the same time)
 > 
-> &nbsp;
+>  
 > 
 >     
 >     
@@ -138,15 +138,15 @@ Applying an instance to a sound effect is no more difficult than implementing a 
 >     
 >     
 >     
-> &nbsp;
+>  
 >     
 >     
 >     
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Load the Sound file for the Sound effect in the LoadContent() function:
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Load the Sound file for the Sound effect in the LoadContent() function:
 >     
 >     
 >     
-> &nbsp;
+>  
 >     
 >     
 >     
@@ -156,11 +156,11 @@ Applying an instance to a sound effect is no more difficult than implementing a 
 >         
 >         
 >         
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Instantiate sound effect instance from the sound effect, set it to loop and start it playing:
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Instantiate sound effect instance from the sound effect, set it to loop and start it playing:
 >         
 >         
 >         
-> &nbsp;
+>  
 >         
 >         
 >         
@@ -176,33 +176,33 @@ Applying an instance to a sound effect is no more difficult than implementing a 
 >             
 > 3: BackgroundMusic.Play();
 
-> ![](http://www.dotnetscraps.com/samples/bullets/034.gif)&nbsp;&nbsp;&nbsp; Note
+> ![](http://www.dotnetscraps.com/samples/bullets/034.gif)    Note
 
-> I hit an issue with the original assets from DigiPen, for some reason the original “Music.WAV” sound file would not load into the GS 4.0 content pipeline and just caused a “Value does not fall within the expected range” error then I tried to play for file.&nbsp; Just recompiling the audio file (using an audio editor, such as [Audacity](http://audacity.sourceforge.net/)) fixed the problem.
+> I hit an issue with the original assets from DigiPen, for some reason the original “Music.WAV” sound file would not load into the GS 4.0 content pipeline and just caused a “Value does not fall within the expected range” error then I tried to play for file.  Just recompiling the audio file (using an audio editor, such as [Audacity](http://audacity.sourceforge.net/)) fixed the problem.
 
 * * *
 
 ### Text
 
-Text is a tricky thing in games, reason being that when a game draws to a screen it only knows how to colour pixels and draw vectors.&nbsp; Fonts and text are completely foreign concepts.
+Text is a tricky thing in games, reason being that when a game draws to a screen it only knows how to colour pixels and draw vectors.  Fonts and text are completely foreign concepts.
 
-The way we get around this is to compile a spritesheet full of all the letters of test that we want to see on the screen and then (the same as sprites) just draw them to the screen in the correct order with the right spacing.&nbsp; Thankfully in XNA this process is simplified a lot, instead of manually creating your text spritesheet in the style you want, XNA dynamically creates the spritesheet in the content pipeline.&nbsp; We are also provided with some simplified text drawing functions that will take a string and draw it to the screen with the proper spacing and orientation.
+The way we get around this is to compile a spritesheet full of all the letters of test that we want to see on the screen and then (the same as sprites) just draw them to the screen in the correct order with the right spacing.  Thankfully in XNA this process is simplified a lot, instead of manually creating your text spritesheet in the style you want, XNA dynamically creates the spritesheet in the content pipeline.  We are also provided with some simplified text drawing functions that will take a string and draw it to the screen with the proper spacing and orientation.
 
-&nbsp;
+ 
 
 #### 2.1 Text Manager
 
 To make life easier if you are going to have a lot of text on the screen, it is easier to manage it in a Text Manager (completely option though) which is similar to the Sprite and Particle managers, it just maintains a list of text to draw, including the locations and colour of the text with the appropriate font.
 
-&nbsp;
+ 
 
 #### 2.2 Why Do We Use It?
 
 In games there can be several reasons why we would want to draw text to the screen:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; To display the content of a text file   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; To display the value of a variable   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; To display certain messages during the game
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    To display the content of a text file   
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    To display the value of a variable   
+> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    To display certain messages during the game
 
 #### 2.3 Game Implementation: Text Manager
 
@@ -210,7 +210,7 @@ First we will set up the Text manager, this is broken in to two parts, first the
 
 So setup a new class in the engine folder called Text.cs (remember to update the namespace to remove the .engine from the end of the namespace) and replace the class definition with the code below:
 
-&nbsp;
+ 
 
     
     
@@ -614,7 +614,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
     
     
     
-    &nbsp;
+     
     
     
     
@@ -626,7 +626,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
     
     
     
-    &nbsp;
+     
     
     
     
@@ -644,7 +644,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
         
         
         
-        &nbsp;
+         
         
         
         
@@ -656,7 +656,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
         
         
         
-        &nbsp;
+         
         
         
         
@@ -702,7 +702,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
             
             
             
-            &nbsp;
+             
             
             
             
@@ -710,7 +710,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
             
             
             
-            &nbsp;
+             
             
             
             
@@ -724,7 +724,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                 
                 
                 
-                &nbsp;
+                 
                 
                 
                 #### Finally add the helper function for adding the text to the text lists in the same way we add sprites:
@@ -754,31 +754,31 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                     
                     
                     
-                    First add a new SpriteFont to the Content Manager.&nbsp; Add a folder for Fonts to the Content Project and then right click on the folder, select “SpriteFont” from the XNA section: ![](http://xna-uk.net/resized-image.ashx/ __size/550x0/__ key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis/2161.SpriteFontInsert.png)
+                    First add a new SpriteFont to the Content Manager.  Add a folder for Fonts to the Content Project and then right click on the folder, select “SpriteFont” from the XNA section: ![](http://xna-uk.net/resized-image.ashx/ __size/550x0/__ key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis/2161.SpriteFontInsert.png)
                     
                     
                     
-                    Give it an appropriate name, I simply kept the default of “SpriteFont1”.&nbsp; If you open this file, you will see it is just a text file, which lists the truetype font name (from which the spritesheet will be created from) and the size of the font (plus some other settings).&nbsp; If you added the FPS component from earlier in the series, you may already have a “SpriteFont1” in the root of the content manager,
+                    Give it an appropriate name, I simply kept the default of “SpriteFont1”.  If you open this file, you will see it is just a text file, which lists the truetype font name (from which the spritesheet will be created from) and the size of the font (plus some other settings).  If you added the FPS component from earlier in the series, you may already have a “SpriteFont1” in the root of the content manager,
                     
                     
                     
-                    you can either move that to the fonts folder and update the FPS component or select a new name.&nbsp; Just remember to use the new name of your font if you change it.
+                    you can either move that to the fonts folder and update the FPS component or select a new name.  Just remember to use the new name of your font if you change it.
                     
                     
                     
-                    &nbsp;
+                     
                     
                     
                     
-                    > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)&nbsp;&nbsp;&nbsp; A big thing to mention, is that XNA by default selects the Open Source font of “Kootenay”.&nbsp; If you use another font be aware of the licensing of that font unless you want a knock on the door from the license police who will be ready and waiting for a check from you. (for all the cash they lost by you using their font!!)
+                    > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)    A big thing to mention, is that XNA by default selects the Open Source font of “Kootenay”.  If you use another font be aware of the licensing of that font unless you want a knock on the door from the license police who will be ready and waiting for a check from you. (for all the cash they lost by you using their font!!)
                     
                     
                     
-                    &nbsp;
+                     
                     
                     
                     
-                    Next you need load the Font you just added, you have two options, either create a new attribute for your font, or simply load the font when you create your text, it is up to you.&nbsp; As I intent to use the same font for all text in the tutorial, lets to the former.
+                    Next you need load the Font you just added, you have two options, either create a new attribute for your font, or simply load the font when you create your text, it is up to you.  As I intent to use the same font for all text in the tutorial, lets to the former.
                     
                     
                     
@@ -786,7 +786,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                     
                     
                     
-                    &nbsp;
+                     
                     
                     
                     
@@ -796,7 +796,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                         
                         
                         
-                        &nbsp;
+                         
                         
                         
                         
@@ -804,7 +804,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                         
                         
                         
-                        &nbsp;
+                         
                         
                         
                         
@@ -814,19 +814,19 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                             
                             
                             
-                            &nbsp;
+                             
                             
                             
                             
-                            Next we will add the text we want on the screen.&nbsp; We will have two sets of text, one for how many shots our trooper has fired and our game score.
+                            Next we will add the text we want on the screen.  We will have two sets of text, one for how many shots our trooper has fired and our game score.
                             
                             
                             
-                            So as we want to update the text (by incrementing shots and score) we need to keep a reference to the Text classes we need to create (if we just wanted text on the screen, we could add it to the game and forget about it).&nbsp; Put this in the beginning of the main game class:
+                            So as we want to update the text (by incrementing shots and score) we need to keep a reference to the Text classes we need to create (if we just wanted text on the screen, we could add it to the game and forget about it).  Put this in the beginning of the main game class:
                             
                             
                             
-                            &nbsp;
+                             
                             
                             
                             
@@ -852,7 +852,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 
                                 
@@ -860,7 +860,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 
                                 
@@ -910,7 +910,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                                     
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     
@@ -918,7 +918,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                                     
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     
@@ -928,7 +928,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                                         
                                         
                                         
-                                        &nbsp;
+                                         
                                         
                                         
                                         
@@ -940,12 +940,12 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                                         
                                         
                                         
-                                        > ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; When the trooper fires, the score does not change   
-                                        > ![](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; The size of the text is really really tiny
+                                        > ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    When the trooper fires, the score does not change   
+                                        > ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    The size of the text is really really tiny
                                         
                                         
                                         
-                                        Why does not the text change?, we have setup the text to use our variable for keeping score and we are incrementing that value each time we fire.&nbsp; the answer is simple, because you have not updated the text, just because you supplied the score attribute when setting up the text does not mean it is linked in anyway, you just added some text and copied the value with you created it.
+                                        Why does not the text change?, we have setup the text to use our variable for keeping score and we are incrementing that value each time we fire.  the answer is simple, because you have not updated the text, just because you supplied the score attribute when setting up the text does not mean it is linked in anyway, you just added some text and copied the value with you created it.
                                         
                                         
                                         
@@ -953,7 +953,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                                         
                                         
                                         
-                                        &nbsp;
+                                         
                                         
                                         
                                         
@@ -967,15 +967,15 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                                             
                                             
                                             
-                                            &nbsp;
+                                             
                                             
                                             
                                             
-                                            So now the number of shots update, what about the Score.&nbsp; Well that will come later when we tell the game that we have scored.&nbsp; We cannot do that now because we do not know when a shot has hit a Condor or when a Condor has actually reached our Trooper and destroyed it.
+                                            So now the number of shots update, what about the Score.  Well that will come later when we tell the game that we have scored.  We cannot do that now because we do not know when a shot has hit a Condor or when a Condor has actually reached our Trooper and destroyed it.
                                             
                                             
                                             
-                                            As for the size of the text, that is because we told it to draw really small.&nbsp; Open up the SpriteFont1.spritefont file (or what ever you called it) and look at the attribute for Size.
+                                            As for the size of the text, that is because we told it to draw really small.  Open up the SpriteFont1.spritefont file (or what ever you called it) and look at the attribute for Size.
                                             
                                             
                                             
@@ -983,19 +983,19 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                                             
                                             
                                             
-                                            &nbsp;
+                                             
                                             
                                             
                                             * * *
                                             
                                             
-                                            &nbsp;
+                                             
                                             
                                             
                                             ### Conclusion
                                             
                                             
-                                            So we now have some sound and we have some text, what could be better than that.&nbsp; Well in the next intermission we will explore the wonders of 3D sound and the power of the XACT tool (XNA Cross-Platform Audio Creation Tool)
+                                            So we now have some sound and we have some text, what could be better than that.  Well in the next intermission we will explore the wonders of 3D sound and the power of the XACT tool (XNA Cross-Platform Audio Creation Tool)
                                             
                                             
                                             

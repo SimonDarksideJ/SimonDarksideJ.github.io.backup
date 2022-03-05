@@ -12,7 +12,7 @@ tags:
 
 [![image](/Images/wordpress/2012/07/image_thumb133.png "image")](/Images/wordpress/2012/07/image130.png)
 
-I have known Kurt for some time now since XNA got off the ground so many years ago, Kurt run the site [XNAResources.com](http://www.xnaresources.com/) which has been a great inspiration to all of us who have been blogging and educating in this area.&nbsp; His Tile Engine tutorial has already spurned several engines to be developed based on his series.
+I have known Kurt for some time now since XNA got off the ground so many years ago, Kurt run the site [XNAResources.com](http://www.xnaresources.com/) which has been a great inspiration to all of us who have been blogging and educating in this area.  His Tile Engine tutorial has already spurned several engines to be developed based on his series.
 
 The Tile Engine series has even gotten a revamp in recent months so it is well worth a look as well as his other [excellent tutorials](http://www.xnaresources.com/default.asp?page=TUTORIALS) on Sprite Map generation and use plus [offscreen colour-keyed maps](http://bit.ly/yFygvj) (if you do not know what that is then you had better start reading!)
 
@@ -32,7 +32,7 @@ Well of course it is about XNA but one of the darker and less practiced implemen
 
 Now I’m not against Visual Basic but it is just not how I was brought up (Ok, yes I did do Basic programming, VBA and some VB 6 but it is not something I easily admit to a crowd of C’# developers ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile12.png)), but I took on the review of this book to widen my horizon to gauge how things have changed.
 
-One of my first impressions of the book is that it is a great template for Agile Design, each section is broken up in to small tasteful chunks which make picking up and running with each of the exercises very easy and&nbsp; comfortable to work with (given i had to translate the VB in my head).
+One of my first impressions of the book is that it is a great template for Agile Design, each section is broken up in to small tasteful chunks which make picking up and running with each of the exercises very easy and  comfortable to work with (given i had to translate the VB in my head).
 
 This really fascinated me because as game developers we really need to learn and use Agile Methods (Scrum) to design and build our games to avoid developer burnout when you cannot se the end in sight, so the fact that this book actively promotes it is excellent, for anyone reading the book now appreciate what this is teaching you and adopt the books practice in to your own development cycle.
 
@@ -63,7 +63,7 @@ This chapter brings to the forefront sprite sheet design and usage in order to b
 
 He then finishes off with a nice extension in to basic sprite based particle effects and a nicely levelled introduction to sound in XNA.
 
-&nbsp;
+ 
 
  |
 | [![image](/Images/wordpress/2012/07/image_thumb136.png "image")](/Images/wordpress/2012/07/image133.png) | 

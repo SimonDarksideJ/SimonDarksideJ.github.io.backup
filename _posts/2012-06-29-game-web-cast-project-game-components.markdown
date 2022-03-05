@@ -10,7 +10,7 @@ tags:
 - xna-2d-tutorials
 ---
 
-### This section is pretty much as-is from the original Digipen webcast.&nbsp; View the [original video for the webcast here](http://startrooper2dxna.codeplex.com/releases/view/43706 "Original lesson three webcast and supporting documentation") on codeplex.
+### This section is pretty much as-is from the original Digipen webcast.  View the [original video for the webcast here](http://startrooper2dxna.codeplex.com/releases/view/43706 "Original lesson three webcast and supporting documentation") on codeplex.
 
 * * *
 
@@ -32,7 +32,7 @@ The rotation along the x-axis is called pitch, along the y-axis yaw, and along t
 
  | [![image](/Images/wordpress/2012/07/image_thumb5.png "image")](/Images/wordpress/2012/07/image5.png) |
 
-| &nbsp; | &nbsp; |
+|   |   |
 | For example, in a flight simulation, the plane can pitch, yaw, and roll. |
 | [![image](/Images/wordpress/2012/07/image_thumb6.png "image")](/Images/wordpress/2012/07/image6.png) |
 
@@ -89,7 +89,7 @@ Some input devices are capable of responding to force feedback, the pushing or r
 - Periodic effect: A force that pulsates according to a defined wave pattern.
 - Condition: A reaction to motion or position along an axis.
 
-For example, a friction effect generates resistance to the movement of the joystick. The direction can be defined for the x-, y-, and z-axes. As with the joystick, the x-axis increases from left to right (-←&nbsp; →+) and the y-axis increases from far to near (-↓&nbsp; +↑). For example, an effect with a direction along the negative y-axis (-↓) tends to push the stick toward users along the y-axis.
+For example, a friction effect generates resistance to the movement of the joystick. The direction can be defined for the x-, y-, and z-axes. As with the joystick, the x-axis increases from left to right (-←  →+) and the y-axis increases from far to near (-↓  +↑). For example, an effect with a direction along the negative y-axis (-↓) tends to push the stick toward users along the y-axis.
 
 The magnitude is the strength of the force. It is measured in units starting from 0 (no force) until 10,000 (the maximum force). A negative value indicates that the force is in the opposite direction. The duration of an effect is measured in microseconds. Periodic effects have a period (the duration of one cycle), which is also measured in microseconds. The phase of a periodic effect is the point at which the playback begins.
 
@@ -118,7 +118,7 @@ Sound and music always play a major role in games. Designers depend on sound and
 > 
 > Note: we can find a compressed (.wav) wave file format.
 > 
-> When building games for XNA, WAV is still the only supported audio file format as compressed file formats such as **MP3 are not supported** by either XNA or XACT (Microsoft Cross-Platform Audio Creation Tool).&nbsp; This is not great but at least the content pipeline compresses the audio a bit when storing but not much.&nbsp; The biggest content likely to be in your game is audio.
+> When building games for XNA, WAV is still the only supported audio file format as compressed file formats such as **MP3 are not supported** by either XNA or XACT (Microsoft Cross-Platform Audio Creation Tool).  This is not great but at least the content pipeline compresses the audio a bit when storing but not much.  The biggest content likely to be in your game is audio.
 
 > ### 3.2.2. MIDI (Musical Instrument Digital Interface)
 > 
@@ -189,15 +189,15 @@ Multi-player games can be implemented by the application setting up and sending 
 
 \* To request to join an existing game or start a new one.
 
-\*&nbsp; To start the game and begin to play.
+\*  To start the game and begin to play.
 
-\*&nbsp; To exit the session.
+\*  To exit the session.
 
-\*&nbsp; Server response:
+\*  Server response:
 
-\*&nbsp; The server collects messages from the clients and issues acknowledgements.
+\*  The server collects messages from the clients and issues acknowledgements.
 
-\*&nbsp; On receipt of an acknowledgement, the client applies the command contained in the message.
+\*  On receipt of an acknowledgement, the client applies the command contained in the message.
 
  | [![image](/Images/wordpress/2012/07/image_thumb13.png "image")](/Images/wordpress/2012/07/image13.png) |
 

@@ -17,7 +17,7 @@ Now one thing that was not in the original game (unless you count the player / e
 
 Now there are actually two approaches to animation in Silverlight those being **Visual States** and **Storyboards** , now under the hood they actually represent the same thing as visual states become storyboards but they are provided for a quick approach to get animations done, whereas full storyboards have a lot of granularity controlling to the second what happens when and how.
 
-Keeping things simple we will just add some visual states for displaying the correct view at the appropriate time with a little smoke and mirrors show. I will point out one thing at this point as this will actually undo what we have previously implemented in the ViewModel as we are passing control of the visibility over to the animation instead of directly controlling it but this is a good thing because instead of just popping up our overlays we are going to animate and fade them instead.&nbsp; We will then add a simple storyboard to animate the items within the overlay controls just to show the difference.
+Keeping things simple we will just add some visual states for displaying the correct view at the appropriate time with a little smoke and mirrors show. I will point out one thing at this point as this will actually undo what we have previously implemented in the ViewModel as we are passing control of the visibility over to the animation instead of directly controlling it but this is a good thing because instead of just popping up our overlays we are going to animate and fade them instead.  We will then add a simple storyboard to animate the items within the overlay controls just to show the difference.
 
 As usual full source for this chapter can be found [here on Codeplex](http://silverxna.codeplex.com/releases/view/73761):
 
@@ -33,9 +33,9 @@ Follow along with the series here:
 > ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 6 – Adding Animation](http://darkgenesis.zenithmoon.com/?p=496 "SilverXNA Part 6 Animation") (here)  
 > ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 7 – A different approach](http://darkgenesis.zenithmoon.com/?p=505 "SilverXNA Part 7 A different approach")
 
-&nbsp;
+ 
 
-#### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the&nbsp;[SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
+#### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
 
 * * *
 
@@ -47,10 +47,10 @@ Pragmatism though teaches us that there must be a middle ground here, yes Animat
 
 Judge for yourself in the articles below (P.S. Jeremy Likeness makes a very compelling argument):
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/023.gif)&nbsp;&nbsp;&nbsp; [Silverlight.Net forum article discussion on MVVM and Storyboards](http://forums.silverlight.net/p/159579/357852.aspx)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/023.gif)&nbsp;&nbsp;&nbsp; [DarksideCookie (no relation) view on MVVMs role in animation](http://chris.59north.com/post/mvvm-and-animations.aspx)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/023.gif)&nbsp;&nbsp;&nbsp; [C# Disiples approach to MVVM animations](http://marlongrech.wordpress.com/2009/06/13/animations-and-mvvm/)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/023.gif)&nbsp;&nbsp;&nbsp; [Stackoverflow question and answer to MVVM animations](http://stackoverflow.com/questions/1649828/wpf-mvvm-property-change-animation)
+> ![align=](http://www.dotnetscraps.com/samples/bullets/023.gif)    [Silverlight.Net forum article discussion on MVVM and Storyboards](http://forums.silverlight.net/p/159579/357852)  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/023.gif)    [DarksideCookie (no relation) view on MVVMs role in animation](http://chris.59north.com/post/mvvm-and-animations)  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/023.gif)    [C# Disiples approach to MVVM animations](http://marlongrech.wordpress.com/2009/06/13/animations-and-mvvm/)  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/023.gif)    [Stackoverflow question and answer to MVVM animations](http://stackoverflow.com/questions/1649828/wpf-mvvm-property-change-animation)
 
 As you can see there is always more than one answer to any issue, for the example here we are going to use a Dependency Property with binding to control our visual states (best approach I’ve come across) and I will show you event binding (the simple way) with storyboards.
 
@@ -58,7 +58,7 @@ As you can see there is always more than one answer to any issue, for the exampl
 
 ## Setup page Visual States
 
-First off we will start by defining our Visual State Animations, key thing to remember that these are states in the true meaning of the word and no object can be manipulated by two different operations.&nbsp; Think of it like this if you have a glass on a table and two people sitting at that table then only one person can move that glass at a time, if the other person tried to move it then it wo not be where they expect it to be because someone else is controlling it.&nbsp; A poor mans attempt to try and explain how it works but worry not if you try and do something wrong Blend will happily slap you in the face and tell you off!
+First off we will start by defining our Visual State Animations, key thing to remember that these are states in the true meaning of the word and no object can be manipulated by two different operations.  Think of it like this if you have a glass on a table and two people sitting at that table then only one person can move that glass at a time, if the other person tried to move it then it wo not be where they expect it to be because someone else is controlling it.  A poor mans attempt to try and explain how it works but worry not if you try and do something wrong Blend will happily slap you in the face and tell you off!
 
 So to begin we need to define the starting state for our screen, in our case the default state is when the game is running, anything else will be placed on top to show that something else has happened in the game, to this end we need to hide away our overlays ready for them to come to light when we need them.
 
@@ -73,7 +73,7 @@ To do this update the following properties of the three overlays on the “GameP
 
 This will place the overlays off the left hand side of the screen and make them invisible.
 
-I will mention one thing here, you may ask why I reduce the opacity to hide the control instead of just setting the Visibility to Collapsed, the answer is simple, Opacity when animated can be gradually altered to give a fade in / out effect, visibility is just another state on/off so it will just pop in or out with no fading.&nbsp; Another point to make is that if an item is visible then it will still respond to interactivity or block interactivity to controls beneath it so plan your animations / visual states accordingly, lastly if you combine altering opacity with visibility (because you need to access controls underneath) then altering the opacity has no effect because visibility will be updated last (so it will fade in while it is hidden and then pop into view).
+I will mention one thing here, you may ask why I reduce the opacity to hide the control instead of just setting the Visibility to Collapsed, the answer is simple, Opacity when animated can be gradually altered to give a fade in / out effect, visibility is just another state on/off so it will just pop in or out with no fading.  Another point to make is that if an item is visible then it will still respond to interactivity or block interactivity to controls beneath it so plan your animations / visual states accordingly, lastly if you combine altering opacity with visibility (because you need to access controls underneath) then altering the opacity has no effect because visibility will be updated last (so it will fade in while it is hidden and then pop into view).
 
 Next we will setup our Visual State group and define our initial Visual state that we have just configured (sort of like the kicking off point for all visual state transitions)
 
@@ -87,7 +87,7 @@ Next we need to add our default state so click the “Add State” icon on our n
 
 [![image](/Images/wordpress/2012/07/image_thumb91.png "image")](/Images/wordpress/2012/07/image88.png)
 
-You will notice that the design window at this point now has a red border and a red icon is next to our new state, this means Blend is now in state recording mode, any property or control you change now will be recorded against the selected state.&nbsp; As this is our default state and everything is ready what ever you do do not change anything ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile6.png).
+You will notice that the design window at this point now has a red border and a red icon is next to our new state, this means Blend is now in state recording mode, any property or control you change now will be recorded against the selected state.  As this is our default state and everything is ready what ever you do do not change anything ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile6.png).
 
 Click on the “Add State” button on the state group again to add another state and call it “DisplayWin”:
 
@@ -120,7 +120,7 @@ So on the “Default Transition”, click on the “Easing Function” icon to s
 
 [![image](/Images/wordpress/2012/07/image_thumb95.png "image")](/Images/wordpress/2012/07/image92.png)
 
-Now when you click on each of the visual states you will see a nice animation for how each control with appear on the screen.&nbsp; You can go a lot further than this by controlling how each state transitions between each other and how they interact so I suggest you play around with this a lot more, even for a basic system it can give you a lot of functionality.
+Now when you click on each of the visual states you will see a nice animation for how each control with appear on the screen.  You can go a lot further than this by controlling how each state transitions between each other and how they interact so I suggest you play around with this a lot more, even for a basic system it can give you a lot of functionality.
 
 Now save all you changes and let us switch back to visual studio to get our code changes in.
 
@@ -187,7 +187,7 @@ I also decided to keep these dependency properties and behaviours separate in th
     
     
     
-    This places the Objects and Timeline view across the entire bottom portion of the windows, just drag it (tabs are draggable you know) to the bottom of the screen until it take up the bottom portion as shown above.&nbsp; Hit “F6” again and the view will return to normal mode.
+    This places the Objects and Timeline view across the entire bottom portion of the windows, just drag it (tabs are draggable you know) to the bottom of the screen until it take up the bottom portion as shown above.  Hit “F6” again and the view will return to normal mode.
     
     
     
@@ -227,7 +227,7 @@ I also decided to keep these dependency properties and behaviours separate in th
     
     
     
-    Next Click on the 3 Second mark and reset the TranslateX field to 0 and then finally click on the 4 second mark and set the TranslateX field to 80.&nbsp; Now our animation will slide left, back to the centre and then off to the right, click on the play button above the timeline to see it in action.
+    Next Click on the 3 Second mark and reset the TranslateX field to 0 and then finally click on the 4 second mark and set the TranslateX field to 80.  Now our animation will slide left, back to the centre and then off to the right, click on the play button above the timeline to see it in action.
     
     
     
@@ -251,7 +251,7 @@ I also decided to keep these dependency properties and behaviours separate in th
     
     
     
-    So now we have our animation we need to kick it off, in this case we are going to use an inbuilt behaviour, namely the “ControlStoryboardAction” behaviour.&nbsp; So either select it from the “behaviours branch of the asset tree or use the control selector to navigate to it, in either case just add it to the “UserControl” root node of the tree, when you have done that you should see the following property window for the behaviour, just set the values accordingly:
+    So now we have our animation we need to kick it off, in this case we are going to use an inbuilt behaviour, namely the “ControlStoryboardAction” behaviour.  So either select it from the “behaviours branch of the asset tree or use the control selector to navigate to it, in either case just add it to the “UserControl” root node of the tree, when you have done that you should see the following property window for the behaviour, just set the values accordingly:
     
     
     
@@ -262,7 +262,7 @@ I also decided to keep these dependency properties and behaviours separate in th
     
     
     
-    Basically here when the “LayoutUpdated” event occurs as identified by the Trigger properties then the “Storyboard1” storyboard will be played.&nbsp; You can add as manay of these behaviours as you wish in any combination, some to start animations, some to stop and if you want you can even add a behaviour to trigger from when a Storyboard has finished playing and start it up again forcing it into an eternal loop.
+    Basically here when the “LayoutUpdated” event occurs as identified by the Trigger properties then the “Storyboard1” storyboard will be played.  You can add as manay of these behaviours as you wish in any combination, some to start animations, some to stop and if you want you can even add a behaviour to trigger from when a Storyboard has finished playing and start it up again forcing it into an eternal loop.
     
     
     
@@ -289,6 +289,6 @@ I also decided to keep these dependency properties and behaviours separate in th
     But just play and mess around with what you have and you will go far, I may return to this part later on as I had a fantastic Idea for a pause menu that resembles the one used in Dead Space, race ya to it!
     
     
-    #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the&nbsp;[SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
+    #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
     
 

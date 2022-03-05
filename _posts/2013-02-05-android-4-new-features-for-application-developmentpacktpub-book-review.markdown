@@ -14,11 +14,11 @@ As a break from my normal programming schedule I was passed a new Android book f
 
 ##### [http://www.packtpub.com/android-4-new-features-for-application-development/book](http://www.packtpub.com/android-4-new-features-for-application-development/book "http://www.packtpub.com/android-4-new-features-for-application-development/book")
 
-&nbsp;
+ 
 
 [![](http://www.packtpub.com/sites/default/files/9526OS_cov.jpg)](http://www.packtpub.com/android-4-new-features-for-application-development/book)
 
-&nbsp;
+ 
 
 So let’s see what we got.
 
@@ -36,11 +36,11 @@ You do not need knowledge of older Android versions, just a beginners intro on h
 
 # ![src=]()
 
-Here’s a brief run through what all the chapters are and what to expect from them.&nbsp;&nbsp; The book is laid out like a cookbook of sorts focusing on each of the new areas covered with firm examples of each.
+Here’s a brief run through what all the chapters are and what to expect from them.   The book is laid out like a cookbook of sorts focusing on each of the new areas covered with firm examples of each.
 
 ### **Chapter 1 “Action Bar for All”**
 
-Introduces the action bar and shows you how to use and configure it.&nbsp; Think menu bar.
+Introduces the action bar and shows you how to use and configure it.  Think menu bar.
 
 ### Chapter 2 “A New Layout – GridLayout”
 
@@ -54,7 +54,7 @@ This chapter also shows Social API usage with examples.
 
 ### Chapter 4 “Calendar APIs”
 
-Covers the Calendar APIs which were introduced with Android Ice Cream Sandwich for managing calendars.&nbsp; Event, attendee, alert, and reminder databases can also be managed with these APIs, they also allow you to easily integrate calendars with Android applications.
+Covers the Calendar APIs which were introduced with Android Ice Cream Sandwich for managing calendars.  Event, attendee, alert, and reminder databases can also be managed with these APIs, they also allow you to easily integrate calendars with Android applications.
 
 This chapter also shows how to use Calendar APIs with examples.
 
@@ -105,7 +105,7 @@ It is not a tutorial book or a beginners book so keep that in mind, as stated ea
 #### Cons:
 
 - Each section is isolated and does not mesh (not exactly a bid thing) but there is no re-use between sections
-- Not much detail on the feature itself however does detail its implementation very well.&nbsp; Likely to need additional reading to understand the feature 
+- Not much detail on the feature itself however does detail its implementation very well.  Likely to need additional reading to understand the feature 
 
 * * *
 
@@ -123,4 +123,4 @@ So if your after another reference for your shelf this is certainly one to pick 
 <script type="text/javascript">var dzone_title = 'Android 4: New features for Application Development–PacktPub Book Review';</script>  
 <script type="text/javascript">var dzone_blurb = 'Android 4: New features for Application Development–PacktPub Book Review';</script>  
 <script type="text/javascript">var dzone_style = '2';</script>  
-<script language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">var addthis_pub="runxc1";</script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20) &nbsp; <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script> [CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList.aspx?amid=9502591) 
+<script language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">var addthis_pub="runxc1";</script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)   <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script> [CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591) 

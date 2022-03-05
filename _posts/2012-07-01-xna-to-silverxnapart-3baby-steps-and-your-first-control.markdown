@@ -17,7 +17,7 @@ Continuing on From [Part 1](http://bit.ly/qgJr56 "XNA to SilverXNA part 1 - The 
 
 Now if you compare the image above to the screenshots from the previous parts of this series or if you are running the game on the emulator currently, you may not see much difference, if so Yay I’ve succeeded.
 
-What may not be immediately apparent is that the Time and Score values have been replaced with Silverlight controls replacing the long section of code in my gamepage for presenting and drawing text.&nbsp; Were not going to stop there in our series as I am going to reduce that even further later on but for now baby steps ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile2.png).
+What may not be immediately apparent is that the Time and Score values have been replaced with Silverlight controls replacing the long section of code in my gamepage for presenting and drawing text.  Were not going to stop there in our series as I am going to reduce that even further later on but for now baby steps ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile2.png).
 
 The finished code for this section will be available as per usual on [Codeplex Here](http://silverxna.codeplex.com/releases/view/72226 "XNA to SilverXNA–Part 3 source on Codeplex").
 
@@ -33,7 +33,7 @@ Follow along with the series here:
 
 Also [Channel 9](http://channel9.msdn.com/posts/Get-to-Windows-Phone-Mango-1-From-XNA-to-SLXNA) are running a similar [video series here](http://channel9.msdn.com/posts/Get-to-Windows-Phone-Mango-1-From-XNA-to-SLXNA) if you prefer videos! ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile2.png)
 
-#### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the&nbsp;[SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
+#### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
 
 * * *
 
@@ -93,7 +93,7 @@ So first off we just declare a new “UIElementRenderer” variable to hold our 
                 
                 
                 
-                The layout is a bit naff at the moment but you should start getting an idea of where we are going.&nbsp; Now we need to layout these controls on the page and if we use the inbuilt features of the Grid we can do this in a way that is safe for all devices of all screens.
+                The layout is a bit naff at the moment but you should start getting an idea of where we are going.  Now we need to layout these controls on the page and if we use the inbuilt features of the Grid we can do this in a way that is safe for all devices of all screens.
                 
                 
                 
@@ -108,14 +108,14 @@ So first off we just declare a new “UIElementRenderer” variable to hold our 
                 
                 
                 
-                If you do not like where it is hover over the line and your cursor should change, holding down the left mouse button will enable you to drag it.&nbsp; However if you put down to many then you can double click the line to remove it
+                If you do not like where it is hover over the line and your cursor should change, holding down the left mouse button will enable you to drag it.  However if you put down to many then you can double click the line to remove it
                 
                  |
                 
                 
                 
                 
-                Right everything is on the screen now and we can start laying it out and formatting it as we wish.&nbsp; First off we will name the two textblocks so we can refer to them later in code, so double click on the first TextBlock to rename it and call it “ **TimeLabel”** (case sensitive).
+                Right everything is on the screen now and we can start laying it out and formatting it as we wish.  First off we will name the two textblocks so we can refer to them later in code, so double click on the first TextBlock to rename it and call it “ **TimeLabel”** (case sensitive).
                 
                 
                 
@@ -141,7 +141,7 @@ So first off we just declare a new “UIElementRenderer” variable to hold our 
                 Apply some margins so it is placed correctly on the screen
                 
                 
-                So first off&nbsp; with the foreground brush selected at the top (should not be hard at this point because a Textblock only has one brush ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile2.png)), set the blue (B) slider to 0 by either dragging the slider across or clicking on the slider and typing 0.
+                So first off  with the foreground brush selected at the top (should not be hard at this point because a Textblock only has one brush ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile2.png)), set the blue (B) slider to 0 by either dragging the slider across or clicking on the slider and typing 0.
                 
                 
                 
@@ -172,7 +172,7 @@ So first off we just declare a new “UIElementRenderer” variable to hold our 
                 
                 
                 
-                Hopefully while you were doing this you will have seen the second textbox jump below the first textbox and appear yellow before you removed it is content.&nbsp; (some people prefer to leave the Text field populated for the design mode, I’ll leave that up to you to decide)
+                Hopefully while you were doing this you will have seen the second textbox jump below the first textbox and appear yellow before you removed it is content.  (some people prefer to leave the Text field populated for the design mode, I’ll leave that up to you to decide)
                 
                 
                 * * *
@@ -222,7 +222,7 @@ So first off we just declare a new “UIElementRenderer” variable to hold our 
                     P.S. Yes I noticed the Gems no longer jump up and down and that is probably because of the comprise I made in regards to which time value it was using, I will fix that if I get round to it, lol
                     
                     
-                    #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the&nbsp;[SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
+                    #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
                 
                 
                 

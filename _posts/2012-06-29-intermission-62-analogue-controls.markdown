@@ -22,14 +22,14 @@ Code for the complete intermission 6 can be found [here on Codeplex](http://star
 
 With XNA we have a few analogue controls to choose from:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Two thumbstick controls – X/Y controls   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Two Triggers – single direction feedback
+> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Two thumbstick controls – X/Y controls   
+> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Two Triggers – single direction feedback
 
 These off a gradual response rather than the on/off switch from the digital controls.
 
 Unfortunately Joysticks are not supported on the PC in XNA,yet…
 
-&nbsp;
+ 
 
 * * *
 
@@ -37,7 +37,7 @@ Unfortunately Joysticks are not supported on the PC in XNA,yet…
 
 Does not take too much to update our code to use these analogue controls, first off we need to add a new function to our input class:
 
-&nbsp;
+ 
 
     
     
@@ -131,7 +131,7 @@ Does not take too much to update our code to use these analogue controls, first 
         
         
         
-        Now that we have our test function and control we need to update our game to use it.&nbsp; This part is not as simple as we need to change the input handling for our trooper a fair bit to enable it to be able to use both analogue and digital controls, here is what the updated update section looks like for the trooper in StarTrooperSprites:
+        Now that we have our test function and control we need to update our game to use it.  This part is not as simple as we need to change the input handling for our trooper a fair bit to enable it to be able to use both analogue and digital controls, here is what the updated update section looks like for the trooper in StarTrooperSprites:
         
         
         
@@ -269,12 +269,12 @@ Does not take too much to update our code to use these analogue controls, first 
             
             
             
-            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; We had already updated the variable for capturing the change in movement to a Vector 2, so no change there (Vector2 vel).   
-            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Next I have added a test against a new configuration option to see if the player has chosen to use Analogue or Digital Controls in a switch statement (more on that in a bit).   
-            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; If we are using analogue controls we update our movement vector (vel) by the amount returned from our new function.&nbsp; now if the player only moves the stick a small amount the trooper will move slower.&nbsp; The more the player moves the stick the faster the trooper will travel.   
-            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; If we are not using analogue controls (assuming it is digital) then we use the old functions.&nbsp; Although they have been trimmed down a bit now to just move.   
-            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; The next step adds a new function to check if the amount the trooper is going to move will put the player outside the bound of the drawable screen, if the trooper is going to move outside, we Zero it is velocity so that it does not move.&nbsp; If the trooper still has room to move then we update it is velocity (which in turn updates the sprite in the Sprite’s update call).   
-            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Finally we have added another test, since we need a way to check which way the trooper is travelling and we can no longer rely on which key the player is pressing (because with analogue we just have a movement amount not a specific move action like press left), we just check which way on the X axis the trooper is going to move, if the trooper is going to move left ( –X) then we flip the sprite to draw it the other way, if not we set it back to the original direction, right.
+            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    We had already updated the variable for capturing the change in movement to a Vector 2, so no change there (Vector2 vel).   
+            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Next I have added a test against a new configuration option to see if the player has chosen to use Analogue or Digital Controls in a switch statement (more on that in a bit).   
+            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    If we are using analogue controls we update our movement vector (vel) by the amount returned from our new function.  now if the player only moves the stick a small amount the trooper will move slower.  The more the player moves the stick the faster the trooper will travel.   
+            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    If we are not using analogue controls (assuming it is digital) then we use the old functions.  Although they have been trimmed down a bit now to just move.   
+            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    The next step adds a new function to check if the amount the trooper is going to move will put the player outside the bound of the drawable screen, if the trooper is going to move outside, we Zero it is velocity so that it does not move.  If the trooper still has room to move then we update it is velocity (which in turn updates the sprite in the Sprite’s update call).   
+            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Finally we have added another test, since we need a way to check which way the trooper is travelling and we can no longer rely on which key the player is pressing (because with analogue we just have a movement amount not a specific move action like press left), we just check which way on the X axis the trooper is going to move, if the trooper is going to move left ( –X) then we flip the sprite to draw it the other way, if not we set it back to the original direction, right.
             
             
             
@@ -412,7 +412,7 @@ Does not take too much to update our code to use these analogue controls, first 
                         
                         
                         
-                        Note that even the enum is marked as serializable for when we save the settings.&nbsp;&nbsp; And now the keymappings themselves into the InputMappings class itself:
+                        Note that even the enum is marked as serializable for when we save the settings.   And now the keymappings themselves into the InputMappings class itself:
                         
                         
                         
@@ -456,8 +456,8 @@ Does not take too much to update our code to use these analogue controls, first 
                                 
                                 
                                 
-                                > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; The trooper moves down when I push up on the control stick   
-                                > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; The background has disappeared
+                                > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    The trooper moves down when I push up on the control stick   
+                                > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    The background has disappeared
                                 
                                 
                                 
@@ -465,21 +465,21 @@ Does not take too much to update our code to use these analogue controls, first 
                                 
                                 
                                 
-                                As for the trooper movement, there is a very simple explanation for this.&nbsp; In our game world moving up actually means reducing the Y value of our sprite, as in our screen space Y increases down the screen.&nbsp; However, the control stick increases the amount of Y movement as you push up, Up = more Y.&nbsp;&nbsp; So in matter of fact pushing up increases the amount of Y movement and hence our trooper moves down the screen.
+                                As for the trooper movement, there is a very simple explanation for this.  In our game world moving up actually means reducing the Y value of our sprite, as in our screen space Y increases down the screen.  However, the control stick increases the amount of Y movement as you push up, Up = more Y.   So in matter of fact pushing up increases the amount of Y movement and hence our trooper moves down the screen.
                                 
                                 
                                 
-                                Simple answer to this, just flip the Y value when it moves, but as I am also a sucker for having things configurable (let the player decide on which is the right way, who knows some sucker may like it that way, no offence to those that do?), we will also add a configuration setting for this flipping.&nbsp; So first add the new configuration and it is default:
+                                Simple answer to this, just flip the Y value when it moves, but as I am also a sucker for having things configurable (let the player decide on which is the right way, who knows some sucker may like it that way, no offence to those that do?), we will also add a configuration setting for this flipping.  So first add the new configuration and it is default:
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 
                                 * * *
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 
                                 ### Flipping the controls
@@ -493,7 +493,7 @@ Does not take too much to update our code to use these analogue controls, first 
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 
                                 
@@ -507,7 +507,7 @@ Does not take too much to update our code to use these analogue controls, first 
                                     
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     
@@ -515,7 +515,7 @@ Does not take too much to update our code to use these analogue controls, first 
                                     
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     
@@ -529,7 +529,7 @@ Does not take too much to update our code to use these analogue controls, first 
                                         
                                         
                                         
-                                        &nbsp;
+                                         
                                         
                                         
                                         
@@ -537,7 +537,7 @@ Does not take too much to update our code to use these analogue controls, first 
                                         
                                         
                                         
-                                        &nbsp;
+                                         
                                         
                                         
                                         
@@ -559,7 +559,7 @@ Does not take too much to update our code to use these analogue controls, first 
                                             
                                             
                                             
-                                            &nbsp;
+                                             
                                             
                                             
                                             
@@ -567,7 +567,7 @@ Does not take too much to update our code to use these analogue controls, first 
                                             
                                             
                                             
-                                            &nbsp;
+                                             
                                             
                                             
                                             
@@ -593,15 +593,15 @@ Does not take too much to update our code to use these analogue controls, first 
                                                 
                                                 
                                                 
-                                                &nbsp;
+                                                 
                                                 
                                                 
                                                 
-                                                Here we simply invert the value on the Y axis of the value supplied and return it.&nbsp; You could also add a InvertX option, but some might see that as silly (or really tricky if you wanted to add confusion in your control style, like a confusion bomb)
+                                                Here we simply invert the value on the Y axis of the value supplied and return it.  You could also add a InvertX option, but some might see that as silly (or really tricky if you wanted to add confusion in your control style, like a confusion bomb)
                                                 
                                                 
                                                 
-                                                &nbsp;
+                                                 
                                                 
                                                 
                                                 * * *
@@ -609,11 +609,11 @@ Does not take too much to update our code to use these analogue controls, first 
                                                 ### Conclusion
                                                 
                                                 
-                                                So there we have it, analogue controls.&nbsp; Feel free to have a play and see what you can add to this, the project on codeplex also has some other configuration options added just so I could change the settings around while the game was running (very basic though).&nbsp; See if you can update the Fire mode to shoot more fireballs the more the player leans on the triggers.
+                                                So there we have it, analogue controls.  Feel free to have a play and see what you can add to this, the project on codeplex also has some other configuration options added just so I could change the settings around while the game was running (very basic though).  See if you can update the Fire mode to shoot more fireballs the more the player leans on the triggers.
                                                 
                                                 
                                                 
-                                                Next intermission is on something a little bit more snazzy, Particles, and also something a little less interesting but very important resource pools.&nbsp; After that we have a much needed performance update and then update our WP7 project with what we have so far.
+                                                Next intermission is on something a little bit more snazzy, Particles, and also something a little less interesting but very important resource pools.  After that we have a much needed performance update and then update our WP7 project with what we have so far.
                                                 
                                                 
                                                 Technorati Tags: [XNA](http://technorati.com/tags/XNA)
@@ -623,7 +623,7 @@ Does not take too much to update our code to use these analogue controls, first 
                                                 ### Updates for the Background
                                                 
                                                 
-                                                Almost done actually, we still need to update some of the code to get our background back.&nbsp;
+                                                Almost done actually, we still need to update some of the code to get our background back. 
                                                 
                                                 
                                                 
@@ -827,7 +827,7 @@ Does not take too much to update our code to use these analogue controls, first 
                                                                 
                                                                 
                                                                 
-                                                                That should do it but I also made one other change here that will help us later, I’ve set the velocity of the main background so that the sprite update loop will move the background instead of just incrementing it by 1 all the time in the StarTrooperBackground class.&nbsp; This enables us to change the speed of the background later.
+                                                                That should do it but I also made one other change here that will help us later, I’ve set the velocity of the main background so that the sprite update loop will move the background instead of just incrementing it by 1 all the time in the StarTrooperBackground class.  This enables us to change the speed of the background later.
                                                                 
                                                                 
                                                                 
@@ -873,7 +873,7 @@ Does not take too much to update our code to use these analogue controls, first 
                                                                     
                                                                     
                                                                     
-                                                                    So all this update function does now is to shift the background up to the top once it has passed beyond view at the bottom of the screen.&nbsp; However if the background was moving up this would not work.
+                                                                    So all this update function does now is to shift the background up to the top once it has passed beyond view at the bottom of the screen.  However if the background was moving up this would not work.
                                                                     
                                                                     
                                                                     
@@ -907,7 +907,7 @@ Does not take too much to update our code to use these analogue controls, first 
                                                                         
                                                                         
                                                                         
-                                                                        &nbsp;
+                                                                         
                                                                         
                                                                         
                                                                         
@@ -965,7 +965,7 @@ Does not take too much to update our code to use these analogue controls, first 
                                                                             
                                                                             
                                                                             
-                                                                            &nbsp;
+                                                                             
                                                                             
                                                                             
                                                                             

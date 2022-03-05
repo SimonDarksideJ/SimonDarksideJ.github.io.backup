@@ -32,7 +32,7 @@ Now if you have not already, you should fill in your profile on the site, this i
 
 There is a huge amount of traffic being reported on the site, not just by devs but also by people interested in the games being built. So it builds up some prestige and gets people following you. (see 2)
 
-Your profile talks about you, what games you have built, where to find them, where to find more out about you.&nbsp; You are in fact selling yourself as someone to take notice in for the duration of the completion and beyond!&nbsp; Do not sell yourself short!
+Your profile talks about you, what games you have built, where to find them, where to find more out about you.  You are in fact selling yourself as someone to take notice in for the duration of the completion and beyond!  Do not sell yourself short!
 
 ## 2: Build an audience
 
@@ -40,7 +40,7 @@ Your profile talks about you, what games you have built, where to find them, whe
 
 People are repeatedly coming back to the site now that the profile system is up and running. Reviewers, youtuber’s and review sites are already doing the rounds checking on the entries.
 
-There is a lot of weight behind this competition, not just from Microsoft but also from its partners, sponsors and a fair amount of media backing as well as the whole gaming community.&nbsp; Dream Build Play even in its early XNA days of Windows / Xbox and Phone always got a lot of attention.&nbsp; Now that the net has widened with so many more chances to win.
+There is a lot of weight behind this competition, not just from Microsoft but also from its partners, sponsors and a fair amount of media backing as well as the whole gaming community.  Dream Build Play even in its early XNA days of Windows / Xbox and Phone always got a lot of attention.  Now that the net has widened with so many more chances to win.
 
 > ### \*Note  
 > You do not have to enter just one category, you can ENTER THEM ALL, with either the same game or multiple!
@@ -49,7 +49,7 @@ There is a lot of weight behind this competition, not just from Microsoft but al
 
 ![Team, Motivation, Teamwork, Together, Group, Community](https://cdn.pixabay.com/photo/2014/07/08/10/47/team-386673_960_720.jpg)
 
-If you are struggling, you can use the site to find other people in the event who may be able to help you out. Some even may be there to just offer their services!&nbsp; I will follow up on another post about this specific service later.&nbsp;
+If you are struggling, you can use the site to find other people in the event who may be able to help you out. Some even may be there to just offer their services!  I will follow up on another post about this specific service later. 
 
 Remember, these profiles advertise you as much as they advertise everyone else. If you are stuck, shout out for help. if you have time to spare or a fantastic set of skillz, then offer your services (and maximise your potential for winning!)
 
@@ -57,9 +57,9 @@ Remember, these profiles advertise you as much as they advertise everyone else. 
 
 [![Image result for showcase games](https://c1.staticflickr.com/6/5680/23513849155_e0b22da4f5_b.jpg)](https://www.google.co.uk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwia0KXlkOvVAhXC6xQKHZIuDRsQjRwIBw&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2F46508004%40N03%2F23513849155&psig=AFQjCNErA2GT_DJMis0FxxCZyObqGd8kKw&ust=1503501250178735)
 
-A few smart devs have also started listing their existing projects that are live. Whilst not official entries, it highlights the devs capabilities for the projects they have already worked on.&nbsp; like a person’s game, check out the rest of the catalogue and get excited for more!&nbsp; Give people MORE reason to follow you!
+A few smart devs have also started listing their existing projects that are live. Whilst not official entries, it highlights the devs capabilities for the projects they have already worked on.  like a person’s game, check out the rest of the catalogue and get excited for more!  Give people MORE reason to follow you!
 
-Give people more reason to follow your project and help you promote your entry.&nbsp; Feel free to put up demo’s / alpha builds on demo sites (like Itchio!) and go wild to showcase why yours is the best game in town.&nbsp; All this will lead on once you eventually publish your game as well!
+Give people more reason to follow your project and help you promote your entry.  Feel free to put up demo’s / alpha builds on demo sites (like Itchio!) and go wild to showcase why yours is the best game in town.  All this will lead on once you eventually publish your game as well!
 
 * * *
 
@@ -72,5 +72,5 @@ For now, all the best to everyone competing! It is already starting to shape up 
 ![image](/Images/wordpress/2017/06/image_thumb-2.png?resize=660%2C188&ssl=1)
 
 P.S.  
-If you have read this far, be sure to check out my upcoming post about game dev diaries.&nbsp; In short, if you have not already, START ONE NOW!! ![Open-mouthed smile](/Images/wordpress/2017/08/wlEmoticon-openmouthedsmile.png)
+If you have read this far, be sure to check out my upcoming post about game dev diaries.  In short, if you have not already, START ONE NOW!! ![Open-mouthed smile](/Images/wordpress/2017/08/wlEmoticon-openmouthedsmile.png)
 

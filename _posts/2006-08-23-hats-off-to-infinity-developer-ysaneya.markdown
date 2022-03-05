@@ -7,7 +7,7 @@ tags:
 - ramblings
 ---
 
-&nbsp;
+ 
 
 I’d recommend any one with some spare time on their hands to wander over to the [Journal of Ysaneya.](http://www.gamedev.net/community/forums/mod/journal/journal.asp?jn=263350)
 
@@ -15,5 +15,5 @@ That guy is going from strength to strength with his [procedurally generated](ht
 
 ![](http://fl-tw.com/Infinity/Media/Screenshots/nebulae38.jpg)
 
-just one of the latest creations (this time with nebula’s, previous work includes procedurally generated worlds and landscapes) and all procedurally generated, damn fine work.&nbsp;
+just one of the latest creations (this time with nebula’s, previous work includes procedurally generated worlds and landscapes) and all procedurally generated, damn fine work. 
 

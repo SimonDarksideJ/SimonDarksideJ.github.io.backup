@@ -10,7 +10,7 @@ tags:
 - xna-2d-tutorials
 ---
 
-The title reflects that odd moment when you have added some new content to your project, you have been meticulous and double checked everything, it should be OK.&nbsp; But it is not.
+The title reflects that odd moment when you have added some new content to your project, you have been meticulous and double checked everything, it should be OK.  But it is not.
 
 The odd pain as you scramble through the code, add breakpoints and sometimes spend hours looking for what you missed, miss-typed or just plain got wrong.
 
@@ -18,59 +18,59 @@ Drawing bugs are fairly easy to recognise, two objects are drawn in the wrong or
 
 Breaking bugs are generally easy, your code wo not compile and you get lots of warnings, to trace back o the root of the problem (my worst offence has always been the scope of a class or function, always takes me a few attempts to find the right balance).
 
-In games there is nothing worse than a performance bug.&nbsp; Which is what I hit while writing the last Intermission, so this has prompted and impromptu ( ![Smile](/blogs/darkgenesis/wlEmoticonsmile_02957592.png)) intermission before we jump back on to Windows Phone 7 and get that back up to speed.
+In games there is nothing worse than a performance bug.  Which is what I hit while writing the last Intermission, so this has prompted and impromptu ( ![Smile](/blogs/darkgenesis/wlEmoticonsmile_02957592.png)) intermission before we jump back on to Windows Phone 7 and get that back up to speed.
 
 Code is already included in the same [codeplex area](http://startrooper2dxna.codeplex.com/releases/view/46712) as the last post, for those of you like with with an astonishingly bad short term memory…. (the link is earlier on this line)…
 
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 ### Identifying the problem
 
-Discovering a performance problem is usually easy to spot, your game runs like it was published on a badly written and run on a [ZX 81](http://en.wikipedia.org/wiki/ZX81) (almost showing my age, ZX 81’s were not new when I started doing games ![Open-mouthed smile](/Images/wordpress/2012/06/wlEmoticon-openmouthedsmile1.png), doh.).&nbsp; It is slow, it is cranky, it stops responding to your input or looks like it has crashed (that is indeed if it has not)
+Discovering a performance problem is usually easy to spot, your game runs like it was published on a badly written and run on a [ZX 81](http://en.wikipedia.org/wiki/ZX81) (almost showing my age, ZX 81’s were not new when I started doing games ![Open-mouthed smile](/Images/wordpress/2012/06/wlEmoticon-openmouthedsmile1.png), doh.).  It is slow, it is cranky, it stops responding to your input or looks like it has crashed (that is indeed if it has not)
 
 There are several tools for digging in to your game and wheezing out all the intricate details for how your game is running:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)&nbsp;&nbsp;&nbsp; [MS PIX](http://msdn.microsoft.com/en-gb/directx/default.aspx) (part of the Direct X SDK)   
-> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)&nbsp;&nbsp;&nbsp; [NVIDIA PERFHud](http://developer.nvidia.com/object/nvperfhud_home.html) (part of the Nvidia PerfSDK) – Useful [Post here](http://mynameismjp.wordpress.com/2010/03/06/d3d-performance-and-debugging-tools-round-up-perfhud/) on how to get the most of this in XNA   
-> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)&nbsp;&nbsp;&nbsp; [AMD PerfTools](http://developer.amd.com/gpu/PerfStudio/Pages/default.aspx)   
-> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)&nbsp;&nbsp;&nbsp; The [Performance Timers](http://performancetimers.codeplex.com/) Project on Codeplex (could not get this to actually work, but with a little more time it looks like it is quite good and simple to use)
+> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    [MS PIX](http://msdn.microsoft.com/en-gb/directx/default) (part of the Direct X SDK)   
+> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    [NVIDIA PERFHud](http://developer.nvidia.com/object/nvperfhud_home.html) (part of the Nvidia PerfSDK) – Useful [Post here](http://mynameismjp.wordpress.com/2010/03/06/d3d-performance-and-debugging-tools-round-up-perfhud/) on how to get the most of this in XNA   
+> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    [AMD PerfTools](http://developer.amd.com/gpu/PerfStudio/Pages/default)   
+> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    The [Performance Timers](http://performancetimers.codeplex.com/) Project on Codeplex (could not get this to actually work, but with a little more time it looks like it is quite good and simple to use)
 
 All these tools are good and will give you a great deal of information on how your game or app is running, however….
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 ### The KISS approach
 
-As we do not have a large asset base or a complex set of routines in the background, there are a few simple tricks to see if you do actually have a problem.&nbsp; We just need to take some timing measurements and check our game is actually running as expected.
+As we do not have a large asset base or a complex set of routines in the background, there are a few simple tricks to see if you do actually have a problem.  We just need to take some timing measurements and check our game is actually running as expected.
 
 I have used these principles and solved many an issue in the past, they are always a good indicator if you need to dig deeper or if there is just a simple problem that needs tweaking.
 
-As an example of this, one of the first games I wrote for a competition seemed to be working well, however over time the game would get slower and slower until it became unresponsive.&nbsp; After doing some checking I could not see any actual problem.&nbsp; After putting some timings into my code and a few tests, the answer became obvious, I was creating new spritebatch’s each update loop and they were either left in memory or were making garbage.&nbsp; A two second code change soon resolved that and everything was hunky dory (until the next time ![Smile](/Images/wordpress/2012/06/wlEmoticon-smile.png)).
+As an example of this, one of the first games I wrote for a competition seemed to be working well, however over time the game would get slower and slower until it became unresponsive.  After doing some checking I could not see any actual problem.  After putting some timings into my code and a few tests, the answer became obvious, I was creating new spritebatch’s each update loop and they were either left in memory or were making garbage.  A two second code change soon resolved that and everything was hunky dory (until the next time ![Smile](/Images/wordpress/2012/06/wlEmoticon-smile.png)).
 
 So how did I do this, the answer is actually very straight forward, use a clock ![Winking smile](/Images/wordpress/2012/06/wlEmoticon-winkingsmile.png).
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 ### Game Monitoring or Stopwatch class
 
-Implementing watches in your code is very straight forward and I’ve put together a little Game Component to do all the hard work for you (not that it is that hard really).&nbsp; This component offers two simple features:
+Implementing watches in your code is very straight forward and I’ve put together a little Game Component to do all the hard work for you (not that it is that hard really).  This component offers two simple features:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)&nbsp;&nbsp;&nbsp; A stopwatch list which measures when events start, finish and the time it took.   
-> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)&nbsp;&nbsp;&nbsp; A display list, to record things when they happen and what they look like.
+> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    A stopwatch list which measures when events start, finish and the time it took.   
+> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    A display list, to record things when they happen and what they look like.
 
 Here is what the class looks like:
 
@@ -696,7 +696,7 @@ Here is what the class looks like:
     
     
     
-    I have not commented the code much so I’ll walk you through it.&nbsp; First off, like the Particle Manager I created a basic Drawable game component (“Create New Item” –\> XNA “Game Component” –\> change inherited type from Game Component to Drawable game component and copy Draw and Content functions in)
+    I have not commented the code much so I’ll walk you through it.  First off, like the Particle Manager I created a basic Drawable game component (“Create New Item” –\> XNA “Game Component” –\> change inherited type from Game Component to Drawable game component and copy Draw and Content functions in)
     
     
     
@@ -704,44 +704,44 @@ Here is what the class looks like:
     
     
     
-    > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)&nbsp;&nbsp;&nbsp; The STOPWATCH class stores start and end times in computer ticks and has a single property which displays the difference between start and finish   
-    > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)&nbsp;&nbsp;&nbsp; The DISPLAYINFO class stores two information attributes, one for Text and the other for numeric’s (so that I could store information about emitters and the amount of particles they had)
+    > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    The STOPWATCH class stores start and end times in computer ticks and has a single property which displays the difference between start and finish   
+    > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    The DISPLAYINFO class stores two information attributes, one for Text and the other for numeric’s (so that I could store information about emitters and the amount of particles they had)
     
     
     
-    Following on from these structs is the main class itself, this has two Dictionaries that use the two structs.&nbsp; I use dictionaries because I can use the Key of the dictionary to also store information about each item, like the Name of the stopwatch I’m recording (so I can have several and track them back later).
+    Following on from these structs is the main class itself, this has two Dictionaries that use the two structs.  I use dictionaries because I can use the Key of the dictionary to also store information about each item, like the Name of the stopwatch I’m recording (so I can have several and track them back later).
     
     
     
-    In the constructor, I also load a font into the class, this is so the class itself can write it is output to the screen and I do not need to modify any part of my game code to do it, the class is self maintained.&nbsp; We also set the Draw order for the component to ensure it is always on the top of the screen and does not interfere with the game itself. (more on fonts later in the series)
+    In the constructor, I also load a font into the class, this is so the class itself can write it is output to the screen and I do not need to modify any part of my game code to do it, the class is self maintained.  We also set the Draw order for the component to ensure it is always on the top of the screen and does not interfere with the game itself. (more on fonts later in the series)
     
     
     
-    After that the next section that has changed is the Draw function.&nbsp; Pretty basic stuff though where we loop through each of the two dictionaries and display their contents, one after the other on the left hand side of the screen (note the “I” variable which helps control where each line is drawn)
+    After that the next section that has changed is the Draw function.  Pretty basic stuff though where we loop through each of the two dictionaries and display their contents, one after the other on the left hand side of the screen (note the “I” variable which helps control where each line is drawn)
     
     
     
-    Lastly we have 4 helper functions for Starting / Stopping watches and for adding new information text or removing it from display.&nbsp; These just make the implementation in the game code much smoother and easier (reducing them to single line calls for each)
+    Lastly we have 4 helper functions for Starting / Stopping watches and for adding new information text or removing it from display.  These just make the implementation in the game code much smoother and easier (reducing them to single line calls for each)
     
     
     
-    > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)&nbsp;&nbsp;&nbsp; I originally used a “STRUCT” for the stopwatch and displayinfo classes.&nbsp; Now it was not exactly wrong but I realised an important lesson there.&nbsp; ONLY use STRCTS for read only single use classes.&nbsp; If you intend to change the values stored in a struct, then you probably should not be using a struct.&nbsp; Because to change the values you need to really create a new or copy instance of the struct and overwrite it with one with the updated settings.
+    > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)    I originally used a “STRUCT” for the stopwatch and displayinfo classes.  Now it was not exactly wrong but I realised an important lesson there.  ONLY use STRCTS for read only single use classes.  If you intend to change the values stored in a struct, then you probably should not be using a struct.  Because to change the values you need to really create a new or copy instance of the struct and overwrite it with one with the updated settings.
     
     
     * * *
     
     
-    &nbsp;
+     
     
     
     ### Adding the checks
     
     
-    It usually pays to only put tests and check in where you need them, starting at a high enough point to know where to drill down.&nbsp; So start with a few tests and add more as you need them (I have added a fair few to the test project, but here is where to start).
+    It usually pays to only put tests and check in where you need them, starting at a high enough point to know where to drill down.  So start with a few tests and add more as you need them (I have added a fair few to the test project, but here is where to start).
     
     
     
-    One thing to keep straight in your mind if the old “[Observer effect](http://en.wikipedia.org/wiki/Observer_effect)”.&nbsp; “By watching or observing something, you change that thing” (or something like that), just look up the [Schrödinger’s cat](http://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat) theory to tax you mind.&nbsp; Basically, by adding observations or tests you are in fact changing how your game runs.&nbsp; Too many tests can cause other problems which may indeed create a new performance issue for you to solve.&nbsp; As always remember KISS (I should record tat tune), start small, drill down and remove unneeded tests.
+    One thing to keep straight in your mind if the old “[Observer effect](http://en.wikipedia.org/wiki/Observer_effect)”.  “By watching or observing something, you change that thing” (or something like that), just look up the [Schrödinger’s cat](http://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat) theory to tax you mind.  Basically, by adding observations or tests you are in fact changing how your game runs.  Too many tests can cause other problems which may indeed create a new performance issue for you to solve.  As always remember KISS (I should record tat tune), start small, drill down and remove unneeded tests.
     
     
     1. Start with the main functions in your game, Draw and Update to see if you have an Update or Draw issue ![Smile](/Images/wordpress/2012/06/wlEmoticon-smile.png)
@@ -890,7 +890,7 @@ Here is what the class looks like:
                             
                             
                             
-                            > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)&nbsp;&nbsp;&nbsp; Note that each Stop and Start Timer call uses the same Key / Text, this is what is used in the DisplayTimer class’s dictionary to identify which clock we are dealing with.
+                            > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)    Note that each Stop and Start Timer call uses the same Key / Text, this is what is used in the DisplayTimer class’s dictionary to identify which clock we are dealing with.
                             
                             
                             
@@ -902,7 +902,7 @@ Here is what the class looks like:
                             
                             
                             
-                            So I then added some information queries into the Emitter Update calls to see just how much information the draw call was dealing with.&nbsp; In the Particle Manager class I added the following to the beginning of the Update function:
+                            So I then added some information queries into the Emitter Update calls to see just how much information the draw call was dealing with.  In the Particle Manager class I added the following to the beginning of the Update function:
                             
                             
                             
@@ -938,7 +938,7 @@ Here is what the class looks like:
                                     
                                     
                                     
-                                    The first calls ID is set to –1 to separate it from the rest of the emitters in the information as I want to know exactly how many emitters have been called and are active.&nbsp; In the second call I use the Emitters NODE ID as the key for the report and then output the emitters type and the number of particles active in each emitter.
+                                    The first calls ID is set to –1 to separate it from the rest of the emitters in the information as I want to know exactly how many emitters have been called and are active.  In the second call I use the Emitters NODE ID as the key for the report and then output the emitters type and the number of particles active in each emitter.
                                     
                                     
                                     
@@ -946,12 +946,12 @@ Here is what the class looks like:
                                     
                                     
                                     
-                                    > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)&nbsp;&nbsp;&nbsp; Firstly, each emitter was using a very large amount of particles, I had set the threshold far too high in the emitters Initialise Constants function.&nbsp; Turning this down helped (but by more than I expected, it turned out I only needed a few particles to achieve the effect I needed)   
-                                    > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)&nbsp;&nbsp;&nbsp; Secondly, the emitters were not dying out.&nbsp; At first this was because I was not killing the emitter when it left the screen (simple location check to kill the emitter) and second becuase I was not then removing the emitters information test I had just added (added a “Remove information” call when the emitter died, whoops).
+                                    > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    Firstly, each emitter was using a very large amount of particles, I had set the threshold far too high in the emitters Initialise Constants function.  Turning this down helped (but by more than I expected, it turned out I only needed a few particles to achieve the effect I needed)   
+                                    > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    Secondly, the emitters were not dying out.  At first this was because I was not killing the emitter when it left the screen (simple location check to kill the emitter) and second becuase I was not then removing the emitters information test I had just added (added a “Remove information” call when the emitter died, whoops).
                                     
                                     
                                     
-                                    The last part of that was a but silly but a good example where I fixed the problem but because I did not update my tests, it did not seem to go away.&nbsp; In reference I added the following in the Particle Managers Update call to remove the information I was tracking when a emitter died (this shows both fixes for the second issue:
+                                    The last part of that was a but silly but a good example where I fixed the problem but because I did not update my tests, it did not seem to go away.  In reference I added the following in the Particle Managers Update call to remove the information I was tracking when a emitter died (this shows both fixes for the second issue:
                                     
                                     
                                     
@@ -985,7 +985,7 @@ Here is what the class looks like:
                                         
                                         
                                         
-                                        Feel free to play with this information gathering and see what you can dig up.&nbsp; After all the main parts have been fixed, I added some extra tests in to the project and it now sees the main resource hog is XNA’s own Draw call outside of my game, but this could be because of the testing itself, see below:
+                                        Feel free to play with this information gathering and see what you can dig up.  After all the main parts have been fixed, I added some extra tests in to the project and it now sees the main resource hog is XNA’s own Draw call outside of my game, but this could be because of the testing itself, see below:
                                         
                                         
                                         
@@ -993,17 +993,17 @@ Here is what the class looks like:
                                         
                                         
                                         
-                                        Here you can see the information test listed on the left hand side of the screen with the run time values, note that the main clock tick cost (game runtime cost) is now coming from the Base Game class.&nbsp; The particle Manager and each emitter is behaving itself nicely.
+                                        Here you can see the information test listed on the left hand side of the screen with the run time values, note that the main clock tick cost (game runtime cost) is now coming from the Base Game class.  The particle Manager and each emitter is behaving itself nicely.
                                         
                                         
                                         
-                                        &nbsp;
+                                         
                                         
                                         
                                         * * *
                                         
                                         
-                                        &nbsp;
+                                         
                                         
                                         
                                         ### Planning ahead
@@ -1013,18 +1013,18 @@ Here is what the class looks like:
                                         
                                         
                                         
-                                        > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)&nbsp;&nbsp;&nbsp; XNA Performance sessions – Best resources are on the XNA Developers central link (not the CC site which is curious, but you can find them there if you dig enough)   
-                                        > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)&nbsp;&nbsp;&nbsp; Windows Phone 7 Performance – Shawn Hargreaves recently gave a [Mix 2010 session](http://channel9.msdn.com/learn/courses/WP7TrainingKit/WP7XNA/Mix10CL22Video/) on Phone performance, Channel 9 also has an [entire channel full of WP7 Training videos](http://channel9.msdn.com/learn/courses/WP7TrainingKit/WP7XNA/) as well.
+                                        > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    XNA Performance sessions – Best resources are on the XNA Developers central link (not the CC site which is curious, but you can find them there if you dig enough)   
+                                        > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    Windows Phone 7 Performance – Shawn Hargreaves recently gave a [Mix 2010 session](http://channel9.msdn.com/learn/courses/WP7TrainingKit/WP7XNA/Mix10CL22Video/) on Phone performance, Channel 9 also has an [entire channel full of WP7 Training videos](http://channel9.msdn.com/learn/courses/WP7TrainingKit/WP7XNA/) as well.
                                         
                                         
                                         
-                                        &nbsp;
+                                         
                                         
                                         
                                         * * *
                                         
                                         
-                                        &nbsp;
+                                         
                                         
                                         
                                         ### Conclusion

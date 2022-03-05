@@ -10,13 +10,13 @@ tags:
 - xna-2d-tutorials
 ---
 
-In the first of a few intermissions to the tutorial series, we will add some control to our windows phone project.&nbsp; With the current state of the development kit and the limited help in XNA 3.1 for the Zune, adding controls to a mobile device can be a bit of a black art as not all the same rules used in Windows and XBOX apply.
+In the first of a few intermissions to the tutorial series, we will add some control to our windows phone project.  With the current state of the development kit and the limited help in XNA 3.1 for the Zune, adding controls to a mobile device can be a bit of a black art as not all the same rules used in Windows and XBOX apply.
 
-Now the last statement may seem obvious, but you have to consider what your control scheme is going to be, very carefully.&nbsp; With the wrong control interface even the best of games will fail utterly as they become unusable.
+Now the last statement may seem obvious, but you have to consider what your control scheme is going to be, very carefully.  With the wrong control interface even the best of games will fail utterly as they become unusable.
 
 Usability as well as playability is a crucial factor in any game (or any software for that matter), if the user / player cannot interpret what they need to do to play a game or finds the controls sticky or unwieldy, then they are either not going to buy your game or at worst start giving you negative press about it.
 
-As an example, Dark Omen Games (the group that I work with) released a cracking title called **[“Nebulon”](http://marketplace.xbox.com/games/media/66acd000-77fe-1000-9115-d8025855025c)** on to the indie game scene last year.&nbsp; Now when it was first released it had a new type of control system (similar to a control system used in the original [Asteroids](http://en.wikipedia.org/wiki/Asteroids_(video_game)) game), we all liked it and when you got used to it, it was very challenging.&nbsp; However it was not well received, people found it too hard or just not like what they were used to in similar games (even a little bad press).
+As an example, Dark Omen Games (the group that I work with) released a cracking title called **[“Nebulon”](http://marketplace.xbox.com/games/media/66acd000-77fe-1000-9115-d8025855025c)** on to the indie game scene last year.  Now when it was first released it had a new type of control system (similar to a control system used in the original [Asteroids](http://en.wikipedia.org/wiki/Asteroids_(video_game)) game), we all liked it and when you got used to it, it was very challenging.  However it was not well received, people found it too hard or just not like what they were used to in similar games (even a little bad press).
 
 We quickly released an updated version taking in this feedback (adding a load of other suggested features at user request, by far one of the best things we did) and let people know of the update, without this change I do not think it would have been as successful as it was, even the reviewers retracted their original comments and praised the quick turn around and response to customer feedback.
 
@@ -28,19 +28,19 @@ Code as always for this section can be [found here](http://startrooper2dxna.code
 
 * * *
 
-&nbsp;
+ 
 
 ### Windows Phone 7 capabilities
 
 The Windows Phone 7 controls we have available are:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; A touch screen (simple point and click interface)   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; Accelerometers (twist and turn and wave it all about controls)   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; 3 Buttons (Back, Search and Home)\*Note
+> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    A touch screen (simple point and click interface)   
+> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Accelerometers (twist and turn and wave it all about controls)   
+> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    3 Buttons (Back, Search and Home)\*Note
 
-> > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)&nbsp; The Home button is pretty much reserved according to the Microsoft guidance, for pausing the game and returning to the Phone Home screen.&nbsp; The framework does not stop us using it, but you must be careful and not prevent a user from leaving the game (forcing the user to reset the Phone).&nbsp; If Microsoft do not like it they will simply tell you to change it and refuse it is application to the Phone Marketplace.&nbsp; This is no different to a failure one of the many technical tests done today for XBOX indie games, but more on that later in the tutorial series.
+> > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)  The Home button is pretty much reserved according to the Microsoft guidance, for pausing the game and returning to the Phone Home screen.  The framework does not stop us using it, but you must be careful and not prevent a user from leaving the game (forcing the user to reset the Phone).  If Microsoft do not like it they will simply tell you to change it and refuse it is application to the Phone Marketplace.  This is no different to a failure one of the many technical tests done today for XBOX indie games, but more on that later in the tutorial series.
 
-Does not sound like much, which is why we have to be so careful with our control scheme.&nbsp;
+Does not sound like much, which is why we have to be so careful with our control scheme. 
 
 The accelerometer is pretty simply and works pretty much the same as an XBOX control stick, allowing movement in any direction and reporting on the new angle or position, plus we can track this for how fast it has been moved (telling the difference between a tilt and a shake for example).
 
@@ -48,53 +48,53 @@ Again the 3 Buttons are also easy, just push or hold, simple enough, no differen
 
 The touch screen however has some interesting features and since it is a layout canvas (like a table or picture) we can differentiate which area of the screen the user has pressed.
 
-First off the touch screen is a multi touch device, which in theory can track up to seven touch points.&nbsp; In reality the framework is limited to 4 touch points at a time (just not enough screen space to get more than 4 fingers on it, in reality if you try using more than 2, work gets hard for the user / player to see anything)
+First off the touch screen is a multi touch device, which in theory can track up to seven touch points.  In reality the framework is limited to 4 touch points at a time (just not enough screen space to get more than 4 fingers on it, in reality if you try using more than 2, work gets hard for the user / player to see anything)
 
-The touch screen can also be viewed as a button as it can interpret when the user presses the screen and when the contact has been released like a button.&nbsp; However it cal also tell when the user has moved their finger across the screen.
+The touch screen can also be viewed as a button as it can interpret when the user presses the screen and when the contact has been released like a button.  However it cal also tell when the user has moved their finger across the screen.
 
 As for the canvas we can zone areas of the screen so that we can implement different behaviours depending on where you touch, for example:
 
-&nbsp;
+ 
 
 ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_141AD2F0.png)
 
-&nbsp;
+ 
 
-Here we can see a possible touch screen layout for an RPG game for example, using touched in the bottom are of the screen to bring up the menu (while displaying some information), the top area could be a scrollable area for player information.&nbsp; The right hand side could be a weapon / spell selector, another scrollable list put when pressed selects the weapon or spell.&nbsp; And finally the main view window that could move the player if held and attack when pressed (or do something else if pressed twice in succession).
+Here we can see a possible touch screen layout for an RPG game for example, using touched in the bottom are of the screen to bring up the menu (while displaying some information), the top area could be a scrollable area for player information.  The right hand side could be a weapon / spell selector, another scrollable list put when pressed selects the weapon or spell.  And finally the main view window that could move the player if held and attack when pressed (or do something else if pressed twice in succession).
 
 A crafty person might do away with the right hand window all together and go for a gesture based system, where you would draw a symbol on the screen to activate a spell / weapon.
 
 Most of these kind of features that the touch screen employs are no different to the modern sat nav machines of today, while the possibilities are not quite limitless, we can still have a lot of fun with it and it gives us more control than it might seem with only 3 control inputs for the phone.
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 ### Controls for Star Trooper
 
 Now the basic controls for Star Trooper are very simple, we have: (for now)
 
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; Up   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; Down   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; Left   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; Right   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; Fire
+> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Up   
+> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Down   
+> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Left   
+> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Right   
+> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Fire
 
-&nbsp;
+ 
 
 With the controls available, the best choice would be to just use the touch screen, we will move the trooper to where we are touching the screen and fire a shot when ever the user taps the screen as well.
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 ### Touch screen
 
-Before we can start using the touch screen we need to specifically add it to our project.&nbsp; Open the Input class (under the engine folder) and add the following line in the “Using” section at the top of our class:
+Before we can start using the touch screen we need to specifically add it to our project.  Open the Input class (under the engine folder) and add the following line in the “Using” section at the top of our class:
 
     
     
@@ -102,14 +102,14 @@ Before we can start using the touch screen we need to specifically add it to our
     
     
     
-    This tells our class that the touch framework is available to use.&nbsp; Within the touch framework, we have several items, these are:
+    This tells our class that the touch framework is available to use.  Within the touch framework, we have several items, these are:
     
     
     
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; Touch Panel – The touch device itself   
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; Touch Panel Capabilities – lists the capabilities of the touch panel, how many touches it supports and if one is connected   
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; Touch Location and Touch Location state – which provide details of each touch to the screen   
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; Touch Collection – A collection of touches to the screen for how many fingers are on the screen at a time
+    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Touch Panel – The touch device itself   
+    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Touch Panel Capabilities – lists the capabilities of the touch panel, how many touches it supports and if one is connected   
+    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Touch Location and Touch Location state – which provide details of each touch to the screen   
+    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Touch Collection – A collection of touches to the screen for how many fingers are on the screen at a time
     
     
     
@@ -141,7 +141,7 @@ Before we can start using the touch screen we need to specifically add it to our
             
             
             
-            Now as the touch panel is completely behaviour driven, we cannot handle what the device should do with those touches here.&nbsp; We leave that to whatever object or screen is responding to the touches.&nbsp; However to to that we need to expose the touches to the rest of the game, so we add a property at the end of our input class:
+            Now as the touch panel is completely behaviour driven, we cannot handle what the device should do with those touches here.  We leave that to whatever object or screen is responding to the touches.  However to to that we need to expose the touches to the rest of the game, so we add a property at the end of our input class:
             
             
             
@@ -159,13 +159,13 @@ Before we can start using the touch screen we need to specifically add it to our
                 
                 
                 
-                &nbsp;
+                 
                 
                 
                 * * *
                 
                 
-                &nbsp;
+                 
                 
                 
                 ### Quick Pause and a bit of refactoring
@@ -335,11 +335,11 @@ Before we can start using the touch screen we need to specifically add it to our
                         
                         
                         
-                        You may say, “big deal, that is not different from before where I only updated the trooper class”, however when we later add more players and want to assign different controls to each and having them configurable, it becomes a big deal.&nbsp; When we also add a menu and more screens later you will see this abstraction expanded.
+                        You may say, “big deal, that is not different from before where I only updated the trooper class”, however when we later add more players and want to assign different controls to each and having them configurable, it becomes a big deal.  When we also add a menu and more screens later you will see this abstraction expanded.
                         
                         
                         
-                        > > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)&nbsp;&nbsp; In the next intermission we will also go a lot further with this, but for now, this is enough to start.
+                        > > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)   In the next intermission we will also go a lot further with this, but for now, this is enough to start.
                         
                         
                         
@@ -441,19 +441,19 @@ Before we can start using the touch screen we need to specifically add it to our
                                     
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     * * *
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     ### Trooper Touch Controls
                                     
                                     
-                                    For now as we are keeping things simple we will just add the touch controls directly to the Trooper itself rather than writing a complex handler (remember KISS).&nbsp; So at the moment we have a collection of touches coming from the Input class and we just need to decide what to do with them.
+                                    For now as we are keeping things simple we will just add the touch controls directly to the Trooper itself rather than writing a complex handler (remember KISS).  So at the moment we have a collection of touches coming from the Input class and we just need to decide what to do with them.
                                     
                                     
                                     
@@ -531,7 +531,7 @@ Before we can start using the touch screen we need to specifically add it to our
                                         
                                         
                                         
-                                        So to move the trooper to our finger where we are holding it, we need to check for a touch in the Moved state.&nbsp; This might seem a bit strange as we have not moved our finger on the screen yet, we are just pressing it, however the framework simply interprets anything more than a press as a movement, so we just use move.
+                                        So to move the trooper to our finger where we are holding it, we need to check for a touch in the Moved state.  This might seem a bit strange as we have not moved our finger on the screen yet, we are just pressing it, however the framework simply interprets anything more than a press as a movement, so we just use move.
                                         
                                         
                                         
@@ -557,7 +557,7 @@ Before we can start using the touch screen we need to specifically add it to our
                                             
                                             
                                             
-                                            Now here we are using the same logic as we do for the condor and move the trooper towards our touch.&nbsp; First thing you should notice though is that you now have a warning in the compiler and if you build the code it will fail, this is because I have updated the way that we move the trooper, this is so we can safely integrate the keyboard and touch screen together (remember even pc’s can have touch screens, like laptops).
+                                            Now here we are using the same logic as we do for the condor and move the trooper towards our touch.  First thing you should notice though is that you now have a warning in the compiler and if you build the code it will fail, this is because I have updated the way that we move the trooper, this is so we can safely integrate the keyboard and touch screen together (remember even pc’s can have touch screens, like laptops).
                                             
                                             
                                             
@@ -773,11 +773,11 @@ Before we can start using the touch screen we need to specifically add it to our
                                                     
                                                     
                                                     
-                                                    Finally, now we just need to add the firing capability to our touch interface, simplest way to do this is that when ever there is a tap or new touch to the screen we fire a shot.&nbsp; It does mean whenever you start to move the trooper it will fire, but were not conserving ammo here and simple is good for now. (if you wish, try experimenting with different ways to control this).&nbsp; The end result is that we would control the trooper with one finger and fire with a second finger.
+                                                    Finally, now we just need to add the firing capability to our touch interface, simplest way to do this is that when ever there is a tap or new touch to the screen we fire a shot.  It does mean whenever you start to move the trooper it will fire, but were not conserving ammo here and simple is good for now. (if you wish, try experimenting with different ways to control this).  The end result is that we would control the trooper with one finger and fire with a second finger.
                                                     
                                                     
                                                     
-                                                    > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)&nbsp;&nbsp;&nbsp; One thing to remember though, is that the emulator only supports a single touch with the mouse!!.
+                                                    > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)    One thing to remember though, is that the emulator only supports a single touch with the mouse!!.
                                                     
                                                     
                                                     
@@ -799,7 +799,7 @@ Before we can start using the touch screen we need to specifically add it to our
                                                         
                                                         
                                                         
-                                                        &nbsp;
+                                                         
                                                         
                                                         
                                                         * * *
@@ -807,19 +807,19 @@ Before we can start using the touch screen we need to specifically add it to our
                                                         ### Accelerometer
                                                         
                                                         
-                                                        &nbsp;
+                                                         
                                                         
                                                         
                                                         
-                                                        Now we can add the accelerometer, which I will detail here briefly, but the situation is a bit more complicated.&nbsp; The main this that is different between the accelerometer and other control devices is that it is event based.
+                                                        Now we can add the accelerometer, which I will detail here briefly, but the situation is a bit more complicated.  The main this that is different between the accelerometer and other control devices is that it is event based.
                                                         
                                                         
                                                         
-                                                        With other control methods, we check what the current state of the device is and we check it frequently enough, that we can determine exactly when everything happens.&nbsp; With the accelerometer we have to wait for the device to tell us when something has changed.
+                                                        With other control methods, we check what the current state of the device is and we check it frequently enough, that we can determine exactly when everything happens.  With the accelerometer we have to wait for the device to tell us when something has changed.
                                                         
                                                         
                                                         
-                                                        With this it is a bit more work to setup to do to get this to work and you also have a few choices for how you use this information, either you can keep he same kind of state model that you use for all the other devices or you can use the event system as is.&nbsp; Both have their pro’s and con’s and it is up to you and how your game can best benefit from it.&nbsp; I will detail the state model here and just point out where you can do it by event.
+                                                        With this it is a bit more work to setup to do to get this to work and you also have a few choices for how you use this information, either you can keep he same kind of state model that you use for all the other devices or you can use the event system as is.  Both have their pro’s and con’s and it is up to you and how your game can best benefit from it.  I will detail the state model here and just point out where you can do it by event.
                                                         
                                                         
                                                         
@@ -855,7 +855,7 @@ Before we can start using the touch screen we need to specifically add it to our
                                                                 
                                                                 
                                                                 
-                                                                Next up is the event handler for the accelerometer, this is called each and every time something changes in the position of the windows phone, when it does we update the state variable we added earlier.&nbsp; Place this just above the Private properties section in it is own area of the input class, the same as the Update or public functions:
+                                                                Next up is the event handler for the accelerometer, this is called each and every time something changes in the position of the windows phone, when it does we update the state variable we added earlier.  Place this just above the Private properties section in it is own area of the input class, the same as the Update or public functions:
                                                                 
                                                                 
                                                                 
@@ -1055,15 +1055,15 @@ Before we can start using the touch screen we need to specifically add it to our
                                                                         
                                                                         
                                                                         
-                                                                        Here we have several things going on, first we check if the accelerometer has been started yet or not by checking the variable for the accelerometer sensor, if it is null we have not set it up yet.&nbsp; You may ask “why was not it started with the game?”, this is because, unlike other devices, the accelerometer takes power and is an active device, meaning it is almost always sending data, we should only start it when we are expecting to watch for it (so when you pause or switch away from the game you should always stop the sensor so as not to affect anything else, be aware!).
+                                                                        Here we have several things going on, first we check if the accelerometer has been started yet or not by checking the variable for the accelerometer sensor, if it is null we have not set it up yet.  You may ask “why was not it started with the game?”, this is because, unlike other devices, the accelerometer takes power and is an active device, meaning it is almost always sending data, we should only start it when we are expecting to watch for it (so when you pause or switch away from the game you should always stop the sensor so as not to affect anything else, be aware!).
                                                                         
                                                                         
                                                                         
-                                                                        We also test a flag to see if the device you are using supports the accelerometer.&nbsp; I added this check because the emulator does not and throws an error if you try and start it, there is not a capabilities check (like with the touch screen) to see if the device has one or not, you find out in the next step when you try and start it.
+                                                                        We also test a flag to see if the device you are using supports the accelerometer.  I added this check because the emulator does not and throws an error if you try and start it, there is not a capabilities check (like with the touch screen) to see if the device has one or not, you find out in the next step when you try and start it.
                                                                         
                                                                         
                                                                         
-                                                                        So once you have passed that test, which should be just when you start the game (or need to restart the accelerometer), we then create a new instance of the sensor itself.&nbsp; Once we have that we can then check if it is supported on the game device, if it is then we can start it safely, if not then we change the flag to sow it is not supported and skip starting the device properly including freeing up the memory we allocated to the sensor.
+                                                                        So once you have passed that test, which should be just when you start the game (or need to restart the accelerometer), we then create a new instance of the sensor itself.  Once we have that we can then check if it is supported on the game device, if it is then we can start it safely, if not then we change the flag to sow it is not supported and skip starting the device properly including freeing up the memory we allocated to the sensor.
                                                                         
                                                                         
                                                                         
@@ -1271,7 +1271,7 @@ Before we can start using the touch screen we need to specifically add it to our
                                                                                         
                                                                                         
                                                                                         
-                                                                                        &nbsp;
+                                                                                         
                                                                                         
                                                                                         
                                                                                         * * *
@@ -1281,11 +1281,11 @@ Before we can start using the touch screen we need to specifically add it to our
                                                                                         
                                                                                         
                                                                                         
-                                                                                        &nbsp;
+                                                                                         
                                                                                         
                                                                                         
                                                                                         
-                                                                                        Hopefully you get a feel for control systems in the Windows Phone and other mobile devices, next up is another intermission on dynamic controls, were we build on some of the work here on the Windows / XBOX 360 platforms and allow customisable controls.&nbsp; Customisable controls for mobile devices don’t make a lot of sense with such a restricted control set.&nbsp; (although I would like to see a head to head or Air hockey type game on the phone :-))
+                                                                                        Hopefully you get a feel for control systems in the Windows Phone and other mobile devices, next up is another intermission on dynamic controls, were we build on some of the work here on the Windows / XBOX 360 platforms and allow customisable controls.  Customisable controls for mobile devices don’t make a lot of sense with such a restricted control set.  (although I would like to see a head to head or Air hockey type game on the phone :-))
                                                                                         
                                                                                         
                                                                                         

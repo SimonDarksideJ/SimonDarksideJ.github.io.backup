@@ -15,7 +15,7 @@ A nice feature we had in the Windows phone days was the ability to plug in your 
 - The device had to be tethered to the PC to deploy / debug
 - You could not do disconnected debugging using the device’s Wi-Fi/3G connections with it tethered
 
-Now enter Win 8 and they have taken the debug options up a notch building on the remote debugging features of VS pro and above by allowing you to install a client on the target machine and push your apps to it and debug them, all without a single wire (unless you count the power cord).&nbsp; Even better is this facility is also available in the express editions.
+Now enter Win 8 and they have taken the debug options up a notch building on the remote debugging features of VS pro and above by allowing you to install a client on the target machine and push your apps to it and debug them, all without a single wire (unless you count the power cord).  Even better is this facility is also available in the express editions.
 
 * * *
 
@@ -49,7 +49,7 @@ Now on first run you will get prompted to search and select the machine you want
 
 As you would expect it is nice and simple and gives you browsing options (for your local Subnet only, if you do not know what a Subnet is just think computers near you), granted the browsing options will also depend on your PC’s firewall settings and the general network setup (for instance my corporate LAN does not allow this kind of browsing so it does not work)
 
-As a backup 9and for picky people I guess)&nbsp; you can also enter either the name or the IP4 address of the target machine, e.g. 192.168.0.3.
+As a backup 9and for picky people I guess)  you can also enter either the name or the IP4 address of the target machine, e.g. 192.168.0.3.
 
 Once connected your up and running, deploy as many times as you like with no ill effects.
 

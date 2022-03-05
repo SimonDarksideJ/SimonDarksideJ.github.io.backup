@@ -41,19 +41,19 @@ I digress, so what can we look for in this book.
 
 ![src=]()
 
-Here is a brief run through what all the chapters are and what to expect from them.&nbsp;&nbsp; The book is laid out like a traditional HLSL cookbook breaking down effects and showing how each component works and its end effect on the resultant output.
+Here is a brief run through what all the chapters are and what to expect from them.   The book is laid out like a traditional HLSL cookbook breaking down effects and showing how each component works and its end effect on the resultant output.
 
 ### Chapter 1 “Forward Lighting”
 
 Lighting is one of the most basic and commonly used shader techniques, after all without light there would only be darkness (which is only good for audio games ![Open-mouthed smile](/Images/wordpress/2013/08/wlEmoticon-openmouthedsmile.png)), this chapter goes in to some depth on the main basic lighting systems used in games today, such as:
 
-> ![src=]()&nbsp;&nbsp;&nbsp; Hemispheric ambient light  
-> ![src=]()&nbsp;&nbsp;&nbsp; Directional light  
-> ![src=]()&nbsp;&nbsp;&nbsp; Point lights  
-> ![src=]()&nbsp;&nbsp;&nbsp; Spot lights  
-> ![src=]()&nbsp;&nbsp;&nbsp; Capsule lights  
-> ![src=]()&nbsp;&nbsp;&nbsp; Projected textures – point & spot lights  
-> ![src=]()&nbsp;&nbsp;&nbsp; Multiple lights in a single pass
+> ![src=]()    Hemispheric ambient light  
+> ![src=]()    Directional light  
+> ![src=]()    Point lights  
+> ![src=]()    Spot lights  
+> ![src=]()    Capsule lights  
+> ![src=]()    Projected textures – point & spot lights  
+> ![src=]()    Multiple lights in a single pass
 
 Through this chapter you will learn what you need to know to light up your scene and the models within it.
 
@@ -67,8 +67,8 @@ Deferred shading is one of those advanced techniques to light a scene in a more 
 
 In this chapter the auther does a good job of explaining all the parts needed to achieve deferred rendering and how best to implement it with also a few tips and tricks to go beyond, covering things such as:
 
-> ![src=]()&nbsp;&nbsp;&nbsp; GBuffer generation and unpacking  
-> ![src=]()&nbsp;&nbsp;&nbsp; Deferred Directional, Point, Spot and Capsule lights
+> ![src=]()    GBuffer generation and unpacking  
+> ![src=]()    Deferred Directional, Point, Spot and Capsule lights
 
 Some really nice examples of these effects (courtesy of @NemoKrad [RandomChaos blog](http://xnauk-randomchaosblogarchive.blogspot.co.uk/2012/07/deferred-lighting-teaser.html))
 
@@ -78,14 +78,14 @@ Some really nice examples of these effects (courtesy of @NemoKrad [RandomChaos b
 
 So far the book has covered how to add light, as expected we also need to be able to work by subtracting light to really show off how elements in the game are effected by the environment they are playing in (just ask Peter Pan what he thinks of his own shadow!).
 
-Shadow mapping also you to give the effect that the player is in an actual real world, without it games generally look flat (even 2D ones).&nbsp; Through this chapter you are shown several techniques to generate shadows.&nbsp; As with everything else there is no one silver bullet to solve a problem like shadows so it is really good the author offers some of the main solutions.
+Shadow mapping also you to give the effect that the player is in an actual real world, without it games generally look flat (even 2D ones).  Through this chapter you are shown several techniques to generate shadows.  As with everything else there is no one silver bullet to solve a problem like shadows so it is really good the author offers some of the main solutions.
 
 Techniques you will learn include:
 
-> ![src=]()&nbsp;&nbsp;&nbsp; Spot & point light PCF (percentage-closer filtering) shadows  
-> ![src=]()&nbsp;&nbsp;&nbsp; Cascaded shadow maps  
-> ![src=]()&nbsp;&nbsp;&nbsp; PCF with varying penumbra size  
-> ![src=]()&nbsp;&nbsp;&nbsp; Visualizing shadow maps
+> ![src=]()    Spot & point light PCF (percentage-closer filtering) shadows  
+> ![src=]()    Cascaded shadow maps  
+> ![src=]()    PCF with varying penumbra size  
+> ![src=]()    Visualizing shadow maps
 
 Some really nice examples of these effects (courtesy of @NemoKrad [RandomChaos blog](http://xnauk-randomchaosblogarchive.blogspot.co.uk/2012/07/brute-force-2d-shadowswell-sort-of.html))
 
@@ -98,31 +98,31 @@ Now that you have a rendered scene in your game it is always good to add those e
 
 Ask any photographer worth his salt about post processing and they will likely chew your ear off for hours, those final touches you add to a scene that make it live.
 
-Postprocessing can make all the difference from a game people go WOW about to one they just go “meh” and walk on by and this applies to all games.&nbsp; Some devs do some of this work in advance by baking the textures to be used in the game but even then some additional effects are needed to blow them up.
+Postprocessing can make all the difference from a game people go WOW about to one they just go “meh” and walk on by and this applies to all games.  Some devs do some of this work in advance by baking the textures to be used in the game but even then some additional effects are needed to blow them up.
 
 The most common post process effects are covered in this book in great detail:
 
-> ![src=]()&nbsp;&nbsp;&nbsp; HDR rendering  
-> ![src=]()&nbsp;&nbsp;&nbsp; Adaptation (adjusting lighting from bright to dark spaces)  
-> ![src=]()&nbsp;&nbsp;&nbsp; Bloom  
-> ![src=]()&nbsp;&nbsp;&nbsp; Distance depth of field  
-> ![src=]()&nbsp;&nbsp;&nbsp; Bokeh (handling distant lighting)
+> ![src=]()    HDR rendering  
+> ![src=]()    Adaptation (adjusting lighting from bright to dark spaces)  
+> ![src=]()    Bloom  
+> ![src=]()    Distance depth of field  
+> ![src=]()    Bokeh (handling distant lighting)
 
-Some really nice examples of these effects (courtesy of DarkOmenGames on the&nbsp; [RandomChaos blog](http://xnauk-randomchaosblogarchive.blogspot.co.uk/2012/07/nebulon-in-play-test.html))
+Some really nice examples of these effects (courtesy of DarkOmenGames on the  [RandomChaos blog](http://xnauk-randomchaosblogarchive.blogspot.co.uk/2012/07/nebulon-in-play-test.html))
 
 <object width="448" height="252" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.youtube.com/v/mKhoI9HbKig?hl=en&amp;hd=1">
 <embed width="448" height="252" type="application/x-shockwave-flash" src="http://www.youtube.com/v/mKhoI9HbKig?hl=en&amp;hd=1"></embed></object>
 
 ### Chapter 5 “Screen Space Effects”
 
-Screen space effects are another class of post processing which focus on elements that effect the entire scene (usually from a single element, like the sun).&nbsp; Some see them as just another Post process, others see them as a particular form of advanced shading, in either case it is a very useful technique to have under your belt especially if you game is featured in space or the great outdoors.
+Screen space effects are another class of post processing which focus on elements that effect the entire scene (usually from a single element, like the sun).  Some see them as just another Post process, others see them as a particular form of advanced shading, in either case it is a very useful technique to have under your belt especially if you game is featured in space or the great outdoors.
 
 Of the main types of “screen space effects” this book covers:
 
-> ![src=]()&nbsp;&nbsp;&nbsp; Ambient occlusion  
-> ![src=]()&nbsp;&nbsp;&nbsp; Lens flare  
-> ![src=]()&nbsp;&nbsp;&nbsp; Screen space Sun rays  
-> ![src=]()&nbsp;&nbsp;&nbsp; Reflections
+> ![src=]()    Ambient occlusion  
+> ![src=]()    Lens flare  
+> ![src=]()    Screen space Sun rays  
+> ![src=]()    Reflections
 
 Some really nice examples of these effects (courtesy of @NemoKrad [RandomChaos blog](http://xnauk-randomchaosblogarchive.blogspot.co.uk/2012/07/crepuscular-god-rays-and-web-ui-sample.html))
 
@@ -137,9 +137,9 @@ These are fairly advanced techniques for altering the environment based on anoth
 
 Here the author nicely round off the book with the following techniques:
 
-> ![src=]()&nbsp;&nbsp;&nbsp; Dynamic decals  
-> ![src=]()&nbsp;&nbsp;&nbsp; Distance/Height-based fog  
-> ![src=]()&nbsp;&nbsp;&nbsp; Rain
+> ![src=]()    Dynamic decals  
+> ![src=]()    Distance/Height-based fog  
+> ![src=]()    Rain
 
 Some really nice examples of a fire environmental effect (courtesy of @NemoKrad [RandomChaos blog](http://xnauk-randomchaosblogarchive.blogspot.co.uk/2012/07/generic-xna-fire.html))
 
@@ -167,7 +167,7 @@ Shaders are one of those subjects that is hard to get in to and even harder to m
 
 ![src=]()
 
-Even with my rudimentary shader knowledge I was able to understand the workings of each shader detailed in this book (even without googling), if you are a beginner just refer to [Riemers](http://www.riemers.net/) tutorials or the fantastic set of beginner HLSL tutorials on [GameDevTuts](http://gamedev.tutsplus.com/) and you will be ready for the techniques in this book.&nbsp; I feel it goes in to more detail but not too much (there is little math involved, phew) to help you appreciate just what your graphics card is doing to the output from your game.
+Even with my rudimentary shader knowledge I was able to understand the workings of each shader detailed in this book (even without googling), if you are a beginner just refer to [Riemers](http://www.riemers.net/) tutorials or the fantastic set of beginner HLSL tutorials on [GameDevTuts](http://gamedev.tutsplus.com/) and you will be ready for the techniques in this book.  I feel it goes in to more detail but not too much (there is little math involved, phew) to help you appreciate just what your graphics card is doing to the output from your game.
 
 What you waiting for, get ready to make your game shine, whether you are 2D or 3D ![Open-mouthed smile](/Images/wordpress/2013/08/wlEmoticon-openmouthedsmile.png)
 

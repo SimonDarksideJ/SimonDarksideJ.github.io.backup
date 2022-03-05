@@ -7,7 +7,7 @@ tags:
 - ramblings
 ---
 
-The Mythical Blender 2.5 project is finally getting momentum and great progress! Currently over 90k of the 300k lines that needed to be recoded are back. Not to say we’re on one-third of the work though…&nbsp; the new system requires to wrap or recode every (!) tool in Blender. Luckily this kind of work now is getting well defined, and interesting smaller tasks are available for all developers interested to help porting now.
+The Mythical Blender 2.5 project is finally getting momentum and great progress! Currently over 90k of the 300k lines that needed to be recoded are back. Not to say we’re on one-third of the work though…  the new system requires to wrap or recode every (!) tool in Blender. Luckily this kind of work now is getting well defined, and interesting smaller tasks are available for all developers interested to help porting now.
 
 To summarize; here’s the highlights what Blender 2.5x will bring you:
 
@@ -17,10 +17,10 @@ To summarize; here’s the highlights what Blender 2.5x will bring you:
 - New event system, based on ‘handlers’ with dynamic (= user definable) keymaps. Events will much better support other devices, or multi-touch even.
 - The new event system will also allow Macros, basic construction history, and since events are hanled centrally (separated from drawing) the UI will remain fully responsive (updated) while editing.
 - Generic "data api", giving uniform access to data properties for Blender’s UI, for Python, but especially for animation curves or drivers. This will enable the "get everything animated" feature.
-- Generic "tools api", which gives uniform access to every tool (option) Blender has. Together with the "data api" this will make scripting in Python much easier. Customizable UIs (toolbars, headers, menus, buttons) are simply possible&nbsp; this&nbsp; way
+- Generic "tools api", which gives uniform access to every tool (option) Blender has. Together with the "data api" this will make scripting in Python much easier. Customizable UIs (toolbars, headers, menus, buttons) are simply possible  this  way
 
 Currently, focus is on first bringing back a working Blender. Don’t expect immediately a completely new interface design, especially how buttons or tools and toolbars will work is for later. It’s also good for our team to get first more familiar with the new system before working on recoding the UI side. Needless to say, with the new 2.5 architecture such work is much more efficient.  
-However, what’s going to be improved is at least Ipos and Actions. The first will become more generic (everything animatable), the latter will be converted to a more powerful Dopesheet. Work is also being done on improving the file-selecting window (integrated with image previews), and&nbsp; there’s a new "data browser" to directly edit any property. I bet we’ll find more fun goodies to improve while porting over old code!  
+However, what’s going to be improved is at least Ipos and Actions. The first will become more generic (everything animatable), the latter will be converted to a more powerful Dopesheet. Work is also being done on improving the file-selecting window (integrated with image previews), and  there’s a new "data browser" to directly edit any property. I bet we’ll find more fun goodies to improve while porting over old code!  
 For those interested to see our work, or to get involved:  
 [wiki.blender.org/index.php/BlenderDev/Blender2.5](http://wiki.blender.org/index.php/BlenderDev/Blender2.5)  
 Help is always welcome!  

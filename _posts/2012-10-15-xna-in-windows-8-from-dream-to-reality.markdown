@@ -14,7 +14,7 @@ Just to cross post back to my own blog (really did that the wrong way round ![Op
 
 **\*\*Update**
 
-Had some interesting discussions following this original post including a very helpful link from&nbsp; [**Travis Woodward**](https://twitter.com/RabidLionGames) aka @[RabidLionGames](https://twitter.com/RabidLionGames).&nbsp; Seems a guy called [Ibrahim Ersoy](http://www.c-sharpcorner.com/authors/iersoy/ibrahim-ersoy.aspx) posted an article on C# Corner about converting a class library into an app and loading it up with XNA game code.
+Had some interesting discussions following this original post including a very helpful link from  [**Travis Woodward**](https://twitter.com/RabidLionGames) aka @[RabidLionGames](https://twitter.com/RabidLionGames).  Seems a guy called [Ibrahim Ersoy](http://www.c-sharpcorner.com/authors/iersoy/ibrahim-ersoy) posted an article on C# Corner about converting a class library into an app and loading it up with XNA game code.
 
 This solution works even better that the WinForms route, still need to do more testing but it looks very promising, read more about it here! [http://bit.ly/QInBiN](http://bit.ly/QInBiN "http://bit.ly/QInBiN")
 
@@ -28,7 +28,7 @@ This article is an entry in the [AppInnovation Contest](http://www.codeproject.c
 
 # Introduction
 
-With the advent of the Intel App-Up challenge I decide to break convention and try something seemingly not attempted before with Windows 8, get a XNA game up and running using native XNA.&nbsp; If you just use a current XNA project on Windows 8 you will only have access to keyboard/mouse and gamepad input&nbsp; (no touch or accelerometer), you also wont be able to use any other devices / features of Windows 8 either.
+With the advent of the Intel App-Up challenge I decide to break convention and try something seemingly not attempted before with Windows 8, get a XNA game up and running using native XNA.  If you just use a current XNA project on Windows 8 you will only have access to keyboard/mouse and gamepad input  (no touch or accelerometer), you also wont be able to use any other devices / features of Windows 8 either.
 
 Taking my original Starter 3D XNA project I am building it from the ground up using Visual Studio 2012 and going beyond by making it a more full-fledged game.
 
@@ -108,7 +108,7 @@ The current version is just a modern version of that classic with you thrust int
 
 | [![clip_image002[4]](/Images/wordpress/2012/10/clip_image0024_thumb.jpg "clip\_image002[4]")](/Images/wordpress/2012/10/clip_image0024.jpg) | [![clip_image004[4]](/Images/wordpress/2012/10/clip_image0044_thumb.jpg "clip\_image004[4]")](/Images/wordpress/2012/10/clip_image0044.jpg) |
 
-&nbsp;
+ 
 
 Going forward I am going to expand on this to add some of the usual suspects to the mix, like:
 
@@ -156,7 +156,7 @@ Expanding the Parameter code to allow for “custom parameters”, plus an overl
         
             
             
-                **Travis Woodward** aka @[RabidLionGames](https://twitter.com/RabidLionGames).&nbsp; Seems a guy called [Ibrahim Ersoy](http://www.c-sharpcorner.com/authors/iersoy/ibrahim-ersoy.aspx) posted an article on C# Corner about converting a class library into an app and loading it up with XNA game code.
+                **Travis Woodward** aka @[RabidLionGames](https://twitter.com/RabidLionGames).  Seems a guy called [Ibrahim Ersoy](http://www.c-sharpcorner.com/authors/iersoy/ibrahim-ersoy) posted an article on C# Corner about converting a class library into an app and loading it up with XNA game code.
                 
                 This solution works even better that the WinForms route, still need to do more testing but it looks very promising, read more about it here! [http://bit.ly/QInBiN](http://bit.ly/QInBiN)
                 
@@ -195,13 +195,13 @@ Expanding the Parameter code to allow for “custom parameters”, plus an overl
                         
                             
                             
-                                http://msdn.microsoft.com/en-us/library/bb447762.aspx
+                                http://msdn.microsoft.com/en-us/library/bb447762
                                 
                                 · The Content Pipeline API guide on MSDN (very useful for finding hidden attributes)
                                 
                                 
                                 
-                                [http://msdn.microsoft.com/en-us/library/bb195587.aspx](http://msdn.microsoft.com/en-us/library/bb195587.aspx)
+                                [http://msdn.microsoft.com/en-us/library/bb195587](http://msdn.microsoft.com/en-us/library/bb195587)
                                 
                                 
                                 
@@ -209,7 +209,7 @@ Expanding the Parameter code to allow for “custom parameters”, plus an overl
                                 
                                 
                                 
-                                [http://xboxforums.create.msdn.com/forums/p/42119/248952.aspx](http://xboxforums.create.msdn.com/forums/p/42119/248952.aspx)
+                                [http://xboxforums.create.msdn.com/forums/p/42119/248952](http://xboxforums.create.msdn.com/forums/p/42119/248952)
                                 
                                 
                                 
@@ -244,7 +244,7 @@ Expanding the Parameter code to allow for “custom parameters”, plus an overl
                                 <script type="text/javascript">var dzone_title = 'XNA in Windows 8 from dream to reality';</script>  
                                 <script type="text/javascript">var dzone_blurb = 'XNA in Windows 8 from dream to reality';</script>  
                                 <script type="text/javascript">var dzone_style = '2';</script>  
-                                <script language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">var addthis_pub="runxc1";</script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20) &nbsp; <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script> [CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList.aspx?amid=9502591) 
+                                <script language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">var addthis_pub="runxc1";</script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)   <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script> [CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591) 
                             
                             
                         

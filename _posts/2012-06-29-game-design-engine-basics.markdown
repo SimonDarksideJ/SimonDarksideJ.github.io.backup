@@ -10,9 +10,9 @@ tags:
 - xna-2d-tutorials
 ---
 
-The DigiPen tutorial was originally delivered on top of a basic game engine written for the tutorial series.&nbsp; Now the specifics of the engine were discussed breifly in the webcast, so I’ll elaborate here on those components and reflect on their place in an XNA based game.
+The DigiPen tutorial was originally delivered on top of a basic game engine written for the tutorial series.  Now the specifics of the engine were discussed breifly in the webcast, so I’ll elaborate here on those components and reflect on their place in an XNA based game.
 
-In further additions to the tutorial series, I’ll expand on improvements in this area using XNA and some more modern ideas.&nbsp; For now, I’m keen to preserve the original DigiPen way of working and then show the way in which it has been updated for XNA later.
+In further additions to the tutorial series, I’ll expand on improvements in this area using XNA and some more modern ideas.  For now, I’m keen to preserve the original DigiPen way of working and then show the way in which it has been updated for XNA later.
 
 I have already uploaded the content and the XNA project for [lesson 4 to codeplex](http://startrooper2dxna.codeplex.com/releases/view/44143), the following post will go over what has gone into the XNA update
 
@@ -38,7 +38,7 @@ I have already uploaded the content and the XNA project for [lesson 4 to codeple
 
 > A world rectangular coordinate selected for display is called a window. (Note: This is not the Operating System Window.) The window defines what is viewed, whereas the viewport defines where it is to be displayed. A viewport is a rectangular area of the display window. By default, it is the entire window (client area of the operating system’s window) application. It can be set to any smaller size in pixels.
 > 
-> in XNA viewports can be the entire screen or just a portion, for now the viewport should be considered as the working space in the screen.&nbsp; Care also has to be taken (especially when deploying to XBOX’s) to scale the viewport down to the safe viewing area of the screen, as some monitors and TV’s do not display correctly around the edges, to cope with this we scale the screen down for viewing to what is referred to as the “TileSafeViewing” area.&nbsp; A sample exists on the CC site to show this but I’ll also implement and describe it here.
+> in XNA viewports can be the entire screen or just a portion, for now the viewport should be considered as the working space in the screen.  Care also has to be taken (especially when deploying to XBOX’s) to scale the viewport down to the safe viewing area of the screen, as some monitors and TV’s do not display correctly around the edges, to cope with this we scale the screen down for viewing to what is referred to as the “TileSafeViewing” area.  A sample exists on the CC site to show this but I’ll also implement and describe it here.
 
 ### 3 Bitmap
 
@@ -87,13 +87,13 @@ I have already uploaded the content and the XNA project for [lesson 4 to codeple
 > 
 > Remember your game may keep track of many game objects or Spites but some may only be visible during certain situations, like a hidden enemy which only appears from time to time.
 > 
-> The isVisible state is used by the Draw loop to check if the game object or sprite needs drawing to the screen.&nbsp; For performance reasons an object or sprite that is outside the viewport or screen should never be drawn.
+> The isVisible state is used by the Draw loop to check if the game object or sprite needs drawing to the screen.  For performance reasons an object or sprite that is outside the viewport or screen should never be drawn.
 > 
 > ### 4.4 Animation
 > 
-> The sprite or the game object requires an animation to be represented visually. During the process of the sprite creation, an animation with one or more frames should be specified.&nbsp; This is covered more later in the Animations section.
+> The sprite or the game object requires an animation to be represented visually. During the process of the sprite creation, an animation with one or more frames should be specified.  This is covered more later in the Animations section.
 
-&nbsp;
+ 
 
 * * *
 
@@ -156,7 +156,7 @@ Without Transparency colour
 
  |
 
-> &nbsp;
+>  
 
 * * *
 
@@ -164,7 +164,7 @@ Without Transparency colour
 
 > To understand ZOrder, we have to simulate a 3D coordinates axis. Look at the diagram below and take note of the x-, y-, and z-axes. The z-axis specifies the depth axis, and the greater the value of the ZOrder, the “deeper” the object is to the screen. For example, the picture with the character has a lower ZOrder (1) while the picture with the ball has a higher ZOrder (2). Therefore, the ball appears to be behind the character. Because it is a 2D application, the ZOrder only affects the displacement order of pictures, without affecting their size. All the game objects are affected by the ZOrder.
 
-&nbsp;
+ 
 
 [![image](/Images/wordpress/2012/07/image_thumb19.png "image")](/Images/wordpress/2012/07/image19.png)
 
@@ -174,7 +174,7 @@ Without Transparency colour
 
 > ### 1. Game (game.cs)
 > 
-> This class is largely redundant now, being wholly replaced by the XNA game class.&nbsp; Although there are various similarities between the two implementations.&nbsp; Mostly covering game components, initialisation, update and draw loops and basic graphic card interactions.
+> This class is largely redundant now, being wholly replaced by the XNA game class.  Although there are various similarities between the two implementations.  Mostly covering game components, initialisation, update and draw loops and basic graphic card interactions.
 > 
 > ### 2. Sprite (sprite.cs)
 > 
@@ -182,7 +182,7 @@ Without Transparency colour
 > 
 > It covers the setup of a sprite (an image with certain properties and placements within the game world) and stores the sprites animations.
 > 
-> It also features the iClonable interface, which enables good memory management for copying objects (such as the sprite class) and inbuilt functionality for proper creation and destruction of individual instances.&nbsp; Handy if you want lots of the same graphics handled on the screen.
+> It also features the iClonable interface, which enables good memory management for copying objects (such as the sprite class) and inbuilt functionality for proper creation and destruction of individual instances.  Handy if you want lots of the same graphics handled on the screen.
 > 
 > The Sprite class also handles how collision is handled between two different sprites on the screen.
 > 
@@ -198,7 +198,7 @@ Without Transparency colour
 > 
 > ### 4. Font (font.cs)
 > 
-> The font class has been replaced by the spritefont class in XNA.&nbsp; It provides a mechanism on how to describe a font in game engine terms for writing text to the screen.
+> The font class has been replaced by the spritefont class in XNA.  It provides a mechanism on how to describe a font in game engine terms for writing text to the screen.
 > 
 > ### 5. Text (text.cs)
 > 
@@ -214,7 +214,7 @@ Without Transparency colour
 > 
 > ### 7. Music (music.cs), Sound (sound.cs)
 > 
-> I have left out the Music and Sound files as they only provided a light framework for playing and viewing the status of audio files.&nbsp; In XNA these are already provided by XNA’s audio classes natively.
+> I have left out the Music and Sound files as they only provided a light framework for playing and viewing the status of audio files.  In XNA these are already provided by XNA’s audio classes natively.
 > 
 > ### 8. Picture (picture.cs)
 > 
@@ -226,13 +226,13 @@ You can look at all these classes in the [Test Project on codeplex](http://start
 
 ## The Engine Update for XNA
 
-When thinking about your game engine and putting it together you need to put some thought into how it will be made up.&nbsp; For instance you need to think about:
+When thinking about your game engine and putting it together you need to put some thought into how it will be made up.  For instance you need to think about:
 
 - How are you going to group your game objects together for updates / draw calls? 
 
 > This is usually done by creating lists of common objects, however care has to be taken when working with dynamic objects or objects that are likely to be created and destroyed frequently as this can change your approach if you do not cater for it.
 > 
-> In the game engine for this tutorial, I’ve updated the original Digipen code into the XNA framework as is.&nbsp; The way Digipen handled the game objects was to have a few high level objects such as the Sprites, Sound and Music and create collections fro them.&nbsp; The game then loops through these collections to update and draw them.&nbsp; Because this was done using the high level objects it meant the engine only has to handle a few types and not one for every object in the game, like the player, the background, the enemies and later on the shots you fire.&nbsp; Because all of these are related to the Sprite class, there is only one collection for them all.
+> In the game engine for this tutorial, I’ve updated the original Digipen code into the XNA framework as is.  The way Digipen handled the game objects was to have a few high level objects such as the Sprites, Sound and Music and create collections fro them.  The game then loops through these collections to update and draw them.  Because this was done using the high level objects it meant the engine only has to handle a few types and not one for every object in the game, like the player, the background, the enemies and later on the shots you fire.  Because all of these are related to the Sprite class, there is only one collection for them all.
 > 
 > More later.
 
@@ -248,13 +248,13 @@ When thinking about your game engine and putting it together you need to put som
 
 - What screens and resolutions are you aiming for? 
 
-> if you just draw your objects to the screen using exact coordinates, what happens when your resolution changes or you start running on a mobile device with a much smaller screen.&nbsp; If you do not cater for scale this can cause major headaches.
+> if you just draw your objects to the screen using exact coordinates, what happens when your resolution changes or you start running on a mobile device with a much smaller screen.  If you do not cater for scale this can cause major headaches.
 
 - What refresh rate are you aiming for? 
 
-> Different hardware handles the timing differently in your game.&nbsp; XNA provides the GameTime Class to help with this but if you do not handle it properly you are game will just look off or things wo not happen when you expect them to.
+> Different hardware handles the timing differently in your game.  XNA provides the GameTime Class to help with this but if you do not handle it properly you are game will just look off or things wo not happen when you expect them to.
 
-There are many other considerations and I’ll cover them as we come to them, such as Shader effects, renderstates and such,&nbsp; most are out of the scope of a basic 2D game and not be covered until the 3D tutorial.
+There are many other considerations and I’ll cover them as we come to them, such as Shader effects, renderstates and such,  most are out of the scope of a basic 2D game and not be covered until the 3D tutorial.
 
 * * *
 

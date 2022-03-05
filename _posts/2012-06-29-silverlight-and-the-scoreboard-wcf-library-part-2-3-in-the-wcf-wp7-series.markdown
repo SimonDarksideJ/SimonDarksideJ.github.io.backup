@@ -10,7 +10,7 @@ tags:
 - windows-phone
 ---
 
-Right on the heals of the [last post](/blogs/darkgenesis/archive/2010/09/03/can-we-get-a-little-service-here.aspx) detailing the Silverlight WCF service library for the Scoreboard service (formally known as the leaderboard service), here is a sample Silverlight application consuming that service to manage the Scoreboards on there. It implements all but the Register Leaderboard WCF method in the service.
+Right on the heals of the [last post](/blogs/darkgenesis/archive/2010/09/03/can-we-get-a-little-service-here) detailing the Silverlight WCF service library for the Scoreboard service (formally known as the leaderboard service), here is a sample Silverlight application consuming that service to manage the Scoreboards on there. It implements all but the Register Leaderboard WCF method in the service.
 
 It is goal is to list all Scoreboards registered on the service, list all the scores with those Scoreboards the client has access to (remember the access keys!) and be able to update those scores manually. The last bit was just a little extra so if you wanted to update scores in a game, you have an example how to within this service.
 
@@ -32,7 +32,7 @@ For now, where you see Leader Board, think scoreboard. **This sample is not an X
 
 ### Getting started
 
-No fluffing around with explanations for anything this time, lets dive straight in to the project, if you need to know more about how this works check the [previous article](/blogs/darkgenesis/archive/2010/09/03/can-we-get-a-little-service-here.aspx) and [probably this one](/blogs/darkgenesis/archive/2010/08/24/wcf-on-the-windows-phone-7-the-how-to-guide.aspx) as well.
+No fluffing around with explanations for anything this time, lets dive straight in to the project, if you need to know more about how this works check the [previous article](/blogs/darkgenesis/archive/2010/09/03/can-we-get-a-little-service-here) and [probably this one](/blogs/darkgenesis/archive/2010/08/24/wcf-on-the-windows-phone-7-the-how-to-guide) as well.
 
 So if you have not done so already start up “Visual Tools 2010 express for windows phone” (Or VS 2010 itself if you are using that ![Winking smile](/Images/wordpress/2012/06/wlEmoticon-winkingsmile5.png)) and create a new Windows Phone Application under the “Silverlight for Windows Phone” section (or open your existing project) and then right click on your solution and select “Add –\> Existing Project”. Select your local copy of the Library from the previous post (or download the library from the previous sample and use that). This should give you a project with both your new Phone app and the WCF scoreboard library attached.
 

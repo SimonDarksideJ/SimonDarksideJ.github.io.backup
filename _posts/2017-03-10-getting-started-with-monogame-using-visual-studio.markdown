@@ -33,7 +33,7 @@ What makes MonoGame far better than its XNA heritage, is that MonoGame is built 
 - Even Consoles
 - And many more (still growing)
 
-MonoGame has even extended the Content pipeline that XNA introduces (an asset management system) to also make assets like Art, Textures, Models and so on, work for every platform from a single configuration / building platform.&nbsp;
+MonoGame has even extended the Content pipeline that XNA introduces (an asset management system) to also make assets like Art, Textures, Models and so on, work for every platform from a single configuration / building platform. 
 
 > Check out the MonoGame Framework on their awesome site with an even more awesome URL:
 > 
@@ -45,7 +45,7 @@ MonoGame has even extended the Content pipeline that XNA introduces (an asset ma
 
 # Welcome to 2017
 
-As of March 2017, Microsoft has now released their next generation development management suite called Visual Studio 2017 (actually I am running out of different things to call Visual Studio with all the hats it wears).&nbsp; Visual Studio enables developers to Build / Manage / Deploy and maintain almost any software solution, especially on the Cloud.
+As of March 2017, Microsoft has now released their next generation development management suite called Visual Studio 2017 (actually I am running out of different things to call Visual Studio with all the hats it wears).  Visual Studio enables developers to Build / Manage / Deploy and maintain almost any software solution, especially on the Cloud.
 
 With this new big release, the Monogame also kept pace and released the latest version of the framework, **MonoGame 3.6** , which includes full support for Visual Studio 2017.
 
@@ -80,11 +80,11 @@ When you are picking the Game Development framework or engine to start with (or 
 
 There are those who then also like to go even lower but we shall not mention such things so as not to scare the birds, lest they fly away.
 
-> **My advice (as ever) has always been to choose what is the right fit for YOU and go with it.&nbsp; If you end up getting lost, then try something else until you find the right home for YOU.**
+> **My advice (as ever) has always been to choose what is the right fit for YOU and go with it.  If you end up getting lost, then try something else until you find the right home for YOU.**
 
 Game Development is a very personal thing and the tool you choose should be your choice!
 
-&nbsp;
+ 
 
 * * *
 
@@ -109,7 +109,7 @@ Each also including hints/tips and gotcha’s for each platform (that relate to 
 
 # The long version
 
-When I record such videos (as above), I also like to follow up with the slightly longer text version (just because some prefer not to watch videos).&nbsp; It is a bit more work and sometimes when it is written down it is easier to refer to.&nbsp; So I will run through here a summation of the videos.
+When I record such videos (as above), I also like to follow up with the slightly longer text version (just because some prefer not to watch videos).  It is a bit more work and sometimes when it is written down it is easier to refer to.  So I will run through here a summation of the videos.
 
 ## Getting Started with Visual Studio 2015
 
@@ -119,14 +119,14 @@ When I record such videos (as above), I also like to follow up with the slightly
 
 When you install Visual Studio 2015 using the default options, you have a fully working .NET development environment, with MonoGame installed you get access to the following platforms:
 
-&nbsp;&nbsp;&nbsp; • Windows Desktop DX (classic)
+    • Windows Desktop DX (classic)
 
-&nbsp;&nbsp;&nbsp; • Cross-Platform OpenGL (Linux / Windows / Etc)
+    • Cross-Platform OpenGL (Linux / Windows / Etc)
 
-&nbsp;&nbsp;&nbsp; • Content Pipeline Extensions
+    • Content Pipeline Extensions
 
-With these projects, you have enough to get you “up and running” and start building your first game using MonoGame.&nbsp; Each template includes all the necessary setup and boiler plate, including your first Game class “Game.cs”, which includes the all important game loop in which your game runs.  
-Following any of the many tutorials or samples using these templates will set you on a nice easy to follow course for your first few projects.&nbsp; You can even ship titles on these platforms via Steam or your distribution option of choice.&nbsp; Either way there is a lot of help to get started.
+With these projects, you have enough to get you “up and running” and start building your first game using MonoGame.  Each template includes all the necessary setup and boiler plate, including your first Game class “Game.cs”, which includes the all important game loop in which your game runs.  
+Following any of the many tutorials or samples using these templates will set you on a nice easy to follow course for your first few projects.  You can even ship titles on these platforms via Steam or your distribution option of choice.  Either way there is a lot of help to get started.
 
 > If you are intending to build a true “multi-platform” project, then I also recommend checking out one of my other videos for how to setup your project in the best way:  
 > [http://bit.ly/monogamemulti-platform](http://bit.ly/monogamemulti-platform)
@@ -139,20 +139,20 @@ When you want to start tackling Android as your target platform, then you will n
 
 ![image](/Images/wordpress/2017/03/image.png)
 
-&nbsp;&nbsp;&nbsp; • The Xamarin Core module (C#/.NET Xamarin)
+    • The Xamarin Core module (C#/.NET Xamarin)
 
-&nbsp;&nbsp;&nbsp; • Android SDK for target builds
+    • Android SDK for target builds
 
-&nbsp;&nbsp;&nbsp; • Android NDK (native dev kit) for target builds
+    • Android NDK (native dev kit) for target builds
 
-&nbsp;&nbsp;&nbsp; • Optionally, you can also install the Microsoft Visual Studio Android emulator
+    • Optionally, you can also install the Microsoft Visual Studio Android emulator
 
-This will give you all the components you need for getting up and running with Android using the MonoGame Android template.&nbsp; However, Android is a very fragmented platform and in all likelihood, you may need several projects or deployments in order to meet your distribution goals, such is the world of Android today.
+This will give you all the components you need for getting up and running with Android using the MonoGame Android template.  However, Android is a very fragmented platform and in all likelihood, you may need several projects or deployments in order to meet your distribution goals, such is the world of Android today.
 
-My best advice is to survey the markets you want to deploy your game in to, gather the different API types and versions you will need to support those (as well as the capabilities of each device) and plan from there.&nbsp; Having too few supported device types likely will mean too few installs to be profitable. Too many will mean you have a huge headache to maintain your game.  
+My best advice is to survey the markets you want to deploy your game in to, gather the different API types and versions you will need to support those (as well as the capabilities of each device) and plan from there.  Having too few supported device types likely will mean too few installs to be profitable. Too many will mean you have a huge headache to maintain your game.  
 If you follow the earlier advice for setting up a multi-platform project, this overall overhead will be greatly reduced, but it will always be a battle to keep up to date.
 
-> P.S. if you can, avoid the Google device emulator and you will keep some sanity in reserve for when you desperately need it. That thing is just a nightmare sadly.&nbsp; Use the Microsoft Android emulator instead, provided your machine can support running it (min 8GB memory required), else use physical devices for test.
+> P.S. if you can, avoid the Google device emulator and you will keep some sanity in reserve for when you desperately need it. That thing is just a nightmare sadly.  Use the Microsoft Android emulator instead, provided your machine can support running it (min 8GB memory required), else use physical devices for test.
 
 Another service to also think about using is either the Xamarin Test Cloud or the recently announced Azure Mobile test ([http://mobile.azure.com](http://mobile.azure.com)). These platforms will test your android project on as many devices as you with and give you a full range of stats for how well it runs and what issues the devices may have. The new Azure solution is currently in preview so it is free to use for now, so check it out while it is free.
 
@@ -161,19 +161,19 @@ Another service to also think about using is either the Xamarin Test Cloud or th
 The setup for iOS is a little easier, as you only need the Xamarin Core module (C#/.NET Xamarin) installed with Visual Studio 2015. If you have already setup for Android, then you have everything you need ON YOUR WINDOWS MACHINE!  
  ![image](/Images/wordpress/2017/03/image-1.png)
 
-However, to build for any Apple development platform you are going to need a MAC (in fact if you want to build for MacOS with MonoGame, you can ONLY do it from a Mac. No Widows dev for you. You’ll need either Xamarin or the new Visual Studio for Mac there, ON YOUR MAC).&nbsp; This is required in order to build your code for deployment to a device or the Apple Store, part of the locked in culture of Apple development.
+However, to build for any Apple development platform you are going to need a MAC (in fact if you want to build for MacOS with MonoGame, you can ONLY do it from a Mac. No Widows dev for you. You’ll need either Xamarin or the new Visual Studio for Mac there, ON YOUR MAC).  This is required in order to build your code for deployment to a device or the Apple Store, part of the locked in culture of Apple development.
 
 You can pick up a Mac Mini quite cheaply (I paid £50 for mine) provided it can support the following criteria:
 
-&nbsp;&nbsp;&nbsp; • It supports the latest version of the iOS SDK.
+    • It supports the latest version of the iOS SDK.
 
-&nbsp;&nbsp;&nbsp; • The latest version of Xcode.
+    • The latest version of Xcode.
 
-&nbsp;&nbsp;&nbsp; • Has Mac OS X Yosemite(10.10) & above installed.
+    • Has Mac OS X Yosemite(10.10) & above installed.
 
-&nbsp;
+ 
 
-You will also need an Apple Dev Center account registered and assigned to your device.&nbsp;
+You will also need an Apple Dev Center account registered and assigned to your device. 
 
 > **If your prospective device does not support the above, do not buy it as you will just be wasting your money to use it for development**
 
@@ -187,7 +187,7 @@ For more details on setting up your Mac so that Visual Studio can build against 
 To build for Windows 8.1, you still need a few extra bits. Mainly the development SDKs for Windows 8.1 and if you wish, the Phone emulators:  
  ![image](/Images/wordpress/2017/03/image-2.png)
 
-You will also need a Windows Store account to publish your game to the Windows Store as well, however, this is now a onetime low fee and then you have it for LIFE.&nbsp; Not a bad investment since it also gives you access to publish UWP games as well (see below).
+You will also need a Windows Store account to publish your game to the Windows Store as well, however, this is now a onetime low fee and then you have it for LIFE.  Not a bad investment since it also gives you access to publish UWP games as well (see below).
 
 ### 5. Building for Windows 10 UWP
 
@@ -195,7 +195,7 @@ To build for Windows 10, like with Windows 8, you simply need the SDK’s for th
 Thankfully everything you need is installed by simply selecting the “Universal Windows App Development Tools” node in the Visual Studio Installer:  
  ![image](/Images/wordpress/2017/03/image-3.png)
 
-You will also need to configure your Windows 10 machine in “Developer Mode” in order to side deploy and debug new UWP games on your machine.&nbsp; When you first try to create a new UWP project or open an existing gone, Visual Studio with prompt you and take you to the settings page, which can be found here:
+You will also need to configure your Windows 10 machine in “Developer Mode” in order to side deploy and debug new UWP games on your machine.  When you first try to create a new UWP project or open an existing gone, Visual Studio with prompt you and take you to the settings page, which can be found here:
 
 > Settings -\> Update & Security -\> For Developers
 
@@ -207,25 +207,25 @@ The new Visual Studio 2017 installer is a lot more lightweight than what we had 
 
 ![image](/Images/wordpress/2017/03/image-4.png)
 
-By default, NOTHING is selected and all you will install is the Core Visual Studio framework and editor.&nbsp; All you can do with this is inspect existing projects and create new blank solutions, functional but you ca not do much.&nbsp; TO get going you will need to explore some of the additional components / modules.
+By default, NOTHING is selected and all you will install is the Core Visual Studio framework and editor.  All you can do with this is inspect existing projects and create new blank solutions, functional but you ca not do much.  TO get going you will need to explore some of the additional components / modules.
 
 ### 1. Clean Visual Studio 2017 Install
 
-If you install just the Core Visual Studio 2017 and MonoGame, you wo not be able to do anything, the templates will not even show up.&nbsp; To get started you will need a minimum of the .NET desktop development module:  
+If you install just the Core Visual Studio 2017 and MonoGame, you wo not be able to do anything, the templates will not even show up.  To get started you will need a minimum of the .NET desktop development module:  
  ![image](/Images/wordpress/2017/03/image-5.png)
 
 With this you have pretty much the same as in the default install of 2015, namely the ability to create projects in:
 
-&nbsp;&nbsp;&nbsp; • Windows Desktop DX (classic)
+    • Windows Desktop DX (classic)
 
-&nbsp;&nbsp;&nbsp; • Cross-Platform OpenGL (Linux / Windows / Etc)
+    • Cross-Platform OpenGL (Linux / Windows / Etc)
 
-&nbsp;&nbsp;&nbsp; • Content Pipeline Extensions
+    • Content Pipeline Extensions
 
-> As before, if you are just “playing” or testing, then fire up a new project and play.&nbsp; If you are starting a new “proper” project, then I recommend you setup the project right from the beginning, as highlighted in my Multi-Platform solution setup video:
+> As before, if you are just “playing” or testing, then fire up a new project and play.  If you are starting a new “proper” project, then I recommend you setup the project right from the beginning, as highlighted in my Multi-Platform solution setup video:
 > 
 > [http://bit.ly/monogamemulti-platform](http://bit.ly/monogamemulti-platform)  
-> &nbsp;
+>  
 
 ### 2. Building for Android
 
@@ -235,13 +235,13 @@ To build for Android you need to check the “Mobile Development with .NET” mo
 In this module you will need to check the additional properties pane on the right-hand side of the installer to ensure you have the additional components selected that you require for MonoGame development, as shown here:  
  ![image](/Images/wordpress/2017/03/image-7.png)
 
-Just check you have the current Android NDK and SDK’s selected and you will be fine.&nbsp; There is one thing to take note of though, that the Microsoft Android Emulator is NOT available from this module (as well as other optional Android NDK/SDK libraries).&nbsp; If you want these additional features, then you will also have to check out the “Mobile Development Kit with C++” as shown here:  
+Just check you have the current Android NDK and SDK’s selected and you will be fine.  There is one thing to take note of though, that the Microsoft Android Emulator is NOT available from this module (as well as other optional Android NDK/SDK libraries).  If you want these additional features, then you will also have to check out the “Mobile Development Kit with C++” as shown here:  
  ![image](/Images/wordpress/2017/03/image-8.png)
 
 ### 3. Building for iOS
 
 As with 2015, if you have installed an Android development setup, then you already have the necessary bits for iOS development in Visual Studio 2017, namely the “Mobile Development with .NET” module  
-You’ll still have to get a MAC as a build host to build your projects (and a Mac to develop on for Mac development).&nbsp; Check the section for 2015 for more details, it is exactly the same.
+You’ll still have to get a MAC as a build host to build your projects (and a Mac to develop on for Mac development).  Check the section for 2015 for more details, it is exactly the same.
 
 ### 4. Building for Windows 10 UWP
 
@@ -251,12 +251,12 @@ Windows 10 development with Visual Studio 2017 has its own module as shown here:
 However, as with Android, you will need to inspect the Properties panel on the right-hand side of the installer to ensure you have all the necessary components needed for MonoGame, specifically the SDK’s.
 
 ![image](/Images/wordpress/2017/03/image-10.png)  
-By default, only the Anniversary SDK (14393) is installed, for MonoGame you will also need 10240 & 10586, so be sure to select them.&nbsp; This will ensure you have the widest coverage of Windows 10 devices out there.  
+By default, only the Anniversary SDK (14393) is installed, for MonoGame you will also need 10240 & 10586, so be sure to select them.  This will ensure you have the widest coverage of Windows 10 devices out there.  
 You can leave them out if you wish but you will have to Edit your project definition or be very careful with your Minimum and Target Platform selections when you create your project, else you will get lots of “errors”!!
 
 > **\*NOTE, a late reported issue was fixed in MonoGame for standalone installs of Visual Studio 2017!**  
-> **It was discovered that if Visual Studio 2017 was installed on top of / alongside Visual Studio 2015, it behaved differently and “just worked”.&nbsp; However, when Visual Studio 2017 was install on its own or on a clean machine, the templates would simply not work.**  
-> **A fix has already been delivered but it was after the MonoGame 3.6 release.&nbsp; To use Visual Studio 2017 on its own, use the current [“Development” release of MonoGame](http://bit.ly/monogamevsdevsetup) until a point release is submitted.&nbsp; There is currently very little difference between 3.6 and the development release, so it is completely fine.**
+> **It was discovered that if Visual Studio 2017 was installed on top of / alongside Visual Studio 2015, it behaved differently and “just worked”.  However, when Visual Studio 2017 was install on its own or on a clean machine, the templates would simply not work.**  
+> **A fix has already been delivered but it was after the MonoGame 3.6 release.  To use Visual Studio 2017 on its own, use the current [“Development” release of MonoGame](http://bit.ly/monogamevsdevsetup) until a point release is submitted.  There is currently very little difference between 3.6 and the development release, so it is completely fine.**
 
 * * *
 
@@ -267,4 +267,4 @@ With Visual Studio setup correctly and with the latest version 3.6 release of Mo
 Feel free to check out the other videos on my channel or the full list of “Recommended” [MonoGame tutorials listed on the site to get going](http://www.monogame.rocks/documentation/?page=Tutorials). (although to be honest, almost any XNA 4.0 tutorial will do)  
 I will be doing some more beginner sessions soon, so stay tuned.
 
-&nbsp;
+ 

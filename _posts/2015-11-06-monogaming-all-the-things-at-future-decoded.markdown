@@ -6,7 +6,7 @@ tags:
 - ramblings
 ---
 
-&nbsp;
+ 
 
 [![FD2015](/Images/wordpress/2015/11/FD2015.png)](https://futuredecoded.microsoft.com/)One of the biggest Tech Conferences in the UK is returning this year, refocused, re-targeted and yet still as big as ever. Compressed down to just two days (1 business and 1 technical) it offers a fast paced and intensive experience to get everyone up to speed.
 

@@ -22,11 +22,11 @@ Now Windows 8 enters the world and all the gloves are off, here we have two comp
 
 _P.S this is my first attempt blogging with Word as Live essentials and more importantly Windows Live Writer are on my Win 7 image and I’m deftly trying to write this from Windows 8_
 
-Source for the post can be found here on codeplex –&nbsp;[http://bit.ly/NxxVLb](http://bit.ly/NxxVLb "Post Sample")&nbsp;(need a better home for my new blog samples)
+Source for the post can be found here on codeplex – [http://bit.ly/NxxVLb](http://bit.ly/NxxVLb "Post Sample") (need a better home for my new blog samples)
 
 # **\*NOTE**
 
-Before I forget and if you run into issues with the code REMEMBER, UDP networking isn’t supported on the WP7 Emulator or the Metro Simulator. &nbsp;Both need to run on a device or in the case of Win 8, on a PC in order for the networking to work. &nbsp;A lesson hard learnt during the testing of Vequencer 😀
+Before I forget and if you run into issues with the code REMEMBER, UDP networking isn’t supported on the WP7 Emulator or the Metro Simulator.  Both need to run on a device or in the case of Win 8, on a PC in order for the networking to work.  A lesson hard learnt during the testing of Vequencer 😀
 
 * * *
 

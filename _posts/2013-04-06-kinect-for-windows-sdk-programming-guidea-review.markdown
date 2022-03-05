@@ -14,7 +14,7 @@ tags:
 
 [![Kinect for Windows SDK Programming Guide](http://1.2.3.12/bmi/dgdsbygo8mp3h.cloudfront.net/sites/default/files/imagecache/productview_larger/2380OT.jpg "Kinect for Windows SDK Programming Guide")](http://www.packtpub.com/sites/default/files/2380OT.jpg)
 
-As I do from time to time, I get sent over a book or two to look over and give a review on which I am more than happy to do especially if it is along the lines of game development, x-platform or in this case new and exciting technology.&nbsp; I am fair and upfront and do not bow to publisher pressures, if it is good I will say so but just as much if I do not like it be prepared.
+As I do from time to time, I get sent over a book or two to look over and give a review on which I am more than happy to do especially if it is along the lines of game development, x-platform or in this case new and exciting technology.  I am fair and upfront and do not bow to publisher pressures, if it is good I will say so but just as much if I do not like it be prepared.
 
 So far I have yet to review a stinker and in the case of Abhijit Jana’s book on the new Kinect SDK I was not disappointed.
 
@@ -46,15 +46,15 @@ The contents look like this:
 
 ##### [Chapter 5: The Depth Data – Making Things Happen](http://www.packtpub.com/kinect-for-windows-software-development-kit-programming-guide/book#chapter_5)
 
-> This chapter happily woke up my 3D side of my brain and went deep in to the implementation surrounding the depth sensor (ban pun I know), it really shows you how the Kinect understands 3D data and how it recognises different players / characters.&nbsp; it reminded me of a demo that was shown where 3D depth data from a Kinect was used to create 3D printer models and their eventual printed result.
+> This chapter happily woke up my 3D side of my brain and went deep in to the implementation surrounding the depth sensor (ban pun I know), it really shows you how the Kinect understands 3D data and how it recognises different players / characters.  it reminded me of a demo that was shown where 3D depth data from a Kinect was used to create 3D printer models and their eventual printed result.
 
 ##### [Chapter 6: Human Skeleton Tracking](http://www.packtpub.com/kinect-for-windows-software-development-kit-programming-guide/book#chapter_6)
 
-> If you have ever had any experience with animations and bones in 3D applications or games then this chapter will be right up your alley, if not then prepare for a basic anatomy lesson.&nbsp; Here Abhijit shows you all the magic that goes under the hood in the Kinect SDK and just how much power is leveled with the API to handle the complex nature of not just recognising poses in the environment the Kinect sees but also face recognition and for those fans of security, he walks through the creation of a intrusion detection app to warn you of unwanted guests need your favorite things, like your computer (waning also contains pictures of the author ![Smile with tongue out](/Images/wordpress/2013/04/wlEmoticon-smilewithtongueout.png))
+> If you have ever had any experience with animations and bones in 3D applications or games then this chapter will be right up your alley, if not then prepare for a basic anatomy lesson.  Here Abhijit shows you all the magic that goes under the hood in the Kinect SDK and just how much power is leveled with the API to handle the complex nature of not just recognising poses in the environment the Kinect sees but also face recognition and for those fans of security, he walks through the creation of a intrusion detection app to warn you of unwanted guests need your favorite things, like your computer (waning also contains pictures of the author ![Smile with tongue out](/Images/wordpress/2013/04/wlEmoticon-smilewithtongueout.png))
 
 ##### [Chapter 7: Using Kinect’s Microphone Array](http://www.packtpub.com/kinect-for-windows-software-development-kit-programming-guide/book#chapter_7)
 
-> Here we are led through one of the Kinect less known features, the microphone sensor and API, it is practically a whole audio studio crammed into that little Kinect box and very sophisticated (well at least to me and all audio uneducated people).&nbsp; With features like echo cancellation and noise suppression it shows Microsoft really wanted to get as much data out of the environment wit the Kinect as possible.
+> Here we are led through one of the Kinect less known features, the microphone sensor and API, it is practically a whole audio studio crammed into that little Kinect box and very sophisticated (well at least to me and all audio uneducated people).  With features like echo cancellation and noise suppression it shows Microsoft really wanted to get as much data out of the environment wit the Kinect as possible.
 
 ##### [Chapter 8: Speech Recognition](http://www.packtpub.com/kinect-for-windows-software-development-kit-programming-guide/book#chapter_8)
 
@@ -62,7 +62,7 @@ The contents look like this:
 
 ##### [Chapter 9: Building Gesture-controlled Applications](http://www.packtpub.com/kinect-for-windows-software-development-kit-programming-guide/book#chapter_9)
 
-> For those of you already used to Microsoft’s two latest device offerings like Windows Phone and Windows 8, they will be familiar with gesture recognition.&nbsp; Here we are shown how this is implemented on a programmatic level through the Kinect, how to recognise the base gestures and how to implement our own.&nbsp; What I did find interesting is the way we can even do gesture blending / chaining to build new types of gestures to recognise, fun stuff.
+> For those of you already used to Microsoft’s two latest device offerings like Windows Phone and Windows 8, they will be familiar with gesture recognition.  Here we are shown how this is implemented on a programmatic level through the Kinect, how to recognise the base gestures and how to implement our own.  What I did find interesting is the way we can even do gesture blending / chaining to build new types of gestures to recognise, fun stuff.
 
 ##### [Chapter 10: Developing Applications Using Multiple Kinects](http://www.packtpub.com/kinect-for-windows-software-development-kit-programming-guide/book#chapter_10)
 
@@ -70,7 +70,7 @@ The contents look like this:
 
 ##### [Chapter 11: Putting Things Together](http://www.packtpub.com/kinect-for-windows-software-development-kit-programming-guide/book#chapter_11)
 
-> The one chapter that really shocked me, just when you thought it was safe to come out of the cupboard, Abhijit unleashes the dogs of war with an onslaught of additional material including great additional frameworks to help you on your journey to AR, face tracking and even using XNA avatars with the Knect controller.&nbsp; be prepared, be very prepared.
+> The one chapter that really shocked me, just when you thought it was safe to come out of the cupboard, Abhijit unleashes the dogs of war with an onslaught of additional material including great additional frameworks to help you on your journey to AR, face tracking and even using XNA avatars with the Knect controller.  be prepared, be very prepared.
 
 * * *
 
@@ -84,19 +84,19 @@ My thoughts are varied on this book but still heavily weighted on the very good 
 
 ![src=]()
 
-> ![src=]()&nbsp;&nbsp;&nbsp; Each chapter is very well through out and steps you through each component of the device / API&nbsp; including very detailed examples.  
-> ![src=]()&nbsp;&nbsp;&nbsp; the attention to in depth and detailed technical detail is very easy to understand, Abhijit&nbsp; has done a very good job of explaining technical subjects to even a basic programmer.  
-> ![src=]()&nbsp;&nbsp;&nbsp; Full working sample projects that are only a stones throw away from being something submittable to a marketplace  
-> ![src=]()&nbsp;&nbsp;&nbsp; Covers 3D application for the Kinect, not just theory  
-> ![src=]()&nbsp;&nbsp;&nbsp; The final chapter is a work of art and almost an entire book on it is own.&nbsp; Showing how to use Azure with the Kinect is a stroke of genius
+> ![src=]()    Each chapter is very well through out and steps you through each component of the device / API  including very detailed examples.  
+> ![src=]()    the attention to in depth and detailed technical detail is very easy to understand, Abhijit  has done a very good job of explaining technical subjects to even a basic programmer.  
+> ![src=]()    Full working sample projects that are only a stones throw away from being something submittable to a marketplace  
+> ![src=]()    Covers 3D application for the Kinect, not just theory  
+> ![src=]()    The final chapter is a work of art and almost an entire book on it is own.  Showing how to use Azure with the Kinect is a stroke of genius
 
 ### The Bad
 
 ![src=]()
 
-> ![src=]()&nbsp;&nbsp;&nbsp; The highlights do become annoying switching from a good thought process to explaining things to a child.&nbsp; A bit OTT in areas but easily skipable if you do not need it.  
-> ![src=]()&nbsp;&nbsp;&nbsp; Highlights some of the tricky areas for using the device / API but no real solutions, could have given some extensions with the code API instead of a fixed example.  
-> ![src=]()&nbsp;&nbsp;&nbsp; Some of the math concept seem forced in and do not get explained enough or do not really&nbsp; fit in with the area.
+> ![src=]()    The highlights do become annoying switching from a good thought process to explaining things to a child.  A bit OTT in areas but easily skipable if you do not need it.  
+> ![src=]()    Highlights some of the tricky areas for using the device / API but no real solutions, could have given some extensions with the code API instead of a fixed example.  
+> ![src=]()    Some of the math concept seem forced in and do not get explained enough or do not really  fit in with the area.
 
 * * *
 
@@ -104,7 +104,7 @@ My thoughts are varied on this book but still heavily weighted on the very good 
 
 ![src=]()
 
-Overall I really enjoyed this book and it makes me want to pick up a device and actually start running with it, the samples / examples provide a really good base from where you can expand and put your own mark on the map.&nbsp; I struggled to come up with bad points about this book as it is well formed so they are really just nick picking at best (mild annoyances)&nbsp; as it was such a good read.
+Overall I really enjoyed this book and it makes me want to pick up a device and actually start running with it, the samples / examples provide a really good base from where you can expand and put your own mark on the map.  I struggled to come up with bad points about this book as it is well formed so they are really just nick picking at best (mild annoyances)  as it was such a good read.
 
 If you want to learn the Kinect and how to make the most of it then this book is a really good start and one worth having on the shelf.
 
@@ -124,4 +124,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js" language="javascript"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20) &nbsp;<script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList.aspx?amid=9502591)
+// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

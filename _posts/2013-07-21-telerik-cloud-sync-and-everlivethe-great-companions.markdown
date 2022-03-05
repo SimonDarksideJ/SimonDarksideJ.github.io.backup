@@ -20,13 +20,13 @@ There is a lot to be said for what Telerik is trying to achieve by creating a co
 
 # Getting to know Telerik Everlive
 
-Everlive has a lot of similarities to Azures Mobile services (WAMS) in fact almost everything seems to be modelled on what is best&nbsp; from WAMS and leaving out those bits that dev’s are taking question to.
+Everlive has a lot of similarities to Azures Mobile services (WAMS) in fact almost everything seems to be modelled on what is best  from WAMS and leaving out those bits that dev’s are taking question to.
 
 You got everything from managed storage and data plus all the API goodness you would expect.
 
 ![src=]()
 
-Everlive is driven by Telerik’s Icenium hybrid app suite but you can use it standalone if you wish, just like WAMS or Parse.&nbsp; Breaking it down here is what you get with Everlive:
+Everlive is driven by Telerik’s Icenium hybrid app suite but you can use it standalone if you wish, just like WAMS or Parse.  Breaking it down here is what you get with Everlive:
 
 ### **Data in the Cloud**
 
@@ -61,11 +61,11 @@ Through their new control set they include:
 
 Telerik even include (as per usual if you know Telerik) several sample apps all built on top of their cloud controls, up and running and ready to go.
 
-For more details on Telerik’s cloud data sync set see here – [http://www.telerik.com/products/windows-phone/overview/all-controls/clouddatasync.aspx](http://www.telerik.com/products/windows-phone/overview/all-controls/clouddatasync.aspx)
+For more details on Telerik’s cloud data sync set see here – [http://www.telerik.com/products/windows-phone/overview/all-controls/clouddatasync](http://www.telerik.com/products/windows-phone/overview/all-controls/clouddatasync)
 
 > \*Note
 > 
-> The controls and synchronisation features are still in beta at present and are ever evolving, being involved in the beta has already changed some things and included new features.&nbsp; Expect a lot more in the coming months.&nbsp; The backend and controls are stable enough at present to be used in live apps, just be aware some things may not work exactly right just yet.&nbsp; Where they do not then jump on the forums and you will usually get answers very soon with Telerik’s amazing support staff.
+> The controls and synchronisation features are still in beta at present and are ever evolving, being involved in the beta has already changed some things and included new features.  Expect a lot more in the coming months.  The backend and controls are stable enough at present to be used in live apps, just be aware some things may not work exactly right just yet.  Where they do not then jump on the forums and you will usually get answers very soon with Telerik’s amazing support staff.
 
 * * *
 
@@ -131,13 +131,13 @@ New cloud service name
 
 And you are done, you will now have a brand new project setup, complete with sample app and backend data which is completely working.
 
-You can of course setup the above yourself and get ready the old fashioned way by just add the references manually from the Telerik “Program files” folder and create a new app on the Everlive service.&nbsp; It is basically the same but there are some additional step which I will add below, which is the same when you want to add your own data.
+You can of course setup the above yourself and get ready the old fashioned way by just add the references manually from the Telerik “Program files” folder and create a new app on the Everlive service.  It is basically the same but there are some additional step which I will add below, which is the same when you want to add your own data.
 
 * * *
 
 # Going further
 
-So you got your app ready and want to setup your own data eh.&nbsp; This is fairly straight forward and as stated earlier is very reminiscent of Azure’s Mobile services way of getting started.&nbsp; Just logon to the Everlive portal at [www.everlive.com](http://www.everlive.com)
+So you got your app ready and want to setup your own data eh.  This is fairly straight forward and as stated earlier is very reminiscent of Azure’s Mobile services way of getting started.  Just logon to the Everlive portal at [www.everlive.com](http://www.everlive.com)
 
 Once your new app is created (if you skipped the first step, the process is exactly the same on the Everlive portal) you can select it to begin adding your data, this is essential as unlike Parse both WAMS and Everlive require you setup your tables first.
 
@@ -205,10 +205,10 @@ There is another option to integrate with Everlive, through its own native SDK.
 
 its available to download direct from the Everlive site (in the downloads section) for:
 
-> ![src=]()&nbsp;&nbsp;&nbsp; .NET 4.0  
-> ![src=]()&nbsp;&nbsp;&nbsp; .NET 4.5  
-> ![src=]()&nbsp;&nbsp;&nbsp; Windows Phone 7 & 8  
-> ![src=]()&nbsp;&nbsp;&nbsp; HTML / Javascript
+> ![src=]()    .NET 4.0  
+> ![src=]()    .NET 4.5  
+> ![src=]()    Windows Phone 7 & 8  
+> ![src=]()    HTML / Javascript
 
 I wo not go in to too much detail (as that is practically a whole other article there) but always nice to have additional options.
 
@@ -218,13 +218,13 @@ Full instructions for integrating the SDK with your client apps is also given on
 
 # Off you go
 
-Hopefully that is enough to get you interested and started with Telerik’s new offering in the world.&nbsp; I will try and keep this updated and things change since it is a ever evolving service.
+Hopefully that is enough to get you interested and started with Telerik’s new offering in the world.  I will try and keep this updated and things change since it is a ever evolving service.
 
 I myself have already requested several new features, most of which are either in the current internal build or planned for very near releases, including:
 
-> ![src=]()&nbsp;&nbsp;&nbsp; Offline support (it is possible to do offline at the moment but it is tricky)  
-> ![src=]()&nbsp;&nbsp;&nbsp; Alternate backend providers (granted a bit cheeky but it is already in motion)  
-> ![src=]()&nbsp;&nbsp;&nbsp; Social logon features
+> ![src=]()    Offline support (it is possible to do offline at the moment but it is tricky)  
+> ![src=]()    Alternate backend providers (granted a bit cheeky but it is already in motion)  
+> ![src=]()    Social logon features
 
 I am now going to take a break and get back to some MonoGame stuff, planning on getting MonoGame.Portable out on NuGet and if I have time the rest of MonoGame as well ![Open-mouthed smile](/Images/wordpress/2013/07/wlEmoticon-openmouthedsmile3.png)
 

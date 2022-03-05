@@ -10,7 +10,7 @@ tags:
 - xna-2d-tutorials
 ---
 
- **Flow control is an essential part of any programming language, it allows us to make decisions and change the direction our program takes.&nbsp;**
+ **Flow control is an essential part of any programming language, it allows us to make decisions and change the direction our program takes. **
 
 **E.G. has the user pressed left, then make the avatar go left, has the user press fire, then shoot a big ball of flame.**
 
@@ -342,11 +342,11 @@ Example:
 
 The jump statement is used for branching, which causes a transfer of the program control. The following keywords are used in jump statements: break, continue, goto, return.
 
-&nbsp;
+ 
 
 **Example:**
 
-&nbsp;
+ 
 
      1: using System;
 
@@ -705,7 +705,7 @@ The if statement is a control statement that executes a block of code if an expr
 
 <!--CRLF-->
 
-     2:&nbsp; 
+     2:  
 
 <!--CRLF-->
 
@@ -713,7 +713,7 @@ The if statement is a control statement that executes a block of code if an expr
 
 <!--CRLF-->
 
-     4:&nbsp; 
+     4:  
 
 <!--CRLF-->
 
@@ -721,7 +721,7 @@ The if statement is a control statement that executes a block of code if an expr
 
 <!--CRLF-->
 
-     6:&nbsp; 
+     6:  
 
 <!--CRLF-->
 
@@ -729,7 +729,7 @@ The if statement is a control statement that executes a block of code if an expr
 
 <!--CRLF-->
 
-&nbsp;
+ 
 
 where expression is an expression that can be converted to bool, statement1 is the statement(s) to be executed if expression is true, and statement2 is the statement(s) to be executed if expression is false. If expression is true, statement1 is executed. If the optional else clause exists and expression evaluates to false_,_ statement2 is executed. After executing the if statement, control is transferred to the next statement.
 
@@ -801,7 +801,7 @@ In this Example if “ch” is a letter, only then will it will check if it is a
 
 <!--CRLF-->
 
-In this Example, it will check if “ch” is an uppercase letter, if not it will check if it is lowercase, if not again it will check if it is a number.&nbsp; If all these fail then it will inform you it was not alphanumeric:
+In this Example, it will check if “ch” is an uppercase letter, if not it will check if it is lowercase, if not again it will check if it is a number.  If all these fail then it will inform you it was not alphanumeric:
 
      1: using System;
 

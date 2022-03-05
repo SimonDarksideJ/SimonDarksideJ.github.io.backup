@@ -60,7 +60,7 @@ If you already have an XNA content project setup the way you want and do not wan
 
 [![image](/Images/wordpress/2014/12/image_thumb4.png "image")](/Images/wordpress/2014/12/image4.png)
 
-Using the “Import” option in the file menu, you simply select an existing “.contentproject”&nbsp; then it will read the old definition and import all your settings and content in to the new Content Builder Project, as if by magic!
+Using the “Import” option in the file menu, you simply select an existing “.contentproject”  then it will read the old definition and import all your settings and content in to the new Content Builder Project, as if by magic!
 
 * * *
 
@@ -68,7 +68,7 @@ Using the “Import” option in the file menu, you simply select an existing �
 
 So, apart from [sanitation](http://en.wikipedia.org/wiki/Sanitation), medicine, education, wine, [public order](http://en.wikipedia.org/wiki/Public_order), [irrigation](http://en.wikipedia.org/wiki/Irrigation), roads, a [fresh water](http://en.wikipedia.org/wiki/Fresh_water) system and [public health](http://en.wikipedia.org/wiki/Public_health), what have the romans ever done for us? (I do love Monty Python quotes – [http://bit.ly/PythonRomans](http://bit.ly/PythonRomans "http://bit.ly/PythonRomans")).
 
-Apart from a simpler system, why do all this? To which the answer is simple.&nbsp; The biggest issue with using the old Content Builder solution with XNA Content Projects was that it could only be built on Windows machines (since that is where XNA’s main support lay).
+Apart from a simpler system, why do all this? To which the answer is simple.  The biggest issue with using the old Content Builder solution with XNA Content Projects was that it could only be built on Windows machines (since that is where XNA’s main support lay).
 
 However with the new MGCB processor, it is now possible to build content on all of MonoGame’s platforms.
 
@@ -98,9 +98,9 @@ On Windows, the current list of templates includes:
 
 [![image](/Images/wordpress/2014/12/image_thumb5.png "image")](/Images/wordpress/2014/12/image5.png)
 
-> \*Note, you still need XAMARIN’s extensions on Windows to use the Android, Ouya and iOS templates.&nbsp; Android can still be built using MonoDevelop on Windows.
+> \*Note, you still need XAMARIN’s extensions on Windows to use the Android, Ouya and iOS templates.  Android can still be built using MonoDevelop on Windows.
 
-&nbsp;
+ 
 
 Start any new solution and it will look like the project solution shown earlier (In the Enter section)
 
@@ -120,9 +120,9 @@ Here you will find out 3 main samples in various states of development:
 
 The team continues to advance the sample set as a “Best Practice” example of how to make your games run on all platforms and show the best way to organise your multi-platform projects.
 
-> Yes, we are still working on the documentation for each sample, it is a hard job and everyone has only so much time.&nbsp; Help out if you can!!
+> Yes, we are still working on the documentation for each sample, it is a hard job and everyone has only so much time.  Help out if you can!!
 
-&nbsp;
+ 
 
 **Of note is that EACH sample only has ONE content project, this project is then shared by ALL platforms and built for the correct platform at build time!!**
 
@@ -132,16 +132,16 @@ The team continues to advance the sample set as a “Best Practice” example of
 
 # Upgrading your project
 
-Now it is possible to upgrade your project to use the new Content Builder tool but at present it is a manual process.&nbsp; it is however just a couple of steps:
+Now it is possible to upgrade your project to use the new Content Builder tool but at present it is a manual process.  it is however just a couple of steps:
 
-> \*Note, at the time of writing the MGCB tool only fully works on Windows platforms, you still need a Windows machine to edit the MGCB configuration.&nbsp; Keep checking the website for full Linux and MacOS support.  
+> \*Note, at the time of writing the MGCB tool only fully works on Windows platforms, you still need a Windows machine to edit the MGCB configuration.  Keep checking the website for full Linux and MacOS support.  
 > **However the Content Project works and builds content for ALL platforms using the MGCB processor.**
 
 1. Install the latest Dev installer (needed to install the tool itself) – We recommend you uninstall the old installer first if you already have it.
 2. Back up your existing project, if you are using source control, just push your latest changes up to the server first.  
 If you are not using source control !!!Start using it!! (are you crazy?). Also make another backup “just in case” (you can never be too careful)
 3. Exclude / remove and content / links / build processes you already have for publishing your content in your project.  
-Just move any pre-built XNB’s elsewhere and if you have build scripts copying them, remove the script.&nbsp; If you are linking XNB files, remove the links from your project.&nbsp; This should leave your project in a clean state with NO content.
+Just move any pre-built XNB’s elsewhere and if you have build scripts copying them, remove the script.  If you are linking XNB files, remove the links from your project.  This should leave your project in a clean state with NO content.
 4. Save your project – next comes the tricky part – manually editing your csproj file (the project file)
 5. Open up the project file (.csproj) in your favourite text editor (or use the VS powertools “edit project file function)  
 You will find the VS powertools in the Visual Studio Extension library, click _“Tools –\> Extensions and updates_ “ (in the VS menu) and then search for power tools.
@@ -151,7 +151,7 @@ You will find the VS powertools in the Visual Studio Extension library, click _�
 
 7. Set the name of the platform to the one your project file is targeting, the options are:  
 Android, iOS, Linux, MacOSX, NativeClient, Ouya, PlayStation4, PlayStationMobile, RaspberryPi, Windows, WindowsGL, WindowsPhone, WindowsPhone8, WindowsStoreApp, Xbox360.  
-_Note for Windows 8 you should use the **Windows** target.&nbsp; WindowsStoreApp is for 8.1 games or Universal Windows targets._
+_Note for Windows 8 you should use the **Windows** target.  WindowsStoreApp is for 8.1 games or Universal Windows targets._
 8. At the end of the project file before the \</Project\> marker (preferably with the other \<Import\> sections) add the following line
 
     \<Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" /\>
@@ -159,12 +159,12 @@ _Note for Windows 8 you should use the **Windows** target.&nbsp; WindowsStoreApp
 This will enable the “ **MonoGameContentReference** ” Build action to appear and enable the tool.
 
 9. Add a new text file in your “Content” folder and rename its extension to “.mgcb” (for example “Content\mycontent.mgcb”) – _the simpliest way to create a new MGCB project._  
-Note, you should see a new icon for the file appear.&nbsp; If it does not then check your install of the MonoGame installer, **make sure it is a dev version and not the 3.2 release**
+Note, you should see a new icon for the file appear.  If it does not then check your install of the MonoGame installer, **make sure it is a dev version and not the 3.2 release**
 10. Now select your .MGCB content project in the solution explorer and set it is build action to **MonoGameContentReference.  
 [![image](/Images/wordpress/2015/01/image_thumb.png "image")](/Images/wordpress/2015/01/image.png)**  
 11. Finally, double-Click the MGCB content file and open the MonoGame Content Builder GUI, add in your assets manually or import them from your old .contentproject 
 
-> \*Note, at the time of writing there was a bug with the MonoGame Content Builder GUI where it did not always open the file it was launched with.&nbsp; Just check and open it manually while in the tool to be sure.&nbsp; Hopefully that will get fixed soon!
+> \*Note, at the time of writing there was a bug with the MonoGame Content Builder GUI where it did not always open the file it was launched with.  Just check and open it manually while in the tool to be sure.  Hopefully that will get fixed soon!
 
 Once all that is done, save your project file and reload your project in your code editor.
 
@@ -179,12 +179,12 @@ Now as this is still a development build for the tool and there are a few caveat
 1. It ai not 100% finished and their maybe bugs (however you will note the Platformer sample is all updated, builds fine and runs on all platforms!)
 2. XACT projects are not supported (actually it was found that XNA did not even handle XACT, they were just pushed out the other side!, odd what you find out) just add your audio files individually and use them as normal with Content.Load\<Song\> etc.
 3. The Linux tool is almost there – why not help test it
-4. As noted above, the MonoGame Content Builder GUI doesn’t always open the file you launched it from. Just check you are looking at the right content file before making changes.&nbsp; To be on the safe side, just open it manually from the tool (Which was found out in a LIVE stream by Andy and Tom, it was fun ![Open-mouthed smile](/Images/wordpress/2014/12/wlEmoticon-openmouthedsmile1.png))
+4. As noted above, the MonoGame Content Builder GUI doesn’t always open the file you launched it from. Just check you are looking at the right content file before making changes.  To be on the safe side, just open it manually from the tool (Which was found out in a LIVE stream by Andy and Tom, it was fun ![Open-mouthed smile](/Images/wordpress/2014/12/wlEmoticon-openmouthedsmile1.png))
 5. Multi-platform content is now a doddle! Have fun. 
 
-If you have any further questions / queries / rumblings or a tendency to fiddle.&nbsp; Then jump on the GitHub site, test and report issues (only if you find them, an Issue saying “What a fantastic tool” are nice but not helpful!!)
+If you have any further questions / queries / rumblings or a tendency to fiddle.  Then jump on the GitHub site, test and report issues (only if you find them, an Issue saying “What a fantastic tool” are nice but not helpful!!)
 
-&nbsp;
+ 
 
 Jump in and get involved!
 

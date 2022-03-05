@@ -14,7 +14,7 @@ As we get into the actual coding part of this tutorial, I thought I would at lea
 
 [![image](/Images/wordpress/2012/07/image_thumb20.png "image")](/Images/wordpress/2012/07/image20.png)
 
-Fairly basic game with your little Trooper at the bottom furiously shooting up at the Condors before they crash in to you.&nbsp; On with the show.
+Fairly basic game with your little Trooper at the bottom furiously shooting up at the Condors before they crash in to you.  On with the show.
 
 As noted in the previous post, code for this section can be found [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/44143 "Lesson 4 Supporting content") along with the original DigiPen webcast.
 
@@ -44,7 +44,7 @@ The following items can be found in either the “Startroopergame.cs” (the ren
 
 So first off the sprites.
 
-Someone might question that there will be only one of a certain type of sprites in our game like the Trooper and background unlike Condor’s and Shots will be created and destroyed, so should not they be handled separately?.&nbsp; Well you could but that would only complicate how the game is put together, as a rule of thumb just keep to the KISS principle (Keep It Simple Stupid – I kid you not).&nbsp; So we group all the things that we need to draw and animate together and handle them the same.
+Someone might question that there will be only one of a certain type of sprites in our game like the Trooper and background unlike Condor’s and Shots will be created and destroyed, so should not they be handled separately?.  Well you could but that would only complicate how the game is put together, as a rule of thumb just keep to the KISS principle (Keep It Simple Stupid – I kid you not).  So we group all the things that we need to draw and animate together and handle them the same.
 
 So we need somewhere to group all the Sprites together, for that we use a List (or array):
 
@@ -52,7 +52,7 @@ So we need somewhere to group all the Sprites together, for that we use a List (
 
 <!--CRLF-->
 
-We make it static so that there is only one container and we do not need to declare it to use it, keeps it simple.&nbsp; But we also need to handle that some of the sprites will be created and destroyed over time, as a list cannot be manipulated when it is being parsed (when the array is being walked through), we need two additional lists to add and remove sprites from our sprite list:
+We make it static so that there is only one container and we do not need to declare it to use it, keeps it simple.  But we also need to handle that some of the sprites will be created and destroyed over time, as a list cannot be manipulated when it is being parsed (when the array is being walked through), we need two additional lists to add and remove sprites from our sprite list:
 
      1: static List\<Sprite\> m\_DeletedSprites = new List\<Sprite\>();
 
@@ -104,7 +104,7 @@ To makes things simple to read, it is best to write separate functions for each 
 
 <!--CRLF-->
 
-     9:&nbsp; 
+     9:  
 
 <!--CRLF-->
 
@@ -132,7 +132,7 @@ To makes things simple to read, it is best to write separate functions for each 
 
 <!--CRLF-->
 
-     16:&nbsp; 
+     16:  
 
 <!--CRLF-->
 
@@ -144,7 +144,7 @@ To makes things simple to read, it is best to write separate functions for each 
 
 <!--CRLF-->
 
-     19:&nbsp; 
+     19:  
 
 <!--CRLF-->
 
@@ -156,7 +156,7 @@ To makes things simple to read, it is best to write separate functions for each 
 
 <!--CRLF-->
 
-     22:&nbsp; 
+     22:  
 
 <!--CRLF-->
 
@@ -164,7 +164,7 @@ To makes things simple to read, it is best to write separate functions for each 
 
 <!--CRLF-->
 
-The first block checks the Added Sprites list and adds any it finds into the main Sprite list, it also then adds it to the ZOrdered Sprites list, it then clears the Added Sprites list for the next run so that we only add each new sprite once.&nbsp; The next block then does this again for the Deleted Sprites list except is removes the sprites found instead.
+The first block checks the Added Sprites list and adds any it finds into the main Sprite list, it also then adds it to the ZOrdered Sprites list, it then clears the Added Sprites list for the next run so that we only add each new sprite once.  The next block then does this again for the Deleted Sprites list except is removes the sprites found instead.
 
 The last two blocks loop through the main Sprite list and performs two updates on them (this is how DigiPen did it to separate out group operations on sprites and individual sprite types updates, a better solution would be to Override the Update call but we will do this later)
 
@@ -190,7 +190,7 @@ All we then have to do is add out “InternalUpdate” function to the main XNA 
 
 <!--CRLF-->
 
-     6:&nbsp; 
+     6:  
 
 <!--CRLF-->
 
@@ -202,7 +202,7 @@ All we then have to do is add out “InternalUpdate” function to the main XNA 
 
 <!--CRLF-->
 
-     9:&nbsp; 
+     9:  
 
 <!--CRLF-->
 
@@ -228,7 +228,7 @@ Next we need to handle the drawing of our sprites, as there is a lot less to do 
 
 <!--CRLF-->
 
-     4:&nbsp; 
+     4:  
 
 <!--CRLF-->
 
@@ -236,7 +236,7 @@ Next we need to handle the drawing of our sprites, as there is a lot less to do 
 
 <!--CRLF-->
 
-     6:&nbsp; 
+     6:  
 
 <!--CRLF-->
 
@@ -244,7 +244,7 @@ Next we need to handle the drawing of our sprites, as there is a lot less to do 
 
 <!--CRLF-->
 
-     8:&nbsp; 
+     8:  
 
 <!--CRLF-->
 
@@ -256,7 +256,7 @@ Next we need to handle the drawing of our sprites, as there is a lot less to do 
 
 <!--CRLF-->
 
-     11:&nbsp; 
+     11:  
 
 <!--CRLF-->
 
@@ -268,7 +268,7 @@ Next we need to handle the drawing of our sprites, as there is a lot less to do 
 
 <!--CRLF-->
 
-Here we are using the ZOrdered list of sprites (since we want to draw our background behind everything else, but also useful if you want to use layered backgrounds, more later).&nbsp; Personally I might have just used the main Sprite list but lets keep to the DigiPen track for now.
+Here we are using the ZOrdered list of sprites (since we want to draw our background behind everything else, but also useful if you want to use layered backgrounds, more later).  Personally I might have just used the main Sprite list but lets keep to the DigiPen track for now.
 
 That is it for sprites, any we now add to the Added List will get put into the main loop and be updated and drawn to the screen.
 
@@ -276,7 +276,7 @@ That is it for sprites, any we now add to the Added List will get put into the m
 
 ### 2. Text Manager
 
-The implementation for Text is pretty much the same as Sprites as test does end up as a graphic drawn to the screen, it is not a sprite however and needs to be handled separately, there are some discussions that text like sprites are just draw-able elements on the screen and should be grouped together,&nbsp; just use which ever implementation works for you, but this way it is easier to read.
+The implementation for Text is pretty much the same as Sprites as test does end up as a graphic drawn to the screen, it is not a sprite however and needs to be handled separately, there are some discussions that text like sprites are just draw-able elements on the screen and should be grouped together,  just use which ever implementation works for you, but this way it is easier to read.
 
 So first off the storage lists / arrays:
 
@@ -306,7 +306,7 @@ The Update function for text: (Digipen just appended it to the Sprite update fun
 
 <!--CRLF-->
 
-     4:&nbsp; 
+     4:  
 
 <!--CRLF-->
 
@@ -322,7 +322,7 @@ The Update function for text: (Digipen just appended it to the Sprite update fun
 
 <!--CRLF-->
 
-     8:&nbsp; 
+     8:  
 
 <!--CRLF-->
 
@@ -350,7 +350,7 @@ And finally adding the draw logic just after the Sprite drawing logic so that it
 
 Audio is generally a lot simpler to manage, we do not add new sounds or remove them in the course of the game, it is just play or do not play.
 
-But we do have two types of sound to manage, simple sound effects (like a shot or explosion) and music (which repeats / loops and plays continuously).&nbsp; So we need one container for sound and one for music.
+But we do have two types of sound to manage, simple sound effects (like a shot or explosion) and music (which repeats / loops and plays continuously).  So we need one container for sound and one for music.
 
      1: static List\<SoundEffect\> m\_Sounds = new List\<SoundEffect\>();
 
@@ -360,11 +360,11 @@ But we do have two types of sound to manage, simple sound effects (like a shot o
 
 <!--CRLF-->
 
-In XNA, there is a distinction between the physical audio file (the sound) and how we play it.&nbsp; if we just want to play it once with no other settings, it is a simple “SoundEffect”, however if we want to do more like loop the sound, control the pitch / volume and such, then we need to create an instance of that sound and control it is output through the use of a “SoundEffectInstance”.&nbsp; I will cover these in a bit more detail in the audio section of the tutorial, but the the engine we need do no more.
+In XNA, there is a distinction between the physical audio file (the sound) and how we play it.  if we just want to play it once with no other settings, it is a simple “SoundEffect”, however if we want to do more like loop the sound, control the pitch / volume and such, then we need to create an instance of that sound and control it is output through the use of a “SoundEffectInstance”.  I will cover these in a bit more detail in the audio section of the tutorial, but the the engine we need do no more.
 
-Another great feature of the XNA framework is that we do not need any logic for handling the actual playing and updating of music, XNA does this all for us.&nbsp; We just tell XNA to play the sound or stop it (with a few extra options with an instance).
+Another great feature of the XNA framework is that we do not need any logic for handling the actual playing and updating of music, XNA does this all for us.  We just tell XNA to play the sound or stop it (with a few extra options with an instance).
 
-There is another way to handle audio (which is covered in the XNA Help) through a tool called XACT (Xbox Audio Creation Tool).&nbsp; XACT is more of an audio studio which enables you to configure your audio with more granularity and even add 3D effects to your sound.&nbsp; Time permitting, I will handle this in one of the extensions to the DigiPen tutorial.
+There is another way to handle audio (which is covered in the XNA Help) through a tool called XACT (Xbox Audio Creation Tool).  XACT is more of an audio studio which enables you to configure your audio with more granularity and even add 3D effects to your sound.  Time permitting, I will handle this in one of the extensions to the DigiPen tutorial.
 
 * * *
 
@@ -380,7 +380,7 @@ The input manager I’ve included as part of the basic project is very simple:
 
 <!--CRLF-->
 
-     3:&nbsp; 
+     3:  
 
 <!--CRLF-->
 
@@ -400,7 +400,7 @@ The input manager I’ve included as part of the basic project is very simple:
 
 <!--CRLF-->
 
-     8:&nbsp; 
+     8:  
 
 <!--CRLF-->
 
@@ -420,7 +420,7 @@ The input manager I’ve included as part of the basic project is very simple:
 
 <!--CRLF-->
 
-     13:&nbsp; 
+     13:  
 
 <!--CRLF-->
 
@@ -440,7 +440,7 @@ The input manager I’ve included as part of the basic project is very simple:
 
 <!--CRLF-->
 
-     18:&nbsp; 
+     18:  
 
 <!--CRLF-->
 
@@ -448,17 +448,17 @@ The input manager I’ve included as part of the basic project is very simple:
 
 <!--CRLF-->
 
-All that is provided so far are the two needed keyboard states for storing the current and previous states of the keyboard (we have both so we can compare if you are holding the key or if you have just released it), an update method to get the latest keyboard state and save the last one.&nbsp; Lastly there are two methods which return true if a key is pressed (held down) and triggered (just pushed).&nbsp; Trick being that if a button is only triggered you only get one action (like typing on a keyboard, you only want 1 letter for each key pressed) and if it is held it keeps going until the user releases the key (like turning a car).
+All that is provided so far are the two needed keyboard states for storing the current and previous states of the keyboard (we have both so we can compare if you are holding the key or if you have just released it), an update method to get the latest keyboard state and save the last one.  Lastly there are two methods which return true if a key is pressed (held down) and triggered (just pushed).  Trick being that if a button is only triggered you only get one action (like typing on a keyboard, you only want 1 letter for each key pressed) and if it is held it keeps going until the user releases the key (like turning a car).
 
 I do have a more complicated input manager on my other CodePlex project “[Camera Examples](http://hack1.codeplex.com/releases/view/28619)” which you can view if you wish.
 
 later in the tutorial we will expand the input manager slightly but not by much as a simple shooter does not need much.
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 ### 5. Animation Manager
 
@@ -468,11 +468,11 @@ I would go through it here but “Half Pint” over at [CoderPlex](http://coderp
 
 This is handy as he has also written a spritesheet creator tool, which I will go though using in one of the intermissions in this tutorial.
 
-&nbsp;
+ 
 
 * * *
 
-That is it for the implementation of the engine for now.&nbsp; From the Digipen I have stripped a lot of the engine code as the XNA framework supplies most of it and some was just redundant in the new world.
+That is it for the implementation of the engine for now.  From the Digipen I have stripped a lot of the engine code as the XNA framework supplies most of it and some was just redundant in the new world.
 
 Now on to the beginning of our game and actually draw something.
 

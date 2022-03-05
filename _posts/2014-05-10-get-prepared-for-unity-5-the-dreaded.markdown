@@ -10,13 +10,13 @@ tags:
 - unity3d
 ---
 
-# &nbsp;So what is in a “.” when accessing a Component
+#  So what is in a “.” when accessing a Component
 
-> Check the Post on the Unity forms discussing this practice here –&nbsp;[http://forum.unity3d.com/threads/245400-Unity-5-Beta-Insights](http://forum.unity3d.com/threads/245400-Unity-5-Beta-Insights)
+> Check the Post on the Unity forms discussing this practice here – [http://forum.unity3d.com/threads/245400-Unity-5-Beta-Insights](http://forum.unity3d.com/threads/245400-Unity-5-Beta-Insights)
 > 
-> ### \*\*Update, Unity have now written a post on the changes posed for Unity 5 and the inner workings, well worth a read –&nbsp;[http://bit.ly/1pf5Wog](http://bit.ly/1pf5Wog "Unity5: API changes & automatic script updating")
+> ### \*\*Update, Unity have now written a post on the changes posed for Unity 5 and the inner workings, well worth a read – [http://bit.ly/1pf5Wog](http://bit.ly/1pf5Wog "Unity5: API changes & automatic script updating")
 > 
-> Another interesting post has arisen which also includes some timing and stats for using cached components verses using the shortcuts, check it out –&nbsp;[http://bit.ly/1pfaUkQ](http://bit.ly/1pfaUkQ "Unity3D – Accessors are bad- Caching is good!")
+> Another interesting post has arisen which also includes some timing and stats for using cached components verses using the shortcuts, check it out – [http://bit.ly/1pfaUkQ](http://bit.ly/1pfaUkQ "Unity3D – Accessors are bad- Caching is good!")
 
 ![width=](http://i1.livememe.com/xwe6kn.jpg)
 
@@ -38,15 +38,15 @@ As pointed out in the forums this could also be represented as:
 
     GetComponent\<Renderer\>().GetComponent\<Collider\>().GetComponent\<Rigidbody\>().angularDrag = 0.2f;
 
-Not so simple now is it.&nbsp; This process is inherently slow and can sometimes involve a fair bit of reflection in the code (process of dissembling code in memory, like any of the Function(string) methods do).
+Not so simple now is it.  This process is inherently slow and can sometimes involve a fair bit of reflection in the code (process of dissembling code in memory, like any of the Function(string) methods do).
 
 Multiply that by every frame and you can start to begin to see why this is such a problem, it was just a way to write simpler code in the beginning but as it is becoming more prevalent these days unity has said “enough is enough” and is making breaking changes.
 
-> **Note AFAIK, the behaviour&nbsp;also affects both JavaScript and Boo as well**
+> **Note AFAIK, the behaviour also affects both JavaScript and Boo as well**
 
 * * *
 
-&nbsp;
+ 
 
 Some clarifications
 
@@ -96,7 +96,7 @@ If you get any more detail, comment below and this list can be updated
 
 # Best practice with Unity3D
 
-This behaviour with accessing&nbsp;components in code as a property (using GameObject.Component) does work but like so many things, “just because you can do a thing doesn’t mean you should”, so what can you do to make you’re code work better.
+This behaviour with accessing components in code as a property (using GameObject.Component) does work but like so many things, “just because you can do a thing doesn’t mean you should”, so what can you do to make you’re code work better.
 
 The first part is to understand your code and to make it better, so that you think about:
 
@@ -106,7 +106,7 @@ The first part is to understand your code and to make it better, so that you thi
 
 So to this end, the better implementation of the above script is:
 
-    Rigidbody myScriptBody; void Awake() {&nbsp;&nbsp;&nbsp;&nbsp; var renderer = this.GetComponent\<Renderer\>();&nbsp;&nbsp;&nbsp;&nbsp; var collider = renderer.GetComponent\<Collider\>();&nbsp;&nbsp;&nbsp;&nbsp; myScriptBody = collider.GetComponent\<Rigidbody\>(); } void Update() {&nbsp;&nbsp;&nbsp;&nbsp; myScriptBody.angularDrag = 0.2f \* Time.deltaTime; }
+    Rigidbody myScriptBody; void Awake() {     var renderer = this.GetComponent\<Renderer\>();     var collider = renderer.GetComponent\<Collider\>();     myScriptBody = collider.GetComponent\<Rigidbody\>(); } void Update() {     myScriptBody.angularDrag = 0.2f \* Time.deltaTime; }
 
 Thus only using GetComponent the first time the script is run and storing the reference (or references) I need at run time, then using the in memory reference instead of trying to discover it every frame.
 
@@ -122,7 +122,7 @@ You are now forewarned and forearmed with new knowledge, use this knowledge to c
 
 Keep it in mind with every video tutorial you watch or script you import from a lib or wiki and adapt it in advance.
 
-If you currently are doing this a lot in your code&nbsp;and feel it’s too much of a change for what is arguably just a modularisation of your code, then keep your ears out for Unity5, there’s still quite a few surprises yet to come, including some help with this behaviour.
+If you currently are doing this a lot in your code and feel it’s too much of a change for what is arguably just a modularisation of your code, then keep your ears out for Unity5, there’s still quite a few surprises yet to come, including some help with this behaviour.
 
 * * *
 

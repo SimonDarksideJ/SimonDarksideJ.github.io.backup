@@ -15,7 +15,7 @@ In yet another area that will be completely foreign to XNA devs (unless you’ h
 
 In XNA this is unavoidable simply because XNA is the only thing that draws to the screen and has complete control over everything however the same principle can also be applied to XNA games just to simplify and centralise where all the information comes from when presenting it to the screen, lost yet?, well lets continue.
 
-What we are talking about a design pattern called MVVM, others do exist which are all based on the same rough idea (MVC, MVP, etc), the diagram below aims to help visually represent this (image courtesy of [John Papa’s article](http://visualstudiomagazine.com/articles/2011/08/15/fundamental-mvvm.aspx) on Visual Studio magazine [here](http://visualstudiomagazine.com/articles/2011/08/15/fundamental-mvvm.aspx)):
+What we are talking about a design pattern called MVVM, others do exist which are all based on the same rough idea (MVC, MVP, etc), the diagram below aims to help visually represent this (image courtesy of [John Papa’s article](http://visualstudiomagazine.com/articles/2011/08/15/fundamental-mvvm) on Visual Studio magazine [here](http://visualstudiomagazine.com/articles/2011/08/15/fundamental-mvvm)):
 
 ![width=](http://visualstudiomagazine.com/articles/2011/08/15/~/media/ECG/visualstudiomagazine/Images/2011/08/wcpp0815FigL.ashx)
 
@@ -25,10 +25,10 @@ With this separation it means we cannot break (except in rare circumstances) the
 
 All gobbledegook, well I suggest reading a sample of the following articles:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; [Fundamental MVVM by John papa](http://bit.ly/oSwpOA)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; **[Understanding the MVVM Pattern](http://www.galasoft.ch/mvvmvideo1) by Laurent Bugnion (my MVVM hero ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile3.png))**  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; **[Deep Dive MVVM](http://www.galasoft.ch/mvvmvideo2) also by Laurent Bugnion (he has also the author of MVVM light for Windows Phone)**  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; [MVVM Light Toolkit: Soup To Nuts](http://bit.ly/oOitH0) by Jessie Liberty
+> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    [Fundamental MVVM by John papa](http://bit.ly/oSwpOA)  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    **[Understanding the MVVM Pattern](http://www.galasoft.ch/mvvmvideo1) by Laurent Bugnion (my MVVM hero ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile3.png))**  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    **[Deep Dive MVVM](http://www.galasoft.ch/mvvmvideo2) also by Laurent Bugnion (he has also the author of MVVM light for Windows Phone)**  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    [MVVM Light Toolkit: Soup To Nuts](http://bit.ly/oOitH0) by Jessie Liberty
 
 Why do I bring this up?, well as part of this article we will aim to further simplify and box off sections of our game to make it both easier to maintain and add a degree of control while we use Silverlight, one of the big benefits of Silverlight is it is data binding capabilities which means you do not have to (but you can do if you want do) manually update every control on the screen with values from your app/game, the screen is designed to listen to those values and automatically updates appropriately, that can include animations and other cool things as well!.
 
@@ -46,7 +46,7 @@ Follow along with the series here:
 
 Also [Channel 9](http://channel9.msdn.com/posts/Get-to-Windows-Phone-Mango-1-From-XNA-to-SLXNA) are running a similar [video series here](http://channel9.msdn.com/posts/Get-to-Windows-Phone-Mango-1-From-XNA-to-SLXNA) if you prefer videos! ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile3.png)
 
-#### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the&nbsp;[SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
+#### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
 
 * * *
 
@@ -60,19 +60,19 @@ Open up the SilverXNA project in Visual Studio Express and right click on the re
 
 If you do not get the “Manage NuGet Packages” option then you most likely do not have the latest tools installed (You need the RTM version or above).
 
-Select the NuGet option and you will be presented with the NuGet Package manager, from here you can search for and install new packages or see if there are any updates to existing installed one’s.&nbsp; This is truly an invaluable tool which is a great addition to the express tools.&nbsp; Unfortunately there is no online review library of NuGet packages (that I’m aware of) so you will have to rely on searching or reading about your favourite packages on the web but full details about each package are available through the package manager.
+Select the NuGet option and you will be presented with the NuGet Package manager, from here you can search for and install new packages or see if there are any updates to existing installed one’s.  This is truly an invaluable tool which is a great addition to the express tools.  Unfortunately there is no online review library of NuGet packages (that I’m aware of) so you will have to rely on searching or reading about your favourite packages on the web but full details about each package are available through the package manager.
 
 [![image](/Images/wordpress/2012/07/image_thumb64.png "image")](/Images/wordpress/2012/07/image62.png)
 
 Search for MVVM and you should see the list above with the package we want right at the very top (as you can see there are lots of other MVVM packages out there so if you feel like trying a few others then feel free to experiment with what’s good for you), for now just click install on the MVVVM Light package.
 
-When it is installed you will see it has done several things, it is installed and added references to the MVVM light libraries and added some template files for use as well.&nbsp; If there were any dependencies on other packages then they would have been installed as well all with a single click of a button, simples!.
+When it is installed you will see it has done several things, it is installed and added references to the MVVM light libraries and added some template files for use as well.  If there were any dependencies on other packages then they would have been installed as well all with a single click of a button, simples!.
 
 | [![image](/Images/wordpress/2012/07/image_thumb65.png "image")](/Images/wordpress/2012/07/image63.png) | So from the screenshot left you can see:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; The MVVM Light libraries for WP7 7.1  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; A new folder with some template files  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; The App.XAML has also bee updated with new configuration
+> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    The MVVM Light libraries for WP7 7.1  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    A new folder with some template files  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    The App.XAML has also bee updated with new configuration
 
 NuGet can do some astounding things with packages so it is realy something to keep an eye on.
 
@@ -86,18 +86,18 @@ Usually the packages also come with a ReadMe file to aid with any additional set
 
 In short this is how MVVM Light operates on Windows Phone (it is not exactly the same for all frameworks).
 
-You have a page and corresponding ViewModel for that page which work together to present information to the screen safely.&nbsp; Behind that you have a ViewModelLocator, this is the wiring panel behind the scenes that connects everything up, in more advanced cases it also provides the capability to plug in different data sources for your models from a central location providing another level of abstraction.
+You have a page and corresponding ViewModel for that page which work together to present information to the screen safely.  Behind that you have a ViewModelLocator, this is the wiring panel behind the scenes that connects everything up, in more advanced cases it also provides the capability to plug in different data sources for your models from a central location providing another level of abstraction.
 
 It is all words at this point and I’m only going to go over the simple things for now so it all becomes clearer, to see the advanced stuff in MVVM I suggest going through the material mentioned earlier, they are truly fantastic.
 
 You can have Models to also describe your data but in this instance it is a but too much so in effect our game is our model and engine driving what is being sent to the screen in SilverXNA IMHO.
 
-Enough of this lets get something done.&nbsp; if we analyse what we are currently using as data to send information to the screen in our Gamepage.XAML.cs (remembering that from a MVVM / Silverlight approach, storing values in our code behind is generally not a good idea because it cannot be reused) there are a few things (well a lot really but we are still keeping to baby steps, you can experiment later) that we could do with taking out of there, namely:
+Enough of this lets get something done.  if we analyse what we are currently using as data to send information to the screen in our Gamepage.XAML.cs (remembering that from a MVVM / Silverlight approach, storing values in our code behind is generally not a good idea because it cannot be reused) there are a few things (well a lot really but we are still keeping to baby steps, you can experiment later) that we could do with taking out of there, namely:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)&nbsp;&nbsp;&nbsp; The Level attribute – used to see what our current level is and persists information about the player state  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)&nbsp;&nbsp;&nbsp; The value for drawing the Time remaining to the screen  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)&nbsp;&nbsp;&nbsp; The value for the players score  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)&nbsp;&nbsp;&nbsp; A maintenance value for how long should pass before the player should be warned time is running short
+> ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)    The Level attribute – used to see what our current level is and persists information about the player state  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)    The value for drawing the Time remaining to the screen  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)    The value for the players score  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)    A maintenance value for how long should pass before the player should be warned time is running short
 
 These are the core things we want to look at in this session, there are several others (most of them really) that a page should not need to know about but we will leave them along for now.
 
@@ -118,11 +118,11 @@ Once you have done that open it up and it should look something like this:
     
         
     
-    &nbsp;&nbsp;&nbsp; Type “GameLevel” and hit Tab – this is the property public name  
-     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Type “Level” and hit the right arrow– this is the type for the property, in this case it is not recognised but we will fix that afterwards, we have to use the right arrow key because hitting tab would cause intellisense to make something up, lol  
-     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Type “\_gameLevel” and hit tab – this is the private name for the property  
-     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; Lastly we have a choice to make as there are two options for how MVVM notifies Silverlight of changes to values, either throu a simple notification or whether it broadcasts it through messaging.&nbsp; Too much to go through here so for now just remove the “NotImplemented” Line (a safety measure to ensure you check this) and the second “RaisePropertyChanged” line which talks about messaging.  
-     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; To finish off right click on the red squiggle for the Level type and resolve the reference.
+        Type “GameLevel” and hit Tab – this is the property public name  
+     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    Type “Level” and hit the right arrow– this is the type for the property, in this case it is not recognised but we will fix that afterwards, we have to use the right arrow key because hitting tab would cause intellisense to make something up, lol  
+     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    Type “\_gameLevel” and hit tab – this is the private name for the property  
+     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    Lastly we have a choice to make as there are two options for how MVVM notifies Silverlight of changes to values, either throu a simple notification or whether it broadcasts it through messaging.  Too much to go through here so for now just remove the “NotImplemented” Line (a safety measure to ensure you check this) and the second “RaisePropertyChanged” line which talks about messaging.  
+     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    To finish off right click on the red squiggle for the Level type and resolve the reference.
     
     So you should be left with the following:
     
@@ -131,15 +131,15 @@ Once you have done that open it up and it should look something like this:
     
         
     
-    &nbsp;&nbsp;&nbsp; WarningTime (type Timespan)  
-     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; GameTime (type TimeSpan)  
-     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)&nbsp;&nbsp;&nbsp; GameScore (type int)
+        WarningTime (type Timespan)  
+     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    GameTime (type TimeSpan)  
+     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    GameScore (type int)
     
     Feel free to add them yourself or just copy the entire GameViewModel.cs from download package mentioned at the start of the chapter.(do not forget to resolve any missing references, like TimeSpan)
     
     
     
-    Now to add some additional features which will aid our end design for the page and show off a bit of what MVVM can do for you with Data Binding.&nbsp; The first one we will add is a new Property to display the GameTime as a string, you can just show the TimeSpan value as test however with you get days, hours, minutes, seconds and milliseconds it can look a little busy.&nbsp; You may ask “Well why not just fix up the existing property to output a string?”, simple answer the XNA game outputs a TimeSpan and we do not want to mess with that, plus it is best not to try and mess with the core properties, bit of a standards thing.
+    Now to add some additional features which will aid our end design for the page and show off a bit of what MVVM can do for you with Data Binding.  The first one we will add is a new Property to display the GameTime as a string, you can just show the TimeSpan value as test however with you get days, hours, minutes, seconds and milliseconds it can look a little busy.  You may ask “Well why not just fix up the existing property to output a string?”, simple answer the XNA game outputs a TimeSpan and we do not want to mess with that, plus it is best not to try and mess with the core properties, bit of a standards thing.
     
     
     
@@ -168,21 +168,21 @@ Once you have done that open it up and it should look something like this:
                     
                     
                     
-                    > ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)&nbsp;&nbsp;&nbsp; Declare the static variable for maintaining the reference to the view model in the header of the ViewModelLocator class
+                    > ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)    Declare the static variable for maintaining the reference to the view model in the header of the ViewModelLocator class
                     > 
                     >     
                     > 
-                    > &nbsp;&nbsp;&nbsp; Copy the property section for the Main View del and rename it to GameViewModel and update value names:
+                    >     Copy the property section for the Main View del and rename it to GameViewModel and update value names:
                     > 
                     >     
                     > 
-                    > &nbsp;&nbsp;&nbsp; Finally and arguably the most important!, in the constructor for the ViewModelLocator, instantiate the GameViewModel variable
+                    >     Finally and arguably the most important!, in the constructor for the ViewModelLocator, instantiate the GameViewModel variable
                     > 
                     >     
                     > 
                     > )
                     > 
-                    > Now there are plus sides and downsides to that last section, in reality what we should be doing is only instantiating the GameViewModel when it is first called in the exposed property to comply with proper singleton design patterns, but we are keeping things simple here, plus as this is a game we need that data there as the game starts anyway to get things moving.&nbsp; In other models where your would use an IoC container and dependency injection there are other practices as well, Laurent goes over this in detail in his Deep Dive session.
+                    > Now there are plus sides and downsides to that last section, in reality what we should be doing is only instantiating the GameViewModel when it is first called in the exposed property to comply with proper singleton design patterns, but we are keeping things simple here, plus as this is a game we need that data there as the game starts anyway to get things moving.  In other models where your would use an IoC container and dependency injection there are other practices as well, Laurent goes over this in detail in his Deep Dive session.
                     > 
                     > Ok, so now we have our backend done it is time to wire up our front end and then we will finish off with tidying up the game code to hook it all up together:
                     > 
@@ -196,7 +196,7 @@ Once you have done that open it up and it should look something like this:
                     > 
                     > \<phone:PhoneApplicationPage x:Class="SlXnaApp1.GamePage" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone" xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" FontFamily="{StaticResource PhoneFontFamilyNormal}" FontSize="{StaticResource PhoneFontSizeNormal}" Foreground="{StaticResource PhoneForegroundBrush}" SupportedOrientations="Landscape" Orientation="Landscape" mc:Ignorable="d" d:DesignHeight="480" d:DesignWidth="800" shell:SystemTray.IsVisible="False" DataContext="{Binding Game, Source={StaticResource Locator}}"\>
                     > 
-                    > This data binds the data context (the source of information for the page or control) to our GameViewModel, so that when i ask for a property it knows where to look for it.&nbsp; You can set a data context at a control level if you wish overriding the default page context but that gets quite messy so you would only do it if you really had to.
+                    > This data binds the data context (the source of information for the page or control) to our GameViewModel, so that when i ask for a property it knows where to look for it.  You can set a data context at a control level if you wish overriding the default page context but that gets quite messy so you would only do it if you really had to.
                     > 
                     > With that done we will change what we are currently displaying so it makes more sense from a design perspective, currently we have two textblocks which XNA is writing custom values to, supplying both the label and the value for the information we need to display (Time : 01:59), now that we are working with a proper data model we no longer have that, XNA is just supplying the raw data which is the time.
                     > 
@@ -212,7 +212,7 @@ Once you have done that open it up and it should look something like this:
                     > 
                     > Now we need to bind our value boxes to our data model, this is easiest to do in Visual Studio, so if you are still in Blend simply save the page you are working on and switch back to it, if you are prompted on returning to Visual Studio to reload pages then do so.
                     > 
-                    > Now open up the GamePage.XAML in the editor.&nbsp; If you have not already I would suggest configuring VS to only open the code editor in full code view and the designer is a bit of a pain and makes the page take longer to load, to do this just open “Tools –Options” in the menu and then find the “Always Open document in full XAML view” setting under the branch “Text Editor –\> XAML –\> Miscellaneous” (as documented in [this article](http://bit.ly/qDXcZv) which is fine for both VS2008 and VS2010)
+                    > Now open up the GamePage.XAML in the editor.  If you have not already I would suggest configuring VS to only open the code editor in full code view and the designer is a bit of a pain and makes the page take longer to load, to do this just open “Tools –Options” in the menu and then find the “Always Open document in full XAML view” setting under the branch “Text Editor –\> XAML –\> Miscellaneous” (as documented in [this article](http://bit.ly/qDXcZv) which is fine for both VS2008 and VS2010)
                     > 
                     > In practice it is always best to use Blend for it is design GUI to add controls, build pages, set properties and build animations, leave code editing to VS as it is much better at it and has superior intellisense support.
                     > 

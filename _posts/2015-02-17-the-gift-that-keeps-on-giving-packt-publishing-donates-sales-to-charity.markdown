@@ -27,19 +27,19 @@ So a nice constant diet doesn’t sound too bad and it does mean our whole famil
 2. Increased appetite – This is where all the problems really start. Due to a deformation in the hyper thalamus, the chemical / protein / magic switch that our brain releases to tell us that we are full and should stop eating is either not produced or in such small quantities that is has a very limited effect.  
 The upshot of this is that he is constantly hungry and craves food.
 
-So you can well imagine the stress a family is put under living with this condition, with a child that while they cannot eat much, constantly craves food. &nbsp;There are some other side effects of any chromosomal disorder like learning difficulties and behaviour but that is just part of the package.
+So you can well imagine the stress a family is put under living with this condition, with a child that while they cannot eat much, constantly craves food.  There are some other side effects of any chromosomal disorder like learning difficulties and behaviour but that is just part of the package.
 
-We were lucky in some aspects as we were informed about his condition when he was only 3 weeks old, so we have been able to plan and manage his condition early on and have learned how to cope. Granted it is always a struggle but you soldier on. &nbsp;With the support of the Prader-Willi Syndrome Association UK&nbsp;we are prepared for what the condition can throw at us. &nbsp;They truly provide such wonderful support through events, training and a good ear to talk to when times get tough. &nbsp;We also do get a fair amount of&nbsp;support from our local council’s social care departments.
+We were lucky in some aspects as we were informed about his condition when he was only 3 weeks old, so we have been able to plan and manage his condition early on and have learned how to cope. Granted it is always a struggle but you soldier on.  With the support of the Prader-Willi Syndrome Association UK we are prepared for what the condition can throw at us.  They truly provide such wonderful support through events, training and a good ear to talk to when times get tough.  We also do get a fair amount of support from our local council’s social care departments.
 
 # Power to the UI
 
 [![3560_Unity 3D GUI Essentials_0](/Images/wordpress/2014/11/3560_Unity-3D-GUI-Essentials_0-243x300.jpg)](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials")
 
-&nbsp;
+ 
 
-&nbsp;
+ 
 
-So with the launch of my latest title [Unity 3D UI Essentials](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials"), 2% of total sales (1% from my royalties and 1% from the publisher) will be donated directly to the [Prader-Willi Syndrome Association](http://www.pwsa.co.uk/). &nbsp;Now, not only will you learn about all the fantastic new features of Unity’s new UI system and gain a deeper understanding of all its components, you will also be supporting a fantastic charily that helps families like ours in their direst hours.
+So with the launch of my latest title [Unity 3D UI Essentials](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials"), 2% of total sales (1% from my royalties and 1% from the publisher) will be donated directly to the [Prader-Willi Syndrome Association](http://www.pwsa.co.uk/).  Now, not only will you learn about all the fantastic new features of Unity’s new UI system and gain a deeper understanding of all its components, you will also be supporting a fantastic charily that helps families like ours in their direst hours.
 
 # To all I say a big thank you
 

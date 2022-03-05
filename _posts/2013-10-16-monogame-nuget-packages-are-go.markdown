@@ -18,7 +18,7 @@ After a few last rash hours and feedback from the NuGet team themselves, I can f
 
 > **\*Note**
 > 
-> Just did a quick browse on NuGet for MonoGame and you may see a few interesting surprises as there are several packages for engines and updates already available that make use of MonoGame.&nbsp; Sadly this also means the actual MonoGame packages are listed last???
+> Just did a quick browse on NuGet for MonoGame and you may see a few interesting surprises as there are several packages for engines and updates already available that make use of MonoGame.  Sadly this also means the actual MonoGame packages are listed last???
 
 * * *
 
@@ -55,7 +55,7 @@ SO that all bases are effectively covered there are two types of package:
 - 
 ### Full package and references install
 
-This package installs both the binaries and all necessary files (class files, XAML files, etc) needed to run MonoGame from a project.&nbsp; This will optionally overwrite the local files in your project (you can choose not to) in order to get MonoGame running in either a blank or existing solution (with or without the MonoGame project templates)
+This package installs both the binaries and all necessary files (class files, XAML files, etc) needed to run MonoGame from a project.  This will optionally overwrite the local files in your project (you can choose not to) in order to get MonoGame running in either a blank or existing solution (with or without the MonoGame project templates)
 
 - 
 ### Binaries only release
@@ -66,7 +66,7 @@ This package as the name suggests will only install the binaries, the main reaso
 
 # Getting installed
 
-If you are familiar with NuGet then this will all be familiar to you, if you haven’t (1: where have you been? 2: stop what you are doing and read up on it&nbsp; :P) then using these packages is very simple.
+If you are familiar with NuGet then this will all be familiar to you, if you haven’t (1: where have you been? 2: stop what you are doing and read up on it  :P) then using these packages is very simple.
 
 > \*Note, if you are installing the packages into an existing MonoGame project built using the existing templates, there are some clean-up tasks you will need to do first to remove the existing MonoGame references and project fixes, see below!
 
@@ -97,7 +97,7 @@ Hopefully these packages will be of use to MonoGame devs out there and if you ha
 
 Additionally you will always be updated and you will get informed when new versions are available.
 
-> \*Note with the Alpha builds, these are the current dev builds available and although all steps are taken to ensure they are fully working in test not everything may work as expected.&nbsp; It is an easy way to get the latest community efforts but just be aware that they may have some features due to the size of the project ![Open-mouthed smile](/Images/wordpress/2013/10/wlEmoticon-openmouthedsmile2.png)
+> \*Note with the Alpha builds, these are the current dev builds available and although all steps are taken to ensure they are fully working in test not everything may work as expected.  It is an easy way to get the latest community efforts but just be aware that they may have some features due to the size of the project ![Open-mouthed smile](/Images/wordpress/2013/10/wlEmoticon-openmouthedsmile2.png)
 
 If you have thoughts, comments or suggestions on the packages then either comment here or post on the MonoGame Git discussions (not the codeplex ones as they are getting out of date these days )
 

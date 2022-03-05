@@ -1,19 +1,19 @@
 ---
 layout: post
-title: If you haven't Heard yet - XNA Game Studio Express beta 1 now available
+title: If you have not Heard yet - XNA Game Studio Express beta 1 now available
 date: '2006-08-31 10:15:44'
 tags:
 - ramblings
 - xna-related
 ---
 
-&nbsp;
+ 
 
 Quote From Microsoft XNA Site:
 
-[XNA Game Studio Express (Beta) Now Available!](http://blogs.msdn.com/xna/archive/2006/08/30/731941.aspx)
+[XNA Game Studio Express (Beta) Now Available!](http://blogs.msdn.com/xna/archive/2006/08/30/731941)
 
-&nbsp;
+ 
 
 The day has come! You can download XNA Game Studio Express (Beta) from the following location on the XNA Developer Center [http://msdn.com/directx/xna/gse](http://msdn.com/directx/xna/gse).   
 One reason we release beta software is to put it in the hands of the community and start getting feedback on what we’ll be releasing. How you give feedback depends on the type of feedback you have.  

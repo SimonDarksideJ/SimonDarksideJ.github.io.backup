@@ -12,7 +12,7 @@ tags:
 
 Following on the heals of my last post on WCF service implementations on the Windows Phone 7, here is a nice little sample to give you a bit more detail / meat on the bone.
 
-This is not going to go into detail on how to write a WCF service, i still state the best person to help you with this is Ron Jacob’s on his [WCF](http://blogs.msdn.com/b/rjacobs/) and [.NET](http://blogs.msdn.com/b/endpoint/) blogs (he has many!!), however for this Sample Charles ([RandomChaos](/blogs/randomchaos/default.aspx)) Humphrey has written a little WCF service and we have hosted it for you to test with (just do not abuse it, we will clear the data our often!)
+This is not going to go into detail on how to write a WCF service, i still state the best person to help you with this is Ron Jacob’s on his [WCF](http://blogs.msdn.com/b/rjacobs/) and [.NET](http://blogs.msdn.com/b/endpoint/) blogs (he has many!!), however for this Sample Charles ([RandomChaos](/blogs/randomchaos/default)) Humphrey has written a little WCF service and we have hosted it for you to test with (just do not abuse it, we will clear the data our often!)
 
 Sample as as always posted up on the [Codeplex host for this series](http://startrooper2dxna.codeplex.com/releases/view/51292).
 
@@ -146,7 +146,7 @@ However you do it, you should have a nice new library project setup, ready and w
 
 #### 4. The Leader board class event library
 
-> Now as the WCF service operates asynchronously, then the service must be able to operate asynchronously. Now for XNA app’s this is not a problem as it is continually looping so it could keep checking the Leader board library to see if it is finished or not. However, Silverlight is event driven, which means something must happen for it to check or do something, so to handle this I implemented some events into the leader board library (this is just my implementation, if you have another preferred way, then use it. As [Rob Miles](http://www.robmiles.com) says, there are always many solutions to any given problem and if possible they should all be discussed down the pub). if you have not implemented events before (or have forgotten how to like I did), then the MSDN library has a wealth of information about it, [see here](http://msdn.microsoft.com/en-us/library/17sde2xt.aspx).
+> Now as the WCF service operates asynchronously, then the service must be able to operate asynchronously. Now for XNA app’s this is not a problem as it is continually looping so it could keep checking the Leader board library to see if it is finished or not. However, Silverlight is event driven, which means something must happen for it to check or do something, so to handle this I implemented some events into the leader board library (this is just my implementation, if you have another preferred way, then use it. As [Rob Miles](http://www.robmiles.com) says, there are always many solutions to any given problem and if possible they should all be discussed down the pub). if you have not implemented events before (or have forgotten how to like I did), then the MSDN library has a wealth of information about it, [see here](http://msdn.microsoft.com/en-us/library/17sde2xt).
 > 
 > But to have events we need event arguments (the information we are going to pass and handle as part of our event), so create a new class in your project folder and call it “LeaderBoardEvents.cs”.
 > 
@@ -303,7 +303,7 @@ Where you must create a new HttpWebRequest channel in order to instantiate web c
 
 Whether this is down to the fact that WCF creates it is own channel, or the Beta automatically creates a channel, who knows. As stated this could be just because I am using the emulator.
 
-I will be determined to re-test this at the [XBLIG-UK event on September the 1st](/blogs/randomchaos/archive/2010/08/17/xblig-uk-xna-uk-ug-super-duper-prize-give-away.aspx), thanks to [Paul Foster bringing his not so little bag of tricks](http://wotudo.net/blogs/wotudo/archive/2010/08/25/wp7-dev-lab-in-a-box.aspx)!. Based on the results of that I shall update this post, so keep watch.
+I will be determined to re-test this at the [XBLIG-UK event on September the 1st](/blogs/randomchaos/archive/2010/08/17/xblig-uk-xna-uk-ug-super-duper-prize-give-away), thanks to [Paul Foster bringing his not so little bag of tricks](http://wotudo.net/blogs/wotudo/archive/2010/08/25/wp7-dev-lab-in-a-box)!. Based on the results of that I shall update this post, so keep watch.
 
 * * *
 
@@ -321,7 +321,7 @@ Do not forget to add references to the library and copy over the Client Configur
 
 As a glimpse of what is coming next, see here (all data served by the Free hosted Web service for you):
 
-![image[23]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3632.image23_5F00_thumb_5F00_31237852.png)&nbsp; ![image[24]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2642.image24_5F00_thumb_5F00_28AF7D2E.png)&nbsp; ![image[25]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6283.image25_5F00_thumb_5F00_0020754D.png)&nbsp; ![image[26]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5488.image26_5F00_thumb_5F00_37E293A3.png)&nbsp; ![image[27]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0511.image27_5F00_thumb_5F00_219C5284.png)
+![image[23]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3632.image23_5F00_thumb_5F00_31237852.png)  ![image[24]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2642.image24_5F00_thumb_5F00_28AF7D2E.png)  ![image[25]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6283.image25_5F00_thumb_5F00_0020754D.png)  ![image[26]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5488.image26_5F00_thumb_5F00_37E293A3.png)  ![image[27]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0511.image27_5F00_thumb_5F00_219C5284.png)
 
 And if you do not like the UI, just remember it is a sample after all and I am only a lowly programmer (I’ll have to stop calling myself a developer because I can not design good looking screens to save my life), so Programmer Art / Style.
 

@@ -7,19 +7,19 @@ tags:
 - tutorials-resources
 ---
 
-XNA Rockstar posted a good go-to article on the XNA Framwork forum recently, little run up on what to learn&nbsp;to progress into being a better game programmer.
+XNA Rockstar posted a good go-to article on the XNA Framwork forum recently, little run up on what to learn to progress into being a better game programmer.
 
 **Beginner – Torque X**
 
 1. Create some simple games with TorqueX Game Builder
-2. …can’t comment much more on this&nbsp;since I’ve never used it
+2. …can’t comment much more on this since I’ve never used it
 
 **Beginner – XNA (2D)**
 
 1. Learn C#
 2. Bounce a sprite around the screen in XNA demo
-3. Create an easy “game” to learn animations, classes, collission detection, sounds, input and become more familiar with XNA.&nbsp; This “game” will likely suck and probably won’t do anything worth bragging about…but think of it as the “wax on wax off” karate kid training.&nbsp; Eventually, you’ll get to the point where you’re shouting “Live or Die, punk!” at your computer, but you’ll just have to get used to “sanda floor” for now.
-4. Recreate one of the first games ever made.&nbsp; This is a fun little theme going around in XNA that started with SpaceWars
+3. Create an easy “game” to learn animations, classes, collision detection, sounds, input and become more familiar with XNA.  This “game” will likely suck and probably won’t do anything worth bragging about…but think of it as the “wax on wax off” karate kid training.  Eventually, you’ll get to the point where you’re shouting “Live or Die, punk!” at your computer, but you’ll just have to get used to “sanda floor” for now.
+4. Recreate one of the first games ever made.  This is a fun little theme going around in XNA that started with SpaceWars
 5. Create a more complex 2d game building off what you learned and with new features (save/load files, special effects, fullscreen, music, etc)
 
 **Intermediate (3D)**
@@ -32,8 +32,8 @@ XNA Rockstar posted a good go-to article on the XNA Framwork forum recently, lit
 6. Learn advanced shader techniques (this one can be done anytime, really)
 7. Create city with a skybox
 8. Learn how to create a 3D model
-9. Make a 3D&nbsp;model fly around the city&nbsp;with the camera following it
-10. Add targets you can shoot and do 3D collission detection
+9. Make a 3D model fly around the city with the camera following it
+10. Add targets you can shoot and do 3D collision detection
 11. Create a simple 3D game
 12. Learn how to animate 3D models
 13. Create a more complex 3D game building off what you learned and adding new features
@@ -50,9 +50,9 @@ XNA Rockstar posted a good go-to article on the XNA Framwork forum recently, lit
 
 Personally, if your actually into writing games then TorqueX probably wont be for you, if your good at graphics and just want to throw a game together then it might appeal.
 
-Saying that, these day’s I’ve worked through all the XNA beginner parts myself, albeit not in that order, more of a “All at once” lol&nbsp; and I’ve dabled in most of the rest before XNA came out and I took a step back, XNA really helped me structure and get a good game framwork together for an actual game.
+Saying that, these day’s I’ve worked through all the XNA beginner parts myself, albeit not in that order, more of a “All at once” lol  and I’ve dabbled in most of the rest before XNA came out and I took a step back, XNA really helped me structure and get a good game framework together for an actual game.
 
 For the full article and comments click below!, happy gaming
 
-[Link to Path to becoming a professional game programmer – MSDN Forums](http://forums.microsoft.com/MSDN/ShowPost.aspx?PostID=947086&SiteID=1)
+[Link to Path to becoming a professional game programmer – MSDN Forums](http://forums.microsoft.com/MSDN/ShowPost?PostID=947086&SiteID=1)
 

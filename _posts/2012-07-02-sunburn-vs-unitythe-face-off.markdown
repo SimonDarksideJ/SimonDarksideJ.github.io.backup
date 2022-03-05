@@ -11,21 +11,21 @@ tags:
 - unity3d
 ---
 
-One of the many reasons I&nbsp; do not seem to get anything done these days is because I am soo damn busy, if it is not family it is work, if it is not work it is usually because I am writing samples or articles for someone else.&nbsp; One day I will take time for me but it is not today.
+One of the many reasons I  do not seem to get anything done these days is because I am soo damn busy, if it is not family it is work, if it is not work it is usually because I am writing samples or articles for someone else.  One day I will take time for me but it is not today.
 
-#### If you have more Queries on Sunburn or Unity 3D, &nbsp;or just want to ask questions on it, fee free to use the&nbsp;[SunBurn forum](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis")&nbsp;or the [Unity3D forum](http://darkgenesis.zenithmoon.com/forums/forum/unity3d/ "Unity 3D blog post forum")
+#### If you have more Queries on Sunburn or Unity 3D,  or just want to ask questions on it, fee free to use the [SunBurn forum](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis") or the [Unity3D forum](http://darkgenesis.zenithmoon.com/forums/forum/unity3d/ "Unity 3D blog post forum")
 
 ![width=](http://architects.dzone.com/sites/all/themes/dzone2012/images/mh_dzone_logo.jpg)
 
 DZone has just published another article of mine that I got asked to provide to give an insight to what most indie devs really need, a damn good game engine in order to quickly build their dreams and bring them to fruition easy and more importantly cheaply ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile15.png)
 
-So I have done a high level comparison (with a fair bit of in-depth content)&nbsp; of both Unity 3D and SunBurn, putting the two engines head to head in areas like:
+So I have done a high level comparison (with a fair bit of in-depth content)  of both Unity 3D and SunBurn, putting the two engines head to head in areas like:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)&nbsp;&nbsp;&nbsp; Platforms  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)&nbsp;&nbsp;&nbsp; Editors  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)&nbsp;&nbsp;&nbsp; Lighting  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)&nbsp;&nbsp;&nbsp; Customisation and plug-ins  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)&nbsp;&nbsp;&nbsp; Pricing
+> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)    Platforms  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)    Editors  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)    Lighting  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)    Customisation and plug-ins  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/035.gif)    Pricing
 
 So spend a few minutes of your time reading my hard earned efforts and investigations and save yourself some legwork.
 
@@ -42,4 +42,4 @@ In the area of platforms things may have (probably?) moved on regarding what pla
 
 Or does it? ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile15.png)
 
-#### If you have more Queries on Sunburn or Unity 3D, &nbsp;or just want to ask questions on it, fee free to use the&nbsp;[SunBurn forum](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis")&nbsp;or the&nbsp;[Unity3D forum](http://darkgenesis.zenithmoon.com/forums/forum/unity3d/ "Unity 3D blog post forum")
+#### If you have more Queries on Sunburn or Unity 3D,  or just want to ask questions on it, fee free to use the [SunBurn forum](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis") or the [Unity3D forum](http://darkgenesis.zenithmoon.com/forums/forum/unity3d/ "Unity 3D blog post forum")

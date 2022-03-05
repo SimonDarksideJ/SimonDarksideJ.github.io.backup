@@ -9,11 +9,11 @@ tags:
 
 One day I’ll get back into my regular blog cycle, but today is not that day.
 
-Work is a real task master, I’ve set-up a new [Community Site](http://pwsa.serveblog.net/ "PWSA (UK) Community blog site") for my son’s genetic disability ([Prader-willie syndrome](http://www.pwsa.co.uk/ "Prader-Willie Syndrome"))&nbsp;and maintaining that takes a considerable chunk of my time, on top of that, against all odd’s my wife is now pregnant again, despite it not supposedly being possible, so that’s number 4 on the way now (ouch!).
+Work is a real task master, I’ve set-up a new [Community Site](http://pwsa.serveblog.net/ "PWSA (UK) Community blog site") for my son’s genetic disability ([Prader-willie syndrome](http://www.pwsa.co.uk/ "Prader-Willie Syndrome")) and maintaining that takes a considerable chunk of my time, on top of that, against all odd’s my wife is now pregnant again, despite it not supposedly being possible, so that’s number 4 on the way now (ouch!).
 
-So finding time to actually do game development is challenging (against using free time to actually play games) but is very fun and in light of [George Clingerman’s](http://geekswithblogs.net/clingermangw/Default.aspx) “[becoming a better developer](http://geekswithblogs.net/clingermangw/archive/2007/07/16/113985.aspx)” goals, I decided to re-scope my activities and took a step back.
+So finding time to actually do game development is challenging (against using free time to actually play games) but is very fun and in light of [George Clingerman’s](http://geekswithblogs.net/clingermangw/Default) “[becoming a better developer](http://geekswithblogs.net/clingermangw/archive/2007/07/16/113985)” goals, I decided to re-scope my activities and took a step back.
 
-Now I’m probably not going as far as George did but I did have a re-think of my goals and how to get there, so in this I’ve gone back to basics, so far back actually I’ve signed up the the GameDev.net C# workshop for learning C#, from the point of view that you can never learn enough about a subject.&nbsp; I do feel there are some parts of the C# language I’ve missed out on (interfaces, conditional operators and the finer arts of generics, to name a few) and some better coding standards.
+Now I’m probably not going as far as George did but I did have a re-think of my goals and how to get there, so in this I’ve gone back to basics, so far back actually I’ve signed up the the GameDev.net C# workshop for learning C#, from the point of view that you can never learn enough about a subject.  I do feel there are some parts of the C# language I’ve missed out on (interfaces, conditional operators and the finer arts of generics, to name a few) and some better coding standards.
 
 Check out the ![width=](http://images.gamedev.net/icons/feature-g-logo.png) [GameDev.Net C# workshop](http://www.gamedev.net/community/forums/default.asp?pid=84)course.
 

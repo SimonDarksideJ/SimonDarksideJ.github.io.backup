@@ -24,15 +24,15 @@ All of these frameworks depend on XNA so will need one of the aforementioned eng
 
 So for this little run up I have got 5 frameworks to run through, namely:
 
-> ![src=]()&nbsp;&nbsp;&nbsp; YNA framework – The Prototype Framework  
-> ![src=]()&nbsp;&nbsp;&nbsp; Nuclear Winter by sparklinlabs  
-> ![src=]()&nbsp;&nbsp;&nbsp; Visual Scripting Framework  
-> ![src=]()&nbsp;&nbsp;&nbsp; XPF&nbsp; – A Layout Framework for XNA  
-> ![src=]()&nbsp;&nbsp;&nbsp; Tiled / TiledLib / xTiled / tIDE – Tile based game engine / editor
+> ![src=]()    YNA framework – The Prototype Framework  
+> ![src=]()    Nuclear Winter by sparklinlabs  
+> ![src=]()    Visual Scripting Framework  
+> ![src=]()    XPF  – A Layout Framework for XNA  
+> ![src=]()    Tiled / TiledLib / xTiled / tIDE – Tile based game engine / editor
 
 > (Late Entry)
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; Gearset – Game monitoring toolset
+> ![src=]()    Gearset – Game monitoring toolset
 
 Nothing too deep but enough to whet your appetite to see if it interests you and encourage you to look deeper, or if you ask nicely / add it to my “Content Voting” page then I may consider adding it to one of the “diving deeper” articles for the XNA Futures series.
 
@@ -48,7 +48,7 @@ Anyway, on with the show.
 
 [![ src=]()](http://yna.codeplex.com/)
 
-I put this first simply because it is the one that intrigues me the most (at the time of writing because I am a fickle beast) just by its outlandish claims and steadfast delivery, it is aimed mainly as a fast prototyping tool with some very unique features.&nbsp; Do not let his put you off mind as there are several games already released using this as their base engine running on top of XNA and others in the works.
+I put this first simply because it is the one that intrigues me the most (at the time of writing because I am a fickle beast) just by its outlandish claims and steadfast delivery, it is aimed mainly as a fast prototyping tool with some very unique features.  Do not let his put you off mind as there are several games already released using this as their base engine running on top of XNA and others in the works.
 
 Putting it simply, YNA is a game Framework for XNA or MonoGame who allow you to quickly create prototypes and games. It has been inspired by Flixel, an ActionScript 3 Framework for 2D part and a bit by Three.js for 3D.
 
@@ -75,12 +75,12 @@ YNA gives you the following (Excerpt from the codeplex site)
 
 ## Framework support
 
-As for frameworks, YNA has already been tested with MonoGame On Windows, Windows 8 and Windows Phone (since that is where MonoGame is focused) but it should also run on all of MonoGame’s other platforms as well.&nbsp; Its not a good fit for UnityXNA but should work with the SunBurn platform API as well when it is released although it will likely need a few modifications to take advantage of some of the SunBurn Platform API’s advanced rendering features.&nbsp; Unlikely to be compatible with the SunBurn Engine since it is effectively a competitor. (Although it would be interesting to reuse the InkScape features of YNA with the SunBurn engine as an Add-on, hmm)
+As for frameworks, YNA has already been tested with MonoGame On Windows, Windows 8 and Windows Phone (since that is where MonoGame is focused) but it should also run on all of MonoGame’s other platforms as well.  Its not a good fit for UnityXNA but should work with the SunBurn platform API as well when it is released although it will likely need a few modifications to take advantage of some of the SunBurn Platform API’s advanced rendering features.  Unlikely to be compatible with the SunBurn Engine since it is effectively a competitor. (Although it would be interesting to reuse the InkScape features of YNA with the SunBurn engine as an Add-on, hmm)
 
-> ![src=]()&nbsp;&nbsp;&nbsp; MonoGame – **YES**  
-> ![src=]()&nbsp;&nbsp;&nbsp; UnityXNA – **NO**  
-> ![src=]()&nbsp;&nbsp;&nbsp; SunBurn Platform API – **YES** \* (Some minor work required)  
-> ![src=]()&nbsp;&nbsp;&nbsp; SunBurn Gaming Engine – **NO**
+> ![src=]()    MonoGame – **YES**  
+> ![src=]()    UnityXNA – **NO**  
+> ![src=]()    SunBurn Platform API – **YES** \* (Some minor work required)  
+> ![src=]()    SunBurn Gaming Engine – **NO**
 
 ## Current Status
 
@@ -98,9 +98,9 @@ Price: FREE – Opensource
 
 [![ src=]()](http://inkscape.org/)
 
-A core selling point and the one that got me reading was its InkScape integration.&nbsp; [InkScape](http://inkscape.org/) is an Open Source vector graphics editor, with capabilities similar to Illustrator, CorelDraw, or Xara X, using the W3C standard Scalable Vector Graphics (SVG) file format.&nbsp; I have also got a huge library selection of tutorials and videos to learn how to use it more effectively but I am still yet to actually get around to mastering it .
+A core selling point and the one that got me reading was its InkScape integration.  [InkScape](http://inkscape.org/) is an Open Source vector graphics editor, with capabilities similar to Illustrator, CorelDraw, or Xara X, using the W3C standard Scalable Vector Graphics (SVG) file format.  I have also got a huge library selection of tutorials and videos to learn how to use it more effectively but I am still yet to actually get around to mastering it .
 
-Other attempts in the past to use a 3rd part tool with XNA usually resort in either writing complex custom content importers or using a model format as an intermediary mechanism, Nuclear Winters approach seems to be more sensible and more importantly easier to maintain.&nbsp; **However** at present the functionality for this has been removed from the core code but is still available in the source for use, the developers note though that they may bring it back in the not too distant future (or with additional community support).
+Other attempts in the past to use a 3rd part tool with XNA usually resort in either writing complex custom content importers or using a model format as an intermediary mechanism, Nuclear Winters approach seems to be more sensible and more importantly easier to maintain.  **However** at present the functionality for this has been removed from the core code but is still available in the source for use, the developers note though that they may bring it back in the not too distant future (or with additional community support).
 
 ## What you get
 
@@ -112,12 +112,12 @@ The core of NuclearWinter, features game state management, screen resolution han
 
 ## Framework support
 
-As with YNA, native XNA and MonoGame are supported with recent check-in’s showing evidence of it being updated to the latest versions of MonoGame for Mac as well.&nbsp; Again UnityXNA does not really apply and some work may be required for the SunBurn Platform API as before.&nbsp; Not suitable for the SunBurn Gaming Engine
+As with YNA, native XNA and MonoGame are supported with recent check-in’s showing evidence of it being updated to the latest versions of MonoGame for Mac as well.  Again UnityXNA does not really apply and some work may be required for the SunBurn Platform API as before.  Not suitable for the SunBurn Gaming Engine
 
-> ![src=]()&nbsp;&nbsp;&nbsp; MonoGame – **YES**  
-> ![src=]()&nbsp;&nbsp;&nbsp; UnityXNA – **NO**  
-> ![src=]()&nbsp;&nbsp;&nbsp; SunBurn Platform API – **YES** \* (Some minor work required)  
-> ![src=]()&nbsp;&nbsp;&nbsp; SunBurn Gaming Engine – **NO**
+> ![src=]()    MonoGame – **YES**  
+> ![src=]()    UnityXNA – **NO**  
+> ![src=]()    SunBurn Platform API – **YES** \* (Some minor work required)  
+> ![src=]()    SunBurn Gaming Engine – **NO**
 
 ## Current Status
 
@@ -127,9 +127,9 @@ Price: FREE – Opensource
 
 * * *
 
-# [Visual Scripting Framework](http://www.greedygoblinsoftware.co.uk/visualscriptingframework.aspx)
+# [Visual Scripting Framework](http://www.greedygoblinsoftware.co.uk/visualscriptingframework)
 
-[![ src=]()](http://www.greedygoblinsoftware.co.uk/visualscriptingframework.aspx)
+[![ src=]()](http://www.greedygoblinsoftware.co.uk/visualscriptingframework)
 
 The VSF is a scripting framework that allows you to control the flow of your game and also provides an easy way to storyboard cut scene events, its composition and use is very similar to the PlayReady framework for Unity3D.
 
@@ -167,10 +167,10 @@ The Visual Scripting Framework allows you to build scripts by dragging and dropp
 
 VSF at its core is a XNA derivative and as such is compatible with any framework that is based on XNA but to add to that there are even SunBurn engine components that are woven tightly with SunBurn to take advantage of its extra power and features.
 
-> ![src=]()&nbsp;&nbsp;&nbsp; MonoGame – **YES**  
-> ![src=]()&nbsp;&nbsp;&nbsp; UnityXNA – **NO**  
-> ![src=]()&nbsp;&nbsp;&nbsp; SunBurn Platform API – **NO** \* (not fully yet but expect update on platform API release)  
-> ![src=]()&nbsp;&nbsp;&nbsp; SunBurn Gaming Engine – **YES**
+> ![src=]()    MonoGame – **YES**  
+> ![src=]()    UnityXNA – **NO**  
+> ![src=]()    SunBurn Platform API – **NO** \* (not fully yet but expect update on platform API release)  
+> ![src=]()    SunBurn Gaming Engine – **YES**
 
 ## Current Status
 
@@ -184,7 +184,7 @@ Price $30
 
 [![ src=]()](http://red-badger.com/blog/2010/08/31/introducing-xpf-e28093-a-layout-framework-for-xna/)
 
-The offering through the [RedBadger team](http://twitter.com/redbadgerteam) ([@redbadgerteam](http://twitter.com/redbadgerteam)) is nothing if not Unique, it effectively recreates the XAML rendering engine through XNA graphics processing.&nbsp; Similar to other GUI tools except it also applies the same 3D rotation features as XAML, also it provides similar data binding capabilities to its XAML counterpart.
+The offering through the [RedBadger team](http://twitter.com/redbadgerteam) ([@redbadgerteam](http://twitter.com/redbadgerteam)) is nothing if not Unique, it effectively recreates the XAML rendering engine through XNA graphics processing.  Similar to other GUI tools except it also applies the same 3D rotation features as XAML, also it provides similar data binding capabilities to its XAML counterpart.
 
 If you watch some of their example videos you will get a great feel for where it is heading since you can also meld the XPF components directly on to a 3D surface using the best of both worlds.
 
@@ -196,7 +196,7 @@ If you watch some of their example videos you will get a great feel for where it
 
 #### Familiar Development Experience
 
-XPF has been specifically designed to be familiar to WPF & Silverlight developers and comes with a collection of out of the box controls, that can be composed together to create flexible layouts in no time at all.&nbsp; The beta launches with the following controls:
+XPF has been specifically designed to be familiar to WPF & Silverlight developers and comes with a collection of out of the box controls, that can be composed together to create flexible layouts in no time at all.  The beta launches with the following controls:
 
 - Border
 - Button
@@ -214,26 +214,26 @@ XPF also supports Dependency Properties, Attached Properties, Animation (current
 
 #### Pure XNA
 
-XPF is designed to run in a pure XNA application, it does not host XNA inside a WPF or Silverlight application.&nbsp; All the controls have been written from the ground-up to work in XNA 4.0 and fit into XNA’s Update & Draw game loop.
+XPF is designed to run in a pure XNA application, it does not host XNA inside a WPF or Silverlight application.  All the controls have been written from the ground-up to work in XNA 4.0 and fit into XNA’s Update & Draw game loop.
 
 #### Extensible
 
-XPF has been designed to be modular and extensible in two key ways.&nbsp; Firstly, creating custom controls to use alongside the controls you get out of the box is easy.&nbsp; If you have ever created a custom control in WPF or Silverlight, using the 2 phase measure and arrange layout system, then XPF gives an almost identical experience.
+XPF has been designed to be modular and extensible in two key ways.  Firstly, creating custom controls to use alongside the controls you get out of the box is easy.  If you have ever created a custom control in WPF or Silverlight, using the 2 phase measure and arrange layout system, then XPF gives an almost identical experience.
 
-Secondly, the integration point between XPF and your XNA application has been designed to be extremely flexible.&nbsp; XPF does not really know anything about XNA, it is written entirely around agnostic interfaces – so whilst XPF comes with a renderer that you can use out the box, should you want to create your own, or integrate to an existing engine, you simply have to satisfy a few core interfaces.
+Secondly, the integration point between XPF and your XNA application has been designed to be extremely flexible.  XPF does not really know anything about XNA, it is written entirely around agnostic interfaces – so whilst XPF comes with a renderer that you can use out the box, should you want to create your own, or integrate to an existing engine, you simply have to satisfy a few core interfaces.
 
 ## Framework support
 
 XPF is now a community based development and recently got courted by the MonoGame team themselves, so as with most other frameworks based on XNA it should run on any XNA based framework.
 
-> ![src=]()&nbsp;&nbsp;&nbsp; MonoGame – **YES**  
-> ![src=]()&nbsp;&nbsp;&nbsp; UnityXNA – **NO**  
-> ![src=]()&nbsp;&nbsp;&nbsp; SunBurn Platform API – ? (Needs in depth review but should be compatible)  
-> ![src=]()&nbsp;&nbsp;&nbsp; SunBurn Gaming Engine – **NO** (Not at present but could be enabled for SunBurn as it is opensource)
+> ![src=]()    MonoGame – **YES**  
+> ![src=]()    UnityXNA – **NO**  
+> ![src=]()    SunBurn Platform API – ? (Needs in depth review but should be compatible)  
+> ![src=]()    SunBurn Gaming Engine – **NO** (Not at present but could be enabled for SunBurn as it is opensource)
 
 ## Current Status
 
-Unable to ascertain the exact development stats of the project at present since it was pushed opensource, the original devs are not contributing as far as I can tell but others including the MonoGame team have taken a keen interested.&nbsp; The edition before it was made open source was very stable as far as I can tell.
+Unable to ascertain the exact development stats of the project at present since it was pushed opensource, the original devs are not contributing as far as I can tell but others including the MonoGame team have taken a keen interested.  The edition before it was made open source was very stable as far as I can tell.
 
 Price: FREE – Opensource
 
@@ -247,9 +247,9 @@ Now this section might get a bit confusing but hopefully it will all make sense 
 
 Tiled started off some many many moons ago as a Tile Map Editor / Generator with a kind of standard “Tile Map Format” (TMX), this allowed level editors to create designs in either flat top down 2D style maps (orthogonal) or 2.5D perspective maps (isometric) for a little more depth.
 
-[Nick Gravelyn](http://nickgravelyn.com/) ([@nickgravelyn](http://twitter.com/nickgravelyn)) kicked things off by creating [TiledLib](https://bitbucket.org/nickgravelyn/tiledlib) which imported the TMX files and then provided rendering / management techniques for levels, more recently he has dropped the “Processing” part of the Lib to allow developers to apply them how they will.&nbsp; A little while later [Michael Neel](http://www.vinull.com/) from [GameMarx](http://www.gamemarx.com/) [(@ViNull](http://twitter.com/ViNull)) and Co-Founder of FuncWorks, while trying to create his awesome entry for the DBP 2012 competition using [TiledLib](https://bitbucket.org/nickgravelyn/tiledlib) responded to Nicks update and set forth on his own “Fork” called [XTiled](https://bitbucket.org/vinull/xtiled) (technical term to link to another developers code, not the thing you eat with) Nick’s project and take it further to resurrect the full content pipeline importer and graphics rendering engine, this being run strictly the way he wants to use it from his (and colleagues) experience of making games (if you want it another way get your own Fork).
+[Nick Gravelyn](http://nickgravelyn.com/) ([@nickgravelyn](http://twitter.com/nickgravelyn)) kicked things off by creating [TiledLib](https://bitbucket.org/nickgravelyn/tiledlib) which imported the TMX files and then provided rendering / management techniques for levels, more recently he has dropped the “Processing” part of the Lib to allow developers to apply them how they will.  A little while later [Michael Neel](http://www.vinull.com/) from [GameMarx](http://www.gamemarx.com/) [(@ViNull](http://twitter.com/ViNull)) and Co-Founder of FuncWorks, while trying to create his awesome entry for the DBP 2012 competition using [TiledLib](https://bitbucket.org/nickgravelyn/tiledlib) responded to Nicks update and set forth on his own “Fork” called [XTiled](https://bitbucket.org/vinull/xtiled) (technical term to link to another developers code, not the thing you eat with) Nick’s project and take it further to resurrect the full content pipeline importer and graphics rendering engine, this being run strictly the way he wants to use it from his (and colleagues) experience of making games (if you want it another way get your own Fork).
 
-> **\*\*Note – Had an update from Mike to state that xTiled has moved a ways on and is likely now incompatible with Nick’s tiledlib, so just be aware when&nbsp;choosing&nbsp;which of these frameworks to use**
+> **\*\*Note – Had an update from Mike to state that xTiled has moved a ways on and is likely now incompatible with Nick’s tiledlib, so just be aware when choosing which of these frameworks to use**
 
 In what appears to be a parallel universe another Dev ([colinvella](http://www.codeplex.com/site/users/view/colinvella)) went a different approach to Mike and has rebuilt the entire Tiled Editor from scratch in .NET (the original Tiled Ed was written in C++ / Qt) that can import TMX files if you have them and stores and uses them in a XML variant of TMX, for which the devs have also supplied a Content importer / processor for XNA plus a rendering engine for that format.
 
@@ -259,7 +259,7 @@ Phew, got all that.
 
 ### Tiled
 
-&nbsp; ![src=]() ![src=]()
+  ![src=]() ![src=]()
 
 _(Except from the Tiled Site)_
 
@@ -346,14 +346,14 @@ xTile is a multi-platform tile rendering engine component for XNA-based games.
 
 ## Framework support
 
-As you can see there has been a lot of support for this map format for XNA with two IDE’s and several variations of XNA importers it is certainly in good stead, all that remains is for you to give each a whirl and select the best one that meets your needs.&nbsp; Either Use the original Tiled Editor which has been stable for some time and one of the three importers, if you are feeling adventurous then you can have a go at writing your own processors from Nick’s great work for your particular needs or leverage Mike’s experience in building games.
+As you can see there has been a lot of support for this map format for XNA with two IDE’s and several variations of XNA importers it is certainly in good stead, all that remains is for you to give each a whirl and select the best one that meets your needs.  Either Use the original Tiled Editor which has been stable for some time and one of the three importers, if you are feeling adventurous then you can have a go at writing your own processors from Nick’s great work for your particular needs or leverage Mike’s experience in building games.
 
 The newest member is not too shy either and although fairly fresh it shows a lot of promise and bonus features.
 
-> ![src=]()&nbsp;&nbsp;&nbsp; MonoGame – YES, YES & YES  
-> ![src=]()&nbsp;&nbsp;&nbsp; UnityXNA – UNLIKELY (however since it is content processor driven the 2D system may be compatible)  
-> ![src=]()&nbsp;&nbsp;&nbsp; SunBurn Platform API – YES\* (With a little effort updating the tile renderers for the Platform API way of doing things)  
-> ![src=]()&nbsp;&nbsp;&nbsp; SunBurn Gaming Engine – NO\* (out of the box no, however updating the renderer to be SunBurn aware could be very advantageous, especially with SunBurn’s own or the Bepu plug in for Physics)
+> ![src=]()    MonoGame – YES, YES & YES  
+> ![src=]()    UnityXNA – UNLIKELY (however since it is content processor driven the 2D system may be compatible)  
+> ![src=]()    SunBurn Platform API – YES\* (With a little effort updating the tile renderers for the Platform API way of doing things)  
+> ![src=]()    SunBurn Gaming Engine – NO\* (out of the box no, however updating the renderer to be SunBurn aware could be very advantageous, especially with SunBurn’s own or the Bepu plug in for Physics)
 
 ## Current Status
 
@@ -449,12 +449,12 @@ To upgrade to Gearset Pro, you simply need to [purchase a license](http://www.th
 
 Told you.
 
-As framework support goes Gearset has only been exclusively used on native XNA but after an hour or so pouring over the docs which state “its compatible with any XNA based framework” I have no reason to doubt it would not work with any of our XNA Futures contenders (except UnityXNA though).&nbsp; I would have to wonder what it would take to get this working with Unity though, maybe a thought to add in to the feature request list.
+As framework support goes Gearset has only been exclusively used on native XNA but after an hour or so pouring over the docs which state “its compatible with any XNA based framework” I have no reason to doubt it would not work with any of our XNA Futures contenders (except UnityXNA though).  I would have to wonder what it would take to get this working with Unity though, maybe a thought to add in to the feature request list.
 
-> ![src=]()&nbsp;&nbsp;&nbsp; MonoGame – LIKELY\*(The docs state any XNA based framework should be supported however it has not been tested as far as I can see)  
-> ![src=]()&nbsp;&nbsp;&nbsp; UnityXNA – NO  
-> ![src=]()&nbsp;&nbsp;&nbsp; SunBurn Platform API – LIKELY\*(With a little effort updating the tile renderers for the Platform API way of doing things)  
-> ![src=]()&nbsp;&nbsp;&nbsp; SunBurn Gaming Engine – POSSIBLY\* (As SunBurn is based on XNA, according to the docs it should be supported but has not been tested as yet)
+> ![src=]()    MonoGame – LIKELY\*(The docs state any XNA based framework should be supported however it has not been tested as far as I can see)  
+> ![src=]()    UnityXNA – NO  
+> ![src=]()    SunBurn Platform API – LIKELY\*(With a little effort updating the tile renderers for the Platform API way of doing things)  
+> ![src=]()    SunBurn Gaming Engine – POSSIBLY\* (As SunBurn is based on XNA, according to the docs it should be supported but has not been tested as yet)
 
 ## Current Status
 
@@ -471,9 +471,9 @@ Price:
 
 # Final Round-up
 
-Hopefully through this article I have shown you some more XNA tricks that viable going forward and which frameworks will work straight away and which need a little a little love but will eventually offer a great deal more.&nbsp; All apart from UnityXNA can make use of these frameworks to make your life easier going forward.
+Hopefully through this article I have shown you some more XNA tricks that viable going forward and which frameworks will work straight away and which need a little a little love but will eventually offer a great deal more.  All apart from UnityXNA can make use of these frameworks to make your life easier going forward.
 
-So whether you want to use this as you base with MonoGame or the SunBurn Platform API, or just extend the already extensive SunBurn engine, even possibly use it with Unity3D itself.&nbsp; All these XNA treasures are mint for the taking and helping to build your dream.
+So whether you want to use this as you base with MonoGame or the SunBurn Platform API, or just extend the already extensive SunBurn engine, even possibly use it with Unity3D itself.  All these XNA treasures are mint for the taking and helping to build your dream.
 
 \*Update
 
@@ -493,4 +493,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js" language="javascript"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20) &nbsp;<script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList.aspx?amid=9502591)
+// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

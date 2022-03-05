@@ -23,7 +23,7 @@ Then along came the “Isolated Storage Helper” (apologies, could not find the
     ### MSDN Library
     
     
-    Next I wandered through the MSDN Library which at present is still a bit of a mess in places, especially where .NET 4.5 meets WinRT.&nbsp; XML serialisation is one of those places, the documentation is confusing at best, does not include any async references and a lot of the sample code does not even work.&nbsp; That being said it is still pre-release code so there is time for it to be tidied up.
+    Next I wandered through the MSDN Library which at present is still a bit of a mess in places, especially where .NET 4.5 meets WinRT.  XML serialisation is one of those places, the documentation is confusing at best, does not include any async references and a lot of the sample code does not even work.  That being said it is still pre-release code so there is time for it to be tidied up.
     
     
     
@@ -31,7 +31,7 @@ Then along came the “Isolated Storage Helper” (apologies, could not find the
     
     
     
-    Finally after a bit of a headslap moment and a trawl through the [MSDN WinRT code samples](http://bit.ly/QSTuqR) I literally stumbled on the final piece of the puzzle.&nbsp; If you start a new project using one of the templates or add a constructed WinRT (not saying Metro ![Open-mouthed smile](/Images/wordpress/2012/08/wlEmoticon-openmouthedsmile.png)) project item like the Group or Item pages, then you will also inherit a lot of boiler plate code in your project in a new “Common” folder.&nbsp; One of these is the SuspensionManager, this handy little class does the work of storing application state variables (in Windows Phone this was handled by the framework).
+    Finally after a bit of a headslap moment and a trawl through the [MSDN WinRT code samples](http://bit.ly/QSTuqR) I literally stumbled on the final piece of the puzzle.  If you start a new project using one of the templates or add a constructed WinRT (not saying Metro ![Open-mouthed smile](/Images/wordpress/2012/08/wlEmoticon-openmouthedsmile.png)) project item like the Group or Item pages, then you will also inherit a lot of boiler plate code in your project in a new “Common” folder.  One of these is the SuspensionManager, this handy little class does the work of storing application state variables (in Windows Phone this was handled by the framework).
     
     
     * * *
@@ -60,11 +60,11 @@ Then along came the “Isolated Storage Helper” (apologies, could not find the
                 # Final Thoughts
                 
                 
-                Well I’m back to the dev process, I am currently upgrading my WP7 project “Flipped” to Windows 8.&nbsp; I have managed to re-use 90% of my backend game logic with just a few corrections (due to some UI converged bits I was either too lazy to avoid or just could not think of an elegant solution around) plus loosing the Telerik stack for the first release is a pain.
+                Well I’m back to the dev process, I am currently upgrading my WP7 project “Flipped” to Windows 8.  I have managed to re-use 90% of my backend game logic with just a few corrections (due to some UI converged bits I was either too lazy to avoid or just could not think of an elegant solution around) plus loosing the Telerik stack for the first release is a pain.
                 
                 
                 
-                I have managed to write this whole article on Windows Live Writer 2012 and it is the same smooth process on Windows 8, granted had to search for my plugins again but they did all work.&nbsp; I do hope WLW is not deprecated it is by far the most useful app in the Essentials package, next to Movie maker ![Open-mouthed smile](/Images/wordpress/2012/08/wlEmoticon-openmouthedsmile.png).
+                I have managed to write this whole article on Windows Live Writer 2012 and it is the same smooth process on Windows 8, granted had to search for my plugins again but they did all work.  I do hope WLW is not deprecated it is by far the most useful app in the Essentials package, next to Movie maker ![Open-mouthed smile](/Images/wordpress/2012/08/wlEmoticon-openmouthedsmile.png).
                 
                 
                 

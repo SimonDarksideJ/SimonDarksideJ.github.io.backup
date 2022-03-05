@@ -16,7 +16,7 @@ tags:
 
 ([Cross post notification from Faux Motion](http://faux-motion.blogspot.com/))
 
-#### If you have more Queries on Sunburn or just want to ask questions on it, fee free to use the&nbsp;[SunBurn forum here](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis")
+#### If you have more Queries on Sunburn or just want to ask questions on it, fee free to use the [SunBurn forum here](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis")
 
 Over on my other blog (my 3D modelling blog) [Faux Motion](http://faux-motion.blogspot.com/), I’ve recently been posting a series of videos to help users out in getting models in to SunBurn.
 
@@ -51,4 +51,4 @@ P.S.
 
 If you want to learn modelling, you can also check out the other posts I have over on [Faux Motion](http://faux-motion.blogspot.com/)
 
-#### If you have more Queries on Sunburn or just want to ask questions on it, fee free to use the&nbsp;[SunBurn forum here](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis")
+#### If you have more Queries on Sunburn or just want to ask questions on it, fee free to use the [SunBurn forum here](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis")

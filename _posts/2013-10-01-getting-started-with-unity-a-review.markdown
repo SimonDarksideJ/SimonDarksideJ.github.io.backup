@@ -18,7 +18,7 @@ Keeping with the Unity3D season I seem to be having, here is another Unity3D boo
 
 ##### [Getting Started with Unity](http://www.packtpub.com/getting-started-with-unity/book)
 
-I have been on the hunt for a while now for a easy introduction book for Unity, even though I am already fairly well experienced with it I am always looking out for a good reference source to point newcomers to the world of Unity3D.&nbsp; Video tutorials and the API guide are all well and good but others like myself always react better to the written word. (and also useful if there is no internet ![Open-mouthed smile](/Images/wordpress/2013/10/wlEmoticon-openmouthedsmile.png))
+I have been on the hunt for a while now for a easy introduction book for Unity, even though I am already fairly well experienced with it I am always looking out for a good reference source to point newcomers to the world of Unity3D.  Video tutorials and the API guide are all well and good but others like myself always react better to the written word. (and also useful if there is no internet ![Open-mouthed smile](/Images/wordpress/2013/10/wlEmoticon-openmouthedsmile.png))
 
 * * *
 
@@ -44,11 +44,11 @@ It also gives you an overview of the default “Angry Bots” sample included wi
 
 ###### Chapter 2 “Creating a Maze with Built-in Objects”
 
-From here we start actually creating scenes and building a simple maze type game adding lighting to our environment and pulling together the basic physics system that is built into Unity3D.&nbsp; On top at that we also take a look at another of the included features of Unity3D, the water effect.
+From here we start actually creating scenes and building a simple maze type game adding lighting to our environment and pulling together the basic physics system that is built into Unity3D.  On top at that we also take a look at another of the included features of Unity3D, the water effect.
 
 ###### Chapter 3 “Using Scripts to Interact with Objects”
 
-From here on in the book tackles some of the raw undercurrents of the Unity3D engine, scripting.&nbsp; It is important to know how these work in any game and how to make them work well, there are even some pointers on how to structure your script assets along Unity3D’s guidelines.&nbsp; You’ll create some JavaScript scripts that work with your created environment and shows you how to manipulate the game world to get your desired effect.
+From here on in the book tackles some of the raw undercurrents of the Unity3D engine, scripting.  It is important to know how these work in any game and how to make them work well, there are even some pointers on how to structure your script assets along Unity3D’s guidelines.  You’ll create some JavaScript scripts that work with your created environment and shows you how to manipulate the game world to get your desired effect.
 
 ###### Chapter 4 “Creating and Tracking Objects”
 
@@ -62,7 +62,7 @@ Unless you are building some block falling or other simple game you are going to
 
 ###### Chapter 6 “Finalizing and Optimizing Your Game”
 
-Of course making a game is not the end of the story by any means, in fact you will find that finishing your game will likely take 80% of the time needed in any given project.&nbsp; Here the author walks you through some of the techniques to optimise memory (only having a single scene in memory at a time) and using more procedural techniques to avoid overloading your scenes and preserving necessary data across levels so as to avoid loading issues.
+Of course making a game is not the end of the story by any means, in fact you will find that finishing your game will likely take 80% of the time needed in any given project.  Here the author walks you through some of the techniques to optimise memory (only having a single scene in memory at a time) and using more procedural techniques to avoid overloading your scenes and preserving necessary data across levels so as to avoid loading issues.
 
 There is also a nice walk through for creating a simple game menu system and splashscreen.
 
@@ -72,7 +72,7 @@ There is also a nice walk through for creating a simple game menu system and spl
 
 ![src=]()
 
-The promise of this book was great but sadly lacking in it is implementation.&nbsp; There is sufficient content and scope in the book to make it great but it is lost in the technicalities of it.&nbsp; There is a lot of showing your how and what but fails to make the reader understand why and in what situation you would use those techniques.
+The promise of this book was great but sadly lacking in it is implementation.  There is sufficient content and scope in the book to make it great but it is lost in the technicalities of it.  There is a lot of showing your how and what but fails to make the reader understand why and in what situation you would use those techniques.
 
 There is a lot of boilerplate involved and in all likelihood you will spend most of the time just downloading the samples and looking at them rather than trying to build along with the chapters.
 
@@ -85,7 +85,7 @@ It is not all bad, it does cover some features which I am not completely familia
 
 ###### Cons:
 
-- Overly technical without explaining why you would use each feature.&nbsp; more of a do as I say style of writing (which if that’s how you like learning, great)
+- Overly technical without explaining why you would use each feature.  more of a do as I say style of writing (which if that’s how you like learning, great)
 - Sections are bunched together in a very mashed up type of way – I would have expected separate sections for a lot of the content to give it more meat but a lot of (important) things are left to either the imagination or just skimmed over.
 - The book is very short for what the goal of the book was, or is just trying to hard to get everything in without explaining everything.
 
@@ -93,9 +93,9 @@ It is not all bad, it does cover some features which I am not completely familia
 
 ![src=]()
 
-Sadly I did not enjoy reading this title. It is a shame really as the author put a lot of effort in to each chapter but it just felt like (most of the time) that it was just thrown at the page without thought of how it was structured or presented to the user.&nbsp; There is a lot of good material in there but unless you are already familiar with Unity3D it will likely go straight over your head (and if you know Unity3D, most of what is in the book you likely already know).
+Sadly I did not enjoy reading this title. It is a shame really as the author put a lot of effort in to each chapter but it just felt like (most of the time) that it was just thrown at the page without thought of how it was structured or presented to the user.  There is a lot of good material in there but unless you are already familiar with Unity3D it will likely go straight over your head (and if you know Unity3D, most of what is in the book you likely already know).
 
-Had the author stepped back and worked more on the presentation than trying to cram as much technical “do stuff” into the book, then this would have been a completely different review.&nbsp; So from me it is pass.
+Had the author stepped back and worked more on the presentation than trying to cram as much technical “do stuff” into the book, then this would have been a completely different review.  So from me it is pass.
 
 If however you find that having information just presented to you works for your learning style, then this book might be right up your street but have a play with Unity3D first before reading this book.
 

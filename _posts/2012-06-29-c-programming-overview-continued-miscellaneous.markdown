@@ -12,7 +12,7 @@ tags:
 
  **This section of the tutorial is provided as is from the original Digipen tutorial, I will post a supplement to this post later which will cover the updates for XNA as well as for new features in .NET 3.5 and .NET 4 together with Visual Studio 2008 and 2010 respectively.**
 
-**The original tutorial as stated earlier in the series was originally written in Visual Studio 2005 and .NET 2.0.&nbsp;**
+**The original tutorial as stated earlier in the series was originally written in Visual Studio 2005 and .NET 2.0. **
 
 **As a side note just to reiterate points earlier in the series, everything covered in this tutorial series will work just as well in the FREE express editions of visual studio as it does in the full Visual Studio suite.**
 
@@ -204,7 +204,7 @@ The Matrix class describes and manipulates a matrix.
 
 * * *
 
-&nbsp;
+ 
 
 As promised the new and improved Misc section for today’s technology will arrive shortly.
 

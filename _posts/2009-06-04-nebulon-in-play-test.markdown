@@ -8,7 +8,7 @@ tags:
 
 ###### 
 
-[![boxart](http://xna-uk.net/blogs/randomchaos/boxart_thumb_674C2BB0.jpg "boxart")](http://catalog.xna.com/en-GB/GameDetails.aspx?catalogEntryId=a03ade3d-e726-4ed7-867c-95ee667a023e&type=1)
+[![boxart](http://xna-uk.net/blogs/randomchaos/boxart_thumb_674C2BB0.jpg "boxart")](http://catalog.xna.com/en-GB/GameDetails?catalogEntryId=a03ade3d-e726-4ed7-867c-95ee667a023e&type=1)
 
 So,as I have mentioned before, I am part of a group called [Dark Omen Games](http://darkomengames.co.uk/), and we have finally got around to getting a [Creators Club](http://creators.xna.com/en-GB/)Premium membership so we can start to release our games on the Xbox Live Creators Games.
 
@@ -26,7 +26,7 @@ Here is a clip (pre play test drop):
 
 [https://www.youtube.com/watch?v=](https://www.youtube.com/watch?v=)
 
-&nbsp;
+ 
 
 If you have a [Creators Club](http://creators.xna.com/en-GB/)Premium account, please get on a give it a play test, we really would love to hear your feed back on it so we have a solid, robust game going into peer review.
 

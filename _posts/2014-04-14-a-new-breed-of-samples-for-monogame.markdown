@@ -21,7 +21,7 @@ Seeing this, the core MonoGame team set out with a purpose to being a new sample
 
 - The samples had to be of high quality
 - They had to work on ALL platforms not just one
-- Best practice&nbsp;had to be used where possible
+- Best practice had to be used where possible
 - They had to be testable and re-usable to test the latest builds (builds may not pass if samples tests failed)
 
 It has been an ambitious journey, with a lot of in depth discussions and debates, but now the first of the samples has just been accepted in to the new Samples Repo.

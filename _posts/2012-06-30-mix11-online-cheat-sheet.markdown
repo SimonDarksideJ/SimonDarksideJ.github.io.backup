@@ -15,11 +15,11 @@ Following the events @ Mix 2011 and the sheer mass of sessions following the Key
 
 Like last year it is probably going to take weeks to digest all this, so I hope this helps you plan for it!.
 
-I have also published a [Windows Phone 7 specific version](/2011/04/14/mix11-windows-phone-online-cheat-sheet.aspx) of the review sheet, just for us WP7’ers
+I have also published a [Windows Phone 7 specific version](/2011/04/14/mix11-windows-phone-online-cheat-sheet) of the review sheet, just for us WP7’ers
 
-# \*Update – Due to some unforeseen error some of the links did not previously work, this has now been fixed and all links are up and working.&nbsp; Apologies for that
+# \*Update – Due to some unforeseen error some of the links did not previously work, this has now been fixed and all links are up and working.  Apologies for that
 
-&nbsp;
+ 
 
 | 
 
@@ -590,7 +590,7 @@ Speaker: Nigel Parker**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -600,7 +600,7 @@ Speaker: Steve Sanderson**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -609,7 +609,7 @@ Speaker: Steve Sanderson**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -619,7 +619,7 @@ Speaker: Steve Sanderson**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -628,7 +628,7 @@ Speaker: Steve Sanderson**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -638,7 +638,7 @@ Speaker: Scott Hanselman**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -647,7 +647,7 @@ Speaker: Scott Hanselman**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -657,7 +657,7 @@ Speaker: Phil Haack**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -666,7 +666,7 @@ Speaker: Phil Haack**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -676,7 +676,7 @@ Speaker: Aaron Oneal**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -685,7 +685,7 @@ Speaker: Aaron Oneal**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -695,7 +695,7 @@ Speaker: Mike Cook**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -704,7 +704,7 @@ Speaker: Mike Cook**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -714,7 +714,7 @@ Speaker: Steve Marx**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -723,7 +723,7 @@ Speaker: Steve Marx**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -733,7 +733,7 @@ Speaker: Jeremy Andrasik**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -742,7 +742,7 @@ Speaker: Jeremy Andrasik**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -752,7 +752,7 @@ Speakers: Lynn Langit, Thomas Mueller**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -761,7 +761,7 @@ Speakers: Lynn Langit, Thomas Mueller**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -771,7 +771,7 @@ Speakers: Karandeep Anand, Wade Wegner**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -780,7 +780,7 @@ Speakers: Karandeep Anand, Wade Wegner**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -790,7 +790,7 @@ Speaker: Wade Wegner**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -799,7 +799,7 @@ Speaker: Wade Wegner**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -809,7 +809,7 @@ Speaker: Nishant Kothary**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -818,7 +818,7 @@ Speaker: Nishant Kothary**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -828,7 +828,7 @@ Speaker: Ivan Tashev**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -837,7 +837,7 @@ Speaker: Ivan Tashev**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -847,7 +847,7 @@ Speakers: Doug Crockford, Luke Hoban, Allen Wirfs-Brock, Tomasz Janczuk**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -856,7 +856,7 @@ Speakers: Doug Crockford, Luke Hoban, Allen Wirfs-Brock, Tomasz Janczuk**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -866,7 +866,7 @@ Speakers: Nathan Moody, Robert Tuttle, Sara Summers, Guido Rosso**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -875,7 +875,7 @@ Speakers: Nathan Moody, Robert Tuttle, Sara Summers, Guido Rosso**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -885,7 +885,7 @@ Speaker: Zoltan Arvai**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -894,7 +894,7 @@ Speaker: Zoltan Arvai**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -904,7 +904,7 @@ Speaker: Jason Suess**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -913,7 +913,7 @@ Speaker: Jason Suess**
  |
 | 
 
-&nbsp;
+ 
 
  | | 
 
@@ -923,11 +923,11 @@ Speaker: Steven Woodward**
  |
 | 
 
-&nbsp;
+ 
 
  | 
 
-&nbsp;
+ 
 
  | 
 
@@ -1633,7 +1633,7 @@ Speaker: Nick Kramer**
  |
 | | | | |
 
-&nbsp;
+ 
 
 ![Smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3247.wlEmoticon_2D00_smile_5F00_5D499EF3.png)
 

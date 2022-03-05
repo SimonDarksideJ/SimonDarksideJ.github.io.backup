@@ -31,7 +31,7 @@ As briefed above, it goes like this, you run your app and are presented with the
 
 **The issue is machine dependant so it will occur on one but not another**
 
-If you step through your initialisation code you will find that your first page initialises, the page is loaded and all YOUR code will complete but then nothing.&nbsp; So it does appear to be an issue in the WinRT/.NET45 pipeline somewhere.
+If you step through your initialisation code you will find that your first page initialises, the page is loaded and all YOUR code will complete but then nothing.  So it does appear to be an issue in the WinRT/.NET45 pipeline somewhere.
 
 **NOTE – Just uninstalling the product will NOT fix the issue**
 
@@ -59,7 +59,7 @@ Now if you install or run your project from Visual Studio it should now work
 
 # Trials and Store tribulations
 
-Now, if this situation occurs while you app is going through certification for the Windows Store, understand that the testers are NOT going to do the above, in their eyes if it happens, it is a failure.&nbsp; Regardless if you app works fine regardless there is no middle ground, no help and worse of all (at the time of writing) they do not recognise it.
+Now, if this situation occurs while you app is going through certification for the Windows Store, understand that the testers are NOT going to do the above, in their eyes if it happens, it is a failure.  Regardless if you app works fine regardless there is no middle ground, no help and worse of all (at the time of writing) they do not recognise it.
 
 What you will get back from the store certification process is any number of the following certification failures:
 
@@ -72,13 +72,13 @@ Thankfully in the last week they have now started including a PDF with a bit mor
 
 If the store testers are experiencing this issue then this will be evidenced by the screenshots they provide as they will show either just the Splashscreen or your Splashscreen followed by some blank images (I had four identical images in one report)
 
-Now (at the time of writing) if this happens to you in repeated certification attempts (5 in my case until the reports showed what was happening) then currently there is only one solution, REBUILD YOUR PROJECT, I tried one solution [proposed by Laurent Bugnion](http://geekswithblogs.net/lbugnion/archive/2012/09/10/adventures-in-windows-8-solving-activation-errors.aspx) to change just the project GUID but this does not solve the issue.
+Now (at the time of writing) if this happens to you in repeated certification attempts (5 in my case until the reports showed what was happening) then currently there is only one solution, REBUILD YOUR PROJECT, I tried one solution [proposed by Laurent Bugnion](http://geekswithblogs.net/lbugnion/archive/2012/09/10/adventures-in-windows-8-solving-activation-errors) to change just the project GUID but this does not solve the issue.
 
 In short create a new Solution and Project (if you want to make it easier for yourself just rename your old one and create one with the same name) and then copy your class files and XAML into your new project.
 
 In Short you are just recreating the .SLN (Solution) and .CSPROJ (Project) files and this is the easiest, pain free way of doing this and still retaining your project make-up.
 
-**DONT FORGET TO EDIT YOUR “Package.appxmanifest” and add capabilities and icons, orientation and other settings you provided, DO NOT copy the file over.**
+**do not FORGET TO EDIT YOUR “Package.appxmanifest” and add capabilities and icons, orientation and other settings you provided, DO NOT copy the file over.**
 
 You will still need to “associate” you solution to your project in the store (be sure to check the “Include apps with existing packages” option when browsing), then run a full WACK test after creating your package and submit again.
 

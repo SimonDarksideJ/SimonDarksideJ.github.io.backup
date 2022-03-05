@@ -32,39 +32,39 @@ First off XNA-UK is closing down just because of the times and how the community
 
 ([Read this previous post to get the scoop](http://bit.ly/LMAXuy), I’m also planning on an update to that due to recent announcements I have been involved with).
 
-XNA-UK fulfilled it is goal and direction to aid and help new users and old alike in the realm of XNA and general game development, but as time past it because to focused on that goal and in all fairness lost touch.&nbsp; As bloggers on the site we did vary the content to meet the needs of our followers but the site itself remained static.&nbsp; Alas the “Call to Arms” in the last month was not enough to save it.
+XNA-UK fulfilled it is goal and direction to aid and help new users and old alike in the realm of XNA and general game development, but as time past it because to focused on that goal and in all fairness lost touch.  As bloggers on the site we did vary the content to meet the needs of our followers but the site itself remained static.  Alas the “Call to Arms” in the last month was not enough to save it.
 
 * * *
 
 # New Mission Statement
 
-My mission as always as a indie community developer has been to grab new and exciting technologies, rip them apart, put them back together and then lay it all out for readers to digest and learn from my experiences, a teacher if you will but I do it for fun and because that is who I am.&nbsp;
+My mission as always as a indie community developer has been to grab new and exciting technologies, rip them apart, put them back together and then lay it all out for readers to digest and learn from my experiences, a teacher if you will but I do it for fun and because that is who I am. 
 
 Where I can i also develop existing technologies and evolve them with patterns and practices that make sense and are generally a good idea. (I also love to shout about stuff other people do that I feel are downright amazing, more on that later)
 
-So in coming back to my roots here I have taken what feedback there was in the last days of XNA-UK from the Voting [Poll we setup](http://bit.ly/Om9Urz) and run with that for future content.&nbsp; The poll will continue and Both Charles ([RandomChaos](http://bit.ly/NhHN95)) Humphrey’s (who also just got re-elected to that MS Elite status of MVP for XNA) and I will use that for driving forward.
+So in coming back to my roots here I have taken what feedback there was in the last days of XNA-UK from the Voting [Poll we setup](http://bit.ly/Om9Urz) and run with that for future content.  The poll will continue and Both Charles ([RandomChaos](http://bit.ly/NhHN95)) Humphrey’s (who also just got re-elected to that MS Elite status of MVP for XNA) and I will use that for driving forward.
 
 ### [Vote for more content](http://bit.ly/Om9Urz) ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile18.png)
 
-in the running are the following categories and I have setup my new blog already to deal with these as time permits.&nbsp; They are all areas I am keenly invested in and where I lack, Charles is picking up on his new blog.
+in the running are the following categories and I have setup my new blog already to deal with these as time permits.  They are all areas I am keenly invested in and where I lack, Charles is picking up on his new blog.
 
 In no particular order:
 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)&nbsp;&nbsp;&nbsp; Even More XNA!
+> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    Even More XNA!
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)&nbsp;&nbsp;&nbsp; Unity3D
+> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    Unity3D
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)&nbsp;&nbsp;&nbsp; Mono Develop / Mono Game
+> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    Mono Develop / Mono Game
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)&nbsp;&nbsp;&nbsp; SunBurn
+> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    SunBurn
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)&nbsp;&nbsp;&nbsp; SharpDX / ANX (and other XNA derivatives)
+> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    SharpDX / ANX (and other XNA derivatives)
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)&nbsp;&nbsp;&nbsp; Metro Development (both Windows Phone and Windows 8)
+> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    Metro Development (both Windows Phone and Windows 8)
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)&nbsp;&nbsp;&nbsp; Frameworks and Best Practice (MVVM, IOC, DI, etc)
+> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    Frameworks and Best Practice (MVVM, IOC, DI, etc)
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)&nbsp;&nbsp;&nbsp; C++/DirectX/OpenGL – Charles is currently picking up these!
+> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    C++/DirectX/OpenGL – Charles is currently picking up these!
 
 At the moment my pipeline is quite full with my own projects (got to make a living somehow outside work and if possible without work! ![Smile with tongue out](/Images/wordpress/2012/07/wlEmoticon-smilewithtongueout4.png)) and so my posts are usually related to issues or interesting frameworks that I’m implementing.
 
@@ -82,29 +82,29 @@ I have tried to make the site as Metro / new styled as I can but there is still 
 
 Sadly not all could be saved for the Internets but if there is a need I can see what I can do to bring it back (in some form), of the headlines the following features of XNA-UK will be no more:
 
-&nbsp;
+ 
 
-> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)&nbsp;&nbsp;&nbsp; The XAP test service for Windows Phone
+> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)    The XAP test service for Windows Phone
 > 
-> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)&nbsp;&nbsp;&nbsp; The Rare samples (XNA projects done by the Rare team)
+> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)    The Rare samples (XNA projects done by the Rare team)
 > 
-> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)&nbsp;&nbsp;&nbsp; XNA-UK meet-ups and groups (although discussing plans, see the vote)
+> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)    XNA-UK meet-ups and groups (although discussing plans, see the vote)
 > 
-> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)&nbsp;&nbsp;&nbsp; The Developers and published projects contact lists
+> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)    The Developers and published projects contact lists
 > 
-> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)&nbsp;&nbsp;&nbsp; Demo services like the Leaderboard samples
+> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)    Demo services like the Leaderboard samples
 > 
-> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)&nbsp;&nbsp;&nbsp; The meet and greet forums (as with most others)
+> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)    The meet and greet forums (as with most others)
 > 
-> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)&nbsp;&nbsp;&nbsp; A host of other samples and downloads (some will be saved)
+> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)    A host of other samples and downloads (some will be saved)
 
 There is too much more to go into detail here, were doing what we can and we still have backups of the site so it is not gone forever but just out of reach.
 
-The **XAP test service** was one of the things we were most proud of but not too many people took advantage of, those that did got critical feedback on their projects during the early phases and most have gone on to have many downloads and been been featured proximately in the marketplace.&nbsp;
+The **XAP test service** was one of the things we were most proud of but not too many people took advantage of, those that did got critical feedback on their projects during the early phases and most have gone on to have many downloads and been been featured proximately in the marketplace. 
 
-From feedback I’ve had the main reasons it did not take off were due to people seeing the word “Service” and thinking it would be paid for which it was not, all help was completely FREE of charge.&nbsp; The other was because of the XNA-UK hosting of the service and most thought it was only for XNA projects, again wrong as we were offering a XAP test service not an XNA test service.
+From feedback I’ve had the main reasons it did not take off were due to people seeing the word “Service” and thinking it would be paid for which it was not, all help was completely FREE of charge.  The other was because of the XNA-UK hosting of the service and most thought it was only for XNA projects, again wrong as we were offering a XAP test service not an XNA test service.
 
-In any case if [people want it](http://bit.ly/Om9Urz), it may come back as a completely separate entity, but with the marketplace test kit and the beta service this maybe redundant.&nbsp; Personally I do not think so because the UX and design guidance along with the many years of mobile and development experience we had from all the testers was invaluable.&nbsp; We will see.
+In any case if [people want it](http://bit.ly/Om9Urz), it may come back as a completely separate entity, but with the marketplace test kit and the beta service this maybe redundant.  Personally I do not think so because the UX and design guidance along with the many years of mobile and development experience we had from all the testers was invaluable.  We will see.
 
 * * *
 
@@ -112,19 +112,19 @@ In any case if [people want it](http://bit.ly/Om9Urz), it may come back as a com
 
 In my immediate view (ignoring projects) here is what you can expect in the next few weeks.
 
-#### ![](http://www.dotnetscraps.com/samples/bullets/027.gif)&nbsp;&nbsp;&nbsp; News on an interesting XNA/Unity collaboration library
+#### ![](http://www.dotnetscraps.com/samples/bullets/027.gif)    News on an interesting XNA/Unity collaboration library
 
-#### ![](http://www.dotnetscraps.com/samples/bullets/027.gif)&nbsp;&nbsp;&nbsp; Highlights of the [XPGLive](http://xpglive.com/) service for XNA and WP
+#### ![](http://www.dotnetscraps.com/samples/bullets/027.gif)    Highlights of the [XPGLive](http://xpglive.com/) service for XNA and WP
 
-#### ![](http://www.dotnetscraps.com/samples/bullets/027.gif)&nbsp;&nbsp;&nbsp; A Mono / Unity3D and XNA face off in real terms
+#### ![](http://www.dotnetscraps.com/samples/bullets/027.gif)    A Mono / Unity3D and XNA face off in real terms
 
-#### ![](http://www.dotnetscraps.com/samples/bullets/027.gif)&nbsp;&nbsp;&nbsp; A Continuation post to the XNA Futures article with updates
+#### ![](http://www.dotnetscraps.com/samples/bullets/027.gif)    A Continuation post to the XNA Futures article with updates
 
-&nbsp;
+ 
 
 Hopefully even more than that, time and tide will tell (been saying that a lot of late) but do not forget you can [influence this direction by voting](http://bit.ly/Om9Urz)!
 
-&nbsp;
+ 
 
 * * *
 

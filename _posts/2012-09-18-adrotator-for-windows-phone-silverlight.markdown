@@ -11,12 +11,12 @@ tags:
 - windows-phone
 ---
 
-[![Icon_1_purple](/Images/wordpress/2012/09/Icon_1_purple_thumb.png "Icon\_1\_purple")](/Images/wordpress/2012/09/Icon_1_purple.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![ /></p>
+[![Icon_1_purple](/Images/wordpress/2012/09/Icon_1_purple_thumb.png "Icon\_1\_purple")](/Images/wordpress/2012/09/Icon_1_purple.png)          ![ /></p>
 <h1>AdRotator for Windows Phone Silverlight V1.2 release</h1>
 <p>With the release of what is likely the last version in the V1 branch of AdRotator for Windows Phone Silverlight I have gone some lengths to make sure the documentation and samples are also feature complete.</p>
 <p>For the XNA version read this article and then <a href=](http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Microsoft_Silverlight_logo.png/150px-Microsoft_Silverlight_logo.png)continue on to here
 
-If you have not seen AdRotator before, it is a control library that supports multiple Ad Providers (MS PubCenter, [AdDuplex](https://www.adduplex.com/), Smaato to name but a few) with the ability to change the configuration of your Ad configuration remotely without having to rebuild your app.&nbsp; To date there are over 300 apps and games using AdRotator and it is reach is extending further each day.&nbsp; To learn more about what is AdRotator then check out the codeplex project page here.
+If you have not seen AdRotator before, it is a control library that supports multiple Ad Providers (MS PubCenter, [AdDuplex](https://www.adduplex.com/), Smaato to name but a few) with the ability to change the configuration of your Ad configuration remotely without having to rebuild your app.  To date there are over 300 apps and games using AdRotator and it is reach is extending further each day.  To learn more about what is AdRotator then check out the codeplex project page here.
 
 So this is the final “How-To” guide updated and refreshed for the 1.2 release end – to end
 
@@ -28,9 +28,9 @@ First off, if you have not already get yourself some AdUnits from your favourite
 
 Next up download the latest release of [AdRotator](http://wp7adrotator.codeplex.com/) – [Link](http://bit.ly/S5uI7p)
 
-Now for the important bit!, just add the control to your Silverlight project on the pages you want to use it and configure it is settings.&nbsp; For best practice we recommend you do this in a separate User Control and reuse that where you want Ads, saves the hassle of maintaining it in multiple places, but this is completely up to you.
+Now for the important bit!, just add the control to your Silverlight project on the pages you want to use it and configure it is settings.  For best practice we recommend you do this in a separate User Control and reuse that where you want Ads, saves the hassle of maintaining it in multiple places, but this is completely up to you.
 
-First copy the AdRotator DLL and the supported Ad Providers DLL’s to a folder in your project (at this time you have to add references to all the Ad Providers even if you only intend to use a few (we hope to remove this limitation in V2), but in any case it does not harm your solution or its size doing so, plus if you wish to later configure another provider you still do not have to change your deployed product.&nbsp; Then add the references in your project as follows:
+First copy the AdRotator DLL and the supported Ad Providers DLL’s to a folder in your project (at this time you have to add references to all the Ad Providers even if you only intend to use a few (we hope to remove this limitation in V2), but in any case it does not harm your solution or its size doing so, plus if you wish to later configure another provider you still do not have to change your deployed product.  Then add the references in your project as follows:
 
 [![image](/Images/wordpress/2012/09/image_thumb5.png "image")](/Images/wordpress/2012/09/image5.png)
 
@@ -49,11 +49,11 @@ Find the “AdRotatorControl” in the assets panel and drag it to your page or 
 
 Configure the properties of the AdRotator control setting options like:
 
-\*&nbsp; “DefaultSettingsFileUri”
+\*  “DefaultSettingsFileUri”
 
 Shipped configuration file for out of the box scenarios (recommended)
 
-\*&nbsp; “SettingsUrl”
+\*  “SettingsUrl”
 
 Remote URL where external XML configuration file can be sourced from.
 
@@ -93,11 +93,11 @@ Or you can simply paste in the XAML and configure it that way ![Open-mouthed smi
             
             
             
-            Creating your own Ad is extremely simple, just create a new User Control, in the examples it is called “MyDefaultAd”.&nbsp; If you want to keep it in a separate folder like we have in the examples then **I suggest you create it in the root of your project and then move it there** , this saves any namespace confusions later on.
+            Creating your own Ad is extremely simple, just create a new User Control, in the examples it is called “MyDefaultAd”.  If you want to keep it in a separate folder like we have in the examples then **I suggest you create it in the root of your project and then move it there** , this saves any namespace confusions later on.
             
             
             
-            Just make sure it is dimensions are set to default (auto) and put whatever you want in there, just keep in mind the size of your ads on your page and you will be fine.&nbsp; Ours is a very basic control as shown below:
+            Just make sure it is dimensions are set to default (auto) and put whatever you want in there, just keep in mind the size of your ads on your page and you will be fine.  Ours is a very basic control as shown below:
             
             
             

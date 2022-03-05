@@ -14,7 +14,7 @@ tags:
 - xna-related
 ---
 
-For some time now I have been asked if I would do a session on the “Darkside of MonoGame” about using XML with MonoGame and the Content Pipeline, for a while I put it off as I had my own schedule and agenda with the channel.&nbsp; Eventually I got worn down and I have succumbed to the demands of my viewers (it can happen ![Open-mouthed smile](/Images/wordpress/2017/05/wlEmoticon-openmouthedsmile.png))
+For some time now I have been asked if I would do a session on the “Darkside of MonoGame” about using XML with MonoGame and the Content Pipeline, for a while I put it off as I had my own schedule and agenda with the channel.  Eventually I got worn down and I have succumbed to the demands of my viewers (it can happen ![Open-mouthed smile](/Images/wordpress/2017/05/wlEmoticon-openmouthedsmile.png))
 
 The video for this post can be found here if you prefer video:
 
@@ -31,11 +31,11 @@ For as long as there have been games, there has been a need to generate game con
 - Scripted events
 - Just because some article said it was a good idea on CodeProject
 
-It can be very powerful to use, if wielded correctly and it gives power to your content / mod creators of your game.&nbsp; Any situation that requires lots of configuration or walls of text just works better if it is separated from your code base and manageable outside of the core code.
+It can be very powerful to use, if wielded correctly and it gives power to your content / mod creators of your game.  Any situation that requires lots of configuration or walls of text just works better if it is separated from your code base and manageable outside of the core code.
 
 # Why use the MonoGame Content Pipeline?
 
-Loading text (which is all xml is at the end of the day) can be slow, very slow if it is pages long, so you do not really want to be doing that at run-time inside your game.&nbsp; Sure, you can but should you?&nbsp; You can hide this behind clever loading screens or whilst the main menu is up, but at the end of the day your game needs to:
+Loading text (which is all xml is at the end of the day) can be slow, very slow if it is pages long, so you do not really want to be doing that at run-time inside your game.  Sure, you can but should you?  You can hide this behind clever loading screens or whilst the main menu is up, but at the end of the day your game needs to:
 
 1. Load in the file direct from disk as a stream
 2. Close the stream
@@ -44,13 +44,13 @@ Loading text (which is all xml is at the end of the day) can be slow, very slow 
 5. Destroy the serializer (esp if you like your memory back)
 6. Rinse / repeat for every file
 
-Do not get me wrong, there is nothing wrong with this path specifically but it is wasteful and if anything goes wrong or you mistyped something in the XML, it will only fall down flat on its face when you run/load that file.&nbsp; You can just create a separate tool to validate the XML for you but that is even more work to do.
+Do not get me wrong, there is nothing wrong with this path specifically but it is wasteful and if anything goes wrong or you mistyped something in the XML, it will only fall down flat on its face when you run/load that file.  You can just create a separate tool to validate the XML for you but that is even more work to do.
 
 With the content pipeline in MonoGame however, the majority of this work is done offline when you are building your project, in fact the XML validation happens inside the pipeline itself so you do not even need the game in order to test and build the XML, it can all be done separately and you know it will all “just work”™.
 
 Another benefit is both size and compression. When using the Content Pipeline, all the assets are specifically serialized and compressed for each platform to cater with all their specific differences. How you binary serialize and deserialize on one platform is different to some others (just ask console developers!).
 
-Lastly is ease of use and support. With MonoGame, we inherited the IntermediateSerializer which the XNA god Shawn Hargreaves created for XNA.&nbsp; This little helper which he crafted between builds, greatly helps with serialization and can even support lists and dictionaries out of the box (as well as some xml performance improvements). That combined with turning every XML asset in to “just another asset” which is loaded from the Content Pipeline just like anything else, loading it becomes as simple as _Content.Load\<MyXML\>_, easy.
+Lastly is ease of use and support. With MonoGame, we inherited the IntermediateSerializer which the XNA god Shawn Hargreaves created for XNA.  This little helper which he crafted between builds, greatly helps with serialization and can even support lists and dictionaries out of the box (as well as some xml performance improvements). That combined with turning every XML asset in to “just another asset” which is loaded from the Content Pipeline just like anything else, loading it becomes as simple as _Content.Load\<MyXML\>_, easy.
 
 # Setting up your data
 
@@ -58,7 +58,7 @@ Right, when getting started with XML, you need to understand there are three mai
 
 [![image](/Images/wordpress/2017/05/image_thumb-5.png "image")](/Images/wordpress/2017/05/image-5.png)
 
-This is a simple architectural principle to deal with when handling any content that is provided externally to your project (or internally in some cases) whereby you have a rigid schema, which will be populated by an unlisted source (conforming to the schema) and then consumed by game functions and logic.&nbsp; The last two can be merged but can likely create troubles later if you start manipulating the wrong data, so my advice is to simply keep them separate, for example:
+This is a simple architectural principle to deal with when handling any content that is provided externally to your project (or internally in some cases) whereby you have a rigid schema, which will be populated by an unlisted source (conforming to the schema) and then consumed by game functions and logic.  The last two can be merged but can likely create troubles later if you start manipulating the wrong data, so my advice is to simply keep them separate, for example:
 
 My Data schema has the following properties:
 
@@ -80,7 +80,7 @@ Another view is if you use the Data Schema to run your game, or if you simply re
 
     public class GameLevel { //The current loaded level data MyLevel currentLevel; //Current Enemies private int enemyCount; //Time progressed in this level private float levelElapsedTime; //Functions public void KillEnemy() { //Do Kill } }
 
-One simply extends the data class with additional functions (mixing data with function), the other takes the data in to itself and then works with it.&nbsp; My recommendation is to use the second as it keeps a clear line between what is your loaded data and what you do with that data in your game but ultimately, it is up to you.
+One simply extends the data class with additional functions (mixing data with function), the other takes the data in to itself and then works with it.  My recommendation is to use the second as it keeps a clear line between what is your loaded data and what you do with that data in your game but ultimately, it is up to you.
 
 > I always recommend to keep data loaded via XML clean and do not modify it unless you really have to. Changing the data WON’T change the underlying XML and will need reloading to reset.
 > 
@@ -105,11 +105,11 @@ Both have their advantages/disadvantages with regards to setup and maintenance. 
 
 So, let’s walk through setting everything up and for simplicity, I will follow the portable library path.
 
-## &nbsp;
+##  
 
 ## 1: Creating the library to hold the data schema
 
-As stated, I always use a separate library to maintain the schema definitions for by data.&nbsp; I also usually create extension methods or worker classes in my game to consume that data.&nbsp; To get started (assuming you have created a MonoGame game project already), I create a new library project in the solution, to ensure maximum compatibility I also create it as a Portable Class Library, meaning I can use the same project for all platforms supported by MonoGame.
+As stated, I always use a separate library to maintain the schema definitions for by data.  I also usually create extension methods or worker classes in my game to consume that data.  To get started (assuming you have created a MonoGame game project already), I create a new library project in the solution, to ensure maximum compatibility I also create it as a Portable Class Library, meaning I can use the same project for all platforms supported by MonoGame.
 
 [![image](/Images/wordpress/2017/05/image_thumb-6.png "image")](/Images/wordpress/2017/05/image-6.png)
 
@@ -117,7 +117,7 @@ _New project wizard, selecting a C# Portable Class Library_
 
 > You can still create a standard library project (meaning you would need one for each platform), link your class definition files from a folder or even host it in your game. It is up to you but I highly recommend using this path.
 
-Once you click OK, you will be prompted with the platform targets selection and for simplicity’s sake, you can just select everything ensuring maximum compatibility.&nbsp; Also, be sure to check the .NET framework is a minimum of 4.5 as that is what MonoGame is currently based on.
+Once you click OK, you will be prompted with the platform targets selection and for simplicity’s sake, you can just select everything ensuring maximum compatibility.  Also, be sure to check the .NET framework is a minimum of 4.5 as that is what MonoGame is currently based on.
 
 [![image](/Images/wordpress/2017/05/image_thumb-7.png "image")](/Images/wordpress/2017/05/image-7.png)
 
@@ -129,7 +129,7 @@ Your project should now look as follows with your game and library projects.
 
 _Updated game solution._
 
-&nbsp;
+ 
 
 From here the instructions for your path converge as we create a data class and then consume it from the Content Pipeline.
 
@@ -163,7 +163,7 @@ Fire up notepad / VSCode / Your favourite XML editor and start writing your XML
 2. 
 #### Have the Content Pipeline tool draft a blank XML template for you
 
-Use the Content Tool to draft you a template XML files with all the necessary MonoGame/XNA headers needed for proper content import.&nbsp; (Right-Click –\> Add –\> New Item –\> XML Content)
+Use the Content Tool to draft you a template XML files with all the necessary MonoGame/XNA headers needed for proper content import.  (Right-Click –\> Add –\> New Item –\> XML Content)
 
 3. 
 #### Generate through code
@@ -191,9 +191,9 @@ Using the same example we used earlier, the resultant XML would look as follows:
       </asset>
     </xnacontent>
 
-Here you can now see I have created a new Asset of Type “MyXMLData.MyLevel”, using the same Namespace and class name of my data class.&nbsp; Then we have individual nodes for each property in our class, simples.
+Here you can now see I have created a new Asset of Type “MyXMLData.MyLevel”, using the same Namespace and class name of my data class.  Then we have individual nodes for each property in our class, simples.
 
-> I will note, that if there is ever an issue with your XML or a problem with it loading, I can guarantee it is YOU’RE FAULT.&nbsp; Either by not using the correct Namespace/class name, or making a spelling or other error with the data (like putting text in a number field)
+> I will note, that if there is ever an issue with your XML or a problem with it loading, I can guarantee it is YOU’RE FAULT.  Either by not using the correct Namespace/class name, or making a spelling or other error with the data (like putting text in a number field)
 > 
 > however, this is where the Content Pipeline really helps, as you find out very early on before your game even sees the content. The pipeline will tell you the XML is bad upfront.
 
@@ -214,9 +214,9 @@ Once the Reference wizard is open, it is simply a case of clicking add and point
 - If you used a separate library, simply build it and the DLL will be located in the bin\debug or release folder of the library
 - If you kept it in the main game, it will be in the bin\debug or release folder of your game
 
-> When it comes to using the Release or Debug version of your library of your project is a source of some debate and ultimately is up to you.&nbsp; Personally, I use the release build of my library as it ensures I am always building the XML against what I will eventually ship against, if I make dev changes, it will prompt me to ensure I consider all the impacts.&nbsp; If you use debug, then you will have to make sure you fix it later.&nbsp; Either way works and it is simply up to you.
+> When it comes to using the Release or Debug version of your library of your project is a source of some debate and ultimately is up to you.  Personally, I use the release build of my library as it ensures I am always building the XML against what I will eventually ship against, if I make dev changes, it will prompt me to ensure I consider all the impacts.  If you use debug, then you will have to make sure you fix it later.  Either way works and it is simply up to you.
 
-Now when you build your Content Project (providing everything is aligned) you should see a nice green tick meaning everything is good!&nbsp; If you then want to pass the content project and data library to other people, they can then get on building content and use the Content Pipeline tool to validate everything is on the up and up.
+Now when you build your Content Project (providing everything is aligned) you should see a nice green tick meaning everything is good!  If you then want to pass the content project and data library to other people, they can then get on building content and use the Content Pipeline tool to validate everything is on the up and up.
 
 [![image](/Images/wordpress/2017/05/image_thumb-10.png "image")](/Images/wordpress/2017/05/image-10.png)
 
@@ -228,7 +228,7 @@ Once loaded it can be accessed anywhere in your game by simply calling:
 
 # The Sample
 
-As even with each of these videos / posts, there is a sample drawn out of the XNA library to help support it. This time it is the XML Particles sample which makes a nice show of using XML content to construct particle effects.&nbsp; Check it out here:
+As even with each of these videos / posts, there is a sample drawn out of the XNA library to help support it. This time it is the XML Particles sample which makes a nice show of using XML content to construct particle effects.  Check it out here:
 
 > ## [XML Content Loading Sample](https://github.com/DDReaper/XMLContentLoading/tree/661e0d54c438d4650fcb3657af49737e026d087d "https://github.com/DDReaper/XMLContentLoading/tree/661e0d54c438d4650fcb3657af49737e026d087d")
 
@@ -240,7 +240,7 @@ it would not be a proper post if I did not also include some extra tips’ notri
 
 ## <u>Building XML from code</u>
 
-one neat trick as outlined by [Shawn Hargreaves here](https://github.com/DDReaper/XNAGameStudio/wiki/Teaching-a-man-to-fish), is to use the Content Pipeline in your project whilst crafting your XML.&nbsp; Here you simply instantiate your data class in code and then use the Content Pipeline’s IntermediateSerializer to serialize your code and generate the XML, for example:
+one neat trick as outlined by [Shawn Hargreaves here](https://github.com/DDReaper/XNAGameStudio/wiki/Teaching-a-man-to-fish), is to use the Content Pipeline in your project whilst crafting your XML.  Here you simply instantiate your data class in code and then use the Content Pipeline’s IntermediateSerializer to serialize your code and generate the XML, for example:
 
     MyXMLData.MyLevel testData = new MyXMLData.MyLevel(); testData.LevelName = "MyLevel"; testData.MaxEnemies = 99999; XmlWriterSettings settings = new XmlWriterSettings(); settings.Indent = true; using (XmlWriter writer = XmlWriter.Create("test.xml", settings)) { Microsoft.Xna.Framework.Content.Pipeline.Serialization.Intermediate.IntermediateSerializer.Serialize(writer, testData, null); }
 
@@ -264,7 +264,7 @@ _MonoGame.Framework.Portable on NuGet_
 
 ## <u>Content Pipeline tool not opening when you double click on the Content Reference?</u>
 
-Do you only see the text contents when you double-click on your content project in Visual Studio, then fear not as there is a simple fix for that.&nbsp; All that happened is the launch action for the Pipeline tool did not get associated for some reason for .mgcb files (which usually happens when the wind is blowing east on a Tuesday and the milkman is at your door, normally).
+Do you only see the text contents when you double-click on your content project in Visual Studio, then fear not as there is a simple fix for that.  All that happened is the launch action for the Pipeline tool did not get associated for some reason for .mgcb files (which usually happens when the wind is blowing east on a Tuesday and the milkman is at your door, normally).
 
 To fix this simple right-click the .MGCB Content file and select “Open With”
 
@@ -280,11 +280,11 @@ Now the handy tool will open with for your content project forevermore.
 
 # Ship it!
 
-Right, that is all from me for this session.&nbsp; I have still got to go back and finish the Getting Started with 2D blog post to accompany that article as well as get some more work done to the MonoGame NuGet’s.
+Right, that is all from me for this session.  I have still got to go back and finish the Getting Started with 2D blog post to accompany that article as well as get some more work done to the MonoGame NuGet’s.
 
 So, what are you still here reading this for, go get some XML in your game!
 
-&nbsp;
+ 
 
 As usual, questions or queries in the comments below and I will get right on that.
 

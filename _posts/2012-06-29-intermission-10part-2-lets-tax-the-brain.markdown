@@ -12,13 +12,13 @@ tags:
 
 Apologies, had to split the post do to some technical issues on teh XNA-UK site, were working hard to resolve that but fo rnow, here is the continuation of the Intermission 10 post.
 
-[Find part 1 here](/blogs/darkgenesis/archive/2010/07/30/intermission-10-lets-tax-the-brain.aspx)
+[Find part 1 here](/blogs/darkgenesis/archive/2010/07/30/intermission-10-lets-tax-the-brain)
 
-&nbsp;
+ 
 
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
-&nbsp;
+ 
 
 * * *
 
@@ -30,7 +30,7 @@ In the particle manager we need to update and add a few things:
 
 - Replace all references to “ParticleEmitter” with “ParticleEffect” so we are using the new effect we have (mainly in all the pool declarations so that it is using the new effect generator)
 - Replace statements that refer to “Active” with “isActive” (this is because I wanted to change Robin’s code as little as possble, you could just rename the isActive in the particle classed to Active if you wished), this is mainly in the update and Draw functions
-- Add a new variable at the start of the class just after the textures dictionary for “SpriteBatch m\_batch;”.&nbsp; this just a quick way of getting access to the main game spritebatch without having to create another and pass this on to the Effect generator to draw the particles (since previously it was the manager that drew the particles)
+- Add a new variable at the start of the class just after the textures dictionary for “SpriteBatch m\_batch;”.  this just a quick way of getting access to the main game spritebatch without having to create another and pass this on to the Effect generator to draw the particles (since previously it was the manager that drew the particles)
 - Alter the constructor for the Particle manager class like so (which accepts the sprite batch from the game class and stored it for use later): 
 
     
@@ -62,11 +62,11 @@ In the particle manager we need to update and add a few things:
          7: 
     
 
-- Change the line in the update function from “penode.Item.Update(dt);” to “penode.Item.Update(gameTime);”.&nbsp;&nbsp; Again this was to accommodate Robin’s code.
+- Change the line in the update function from “penode.Item.Update(dt);” to “penode.Item.Update(gameTime);”.   Again this was to accommodate Robin’s code.
 - Remove the Lines with “StarTrooperGame.spriteBatch.Begin” and “StarTrooperGame.spriteBatch.End” as we are now using the stored SpriteBatch reference
 - lastly we remove the draw logic inside the ForEach loop for the emitters completely and replace it with (basically removing the “foreach (Particle p in pe.particles)” section): 
 
-&nbsp;
+ 
 
     
     
@@ -90,15 +90,15 @@ In the particle manager we need to update and add a few things:
     
     
     
-    &nbsp;
+     
     
     
     
-    Almost done, that fixes up the particle manager but we still need to launch an effect.&nbsp; So if you now open up the Game class and replace it with the following (Do not forget to rename&nbsp; the namespace back to your your original projects namespace):
+    Almost done, that fixes up the particle manager but we still need to launch an effect.  So if you now open up the Game class and replace it with the following (Do not forget to rename  the namespace back to your your original projects namespace):
     
     
     
-    &nbsp;
+     
     
     
     
@@ -660,11 +660,11 @@ In the particle manager we need to update and add a few things:
         
         
         
-        &nbsp;
+         
         
         
         
-        Again simple enough stuff, most of it from the Touch implementation post and you can see the particle manager component added (although because of the spritebatch requirement, I had to move it to the initialise function after the SpriteBatch was initialised).&nbsp; if a touch is recognised on the screen, it launches the “Initialise effect” function.
+        Again simple enough stuff, most of it from the Touch implementation post and you can see the particle manager component added (although because of the spritebatch requirement, I had to move it to the initialise function after the SpriteBatch was initialised).  if a touch is recognised on the screen, it launches the “Initialise effect” function.
         
         
         
@@ -678,21 +678,21 @@ In the particle manager we need to update and add a few things:
 - In this case sets the velocity and acceleration of the effect (I just like to see it move, OK!!!)
 - And finally adds the effect to the particle manager 
 
-For the final task, you should notice you are still missing two key components.&nbsp; if you compile the project, it will compile, no errors right?, wrong.&nbsp;&nbsp; Run the project and it will fall flat on it is face.&nbsp; you still need the content you have specified in this project, namely the Spritefont and Explosion image.&nbsp; Just grab these from the Windows Phone 7 or GS 3.1 tutorial projects and paste them in to the POC content project.
+For the final task, you should notice you are still missing two key components.  if you compile the project, it will compile, no errors right?, wrong.   Run the project and it will fall flat on it is face.  you still need the content you have specified in this project, namely the Spritefont and Explosion image.  Just grab these from the Windows Phone 7 or GS 3.1 tutorial projects and paste them in to the POC content project.
 
 Compile again and click on the screen (Touch if you actually have either a phone or a touchscreen laptop you jammy dodgers) and you should see the effect show earlier.
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 ### But wait there’s more!!!!
 
-Now when I ran this I wanted to know just how much of an impact doing procedural effects would be to the phone, best way to show this would be to show the frame rate.&nbsp; Now in Silverlight, they have a little programming hook to do this.&nbsp; Does this work for XNA, of course NOT….
+Now when I ran this I wanted to know just how much of an impact doing procedural effects would be to the phone, best way to show this would be to show the frame rate.  Now in Silverlight, they have a little programming hook to do this.  Does this work for XNA, of course NOT….
 
-So I wrote a handy FPS component that shows you the Updates per second (UPS) and the Draw calls per second (FPS).&nbsp; Here’s the code for it (not much there really, just another drawable component:
+So I wrote a handy FPS component that shows you the Updates per second (UPS) and the Draw calls per second (FPS).  Here’s the code for it (not much there really, just another drawable component:
 
     
     
@@ -1100,7 +1100,7 @@ So I wrote a handy FPS component that shows you the Updates per second (UPS) and
     
     
     
-    &nbsp;
+     
     
     
     
@@ -1114,21 +1114,21 @@ So I wrote a handy FPS component that shows you the Updates per second (UPS) and
         
         
         
-        &nbsp;
+         
         
         
         
-        &nbsp;
+         
         
         
         * * *
         
         
-        &nbsp;
+         
         
         
         
-        &nbsp;
+         
         
         
         ### Conclusion

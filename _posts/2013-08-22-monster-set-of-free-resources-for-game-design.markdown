@@ -30,7 +30,7 @@ So without much todo and very little formatting here is the first drop (so many 
 # Books, Books and more books
 
 - [http://itdiscover.com/links/free-c-c-sharp-c-plus-plus-books-online-programming](http://itdiscover.com/links/free-c-c-sharp-c-plus-plus-books-online-programming) – Massive set of free language books
-- [http://blogs.msdn.com/b/mssmallbiz/archive/2012/07/27/large-collection-of-free-microsoft-ebooks-for-you-including-sharepoint-visual-studio-windows-phone-windows-8-office-365-office-2010-sql-server-2012-azure-and-more.aspx](http://blogs.msdn.com/b/mssmallbiz/archive/2012/07/27/large-collection-of-free-microsoft-ebooks-for-you-including-sharepoint-visual-studio-windows-phone-windows-8-office-365-office-2010-sql-server-2012-azure-and-more.aspx) – get your Microsoft book here !!
+- [http://blogs.msdn.com/b/mssmallbiz/archive/2012/07/27/large-collection-of-free-microsoft-ebooks-for-you-including-sharepoint-visual-studio-windows-phone-windows-8-office-365-office-2010-sql-server-2012-azure-and-more](http://blogs.msdn.com/b/mssmallbiz/archive/2012/07/27/large-collection-of-free-microsoft-ebooks-for-you-including-sharepoint-visual-studio-windows-phone-windows-8-office-365-office-2010-sql-server-2012-azure-and-more) – get your Microsoft book here !!
 - [http://www.arcsynthesis.org/gltut/index.html](http://www.arcsynthesis.org/gltut/index.html) – nice 3D tutorial
 - [http://www.red-gate.com/products/dotnet-development/ants-performance-profiler/entrypage/avoid-find-fix-asp-problems](http://www.red-gate.com/products/dotnet-development/ants-performance-profiler/entrypage/avoid-find-fix-asp-problems) – 50 ways to improve ASP.NET performance ebook
 - \*\*[http://gameprogrammingpatterns.com](http://gameprogrammingpatterns.com) – Game Programming Patterns
@@ -49,7 +49,7 @@ So without much todo and very little formatting here is the first drop (so many 
 
 # Collections
 
-- [http://www.hanselman.com/blog/ScottHanselmans2011UltimateDeveloperAndPowerUsersToolListForWindows.aspx](http://www.hanselman.com/blog/ScottHanselmans2011UltimateDeveloperAndPowerUsersToolListForWindows.aspx) – Scott Hanselman’s monster list, well worth a look.
+- [http://www.hanselman.com/blog/ScottHanselmans2011UltimateDeveloperAndPowerUsersToolListForWindows](http://www.hanselman.com/blog/ScottHanselmans2011UltimateDeveloperAndPowerUsersToolListForWindows) – Scott Hanselman’s monster list, well worth a look.
 - [http://nokiawpdev.wordpress.com/resources/](http://nokiawpdev.wordpress.com/resources/) – Nokia monster mash of links and resources, not all free but all worth a look
 - [http://open.commonly.cc/](http://open.commonly.cc/) – Shouted about this recently so worth mentioning again, monster free assets
 - [http://fatboxsoftware.com/resources/4573006782](http://fatboxsoftware.com/resources/4573006782) – large collection of art and Unity stuff
@@ -89,16 +89,16 @@ So without much todo and very little formatting here is the first drop (so many 
 
 - [http://www.reddit.com/r/gamedev/comments/1k67t0/a\_lobsters\_guide\_for\_video\_game\_projects\_on/](http://www.reddit.com/r/gamedev/comments/1k67t0/a_lobsters_guide_for_video_game_projects_on/) – A nice HowTo guide for doing a kickstarter project
 - [http://www.mugshotgames.com/2013/08/publishing-your-first-game-in-40-not-so-easy-steps/](http://www.mugshotgames.com/2013/08/publishing-your-first-game-in-40-not-so-easy-steps/) – Simple marketing tips
-- [http://blogs.windows.com/windows\_phone/b/wpdev/archive/2013/01/31/how-to-get-your-app-promoted-in-the-windows-phone-store.aspx](http://blogs.windows.com/windows_phone/b/wpdev/archive/2013/01/31/how-to-get-your-app-promoted-in-the-windows-phone-store.aspx) – Nuff said, get promoting
+- [http://blogs.windows.com/windows\_phone/b/wpdev/archive/2013/01/31/how-to-get-your-app-promoted-in-the-windows-phone-store](http://blogs.windows.com/windows_phone/b/wpdev/archive/2013/01/31/how-to-get-your-app-promoted-in-the-windows-phone-store) – Nuff said, get promoting
 - [http://blog.jerrynixon.com/2013/08/5-things-you-must-do-before-you-publish.html](http://blog.jerrynixon.com/2013/08/5-things-you-must-do-before-you-publish.html) – Jerry’s get ready to publish post
 - [http://nokiawpdev.wordpress.com/2013/06/07/make-an-awesome-video-for-your-app/](http://nokiawpdev.wordpress.com/2013/06/07/make-an-awesome-video-for-your-app/) – Great tutorial on how to make effective marketing videos for your game / project
-- \*\*[http://blogs.msdn.com/b/matdev/archive/2014/04/14/announcing-multilingual-app-toolkit-v3-0.aspx](http://blogs.msdn.com/b/matdev/archive/2014/04/14/announcing-multilingual-app-toolkit-v3-0.aspx "http://blogs.msdn.com/b/matdev/archive/2014/04/14/announcing-multilingual-app-toolkit-v3-0.aspx") – Multilingual App Toolkit’s blog
+- \*\*[http://blogs.msdn.com/b/matdev/archive/2014/04/14/announcing-multilingual-app-toolkit-v3-0](http://blogs.msdn.com/b/matdev/archive/2014/04/14/announcing-multilingual-app-toolkit-v3-0 "http://blogs.msdn.com/b/matdev/archive/2014/04/14/announcing-multilingual-app-toolkit-v3-0") – Multilingual App Toolkit’s blog
 - \*\*[http://Mangotron.com](http://Mangotron.com )– has covered over 100 games since May. Submit yours now!
 - \*\*[http://nakedgameplay.com](http://t.co/qbGc1QZzny) – Promote your Games Shamelessly, Everyday is [# **screenshotsaturday**](https://twitter.com/hashtag/screenshotsaturday?src=hash)
 
 # Other Tutorials
 
-- [http://blogs.msdn.com/b/jerrynixon/archive/2012/11/12/training-resources-for-native-c-and-c-cx-programming-graphics-and-gaming.aspx](http://blogs.msdn.com/b/jerrynixon/archive/2012/11/12/training-resources-for-native-c-and-c-cx-programming-graphics-and-gaming.aspx) – Training Resources for native C++ and C++CX programming, graphics and gaming
+- [http://blogs.msdn.com/b/jerrynixon/archive/2012/11/12/training-resources-for-native-c-and-c-cx-programming-graphics-and-gaming](http://blogs.msdn.com/b/jerrynixon/archive/2012/11/12/training-resources-for-native-c-and-c-cx-programming-graphics-and-gaming) – Training Resources for native C++ and C++CX programming, graphics and gaming
 - \*\*[http://invokeit.wordpress.com/2012/02/06/wp7-app-piracy-and-how-to-deal-with-it/](http://invokeit.wordpress.com/2012/02/06/wp7-app-piracy-and-how-to-deal-with-it/) – Anti-Piracy tips for Windows / Windows Phone
 - \*\*[http://shaunsgameacademy.co.uk/](http://shaunsgameacademy.co.uk/ "http://shaunsgameacademy.co.uk/") – Kids game academy from Aardman Studios (Yes the Wallace and Grommet people)
 
@@ -133,7 +133,7 @@ So without much todo and very little formatting here is the first drop (so many 
 
 # Get Help
 
-- [http://forum.thegamecreators.com/?m=forum\_view&b=24&t=190364&p=1](http://forum.thegamecreators.com/?m=forum_view&b=24&t=190364&p=1) – Pure gold, artists who will work for free or for a cut of your profits.&nbsp; Really nice crowd
+- [http://forum.thegamecreators.com/?m=forum\_view&b=24&t=190364&p=1](http://forum.thegamecreators.com/?m=forum_view&b=24&t=190364&p=1) – Pure gold, artists who will work for free or for a cut of your profits.  Really nice crowd
 - [http://fiverr.com/l/logo\_design\_b3](http://fiverr.com/l/logo_design_b3) – Need a logo design on the cheap, seems very reasonable
 
 # 3D Model resources
@@ -172,7 +172,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - [http://www.creativebloq.com/graphic-design/15-fantastic-sources-free-background-textures-11121331](http://www.creativebloq.com/graphic-design/15-fantastic-sources-free-background-textures-11121331) – Where to find free background textures: 15 great resources
 - [http://www.dragoart.com/](http://www.dragoart.com/) – excellent art tutorial site to get you going
 - [http://onceuponasketch.com/2012/11/free-hour-training-on-painting-in-sketchbook-pro-with-bobby-chiu/](http://onceuponasketch.com/2012/11/free-hour-training-on-painting-in-sketchbook-pro-with-bobby-chiu/) – Free hour training on Painting in Sletchbook Pro
-- &nbsp;[http://wootstudio.ca/win8platstarter](http://wootstudio.ca/win8platstarter) – FREE Platformer Game Starter Kit assets
+-  [http://wootstudio.ca/win8platstarter](http://wootstudio.ca/win8platstarter) – FREE Platformer Game Starter Kit assets
 - [http://onceuponasketch.com/2013/08/color-theory-with-marc-brunet/](http://onceuponasketch.com/2013/08/color-theory-with-marc-brunet/) – Colour theory for 2D artists
 - [http://onceuponasketch.com/2013/03/designing-characters-with-shape/](http://onceuponasketch.com/2013/03/designing-characters-with-shape/) – How to draw charaters
 - [http://www.creativebloq.com/graphic-design/how-create-vector-art-2131975](http://www.creativebloq.com/graphic-design/how-create-vector-art-2131975 "http://www.creativebloq.com/graphic-design/how-create-vector-art-2131975") – 55 amazing vector art tutorials
@@ -210,13 +210,13 @@ So without much todo and very little formatting here is the first drop (so many 
 # Shader things
 
 - [https://www.shadertoy.com/view/4ds3WS](https://www.shadertoy.com/view/4ds3WS) – a shader that creates MineCraft block type worlds
-- \*\* [http://blogs.msdn.com/b/eternalcoding/archive/2014/04/17/learning-shaders-create-your-own-shaders-with-babylon-js.aspx](http://blogs.msdn.com/b/eternalcoding/archive/2014/04/17/learning-shaders-create-your-own-shaders-with-babylon-js.aspx "http://blogs.msdn.com/b/eternalcoding/archive/2014/04/17/learning-shaders-create-your-own-shaders-with-babylon-js.aspx") – What do you mean by shaders? Learn how to create shaders
+- \*\* [http://blogs.msdn.com/b/eternalcoding/archive/2014/04/17/learning-shaders-create-your-own-shaders-with-babylon-js](http://blogs.msdn.com/b/eternalcoding/archive/2014/04/17/learning-shaders-create-your-own-shaders-with-babylon-js "http://blogs.msdn.com/b/eternalcoding/archive/2014/04/17/learning-shaders-create-your-own-shaders-with-babylon-js") – What do you mean by shaders? Learn how to create shaders
 
 # Unity Stuff
 
 ###### Moved all these links to the dedicated “[So you want to be a Unity Game Developer](http://darkgenesis.zenithmoon.com/so-you-want-to-be-a-unity3d-game-developer/ "So you want to be a Unity3D game developer?")” post
 
-&nbsp;
+ 
 
 # Game Engines and resources
 
@@ -228,7 +228,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - [https://bitbucket.org/sparklinlabs/nuclearwinter](https://bitbucket.org/sparklinlabs/nuclearwinter) – UI framework for MonoGame
 - [http://www.dzone.com/links/r/10\_free\_html5\_game\_enginesframeworks.html](http://www.dzone.com/links/r/10_free_html5_game_enginesframeworks.html) – 10 Free HTML5 game engines
 - [http://html5gameengine.com/](http://html5gameengine.com/) – hot list of HTML / JavaScript game engines
-- [http://blogs.msdn.com/b/eternalcoding/archive/2013/06/27/babylon-js-a-complete-javascript-framework-for-building-3d-games-with-html-5-and-webgl.aspx](http://blogs.msdn.com/b/eternalcoding/archive/2013/06/27/babylon-js-a-complete-javascript-framework-for-building-3d-games-with-html-5-and-webgl.aspx) – detailed post on the Babylon JS game engine
+- [http://blogs.msdn.com/b/eternalcoding/archive/2013/06/27/babylon-js-a-complete-javascript-framework-for-building-3d-games-with-html-5-and-webgl](http://blogs.msdn.com/b/eternalcoding/archive/2013/06/27/babylon-js-a-complete-javascript-framework-for-building-3d-games-with-html-5-and-webgl) – detailed post on the Babylon JS game engine
 - [http://www.bepuphysics.com/](http://www.bepuphysics.com/) – The Bepu physics engine, used widely in the market
 - [http://jitter-physics.com/wordpress/](http://jitter-physics.com/wordpress/) – Another great physics engine
 - [http://bulletphysics.org/wordpress/](http://bulletphysics.org/wordpress/) – A physics engine favours by MonoGame devs
@@ -242,10 +242,10 @@ So without much todo and very little formatting here is the first drop (so many 
 
 - [http://michaelcrump.net/mbcrump/archive/2011/04/25/best-of-free-frameworks-tools-and-controls-for-windows-phone](http://michaelcrump.net/mbcrump/archive/2011/04/25/best-of-free-frameworks-tools-and-controls-for-windows-phone) – Michael Crumps monster list of WP Dev tools and resources
 - [http://compiledexperience.com/windows-phone/tutorials](http://compiledexperience.com/windows-phone/tutorials) – another good WP dev resource
-- [http://www.andybeaulieu.com/Default.aspx?EntryID=198&tabid=67](http://www.andybeaulieu.com/Default.aspx?EntryID=198&tabid=67) – interesting detail and conversation on obfuscating your WP XAP’s
+- [http://www.andybeaulieu.com/Default?EntryID=198&tabid=67](http://www.andybeaulieu.com/Default?EntryID=198&tabid=67) – interesting detail and conversation on obfuscating your WP XAP’s
 - [http://blakehandler.wordpress.com/2010/04/05/ultimate-list-of-free-windows-phone-7-software-resources-from-microsoft/](http://blakehandler.wordpress.com/2010/04/05/ultimate-list-of-free-windows-phone-7-software-resources-from-microsoft/) – another monster list of WP tools and resources
-- [http://mobileworld.appamundi.com/blogs/petevickers/archive/2011/08/31/appa-mundi-release-free-gui-interface-for-the-isolated-storage-explorer-tool-gui-iset.aspx](http://mobileworld.appamundi.com/blogs/petevickers/archive/2011/08/31/appa-mundi-release-free-gui-interface-for-the-isolated-storage-explorer-tool-gui-iset.aspx) – get the sharpest tool in your WP toolbox
-- \*\*[http://msdn.microsoft.com/en-us/library/windows/apps/hh761491.aspx](http://msdn.microsoft.com/en-us/library/windows/apps/hh761491.aspx "http://msdn.microsoft.com/en-us/library/windows/apps/hh761491.aspx") – The tile template catalog (Windows Runtime apps)
+- [http://mobileworld.appamundi.com/blogs/petevickers/archive/2011/08/31/appa-mundi-release-free-gui-interface-for-the-isolated-storage-explorer-tool-gui-iset](http://mobileworld.appamundi.com/blogs/petevickers/archive/2011/08/31/appa-mundi-release-free-gui-interface-for-the-isolated-storage-explorer-tool-gui-iset) – get the sharpest tool in your WP toolbox
+- \*\*[http://msdn.microsoft.com/en-us/library/windows/apps/hh761491](http://msdn.microsoft.com/en-us/library/windows/apps/hh761491 "http://msdn.microsoft.com/en-us/library/windows/apps/hh761491") – The tile template catalog (Windows Runtime apps)
 - \*\*[http://dotnetbyexample.blogspot.co.uk/2014/05/writing-behaviors-in-pcl-for-windows.html](http://dotnetbyexample.blogspot.co.uk/2014/05/writing-behaviors-in-pcl-for-windows.html "http://dotnetbyexample.blogspot.co.uk/2014/05/writing-behaviors-in-pcl-for-windows.html") – Writing behaviors in PCL for Windows Phone 8.1 and Windows 8.1
 - \*\*[http://weblogs.asp.net/jdanforth/converting-from-silverlight-to-universal-apps-themes-and-styles](http://weblogs.asp.net/jdanforth/converting-from-silverlight-to-universal-apps-themes-and-styles "http://weblogs.asp.net/jdanforth/converting-from-silverlight-to-universal-apps-themes-and-styles") – Converting from Silverlight To Universal Apps – Themes and Styles
 - \*\*[http://t.co/XtILAvCbSF](http://t.co/XtILAvCbSF "http://t.co/XtILAvCbSF") – Parsing XML File in WindowsPhone in NO TIME
@@ -257,7 +257,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - [http://ntotten.com/2012/12/20/hosting-multiple-wordpress-sites-for-free-on-windows-azure/](http://ntotten.com/2012/12/20/hosting-multiple-wordpress-sites-for-free-on-windows-azure/) – A bit of a random one but going to know if you use WordPress on Azure
 - [http://sviluppomobile.blogspot.it/2013/05/hack-to-enable-azure-mobile-services.html](http://sviluppomobile.blogspot.it/2013/05/hack-to-enable-azure-mobile-services.html) – Enable Azure Mobile Services for “pure” Windows Phone 7.1
 - [http://themebot.com/free-website-templates/html-templates](http://themebot.com/free-website-templates/html-templates) – Free web site templates
-- \*\*[http://blogs.msdn.com/b/uk\_faculty\_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game.aspx](http://blogs.msdn.com/b/uk_faculty_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game.aspx "http://blogs.msdn.com/b/uk\_faculty\_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game.aspx") – Using Cloud Services to make a Leaderboard for a Unity Game
+- \*\*[http://blogs.msdn.com/b/uk\_faculty\_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game](http://blogs.msdn.com/b/uk_faculty_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game "http://blogs.msdn.com/b/uk\_faculty\_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game") – Using Cloud Services to make a Leaderboard for a Unity Game
 
 # Web Stuff
 
@@ -274,7 +274,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - [http://www.dzone.com/links/r/19\_free\_html5\_development\_tools\_for\_designers.html](http://www.dzone.com/links/r/19_free_html5_development_tools_for_designers.html) – Top 10 free web dev tools
 - [http://www.codeproject.com/Articles/577080/Create-an-HTML5-and-JavaScript-Maze-Game-with-a-ti](http://www.codeproject.com/Articles/577080/Create-an-HTML5-and-JavaScript-Maze-Game-with-a-ti) – Procedural maze web game tutorial
 - [http://www.dzone.com/links/r/50\_fresh\_resources\_and\_tools\_for\_web\_developers.html](http://www.dzone.com/links/r/50_fresh_resources_and_tools_for_web_developers.html) – More tools for your web arsenal
-- \*\*[http://blogs.windows.com/windows/b/buildingapps/archive/2014/04/02/bringing-winjs-cross-platform-and-open-source.aspx](http://blogs.windows.com/windows/b/buildingapps/archive/2014/04/02/bringing-winjs-cross-platform-and-open-source.aspx "http://blogs.windows.com/windows/b/buildingapps/archive/2014/04/02/bringing-winjs-cross-platform-and-open-source.aspx") – Bringing WinJS cross-platform and open source
+- \*\*[http://blogs.windows.com/windows/b/buildingapps/archive/2014/04/02/bringing-winjs-cross-platform-and-open-source](http://blogs.windows.com/windows/b/buildingapps/archive/2014/04/02/bringing-winjs-cross-platform-and-open-source "http://blogs.windows.com/windows/b/buildingapps/archive/2014/04/02/bringing-winjs-cross-platform-and-open-source") – Bringing WinJS cross-platform and open source
 - \*\*[http://madskristensen.net/post/visual-studio-extensions-for-web-developers](http://madskristensen.net/post/visual-studio-extensions-for-web-developers "http://madskristensen.net/post/visual-studio-extensions-for-web-developers") – Visual Studio extensions for web developers (A must have if you are building for the web with Visual Studio)
 - \*\*[http://t.co/4M9HFblTkN](http://t.co/4M9HFblTkN "http://t.co/4M9HFblTkN") – A rich new JavaScript code editor spreading to several Microsoft web sites
 - \*\*[http://t.co/GeH8OuJlaW](http://t.co/GeH8OuJlaW "http://t.co/GeH8OuJlaW") – After //Build: Babylon.js
@@ -282,15 +282,15 @@ So without much todo and very little formatting here is the first drop (so many 
 
 # .NET stuff
 
-- [http://qink.net/page/The-Ultimate-List-of-Freely-Available-\_NET-Libraries.aspx](http://qink.net/page/The-Ultimate-List-of-Freely-Available-_NET-Libraries.aspx) – The Ultimate List of Freely Available .NET Libraries
-- [http://blogs.msdn.com/b/lucian/archive/2013/08/15/how-to-generate-pdf-on-windows-phone-in-vb-or-c.aspx](http://blogs.msdn.com/b/lucian/archive/2013/08/15/how-to-generate-pdf-on-windows-phone-in-vb-or-c.aspx) Creating PDF’s in C# or VB
+- [http://qink.net/page/The-Ultimate-List-of-Freely-Available-\_NET-Libraries](http://qink.net/page/The-Ultimate-List-of-Freely-Available-_NET-Libraries) – The Ultimate List of Freely Available .NET Libraries
+- [http://blogs.msdn.com/b/lucian/archive/2013/08/15/how-to-generate-pdf-on-windows-phone-in-vb-or-c](http://blogs.msdn.com/b/lucian/archive/2013/08/15/how-to-generate-pdf-on-windows-phone-in-vb-or-c) Creating PDF’s in C# or VB
 - \*\*[http://log.paulbetts.org/the-bait-and-switch-pcl-trick/](http://log.paulbetts.org/the-bait-and-switch-pcl-trick/ "http://log.paulbetts.org/the-bait-and-switch-pcl-trick/") – The Bait and Switch PCL Trick (essential PCL reading)
 - \*\*[http://t.co/omFMUjQC00](http://t.co/omFMUjQC00 "http://t.co/omFMUjQC00") – John Skeet’s blog is amazing for anything C#
 
 # Xamarin and Multi-Platform stuff
 
-- [http://msdn.microsoft.com/en-us/magazine/dn630648.aspx](http://msdn.microsoft.com/en-us/magazine/dn630648.aspx "http://msdn.microsoft.com/en-us/magazine/dn630648.aspx")&nbsp; – Build a Cross-Platform, Mobile Golf App Using C# and Xamarin
-- \*\*[http://visualstudiomagazine.com/articles/2014/04/01/using-oauth-twitter-and-async-to-display-data.aspx](http://visualstudiomagazine.com/articles/2014/04/01/using-oauth-twitter-and-async-to-display-data.aspx "http://visualstudiomagazine.com/articles/2014/04/01/using-oauth-twitter-and-async-to-display-data.aspx") – Using OAuth, Twitter and Async To Display Data with Xamarin.Forms
+- [http://msdn.microsoft.com/en-us/magazine/dn630648](http://msdn.microsoft.com/en-us/magazine/dn630648 "http://msdn.microsoft.com/en-us/magazine/dn630648")  – Build a Cross-Platform, Mobile Golf App Using C# and Xamarin
+- \*\*[http://visualstudiomagazine.com/articles/2014/04/01/using-oauth-twitter-and-async-to-display-data](http://visualstudiomagazine.com/articles/2014/04/01/using-oauth-twitter-and-async-to-display-data "http://visualstudiomagazine.com/articles/2014/04/01/using-oauth-twitter-and-async-to-display-data") – Using OAuth, Twitter and Async To Display Data with Xamarin.Forms
 - \*\*[http://blog.xamarin.com/please-sign-here-open-source-signature-component/](http://blog.xamarin.com/please-sign-here-open-source-signature-component/ "http://blog.xamarin.com/please-sign-here-open-source-signature-component/") – Please Sign Here: Open Source Signature Component
 - \*\*[http://blog.galasoft.ch/posts/2014/05/mvvm-light-v4-4-with-xamarin-android-support/](http://blog.galasoft.ch/posts/2014/05/mvvm-light-v4-4-with-xamarin-android-support/ "http://blog.galasoft.ch/posts/2014/05/mvvm-light-v4-4-with-xamarin-android-support/") – MVVM Light V4.4 with Xamarin Android support
 - \*\*[http://t.co/j3DjTUSAvo](http://t.co/j3DjTUSAvo "http://t.co/j3DjTUSAvo") – Incredibly detailed post on using [**Azure**](https://twitter.com/hashtag/Azure?src=hash) mobile services, [**Xamarin**](https://twitter.com/hashtag/Xamarin?src=hash) and MVVMCross
@@ -301,10 +301,10 @@ So without much todo and very little formatting here is the first drop (so many 
 # Random Pickings
 
 - [http://www.powerframeworks.com/free-samples](http://www.powerframeworks.com/free-samples) – Get a heads up on what makes a good PowerPoint!
-- [http://blogs.msdn.com/b/davedev/archive/2012/07/13/announcing-the-metrogamekit-a-free-sample-starter-project-for-windows-8-casual-games-using-html5-and-javascript.aspx](http://blogs.msdn.com/b/davedev/archive/2012/07/13/announcing-the-metrogamekit-a-free-sample-starter-project-for-windows-8-casual-games-using-html5-and-javascript.aspx) – the Metro game kit (before the rename)
-- [http://www.raywenderlich.com/21320/objectively-speaking-a-crash-course-in-objective-c-ios6](http://www.raywenderlich.com/21320/objectively-speaking-a-crash-course-in-objective-c-ios6) –&nbsp; Crash Course in Objective-C for iOS 6
+- [http://blogs.msdn.com/b/davedev/archive/2012/07/13/announcing-the-metrogamekit-a-free-sample-starter-project-for-windows-8-casual-games-using-html5-and-javascript](http://blogs.msdn.com/b/davedev/archive/2012/07/13/announcing-the-metrogamekit-a-free-sample-starter-project-for-windows-8-casual-games-using-html5-and-javascript) – the Metro game kit (before the rename)
+- [http://www.raywenderlich.com/21320/objectively-speaking-a-crash-course-in-objective-c-ios6](http://www.raywenderlich.com/21320/objectively-speaking-a-crash-course-in-objective-c-ios6) –  Crash Course in Objective-C for iOS 6
 - [https://javaee7.zeef.com/arjan.tijms](https://javaee7.zeef.com/arjan.tijms) – Collection of Java EE 7 resources
-- [http://blogs.msdn.com/b/africaapps/archive/2013/05/29/application-lifecycle-management-part-1-of-5.aspx](http://blogs.msdn.com/b/africaapps/archive/2013/05/29/application-lifecycle-management-part-1-of-5.aspx) – Application Management 5 part course
+- [http://blogs.msdn.com/b/africaapps/archive/2013/05/29/application-lifecycle-management-part-1-of-5](http://blogs.msdn.com/b/africaapps/archive/2013/05/29/application-lifecycle-management-part-1-of-5) – Application Management 5 part course
 - [http://ihackers.info/how-to-tweak-the-new-multi-monitor-taskbar-in-windows-8/](http://ihackers.info/how-to-tweak-the-new-multi-monitor-taskbar-in-windows-8/) – How to Tweak the New Multi-Monitor Taskbar in Windows
 - [http://powerpointstoryboard.com/free-powerpoint-storyboard-templates/](http://powerpointstoryboard.com/free-powerpoint-storyboard-templates/) – Free PowerPoint Storyboard Templates
 - ht[tp://boingboing.net/2013/09/12/becoming-a-web-developer-as-an.html](http://boingboing.net/2013/09/12/becoming-a-web-developer-as-an.html) – Just made me laugh, a JS web developer RPG skill tree app
@@ -315,15 +315,15 @@ So without much todo and very little formatting here is the first drop (so many 
 
 # Click this NOW!!
 
-- [http://www.gameinformer.com/b/news/archive/2012/12/29/play-dune-ii-free-on-your-browser.aspx](http://www.gameinformer.com/b/news/archive/2012/12/29/play-dune-ii-free-on-your-browser.aspx) – Play Dune 2 in your browser for FREE
+- [http://www.gameinformer.com/b/news/archive/2012/12/29/play-dune-ii-free-on-your-browser](http://www.gameinformer.com/b/news/archive/2012/12/29/play-dune-ii-free-on-your-browser) – Play Dune 2 in your browser for FREE
 - [http://benedictcumberbatchgenerator.tumblr.com/](http://benedictcumberbatchgenerator.tumblr.com/) – Listen Beetlejuice Rivendell – click here (great for a RPG game maybe)
 - \*\*[http://orteil.dashnet.org/gamegen](http://orteil.dashnet.org/gamegen "http://orteil.dashnet.org/gamegen") – Orteil’s awesome Game Idea generator, just refresh lots of times, fun
-- \*\*[http://research.microsoft.com/apps/catalog/default.aspx?t=projects](http://research.microsoft.com/apps/catalog/default.aspx?t=projects "http://research.microsoft.com/apps/catalog/default.aspx?t=projects") – Microsoft Research’s Project backlog (fascinating read)
+- \*\*[http://research.microsoft.com/apps/catalog/default?t=projects](http://research.microsoft.com/apps/catalog/default?t=projects "http://research.microsoft.com/apps/catalog/default?t=projects") – Microsoft Research’s Project backlog (fascinating read)
 - \*\*[http://www.methodnamer.com](http://www.methodnamer.com) – If you’re totally stuck when trying to come up with a good method name, try this site 🙂
 
 * * *
 
-Now this is the merest fraction of links, resources and sites I got in my library all from only one search.&nbsp; I will either add more to this list or do another post for specific things
+Now this is the merest fraction of links, resources and sites I got in my library all from only one search.  I will either add more to this list or do another post for specific things
 
 Enjoy for now
 

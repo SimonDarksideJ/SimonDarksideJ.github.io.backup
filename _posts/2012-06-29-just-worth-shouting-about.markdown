@@ -8,14 +8,14 @@ tags:
 - samples
 ---
 
-&nbsp;
+ 
 
 Following the announcement on the [Channel 9 show](http://channel9.msdn.com/posts/LauraFoy/Windows-Phone-7-Apps--Tools/) this week, the crowd in the Windows Phone 7 and XNA teams have published a whole raft of new samples, including:
 
 * * *
 
 > [**Accelerometer**](http://creators.xna.com/sample/accelerometer)[   
-> ](http://creators.xna.com/sample/aiming)This sample for Windows Phone demonstrates using the Accelerometer sensor in XNA Game Studio 4.o as well as supplies an Accelerometer wrapper that can be used to easily implement Accelerometer functionality in your games&nbsp;   
+> ](http://creators.xna.com/sample/aiming)This sample for Windows Phone demonstrates using the Accelerometer sensor in XNA Game Studio 4.o as well as supplies an Accelerometer wrapper that can be used to easily implement Accelerometer functionality in your games    
 > [**Bounce**](http://creators.xna.com/sample/bounce)   
 > This sample for Windows Phone demonstrates Sphere to Sphere and Sphere to Plane physics through use of the Accelerometer   
 > [**Fuzzy Logic**](http://creators.xna.com/sample/fuzzylogic)   
@@ -36,7 +36,7 @@ Following the announcement on the [Channel 9 show](http://channel9.msdn.com/post
 
 That is a whole load of content, get reviewing.
 
-Although the bounce sample, which was the first one I looked at, has code missing.&nbsp; This is however being addressed.&nbsp; Make sure you show your application in the forums for each sample.
+Although the bounce sample, which was the first one I looked at, has code missing.  This is however being addressed.  Make sure you show your application in the forums for each sample.
 
 BooYa
 

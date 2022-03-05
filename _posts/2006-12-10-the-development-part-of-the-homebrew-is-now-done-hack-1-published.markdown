@@ -6,9 +6,9 @@ tags:
 - ramblings
 ---
 
-In case anyone’s interested, the [XBOX360 Homebrew contest](http://xbox360homebrew.com/blogs/default.aspx?GroupID=11) has now entered the voting stage and all development is complete on the competition entries.
+In case anyone’s interested, the [XBOX360 Homebrew contest](http://xbox360homebrew.com/blogs/default?GroupID=11) has now entered the voting stage and all development is complete on the competition entries.
 
-They have been [posted here](http://xbox360homebrew.com/files/default.aspx) and I’d encourage everyone to head over and look at the games entered.&nbsp; I’m really impressed with the entries so far.&nbsp; Sounds daft but I didn’t enter the competition to win but to kick-start my game writing experience.
+They have been [posted here](http://xbox360homebrew.com/files/default) and I’d encourage everyone to head over and look at the games entered.  I’m really impressed with the entries so far.  Sounds daft but I didn’t enter the competition to win but to kick-start my game writing experience.
 
 I’m happy with my entry, it works, the game plays fairly well (even if it’s only the basic connect mode so far) and I got the manual in the game as well as with it.
 

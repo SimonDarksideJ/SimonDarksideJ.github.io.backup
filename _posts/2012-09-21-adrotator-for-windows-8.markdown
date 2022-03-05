@@ -12,11 +12,11 @@ tags:
 
 \*Note by popular request[here’s a sample](http://bit.ly/PsETzK) (pulled from the AdRotator site) showing AdRotator implemented in a [Windows 8 app](http://bit.ly/PsETzK) with AdDuplex, PubCenter and a local House AD.
 
-As battles go this was certainly one of the strangest.&nbsp; Windows 8 introduces so many different ways of working, some expected and welcome, some not so.
+As battles go this was certainly one of the strangest.  Windows 8 introduces so many different ways of working, some expected and welcome, some not so.
 
 One of the biggest unexpected challenges is that libraries and packages can no longer distribute User Controls as part of a separate dll or class library, if it is another project in the same solution that is fine but if you want to distribute a control such as [AdRotator](http://wp7adrotator.codeplex.com/) this presents a bit of a problem.
 
-It is not that you can’t it is just that Microsoft has packed up the goal posts and sold them to a foreign investor waving goodbye with a polite smile.&nbsp; There is a very good reason for this (in MS eyes), Security, by not allowing you to just expose anything and everything outside of a Class library or DLL they ensure YOU do not accidentally leave THEIR (aka your machine) system open to attack or dreaded buffer overrun, in short they are making you stand up and stand accounted for anything you develop and want to put on to other peoples machines, most (including me) do se this as a good move but it is a learning curve.
+It is not that you can’t it is just that Microsoft has packed up the goal posts and sold them to a foreign investor waving goodbye with a polite smile.  There is a very good reason for this (in MS eyes), Security, by not allowing you to just expose anything and everything outside of a Class library or DLL they ensure YOU do not accidentally leave THEIR (aka your machine) system open to attack or dreaded buffer overrun, in short they are making you stand up and stand accounted for anything you develop and want to put on to other peoples machines, most (including me) do se this as a good move but it is a learning curve.
 
 Ok, well you did not come here for a history / future lesson, you came here for our latest release [AdRotator](http://wp7adrotator.codeplex.com/) for Windows 8.
 
@@ -30,7 +30,7 @@ Now these are early day of AdRotator for Windows 8 so bear with us as we get up 
 - Ad Provider – MS Pubcenter
 - Ad Provider – Local House Ads
 - Ad Provider – Remote House Ads **\*\*New**
-- Local Configuration file support (obviously,&nbsp;wouldn’t&nbsp;work without this)
+- Local Configuration file support (obviously, wouldn’t work without this)
 - Remote Configuration file support
 - All of the Caching and fall-back function for providing ads
 
@@ -92,7 +92,7 @@ The format of the file has not changed so either look on the AdRotator site or o
 
 # Ad Providers
 
-Getting your Ad Providers in is just as easy, AdDuplex also have a NuGet Package, whereas Microsoft have a Windows 8 component which is already delivered as part of Windows 8, just right click References and select the “Extensions” branch and you will see it there.&nbsp; As this is still V1 you will have to add both references even you are not using the external providers, in V2 this should no longer be necessary.
+Getting your Ad Providers in is just as easy, AdDuplex also have a NuGet Package, whereas Microsoft have a Windows 8 component which is already delivered as part of Windows 8, just right click References and select the “Extensions” branch and you will see it there.  As this is still V1 you will have to add both references even you are not using the external providers, in V2 this should no longer be necessary.
 
 House Ads are exactly the same, just define a user control in your project and add your content as you see fit, then Assign it to the “DefaultHouseAdBody” property before you call “Invalidate”
 

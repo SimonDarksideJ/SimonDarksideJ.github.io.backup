@@ -23,18 +23,18 @@ Are we sitting comfortably, then let us begin ![Open-mouthed smile](/Images/word
 > 
 > #### Since writing this article a great team from Microsoft published an Opensource project to get XNA Game studio running under Visual Studio 2012 & 2013.
 > 
-> #### Check it out here –&nbsp;[http://bit.ly/RSoIlC](http://bit.ly/RSoIlC)
+> #### Check it out here – [http://bit.ly/RSoIlC](http://bit.ly/RSoIlC)
 
 In yet another one of my adventures with [MonoGame](http://monogame.net/) and showing new an interesting ways you can take you old XNA code and move it forward on to the MonoGame platform (and still keep your sanity), I will go over one of those fringe / advanced options available to old XNA projects where you can effectively build your own content.
 
 The reasons for doing this are quite simple:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)&nbsp;&nbsp;&nbsp; You want to add custom data at build time – e.g. bounding box information, scale, size and weight  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)&nbsp;&nbsp;&nbsp; You would like to have XML config to change how your content is built like the particle pipeline sample ([http://bit.ly/13suolj](http://bit.ly/13suolj "http://bit.ly/13suolj"))  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)&nbsp;&nbsp;&nbsp; You want to pre-pack your model’s effects at build time ([Custom types](http://bit.ly/13suwkN) / [Skinned model](http://bit.ly/13suysR) examples)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)&nbsp;&nbsp;&nbsp; You want your cake and you darn well want to eat it too!
+> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)    You want to add custom data at build time – e.g. bounding box information, scale, size and weight  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)    You would like to have XML config to change how your content is built like the particle pipeline sample ([http://bit.ly/13suolj](http://bit.ly/13suolj "http://bit.ly/13suolj"))  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)    You want to pre-pack your model’s effects at build time ([Custom types](http://bit.ly/13suwkN) / [Skinned model](http://bit.ly/13suysR) examples)  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)    You want your cake and you darn well want to eat it too!
 
-There are more but these are the highlights.&nbsp; Basically anywhere that you want to offload processing of your content from run time to build time (why would not you?), saving you endless amounts of spin cycles, which on some platforms can mean the difference between your game flying along at 30 – 60 fps and a slideshow.
+There are more but these are the highlights.  Basically anywhere that you want to offload processing of your content from run time to build time (why would not you?), saving you endless amounts of spin cycles, which on some platforms can mean the difference between your game flying along at 30 – 60 fps and a slideshow.
 
 * * *
 
@@ -43,28 +43,28 @@ There are more but these are the highlights.&nbsp; Basically anywhere that you w
 ![ /></p>
 <p>Now one of the questions I get asked (or see asked) surround content projects themselves, they are only natively supported in Visual Studio 2010 and later some partial support was added to 2012 for Phone 7 support, this is great if like me you rock out Pro or Ultimate but not everyone has access to these.  Sure you can use MonoGame from most of the express editions but, if you try and launch a Content project it just crashes and dies (usually)</p>
 <p>To clear things up here are all the configuration in which content projects are definitely supported:</p>
-<blockquote><p><img src=](http://i4.ytimg.com/vi/ktBCSuEDkmE/mqdefault.jpg)&nbsp;&nbsp;&nbsp; Visual Studio C# 2010 express\*  
- ![align=](http://www.dotnetscraps.com/samples/bullets/019.gif)&nbsp;&nbsp;&nbsp; Visual Studio Visual Basic 2010 express\*  
- ![align=](http://www.dotnetscraps.com/samples/bullets/019.gif)&nbsp;&nbsp;&nbsp; Visual Studio 2010 express for Windows Phone  
- ![align=](http://www.dotnetscraps.com/samples/bullets/019.gif)&nbsp;&nbsp;&nbsp; Visual Studio Pro & Ultimate\*  
- ![align=](http://www.dotnetscraps.com/samples/bullets/019.gif)&nbsp;&nbsp;&nbsp; Visual Studio 2012 Pro & Ultimate\*\*  
- **![align=](http://www.dotnetscraps.com/samples/bullets/019.gif)&nbsp;&nbsp;&nbsp; Visual Studio Express 2012 for Windows Phone**
+<blockquote><p><img src=](http://i4.ytimg.com/vi/ktBCSuEDkmE/mqdefault.jpg)    Visual Studio C# 2010 express\*  
+ ![align=](http://www.dotnetscraps.com/samples/bullets/019.gif)    Visual Studio Visual Basic 2010 express\*  
+ ![align=](http://www.dotnetscraps.com/samples/bullets/019.gif)    Visual Studio 2010 express for Windows Phone  
+ ![align=](http://www.dotnetscraps.com/samples/bullets/019.gif)    Visual Studio Pro & Ultimate\*  
+ ![align=](http://www.dotnetscraps.com/samples/bullets/019.gif)    Visual Studio 2012 Pro & Ultimate\*\*  
+ **![align=](http://www.dotnetscraps.com/samples/bullets/019.gif)    Visual Studio Express 2012 for Windows Phone**
 
-\* With XNA GS 4.0 / Windows Phone 7.1 SDK&nbsp; installed
+\* With XNA GS 4.0 / Windows Phone 7.1 SDK  installed
 
 \*\* With the Windows Phone 8 SDK installed
 
 And here are the editions where it is not supported:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/030.gif)&nbsp;&nbsp;&nbsp; Visual&nbsp; Web developer express 2010\*  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/030.gif)&nbsp;&nbsp;&nbsp; Visual Studio 2012 Express for Desktop  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/030.gif)&nbsp;&nbsp;&nbsp; Visual Studio 2012 Express for Windows 8  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/030.gif)&nbsp;&nbsp;&nbsp; Visual Studio 2012 Express for Web  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/030.gif)&nbsp;&nbsp;&nbsp; Xamarin Studio
+> ![align=](http://www.dotnetscraps.com/samples/bullets/030.gif)    Visual  Web developer express 2010\*  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/030.gif)    Visual Studio 2012 Express for Desktop  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/030.gif)    Visual Studio 2012 Express for Windows 8  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/030.gif)    Visual Studio 2012 Express for Web  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/030.gif)    Xamarin Studio
 > 
 > \* Unconfirmed
 
-I highlighted one of the supported editions above specifically because everyone asks “How do I build my content on Windows 8” or “How do I build my content with 2012 if I do not have pro / ultimate”.&nbsp; The usual answer that people come back with is “You ca not, just use 2010” which as you can see from above is wrong.&nbsp; Even if you do not intend to deploy to Windows Phone **you can still use the WP8SDK to install the express edition that comes with it to build your content in 2012**.
+I highlighted one of the supported editions above specifically because everyone asks “How do I build my content on Windows 8” or “How do I build my content with 2012 if I do not have pro / ultimate”.  The usual answer that people come back with is “You ca not, just use 2010” which as you can see from above is wrong.  Even if you do not intend to deploy to Windows Phone **you can still use the WP8SDK to install the express edition that comes with it to build your content in 2012**.
 
 One day I would like MS to stop messing around with this project type support, there are good reasons for doing it but leaving out one or two platforms for no good reason is just daft /Rant.
 
@@ -87,33 +87,33 @@ First off make sure you got all the right bits: (you can install these on either
 
 > ##### Studio 2010
 > 
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/011.gif)&nbsp;&nbsp;&nbsp; Visual Studio 2010 Express and above (from the above list)  
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/011.gif)&nbsp;&nbsp;&nbsp; XNA Game Studio 4.0 (or) – if installed on Windows 8 see [this post](http://stackoverflow.com/questions/12849107/how-to-install-the-xna-game-studio-4-0-in-windows-8)  
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/011.gif)&nbsp;&nbsp;&nbsp; Windows Phone SDK 7.1 + 7.1.1  
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/011.gif)&nbsp;&nbsp;&nbsp; MonoGame V3+
+> > ![align=](http://www.dotnetscraps.com/samples/bullets/011.gif)    Visual Studio 2010 Express and above (from the above list)  
+> > ![align=](http://www.dotnetscraps.com/samples/bullets/011.gif)    XNA Game Studio 4.0 (or) – if installed on Windows 8 see [this post](http://stackoverflow.com/questions/12849107/how-to-install-the-xna-game-studio-4-0-in-windows-8)  
+> > ![align=](http://www.dotnetscraps.com/samples/bullets/011.gif)    Windows Phone SDK 7.1 + 7.1.1  
+> > ![align=](http://www.dotnetscraps.com/samples/bullets/011.gif)    MonoGame V3+
 > > 
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/011.gif)&nbsp;&nbsp;&nbsp; (optional) Zune – needed for VS2010 to deploy to device
+> > ![align=](http://www.dotnetscraps.com/samples/bullets/011.gif)    (optional) Zune – needed for VS2010 to deploy to device
 
 > ##### Studio 2012
 > 
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)&nbsp;&nbsp;&nbsp; Visual Studio 2012 Pro+ (or)  
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)&nbsp;&nbsp;&nbsp; Visual Studio 2012 Express for Windows Phone  
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)&nbsp;&nbsp;&nbsp; Windows Phone 8 SDK\*  
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)&nbsp;&nbsp;&nbsp; MonoGame V3+
+> > ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)    Visual Studio 2012 Pro+ (or)  
+> > ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)    Visual Studio 2012 Express for Windows Phone  
+> > ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)    Windows Phone 8 SDK\*  
+> > ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)    MonoGame V3+
 > 
-> \* If you are running on a machine that does not support Hyper-V (SLAT) the emulator wo not install.&nbsp; You can still deploy to a device though.
+> \* If you are running on a machine that does not support Hyper-V (SLAT) the emulator wo not install.  You can still deploy to a device though.
 > 
 > #### Since writing this article a great team from Microsoft published an Opensource project to get XNA Game studio running under Visual Studio 2012 & 2013.
 > 
-> #### Check it out here –&nbsp;[http://bit.ly/RSoIlC](http://bit.ly/RSoIlC)
+> #### Check it out here – [http://bit.ly/RSoIlC](http://bit.ly/RSoIlC)
 
 #### **\*Note you will also need to download the** [**Microsoft Content Types sample**](http://bit.ly/13suwkN) **as we will re-use some of the files from that project in this tutorial.**
 
 Now there is one limitation which is pretty self-explanatory if you are using Visual Studio 2012 for Windows Phone edition to build your content project, in that it only knows how to build phone projects, so a fair few of the other project templates are not available. However it is still able to read the other project types (C# libraries for example) but you cannot create them in it (by default).
 
-I would recommend while you are following this tutorial and only have access to the express editions, to do your content project in 2012 Express for Windows Phone and build your game in 2012 Express for Windows Desktop or Windows 8.&nbsp; However a little trickery will be required to get there using this route.
+I would recommend while you are following this tutorial and only have access to the express editions, to do your content project in 2012 Express for Windows Phone and build your game in 2012 Express for Windows Desktop or Windows 8.  However a little trickery will be required to get there using this route.
 
-#### Since writing this article a great team from Microsoft published an Opensource project to get XNA Game studio running under Visual Studio 2012 & 2013.&nbsp;Check it out here –&nbsp;[http://bit.ly/RSoIlC](http://bit.ly/RSoIlC)
+#### Since writing this article a great team from Microsoft published an Opensource project to get XNA Game studio running under Visual Studio 2012 & 2013. Check it out here – [http://bit.ly/RSoIlC](http://bit.ly/RSoIlC)
 
 ### Create the Content project
 
@@ -165,11 +165,11 @@ Now if you run the solution you should get a model being drawn to the screen.
 <p>Now there are two schools of thought with how to use custom content types in XNA and both will work with MonoGame itself, however only one way will work (as I found) on all platforms.</p>
 <p>The two ways are:</p>
 <blockquote><p> </p>
-<p><img src=](https://www.sbgenomics.com/static/img/landing/features/features_ico_big_04.jpg)&nbsp;&nbsp;&nbsp; By using the [ContentSerializerRuntimeType] attribute definitions
+<p><img src=](https://www.sbgenomics.com/static/img/landing/features/features_ico_big_04.jpg)    By using the [ContentSerializerRuntimeType] attribute definitions
 
 These are set within your content processor to identify your custom types by their reflection type name, then hosting the class definition for the type in your game project
 
-![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)&nbsp;&nbsp;&nbsp; By using a common library between the content processor and your game project effectively sharing the class definition between the projects
+![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)    By using a common library between the content processor and your game project effectively sharing the class definition between the projects
 
 The second option which I am going to show you here is the one that will work on all platforms, the first is fine for windows platforms but runs into issues with others (in my experience)
 
@@ -177,9 +177,9 @@ The second option which I am going to show you here is the one that will work on
 
 So first we need a class library to hold our custom types, so create a new C# class library for the solution, its namespace needs to be unique in your project to ensure its picked up by both the content processor and your game platform.
 
-> \*Note as stated earlier, if you are using the 2012 Express editions, you will need to swap to VS 2012 Express for Windows Desktop / Windows 8 to create the class library and then switch back to the Phone Express to add the existing project to your content solution.&nbsp; A little tedious but it works (and it is FREE).&nbsp; You will see (yet another) silly warning telling you the class library is targeting .NET 4.5 and that it needs to convert it to .NET 4.5 to read it (sheesh), just accept the default to update the project.
+> \*Note as stated earlier, if you are using the 2012 Express editions, you will need to swap to VS 2012 Express for Windows Desktop / Windows 8 to create the class library and then switch back to the Phone Express to add the existing project to your content solution.  A little tedious but it works (and it is FREE).  You will see (yet another) silly warning telling you the class library is targeting .NET 4.5 and that it needs to convert it to .NET 4.5 to read it (sheesh), just accept the default to update the project.
 > 
-> Once the Class Library is loaded, right-click and select properties on the Class Library project and in the Application tab change the “Target Framework” to .Net 4.&nbsp; XNA and MonoGame just work better that way.
+> Once the Class Library is loaded, right-click and select properties on the Class Library project and in the Application tab change the “Target Framework” to .Net 4.  XNA and MonoGame just work better that way.
 > 
 > [![image](/Images/wordpress/2013/05/image_thumb32.png "image")](/Images/wordpress/2013/05/image33.png)
 
@@ -187,13 +187,13 @@ Once the Class Library project is loaded we can setup our custom type we intend 
 
     #region File Description //----------------------------------------------------------------------------- // CustomModel.cs // // Microsoft XNA Community Game Platform // Copyright (C) Microsoft Corporation. All rights reserved. //----------------------------------------------------------------------------- #endregion #region Using Statements using System.Collections.Generic; using Microsoft.Xna.Framework; using Microsoft.Xna.Framework.Content; using Microsoft.Xna.Framework.Graphics; #endregion namespace CustomContentTypes { /// \<summary\> /// Custom class that can be used as a replacement for the built-in Model type. /// This provides functionality roughly similar to Model, but simplified as far /// as possible while still being able to correctly render data from arbitrary /// X or FBX files. This can be used as a starting point for building up your /// own more sophisticated Model replacements. /// \</summary\> public class CustomModel { #region Fields // Disable compiler warning that we never initialize these fields. // That is ok, because the XNB deserializer initialises them for us! #pragma warning disable 649 // Internally our custom model is made up from a list of model parts. [ContentSerializer] public List\<ModelPart\> modelParts { get; private set; } // Each model part represents a piece of geometry that uses one // single effect. Multiple parts are needed for models that use // more than one effect. public class ModelPart { public int TriangleCount; public int VertexCount; public VertexBuffer VertexBuffer; public IndexBuffer IndexBuffer; [ContentSerializer(SharedResource = true)] public Effect Effect; } #pragma warning restore 649 #endregion /// \<summary\> /// Private constructor, for use by the XNB deserializer. /// \</summary\> private CustomModel() { } /// \<summary\> /// Draws the model using the specified camera matrices. /// \</summary\> public void Draw(Matrix world, Matrix view, Matrix projection) { foreach (ModelPart modelPart in modelParts) { // Look up the effect, and set effect parameters on it. This sample // assumes the model will only be using BasicEffect, but a more robust // implementation would probably want to handle custom effects as well. BasicEffect effect = (BasicEffect)modelPart.Effect; effect.EnableDefaultLighting(); effect.World = world; effect.View = view; effect.Projection = projection; // Set the graphics device to use our vertex declaration, // vertex buffer, and index buffer. GraphicsDevice device = effect.GraphicsDevice; device.SetVertexBuffer(modelPart.VertexBuffer); device.Indices = modelPart.IndexBuffer; // Loop over all the effect passes. foreach (EffectPass pass in effect.CurrentTechnique.Passes) { pass.Apply(); // Draw the geometry. device.DrawIndexedPrimitives(PrimitiveType.TriangleList, 0, 0, modelPart.VertexCount, 0, modelPart.TriangleCount); } } } } }
 
-There is not too much fancy stuff here, the Custom Model type in the MS example just provides a more raw view for what goes on under the hood for drawing a model, it reads out the raw model data and stores it in it is respective Index and Vertex buffers plus all the other necessary information for doing primitive drawing.&nbsp; It also delivers a custom Draw function for sending the Index/Vertex data to the graphics device.&nbsp; If you wished you could change the colour of random vertices / alter the normal mapping of certain elements or even deform the mesh on build, all stuff that would be very expensive to do at runtime.
+There is not too much fancy stuff here, the Custom Model type in the MS example just provides a more raw view for what goes on under the hood for drawing a model, it reads out the raw model data and stores it in it is respective Index and Vertex buffers plus all the other necessary information for doing primitive drawing.  It also delivers a custom Draw function for sending the Index/Vertex data to the graphics device.  If you wished you could change the colour of random vertices / alter the normal mapping of certain elements or even deform the mesh on build, all stuff that would be very expensive to do at runtime.
 
 If you wish you can also rename “class1.cs” to something more appropriate but it is just for show (Still a good idea though ![Open-mouthed smile](/Images/wordpress/2013/05/wlEmoticon-openmouthedsmile1.png))
 
 ### The Content Pipeline project
 
-Now we have our custom type, we need a way to tell the content pipeline to use it when loading our model.&nbsp; Open up your Content project again (if it is separate) and add a new project to the solution, this time select the “Content Pipeline Extension Library” template in the “XNA Game Studio 4.0” branch. (there is a way to do the same thing with a class library but this is easier and safer for now)
+Now we have our custom type, we need a way to tell the content pipeline to use it when loading our model.  Open up your Content project again (if it is separate) and add a new project to the solution, this time select the “Content Pipeline Extension Library” template in the “XNA Game Studio 4.0” branch. (there is a way to do the same thing with a class library but this is easier and safer for now)
 
 [![image](/Images/wordpress/2013/05/image_thumb33.png "image")](/Images/wordpress/2013/05/image34.png)
 
@@ -201,12 +201,12 @@ Once it is loaded you should get a default “ContentProcessor1.cs” class in t
 
 > \*Note again if you are using 2012 Express for Windows Phone to create the content pipeline extension project, you will need to update the target framework to .NET 4.0 else the content project wo not recognise it
 
-##### If you want to learn more about how content pipeline extensions work, check out the [documentation on the Creators club website here](http://msdn.microsoft.com/en-us/library/bb447754.aspx), well worth a read if you want to do more advanced thins with your content before you import it into your game.
+##### If you want to learn more about how content pipeline extensions work, check out the [documentation on the Creators club website here](http://msdn.microsoft.com/en-us/library/bb447754), well worth a read if you want to do more advanced thins with your content before you import it into your game.
 
 Now for simplicities sake (and to prevent this post from becoming miles longer), just copy over the “CustomModelContent.cs” and “CustomModelProcessor.cs” from the XNA sample into your Content Pipeline Extension project and then update the following to match what we are doing here (I always find it best implement these things yourself to ensure you understand what and why they work), then update the following:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)&nbsp;&nbsp;&nbsp; Update the namespaces in the two new files to the new project namespace  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)&nbsp;&nbsp;&nbsp; In the “CustomModelContent.cs” class, update all references of “CustomModelTypes” to the assembly name of your ContentTypes project. e.g.:
+> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)    Update the namespaces in the two new files to the new project namespace  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)    In the “CustomModelContent.cs” class, update all references of “CustomModelTypes” to the assembly name of your ContentTypes project. e.g.:
 > 
 > Replace:
 > 
@@ -216,10 +216,10 @@ Now for simplicities sake (and to prevent this post from becoming miles longer),
 > 
 > [ContentSerializerRuntimeType("CustomContentTypes.CustomModel, CustomContentTypes")] [ContentSerializerRuntimeType("CustomContentTypes.CustomModel+ModelPart, CustomContentTypes")]
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)&nbsp;&nbsp;&nbsp; Add a reference to the Content Types project from the Pipeline Extension project  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)&nbsp;&nbsp;&nbsp; Add a reference to the Pipeline extension project from the Content project (note the actual content project where the model is stored NOT the content builder project)
+> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)    Add a reference to the Content Types project from the Pipeline Extension project  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)    Add a reference to the Pipeline extension project from the Content project (note the actual content project where the model is stored NOT the content builder project)
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)&nbsp;&nbsp;&nbsp; Finally, add a reference to the Content Types project from the game project
+> ![align=](http://www.dotnetscraps.com/samples/bullets/010.gif)    Finally, add a reference to the Content Types project from the game project
 
 With that in place you should be able to build the content project and now if you select the “Tank.fbx” you should be able to change the tanks content process from the default “Model – XNA Framework” to your new processor type “Custom Model” which uses your new content type class for storing the final built model in.
 
@@ -227,7 +227,7 @@ With that in place you should be able to build the content project and now if yo
 
 If you are really curious, just read through the content processor and content classes, the content class just describes the custom type and the processor does all the heavy lifting to populate the new custom model type with the information stored in the “Tank.fbx” model file.
 
-There is an alternate way, the [Skinned Model sample](http://bit.ly/13suysR) does not even use the CustomModelContent definition, in some ways it is a lot cleaner. Having the CustomModelContent class does mean you do not have to reference the custom type from the content project but I prefer completeness.&nbsp; The final choice is down to you really.
+There is an alternate way, the [Skinned Model sample](http://bit.ly/13suysR) does not even use the CustomModelContent definition, in some ways it is a lot cleaner. Having the CustomModelContent class does mean you do not have to reference the custom type from the content project but I prefer completeness.  The final choice is down to you really.
 
 * * *
 
@@ -235,13 +235,13 @@ There is an alternate way, the [Skinned Model sample](http://bit.ly/13suysR) doe
 
 ![width=](http://1.bp.blogspot.com/-HF2DT6oj6Ik/TZw1jzJzAaI/AAAAAAAAACU/OK5eBaSKgnE/s1600/im_back1.jpg)
 
-Now that we are finally hitting the home stretch to see what our labours have delivered, let’s just replace the game code one last time.&nbsp; So open up your game project and break out the Game class and replace it with the following:
+Now that we are finally hitting the home stretch to see what our labours have delivered, let’s just replace the game code one last time.  So open up your game project and break out the Game class and replace it with the following:
 
     #region Using Statements using System; using System.Collections.Generic; using Microsoft.Xna.Framework; using Microsoft.Xna.Framework.Content; using Microsoft.Xna.Framework.Graphics; using Microsoft.Xna.Framework.Input; using Microsoft.Xna.Framework.Storage; using Microsoft.Xna.Framework.GamerServices; using CustomContentTypes; #endregion namespace GameName1 { /// \<summary\> /// This is the main type for your game /// \</summary\> public class Game1 : Game { GraphicsDeviceManager graphics; SpriteBatch spriteBatch; CustomModel model; Matrix world; Matrix view; Matrix projection; public Game1() : base() { graphics = new GraphicsDeviceManager(this); Content.RootDirectory = "Content"; } /// \<summary\> /// Allows the game to perform any initialization it needs to before starting to run. /// This is where it can query for any required services and load any non-graphic /// related content. Calling base.Initialize will enumerate through any components /// and initialize them as well. /// \</summary\> protected override void Initialize() { // TODO: Add your initialization logic here base.Initialize(); } /// \<summary\> /// LoadContent will be called once per game and is the place to load /// all of your content. /// \</summary\> protected override void LoadContent() { // Create a new SpriteBatch, which can be used to draw textures. spriteBatch = new SpriteBatch(GraphicsDevice); // TODO: use this.Content to load your game content here model = Content.Load\<CustomModel\>("tank"); // Calculate camera view and projection matrices. view = Matrix.CreateLookAt(new Vector3(1000, 500, 0), new Vector3(0, 150, 0), Vector3.Up); projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.PiOver4, GraphicsDevice.Viewport.AspectRatio, 10, 10000); } /// \<summary\> /// UnloadContent will be called once per game and is the place to unload /// all content. /// \</summary\> protected override void UnloadContent() { // TODO: Unload any non ContentManager content here } /// \<summary\> /// Allows the game to run logic such as updating the world, /// checking for collisions, gathering input, and playing audio. /// \</summary\> /// \<param name="gameTime"\>Provides a snapshot of timing values.\</param\> protected override void Update(GameTime gameTime) { if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape)) Exit(); // TODO: Add your update logic here HandleInput(); // Update the world transform to make the model rotate. float time = (float)gameTime.TotalGameTime.TotalSeconds; world = Matrix.CreateRotationY(time \* 0.1f); base.Update(gameTime); } /// \<summary\> /// This is called when the game should draw itself. /// \</summary\> /// \<param name="gameTime"\>Provides a snapshot of timing values.\</param\> protected override void Draw(GameTime gameTime) { GraphicsDevice.Clear(Color.CornflowerBlue); // TODO: Add your drawing code here graphics.GraphicsDevice.Clear(Color.CornflowerBlue); model.Draw(world, view, projection); base.Draw(gameTime); } #region Handle Input /// \<summary\> /// Handles input for quitting the game. /// \</summary\> private void HandleInput() { KeyboardState currentKeyboardState = Keyboard.GetState(); GamePadState currentGamePadState = GamePad.GetState(PlayerIndex.One); // Check for exit. if (currentKeyboardState.IsKeyDown(Keys.Escape) || currentGamePadState.Buttons.Back == ButtonState.Pressed) { Exit(); } } #endregion } }
 
 > \*Note, just remember to update any different using statements (different namespaces and all)
 
-Walking through the code above all we have done is remove any model setup code because it is all done in our custom content class, all we need to do is tell it where it is in the world (The world / view and projection matrices) and tell it to draw.&nbsp; For added effect the model now spins as well ![Open-mouthed smile](/Images/wordpress/2013/05/wlEmoticon-openmouthedsmile1.png)
+Walking through the code above all we have done is remove any model setup code because it is all done in our custom content class, all we need to do is tell it where it is in the world (The world / view and projection matrices) and tell it to draw.  For added effect the model now spins as well ![Open-mouthed smile](/Images/wordpress/2013/05/wlEmoticon-openmouthedsmile1.png)
 
 Now I could go a lot further and tinker with both the content processor and the custom content type but I will let you play.
 
@@ -255,7 +255,7 @@ Now I could go a lot further and tinker with both the content processor and the 
 <p>Well the main purpose of this article was to go over all the requirements of using custom types in your MonoGame projects and some pointers as to where you should look to improve your asset pipeline to try and do as much with your content up front at build time.  This becomes crucial with platforms like iOS where every cycle counts (Do not get me started on Android)</p>
 <p><del>oh and to show you that it is possible to build a game using JUST the 2012 express editions, no longer are you chained to the 2010 versions (granted still nothing wrong with using 2010 <img class=](http://www.dontwasteyourtime.co.uk/wp-content/uploads/2012/03/so_long_fish.jpg))
 
-Everyone is now happy that VS2012 and VS2013 are first party citizens with XNA and MonoGame&nbsp; ![Open-mouthed smile](/Images/wordpress/2013/05/wlEmoticon-openmouthedsmile1.png)
+Everyone is now happy that VS2012 and VS2013 are first party citizens with XNA and MonoGame  ![Open-mouthed smile](/Images/wordpress/2013/05/wlEmoticon-openmouthedsmile1.png)
 
 This was a very technical article so if you have any comments / questions or queries please let me know below.
 

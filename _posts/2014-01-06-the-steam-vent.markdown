@@ -8,9 +8,9 @@ Every now and again it’s good to vent / flame or just scream at the world “W
 
 These are not aimed at any person or institution (unless named and shamed) and are just a bit of fun and hilarious release for me
 
-Episode 1:&nbsp;[Have a voice – Then use it!](http://darkgenesis.zenithmoon.com/the-steam-vent/have-a-voice-then-use-it/ "Have a voice – Then use it!")
+Episode 1: [Have a voice – Then use it!](http://darkgenesis.zenithmoon.com/the-steam-vent/have-a-voice-then-use-it/ "Have a voice – Then use it!")
 
-Episode 2:&nbsp;[Counter-productive comments](http://darkgenesis.zenithmoon.com/counter-productive-comments/ "Counter-productive comments")
+Episode 2: [Counter-productive comments](http://darkgenesis.zenithmoon.com/counter-productive-comments/ "Counter-productive comments")
 
-Episode 3:&nbsp;[Unnecessary deaths and implausible plotlines](http://darkgenesis.zenithmoon.com/the-steam-vent/unnecessary-deaths-and-implausible-plotlines/ "Unnecessary deaths and implausible plotlines")
+Episode 3: [Unnecessary deaths and implausible plotlines](http://darkgenesis.zenithmoon.com/the-steam-vent/unnecessary-deaths-and-implausible-plotlines/ "Unnecessary deaths and implausible plotlines")
 

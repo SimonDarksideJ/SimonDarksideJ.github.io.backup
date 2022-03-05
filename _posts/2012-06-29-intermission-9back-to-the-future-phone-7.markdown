@@ -12,13 +12,13 @@ tags:
 
 Marty you gotta see this…. (whoops, back to the tutorial)
 
-Hope you are not getting to dizzy now going back and forth from XNA GS 3.1 and GS 4.0 and the windows phone.&nbsp; But lets bring the phone project up to date with current efforts and also wrangle out some gotcha’s that have come to light.
+Hope you are not getting to dizzy now going back and forth from XNA GS 3.1 and GS 4.0 and the windows phone.  But lets bring the phone project up to date with current efforts and also wrangle out some gotcha’s that have come to light.
 
 **Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)**
 
 * * *
 
-&nbsp;
+ 
 
 ### Game save settings
 
@@ -26,7 +26,7 @@ Granted we do not have many settings to actually maintain on the phone at presen
 
 So first off copy the “FileManager.cs” and “KeyMappings.cs”, then update their namespace to match the rest of the project, “XNAStarTrooper2D\_Phone7”.
 
-Now it would be nice if that was it but first we have some alterations to handle, first up.&nbsp; The windows phone, unlike XBOX and windows does not use storage containers, instead it uses something called Isolated Storage.&nbsp; Pretty much the same thing just a different name.&nbsp; Second it has a slightly different way of creating files, so we will deal with that as well.&nbsp; What it boils down to is that pretty much all of our code in the File Manager is useless.&nbsp; So why copy the File Manager class in at all, well that is to try and keep the project unified.
+Now it would be nice if that was it but first we have some alterations to handle, first up.  The windows phone, unlike XBOX and windows does not use storage containers, instead it uses something called Isolated Storage.  Pretty much the same thing just a different name.  Second it has a slightly different way of creating files, so we will deal with that as well.  What it boils down to is that pretty much all of our code in the File Manager is useless.  So why copy the File Manager class in at all, well that is to try and keep the project unified.
 
 So first we need to add compiler pre-directives around our existing code first, so add:
 
@@ -198,7 +198,7 @@ So first we need to add compiler pre-directives around our existing code first, 
         
         
         
-        But we still see several red wavy lines under the xml serialisation functions.&nbsp; This is because the protection around DLL’s have changes (you will see this a lot) and the serialisation implementation has been updated slightly.&nbsp; This is not a biggie, just right click “References” in the solution explorer and select add reference, then select “System.XML.Serialization” and click ok.&nbsp; Finally add a using reference in the top of the class:
+        But we still see several red wavy lines under the xml serialisation functions.  This is because the protection around DLL’s have changes (you will see this a lot) and the serialisation implementation has been updated slightly.  This is not a biggie, just right click “References” in the solution explorer and select add reference, then select “System.XML.Serialization” and click ok.  Finally add a using reference in the top of the class:
         
         
         
@@ -216,9 +216,9 @@ So first we need to add compiler pre-directives around our existing code first, 
             
             
             
-            > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; Instead of Storage Container we use Isolated Storage, the major advantage of this is that we do not need to use the guide to get the user to choose a container, it is all built in.   
-            > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; How we access files is slightly different, we still use streams but as with the isolated storage, it is a lot simpler and easier to use.   
-            > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; No change in the serialisation, except that we now need to manually add a reference to the Serialisation DLL
+            > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Instead of Storage Container we use Isolated Storage, the major advantage of this is that we do not need to use the guide to get the user to choose a container, it is all built in.   
+            > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    How we access files is slightly different, we still use streams but as with the isolated storage, it is a lot simpler and easier to use.   
+            > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    No change in the serialisation, except that we now need to manually add a reference to the Serialisation DLL
             
             
             
@@ -258,7 +258,7 @@ So first we need to add compiler pre-directives around our existing code first, 
                     
                     
                     
-                    Last thing to update is in the KeyMappings class.&nbsp; Just remove the [Serializable] references (apparently they are only needed for binary serialisation).&nbsp; You can also remove all using statements except Microsoft.Xna.Framework.Input (this is a good general rule of thumb, to only declare what you actually intend to use in your code, same can be said of references).&nbsp; I will tidy up more later.
+                    Last thing to update is in the KeyMappings class.  Just remove the [Serializable] references (apparently they are only needed for binary serialisation).  You can also remove all using statements except Microsoft.Xna.Framework.Input (this is a good general rule of thumb, to only declare what you actually intend to use in your code, same can be said of references).  I will tidy up more later.
                     
                     
                     
@@ -322,13 +322,13 @@ So first we need to add compiler pre-directives around our existing code first, 
                             
                             
                             
-                            &nbsp;
+                             
                             
                             
                             * * *
                             
                             
-                            &nbsp;
+                             
                             
                             
                             ### Particle Engine
@@ -358,9 +358,9 @@ So first we need to add compiler pre-directives around our existing code first, 
                                     
                                     
                                     
-                                    > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; Updating the namespace of all the classes   
-                                    > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; Updating the type SpriteBlendMode in the ParticleEmitter class from SpriteBlendMode to BlendState (standard XNA 4.0 change) and the settings in each emitter to the BlendState equivalent.   
-                                    > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; Updating the SpriteBatch.begin call in the particle manager draw call to “spriteBatch.Begin(SpriteSortMode.Texture, pe.SpriteBlendMode)
+                                    > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Updating the namespace of all the classes   
+                                    > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Updating the type SpriteBlendMode in the ParticleEmitter class from SpriteBlendMode to BlendState (standard XNA 4.0 change) and the settings in each emitter to the BlendState equivalent.   
+                                    > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Updating the SpriteBatch.begin call in the particle manager draw call to “spriteBatch.Begin(SpriteSortMode.Texture, pe.SpriteBlendMode)
                                     
                                     
                                     
@@ -500,7 +500,7 @@ So first we need to add compiler pre-directives around our existing code first, 
                                                     
                                                     
                                                     
-                                                    &nbsp;
+                                                     
                                                     
                                                     
                                                     
@@ -510,7 +510,7 @@ So first we need to add compiler pre-directives around our existing code first, 
                                                         
                                                         
                                                         
-                                                        &nbsp;
+                                                         
                                                         
                                                         
                                                         
@@ -518,7 +518,7 @@ So first we need to add compiler pre-directives around our existing code first, 
                                                         
                                                         
                                                         
-                                                        &nbsp;
+                                                         
                                                         
                                                         
                                                         
@@ -568,7 +568,7 @@ So first we need to add compiler pre-directives around our existing code first, 
                                                             
                                                             
                                                             
-                                                            &nbsp;
+                                                             
                                                             
                                                             
                                                             
@@ -576,7 +576,7 @@ So first we need to add compiler pre-directives around our existing code first, 
                                                             
                                                             
                                                             
-                                                            &nbsp;
+                                                             
                                                             
                                                             
                                                             
@@ -590,17 +590,17 @@ So first we need to add compiler pre-directives around our existing code first, 
                                                                 
                                                                 
                                                                 
-                                                                &nbsp;
+                                                                 
                                                                 
                                                                 
                                                                 
-                                                                &nbsp;
+                                                                 
                                                                 
                                                                 
                                                                 * * *
                                                                 
                                                                 
-                                                                &nbsp;
+                                                                 
                                                                 
                                                                 
                                                                 ### Game Updates
@@ -806,7 +806,7 @@ So first we need to add compiler pre-directives around our existing code first, 
                                                                                 
                                                                                 
                                                                                 
-                                                                                That should do it but I also made one other change here that will help us later, I’ve set the velocity of the main background so that the sprite update loop will move the background instead of just incrementing it by 1 all the time in the StarTrooperBackground class.&nbsp; This enables us to change the speed of the background later.
+                                                                                That should do it but I also made one other change here that will help us later, I’ve set the velocity of the main background so that the sprite update loop will move the background instead of just incrementing it by 1 all the time in the StarTrooperBackground class.  This enables us to change the speed of the background later.
                                                                                 
                                                                                 
                                                                                 
@@ -852,7 +852,7 @@ So first we need to add compiler pre-directives around our existing code first, 
                                                                                     
                                                                                     
                                                                                     
-                                                                                    So all this update function does now is to shift the background up to the top once it has passed beyond view at the bottom of the screen.&nbsp; However if the background was moving up this would not work.
+                                                                                    So all this update function does now is to shift the background up to the top once it has passed beyond view at the bottom of the screen.  However if the background was moving up this would not work.
                                                                                     
                                                                                     
                                                                                     
@@ -882,23 +882,23 @@ So first we need to add compiler pre-directives around our existing code first, 
                                                                                         
                                                                                         
                                                                                         
-                                                                                        &nbsp;
+                                                                                         
                                                                                         
                                                                                         
                                                                                         * * *
                                                                                         
                                                                                         
-                                                                                        &nbsp;
+                                                                                         
                                                                                         
                                                                                         
                                                                                         ### Gotcha!!!
                                                                                         
                                                                                         
-                                                                                        Now a good friend of mine sent me a little gotcha for Window Phone 7 projects, this refers to using Keyboard state.&nbsp; if you use it the performance of your game will suck big time.&nbsp; Turns out he was dead right.
+                                                                                        Now a good friend of mine sent me a little gotcha for Window Phone 7 projects, this refers to using Keyboard state.  if you use it the performance of your game will suck big time.  Turns out he was dead right.
                                                                                         
                                                                                         
                                                                                         
-                                                                                        After commenting out keyboard references, a certain amount of LAG (which I put down to the emulator on my laptop) disappeared, and the get felt a lot smoother.&nbsp;
+                                                                                        After commenting out keyboard references, a certain amount of LAG (which I put down to the emulator on my laptop) disappeared, and the get felt a lot smoother. 
                                                                                         
                                                                                         
                                                                                         
@@ -906,10 +906,10 @@ So first we need to add compiler pre-directives around our existing code first, 
                                                                                         
                                                                                         
                                                                                         
-                                                                                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; Any Keyboard state attributes or updates   
-                                                                                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; The private functions for testing keys   
-                                                                                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; shortened the Player controls to remove the IsPressed function (just removed)   
-                                                                                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; Removed the TrooperFired function alltogether since we are currently using the touchscreen to fire&nbsp;&nbsp;&nbsp;
+                                                                                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Any Keyboard state attributes or updates   
+                                                                                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    The private functions for testing keys   
+                                                                                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    shortened the Player controls to remove the IsPressed function (just removed)   
+                                                                                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Removed the TrooperFired function alltogether since we are currently using the touchscreen to fire   
                                                                                         
                                                                                         
                                                                                         
@@ -919,13 +919,13 @@ So first we need to add compiler pre-directives around our existing code first, 
                                                                                         * * *
                                                                                         
                                                                                         
-                                                                                        &nbsp;
+                                                                                         
                                                                                         
                                                                                         
                                                                                         ### Conclusion
                                                                                         
                                                                                         
-                                                                                        &nbsp;
+                                                                                         
                                                                                         
                                                                                         
                                                                                         

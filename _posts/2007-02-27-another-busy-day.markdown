@@ -33,5 +33,5 @@ Riemer has written a new advanced Terrain tutorial which looks Fab (go thunderbi
 
 [Eric van Feggelen on his site](http://www.fegelein.com/) (which I linked to above) has done some other excellent stuff with [creating complex meshes](http://www.fegelein.com/?p=21) from only a few lines of code, also good!!
 
-![](http://www.fegelein.com/images/DrawTorus_2.png)&nbsp; ![](http://www.fegelein.com/images/DrawTorus_3.png)
+![](http://www.fegelein.com/images/DrawTorus_2.png)  ![](http://www.fegelein.com/images/DrawTorus_3.png)
 

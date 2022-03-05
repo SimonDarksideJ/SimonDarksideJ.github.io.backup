@@ -11,7 +11,7 @@ tags:
 - ramblings
 ---
 
-[![image](/Images/wordpress/2014/04/image_thumb.png "image")](/Images/wordpress/2014/04/image.png)&nbsp; [![image](/Images/wordpress/2014/04/image_thumb1.png "image")](/Images/wordpress/2014/04/image1.png)&nbsp;&nbsp;&nbsp;&nbsp; [![image](/Images/wordpress/2014/04/image_thumb2.png "image")](/Images/wordpress/2014/04/image2.png)
+[![image](/Images/wordpress/2014/04/image_thumb.png "image")](/Images/wordpress/2014/04/image.png)  [![image](/Images/wordpress/2014/04/image_thumb1.png "image")](/Images/wordpress/2014/04/image1.png)     [![image](/Images/wordpress/2014/04/image_thumb2.png "image")](/Images/wordpress/2014/04/image2.png)
 
 Just over a week ago the MonoGame released the latest full package for the MonoGame framework, now baselined at Version 3.2
 
@@ -60,13 +60,13 @@ Added some new support that was added with 3.2, including GamePads, keyboards an
 
 Still only supports Windows based platforms but we are working on a plan to increase the scope of the portable project for all client platforms
 
-MonoGame Portable is still maintained by me separate to the main MonoGame repo, so any issues please direct them to me and the separate [MonoGame.Portable fork](https://github.com/DDReaper/MonoGame/tree/develop.portable).&nbsp; once the new way of generating the Portable package and it gets consumed by the main project, this too will join the official family.
+MonoGame Portable is still maintained by me separate to the main MonoGame repo, so any issues please direct them to me and the separate [MonoGame.Portable fork](https://github.com/DDReaper/MonoGame/tree/develop.portable).  once the new way of generating the Portable package and it gets consumed by the main project, this too will join the official family.
 
 * * *
 
 ## A note about the recent release of Windows Phone 8.1
 
-At present MonoGame does not support Windows Phone 8.1 APP projects, this includes the new Universal App templates.&nbsp; Nearly managed to add support through the NuGet packages but there are just enough subtle differences still between Windows 8.1 and Windows Phone 8.1 that it will require code changes to handle.
+At present MonoGame does not support Windows Phone 8.1 APP projects, this includes the new Universal App templates.  Nearly managed to add support through the NuGet packages but there are just enough subtle differences still between Windows 8.1 and Windows Phone 8.1 that it will require code changes to handle.
 
 Although I suspect a PR will no doubt appear soon enough to resolve this.
 

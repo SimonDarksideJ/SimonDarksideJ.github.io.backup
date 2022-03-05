@@ -35,7 +35,7 @@ You can grab VS Code direct from the [VS Code website](https://code.visualstudio
 
 ### [https://code.visualstudio.com/](https://code.visualstudio.com/ "https://code.visualstudio.com/")
 
-If you are on Windows, you will notice the installer also got an upgrade, so they can deliver more features directly to your machine.&nbsp; If you do not like automatic updating, you can also turn that off if you wish ([https://code.visualstudio.com/Docs/supporting/FAQ#\_how-do-i-opt-out-of-vs-code-autoupdates](https://code.visualstudio.com/Docs/supporting/FAQ#_how-do-i-opt-out-of-vs-code-autoupdates "https://code.visualstudio.com/Docs/supporting/FAQ#\_how-do-i-opt-out-of-vs-code-autoupdates")).
+If you are on Windows, you will notice the installer also got an upgrade, so they can deliver more features directly to your machine.  If you do not like automatic updating, you can also turn that off if you wish ([https://code.visualstudio.com/Docs/supporting/FAQ#\_how-do-i-opt-out-of-vs-code-autoupdates](https://code.visualstudio.com/Docs/supporting/FAQ#_how-do-i-opt-out-of-vs-code-autoupdates "https://code.visualstudio.com/Docs/supporting/FAQ#\_how-do-i-opt-out-of-vs-code-autoupdates")).
 
 ## Documentation
 
@@ -59,13 +59,13 @@ This can be found at:
 
 This plugin works on both **MacOS** and **Windows** and gives you the following capabilities:
 
-- An option to enable VS Code integration (_Editor –\> Assets –\> Enable Integration_), this updates your solution files and (more importantly) keeps them in sync.&nbsp; This also sets the preferred external tool editor in the Unity preferences.  
+- An option to enable VS Code integration (_Editor –\> Assets –\> Enable Integration_), this updates your solution files and (more importantly) keeps them in sync.  This also sets the preferred external tool editor in the Unity preferences.  
 **\*Note, the old “Sync MonoDevelop” option is now gone in the Unity editor from V5.2**
 - It writes out the necessary (and sometimes hard to find) VS Code configuration files, including the ability to hide “non-code” files in the editor (hides things like .sln, .csproj and the ever present unity .meta files)  
 There are a couple of other settings in there to help speed up the integration.
-- Automatically launches VS Code direct to your project folder, EVERY-TIME.&nbsp; no longer do you have to worry about keeping that window open, or switching around if you work on multiple projects
+- Automatically launches VS Code direct to your project folder, EVERY-TIME.  no longer do you have to worry about keeping that window open, or switching around if you work on multiple projects
 
-> _One thing to be aware of, once you enable the VSCode integration, changing your preferred code editor in the External Tools preferences will have no effect as the plugin takes over opening code files.&nbsp; If you want to use another editor, you will have to disable the integration first using the setting shown above!_
+> _One thing to be aware of, once you enable the VSCode integration, changing your preferred code editor in the External Tools preferences will have no effect as the plugin takes over opening code files.  If you want to use another editor, you will have to disable the integration first using the setting shown above!_
 
 These are just the main highlights as there are more features in there as well.
 
@@ -79,7 +79,7 @@ Sadly this is **Mac only** (you lucky Mac people!), although there are rumours o
 
 ## OmniSharp Update
 
-The back-end of VS Code got an overhaul, predominately the version of [OmniSharp](http://www.omnisharp.net/)used by VS code got updated.&nbsp; This means even more code editing features are now available and it got a slight performance boost (what more speed?)
+The back-end of VS Code got an overhaul, predominately the version of [OmniSharp](http://www.omnisharp.net/)used by VS code got updated.  This means even more code editing features are now available and it got a slight performance boost (what more speed?)
 
 This updates and upgrades VS Code’s features in:
 
@@ -116,11 +116,11 @@ You seriously do not realise how powerful this feature is until you use it, no m
 
 ![width=](https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/035---overloaded-power-boards-%5Bss%5D--tojpeg_1430212171878_x2.jpg)
 
-There is a lot to take in here and the steps to get up and running with Unity have become far simpler.&nbsp; I would highly recommend reading the rest of the release notes for the latest release of VSCode ([https://code.visualstudio.com/updates](https://code.visualstudio.com/updates "https://code.visualstudio.com/updates")), there are some nice surprises in there.
+There is a lot to take in here and the steps to get up and running with Unity have become far simpler.  I would highly recommend reading the rest of the release notes for the latest release of VSCode ([https://code.visualstudio.com/updates](https://code.visualstudio.com/updates "https://code.visualstudio.com/updates")), there are some nice surprises in there.
 
-What is in store in the future?&nbsp; Without a roadmap it is hard to be sure, but you can expect that the VSCode team are working hard to deliver the best of the best of the best (heck, get Will smith in here to do this bit) in lightweight code editing tools.
+What is in store in the future?  Without a roadmap it is hard to be sure, but you can expect that the VSCode team are working hard to deliver the best of the best of the best (heck, get Will smith in here to do this bit) in lightweight code editing tools.
 
-So if you want to debug on Windows, you will still need full Visual Studio for the moment, but since [Unity have also tightly integrated](http://blogs.msdn.com/b/visualstudio/archive/2015/09/08/unity-5-2-and-visual-studio-tools-for-unity-2-1.aspx) the new [Visual Studio Tools for Unity](https://www.visualstudio.com/en-us/features/unitytools-vs.aspx) and even added [Visual Studio Community edition](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx) in to the Windows installer, you should be all set.
+So if you want to debug on Windows, you will still need full Visual Studio for the moment, but since [Unity have also tightly integrated](http://blogs.msdn.com/b/visualstudio/archive/2015/09/08/unity-5-2-and-visual-studio-tools-for-unity-2-1) the new [Visual Studio Tools for Unity](https://www.visualstudio.com/en-us/features/unitytools-vs) and even added [Visual Studio Community edition](https://www.visualstudio.com/en-us/products/visual-studio-community-vs) in to the Windows installer, you should be all set.
 
 If you just want to code, then [VSCode](https://code.visualstudio.com/)is the tool to use, when you are ready to deploy then switch on over to full Visual Studio with your built projects (or if you need to debug for the time being, unless you are a MAC user ![Confused smile](/Images/wordpress/2015/09/wlEmoticon-confusedsmile.png)), either way, the future is looking pretty bright!.
 

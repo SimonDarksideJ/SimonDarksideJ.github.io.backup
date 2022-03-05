@@ -57,7 +57,7 @@ Just be sure to use the “Model –\> Save” options, the export options are f
 
 > \*Note
 > 
-> I could not confirm (just because I did not have any assets to test with) if LithUnwrap will also convert / save all the features of a model such as Animations, Bones.&nbsp; It does support Meshes and Textures (including the ability to UnWrap / change the UV mapping of a model) but you should check if you have Animations or Bones in your model if they are also exported.&nbsp; Granted if you have no other option you might just have to live with it and re-create them in your tool of choice
+> I could not confirm (just because I did not have any assets to test with) if LithUnwrap will also convert / save all the features of a model such as Animations, Bones.  It does support Meshes and Textures (including the ability to UnWrap / change the UV mapping of a model) but you should check if you have Animations or Bones in your model if they are also exported.  Granted if you have no other option you might just have to live with it and re-create them in your tool of choice
 
 * * *
 
@@ -67,9 +67,9 @@ Just be sure to use the “Model –\> Save” options, the export options are f
 
 In my journey i followed many posts and hints of ways i could convert .X files, here why most of them did not work:
 
-- [Milkshape](http://chumbalum.swissquake.ch/ms3d/index.html) – Was free to TRY and could read .X files. But does not allow saving in the trial.&nbsp; Granted it was not much and you may want to buy Milkshape if you wish
+- [Milkshape](http://chumbalum.swissquake.ch/ms3d/index.html) – Was free to TRY and could read .X files. But does not allow saving in the trial.  Granted it was not much and you may want to buy Milkshape if you wish
 
-- [TrueSpace3D](http://en.wikipedia.org/wiki/TrueSpace) – Truespace was made free several years back after Microsoft bought them, can be tricky to find but its a great Free 3D tool.&nbsp; However it cannot import .X files no matter what people say! ([\<Download Link\>](http://download.cnet.com/TrueSpace/3000-6677_4-10187286.html))
+- [TrueSpace3D](http://en.wikipedia.org/wiki/TrueSpace) – Truespace was made free several years back after Microsoft bought them, can be tricky to find but its a great Free 3D tool.  However it cannot import .X files no matter what people say! ([\<Download Link\>](http://download.cnet.com/TrueSpace/3000-6677_4-10187286.html))
 
 - Online / downloadable model converters – looked at several but ALL require purchase, anything from $100 to $$$$, seems it is a very hot market.
 
@@ -77,7 +77,7 @@ In my journey i followed many posts and hints of ways i could convert .X files, 
 
 - [ModDb.com](http://www.moddb.com/) had some great tools (like xconv) but they generally only convert into 1 format or another, usually for specific Game engines like Modern Warfare
 
-- [Blender](http://www.blender.org/) is a great and FREE 3D modelling tool, however it can only Export .X files.&nbsp; I think it did Import .X files at one point but such things have been lost to the past (I went back as far as version 2.49b but no luck)
+- [Blender](http://www.blender.org/) is a great and FREE 3D modelling tool, however it can only Export .X files.  I think it did Import .X files at one point but such things have been lost to the past (I went back as far as version 2.49b but no luck)
 
 - Do it yourself – found a nice article on how you could write your own converter / importer for the .X format, but I’m just not going there right now – [http://www.opengl.org/discussion\_boards/showthread.php/166733-Convert-from-X-or-OBJ-to-openGL-in-C](http://www.opengl.org/discussion_boards/showthread.php/166733-Convert-from-X-or-OBJ-to-openGL-in-C)
 
@@ -87,7 +87,7 @@ In my journey i followed many posts and hints of ways i could convert .X files, 
 
 Right I’m going back to my futures series, next up is the [SunBurn engine](http://www.synapsegaming.com/products/sunburn/engine/) which has raised a fair few eyebrows of late with announcements such as this:
 
-[http://www.synapsegaming.com/blogs/johnk/archive/2012/10/23/announcing-sunburn-2-1-platform-independent-game-engine.aspx](http://www.synapsegaming.com/blogs/johnk/archive/2012/10/23/announcing-sunburn-2-1-platform-independent-game-engine.aspx)
+[http://www.synapsegaming.com/blogs/johnk/archive/2012/10/23/announcing-sunburn-2-1-platform-independent-game-engine](http://www.synapsegaming.com/blogs/johnk/archive/2012/10/23/announcing-sunburn-2-1-platform-independent-game-engine)
 
 Later
 
@@ -105,4 +105,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js" language="javascript"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)&nbsp;<script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList.aspx?amid=9502591)
+// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20) <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

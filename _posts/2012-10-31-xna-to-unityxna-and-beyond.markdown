@@ -20,7 +20,7 @@ The project itself is fascinating but at its heart basically just a wrapper arou
 
 So let’s see what UNITYXNA gives us.
 
-> Another caveat that I will mention, at the time of writing UnityXNA holds great promise but is still just a published proof of concept, its only limitation is that it has only been written for doing 2D sprite based games so far.&nbsp; It could do 3D in the future but it will need some support to get there.&nbsp; As Stated above if you are ok with getting your hands dirty this will be an exception easy route for XNA developers to use Unity to deploy their games.
+> Another caveat that I will mention, at the time of writing UnityXNA holds great promise but is still just a published proof of concept, its only limitation is that it has only been written for doing 2D sprite based games so far.  It could do 3D in the future but it will need some support to get there.  As Stated above if you are ok with getting your hands dirty this will be an exception easy route for XNA developers to use Unity to deploy their games.
 
 * * *
 
@@ -30,7 +30,7 @@ So let’s see what UNITYXNA gives us.
 
 It was a short while ago that I got involved with Barnaby with the [UnityXNA](https://github.com/mvi/UnityXNA) project (I’ve known Barnaby aka [MVINetwork](https://twitter.com/mvinetwork) for several years now through my XNAUK years), the chance to use XNA knowledge in Unity3D was very appealing.
 
-Unity3D (to the uninitiated) is a full-fledged multi-platform game building engine and framework, it has a lot of power and for the beginner game developer it is a very appealing option, it is power through has a small price as you have to learn the way Unity want you to make games.&nbsp; To XNA, Unity is a very unfamiliar beast.
+Unity3D (to the uninitiated) is a full-fledged multi-platform game building engine and framework, it has a lot of power and for the beginner game developer it is a very appealing option, it is power through has a small price as you have to learn the way Unity want you to make games.  To XNA, Unity is a very unfamiliar beast.
 
 Its main power comes in the platforms is supports, at the time of writing Unity now supports:
 
@@ -42,15 +42,15 @@ Its main power comes in the platforms is supports, at the time of writing Unity 
 - Linux
 - Flash Player
 
-Unity has a similar Content Management system which promotes re-use and certainly has a lot more extensibility out of the box, plus it is backed by a huge assets store full of pre made assets, audio, artwork and even full components chocked full of stuff.&nbsp; I know a fair few people leaving the XNA ship have jumped on to Unity and never looked back.
+Unity has a similar Content Management system which promotes re-use and certainly has a lot more extensibility out of the box, plus it is backed by a huge assets store full of pre made assets, audio, artwork and even full components chocked full of stuff.  I know a fair few people leaving the XNA ship have jumped on to Unity and never looked back.
 
 Unity also has lots of plug-ins and features plus the ability to do some 3D modelling in its editor, there are particle and physics systems built in to the engine and a fair about of documentation and tutorials about how to use and make the best of Unity.
 
-As you might expect through all these features come at a price, up until fairly recently the entry price for Unity was $500 for the basic version and $1500 for the professional edition.&nbsp; The basic version is now FREE however and available on most platforms.&nbsp; Store prices vary but there are some free assets to get you started in most cases.&nbsp; I have not seen any figures myself, however most people I talk to say that if you going to be serious in Unity then you will need the Professional version.
+As you might expect through all these features come at a price, up until fairly recently the entry price for Unity was $500 for the basic version and $1500 for the professional edition.  The basic version is now FREE however and available on most platforms.  Store prices vary but there are some free assets to get you started in most cases.  I have not seen any figures myself, however most people I talk to say that if you going to be serious in Unity then you will need the Professional version.
 
-The cost does not stop there however as there are additional charges if you want to deploy to any platform other than Windows / Web then there is an extra $500 per platform cost for the plug in to deploy, you can still develop and test for free (although for IOS you will need a Mac to test, can code in Windows).&nbsp; These costs are as of Unity 3.5 and may change with the release of V4.
+The cost does not stop there however as there are additional charges if you want to deploy to any platform other than Windows / Web then there is an extra $500 per platform cost for the plug in to deploy, you can still develop and test for free (although for IOS you will need a Mac to test, can code in Windows).  These costs are as of Unity 3.5 and may change with the release of V4.
 
-So a powerful package but with an associated cost.&nbsp; There is more to say about Unity but not strictly relevant to this article.
+So a powerful package but with an associated cost.  There is more to say about Unity but not strictly relevant to this article.
 
 * * *
 
@@ -72,7 +72,7 @@ To use the package simply copy it to the Unity install folder under “Editor\St
 
 > **C:\Program Files (x86)\Unity\Editor\Standard Packages**
 
-&nbsp;
+ 
 
 Now create a folder on your machine for the project and then start a new project in Unity using “File –\> New Project”
 
@@ -98,11 +98,11 @@ This is what we get in the project contents:
 
 [![image](/Images/wordpress/2012/10/image_thumb14.png "image")](/Images/wordpress/2012/10/image14.png)
 
-Now unlike MonoGame, Unity does not need you to pre-process your assets before loading them in to Unity, you can just copy them directly into the Unity project by dragging and dropping them into the Content Folder.&nbsp; There are a few exceptions that I’ve found:
+Now unlike MonoGame, Unity does not need you to pre-process your assets before loading them in to Unity, you can just copy them directly into the Unity project by dragging and dropping them into the Content Folder.  There are a few exceptions that I’ve found:
 
 - UnityXNA will handle spritefont files for text but Unity itself does not understand the “.spritefont” extension. The Simple answer to this for UnityXNA is rename them to “.TXT” files, no other change needed.
 
-- XNA supports Microsoft’s DirectX “.X” format for 3D models, however Unity3D does not.&nbsp; After several hours of searching I do have a solution for using .X files in Unity but that is for another post.&nbsp; UnityXNA only supports 2D at the moment so it is out of the bounds for this article.
+- XNA supports Microsoft’s DirectX “.X” format for 3D models, however Unity3D does not.  After several hours of searching I do have a solution for using .X files in Unity but that is for another post.  UnityXNA only supports 2D at the moment so it is out of the bounds for this article.
 
 Other than that there is NO change, all your assets will work as is, +1 for Unity.
 
@@ -134,7 +134,7 @@ While developing you can run your project at any time by hitting the big “Play
 
 > \*\*Note
 > 
-> You must have your “Start” scene selected / open for it to run, else you will just see a big blue window.&nbsp; If in doubt, double click the “Scene” object in the Project window.
+> You must have your “Start” scene selected / open for it to run, else you will just see a big blue window.  If in doubt, double click the “Scene” object in the Project window.
 
 When you have your game all up and running and you are ready to deploy, then Unity again makes this process very easy (I could argue it is even easier than [MonoGame](http://monogame.codeplex.com) at present).
 
@@ -166,7 +166,7 @@ At present the framework is purely targeting at 2D graphics and sprite manipulat
 - Input is currently limited to keyboard (but easily extendable)
 - No SoundEffectInstance or other advanced sound options but this is mainly because Unity does everything as a “Sound/song” so you just need to alter your implementation. (Example in the GIT source)
 
-Now to most, this will be enough to turn you away from this amazing project but remember, Barnaby has done all the hard work of getting the base XNA components and drawing pipeline in place and those bits that are missing are just additional wrappers and / or missing extensions.&nbsp; I myself added sprite scaling in only a matter of minutes.
+Now to most, this will be enough to turn you away from this amazing project but remember, Barnaby has done all the hard work of getting the base XNA components and drawing pipeline in place and those bits that are missing are just additional wrappers and / or missing extensions.  I myself added sprite scaling in only a matter of minutes.
 
 It is not complete but there is a lot to build from, if you have purely a 2D project and want to deploy to web, this is a very easy and attractive option.
 
@@ -194,4 +194,4 @@ As with the MonoGame article I will release my sample above when I get a chance 
 <script type="text/javascript">var dzone_title = 'XNA to UnityXNA and Beyond';</script>  
 <script type="text/javascript">var dzone_blurb = 'XNA to UnityXNA and Beyond';</script>  
 <script type="text/javascript">var dzone_style = '2';</script>  
-<script language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">var addthis_pub="runxc1";</script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20) &nbsp; <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script> [CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList.aspx?amid=9502591) 
+<script language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">var addthis_pub="runxc1";</script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)   <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script> [CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591) 

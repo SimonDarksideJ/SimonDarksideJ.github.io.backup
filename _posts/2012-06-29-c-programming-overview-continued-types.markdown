@@ -356,7 +356,7 @@ In _C#_, a value type can be either a struct or an enumeration. _C#_ contains a 
 > 
 > <!--CRLF-->
 > 
-> 4:&nbsp; 
+> 4:  
 > 
 > <!--CRLF-->
 > 
@@ -514,7 +514,7 @@ In _C#_, a value type can be either a struct or an enumeration. _C#_ contains a 
 > 
 > #### 1.12 Struct
 > 
-> A “struct” is a value type. It can contain constructors, constants, fields, methods, properties, indexers, operators, and nested types. The struct type is suitable for representing objects such as Point, Rectangle, and Colour. When creating a struct object using the new operator, it gets created, and the appropriate constructor is called.&nbsp; Structs can be instantiated without using the new operator. If you do not use the new operator, the fields will remain unassigned and the object cannot be used until all of the fields are initialized.
+> A “struct” is a value type. It can contain constructors, constants, fields, methods, properties, indexers, operators, and nested types. The struct type is suitable for representing objects such as Point, Rectangle, and Colour. When creating a struct object using the new operator, it gets created, and the appropriate constructor is called.  Structs can be instantiated without using the new operator. If you do not use the new operator, the fields will remain unassigned and the object cannot be used until all of the fields are initialized.
 > 
 > You cannot declare a class using the keyword struct. Classes and structs are semantically different. A struct is a value type, while a class is a reference type.
 > 
@@ -556,7 +556,7 @@ In _C#_, a value type can be either a struct or an enumeration. _C#_ contains a 
 > 
 > <!--CRLF-->
 > 
-> 5:&nbsp; 
+> 5:  
 > 
 > <!--CRLF-->
 > 

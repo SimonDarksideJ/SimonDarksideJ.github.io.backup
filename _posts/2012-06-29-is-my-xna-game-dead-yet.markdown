@@ -10,18 +10,18 @@ tags:
 
 Strange title but quite apt for this post. ( **Be warned this is a heavy Phone XNA based sample** )
 
-Now I was going to do an intermission to the tutorial series, taking Audio that bit further in XNA, mainly for the Windows Phone 7.&nbsp; But it appears there are two issues with that:
+Now I was going to do an intermission to the tutorial series, taking Audio that bit further in XNA, mainly for the Windows Phone 7.  But it appears there are two issues with that:
 
 1. XACT (blah) is not supported on the Windows Phone 7, boo hoo
 2. Playing standard Audio 3D, does not have the right effect in the emulator. 
 
-Granted I could write lengthy step by step instructions on how to implement 3D audio at this time but you are far better off reading the XNA help, it is very lengthy on this matter.&nbsp; I may return to this later but who knows, granted V.Bad of me to just drop that, but at this point in time you are probably better off just using the functionality mentioned in the previous post for now, especially if you are just starting out. (KISS, start small and build on that later, unless it is an audio only game!!).
+Granted I could write lengthy step by step instructions on how to implement 3D audio at this time but you are far better off reading the XNA help, it is very lengthy on this matter.  I may return to this later but who knows, granted V.Bad of me to just drop that, but at this point in time you are probably better off just using the functionality mentioned in the previous post for now, especially if you are just starting out. (KISS, start small and build on that later, unless it is an audio only game!!).
 
-So that aside, what has prompted this little interruption to the series.&nbsp; In short the Creators Club release of the new and updated Gamestate Management Sample.
+So that aside, what has prompted this little interruption to the series.  In short the Creators Club release of the new and updated Gamestate Management Sample.
 
-Now I’m usually a big fanboy of all the CC samples and kits and they show you a great deal of how to implement features in the real world with your games, in fact several people I know (and also including the XNA team themselves) have actually built games using nothing but the samples (refer to Shawn H’s post on his last downtime sample).&nbsp; However, this time around, the updated Game State Management sample just does not fit into this category.&nbsp; Features I would have expected to be part of the sample are just not there and worse, it crashes.
+Now I’m usually a big fanboy of all the CC samples and kits and they show you a great deal of how to implement features in the real world with your games, in fact several people I know (and also including the XNA team themselves) have actually built games using nothing but the samples (refer to Shawn H’s post on his last downtime sample).  However, this time around, the updated Game State Management sample just does not fit into this category.  Features I would have expected to be part of the sample are just not there and worse, it crashes.
 
-(In retrospect the new Bounce Sample, when released was found to have an issue, was quickly pulled and is not back up, flying.&nbsp; A good Physics and drawing sample for the phone)
+(In retrospect the new Bounce Sample, when released was found to have an issue, was quickly pulled and is not back up, flying.  A good Physics and drawing sample for the phone)
 
 So what went wrong and how can we fix it.
 
@@ -33,7 +33,7 @@ To get the sample in a fit state, we are missing several features:
 - Remove all non phone device support (it is well known that polling the keyboard on the phone has a detrimental effect on performance)
 - More varied transitions 
 
-This does focus this sample purely on the phone, but the CC has created a separate GSM for the Phone and where it comes to UI and presentation, this is really good idea.&nbsp; Share your game engine and some of the core rendering features, but when it comes to layout and control styles, keep it separate.
+This does focus this sample purely on the phone, but the CC has created a separate GSM for the Phone and where it comes to UI and presentation, this is really good idea.  Share your game engine and some of the core rendering features, but when it comes to layout and control styles, keep it separate.
 
 So let us begin.
 
@@ -41,22 +41,22 @@ As always the Sample project is available [on the CodePlex site](http://startroo
 
 ### **\*\*Update**
 
-I’ve added an extra Q&A section below to respond to some of the questions on this article.&nbsp; Please also note the [second part of this tutorial here](/blogs/darkgenesis/archive/2010/11/08/there-and-back-again-a-tombstoning-tale-the-return-of-the-application.aspx), which covers some more general usage patterns for tombstoning and best practices.
+I’ve added an extra Q&A section below to respond to some of the questions on this article.  Please also note the [second part of this tutorial here](/blogs/darkgenesis/archive/2010/11/08/there-and-back-again-a-tombstoning-tale-the-return-of-the-application), which covers some more general usage patterns for tombstoning and best practices.
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 ### \*\*Update
 
-Thanks to the community, there is now finally a way to test tombstoning in the emulator.&nbsp; Just need to follow the instructions in [this Post](http://nicksnettravels.builttoroam.com/post/2010/07/15/Windows-Phone-7-beta-Debugging-Tombstoned-XNA-Games-with-Visual-Studio.aspx), or follow the comments in this [forum post](http://forums.xna.com/forums/t/57309.aspx) on the CC site, plus the notes on [Michael Klucher’s blog](http://klucher.com/blog/why-is-my-game-not-installed-in-the-windows-phone-emulator).
+Thanks to the community, there is now finally a way to test tombstoning in the emulator.  Just need to follow the instructions in [this Post](http://nicksnettravels.builttoroam.com/post/2010/07/15/Windows-Phone-7-beta-Debugging-Tombstoned-XNA-Games-with-Visual-Studio), or follow the comments in this [forum post](http://forums.xna.com/forums/t/57309) on the CC site, plus the notes on [Michael Klucher’s blog](http://klucher.com/blog/why-is-my-game-not-installed-in-the-windows-phone-emulator).
 
 Basically it involved 2 things:
 
 > ![](http://www.dotnetscraps.com/samples/bullets/007.gif) Changing the Application target for your game in the WMAppManifest.XML, from targeting “App.Game” to “ **NormalApp** ” (actually I found changing to anything else works)   
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif) Then you have to modify your Project properties –\> Configuration Manager and uncheck the “Deploy” option when building your game.&nbsp; This makes deployment manual so you can debug your game like you can do with Silverlight apps
+> ![](http://www.dotnetscraps.com/samples/bullets/007.gif) Then you have to modify your Project properties –\> Configuration Manager and uncheck the “Deploy” option when building your game.  This makes deployment manual so you can debug your game like you can do with Silverlight apps
 
 Now on with the show.
 
@@ -66,28 +66,28 @@ Now on with the show.
 
 ### 1. Tombstoning
 
-Tombstoning is a little black art when it comes to the phone, it is more wildly known in Silverlight circles because of the way that Siverlight pages are rendered and executed, this all boils down to the execution model for the Windows Phone 7.&nbsp; Many have talked and balked about the lack of Multi-tasking in the windows phone. (which I have to agree with MS comments on this, they are making a consumer based phone with the focus of the app/game you are running now FOR THE FIRST RELEASE.&nbsp; Focused.&nbsp; Multi-tasking if done wrong or badly, both by the OS or apps on it, will drain battery life and kill the performance of foreground apps.&nbsp; So code better and smarter for now).
+Tombstoning is a little black art when it comes to the phone, it is more wildly known in Silverlight circles because of the way that Siverlight pages are rendered and executed, this all boils down to the execution model for the Windows Phone 7.  Many have talked and balked about the lack of Multi-tasking in the windows phone. (which I have to agree with MS comments on this, they are making a consumer based phone with the focus of the app/game you are running now FOR THE FIRST RELEASE.  Focused.  Multi-tasking if done wrong or badly, both by the OS or apps on it, will drain battery life and kill the performance of foreground apps.  So code better and smarter for now).
 
-So when you lose focus from your app/game, either when an in-coming call is received, or the user hits the Windows or Bing Key (back is just exit really) then the current app or game is terminated and pushed on to the Back queue (as the user has moved forward in their use of the device).&nbsp; When the user then hit’s back (enough times to navigate back to your app/game) then your game/app is launched again from the back queue.&nbsp;
+So when you lose focus from your app/game, either when an in-coming call is received, or the user hits the Windows or Bing Key (back is just exit really) then the current app or game is terminated and pushed on to the Back queue (as the user has moved forward in their use of the device).  When the user then hit’s back (enough times to navigate back to your app/game) then your game/app is launched again from the back queue. 
 
 ### This process is called Tombstoning.
 
-Now when your game / app (this could get tedious, I’m going to stick with game ![Smile](/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8446.wlEmoticonsmile_5F00_78174405.png)) is pushed in to the Back queue, the game is given a certain amount of time to save it is current state before it is cleared from memory, allowing the state of the game to be preserved.&nbsp;&nbsp; When your game re-launches it can search for this saved state and use it to bring the game back to the state it was when the user was last playing it.&nbsp; Sounds complicated?, well it is not.
+Now when your game / app (this could get tedious, I’m going to stick with game ![Smile](/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8446.wlEmoticonsmile_5F00_78174405.png)) is pushed in to the Back queue, the game is given a certain amount of time to save it is current state before it is cleared from memory, allowing the state of the game to be preserved.   When your game re-launches it can search for this saved state and use it to bring the game back to the state it was when the user was last playing it.  Sounds complicated?, well it is not.
 
 See the diagram below (courtesy of Rob (English god) Miles and Andy (slightly shorter than Rob) Wigly’s , Jumpstart Program):
 
-![Phone Execution Model1](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5707.PhoneExecutionModel1_5F00_thumb_5F00_6BE5A411.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Phone Execution Model2](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8424.PhoneExecutionModel2_5F00_thumb_5F00_7439539B.png)
+![Phone Execution Model1](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5707.PhoneExecutionModel1_5F00_thumb_5F00_6BE5A411.png)              ![Phone Execution Model2](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8424.PhoneExecutionModel2_5F00_thumb_5F00_7439539B.png)
 
-As you can see from the above, your game starts as normal, loads it is assets, presents a start screen and so on until your game begins (bullets start flying, Enemies surround you and the player desperately tries to escape.&nbsp; Or is that just me).&nbsp; Then a call comes in and your game is requested to Terminate, this gives you approx 10 seconds (in the background) to save the state of your game before it dies.&nbsp; When the users call is finished, the game is automatically started again.&nbsp; At this point you have a chance to retrieve your saved state, set the game back up at the point it was closed and let the player loose again.&nbsp; one thing to bear in mind though is that you have only another 10 seconds in which to do this again, or you are dead for good.
+As you can see from the above, your game starts as normal, loads it is assets, presents a start screen and so on until your game begins (bullets start flying, Enemies surround you and the player desperately tries to escape.  Or is that just me).  Then a call comes in and your game is requested to Terminate, this gives you approx 10 seconds (in the background) to save the state of your game before it dies.  When the users call is finished, the game is automatically started again.  At this point you have a chance to retrieve your saved state, set the game back up at the point it was closed and let the player loose again.  one thing to bear in mind though is that you have only another 10 seconds in which to do this again, or you are dead for good.
 
 In Silverlight as in XNA, Tombstoning appears as events, that are automatically fired my the Phone OS, these are (in Phone events and XNA event respectively):
 
-- Launching – Fired when ever the game is launched.&nbsp; There is not a respective event in XNA, so it is just the game instantiation.
+- Launching – Fired when ever the game is launched.  There is not a respective event in XNA, so it is just the game instantiation.
 - Activated (OnActivated) – Fired after the game is loaded but before the first time Update or Draw are called
 - DeActivated (OnDeactivated) – Fired as the game is requested to activate
 - Closing (OnExiting) – Fired when deactivation is complete (or possibly when the deactivation time out expires) 
 
-Now you may ask why does not the phone do this automatically, why not take a snapshot of my game state in memory and save it somewhere.&nbsp; Good question, but what if your game is 50Mb big or more, or sounds and music are halfway through playing.&nbsp; Way too complicated and potentially detrimental to the phones performance (plus what happens if your game crashes while the phone is trying to automatically save it!).&nbsp; Better for the phone just to kill it, free up the memory (but give you a second wind to sort yourself out before it does).
+Now you may ask why does not the phone do this automatically, why not take a snapshot of my game state in memory and save it somewhere.  Good question, but what if your game is 50Mb big or more, or sounds and music are halfway through playing.  Way too complicated and potentially detrimental to the phones performance (plus what happens if your game crashes while the phone is trying to automatically save it!).  Better for the phone just to kill it, free up the memory (but give you a second wind to sort yourself out before it does).
 
 To further assist this Tombstoning process, the Phone gives you a dedicated area in memory (like the isolated storage but separate) to store your state and the phone indexes this using it is own constructs to ensure it is managed, strangely enough called the Phone application services State object.
 
@@ -95,42 +95,42 @@ So how do we make use of this feature and not force the player to restart their 
 
 First let’s overview what we have in the Game State Management (GSM) sample and then improve it.
 
-&nbsp;
+ 
 
 * * *
 
 ### The GSM structure
 
-The GSM is a nice little architecture that has been around since the V1 days of XNA and has been improved and updated where breaking changes happen in the XNA library.&nbsp; Up until XNA 4, it has been very hardy and a good starting point for anyone wanting to publish their game with a Free framework.
+The GSM is a nice little architecture that has been around since the V1 days of XNA and has been improved and updated where breaking changes happen in the XNA library.  Up until XNA 4, it has been very hardy and a good starting point for anyone wanting to publish their game with a Free framework.
 
 It looks like this:
 
 ![GSM Object Model](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3731.GSMObjectModel_5F00_thumb_5F00_0FEAB307.png)
 
-It centres around a single game screen state model, with a list of current game screens to draw and a set of event handlers with some UI components to control navigation.&nbsp; As you pass from one screen to the next, the old screens are thrown away and replace by new ones, the engine itself never has to change, it just draws what screens it is told to.&nbsp; You also have the option of using an intermediary “Loading” screen, which only moves to the next game screen when it has finished loading (in case you have a lot of assets to load n a level of your game for example).&nbsp; You can even layer screens so you can draw layered views, the Main menu screen for example has two components, a Background screen (for the background image) and the Menu text separate so it can be animated separately.
+It centres around a single game screen state model, with a list of current game screens to draw and a set of event handlers with some UI components to control navigation.  As you pass from one screen to the next, the old screens are thrown away and replace by new ones, the engine itself never has to change, it just draws what screens it is told to.  You also have the option of using an intermediary “Loading” screen, which only moves to the next game screen when it has finished loading (in case you have a lot of assets to load n a level of your game for example).  You can even layer screens so you can draw layered views, the Main menu screen for example has two components, a Background screen (for the background image) and the Menu text separate so it can be animated separately.
 
 Behind this is a rudimentary input framework (mainly for the menu’s) and a set of default screens including:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; A Main Menu (with background)   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; An Options screen with some default options   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; A Basic Gameplay screen (for you to build on top of)   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; A Paused screen   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; A Message Box screen   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; A Loading screen
+> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    A Main Menu (with background)   
+> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    An Options screen with some default options   
+> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    A Basic Gameplay screen (for you to build on top of)   
+> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    A Paused screen   
+> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    A Message Box screen   
+> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    A Loading screen
 
-Behind each screen is a set of common options, that control if it is active or not, visible or not.&nbsp; New for the phone is if Gestures are enabled and which ones, plus a host of elements and events needed for passing screen control around.
+Behind each screen is a set of common options, that control if it is active or not, visible or not.  New for the phone is if Gestures are enabled and which ones, plus a host of elements and events needed for passing screen control around.
 
-The Screen manager is the core of this control, it maintains the screens, adding or destroying them as necessary, sorting them and initiating drawing and updates.&nbsp; Each screen can override these controls of course but they are all managed from one place to make it easier.
+The Screen manager is the core of this control, it maintains the screens, adding or destroying them as necessary, sorting them and initiating drawing and updates.  Each screen can override these controls of course but they are all managed from one place to make it easier.
 
 So with all this in place how do we sort out Tombstoning?
 
-&nbsp;
+ 
 
 * * *
 
 ### Putting your game away first
 
-When you are adding Tombstoning you can either use the Phones built in events through the “PhoneApplicationService” or you can use the built in extensions available within the XNA framework.&nbsp; We will discuss the XNA events here, but if you are interested, I have included the Phone events within the sample project.
+When you are adding Tombstoning you can either use the Phones built in events through the “PhoneApplicationService” or you can use the built in extensions available within the XNA framework.  We will discuss the XNA events here, but if you are interested, I have included the Phone events within the sample project.
 
 The events exposed through XNA are implemented simply by overriding the functions in the XNA game class like so:
 
@@ -192,13 +192,13 @@ The events exposed through XNA are implemented simply by overriding the function
     
     
     
-    The original GSM already has some functions to serialise and deserialise the game screens currently active.&nbsp; the main problem with these are:
+    The original GSM already has some functions to serialise and deserialise the game screens currently active.  the main problem with these are:
     
     
     
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; They do not work in the Phones state model   
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; When the game exits it always you to the screen you were on when the game exits (even the game screen, however it just restarts it)   
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; It does not actually work, it both crashes when you launch the game for the second time you run the project.&nbsp; I have modified it to work, but it is better if it is handled properly.
+    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    They do not work in the Phones state model   
+    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    When the game exits it always you to the screen you were on when the game exits (even the game screen, however it just restarts it)   
+    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    It does not actually work, it both crashes when you launch the game for the second time you run the project.  I have modified it to work, but it is better if it is handled properly.
     
     
     
@@ -206,7 +206,7 @@ The events exposed through XNA are implemented simply by overriding the function
     
     
     
-    Next up we have two state parts of any game were hosting, the screen state (to hold which screen were on, however it is made up) and the Game state (to hold what is happening in our game).&nbsp;
+    Next up we have two state parts of any game were hosting, the screen state (to hold which screen were on, however it is made up) and the Game state (to hold what is happening in our game). 
     
     
     
@@ -214,9 +214,9 @@ The events exposed through XNA are implemented simply by overriding the function
     
     
     
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; First: Pause the game, by setting the current screen to the Paused Screen class (not this screen was not in the original Phone GSM class, so I copied and fixed it up for this project)   
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; Second: Create a list of the current active screen   
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)&nbsp;&nbsp;&nbsp; Third: Save the list of active screens to the Phone State Store
+    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    First: Pause the game, by setting the current screen to the Paused Screen class (not this screen was not in the original Phone GSM class, so I copied and fixed it up for this project)   
+    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Second: Create a list of the current active screen   
+    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Third: Save the list of active screens to the Phone State Store
     
     
     
@@ -278,7 +278,7 @@ The events exposed through XNA are implemented simply by overriding the function
         
         
         
-        The important line there is the last one.&nbsp; The Phone state list is just a dictionary collection like any other, using a Key value to identify the state data you are storing, this is paired with the actual state you want to store.
+        The important line there is the last one.  The Phone state list is just a dictionary collection like any other, using a Key value to identify the state data you are storing, this is paired with the actual state you want to store.
         
         
         
@@ -428,7 +428,7 @@ The events exposed through XNA are implemented simply by overriding the function
             
             
             
-            &nbsp;
+             
             
             
             
@@ -436,7 +436,7 @@ The events exposed through XNA are implemented simply by overriding the function
             
             
             
-            It also holds two sets of lists, one for storing the enemies on screen and another for storing all the shots.&nbsp; If those classes hold custom classes or data, then you will also have to create separate classes to store the minimum about of information needed for recreating objects, plus functions within the gamestate class to convert them (as shown above)
+            It also holds two sets of lists, one for storing the enemies on screen and another for storing all the shots.  If those classes hold custom classes or data, then you will also have to create separate classes to store the minimum about of information needed for recreating objects, plus functions within the gamestate class to convert them (as shown above)
             
             
             
@@ -444,7 +444,7 @@ The events exposed through XNA are implemented simply by overriding the function
             
             
             
-            &nbsp;
+             
             
             
             
@@ -458,17 +458,17 @@ The events exposed through XNA are implemented simply by overriding the function
                 
                 
                 
-                &nbsp;
+                 
                 
                 
                 
-                &nbsp;
+                 
                 
                 
                 * * *
                 
                 
-                &nbsp;
+                 
                 
                 
                 ### Now to finish the magic trick, lets get it back.
@@ -478,15 +478,15 @@ The events exposed through XNA are implemented simply by overriding the function
                 
                 
                 
-                Now as the Phone state object works just like any other dictionary, we just need to find our state and pull it back, one thing to keep in mind is that it may not be there, remember the first time we start up our game the activation event is still called before the game has finished loading, so before we try we need to check.&nbsp; then it is just a case of doing the reverse operation with both the Menu and Game states.
+                Now as the Phone state object works just like any other dictionary, we just need to find our state and pull it back, one thing to keep in mind is that it may not be there, remember the first time we start up our game the activation event is still called before the game has finished loading, so before we try we need to check.  then it is just a case of doing the reverse operation with both the Menu and Game states.
                 
                 
                 
-                So first the menus, we need to get back to the right screen first right?.&nbsp; So when we stored the Screen states, we just collected a list of screens in the correct order, so we need to turn this list back into the set of classes used by the game and put them back in to play (now this was where the CC GSM sample was good as I re-learned something new, getting a class from a string):
+                So first the menus, we need to get back to the right screen first right?.  So when we stored the Screen states, we just collected a list of screens in the correct order, so we need to turn this list back into the set of classes used by the game and put them back in to play (now this was where the CC GSM sample was good as I re-learned something new, getting a class from a string):
                 
                 
                 
-                &nbsp;
+                 
                 
                 
                 
@@ -588,7 +588,7 @@ The events exposed through XNA are implemented simply by overriding the function
                     
                     
                     
-                    We then go on to Load the Game Save state and restore that, then you would need to check if you need to restore it and load up game objects if the player was in the middle of playing the game.&nbsp; In a similar way to the way that the screens were restored, you would need to load up your game object up on screen. (I’ve left this part out as its down to how your game is made!)
+                    We then go on to Load the Game Save state and restore that, then you would need to check if you need to restore it and load up game objects if the player was in the middle of playing the game.  In a similar way to the way that the screens were restored, you would need to load up your game object up on screen. (I’ve left this part out as its down to how your game is made!)
                     
                     
                     
@@ -596,7 +596,7 @@ The events exposed through XNA are implemented simply by overriding the function
                     
                     
                     
-                    &nbsp;
+                     
                     
                     
                     
@@ -650,11 +650,11 @@ The events exposed through XNA are implemented simply by overriding the function
                         
                         
                         
-                        &nbsp;
+                         
                         
                         
                         
-                        I have also enhanced the basic start up of the game, so that instead of just showing the Main Menu.&nbsp; It uses an overloaded Load function to also show a Splashscreen before the Main menu is shown (i’ve copied the Splashscreen.JPG from silverlight projects to show this).
+                        I have also enhanced the basic start up of the game, so that instead of just showing the Main Menu.  It uses an overloaded Load function to also show a Splashscreen before the Main menu is shown (i’ve copied the Splashscreen.JPG from silverlight projects to show this).
                         
                         
                         
@@ -662,19 +662,19 @@ The events exposed through XNA are implemented simply by overriding the function
                         
                         
                         
-                        &nbsp;
+                         
                         
                         
                         * * *
                         
                         
-                        &nbsp;
+                         
                         
                         
                         ### Now for a bit of bad news
                         
                         
-                        I will leave you with one other issue that exists right now.&nbsp; There is a bug in the XNA framework in the BETA, this cause the game to actually crash when it exits and not close down cleanly.
+                        I will leave you with one other issue that exists right now.  There is a bug in the XNA framework in the BETA, this cause the game to actually crash when it exits and not close down cleanly.
                         
                         
                         
@@ -690,19 +690,19 @@ The events exposed through XNA are implemented simply by overriding the function
                         
                         
                         
-                        &nbsp;
+                         
                         
                         
                         * * *
                         
                         
-                        &nbsp;
+                         
                         
                         
                         ### The End, or is it…..
                         
                         
-                        Well nearly the end.&nbsp; the original GSM had one other little flaw.&nbsp; You could not get out of it!
+                        Well nearly the end.  the original GSM had one other little flaw.  You could not get out of it!
                         
                         
                         
@@ -750,17 +750,17 @@ The events exposed through XNA are implemented simply by overriding the function
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 
                                 * * *
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 
                                 ### Q&A
@@ -769,69 +769,69 @@ The events exposed through XNA are implemented simply by overriding the function
                                 
                                 
                                 
-                                &nbsp; Hello, thanks for your great Tombstoning Tutorial.
+                                  Hello, thanks for your great Tombstoning Tutorial.
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 Actually I got some questions:
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 You have 4 Eventhandlers:
                                 
                                 
                                 
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PhoneApplicationService.Current.Launching += new System.EventHandler\<LaunchingEventArgs\>(Application\_Launching);
+                                            PhoneApplicationService.Current.Launching += new System.EventHandler\<LaunchingEventArgs\>(Application\_Launching);
                                 
                                 
                                 
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PhoneApplicationService.Current.Activated += new System.EventHandler\<ActivatedEventArgs\>(Application\_Activated);
+                                            PhoneApplicationService.Current.Activated += new System.EventHandler\<ActivatedEventArgs\>(Application\_Activated);
                                 
                                 
                                 
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PhoneApplicationService.Current.Deactivated += new System.EventHandler\<DeactivatedEventArgs\>(Application\_Deactivated);
+                                            PhoneApplicationService.Current.Deactivated += new System.EventHandler\<DeactivatedEventArgs\>(Application\_Deactivated);
                                 
                                 
                                 
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PhoneApplicationService.Current.Closing += new System.EventHandler\<ClosingEventArgs\>(Application\_Closing);
+                                            PhoneApplicationService.Current.Closing += new System.EventHandler\<ClosingEventArgs\>(Application\_Closing);
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 What’s the difference between the Method:
                                 
                                 
                                 
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; private void Application\_Activated(object sender, LaunchingEventArgs e)
+                                        private void Application\_Activated(object sender, LaunchingEventArgs e)
                                 
                                 
                                 
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {
+                                        {
                                 
                                 
                                 
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Debug.WriteLine(“Phone Application Launching”);
+                                            Debug.WriteLine(“Phone Application Launching”);
                                 
                                 
                                 
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }
+                                        }
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 That refers to the event handler and the Method:
                                 
@@ -841,29 +841,29 @@ The events exposed through XNA are implemented simply by overriding the function
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 I didn’t get the difference.
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 What I know is, that the Application\_Activated() is called, when the App is reactivated 😉
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 But what I don’t know is on which state which method is called.
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 On Exiting do I dispose there?
                                 
@@ -879,17 +879,17 @@ The events exposed through XNA are implemented simply by overriding the function
                                 - What’s the difference between the “PhoneApplicationService.Current.Activated” and event handler and the “OnActivated” method. 
                                 
                                 
-                                Short answer nothing.&nbsp; There is nothing different about these two implementations, just that one is provided by the Phone frame work (The Phone application service) and one is provided by the XNA framework which overrides the base Phone application service event.&nbsp; The main difference is when they are called, the Phone Application service call will finish BEFORE the XNA framework method starts.&nbsp; You can see this if you put debug messages in each of the areas.
+                                Short answer nothing.  There is nothing different about these two implementations, just that one is provided by the Phone frame work (The Phone application service) and one is provided by the XNA framework which overrides the base Phone application service event.  The main difference is when they are called, the Phone Application service call will finish BEFORE the XNA framework method starts.  You can see this if you put debug messages in each of the areas.
                                 
                                 
                                 
-                                The Only real difference in XNA as to which one you use depends on the dependency your tombstoning code has, which is more trial and error.&nbsp; However using the Phone Application service events wil give you a few more milliseconds to store any state you need, but it is marginal the extra time you get.
+                                The Only real difference in XNA as to which one you use depends on the dependency your tombstoning code has, which is more trial and error.  However using the Phone Application service events wil give you a few more milliseconds to store any state you need, but it is marginal the extra time you get.
                                 
                                 
                                 - When is the Activated function called 
                                 
                                 
-                                The Activated function (more detail in the follow up blog) in XNA is called just after the XNA game constructor.&nbsp;
+                                The Activated function (more detail in the follow up blog) in XNA is called just after the XNA game constructor. 
                                 
                                 
                                 
@@ -899,11 +899,11 @@ The events exposed through XNA are implemented simply by overriding the function
                                 - Do I dispose in the OnExiting method 
                                 
                                 
-                                Disposing in XNA properly is a fine art.&nbsp; The best guidance is to dispose or clean up your content in the “UnLoadContent” method, save any state information you require in the OnDeactivated method and then any final clean-up in the OnExiting function.
+                                Disposing in XNA properly is a fine art.  The best guidance is to dispose or clean up your content in the “UnLoadContent” method, save any state information you require in the OnDeactivated method and then any final clean-up in the OnExiting function.
                                 
                                 
                                 
-                                However in practice only the first two are required on the Phone as the base framework does a very good job of clearing you out when you close.&nbsp; This is different to the XBOX and Windows where you need to be more careful.&nbsp; As always it’s good practice to clean up the room after you leave, especially if you are making a multi-platform game, just on the phone it’s a little less important (Shoot me if anyone thinks this is wrong / lazy 😀 )
+                                However in practice only the first two are required on the Phone as the base framework does a very good job of clearing you out when you close.  This is different to the XBOX and Windows where you need to be more careful.  As always it’s good practice to clean up the room after you leave, especially if you are making a multi-platform game, just on the phone it’s a little less important (Shoot me if anyone thinks this is wrong / lazy 😀 )
                                 
                                 
                                 
@@ -918,13 +918,13 @@ The events exposed through XNA are implemented simply by overriding the function
                                 * * *
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 
                                 ### Conclusion
                                 
                                 
-                                There are a few little extras in the sample code, look if you dare.&nbsp; But were not quite done yet, lets see what else we can add to the base Game State Management sample and improve it further.
+                                There are a few little extras in the sample code, look if you dare.  But were not quite done yet, lets see what else we can add to the base Game State Management sample and improve it further.
                                 
                                 
                                 

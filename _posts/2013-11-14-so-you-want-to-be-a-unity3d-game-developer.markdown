@@ -14,7 +14,7 @@ tags:
 
 Unity3D has been making great strides of late, it is has been one of the big go-to middleware engines for budding iOS and Android game developers and even expanded its reach to Web, Windows desktop and other platforms.
 
-> Be sure to also&nbsp; check out the sister post to this article “[Monster Set of Resources](http://darkgenesis.zenithmoon.com/monster-set-of-free-resources-for-game-design)” for even more content, I try to keep these up to date with new additions as I find them.
+> Be sure to also  check out the sister post to this article “[Monster Set of Resources](http://darkgenesis.zenithmoon.com/monster-set-of-free-resources-for-game-design)” for even more content, I try to keep these up to date with new additions as I find them.
 
 It is recent Microsoft partnerships have also been making big waves and have spurred on its adoption, introducing both the Windows Phone 8 and Windows 8 platforms and more recently with the announcement of Xbox One support, best of all it is completely free for all Microsoft platforms.
 
@@ -26,7 +26,7 @@ Unity3D comes in three flavours:
 > 
 > ### ![align=](http://www.dotnetscraps.com/samples/bullets/001.gif) Unity3D Free
 > 
-> As it says on the box, this is the default Free tier for Unity, you get access to the editor and all the basic features, however some advanced performance, profiling and graphics features are disabled.&nbsp; You can still make one heck of a game if you do it right and it is perfect while you are learning Unity.&nbsp; But once your game gets beyond a certain size you may find the lack of the pro features limiting.
+> As it says on the box, this is the default Free tier for Unity, you get access to the editor and all the basic features, however some advanced performance, profiling and graphics features are disabled.  You can still make one heck of a game if you do it right and it is perfect while you are learning Unity.  But once your game gets beyond a certain size you may find the lack of the pro features limiting.
 > 
 > With Unity 5, this gap has closed a lot with the installed editor, the Pro version now focuses on the new Cloud features.
 > 
@@ -64,8 +64,8 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 
 ## Books
 
-- Mastering Unity 2D Game Development (by yours trully :D) –&nbsp;[http://darkgenesis.zenithmoon.com/portfolio/mastering-unity-2d-game-development/](http://darkgenesis.zenithmoon.com/portfolio/mastering-unity-2d-game-development/ "Mastering Unity 2D Game Development")
-- Unity 3D UI Essentials (also by me) –&nbsp;[http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials")
+- Mastering Unity 2D Game Development (by yours trully :D) – [http://darkgenesis.zenithmoon.com/portfolio/mastering-unity-2d-game-development/](http://darkgenesis.zenithmoon.com/portfolio/mastering-unity-2d-game-development/ "Mastering Unity 2D Game Development")
+- Unity 3D UI Essentials (also by me) – [http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials")
 
 ## Project based training – learn by doing
 
@@ -81,7 +81,7 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 - CGVillage Unity3D tutorial videos – [http://www.cg-village.com/unity-3d-game-engine-tutorials](http://www.cg-village.com/unity-3d-game-engine-tutorials)
 - Making Mecanim compatible rigs in blender – [http://www.youtube.com/watch?v=Z9iUm2llVPc&feature=youtu.be](http://www.youtube.com/watch?v=Z9iUm2llVPc&feature=youtu.be)
 - Mouse and touch behaviours plus more video tutorials – [http://www.devination.com/](http://www.devination.com/)
-- How to Build games video series (recommended)&nbsp; – [http://www.youtube.com/watch?v=lIR4PYHfjys](http://www.youtube.com/watch?v=lIR4PYHfjys)
+- How to Build games video series (recommended)  – [http://www.youtube.com/watch?v=lIR4PYHfjys](http://www.youtube.com/watch?v=lIR4PYHfjys)
 - Unity 2D (in 3D, pre 4.3) game tutorial (beginner) – [http://www.youtube.com/watch?v=DZucUpZtg2U](http://www.youtube.com/watch?v=DZucUpZtg2U)
 - Unity3D basics video tutorial (V3) – but it is the Tornado Twins, follow and see! (and if you have never heard of TT, they correct that immediately) – [https://www.youtube.com/watch?v=5wxe1IUu5QA&feature=relmfu](https://www.youtube.com/watch?v=5wxe1IUu5QA&feature=relmfu)
 - The End to end RPG Unity tutorial – [http://www.youtube.com/user/CodingMadeEasy?feature=watch](http://www.youtube.com/user/CodingMadeEasy?feature=watch)
@@ -116,13 +116,13 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 
 ## Scripting links and help
 
-- Nick Gravelyn’s awesome Unity Toolbag crammed full of scripts –&nbsp;[https://github.com/nickgravelyn/UnityToolbag](https://github.com/nickgravelyn/UnityToolbag "Unity Toolbag by Nick Gravelyn")
+- Nick Gravelyn’s awesome Unity Toolbag crammed full of scripts – [https://github.com/nickgravelyn/UnityToolbag](https://github.com/nickgravelyn/UnityToolbag "Unity Toolbag by Nick Gravelyn")
 - Cat like codings scripting series – [http://catlikecoding.com/unity/tutorials/](http://catlikecoding.com/unity/tutorials/)
 - Creating graphics in Unity3D – [http://catlikecoding.com/unity/tutorials/graphs/](http://catlikecoding.com/unity/tutorials/graphs/)
 - How to make collidable curves – [http://playmedusa.com/blog/how-to-create-collidable-curves-trail-lines-whatever-in-unity3d/](http://playmedusa.com/blog/how-to-create-collidable-curves-trail-lines-whatever-in-unity3d/)
-- Curve Rotating script for Unity3D by Fivearcher&nbsp;– [http://pastebin.com/izFTvt4Z](http://pastebin.com/izFTvt4Z)
-- Move using a curve script by Fivearcher&nbsp;– [http://pastebin.com/TFEL9MLg](http://pastebin.com/TFEL9MLg)
-- Scale by curve script by Fivearcher&nbsp;– [http://pastebin.com/Bh6GVfEw](http://pastebin.com/Bh6GVfEw)
+- Curve Rotating script for Unity3D by Fivearcher – [http://pastebin.com/izFTvt4Z](http://pastebin.com/izFTvt4Z)
+- Move using a curve script by Fivearcher – [http://pastebin.com/TFEL9MLg](http://pastebin.com/TFEL9MLg)
+- Scale by curve script by Fivearcher – [http://pastebin.com/Bh6GVfEw](http://pastebin.com/Bh6GVfEw)
 - Tiny tween lib for Unity3D and XNA by Nick Gravelyn – [https://gist.github.com/nickgravelyn/4953988](https://gist.github.com/nickgravelyn/4953988)
 - Unity scripts to charge a weapon – [http://www.otakunozoku.com/unity-scripts-to-charge-up-a-weapon/](http://www.otakunozoku.com/unity-scripts-to-charge-up-a-weapon/)
 - Piracy prevention script for Unity3D – [http://www.otakunozoku.com/unity3d-piracy-prevention/](http://www.otakunozoku.com/unity3d-piracy-prevention/)
@@ -133,8 +133,8 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 - Huge collection of community scripts in one Reddit post – [http://www.reddit.com/r/Unity3D/comments/24u3l1/a\_collection\_of\_scripts\_i\_add\_to\_everything\_i\_make/](http://www.reddit.com/r/Unity3D/comments/24u3l1/a_collection_of_scripts_i_add_to_everything_i_make/ "http://www.reddit.com/r/Unity3D/comments/24u3l1/a\_collection\_of\_scripts\_i\_add\_to\_everything\_i\_make/")
 - How to Code HUD Cooldown Bars – [http://t.co/Gu1NkybMVP](http://t.co/Gu1NkybMVP "http://t.co/Gu1NkybMVP")
 - Frustrated with [**unity3d**](https://twitter.com/unity3d)‘s simplistic script defines interface, Here is a little GUI for it – [https://t.co/eAtEaLftTd](https://t.co/eAtEaLftTd "https://t.co/eAtEaLftTd")
-- Walk through of pausing your game without pausing –&nbsp;[http://gamasutra.com/blogs/AdamWinkels/20140326/213972/Lovers\_in\_a\_Dangerous\_Spacetime\_DevLog\_9\_Pausing\_Without\_Pausing.php](http://gamasutra.com/blogs/AdamWinkels/20140326/213972/Lovers_in_a_Dangerous_Spacetime_DevLog_9_Pausing_Without_Pausing.php "Lovers in a Dangerous spacetime post mortem on pausing")
-- Twitter API helper library –&nbsp;[http://stevenyau.wordpress.com/2013/12/26/working-with-twitter-api-1-1-with-unity/](http://stevenyau.wordpress.com/2013/12/26/working-with-twitter-api-1-1-with-unity/)
+- Walk through of pausing your game without pausing – [http://gamasutra.com/blogs/AdamWinkels/20140326/213972/Lovers\_in\_a\_Dangerous\_Spacetime\_DevLog\_9\_Pausing\_Without\_Pausing.php](http://gamasutra.com/blogs/AdamWinkels/20140326/213972/Lovers_in_a_Dangerous_Spacetime_DevLog_9_Pausing_Without_Pausing.php "Lovers in a Dangerous spacetime post mortem on pausing")
+- Twitter API helper library – [http://stevenyau.wordpress.com/2013/12/26/working-with-twitter-api-1-1-with-unity/](http://stevenyau.wordpress.com/2013/12/26/working-with-twitter-api-1-1-with-unity/)
 
 ## Design or 3D modelling help
 
@@ -164,7 +164,7 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 - Optimisation for Unity – crucial stuff – [http://www.gamasutra.com/blogs/AmirFassihi/20130828/199134/0\_\_60\_fps\_in\_14\_days\_What\_we\_learned\_trying\_to\_optimize\_our\_game\_using\_Unity3D.php](http://www.gamasutra.com/blogs/AmirFassihi/20130828/199134/0__60_fps_in_14_days_What_we_learned_trying_to_optimize_our_game_using_Unity3D.php)
 - On Hunting the Uncommon Elephant – [http://blogs.unity3d.com/2014/04/22/on-hunting-the-uncommon-elephant/](http://blogs.unity3d.com/2014/04/22/on-hunting-the-uncommon-elephant/ "http://blogs.unity3d.com/2014/04/22/on-hunting-the-uncommon-elephant/")
 - Build process automation for Unity3D – [http://www.justapixel.co.uk/pipeline-automation/](http://www.justapixel.co.uk/pipeline-automation/ "http://www.justapixel.co.uk/pipeline-automation/")
-- Focused article on mobile game optimisation in Unity –&nbsp;[http://indiedevspot.azurewebsites.net/2014/03/12/optimizing-mobile-games-in-unity/](http://indiedevspot.azurewebsites.net/2014/03/12/optimizing-mobile-games-in-unity/ "Mobile game optimisation")
+- Focused article on mobile game optimisation in Unity – [http://indiedevspot.azurewebsites.net/2014/03/12/optimizing-mobile-games-in-unity/](http://indiedevspot.azurewebsites.net/2014/03/12/optimizing-mobile-games-in-unity/ "Mobile game optimisation")
 
 ## Platform specific
 
@@ -174,8 +174,8 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 - Unity3D Custom Fog Shader on Windows Phone 8 – [http://www.software7.com/blog/unity-custom-fog-shader-on-windows-phone-8/](http://www.software7.com/blog/unity-custom-fog-shader-on-windows-phone-8/)
 - Profiler tips for WIndows 8 – [http://www.markermetro.com/2013/07/technical/using-the-unity-profiler-for-performance-profiling-windows-store-apps-in-unity-4-2/](http://www.markermetro.com/2013/07/technical/using-the-unity-profiler-for-performance-profiling-windows-store-apps-in-unity-4-2/)
 - Porting Tips and HowTo (plus code) for WP8 / Win8 – [http://unity3d.com/pages/windows/porting](http://unity3d.com/pages/windows/porting)
-- Great post from Lee Stott about starting with Unity on Windows Phone – [http://blogs.msdn.com/b/uk\_faculty\_connection/archive/2013/09/11/getting-started-building-windows-phone-games-with-unity.aspx](http://blogs.msdn.com/b/uk_faculty_connection/archive/2013/09/11/getting-started-building-windows-phone-games-with-unity.aspx)
-- Interesting series on tackling porting problems to Windows 8 for Unity –&nbsp;[http://www.npruehs.de/tag/unity3d/](http://www.npruehs.de/tag/unity3d/ "Windows 8 porting tips and tricks")
+- Great post from Lee Stott about starting with Unity on Windows Phone – [http://blogs.msdn.com/b/uk\_faculty\_connection/archive/2013/09/11/getting-started-building-windows-phone-games-with-unity](http://blogs.msdn.com/b/uk_faculty_connection/archive/2013/09/11/getting-started-building-windows-phone-games-with-unity)
+- Interesting series on tackling porting problems to Windows 8 for Unity – [http://www.npruehs.de/tag/unity3d/](http://www.npruehs.de/tag/unity3d/ "Windows 8 porting tips and tricks")
 
 ## Animation and Mecanim
 
@@ -187,16 +187,16 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 - 50 Tips for working with Unity on DevMag – [http://devmag.org.za/2012/07/12/50-tips-for-working-with-unity-best-practices/](http://devmag.org.za/2012/07/12/50-tips-for-working-with-unity-best-practices/)
 - Common pitfalls with Unity on UnityGems – [http://unitygems.com/mistakes1/](http://unitygems.com/mistakes1/)
 - Integrating Unity with WordPress – [http://www.ana-todor.ro/integrating-unity-player-in-your-wordpress-blog/03/10/2012/](http://www.ana-todor.ro/integrating-unity-player-in-your-wordpress-blog/03/10/2012/)
-- How to dig holes in terrain&nbsp; – [http://www.blog.radiator.debacle.us/2012/08/how-to-dig-holes-in-unity3d-terrains.html](http://www.blog.radiator.debacle.us/2012/08/how-to-dig-holes-in-unity3d-terrains.html)
+- How to dig holes in terrain  – [http://www.blog.radiator.debacle.us/2012/08/how-to-dig-holes-in-unity3d-terrains.html](http://www.blog.radiator.debacle.us/2012/08/how-to-dig-holes-in-unity3d-terrains.html)
 - Adding AdMob to Unity – [http://fastegggames.com/blog/2013/3/30/tutorial-admob](http://fastegggames.com/blog/2013/3/30/tutorial-admob)
 - AdRotator support for Unity3D – [http://getadrotator.com/new-beta-for-adrotator-v1-integration-for-unity3d/](http://getadrotator.com/new-beta-for-adrotator-v1-integration-for-unity3d/)
-- how to create awesome terrains&nbsp; – [http://www.bitsalive.com/how-to-create-awesome-terrains-in-unity/](http://www.bitsalive.com/how-to-create-awesome-terrains-in-unity/)
+- how to create awesome terrains  – [http://www.bitsalive.com/how-to-create-awesome-terrains-in-unity/](http://www.bitsalive.com/how-to-create-awesome-terrains-in-unity/)
 - Unity3D & SQLite – [http://wiseman-safiq.blogspot.co.uk/2010/11/unity-3d-sqlite-database-connection.html](http://wiseman-safiq.blogspot.co.uk/2010/11/unity-3d-sqlite-database-connection.html)
 - Creating destructables on GameDevTuts – [http://gamedev.tutsplus.com/tutorials/implementation/how-to-make-an-object-shatter-into-smaller-fragments-in-unity/](http://gamedev.tutsplus.com/tutorials/implementation/how-to-make-an-object-shatter-into-smaller-fragments-in-unity/)
 - Using Free MoCap data in Unity3D – [http://alastaira.wordpress.com/2013/07/24/using-free-mocap-data-for-game-character-animation-in-unity/](http://alastaira.wordpress.com/2013/07/24/using-free-mocap-data-for-game-character-animation-in-unity/)
 - Integration tips and tricks – [http://sdkgame.com/blog/2013/9/9/our-favourite-unity-plugins](http://sdkgame.com/blog/2013/9/9/our-favourite-unity-plugins)
 - Unity reference search engine – [https://www.google.com/cse/home?cx=001712401338047450041:csfhqk-trfa](https://www.google.com/cse/home?cx=001712401338047450041:csfhqk-trfa)
-- Yet another Terrain tutorial – [http://blogs.msdn.com/b/designmichel/archive/2012/09/24/the-3d-and-windows-8-unity-3d-4.aspx](http://blogs.msdn.com/b/designmichel/archive/2012/09/24/the-3d-and-windows-8-unity-3d-4.aspx)
+- Yet another Terrain tutorial – [http://blogs.msdn.com/b/designmichel/archive/2012/09/24/the-3d-and-windows-8-unity-3d-4](http://blogs.msdn.com/b/designmichel/archive/2012/09/24/the-3d-and-windows-8-unity-3d-4)
 - Using Unity with GIT source control – [http://grapefruitgames.com/2013/04/22/unitygitpt1/](http://grapefruitgames.com/2013/04/22/unitygitpt1/)
 - Custom skydomes with Unity3D – [http://rockandroald.net/wordpress/custom-skyboxes-and-cloud-domes-in-unity/](http://rockandroald.net/wordpress/custom-skyboxes-and-cloud-domes-in-unity/)
 - Fake baking shadows for Unity3D – [http://laboratoriesx86.wordpress.com/2013/04/17/fake-baked-shadow/](http://laboratoriesx86.wordpress.com/2013/04/17/fake-baked-shadow/)
@@ -205,9 +205,9 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 - HowTo: Showing gizmos, colliders and raycasts in play mode – [http://imgur.com/ThYDmH8](http://imgur.com/ThYDmH8)
 - Another Tips and tricks site with animated gifs – [http://tequibo.com/unity3d-tips/](http://tequibo.com/unity3d-tips/)
 - Massive collection of tips – regularly updated – [http://unitytips.tumblr.com/](http://unitytips.tumblr.com/)
-- Unity tips, tricks and tutorials collections&nbsp; – [http://unitylinks.blogspot.co.uk/](http://unitylinks.blogspot.co.uk/)
+- Unity tips, tricks and tutorials collections  – [http://unitylinks.blogspot.co.uk/](http://unitylinks.blogspot.co.uk/)
 - Unity3D Resumable Downloads – [http://enva.to/1gATdIy](http://enva.to/1gATdIy)
-- Importing models with textures from Blender to Unity –&nbsp; [http://bit.ly/VY9cHP](http://t.co/QRTxEwgW1T)
+- Importing models with textures from Blender to Unity –  [http://bit.ly/VY9cHP](http://t.co/QRTxEwgW1T)
 
 ## Multiplayer tutorials
 
@@ -231,7 +231,7 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 
 ## Cloud and backend systems
 
-- Using Cloud Services to make a Leaderboard for a Unity Game – [http://blogs.msdn.com/b/uk\_faculty\_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game.aspx](http://blogs.msdn.com/b/uk_faculty_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game.aspx "http://blogs.msdn.com/b/uk\_faculty\_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game.aspx")
+- Using Cloud Services to make a Leaderboard for a Unity Game – [http://blogs.msdn.com/b/uk\_faculty\_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game](http://blogs.msdn.com/b/uk_faculty_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game "http://blogs.msdn.com/b/uk\_faculty\_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game")
 - BitRave direct link from above post – [http://www.bitrave.com/azure-mobile-services-for-unity-3d/](http://www.bitrave.com/azure-mobile-services-for-unity-3d/ "http://www.bitrave.com/azure-mobile-services-for-unity-3d/")
 - Awesome New Gaming backend platform with literally everything (based on Azure) – [http://www.gamesparks.com/unity/](http://www.gamesparks.com/unity/ "http://www.gamesparks.com/unity/")
 
@@ -247,12 +247,12 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 ## Sample Projects
 
 - Departure – Unity3D Game – [http://unpolishedcreations.com/2014/07/06/departure-unity3d-game/](http://unpolishedcreations.com/2014/07/06/departure-unity3d-game/ "http://unpolishedcreations.com/2014/07/06/departure-unity3d-game/")
-- Unity SHMUP template in JS and C# –&nbsp;[http://davevoyles.azurewebsites.net/unity-shmup-template-js-c/](http://davevoyles.azurewebsites.net/unity-shmup-template-js-c/ "SHMUP game template in both JS and C#")
+- Unity SHMUP template in JS and C# – [http://davevoyles.azurewebsites.net/unity-shmup-template-js-c/](http://davevoyles.azurewebsites.net/unity-shmup-template-js-c/ "SHMUP game template in both JS and C#")
 - New TANKS sample Unity 5 game (also check the networked version) – [http://forum.unity3d.com/threads/tanks-tutorial-q-a.356440/](http://forum.unity3d.com/threads/tanks-tutorial-q-a.356440/)
 
 ## The new UI system (uGUI)
 
-- Unity 3D UI Essentials (also by me) –&nbsp;[http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials")
+- Unity 3D UI Essentials (also by me) – [http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials")
 - (Will add more shortly, got a host of links :D)
 
 ## Resources

@@ -34,7 +34,7 @@ Here is what the detailed info has to say about Parse’s components:
 
 ###### Store your app’s data in the cloud. No servers necessary.
 
-Basically your spreadsheet in the sky.&nbsp; It is a database system but as you will see below it’ capabilities are limited.&nbsp; However it is like this for a reason, to be the most powerful yet simplistic data storage and retrieval system out there.
+Basically your spreadsheet in the sky.  It is a database system but as you will see below it’ capabilities are limited.  However it is like this for a reason, to be the most powerful yet simplistic data storage and retrieval system out there.
 
 Coupled with a very powerful web based GUI to help you manage you backend store to boot.
 
@@ -105,7 +105,7 @@ There are also some steps for testing your app and its connection with some dumm
 
 # Full merits to the documentation team
 
-Once you are up and running you should head straight over to the excellent documentation support that the Parse team have put together.&nbsp; I have seen some great examples of proper documentation from teams at Telerik and Xamarin but the Parse team seem to have found that edge to make it even better.&nbsp; It helps of course having an API that is really simple to use and does not need much explaining but they do it really well. (Although no offline docs, which is a shame when you are on the train ;-( )
+Once you are up and running you should head straight over to the excellent documentation support that the Parse team have put together.  I have seen some great examples of proper documentation from teams at Telerik and Xamarin but the Parse team seem to have found that edge to make it even better.  It helps of course having an API that is really simple to use and does not need much explaining but they do it really well. (Although no offline docs, which is a shame when you are on the train ;-( )
 
 In the docs you will find everything you need to sort out:
 
@@ -120,7 +120,7 @@ In the docs you will find everything you need to sort out:
 
 ## Being a good data friend
 
-When building for Parse the thing to keep in mind is to keep things simple.&nbsp; Storing data in the Parse data system is all about a dictionary system for the constructs you wish to build AND NO MORE.
+When building for Parse the thing to keep in mind is to keep things simple.  Storing data in the Parse data system is all about a dictionary system for the constructs you wish to build AND NO MORE.
 
 As an example the following would be OK (assuming you have followed Parse’s quick start instructions):
 

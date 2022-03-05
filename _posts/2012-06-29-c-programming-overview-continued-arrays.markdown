@@ -94,7 +94,7 @@ and then initializes the array instance with the following values:
 
 <!--CRLF-->
 
-     2:&nbsp; 
+     2:  
 
 <!--CRLF-->
 
@@ -102,7 +102,7 @@ and then initializes the array instance with the following values:
 
 <!--CRLF-->
 
-     4:&nbsp; 
+     4:  
 
 <!--CRLF-->
 
@@ -110,7 +110,7 @@ and then initializes the array instance with the following values:
 
 <!--CRLF-->
 
-     6:&nbsp; 
+     6:  
 
 <!--CRLF-->
 
@@ -118,7 +118,7 @@ and then initializes the array instance with the following values:
 
 <!--CRLF-->
 
-     8:&nbsp; 
+     8:  
 
 <!--CRLF-->
 

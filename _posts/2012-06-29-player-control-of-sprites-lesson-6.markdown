@@ -10,7 +10,7 @@ tags:
 - xna-2d-tutorials
 ---
 
-Lesson 6 is here from the Original DigiPen series tutorial now updated with XNA.&nbsp; This section is pretty much untouched apart from the updated code.&nbsp; I will follow this section up with a few intermission sections to add a few of my own personal touches.
+Lesson 6 is here from the Original DigiPen series tutorial now updated with XNA.  This section is pretty much untouched apart from the updated code.  I will follow this section up with a few intermission sections to add a few of my own personal touches.
 
 Lets bring the fire!
 
@@ -20,13 +20,13 @@ As usual find the Windows, Phone 7 and original webcast plus docs [here on the C
 
 * * *
 
-&nbsp;
+ 
 
 ### Dynamic Sprite Creation
 
 ### 1. Dynamic Sprite Basics
 
-Dynamic sprite creation means creating sprites at run time (during the game play).&nbsp; The Condor is one example of this, now we will walkthrough creating another, the Fireball.&nbsp;
+Dynamic sprite creation means creating sprites at run time (during the game play).  The Condor is one example of this, now we will walkthrough creating another, the Fireball. 
 
 > #### 1.1 How To Create a Sprite Dynamically
 > 
@@ -56,7 +56,7 @@ Dynamic sprite creation means creating sprites at run time (during the game play
 >         
 >         
 >         
-> After creating a prototype, we would create a copy of it whenever it is needed.&nbsp; Then we would set the properties of the copy, like position, velocity, etc.&nbsp; To create a copy of the prototype, we would use code like the following:
+> After creating a prototype, we would create a copy of it whenever it is needed.  Then we would set the properties of the copy, like position, velocity, etc.  To create a copy of the prototype, we would use code like the following:
 >         
 >         
 >         
@@ -77,26 +77,26 @@ Dynamic sprite creation means creating sprites at run time (during the game play
 > 4: m\_AddedSprites.Add(fire);
 >             
 >             
-> #### &nbsp;
+> ####  
 >             
-> #### 1.2&nbsp; When Are Dynamic Sprites Used?
+> #### 1.2  When Are Dynamic Sprites Used?
 >             
 >             
-> Dynamic sprites are used when we need to create sprites and use them during the game play.&nbsp; For example, dynamic sprites are used to create bullets to shoot or a new life.
+> Dynamic sprites are used when we need to create sprites and use them during the game play.  For example, dynamic sprites are used to create bullets to shoot or a new life.
 
 * * *
 
 ### 2 Input
 
-Critical for any interactive game is the need to handle input from a player controller.&nbsp; In XNA we also have to handle several different control methods since we target multiple platforms, including:
+Critical for any interactive game is the need to handle input from a player controller.  In XNA we also have to handle several different control methods since we target multiple platforms, including:
 
 - PC – uses Keyboards, Joysticks, Gamepads and Mice.
-- XBOX360 – Gamepads and chatpads.&nbsp; (No mic support unfortunately, unless it comes in the full XNA 4)
+- XBOX360 – Gamepads and chatpads.  (No mic support unfortunately, unless it comes in the full XNA 4)
 - Zune and Windows Phone 7 – Touchpad’s, Gestures and Accelerometers. 
 
-I am also really looking forward to the Natal controller for the XBOX360, full body control would be really interesting to work with, although I’m not expecting to see it in XNA till probably late next year.&nbsp; Although they may also restrict it for XNA keeping the controller solely for XBOX live games, but I hope not.
+I am also really looking forward to the Natal controller for the XBOX360, full body control would be really interesting to work with, although I’m not expecting to see it in XNA till probably late next year.  Although they may also restrict it for XNA keeping the controller solely for XBOX live games, but I hope not.
 
-The DigiPen tutorial only covers keyboard so that is what will be put in here.&nbsp; I will do an intermission article for Windows phone 7 and the other controllers.
+The DigiPen tutorial only covers keyboard so that is what will be put in here.  I will do an intermission article for Windows phone 7 and the other controllers.
 
 > #### 2.1 Keyboard
 > 
@@ -120,7 +120,7 @@ The DigiPen tutorial only covers keyboard so that is what will be put in here.&n
 >     
 >     
 >     
-> You would use the Pressed action, when you want to continually check if a key is held down and if it is increment come value, like moving the Trooper for instance.&nbsp; If I hold down the Up arrow key, I want the Trooper to continue towards the top of the screen until either the player releases the Up arrow key or the Trooper reaches the top of the screen.
+> You would use the Pressed action, when you want to continually check if a key is held down and if it is increment come value, like moving the Trooper for instance.  If I hold down the Up arrow key, I want the Trooper to continue towards the top of the screen until either the player releases the Up arrow key or the Trooper reaches the top of the screen.
 >     
 >     
 > #### 2.3 Triggered
@@ -144,7 +144,7 @@ The DigiPen tutorial only covers keyboard so that is what will be put in here.&n
 >         
 >         
 >         
-> The Triggered action is used when you only want a single return from a single key press no matter how long it is held down.&nbsp; For example, if you want only one shot to be fired each time you hit the space key.
+> The Triggered action is used when you only want a single return from a single key press no matter how long it is held down.  For example, if you want only one shot to be fired each time you hit the space key.
 >         
 >         
 >         
@@ -163,7 +163,7 @@ In the game, the arrow keys are used to move the main sprite (trooper sprite).
 
 Also, when the Space key is triggered, then the main sprite (trooper) will shoot a bullet (fire sprite), which is a sprite created dynamically.
 
-&nbsp;
+ 
 
 ### Step 1: Create a new Sprite Prototype
 
@@ -293,7 +293,7 @@ This is the default template for sprite objects in this game, where we declare a
             
             
             
-            &nbsp;
+             
             
             
             ### Step 2: Enter Input Information
@@ -373,11 +373,11 @@ This is the default template for sprite objects in this game, where we declare a
                 
                 
                 
-                Walking through this we have 4 tests (note that we have used multiple IF statements and not a SWITCH statement, this is because we need to check if the user has multiple keys pressed.&nbsp; If we used a SWITCH statement, then only one key would be recognised in each update loop).
+                Walking through this we have 4 tests (note that we have used multiple IF statements and not a SWITCH statement, this is because we need to check if the user has multiple keys pressed.  If we used a SWITCH statement, then only one key would be recognised in each update loop).
                 
                 
                 
-                The first test checks if the Trooper is more than 30 pixels away above the top of the screen (to ensure the player stays within the bounds of the visible screen).&nbsp; If the trooper is still in the screen and the player has pressed the UP arrow key then we will move the Trooper two pixels down (vy=2, velocity offset by +2 in the y Axis).
+                The first test checks if the Trooper is more than 30 pixels away above the top of the screen (to ensure the player stays within the bounds of the visible screen).  If the trooper is still in the screen and the player has pressed the UP arrow key then we will move the Trooper two pixels down (vy=2, velocity offset by +2 in the y Axis).
                 
                 
                 
@@ -393,11 +393,11 @@ This is the default template for sprite objects in this game, where we declare a
                 
                 
                 
-                Finally we take our new velocity and apply it to our Trooper.&nbsp; When the Trooper sprite updates (the update in the base Sprite class for the Trooper), the Sprite will be moved in the direction we have applied.
+                Finally we take our new velocity and apply it to our Trooper.  When the Trooper sprite updates (the update in the base Sprite class for the Trooper), the Sprite will be moved in the direction we have applied.
                 
                 
                 
-                &nbsp;
+                 
                 
                 
                 ### Step 3: Bringing the Fire
@@ -407,11 +407,11 @@ This is the default template for sprite objects in this game, where we declare a
                 
                 
                 
-                Lets add some shooting action.&nbsp; So we have setup our new Fire class sprite and given it a little bit of animation, so lets add another keyboard input to let that fire loose upon the unsuspecting Condors.
+                Lets add some shooting action.  So we have setup our new Fire class sprite and given it a little bit of animation, so lets add another keyboard input to let that fire loose upon the unsuspecting Condors.
                 
                 
                 
-                This just requires a little extension to the code above in the Trooper section of the StarTrooperSprites.cs class.&nbsp; Just add the following:
+                This just requires a little extension to the code above in the Trooper section of the StarTrooperSprites.cs class.  Just add the following:
                 
                 
                 
@@ -468,7 +468,7 @@ This is the default template for sprite objects in this game, where we declare a
                     2. The shot never impacts any Condors, it just sails on through 
                     
                     
-                    Now point 1 is because all the coordinates we have been using for the Trooper (and the Condor) are using the screenspace coordinate for the Sprite, which is the top left hand side of the sprite image.&nbsp; To correct this we will update the Sprite class a bit to compensate.
+                    Now point 1 is because all the coordinates we have been using for the Trooper (and the Condor) are using the screenspace coordinate for the Sprite, which is the top left hand side of the sprite image.  To correct this we will update the Sprite class a bit to compensate.
                     
                     
                     
@@ -534,7 +534,7 @@ This is the default template for sprite objects in this game, where we declare a
                         
                         
                         
-                        As for the second, we simply have not implemented any collision logic as yet, so the fireball does not know it is hit a Condor, neither does the Condor know it is hit the Trooper.&nbsp; Another point is that the fireballs will just keep on going, never stopping.&nbsp; We will cover this in the last section of the DigiPen tutorial series, number 8.
+                        As for the second, we simply have not implemented any collision logic as yet, so the fireball does not know it is hit a Condor, neither does the Condor know it is hit the Trooper.  Another point is that the fireballs will just keep on going, never stopping.  We will cover this in the last section of the DigiPen tutorial series, number 8.
                         
                         
                         * * *
@@ -546,7 +546,7 @@ This is the default template for sprite objects in this game, where we declare a
                         
                         
                         
-                        &nbsp;
+                         
                         
                         
                         
@@ -569,7 +569,7 @@ This is the default template for sprite objects in this game, where we declare a
 
 So as always on with the show!!!
 
-&nbsp;
+ 
 
 * * *
 
@@ -595,7 +595,7 @@ Change this line in the “isTriggered” function, from:
         
         
         
-        Just remove the exclamation mark (!) from the test on the oldkey state.&nbsp; In original form, it acted exactly the same as the isPressed function :-).
+        Just remove the exclamation mark (!) from the test on the oldkey state.  In original form, it acted exactly the same as the isPressed function :-).
         
     
     

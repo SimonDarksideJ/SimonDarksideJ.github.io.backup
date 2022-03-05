@@ -44,7 +44,7 @@ Webcast Sessions:
 > 
 > Session 8: Creating Sprite Behaviour
 
-## &nbsp;
+##  
 
 ## About DigiPen Institute of Technology:
 

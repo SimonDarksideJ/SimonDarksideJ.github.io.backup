@@ -39,7 +39,7 @@ Now the first I have through my Win 8 Storage helper I blogged about recently (w
 
 For the last, the “Application” component of a Windows 8 app does have an “UnHandledException” error handler but unlike Windows Phone it is not setup by default (very odd but shows how different teams think in building this stuff), so all you do is set it up manually.
 
-As for the email, that provided it is own challenge as THERE IS NO EMAIL API, what we have in the Windows 8 world are “Share Contracts”, you can use the “Protocol detection” and open a link using the “mail://” prefix but that does not let you add your own data.&nbsp; So this one did cause some head scratching but it is in there.
+As for the email, that provided it is own challenge as THERE IS NO EMAIL API, what we have in the Windows 8 world are “Share Contracts”, you can use the “Protocol detection” and open a link using the “mail://” prefix but that does not let you add your own data.  So this one did cause some head scratching but it is in there.
 
 * * *
 

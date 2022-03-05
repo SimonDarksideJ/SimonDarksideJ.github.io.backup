@@ -18,33 +18,33 @@ For once I’m going with a simple yet boring title for this blog post (since I�
 
 ### 
 
-If you followed my previous article on [AdRotator](http://wp7adrotator.codeplex.com/) you should know I got involved with the team and added some features / new providers, that project has now been updated to V1.&nbsp; The tutorial has been updated to reflect some of the changes to improve the overall solution so if you need Ads for Silverlight or SilverXNA [I would suggest you start there](http://bit.ly/zO63xH).
+If you followed my previous article on [AdRotator](http://wp7adrotator.codeplex.com/) you should know I got involved with the team and added some features / new providers, that project has now been updated to V1.  The tutorial has been updated to reflect some of the changes to improve the overall solution so if you need Ads for Silverlight or SilverXNA [I would suggest you start there](http://bit.ly/zO63xH).
 
 But now back to the main show
 
 With Silverlight done I decided to tackle XNA which historically has had very bad support for Ads, only a few providers specifically support it, with AdRotator for XNA i’ve spun some magic and we currently have 4 Providers supported for now (hope to add more in the future):
 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/011.gif)&nbsp;&nbsp;&nbsp; Microsoft Pubcenter (XNA component from Microsoft)
+> #### ![](http://www.dotnetscraps.com/samples/bullets/011.gif)    Microsoft Pubcenter (XNA component from Microsoft)
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/011.gif)&nbsp;&nbsp;&nbsp; AdDuplex (XNA library from AdDuplex)
+> #### ![](http://www.dotnetscraps.com/samples/bullets/011.gif)    AdDuplex (XNA library from AdDuplex)
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/011.gif)&nbsp;&nbsp;&nbsp; Inneractive (Via web Ads)
+> #### ![](http://www.dotnetscraps.com/samples/bullets/011.gif)    Inneractive (Via web Ads)
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/011.gif)&nbsp;&nbsp;&nbsp; MobFox (Via their web API)
+> #### ![](http://www.dotnetscraps.com/samples/bullets/011.gif)    MobFox (Via their web API)
 
 All of the above provided their own challenges and quirks and challenges but I got there in the end.
 
 Also some of the improvements I made during the development of the XNA version have also made their way back into the Silverlight project, such as:
 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/036.gif)&nbsp;&nbsp; <u>Default Ad Support</u>&nbsp;
+> #### ![](http://www.dotnetscraps.com/samples/bullets/036.gif)   <u>Default Ad Support</u> 
 > 
 > You can now create your own Ad to run locally in your app/game, especially good if there is no network connectivity and you want to still display something (older versions just disabled the Ads)
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/036.gif)&nbsp;&nbsp;&nbsp; <u>ADID and PublisherID configuration now possible through the configuration XML</u>
+> #### ![](http://www.dotnetscraps.com/samples/bullets/036.gif)    <u>ADID and PublisherID configuration now possible through the configuration XML</u>
 > 
 > This loosens the shackles from configuring providers so that they are no longer hard coded in your app/game, also with the XML hosting option you could reconfigure your AD and Provider ID’s on the fly as you wish without having to re-deploy your apps.
 
-&nbsp;
+ 
 
 As usual the full source for the starter 2D and 3D projects is on the [codeplex project site here](http://starterxna.codeplex.com/) showing the integrations above.
 
@@ -58,7 +58,7 @@ First off lets copy in the required DLL’s and references to your project, usin
 
 [![image](/Images/wordpress/2012/07/image_thumb127.png "image")](/Images/wordpress/2012/07/image124.png)
 
-Then I copied the release files for XNA into the new folder, AdRotatorXNA.DLL and AdDuplex.Xna.dll.&nbsp; (We do not ship the MS Pubcenter DLL’s as they are part of the WP7 development tools but more on that later), you will notice there are no libraries for Inneractive and MobFox ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile11.png), but that is another blog post.
+Then I copied the release files for XNA into the new folder, AdRotatorXNA.DLL and AdDuplex.Xna.dll.  (We do not ship the MS Pubcenter DLL’s as they are part of the WP7 development tools but more on that later), you will notice there are no libraries for Inneractive and MobFox ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile11.png), but that is another blog post.
 
 Next as usual add references to the new DLL’s in your Main XNA project and also add a reference to “Microsoft.Advertising.Mobile.Xna” library as shown below: (note you only have to add references to the Publisher libraries you intend to use, but if you try to use one you have not reference your project will crash!!)
 
@@ -68,7 +68,7 @@ Next as usual add references to the new DLL’s in your Main XNA project and als
 
 # The new Configuration file
 
-One of the improvements added with the XNA version was the capability to completely configure the Ad Support for your project from the XML configuration file so there is no longer any need to specify the provider Ad ID’s hard coded in your project.&nbsp; You still can of course if that is how you roll, everything’s optional ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile11.png).
+One of the improvements added with the XNA version was the capability to completely configure the Ad Support for your project from the XML configuration file so there is no longer any need to specify the provider Ad ID’s hard coded in your project.  You still can of course if that is how you roll, everything’s optional ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile11.png).
 
 The new XML file looks like this:
 
@@ -139,7 +139,7 @@ Here is what I did to implement the XNA [AdRotator](http://wp7adrotator.codeplex
                                     
                                         ).
                                         
-                                        So as part of the course of the XNA project we introduced our very own Default House Ads, which operate exactly the same as other ad providers with the added option that they can be displayed (if enabled) even when there is no network connectivity.&nbsp; in the future we also hope to enable you to update your own Ad(s) remotely.
+                                        So as part of the course of the XNA project we introduced our very own Default House Ads, which operate exactly the same as other ad providers with the added option that they can be displayed (if enabled) even when there is no network connectivity.  in the future we also hope to enable you to update your own Ad(s) remotely.
                                         
                                         
                                         
@@ -168,7 +168,7 @@ Here is what I did to implement the XNA [AdRotator](http://wp7adrotator.codeplex
                                                 # Orientation Changed
                                                 
                                                 
-                                                One thing we acutely realised with the XNA version is that we needed to handle orientation manually, so together with the AdPosition property we added a method to automatically update the position of the control based on the orientation of the device.&nbsp; At present the AdRotator control does it is best to position the Ads in the centre of the area of the screen where you placed the ad.
+                                                One thing we acutely realised with the XNA version is that we needed to handle orientation manually, so together with the AdPosition property we added a method to automatically update the position of the control based on the orientation of the device.  At present the AdRotator control does it is best to position the Ads in the centre of the area of the screen where you placed the ad.
                                                 
                                                 
                                                 
@@ -196,7 +196,7 @@ Here is what I did to implement the XNA [AdRotator](http://wp7adrotator.codeplex
                                                     
                                                         
                                                         
-                                                        Now were releasing this as V0.1 Beta to get feedback from it is use, in all our tests we have not had any issues but obviously feedback would be appreciated.&nbsp; I plan to do further tests using the SunBurn gaming engine in the near future as well so I will see how it goes, it might even end up as a SunBurn plugin for Windows and Phone (if John K will let me ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile11.png))
+                                                        Now were releasing this as V0.1 Beta to get feedback from it is use, in all our tests we have not had any issues but obviously feedback would be appreciated.  I plan to do further tests using the SunBurn gaming engine in the near future as well so I will see how it goes, it might even end up as a SunBurn plugin for Windows and Phone (if John K will let me ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile11.png))
                                                         
                                                         
                                                         

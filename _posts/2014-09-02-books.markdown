@@ -6,7 +6,7 @@ date: '2014-09-02 12:41:39'
 
 # Welcome to the catalogue for my published works
 
-Here is where you will find all the details on my published articles, books and whatnot. &nbsp;Click on the books or links to learn more about each title.
+Here is where you will find all the details on my published articles, books and whatnot.  Click on the books or links to learn more about each title.
 
 # Mastering Unity 2D Game Development
 
@@ -33,12 +33,12 @@ If you have C# knowledge but now want to become truly confident in creating full
 
 # Unity 3D UI Essentials
 
-A complete end to end walk through the new Unity UI system, chock full of detail about each and every new feature with practical examples. &nbsp;Includes an walk-through the of the Opensource project for the Unity UI codebase and how to work with it.
+A complete end to end walk through the new Unity UI system, chock full of detail about each and every new feature with practical examples.  Includes an walk-through the of the Opensource project for the Unity UI codebase and how to work with it.
 
 ###### **For more information click on the image or link below.**
 <figure id="attachment_6274" aria-describedby="caption-attachment-6274" style="width: 236px" class="wp-caption aligncenter"><a href="http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/"><img loading="lazy" class="wp-image-6274 size-medium" src="/Images/wordpress/2014/09/Cover-236x300.png" alt="Unity 3D UI Essentials" width="236" height="300" srcset="/content/images/wordpress/2014/09/Cover-236x300.png 236w, /content/images/wordpress/2014/09/Cover.png 684w" sizes="(max-width: 236px) 100vw, 236px"></a><figcaption id="caption-attachment-6274" class="wp-caption-text">Unity 3D UI Essentials by Simon Jackson, published by Packt Publishing. Available at all good online eBook stores and in shops</figcaption></figure>
 
-&nbsp;
+ 
 
 ### About This Book
 

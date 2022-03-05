@@ -12,7 +12,7 @@ tags:
 
 There are probably a lot of people I could blame for me writing this article but at the end of the day it is my own damn fault for trying.
 
-It goes like this, [AdDuplex](https://www.adduplex.com/) have an [offer on for Early release apps into the store](http://blog.adduplex.com/2012/07/adduplex-for-windows-8-is-here.html) but I only found out about it after my title was published to the Store, so during my lunch at work I had a go at implementing the new [AdDuplex](https://www.adduplex.com/) Windows 8 control into my app and it was easy as pie (some might say too easy!).&nbsp; Then came the problem of hooking it up to the trial information provided by the Windows 8 API, which is easy enough if you have everything in one project, I don’t and so began the tale.
+It goes like this, [AdDuplex](https://www.adduplex.com/) have an [offer on for Early release apps into the store](http://blog.adduplex.com/2012/07/adduplex-for-windows-8-is-here.html) but I only found out about it after my title was published to the Store, so during my lunch at work I had a go at implementing the new [AdDuplex](https://www.adduplex.com/) Windows 8 control into my app and it was easy as pie (some might say too easy!).  Then came the problem of hooking it up to the trial information provided by the Windows 8 API, which is easy enough if you have everything in one project, I don’t and so began the tale.
 
 My annoyance is that i should have waited, I knew better and just hoping my boss was not looking over my shoulder to see if I was actually working, but as I like to share I’ll throw this out quick before he notices #checksovershoulder
 
@@ -41,7 +41,7 @@ Code also available on CodePaste.net – [http://bit.ly/U7zTRU](http://bit.ly/U7
                 
                  (if you are also using this for [AdDuplex](https://www.adduplex.com/) then be sure to add the correct namespace for the [AdDuplex](https://www.adduplex.com/) control)
                 
-                And that is it.&nbsp; What is basically happening is that when you load the page it tests the Trial State and updates the flag accordingly, if the Trial state changes (by purchasing it) the local flag changes and the visibility is then updated in the control.
+                And that is it.  What is basically happening is that when you load the page it tests the Trial State and updates the flag accordingly, if the Trial state changes (by purchasing it) the local flag changes and the visibility is then updated in the control.
                 
                 
                 

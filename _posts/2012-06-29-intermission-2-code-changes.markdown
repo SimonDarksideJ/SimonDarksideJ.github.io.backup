@@ -18,7 +18,7 @@ This involves:
 - Adding a texture to the Animation class (for the spritesheet) and updating how it uses frames
 - Moving Drawing code in the Sprite Class to the Animation class, just makes things a little easier. 
 
-I have also done a bit of house keeping in the code, nothing major, just grouped all the private elements of each class together, grouped all the properties in the class together and put the constructors at the top and the main methods in the middle.&nbsp; These are always good practice when writing
+I have also done a bit of house keeping in the code, nothing major, just grouped all the private elements of each class together, grouped all the properties in the class together and put the constructors at the top and the main methods in the middle.  These are always good practice when writing
 
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
@@ -109,7 +109,7 @@ All we did here was to change the Texture property and parameter to a Rectangle 
  |
 | Before change | After Change |
 
-&nbsp;
+ 
 
 And then updated the constructor likewise
 
@@ -172,9 +172,9 @@ The animation class in this approach is the most affected class, it has to be th
 
 The basic principle is simple, store a texture and depending on which frame is to be rendered, pick that portion of the texture and display it on the screen.
 
-The first change is mainly for performance reasons, Lists are all well and good but they can (if used incorrectly) cause memory and garbage problems through what is referred to as boxing and un-boxing (basically where the values stored in the list have to be converted or stored in slower memory space, see Shawns “[Garbage collection nirvana](http://blogs.msdn.com/shawnhar/archive/2007/07/02/twin-paths-to-garbage-collector-nirvana.aspx)” article for a clearer picture and garbage collection – basically it is bad and you should try to avoid it).&nbsp; If you do not use strongly typed data or classes that can be easily broken down (basically anything that is not a Struct with the default types or default types themselves) then it causes it to slow down.&nbsp; It is not by much but in high performance games even a 0.1 second delay from slow code can cause issues.
+The first change is mainly for performance reasons, Lists are all well and good but they can (if used incorrectly) cause memory and garbage problems through what is referred to as boxing and un-boxing (basically where the values stored in the list have to be converted or stored in slower memory space, see Shawns “[Garbage collection nirvana](http://blogs.msdn.com/shawnhar/archive/2007/07/02/twin-paths-to-garbage-collector-nirvana)” article for a clearer picture and garbage collection – basically it is bad and you should try to avoid it).  If you do not use strongly typed data or classes that can be easily broken down (basically anything that is not a Struct with the default types or default types themselves) then it causes it to slow down.  It is not by much but in high performance games even a 0.1 second delay from slow code can cause issues.
 
-In the DigiPen tutorial however, we are using a strongly typed Struct (the frame) in a list, however since we have limited each animation to only have a specific amount of animation (it is not going to change, the texture is not going to create more animations), we do not need the extra overhead of a list.&nbsp; So I have changed the storage type to an Array instead.&nbsp; It goes back to old principles of keeping it simple and only use power when you really (really) need it. (in short the KISS principle all over again, you might hear that a lot here!!)
+In the DigiPen tutorial however, we are using a strongly typed Struct (the frame) in a list, however since we have limited each animation to only have a specific amount of animation (it is not going to change, the texture is not going to create more animations), we do not need the extra overhead of a list.  So I have changed the storage type to an Array instead.  It goes back to old principles of keeping it simple and only use power when you really (really) need it. (in short the KISS principle all over again, you might hear that a lot here!!)
 
 So where we originally just created the list for the animations for the sprite:
 
@@ -398,27 +398,27 @@ So where we originally just created the list for the animations for the sprite:
                 
                 
                 
-                Here we have changed the constructor for the animation to expect a texture (our spritesheet), we then have some overloads for the constructor to make our life easier when creating Sprites (with or without animation, see the updates to the game class).&nbsp; They all call a finalisation function to generate the frames for the spritesheet.&nbsp; As stated before if the sprite has only 1 image in the texture, it is just an animation of 1 frame, this enables us to use the same logic regardless of how many frames a spritesheet has.
+                Here we have changed the constructor for the animation to expect a texture (our spritesheet), we then have some overloads for the constructor to make our life easier when creating Sprites (with or without animation, see the updates to the game class).  They all call a finalisation function to generate the frames for the spritesheet.  As stated before if the sprite has only 1 image in the texture, it is just an animation of 1 frame, this enables us to use the same logic regardless of how many frames a spritesheet has.
                 
                 
                 
-                This way of making everything act the same (with a few key differences) is a core principle when programming in C#, be sure to read the sections in the programming guide on inheritance and object oriented design, else you will end up writing three (or more) times the code you actually need.&nbsp; It comes down to this, if you have to handle Oranges, Pears, Apples and Bananas in your application, you could write separate code for each.&nbsp; However since they are all fruit, you could write all the functionality for handling fruit, have each of the items inherit from the fruit class and then just extend for each type of fruit where you need to.&nbsp; A very basic example but something worth keeping in mind.
+                This way of making everything act the same (with a few key differences) is a core principle when programming in C#, be sure to read the sections in the programming guide on inheritance and object oriented design, else you will end up writing three (or more) times the code you actually need.  It comes down to this, if you have to handle Oranges, Pears, Apples and Bananas in your application, you could write separate code for each.  However since they are all fruit, you could write all the functionality for handling fruit, have each of the items inherit from the fruit class and then just extend for each type of fruit where you need to.  A very basic example but something worth keeping in mind.
                 
                 
                 
-                In the GenerateFrames function, we interrogate the image provided, divide the width of the image by the amount of Frames you created the animated sprite with, which gives you the frame width.&nbsp; then it constructs rectangles around of each frame using these values.&nbsp; These rectangles become the portions of the spritesheet for each frame.
+                In the GenerateFrames function, we interrogate the image provided, divide the width of the image by the amount of Frames you created the animated sprite with, which gives you the frame width.  then it constructs rectangles around of each frame using these values.  These rectangles become the portions of the spritesheet for each frame.
                 
                 
                 
-                Now this code expects each frame of the animation to be completely horizontal (in line with each other), it does not let you have multiple lines of images.&nbsp; However the code in XX’s tutorial does do this, so you can adopt this method if you need it.
+                Now this code expects each frame of the animation to be completely horizontal (in line with each other), it does not let you have multiple lines of images.  However the code in XX’s tutorial does do this, so you can adopt this method if you need it.
                 
                 
                 
-                The last change to the animation class is the adoption of the code to draw the sprite to the screen.&nbsp; I moved it here for simplicity, the class had better access to most of the parameters required by the Spritebatch/Draw function. (check the help for more information on the Spritebatch class)
+                The last change to the animation class is the adoption of the code to draw the sprite to the screen.  I moved it here for simplicity, the class had better access to most of the parameters required by the Spritebatch/Draw function. (check the help for more information on the Spritebatch class)
                 
                 
                 
-                &nbsp;
+                 
                 
                 
                 
@@ -456,23 +456,23 @@ So where we originally just created the list for the animations for the sprite:
                     
                     
                     
-                    &nbsp;
+                     
                     
                     
                     * * *
                     
                     
-                    &nbsp;
+                     
                     
                     
                     
-                    &nbsp;
+                     
                     
                     
                     ### Sprite class update (Sprite.cs)
                     
                     
-                    The spite class is really more of a container rather than handling the drawing of spites to the screen.&nbsp; This is a common practice (like I mentioned earlier about inheritance and such).&nbsp; In this we only track where the sprite should be drawn, if it is active or visible and any transformation or collision logic.&nbsp; (the sprite class is the brains, where as the animation class is the looks)
+                    The spite class is really more of a container rather than handling the drawing of spites to the screen.  This is a common practice (like I mentioned earlier about inheritance and such).  In this we only track where the sprite should be drawn, if it is active or visible and any transformation or collision logic.  (the sprite class is the brains, where as the animation class is the looks)
                     
                     
                     
@@ -580,39 +580,39 @@ So where we originally just created the list for the animations for the sprite:
                                     
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     * * *
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     ### Main Game Code (StartrooperGame.cs)
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     
@@ -840,7 +840,7 @@ So where we originally just created the list for the animations for the sprite:
                                                             
                                                             
                                                             
-                                                            Lastly, the Condor.&nbsp; Now this does not make use of the extended features above as it has two animations, so we still need to manage adding the animations manually while still updating to now use the spritesheet functionality, this results in going from:
+                                                            Lastly, the Condor.  Now this does not make use of the extended features above as it has two animations, so we still need to manage adding the animations manually while still updating to now use the spritesheet functionality, this results in going from:
                                                             
                                                             
                                                             
@@ -1024,7 +1024,7 @@ So where we originally just created the list for the animations for the sprite:
                                                                     
                                                                     
                                                                     
-                                                                    Still a lot cleaner and easier to use, if you add more enemies, depending whether you have one or more animations, you can use either of the two methods above,&nbsp; Since the condor is not making use of the sprite enhancements we do not need to modify it.
+                                                                    Still a lot cleaner and easier to use, if you add more enemies, depending whether you have one or more animations, you can use either of the two methods above,  Since the condor is not making use of the sprite enhancements we do not need to modify it.
                                                                     
                                                                     
                                                                     
@@ -1032,13 +1032,13 @@ So where we originally just created the list for the animations for the sprite:
                                                                     
                                                                     
                                                                     
-                                                                    &nbsp;
+                                                                     
                                                                     
                                                                     
                                                                     * * *
                                                                     
                                                                     
-                                                                    &nbsp;
+                                                                     
                                                                     
                                                                     
                                                                     ### Conclusion
@@ -1092,7 +1092,7 @@ So where we originally just created the list for the animations for the sprite:
     
 
 - You can only have 1 animation per spritesheet (even though in this project there are properties for specifying different start and end frames, applying them effectively is tricky, try it if you wish)
-- Compiling several animations using different sizes is not supported, You also cannot put all your sprite assets on a single sheet (which would be very beneficial).&nbsp; There are other implementation’s like Nick Gravelin’s [Sprite packer](http://nickgravelyn.com/2009/10/sprite-sheet-packer-tool-xna-gs-example/), but they do not support animations.&nbsp; Feel free to enhance these and some up with you are own monster one if you wish, but this breaks the KISS rule 🙂 
+- Compiling several animations using different sizes is not supported, You also cannot put all your sprite assets on a single sheet (which would be very beneficial).  There are other implementation’s like Nick Gravelin’s [Sprite packer](http://nickgravelyn.com/2009/10/sprite-sheet-packer-tool-xna-gs-example/), but they do not support animations.  Feel free to enhance these and some up with you are own monster one if you wish, but this breaks the KISS rule 🙂 
 
 Well enjoy play and have fun, on to the next Intermission.
 

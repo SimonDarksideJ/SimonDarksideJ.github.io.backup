@@ -15,15 +15,15 @@ It’s been a fun ride over the past year, I’ve written a Unity book and I’v
 
 All this work evangelising and book work has meant I’ve not been as able to dedicate time to my own game projects or even update my blog as frequently as I would like, not a bad thing considering I’m still out there doing my Game Development evangelist role and helping others to make great games on as many platforms as possible, hopefully next year will calm down and I’ll do more… Maybe 😀
 
-> **Note: the book draw competition is now closed, results have been posted here:&nbsp;http://wp.me/p3o0M2-1dV**
+> **Note: the book draw competition is now closed, results have been posted here: http://wp.me/p3o0M2-1dV**
 
 Now to my first post in a while, I bring you news of two great and important events for me:
 
-# [Unity porting events are back!](https://msevents.microsoft.com/CUI/EventDetail.aspx?EventID=1032596026&Culture=en-GB&community=0 "Glasgow Unity Porting lab registration")
+# [Unity porting events are back!](https://msevents.microsoft.com/CUI/EventDetail?EventID=1032596026&Culture=en-GB&community=0 "Glasgow Unity Porting lab registration")
 
-The roadshow is back on in the UK for the wildly successful Unity porting events, starting this time in Glasgow. &nbsp;There have been many of these events all around the world and literally hundreds of devs have received first class support getting their Games and even plug-ins ported over to support the Windows 8 and Windows Phone platforms.
+The roadshow is back on in the UK for the wildly successful Unity porting events, starting this time in Glasgow.  There have been many of these events all around the world and literally hundreds of devs have received first class support getting their Games and even plug-ins ported over to support the Windows 8 and Windows Phone platforms.
 
-I’ll be attending as usual however this time I’ll be bringing goodies of my own as well, 5 discount codes for my recent book. Will have to figure out how to share them out! &nbsp;First 5 ported on the day maybe 😀
+I’ll be attending as usual however this time I’ll be bringing goodies of my own as well, 5 discount codes for my recent book. Will have to figure out how to share them out!  First 5 ported on the day maybe 😀
 
 Here’s what MS evangelist Lee Stott had to say on the matter!
 
@@ -53,11 +53,11 @@ Now it’s your turn to share in the success. Bring your laptop plus existing ga
 
 As you can see a fun filled and exciting event.
 
-> When we were at Glasgow last time we also got a full walk-through the awesome large screen 3D experience at the&nbsp;Digital Design Studio. &nbsp;It truly is an awesome thing to see as well. &nbsp;I just wanted to hook up Unity to it and play stuff!!
+> When we were at Glasgow last time we also got a full walk-through the awesome large screen 3D experience at the Digital Design Studio.  It truly is an awesome thing to see as well.  I just wanted to hook up Unity to it and play stuff!!
 
-All I’d say is only register if you are going to actually attend, this ensures there are places for everyone who has a project to port or has a final project ready to submit to the Windows Store. &nbsp;We’ve seen a fair number of registrations&nbsp;not turn up to these events and this just blocks actual attendees from registering. &nbsp;Remember places are limited!
+All I’d say is only register if you are going to actually attend, this ensures there are places for everyone who has a project to port or has a final project ready to submit to the Windows Store.  We’ve seen a fair number of registrations not turn up to these events and this just blocks actual attendees from registering.  Remember places are limited!
 
-### [For more details on the event, see the event registration link here](https://msevents.microsoft.com/CUI/EventDetail.aspx?EventID=1032596026&Culture=en-GB&community=0 "Glasgow Unity Porting lab registration")
+### [For more details on the event, see the event registration link here](https://msevents.microsoft.com/CUI/EventDetail?EventID=1032596026&Culture=en-GB&community=0 "Glasgow Unity Porting lab registration")
 
 Stay tuned for more events across the UK including Manchester in October!
 
@@ -75,38 +75,38 @@ Readers would be pleased to know that I have teamed up with my publisher to orga
 
 [![ width=](/Images/wordpress/2014/10/FrontCover-234x300.png)](/Images/wordpress/2014/10/FrontCover.png)
 
-&nbsp;
+ 
 
 And **three** lucky winners stand a chance to win **3 e-copies** of this book. Keep reading to find out how you can be one of the Lucky Winners.
 
-&nbsp;
+ 
 
 ### Overview:
 
-&nbsp;
+ 
 
-&nbsp;
+ 
 
-&nbsp;
+ 
 
 - Learn the advanced features of Unity 2D to change and customize games to suit your needs
 - Discover tips and tricks for Unity2D’s new toolset
 - Understand scripting, deployment, and platform integration with an example at each step
 - Get a whole life-cycle overview of game development, from advanced scripting, monetization, marketing and deployment
 
-### &nbsp; **How to Enter?**
+###   **How to Enter?**
 
 All you need to do is head on over to the [book page](https://www.packtpub.com/game-development/mastering-unity-2d-game-development) and look through the product description of the book and the sample chapter, then drop a line via the **comments below this post to let us know what interests you the most about this book**. It is that simple.
 
 Winners will get a digital copy of the book.
 
-&nbsp;
+ 
 
 ### **Deadline**
 
-#### The contest will close on **Sunday 5th October,&nbsp;**** &nbsp;**Winners will be contacted by email, so be sure to use your real email address when you comment!
+#### The contest will close on **Sunday 5th October, ****  **Winners will be contacted by email, so be sure to use your real email address when you comment!
 
-> This deadline gives enough people the chance to enter and for the 2nd edition of the book to be published. &nbsp;Any queries comments or feedback on the title as well as announcements and news, then just pop over to the [book’s forum here on my blog](http://bit.ly/MasteringUnity2DForums "Mastering Unity 2D Game Development forums")
+> This deadline gives enough people the chance to enter and for the 2nd edition of the book to be published.  Any queries comments or feedback on the title as well as announcements and news, then just pop over to the [book’s forum here on my blog](http://bit.ly/MasteringUnity2DForums "Mastering Unity 2D Game Development forums")
 
 # Lots of Fun
 

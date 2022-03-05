@@ -14,7 +14,7 @@ tags:
 
 ![src=]()
 
-Not so long ago Intel launched their new perceptual computing vision which effectively is a cheaper alternative to Microsoft Kinect sensor, alongside that they began a challenge to create some inventive apps using the camera and to a select few (about 125+ developers) they offered the chance to win and own one.&nbsp; I entered 3 different apps into the challenge and to me surprise all three got accepted (only got one camera though ![Open-mouthed smile](/Images/wordpress/2013/08/wlEmoticon-openmouthedsmile1.png))
+Not so long ago Intel launched their new perceptual computing vision which effectively is a cheaper alternative to Microsoft Kinect sensor, alongside that they began a challenge to create some inventive apps using the camera and to a select few (about 125+ developers) they offered the chance to win and own one.  I entered 3 different apps into the challenge and to me surprise all three got accepted (only got one camera though ![Open-mouthed smile](/Images/wordpress/2013/08/wlEmoticon-openmouthedsmile1.png))
 
 # The camera
 
@@ -38,7 +38,7 @@ Me being Me however I did not stop there so i created my own manager library to 
 
 # My Manager Library
 
-Building on my years of XNA experience I have made a wrapper of the wrapper library to make each of the modes the camera has into distinct components that are simply initialised and once running you just grab each of the outputs for use.&nbsp; The library is opensource and can be found on Github here:
+Building on my years of XNA experience I have made a wrapper of the wrapper library to make each of the modes the camera has into distinct components that are simply initialised and once running you just grab each of the outputs for use.  The library is opensource and can be found on Github here:
 
 #### [https://github.com/DDReaper/MonoGame-IntelSDK](https://github.com/DDReaper/MonoGame-IntelSDK)
 
@@ -67,5 +67,5 @@ So back to the grindstone, although now the challenge has been extended I may sp
 
 # Further posts
 
-When I get time I will do some further posts about the SDK and the library I created.&nbsp; Oh time you elusive beast 😀
+When I get time I will do some further posts about the SDK and the library I created.  Oh time you elusive beast 😀
 

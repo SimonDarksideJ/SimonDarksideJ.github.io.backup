@@ -33,7 +33,7 @@ First what are you getting yourself into this for?
 > > 
 > > Also for most area’s that include programming, unless you’ve done something similar then the rough timescales for learning this stuff is about 4 years! ( Digipen www. **digipen**.edu, specialise in Computer games programming courses, suggest this very strongly, possibly longer depending on your programming level)
 > > 
-> > P.S – understand where the ideal may sound grand the reality is that it is a very hard road, tight deadlines always looming and in a lot of cases the money is not great.&nbsp; You really need to be in the game if you love the creation of something for people to get there teeth into and enjoy themselves.
+> > P.S – understand where the ideal may sound grand the reality is that it is a very hard road, tight deadlines always looming and in a lot of cases the money is not great.  You really need to be in the game if you love the creation of something for people to get there teeth into and enjoy themselves.
 
 Me, i’m in for the fun of it and what I learn along the way, i ai’nt going to be writing the next version of doom any time soon.
 
@@ -53,7 +53,7 @@ Me, i’m in for the fun of it and what I learn along the way, i ai’nt going t
 > > 
 > > Personally I enjoy the learning itself for now, use what Time you can to understand what is required from a programming point of view, by all means layout a game design goal (2D, 3D, RTS,RPG, FPS) and learn across that route first, learn about the Game cycle (one thing I never thought of), the different methods for graphic placement, Bitmaps graphics and such.
 > > 
-> > Learn the wilds of OOP (object Orientated Programming)&nbsp;in a gaming concept, it does have it’s own wilds (so i’ve found)
+> > Learn the wilds of OOP (object Orientated Programming) in a gaming concept, it does have it’s own wilds (so i’ve found)
 > > 
 > > If using DirectX for a foundation for your game, start reading up on it from guides and such.
 > > 
@@ -63,7 +63,7 @@ Oyou’ve though about these points, choose the approach that fits you.
 
 My way may not suit others, everyone has there own path, albeit some through a firery chasm, over a long wooden walkbridge just to answer my questions three. ahem
 
-If your here for fun or dont mind my incessant rablings (findings) then I hope you enjoy the future.
+If your here for fun or do not mind my incessant rablings (findings) then I hope you enjoy the future.
 
 > 
 

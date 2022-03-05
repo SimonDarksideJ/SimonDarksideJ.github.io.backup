@@ -19,7 +19,7 @@ Now standards improve / change over time and FBX is no different, Autodesk (who 
 
 # Running in to issues with old FBX formats
 
-I stumbled across this recently while updating some old samples and tests for MonoGame. Normally with MonoGame (99.5% of the time) the old XNA samples just work, you simply need to build a new MonoGame project, copy over the code and assets and you are up and running, however with the recent releases they have deprecated some of the older FBX standards in favour of only supporting the newer variety.&nbsp; When you add an old FBX into your content project you will get the following error:
+I stumbled across this recently while updating some old samples and tests for MonoGame. Normally with MonoGame (99.5% of the time) the old XNA samples just work, you simply need to build a new MonoGame project, copy over the code and assets and you are up and running, however with the recent releases they have deprecated some of the older FBX standards in favour of only supporting the newer variety.  When you add an old FBX into your content project you will get the following error:
 
 [![image](/Images/wordpress/2015/10/image_thumb1.png "image")](/Images/wordpress/2015/10/image1.png)
 
@@ -43,7 +43,7 @@ Now many 3D model conversion sites do generally support most 3D format standards
 
 ### Online 3D Convertor – [http://www.greentoken.de/onlineconv/](http://www.greentoken.de/onlineconv/ "http://www.greentoken.de/onlineconv/")
 
-They offer conversion between several formats based on the [Open Asset Import Library](http://assimp.sourceforge.net/main_features_formats.html). There are a few it ca not convert (namely MAX and Maya as they are too proprietary), otherwise the list is very extensive.&nbsp; You can then either convert to another format or back to a newer version of FBX.
+They offer conversion between several formats based on the [Open Asset Import Library](http://assimp.sourceforge.net/main_features_formats.html). There are a few it ca not convert (namely MAX and Maya as they are too proprietary), otherwise the list is very extensive.  You can then either convert to another format or back to a newer version of FBX.
 
 ## 2: Upgrade it
 
@@ -51,17 +51,17 @@ Now Option 1 may not always work, like others they need to maintain their librar
 
 [![image](/Images/wordpress/2015/10/image2.png "image")](http://usa.autodesk.com/adsk/servlet/pc/item?siteID=123112&id=22694909)
 
-The FBX Convertor tool can actually do a lot more than just upgrade your FBX files, it can view them, strip out unnecessary data (especially useful if you want to remove animations for skeletal rigging) and much much more.&nbsp; You can find this tool here:
+The FBX Convertor tool can actually do a lot more than just upgrade your FBX files, it can view them, strip out unnecessary data (especially useful if you want to remove animations for skeletal rigging) and much much more.  You can find this tool here:
 
 > ### [Autodesk FBX Converter](http://usa.autodesk.com/adsk/servlet/pc/item?siteID=123112&id=22694909 "Autodesk FBX Converter")
 
 ## 3: Visual Studio is your friend
 
-I was reminded on Twitter (and Andy’s comment below) that in Visual Studio 2013, the team added a whole host of new 3D graphics tools. These allow you to view, edit and manipulate graphics content, from images, shaders and even 3D models.&nbsp; These capabilities were extended even further in 2015 which a host of new features which you can read about here:
+I was reminded on Twitter (and Andy’s comment below) that in Visual Studio 2013, the team added a whole host of new 3D graphics tools. These allow you to view, edit and manipulate graphics content, from images, shaders and even 3D models.  These capabilities were extended even further in 2015 which a host of new features which you can read about here:
 
-> ### [Working with 3-D Assets for Games and Apps using Visual Studio](https://msdn.microsoft.com/en-gb/library/hh315737.aspx)
+> ### [Working with 3-D Assets for Games and Apps using Visual Studio](https://msdn.microsoft.com/en-gb/library/hh315737)
 
-With Visual Studio, you can simply double click an FBX (and some other) files, then simply hit save and the model file will be automatically upgraded to the latest format.&nbsp; Pretty neat and with the latest version of Visual Studio, completely FREE 😀
+With Visual Studio, you can simply double click an FBX (and some other) files, then simply hit save and the model file will be automatically upgraded to the latest format.  Pretty neat and with the latest version of Visual Studio, completely FREE 😀
 
 * * *
 
@@ -77,5 +77,5 @@ Not sure what the actual cause of the reduction is or it is full effect, however
 
 # Happy motoring
 
-Hope you found this little tidbit useful, I simply ran in to this while I was researching another fun area of MonoGame that is largely untapped, building Custom Content projects.&nbsp; I have blogged about this before but it is due an update with the release of MonoGame 3.4 and the upcoming 3.5 release.
+Hope you found this little tidbit useful, I simply ran in to this while I was researching another fun area of MonoGame that is largely untapped, building Custom Content projects.  I have blogged about this before but it is due an update with the release of MonoGame 3.4 and the upcoming 3.5 release.
 

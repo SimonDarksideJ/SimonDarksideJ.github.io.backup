@@ -10,9 +10,9 @@ tags:
 - xna-2d-tutorials
 ---
 
-No need to guess what this little section is about.&nbsp; Games on [Windows Phone 7](http://developer.windowsphone.com/).
+No need to guess what this little section is about.  Games on [Windows Phone 7](http://developer.windowsphone.com/).
 
-For now this is going to be a side project to the main tutorial since XNA 4.0 and the Windows Phone 7 kit has not been fully released yet.&nbsp; So on with the show.
+For now this is going to be a side project to the main tutorial since XNA 4.0 and the Windows Phone 7 kit has not been fully released yet.  So on with the show.
 
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
@@ -20,7 +20,7 @@ For now this is going to be a side project to the main tutorial since XNA 4.0 an
 
 ### Getting started
 
-&nbsp;
+ 
 
 For the Windows Phone side of this tutorial you are going to need the [Windows Phone Development Kit](http://developer.windowsphone.com/windows-phone-7-series/) (The April refresh is the latest), this will download and install everything you need including:
 
@@ -33,19 +33,19 @@ Get them installed and started and you see the great new Visual studio 2010 inte
 
 ![VS2010ExpressPhone](http://xna-uk.net/blogs/darkgenesis/VS2010ExpressPhone_thumb_1878E542.png)
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 ### New project
 
-Now exactly the same as before in this [earlier post](/blogs/darkgenesis/archive/2010/06/04/intermission-3-updating-to-allow-for-changeable-resolution.aspx), you need to set up a new project, except this time you need to browse to the XNA Game Studio 4.0 section and select the “Windows Phone Game (4.0)” project.
+Now exactly the same as before in this [earlier post](/blogs/darkgenesis/archive/2010/06/04/intermission-3-updating-to-allow-for-changeable-resolution), you need to set up a new project, except this time you need to browse to the XNA Game Studio 4.0 section and select the “Windows Phone Game (4.0)” project.
 
 ![NewPhoneProject](http://xna-uk.net/blogs/darkgenesis/NewPhoneProject_thumb_581E6C2E.png)
 
-&nbsp;
+ 
 
 I suggest calling the project “XNAStarTrooper2D\_Phone7”, select an appropriate folder and click OK, then you will be presented with a nice clean empty Phone solution.
 
@@ -69,7 +69,7 @@ Now straight off the bat, if you build the project there will be several errors 
 
 Now with any upgrade project, I have always found it easier to do the conversion myself as you can ensure you know exactly what changes are required, to that first we need to update the default “Game1.cs” class with our engine and setup code from the StarTrooperGame.CS
 
-&nbsp;
+ 
 
 This is broken down into the following steps:
 
@@ -1031,7 +1031,7 @@ What you should end up with is the following.
     
     
     
-    &nbsp;
+     
     
     
     
@@ -1039,7 +1039,7 @@ What you should end up with is the following.
     
     
     
-    Last job to ensure the project is cleaned up and tidy.&nbsp; Delete the original “StarTrooperGame.cs” file and then Rename “Game1.cs” to “StarTrooperGame.cs”.
+    Last job to ensure the project is cleaned up and tidy.  Delete the original “StarTrooperGame.cs” file and then Rename “Game1.cs” to “StarTrooperGame.cs”.
     
     
     
@@ -1047,13 +1047,13 @@ What you should end up with is the following.
     
     
     
-    &nbsp;
+     
     
     
     * * *
     
     
-    &nbsp;
+     
     
     
     ### Final Changes
@@ -1099,7 +1099,7 @@ What you should end up with is the following.
             
             
             
-            &nbsp;
+             
             
             
             * * *
@@ -1109,7 +1109,7 @@ What you should end up with is the following.
             
             
             
-            &nbsp;
+             
             
             
             

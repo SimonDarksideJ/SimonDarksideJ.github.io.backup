@@ -9,7 +9,7 @@ tags:
 - windows-phone
 ---
 
-[![](http://blogs.msdn.com/cfs-file.ashx/__key/CommunityServer-Blogs-Components-WeblogFiles/00-00-01-39-66-metablogapi/2816.clip_5F00_image001_5F00_1B38CF4D.jpg)](http://blogs.msdn.com/b/ukmsdn/archive/2011/02/24/wanna-get-creative-on-24-march.aspx)
+[![](http://blogs.msdn.com/cfs-file.ashx/__key/CommunityServer-Blogs-Components-WeblogFiles/00-00-01-39-66-metablogapi/2816.clip_5F00_image001_5F00_1B38CF4D.jpg)](http://blogs.msdn.com/b/ukmsdn/archive/2011/02/24/wanna-get-creative-on-24-march)
 
 Following up from the UK Techdays (#uktechdays) online conference we presented at, the full conference is now available online for re-viewing, in case you missed them on the day.
 
@@ -233,7 +233,7 @@ Bottom of Form
 
  |
 
-As you can see there was lots to see on the day.&nbsp; As a “tip of the cap” I have also included the sessions from those evil doers on the Silverlight track who seemed to rob most of our attendees for the day (well at least you guys can view the XNA sessions as well and see what you missed out on, Pauls Enthusiasm for one.
+As you can see there was lots to see on the day.  As a “tip of the cap” I have also included the sessions from those evil doers on the Silverlight track who seemed to rob most of our attendees for the day (well at least you guys can view the XNA sessions as well and see what you missed out on, Pauls Enthusiasm for one.
 
 Be warned watching the XNA track, you better have your seatbelt fastened as we had a LOT of fun doing it!
 
@@ -245,9 +245,9 @@ Although I must admit I need to go and watch Laurent’s session on MVVM now for
 
 Also do not forget to check out Mike’s and Pauls Summary posts on the two tracks here:
 
-[http://blogs.msdn.com/b/mikeormond/archive/2011/03/25/windows-phone-7-online-conference-useful-links.aspx](http://blogs.msdn.com/b/mikeormond/archive/2011/03/25/windows-phone-7-online-conference-useful-links.aspx) – Mike Ormond
+[http://blogs.msdn.com/b/mikeormond/archive/2011/03/25/windows-phone-7-online-conference-useful-links](http://blogs.msdn.com/b/mikeormond/archive/2011/03/25/windows-phone-7-online-conference-useful-links) – Mike Ormond
 
-[http://wotudo.net/blogs/wotudo/archive/2011/03/30/windows-phone-7online-conference-xna-track.aspx](http://wotudo.net/blogs/wotudo/archive/2011/03/30/windows-phone-7online-conference-xna-track.aspx) – Paul Foster
+[http://wotudo.net/blogs/wotudo/archive/2011/03/30/windows-phone-7online-conference-xna-track](http://wotudo.net/blogs/wotudo/archive/2011/03/30/windows-phone-7online-conference-xna-track) – Paul Foster
 
 * * *
 
@@ -255,7 +255,7 @@ Also do not forget to check out Mike’s and Pauls Summary posts on the two trac
 
 You might also want to check out my follow up videos from my SunBurn session over on [http://faux-motion.blogspot.com/](http://faux-motion.blogspot.com/)
 
-&nbsp;
+ 
 
 Time to Code!
 

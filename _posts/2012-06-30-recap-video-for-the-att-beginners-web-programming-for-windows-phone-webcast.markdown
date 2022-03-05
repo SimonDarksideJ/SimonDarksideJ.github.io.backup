@@ -27,7 +27,7 @@ In the webcast we covered:
 
 That’s me done for webcasts for a little while. i wouldn’t recommend doing three in one month to anybody but it was certainly one hell of a ride.
 
-For now i’m doing a few snippet webcasts for [Blender](/controlpanel/blogs/posteditor.aspx/blender.org)to [SunBurn](http://www.synapsegaming.com/products/sunburn)which I’ll summarise here ([like this one](/blogs/darkgenesis/archive/2011/04/06/sunburn-snippets-helper-series-for-getting-started-with-the-sunburn-game-engine.aspx)) but are being posted on my [3D blog](http://faux-motion.blogspot.com) (as it’s about Blender really)
+For now i’m doing a few snippet webcasts for [Blender](/controlpanel/blogs/posteditor/blender.org)to [SunBurn](http://www.synapsegaming.com/products/sunburn)which I’ll summarise here ([like this one](/blogs/darkgenesis/archive/2011/04/06/sunburn-snippets-helper-series-for-getting-started-with-the-sunburn-game-engine)) but are being posted on my [3D blog](http://faux-motion.blogspot.com) (as it’s about Blender really)
 
 now I really should stop helping out and get back to my own projects, but I know I’ll still struggle
 

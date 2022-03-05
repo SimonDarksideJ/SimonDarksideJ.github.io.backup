@@ -16,7 +16,7 @@ I figured out it was the camera in the end (it just decided to go for a wander),
 
 Only thing I added was importing a model, which I did just prior to the event just to save time (and I have to stop talking to myself in bracketed comments like this =D )
 
-#### If you have more Queries on Sunburn or just want to ask questions on it, fee free to use the&nbsp;[SunBurn forum here](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis")
+#### If you have more Queries on Sunburn or just want to ask questions on it, fee free to use the [SunBurn forum here](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis")
 
 So without further a do here’s the video:
 
@@ -35,4 +35,4 @@ I’m just checking over the last few things for my WP7 Web webcast (try saying 
 
 Seeya!
 
-#### If you have more Queries on Sunburn or just want to ask questions on it, fee free to use the&nbsp;[SunBurn forum here](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis")
+#### If you have more Queries on Sunburn or just want to ask questions on it, fee free to use the [SunBurn forum here](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis")

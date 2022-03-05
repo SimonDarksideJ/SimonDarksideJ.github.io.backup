@@ -12,17 +12,17 @@ tags:
 
 One problem with the original code from DigiPen (which the author freely admitted to) was that it was fixed to a resolution of 640 x 480 (640 pixels wide by 480 pixels high), this basically was the original VGA resolution only available on the earliest computers (by earliest I am only talking about 10 or 20 years ago now :-))
 
-With bigger and faster video cards and the increased display capabilities of today’s consoles, higher and higher resolutions are available.&nbsp;&nbsp; Then came HD which just goes even further.
+With bigger and faster video cards and the increased display capabilities of today’s consoles, higher and higher resolutions are available.   Then came HD which just goes even further.
 
 So for our game to be scalable enough to meet these demands we need it to be able to support these higher resolutions without breaking the game
 
-&nbsp;
+ 
 
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
 
-&nbsp;
+ 
 
 ### Graphics Back buffer
 
@@ -136,17 +136,17 @@ The part of our code that controls what resolution our game is running at is whe
         
         
         
-        Lastly, since we need to use these parameters through out code, there are two Static read only properties.&nbsp; Public so that they are accessible from any class and Static so that the class does not need instantiating (creating a variable of this type of class) to be able to access the settings.
+        Lastly, since we need to use these parameters through out code, there are two Static read only properties.  Public so that they are accessible from any class and Static so that the class does not need instantiating (creating a variable of this type of class) to be able to access the settings.
         
         
         
-        &nbsp;
+         
         
         
         * * *
         
         
-        &nbsp;
+         
         
         
         ### Applying these settings to the background sprite
@@ -296,7 +296,7 @@ Remembering we also need to update the second background image:
             
             
             
-            &nbsp;
+             
             
             
             * * *
@@ -306,7 +306,7 @@ Remembering we also need to update the second background image:
             
             
             
-            &nbsp;
+             
             
             
             
@@ -334,7 +334,7 @@ Remembering we also need to update the second background image:
                     
                     
                     
-                    &nbsp;
+                     
                     
                     
                     * * *
@@ -344,7 +344,7 @@ Remembering we also need to update the second background image:
                     
                     
                     
-                    &nbsp;
+                     
                     
                     
                     
@@ -352,7 +352,7 @@ Remembering we also need to update the second background image:
                     
                     
                     
-                    Now one last intermission before we get back on track with the tutorial.&nbsp; As a hint you will need XNA 4.0 installed.
+                    Now one last intermission before we get back on track with the tutorial.  As a hint you will need XNA 4.0 installed.
                     
                     
                     

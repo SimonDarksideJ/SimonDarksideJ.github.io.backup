@@ -13,7 +13,7 @@ tags:
 
 [![image](/Images/wordpress/2014/12/image6.png "image")](http://bit.ly/1w1Vkps)
 
-&nbsp;
+ 
 
 Following the success of last year’s festive offer, Packt Publishing will be celebrating the holiday season with an even bigger $5 offer.
 
@@ -27,7 +27,7 @@ With all $5 products available in a range of formats and DRM-free, customers wil
 
 [![FrontCover](/Images/wordpress/2014/10/FrontCover-234x300.png)](http://darkgenesis.zenithmoon.com/portfolio/mastering-unity-2d-game-development/ "Mastering Unity 2D Game Development")
 
-&nbsp;
+ 
 
 So if you have been sitting on the fence about buying my latest best selling title **Mastering Unity 2D Game Development** , then now is the perfect opportunity to pocket it for next to nothing. How will i feed my family on this? ah well, lots of small things are better than a few large things, or so I am told ![Open-mouthed smile](/Images/wordpress/2014/12/wlEmoticon-openmouthedsmile2.png).
 

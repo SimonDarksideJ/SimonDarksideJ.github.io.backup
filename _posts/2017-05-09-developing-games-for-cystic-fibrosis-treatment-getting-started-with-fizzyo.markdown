@@ -23,7 +23,7 @@ Well, the fun never stopped and many of those students have gone on further with
 
 ![Image result for cystic fibrosis logo](http://johnsonbanks.co.uk/content/news/cystic_fibrosis_is_what_555Crop.jpg)
 
-Cystic fibrosis (CF) is a genetic condition affecting more than 10,800 people in the UK and its effects are quite far ranging.&nbsp; The most prominent issue that people with CF have is with their breathing.&nbsp; Mucus builds up in their lungs causing chronic infections, meaning that people with cystic fibrosis struggle with reduced lung function and have to spend hours doing physiotherapy and taking nebulised treatments each day. Exacerbations (a sudden worsening of health, often owing to infection) can lead to frequent hospitalisation for weeks at a time.
+Cystic fibrosis (CF) is a genetic condition affecting more than 10,800 people in the UK and its effects are quite far ranging.  The most prominent issue that people with CF have is with their breathing.  Mucus builds up in their lungs causing chronic infections, meaning that people with cystic fibrosis struggle with reduced lung function and have to spend hours doing physiotherapy and taking nebulised treatments each day. Exacerbations (a sudden worsening of health, often owing to infection) can lead to frequent hospitalisation for weeks at a time.
 
 On top of that, their pancreas becomes blocked with mucus, enzymes required for digesting food cannot reach the stomach. People with cystic fibrosis often need to take more than 50 tablets a day to help digest food and keep respiratory symptoms in check.
 
@@ -43,7 +43,7 @@ The specific treatment being addressed currently is centred around airway cleara
 - Stop and perform a coughing like exercise
 - Repeat all this again for about 30 minutes or more. Roughly about 8 times.
 
-Patients need to focus on their breathing, NOT over exert themselves and ensure their full lung capacity is used (remembering that with CF patients, this can be greatly diminished).&nbsp; This is very repetitive and needs to be completed several times a day, which you can imagine is quite boring.&nbsp; Some patients use other methods, such as blowing into a bowl of water through a straw achieving the same effect.
+Patients need to focus on their breathing, NOT over exert themselves and ensure their full lung capacity is used (remembering that with CF patients, this can be greatly diminished).  This is very repetitive and needs to be completed several times a day, which you can imagine is quite boring.  Some patients use other methods, such as blowing into a bowl of water through a straw achieving the same effect.
 
 ![Airway Clearance Devices](https://i1.wp.com/github.com/ichealthhack/fizzyo-challenge/raw/master/Airway.jpg?resize=300%2C158&ssl=1)
 
@@ -51,16 +51,16 @@ This is where the Fizzyo device comes in, it is attached to any one of the airwa
 
 There are many hurdles involved in getting such a device approved for medical use and to ensure it is free from bacteria and infection sources in every use. Allowing it to be cleaned or use easily replaceable parts between the airway device and the Fizzyo controller.
 
-&nbsp;
+ 
 
 The aim with the Fizzyo device is twofold:
 
-1. To collect data on the patient’s breathing patterns. This can provide more accurate information on the treatment and provide early warnings of possible infections or breathing difficulties.&nbsp; This helps to ensure the patient is doing enough to manage their condition.
+1. To collect data on the patient’s breathing patterns. This can provide more accurate information on the treatment and provide early warnings of possible infections or breathing difficulties.  This helps to ensure the patient is doing enough to manage their condition.
 2. Provide input for the games, allowing developers to build experiences that can make the treatment more fun and engaging
 
 Both are equally important to improve the patient’s quality of life and make treatment less of a burden as well as give an early indication of any problems that might arise requiring some sort of intervention or change in treatment.
 
-&nbsp;
+ 
 
 * * *
 
@@ -68,7 +68,7 @@ Both are equally important to improve the patient’s quality of life and make t
 
 ![Image result for open source contribution](https://softwareengineeringdaily.com/wp-content/uploads/2017/02/opensource.jpg)
 
-With the IChealthHack event, the aim was not to actually make a few games, the aim was to build a foundation from which many projects could be born. The entire project, from the hardware, firmware, software and even the games are all open source.&nbsp; That way everyone benefits from what has come before and we all learn from each other’s attempts.
+With the IChealthHack event, the aim was not to actually make a few games, the aim was to build a foundation from which many projects could be born. The entire project, from the hardware, firmware, software and even the games are all open source.  That way everyone benefits from what has come before and we all learn from each other’s attempts.
 
 Thus was born the Fizzyo project and it is GitHub Repository which can be found here:
 
@@ -84,7 +84,7 @@ Outline plans and information on the end to end Fizzyo project. Everything from 
 - 
 ### Firmware
 
-The source and plans for the firmware for the Fizzyo Devices.&nbsp; These will be made available once the Fizzyo devices have made it past medical device testing (a long and costly exercise)
+The source and plans for the firmware for the Fizzyo Devices.  These will be made available once the Fizzyo devices have made it past medical device testing (a long and costly exercise)
 
 - 
 ### Hardware
@@ -95,7 +95,7 @@ All the plans and designs for the current and future Fizzyo device hardware. The
 ### Games
 
 This is the main repository for the moment and is broken up into 3 parts.  
-\* Fizzyo – The current framework libraries and projects for the Fizzyo library.&nbsp; There are currently 2 libraries available for Unity and Monogame development  
+\* Fizzyo – The current framework libraries and projects for the Fizzyo library.  There are currently 2 libraries available for Unity and Monogame development  
 \* Sample Games – Some simple projects in both Unity and MonoGame using the above libraries  
 \* The Games
 
@@ -122,7 +122,7 @@ You can try and add more but remember the focus is on the treatment and the game
 [![image](/Images/wordpress/2017/05/image_thumb.png "image")](/Images/wordpress/2017/05/image.png)
 - A collection game where the players breath charges the ship to allow it to move  
 [![image](/Images/wordpress/2017/05/image_thumb-1.png "image")](/Images/wordpress/2017/05/image-1.png)
-- An endless runner platformer where the player breathes to speed up the character and the button to jump.&nbsp; Bonus points are achieved for “good” breathing cycles  
+- An endless runner platformer where the player breathes to speed up the character and the button to jump.  Bonus points are achieved for “good” breathing cycles  
 [![image](/Images/wordpress/2017/05/image_thumb-2.png "image")](/Images/wordpress/2017/05/image-2.png)
 
 Using the Fizzyo library from either Unity or MonoGame is very easy, a big benefit of using the library is that it also includes recorded data so that you do not even need an actual Fizzyo device to get started. Alternatively, you can just use your normal X Axis and Button 1 inputs and simulate them normally if you wish.
@@ -161,7 +161,7 @@ You can also access the button on the device as follows:
 
 More details are included in the readme on the [GitHub page here](https://github.com/Fizzyo/Games/tree/master/Fizzyo/Fizzyo-Unity).
 
-&nbsp;
+ 
 
 ## Getting Started with Fizzyo in MonoGame
 
@@ -193,7 +193,7 @@ More details are included in the readme on the [GitHub page here](https://github
 
 > **Full details and examples of these implementations are included in the sample projects on the Games GitHub site**
 
-&nbsp;
+ 
 
 * * *
 

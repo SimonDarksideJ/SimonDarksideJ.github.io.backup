@@ -8,7 +8,7 @@ tags:
 
 Seems I’m getting notice more and more these day’s, always good.
 
-I got a mention in an [interview](http://www.gamasutra.com/features/20061215/sheffield_01.shtml) with Microsoft&nbsp;Dave Mitchell&nbsp;about my involvement in the [XBOX360Homebrew](http://xbox360homebrew.com/default.aspx) contest. (Will get round to updating HACK-1 in time)
+I got a mention in an [interview](http://www.gamasutra.com/features/20061215/sheffield_01.shtml) with Microsoft Dave Mitchell about my involvement in the [XBOX360Homebrew](http://xbox360homebrew.com/default) contest. (Will get round to updating HACK-1 in time)
 
 [XNATutorial](http://www.xnatutorial.com/) blog gave me a mention in the [monthly updates](http://www.xnatutorial.com/?p=60) (nice!)
 

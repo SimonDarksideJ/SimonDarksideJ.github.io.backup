@@ -123,15 +123,15 @@ _Figure 5: Unity Windows 10 Player settings_
 
 Once the project is built, open the exported project in Visual Studio so we can add the Cortana integration parts. For the integration to work, we need a set of code to handle the incoming commands, then we need to call that in the application’s start-up methods.
 
-> If you forget to add the capabilities to the project, you will get odd errors when running the project.&nbsp; You can also add them later in the project by double-clicking on the “Package.appxmanifest” file in the solution and selecting the capabilities tab.
+> If you forget to add the capabilities to the project, you will get odd errors when running the project.  You can also add them later in the project by double-clicking on the “Package.appxmanifest” file in the solution and selecting the capabilities tab.
 
-Microsoft also provides a quick start tutorial on speech integration, which you can find here: [https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/mt185609.aspx](https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/mt185609.aspx)
+Microsoft also provides a quick start tutorial on speech integration, which you can find here: [https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/mt185609](https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/mt185609)
 
 ## Create your Voice Definition File
 
 To begin, we need a Voice Command Definition (VCD) file to tell the operating system what voice commands are available for our app.
 
-> We won’t go over the full capabilities of the VCD file in this tutorial, but you can find more information here: [https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/dn706593.aspx](https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/dn706593.aspx)
+> We won’t go over the full capabilities of the VCD file in this tutorial, but you can find more information here: [https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/dn706593](https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/dn706593)
 
 Creating a VCD file is very easy. First, create a new XML document in your solution (_Right click -\> Add new Item -\> XML File_) and then adding basic VCD content to the new XML file, I created a **VoiceCommandDefinition.xml** file as follows:
 
@@ -262,7 +262,7 @@ Next add the following **InitialiseSpeechRecognition** method:
 
 Here we create a new instance of the **SpeechRecognizer** and then define our default grammar (the operation mode for the speech recognition) and apply it to the recognizer.
 
-For more information on the SpeechRecognizer, see this quick start guide from MSDN: [https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/mt185615.aspx](https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/mt185615.aspx)
+For more information on the SpeechRecognizer, see this quick start guide from MSDN: [https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/mt185615](https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/mt185615)
 
 ## Letting the player get a word in
 
@@ -298,7 +298,7 @@ You should also probably also add some UI to tell the player the device is liste
 
 * * *
 
-# Getting the character&nbsp;talking back
+# Getting the character talking back
 
 So far we’ve covered launching with voice and letting the user interact with voice while the game is running. However, Cortana also has a voice of her own which we can use to badger the player. Normally in games when we want characters to speak to the player, we record a media file for speech and then play it back to the user at the appropriate time. This pattern has one unique flaw; it is bound to the language you recorded it in. If you want to support multiple languages, you need to re-record the audio in all the languages you want to support and ship ALL of them with your title, unless you use regional asset.
 
@@ -396,19 +396,19 @@ You can find out more about the MS Band SDK here, including getting access to th
 
 # Just wait, hold the fish
 
-As Unity 5.4 has now reached public beta I can also note another new development in the Unity ranks.&nbsp; For the astute among you, you might have noticed a one line comment in the Windows section in the release notes, basically stating:
+As Unity 5.4 has now reached public beta I can also note another new development in the Unity ranks.  For the astute among you, you might have noticed a one line comment in the Windows section in the release notes, basically stating:
 
 > Windows: Added speech recognition APIs under UnityEngine.Windows.Speech
 
-An interesting comment, which indicates that Unity themselves are recognising the power of Cortana (at least to some level).&nbsp; Granted, as it is a beta the documentation is a little thin on the ground and it took several minutes of hacking around the API to get it running in Unity, but it does indeed work.
+An interesting comment, which indicates that Unity themselves are recognising the power of Cortana (at least to some level).  Granted, as it is a beta the documentation is a little thin on the ground and it took several minutes of hacking around the API to get it running in Unity, but it does indeed work.
 
 There are a few caveats (mainly because there are no docs):
 
-- Dictation libraries are not there, or at the very least it is unclear about how to add them.&nbsp; Just means you only have the default language support.
-- There are a few hoops to jump through to get it initialised (granted this article should help point the way.&nbsp; This should hopefully get better as it moves to release.
-- It is ONLY for windows.&nbsp; That does include all Windows 10 / UWP builds (not Xbox but I guess that will come in a future update when Cortana hits Xbox One) and also the Windows Standalone player (although in testing, only running on Windows 10)
+- Dictation libraries are not there, or at the very least it is unclear about how to add them.  Just means you only have the default language support.
+- There are a few hoops to jump through to get it initialised (granted this article should help point the way.  This should hopefully get better as it moves to release.
+- It is ONLY for windows.  That does include all Windows 10 / UWP builds (not Xbox but I guess that will come in a future update when Cortana hits Xbox One) and also the Windows Standalone player (although in testing, only running on Windows 10)
 
-My only real complaint about this is that it is a platform specific implementation, it is only Windows.&nbsp; I would have preferred an abstracted layer for all supported platforms and have a unified API.&nbsp; Granted this is more difficult but it marks a trend with many new features that a unified approach is the purview of the developer to coordinate.&nbsp; NOT everything, just some new features!
+My only real complaint about this is that it is a platform specific implementation, it is only Windows.  I would have preferred an abstracted layer for all supported platforms and have a unified API.  Granted this is more difficult but it marks a trend with many new features that a unified approach is the purview of the developer to coordinate.  NOT everything, just some new features!
 
 Once it hits release, I may do a follow up article to detail it is implementation with the features above, both paths are still valid so it is purely up to your preference as to which to use.
 

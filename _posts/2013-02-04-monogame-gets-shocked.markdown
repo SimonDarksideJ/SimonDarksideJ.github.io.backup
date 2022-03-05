@@ -21,11 +21,11 @@ Not cryptic enough for you then read on ![Open-mouthed smile](/Images/wordpress/
 
 We left off just porting [Michael Hoffman](http://gamedev.tutsplus.com/author/michael-hoffman/)’s excellent article showing us how to generate lightning effects almost effortlessly using XNA over to [MonoGame](http://monogame.net/) in minutes, however (as I usually do) I felt it did not just go far enough, sure Windows desktop is fine but MonoGame V3 now gives us entry to Windows 8 / RT and Windows Phone for FREE with paid options for other platforms.
 
-Also where we had a working project, I would not call it a solution as I would have to repeat that process for each platform and maintain them separately which is not ideal, so let’s kick&nbsp; it up a notch and make this more shocking!!!!!
+Also where we had a working project, I would not call it a solution as I would have to repeat that process for each platform and maintain them separately which is not ideal, so let’s kick  it up a notch and make this more shocking!!!!!
 
 ![src=]()
 
-&nbsp;
+ 
 
 Source for the series can be found [here on codeplex](http://lightningdemo.codeplex.com/) as well as the code drop for [this stage here](http://lightningdemo.codeplex.com/releases/view/101371)
 
@@ -33,9 +33,9 @@ Source for the series can be found [here on codeplex](http://lightningdemo.codep
 
 # Going Portable
 
-First problem we need to address is to separate our content / game from our project, following a kind of MVC / MVVM / MVP style of architecture but for games, all we should have in our main “game” project is what we need to actually RUN the game and start painting to the screen.&nbsp; This will make more sense in the SunBurn portion of this series but will aid us as we go multi-platform with MonoGame.
+First problem we need to address is to separate our content / game from our project, following a kind of MVC / MVVM / MVP style of architecture but for games, all we should have in our main “game” project is what we need to actually RUN the game and start painting to the screen.  This will make more sense in the SunBurn portion of this series but will aid us as we go multi-platform with MonoGame.
 
-To begin add a new project to our VS 2010 solution (yes, we will get on to VS2012 shortly!! just hang on) for a Class library (We should use a Portable Class library project but cannot for two factors, this project needs a lot of graphical references at present and MonoGame does not have&nbsp; PCL version, yet).
+To begin add a new project to our VS 2010 solution (yes, we will get on to VS2012 shortly!! just hang on) for a Class library (We should use a Portable Class library project but cannot for two factors, this project needs a lot of graphical references at present and MonoGame does not have  PCL version, yet).
 
 So add the new Class library project to your solution: and call it “MonoGameLightningDemoLib”:
 
@@ -43,21 +43,21 @@ So add the new Class library project to your solution: and call it “MonoGameLi
 
 Next move all the code files from the original game solution over to our new lass Library except for Game and Program, to be more specific move these files:
 
-> ![src=]()&nbsp;&nbsp;&nbsp; Art.cs  
-> ![src=]()&nbsp;&nbsp;&nbsp; BranchLightning.cs  
-> ![src=]()&nbsp;&nbsp;&nbsp; ColorUtil.cs  
-> ![src=]()&nbsp;&nbsp;&nbsp; ILightning.cs  
-> ![src=]()&nbsp;&nbsp;&nbsp; LightningBolt.cs  
-> ![src=]()&nbsp;&nbsp;&nbsp; LightningText.cs
+> ![src=]()    Art.cs  
+> ![src=]()    BranchLightning.cs  
+> ![src=]()    ColorUtil.cs  
+> ![src=]()    ILightning.cs  
+> ![src=]()    LightningBolt.cs  
+> ![src=]()    LightningText.cs
 
 If you drag then over in Visual Studio be sure to remove the old files from the original project as VS will just copy them instead of move them.
 
 This has moved the core of the guts of the solution to a separate project so we can manage it separately just leaving the Game.cs code to run the game handling the graphics device, spritebatch’s and so on.
 
-We’re not done yet as you still need to tidy up a few things, first off go and update all the namespaces in the new class library for the files above to match the libraries namespace, in my case you go from “MonoGameLightningDemo1” to “MonoGameLightningDemoLib”.&nbsp; Next let’s sort out the references:
+We’re not done yet as you still need to tidy up a few things, first off go and update all the namespaces in the new class library for the files above to match the libraries namespace, in my case you go from “MonoGameLightningDemo1” to “MonoGameLightningDemoLib”.  Next let’s sort out the references:
 
-> ![src=]()&nbsp;&nbsp;&nbsp; Add a solution reference from the game project to the lib project  
-> ![src=]()&nbsp;&nbsp;&nbsp; Add a reference to the “MonoGame Windows OpenGL” dll in the library project (careful you get the right one)
+> ![src=]()    Add a solution reference from the game project to the lib project  
+> ![src=]()    Add a reference to the “MonoGame Windows OpenGL” dll in the library project (careful you get the right one)
 
 [![image](/Images/wordpress/2013/02/image_thumb4.png "image")](/Images/wordpress/2013/02/image4.png)
 
@@ -81,11 +81,11 @@ Now one of the amazing things the MonoGame team brought in with the latest updat
 
 Now I am not going to re-iterate what has already been said, so if you look back at the [last article](http://darkgenesis.zenithmoon.com/does-lightning-really-strike-twice/), go and do the following in Visual Studio 2012:
 
-> ![src=]()&nbsp;&nbsp;&nbsp; Create a new “MonoGame Windows Store Project” or a “MonoGame Windows Store (XAML) Project&nbsp; – up&nbsp; to you  
-> ![src=]()&nbsp;&nbsp;&nbsp; Add a new “MonoGame Content Project” to the solution  
-> ![src=]()&nbsp;&nbsp;&nbsp; Add a “Windows Store Class Library” project to the solution called “MonoGameLightningDemoLib” (or the same as you called the last one)  
-> ![src=]()&nbsp;&nbsp;&nbsp; Add a reference from the Game project to the Lib project  
-> ![src=]()&nbsp;&nbsp;&nbsp; Add a reference to the “MonoGame Widows 8” dll to the Lib project
+> ![src=]()    Create a new “MonoGame Windows Store Project” or a “MonoGame Windows Store (XAML) Project  – up  to you  
+> ![src=]()    Add a new “MonoGame Content Project” to the solution  
+> ![src=]()    Add a “Windows Store Class Library” project to the solution called “MonoGameLightningDemoLib” (or the same as you called the last one)  
+> ![src=]()    Add a reference from the Game project to the Lib project  
+> ![src=]()    Add a reference to the “MonoGame Widows 8” dll to the Lib project
 
 [![image](/Images/wordpress/2013/02/image_thumb5.png "image")](/Images/wordpress/2013/02/image5.png)
 
@@ -99,11 +99,11 @@ With the solution setup we just need to bring in our assets and engine/effect co
 > 
 > [![image](/Images/wordpress/2013/02/image_thumb6.png "image")](/Images/wordpress/2013/02/image6.png)
 
-First right click in the Content project and do “Add Existing Item”, then browse to the un-compiled source content from the previous solution (the png’s and spritefont files), this puts our content in place for building ( **ensuring you also set the “Build Action” to “Content” again!!** ).&nbsp; Next do the same again but this time in the Lib Project and link the code files from the Class Library project we created earlier.
+First right click in the Content project and do “Add Existing Item”, then browse to the un-compiled source content from the previous solution (the png’s and spritefont files), this puts our content in place for building ( **ensuring you also set the “Build Action” to “Content” again!!** ).  Next do the same again but this time in the Lib Project and link the code files from the Class Library project we created earlier.
 
 > **\*Note**
 > 
-> In both cases be sure to “Add as Link” the files else you are just going to end up with copies everywhere.&nbsp; An easy sanity test is to look in the directory where the projects are after doing the link and you should find the directories empty.
+> In both cases be sure to “Add as Link” the files else you are just going to end up with copies everywhere.  An easy sanity test is to look in the directory where the projects are after doing the link and you should find the directories empty.
 
 With everything in place you now just need to repeat the exercise from the last article to copy over the relevant sections in the game1.cs to your new solution (the native part of the project), ensuring to add the additional Using statement to the top of the game1.cs file as above:
 
@@ -179,4 +179,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js" language="javascript"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20) &nbsp;<script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList.aspx?amid=9502591)
+// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

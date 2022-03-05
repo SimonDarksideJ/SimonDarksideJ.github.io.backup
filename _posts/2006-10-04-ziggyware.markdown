@@ -11,11 +11,11 @@ tags:
 
 Seems these sites are multipling somewhere, Soon we’ll have XNA rabbits no doubt.
 
-In&nbsp;the front of doing some sprite animation and rotation reasearch for Hack-1, I can accross yet another XNA site featuring tutorials, so far there are only 2D tutorials but what w wealth fo information here, especially good if you are new to this.
+In the front of doing some sprite animation and rotation research for Hack-1, I can across yet another XNA site featuring tutorials, so far there are only 2D tutorials but what w wealth fo information here, especially good if you are new to this.
 
 Current Tutorials are:
 
-&nbsp;
+ 
 
 ![src=]()  
  ![src=]() [Creating a B2 Spirit Texture](http://www.ziggyware.com/readarticle.php?article_id=55)  
@@ -38,9 +38,9 @@ There are lots of other usefull bits of information and seems to be well thought
 
 [Link to Ziggyware](http://www.ziggyware.com/news.php)
 
-in other delvings I came across Andy Dunn’s (ZMan) exelent MSDN webcast of an introduction to shaders, WOW hats off to ZMan, it sometims is a shocker how big some things are if you’ve not properly looking into them and Shaders are one of those things
+in other delvings I came across Andy Dunn’s (ZMan) excelent MSDN webcast of an introduction to shaders, WOW hats off to ZMan, it sometimes is a shocker how big some things are if you’ve not properly looking into them and Shaders are one of those things
 
-[WebCastEventDetails.aspx-EventID=1032296889&EventCategory=5&culture=en-US&CountryCode=US](http://msevents.microsoft.com/CUI/WebCastEventDetails.aspx?EventID=1032296889&EventCategory=5&culture=en-US&CountryCode=US)
+[WebCastEventDetails-EventID=1032296889&EventCategory=5&culture=en-US&CountryCode=US](http://msevents.microsoft.com/CUI/WebCastEventDetails?EventID=1032296889&EventCategory=5&culture=en-US&CountryCode=US)
 
 You can find out more about the ZMan at his website @ [http://www.thezbuffer.com](http://www.thezbuffer.com)
 

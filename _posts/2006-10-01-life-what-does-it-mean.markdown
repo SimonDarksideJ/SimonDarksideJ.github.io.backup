@@ -40,7 +40,7 @@ The hacking sub game will feature on PC, XBOX and PDA’s and be finally include
 
 This will be a 2D game (may go 3D later) and is progressing well, once I’ve reached an alpha stage I’ll post the game onto [Codeplex](http://www.codeplex.com/) and future releases.
 
-The title pretty much says it all, it’s a game about hacking, gaining entry to things you shouldn’t, the objective will always be the same (get it open/bypassed) although to achieve this there will be a lot of things in your way, getting harder all the time and introducing more challenges.
+The title pretty much says it all, it’s a game about hacking, gaining entry to things you should not, the objective will always be the same (get it open/bypassed) although to achieve this there will be a lot of things in your way, getting harder all the time and introducing more challenges.
 
 A lot of thoughts for this to be a separate game also come from my playing [UPLINK,](http://www.introversion.co.uk/uplink/about.html) great game but I don’t intend to go as involved as uplink and focus more on the actual hacks.
 

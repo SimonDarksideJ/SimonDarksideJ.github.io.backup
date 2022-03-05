@@ -40,9 +40,9 @@ The competition is open to all ( **AS IN WORLDWIDE** ) with only a few of the us
 - **You are NOT** involved in any part of the administration and execution of this Challenge; **and**
 - **You are NOT** an immediate family (parent, sibling, spouse, child) or household member of a Microsoft employee, an employee of a Microsoft subsidiary, or a person involved in any part of the administration and execution of this Challenge.
 
-You also ca not (of note) submit a game that is being built by a major publishing house or one that is currently in development for console development programs such as [ID@Xbox](mailto:ID@Xbox), PS Dev, etc.&nbsp; It has to be your own work and not linked to your development studio or company.&nbsp; If it was not obvious, you also cannot submit games that are already published and sold, the game / project must be new. ( **AFAIK** )
+You also ca not (of note) submit a game that is being built by a major publishing house or one that is currently in development for console development programs such as [ID@Xbox](mailto:ID@Xbox), PS Dev, etc.  It has to be your own work and not linked to your development studio or company.  If it was not obvious, you also cannot submit games that are already published and sold, the game / project must be new. ( **AFAIK** )
 
-&nbsp;
+ 
 
 If you are up to the challenge, there are a few key dates to be aware of!
 
@@ -58,7 +58,7 @@ Dream Build Play which ran from 2007 through to 2012, has birthed some of the mo
 - Humble Hearts with [Dust: An Elysian Tail](https://www.giantbomb.com/dust-an-elysian-tail/3030-27691/) (which went on to be bought by Microsoft Studios)
 - [Xona Games](https://en.wikipedia.org/wiki/Xona_Games) with [Duality ZF](https://en.wikipedia.org/wiki/Duality_ZF) (still going strong with new titles being released this year)
 
-To name but a few.&nbsp;&nbsp; Most Studios and 1 man bands, especially those that won, have all gone on to do great things and that was only with a single framework to build it in, Microsoft’s XNA Framework.
+To name but a few.   Most Studios and 1 man bands, especially those that won, have all gone on to do great things and that was only with a single framework to build it in, Microsoft’s XNA Framework.
 
 > **You can read more about the** [**Dream Build Play History here on Wikipedia**](https://en.wikipedia.org/wiki/Dream_Build_Play)
 
@@ -74,7 +74,7 @@ Now you might think this is just one big push to get developers to build games f
 
 [![image](/Images/wordpress/2017/06/image_thumb-3.png "image")](/Images/wordpress/2017/06/image-3.png)
 
-&nbsp;
+ 
 
 The Windows 10 UWP ecosystem is a singular platform for building apps/games for Windows 10, it simply allows you to build a project once and then ship it to any client within the Windows10 family, such as:
 
@@ -85,7 +85,7 @@ The Windows 10 UWP ecosystem is a singular platform for building apps/games for 
 - HoloLens & Mixed Reality (also a focus for the competition)
 - iOT
 
-All of which are available to deliver to with a single package.&nbsp; Granted, given some have different screen sizes (some with no screen), you still have to think about how your game will work in each target but that is no different than if you were building for the Web, or for other platforms, such as Android tablets and phones.
+All of which are available to deliver to with a single package.  Granted, given some have different screen sizes (some with no screen), you still have to think about how your game will work in each target but that is no different than if you were building for the Web, or for other platforms, such as Android tablets and phones.
 
 > ### If you want to read/see more about building for UWP, then check out the recording of my Future Decoded 2016 “[Building UWP for Windows 10 & Xbox](https://www.youtube.com/watch?v=AAMToCwPy8s&t=2s)” talk.
 
@@ -93,7 +93,7 @@ All of which are available to deliver to with a single package.&nbsp; Granted, g
 
 # What can I use to build my project?
 
-Where previously the competition was limited to Microsoft’s own game development framework XNA, this year the doors have been flown open to any Tool, framework, middleware that you can use, so long as it is able to target the Windows 10 UWP platform. To make things easier, many of the largest companies already provide “out of the box”, so shipping to Windows 10 UWP is usually no more than a few clicks away.&nbsp;
+Where previously the competition was limited to Microsoft’s own game development framework XNA, this year the doors have been flown open to any Tool, framework, middleware that you can use, so long as it is able to target the Windows 10 UWP platform. To make things easier, many of the largest companies already provide “out of the box”, so shipping to Windows 10 UWP is usually no more than a few clicks away. 
 
 For instance, these companies all support UWP natively as an export platform:
 
@@ -109,43 +109,43 @@ And that is not to say you ca not just go your own way, as UWP has a full D3D re
 
 [![clip_image002_thumb](/Images/wordpress/2017/06/clip_image002_thumb_thumb.png "clip\_image002\_thumb")](/Images/wordpress/2017/06/clip_image002_thumb.png)
 
-As ever with these competitions, it is all about making your game stand out, making your Unique features scream at a judges face saying Pick me.&nbsp; Microsoft has already gone a long way to give you some pointers to make your final submission a big success, such as:
+As ever with these competitions, it is all about making your game stand out, making your Unique features scream at a judges face saying Pick me.  Microsoft has already gone a long way to give you some pointers to make your final submission a big success, such as:
 
 ## 1. Cloud
 
-It is no secret that most big games these days need some sort of backend infrastructure, whether it is for a MMO or PVP arena, or just for chat systems.&nbsp; The competition literally screams out, do something unique with a cloud backend and make it scale.&nbsp; The platform however, will have to be Microsoft’s Azure platform.&nbsp; To help with this, Azure already has loads of samples and integrations ready for most of the big framework providers and if that was not enough, there are open source libraries as well.
+It is no secret that most big games these days need some sort of backend infrastructure, whether it is for a MMO or PVP arena, or just for chat systems.  The competition literally screams out, do something unique with a cloud backend and make it scale.  The platform however, will have to be Microsoft’s Azure platform.  To help with this, Azure already has loads of samples and integrations ready for most of the big framework providers and if that was not enough, there are open source libraries as well.
 
 It is fairly easy to pick up and learn if you are new to the area, so simply plan for it in your design and do what you can to stand out.
 
 ## 2. Xbox Live Services (both desktop and Xbox)
 
-Microsoft provide the Xbox Live platform through their new [Xbox Live Creators Program](https://developer.microsoft.com/en-us/games/xbox/xboxlive/creator), which offers you libraries, connections to provide serviced for game engines include [Construct 2](https://www.scirra.com/construct2), [MonoGame](http://www.monogame.net/), [Unity](https://unity3d.com/), and [Xenko](https://doc.xenko.com/1.9/manual/platforms/uwp/xbox-live.html) (others are available as well).&nbsp; This enables you to Integrate with Xbox Live social experiences such as sign-in, presence, Leaderboards, and more.&nbsp; If you want more services, you can sign up with [ID@Xbox](http://www.xbox.com/en-GB/Developers/id) to get access to the full range of services.
+Microsoft provide the Xbox Live platform through their new [Xbox Live Creators Program](https://developer.microsoft.com/en-us/games/xbox/xboxlive/creator), which offers you libraries, connections to provide serviced for game engines include [Construct 2](https://www.scirra.com/construct2), [MonoGame](http://www.monogame.net/), [Unity](https://unity3d.com/), and [Xenko](https://doc.xenko.com/1.9/manual/platforms/uwp/xbox-live.html) (others are available as well).  This enables you to Integrate with Xbox Live social experiences such as sign-in, presence, Leaderboards, and more.  If you want more services, you can sign up with [ID@Xbox](http://www.xbox.com/en-GB/Developers/id) to get access to the full range of services.
 
 ## 3. Mixed Reality
 
-It should be no surprise that everyone is jumping on the Mixed Reality bandwagon, offering games that work in VR, AR or Both.&nbsp; Adding this in to the Mix of your game will go a long way to impressing judges if implemented well.&nbsp; One note to remember, is you need to also think about special audio and give a good audio experience with your 3D game, just having a pretty 3D scene will NOT be enough.
+It should be no surprise that everyone is jumping on the Mixed Reality bandwagon, offering games that work in VR, AR or Both.  Adding this in to the Mix of your game will go a long way to impressing judges if implemented well.  One note to remember, is you need to also think about special audio and give a good audio experience with your 3D game, just having a pretty 3D scene will NOT be enough.
 
 ## 4. Mixer Integration
 
-Originally called Bean, [Mixer](https://mixer.com/) is Microsoft’s new Collaborative Video streaming service with a heavy focus on games (Like Twitch), what sets it apart is that you can now [**integrate the service directly in your game**](https://dev.mixer.com/), giving YouTubers and players the ability to interact with the audience through the game (A truly mind bending experience).&nbsp; So, if you chose to make your game “YouTuber” friendly and build a project that includes not just the player but an audience as well, you will be well on your way to a prize!
+Originally called Bean, [Mixer](https://mixer.com/) is Microsoft’s new Collaborative Video streaming service with a heavy focus on games (Like Twitch), what sets it apart is that you can now [**integrate the service directly in your game**](https://dev.mixer.com/), giving YouTubers and players the ability to interact with the audience through the game (A truly mind bending experience).  So, if you chose to make your game “YouTuber” friendly and build a project that includes not just the player but an audience as well, you will be well on your way to a prize!
 
 ## 5. ALL OF THE ABOVE
 
-No one said you should make your life easy. Providing you do not go too far out of your comfort zone, do it ALL (or at least more than just a game).&nbsp; Gamers today are always demanding more and to keep pace you should find ways to give them more, quicker and easier.
+No one said you should make your life easy. Providing you do not go too far out of your comfort zone, do it ALL (or at least more than just a game).  Gamers today are always demanding more and to keep pace you should find ways to give them more, quicker and easier.
 
 * * *
 
 # [DREAM…. BUILD … GET PEOPLE TO PLAY](https://developer.microsoft.com/en-us/windows/projects/campaigns/dream-build-play-challenge)
 
-Dream Build Play is back with a vengeance.&nbsp; You should look on this competition as the mother of all Game Hack events with huge prizes and goodies.
+Dream Build Play is back with a vengeance.  You should look on this competition as the mother of all Game Hack events with huge prizes and goodies.
 
 More than that, every previous DBP comp has always birthed new Game Development Super heroes as the competition really highlights just what devs can do (especially with limited time) and then go on to be uber rock stars.
 
-> ### From what I know, there will also be more info incoming, like Monthly Draws, Game Spotlights and much much more.&nbsp; This is not just a one big bang event, expect there to be a few surprises along the way!!
+> ### From what I know, there will also be more info incoming, like Monthly Draws, Game Spotlights and much much more.  This is not just a one big bang event, expect there to be a few surprises along the way!!
 
 So, what are you waiting for, the clock is ticking. Get registered and be ready to submit by:
 
-&nbsp;
+ 
 
 [![image](/Images/wordpress/2017/06/image_thumb-9.png "image")](https://developer.microsoft.com/en-us/windows/projects/campaigns/dream-build-play-challenge)
 

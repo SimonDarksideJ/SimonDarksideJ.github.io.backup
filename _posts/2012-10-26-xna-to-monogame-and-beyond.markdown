@@ -31,7 +31,7 @@ So first out of the gate is [MonoGame](http://monogame.codeplex.com), This artic
 
 [![MonogameLogo1920x1920](/Images/wordpress/2012/10/MonogameLogo1920x1920_thumb.png "MonogameLogo1920x1920")](/Images/wordpress/2012/10/MonogameLogo1920x1920.png)
 
-[MonoGame](http://monogame.codeplex.com) is an Open Source implementation of the Microsoft XNA 4 Framework. Its goal is to allow XNA developers on Xbox 360, Windows & Windows Phone to port their games to the iOS, Android, Mac OS X, Linux and Windows 8 Metro.&nbsp; They are also hoping to open up several other platforms in the future including PlayStation mobile.
+[MonoGame](http://monogame.codeplex.com) is an Open Source implementation of the Microsoft XNA 4 Framework. Its goal is to allow XNA developers on Xbox 360, Windows & Windows Phone to port their games to the iOS, Android, Mac OS X, Linux and Windows 8 Metro.  They are also hoping to open up several other platforms in the future including PlayStation mobile.
 
 Behind the scenes, [MonoGame](http://monogame.codeplex.com) uses several other open source projects to deliver on this objective including:
 
@@ -68,13 +68,13 @@ As it is still in early Beta there are a few issues in the Windows 8 world but s
 
 ![ /></p>
 <p>The content pipeline was arguably one of the most powerful features of XNA which has been very hard to find outside of XNA, sure there are frameworks out there emulating XNA but none provide such a simple content building system (excluding Unity but that is NOT XNA).</p>
-<p>The trouble using XNA content builder outputs on other platforms is that the XNB files it outputs are platform specific, <a href=](http://www.flexicon.co.uk/us/images/plant.jpg)MonoGame has gotten around this with its own multi-platform builder project allowing the creation of compiled assets for all its target platforms.&nbsp; It is one deficiency is that it depends on the original XNA content project template which is still only available in VS2010 (express will do).&nbsp; Fear not however there are plans for a more open source version, it will just take time (get involved if you want to help out)
+<p>The trouble using XNA content builder outputs on other platforms is that the XNB files it outputs are platform specific, <a href=](http://www.flexicon.co.uk/us/images/plant.jpg)MonoGame has gotten around this with its own multi-platform builder project allowing the creation of compiled assets for all its target platforms.  It is one deficiency is that it depends on the original XNA content project template which is still only available in VS2010 (express will do).  Fear not however there are plans for a more open source version, it will just take time (get involved if you want to help out)
 
 Getting your content compiled is very easy, it just involves:
 
 - Creating a new “MonoGame Content Project for all Platforms”
 - Then add a “Content Builder” project to the solution
-- Add a content reference to the “Content Builder”&nbsp; project
+- Add a content reference to the “Content Builder”  project
 - Add your Content to the Content Project as you would any other XNA project
 - Set the “Target Build” type to the platform you want to build for
 - Build the project
@@ -88,7 +88,7 @@ This will give you a set of compiled assets in XNB format ready for use on your 
 # MonoGame – Windows 8 basic version
 
 [ ![ /></a></p>
-<p>Now <a href=](https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-prn1/55358_4249267144401_1677481735_o.jpg)MonoGame](http://www.spikie.be/blog/post/2012/10/09/MonoGame%E2%80%93XNA-on-Windows-8.aspx "A developers first attempt at a XNA game using MonoGame, nice breakoutgame") comes in two flavours for Windows 8, there is the basic windowed version and a XAML based one similar to the SilverXNA (Silverlight Integration) version for Windows Phone, which you choose is completely up to you.
+<p>Now <a href=](https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-prn1/55358_4249267144401_1677481735_o.jpg)MonoGame](http://www.spikie.be/blog/post/2012/10/09/MonoGame%E2%80%93XNA-on-Windows-8 "A developers first attempt at a XNA game using MonoGame, nice breakoutgame") comes in two flavours for Windows 8, there is the basic windowed version and a XAML based one similar to the SilverXNA (Silverlight Integration) version for Windows Phone, which you choose is completely up to you.
 
 The basic version is just XNA out of the box but with all the extra gubbins needed to run XNA/MonoGame on Windows 8:
 
@@ -154,7 +154,7 @@ Option 1, in my view is a lot cleaner, however there are a few points to keep in
 
 So as I mentioned before this second variant of [MonoGame](http://monogame.codeplex.com) is almost exactly the same as the Silverlight XNA integration (SilverXNA) on Windows Phone with only a few differences.
 
-You can add XAML elements to your game pages and use data binding to manage them, use XAML for menus with 3D backgrounds, the list goes on.&nbsp; Only real difference I’ve seen is that you do not need to paint the XAML rendering, it is automatically on top, granted this may mean you might not be able to do any fancy like having post-processing on the XAML page (may be possible just not sure at this stage)
+You can add XAML elements to your game pages and use data binding to manage them, use XAML for menus with 3D backgrounds, the list goes on.  Only real difference I’ve seen is that you do not need to paint the XAML rendering, it is automatically on top, granted this may mean you might not be able to do any fancy like having post-processing on the XAML page (may be possible just not sure at this stage)
 
 > **\*\*Note**
 > 
@@ -166,7 +166,7 @@ The other main difference which should be obvious is the project structure:
 
 [![image](/Images/wordpress/2012/10/image_thumb4.png "image")](/Images/wordpress/2012/10/image4.png)
 
-The project now has an “App.XAML” and “GamePage.XAML”.&nbsp; The “App.XAML” has been configured to act pretty much the same way the Basic [MonoGame](http://monogame.codeplex.com) project works by instantiating the Game properly.
+The project now has an “App.XAML” and “GamePage.XAML”.  The “App.XAML” has been configured to act pretty much the same way the Basic [MonoGame](http://monogame.codeplex.com) project works by instantiating the Game properly.
 
 The “Game.XAML” is just an empty SwapChainBackgroundPanel (a Core element of the C++ XAML game projects):
 
@@ -219,4 +219,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)&nbsp;<script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList.aspx?amid=9502591)
+// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20) <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

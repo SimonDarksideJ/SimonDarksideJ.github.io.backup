@@ -17,9 +17,9 @@ Times are changing and now that the latest milestone release of MonoGame (V3.2) 
 
 Old PR’s and issues are being validated and closed, a clearing house of sorts to separate the wheat from the chaff as it were.
 
-&nbsp;
+ 
 
-##### If you have old issues that are no longer relevant on the GitHub site, please close them so the team knows what to focus on and fix.&nbsp; Help with the clean-up
+##### If you have old issues that are no longer relevant on the GitHub site, please close them so the team knows what to focus on and fix.  Help with the clean-up
 
 The first part of this new world order is a first stab at adding modularisation to the MonoGame framework in much the same way that traditional XNA was separated into several DLL’s.
 
@@ -27,9 +27,9 @@ The first part of this new world order is a first stab at adding modularisation 
 
 # What did XNA ever do for us?
 
-As part of the delivery of XNA, each focal area had its own namespace and its own library.&nbsp; This helped when you only wanted certain portions of the framework or wanted to replace parts of it with your own.&nbsp; This is what XNA looked like in the end:
+As part of the delivery of XNA, each focal area had its own namespace and its own library.  This helped when you only wanted certain portions of the framework or wanted to replace parts of it with your own.  This is what XNA looked like in the end:
 
-&nbsp;
+ 
 
 - Microsoft.Xna.Framework.dll
 - Microsoft.Xna.Framework.Avatar.dll
@@ -54,11 +54,11 @@ The Farseer physics library was a great example for this where it used the XNA b
 
 With the latest change [MonoGame](http://www.monogame.net/) too has started down this path of separating each component into their own respective libraries in answer to a lot of comments around this area. it is also good for the framework because things become easier to test the smaller they are and we can be sure that changes in one feature are not going to have unintended consequences in others.
 
-&nbsp;
+ 
 
-> One thing to make clear is that the MonoGame team will only separate the framework into separate components where it makes sense to MonoGame.&nbsp; It is highly unlikely we will see as much separation as XNA had, just that which benefits the long term goals of the MonoGame framework.
+> One thing to make clear is that the MonoGame team will only separate the framework into separate components where it makes sense to MonoGame.  It is highly unlikely we will see as much separation as XNA had, just that which benefits the long term goals of the MonoGame framework.
 
-&nbsp;
+ 
 
 The first of these new modularisations is the **MonoGame.Framework.Net** library which encompasses the following namespaces:
 
@@ -75,29 +75,29 @@ If you currently contribute or are working on a PR for the repository, make sure
 
 NOTHING has changed in the setup of the [MonoGame](http://www.monogame.net/) directories or files, just that some namespaces are part of a separate DLL, most remain as they were before.
 
-&nbsp;
+ 
 
-Before submitting any new PR’s, I would recommend creating a new branch for your submission and copy over your changes, before pushing it and creating a PR.&nbsp; Better to be safe.
+Before submitting any new PR’s, I would recommend creating a new branch for your submission and copy over your changes, before pushing it and creating a PR.  Better to be safe.
 
 If you are new and looking to contribute, be sure to check out my [Git Contributor article here](http://darkgenesis.zenithmoon.com/how-to-become-a-better-git/) – might update it soon to talk about working and publish branches.
 
-&nbsp;
+ 
 
 * * *
 
 # What does this mean for MonoGame users / adopters (post V3.2)
 
-This first change should not impact your project at all unless you are using the networking or GamerServices features.&nbsp; If you do then just add a manual reference to the new MonoGame.Framework.Net library.
+This first change should not impact your project at all unless you are using the networking or GamerServices features.  If you do then just add a manual reference to the new MonoGame.Framework.Net library.
 
-&nbsp;
+ 
 
 #### If you are using the existing MonoGame v3.2 installer, then nothing will change until you update to a later release!
 
-Future releases will still ship with LidGren and the new MonoGame.Framework.Net libraries but they will not be part of the default (new) project templates.&nbsp; If you want them then just add a reference to each lib by browsing to the MonoGame installed assemblies directory, e.g.
+Future releases will still ship with LidGren and the new MonoGame.Framework.Net libraries but they will not be part of the default (new) project templates.  If you want them then just add a reference to each lib by browsing to the MonoGame installed assemblies directory, e.g.
 
 > C:\Program Files (x86)\MonoGame\v3.0\Assemblies
 
-&nbsp;
+ 
 
 * * *
 
@@ -107,19 +107,19 @@ There is no confirmed date as to when the next [MonoGame](http://www.monogame.ne
 
 As for NuGet, once things have settled I will get a new develop NuGet package out which will include these changes so you can test them out for yourself.
 
-&nbsp;
+ 
 
 * * *
 
 # A final call to arms
 
-Now both in [MonoGame](http://www.monogame.net/) and its split off cousin [FNA](https://github.com/flibitijibibo/MonoGame) have taken this move to separate out the NET namespace from their frameworks, the main reason for this is that it allows some focus to break the dependency on LidGren itself.&nbsp; There is nothing wrong with LidGren it is a good networking framework but some people do not like it or generally prefer to use something else, this is where you, the budding developer community, can come in.
+Now both in [MonoGame](http://www.monogame.net/) and its split off cousin [FNA](https://github.com/flibitijibibo/MonoGame) have taken this move to separate out the NET namespace from their frameworks, the main reason for this is that it allows some focus to break the dependency on LidGren itself.  There is nothing wrong with LidGren it is a good networking framework but some people do not like it or generally prefer to use something else, this is where you, the budding developer community, can come in.
 
-&nbsp;
+ 
 
-There has been a request to separate out a XNA/MonoGame/FNA Networking library and set of corresponding components into its own deliverable and its own repository.&nbsp; With the aim of creating a more generic networking framework for all XNA based games and with the ability to host behind it just about any pluggable networking framework.
+There has been a request to separate out a XNA/MonoGame/FNA Networking library and set of corresponding components into its own deliverable and its own repository.  With the aim of creating a more generic networking framework for all XNA based games and with the ability to host behind it just about any pluggable networking framework.
 
-&nbsp;
+ 
 
 > ##### Are you up to the challenge? Or fancy taking on this project? Then get involved and get talking, the entire XNA / MonoGame community is listening and waiting.
 

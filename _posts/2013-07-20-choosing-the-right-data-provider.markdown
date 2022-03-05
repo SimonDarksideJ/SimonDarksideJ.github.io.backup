@@ -16,7 +16,7 @@ tags:
 
 ![src=]()
 
-In the progress of my last few “@Dvlup challenges I had to employ a backend data provider to both store and sync data from my client applications as part of the requirements for those challenges.&nbsp; This gave me the opportunity to properly evaluate what the options were and who was offering the best services for my requirements.
+In the progress of my last few “@Dvlup challenges I had to employ a backend data provider to both store and sync data from my client applications as part of the requirements for those challenges.  This gave me the opportunity to properly evaluate what the options were and who was offering the best services for my requirements.
 
 So here is the output of my research for the three big “out of the box” solutions out there.
 
@@ -27,7 +27,7 @@ So here is the output of my research for the three big “out of the box” solu
 
 # Requirements
 
-For the basis of this review I will set out my requirements that I wanted to satisfy.&nbsp; Everyone’s requirements are different and each platform has different ways to handle those, it is up to you to pick the one that suits you best for each situation.
+For the basis of this review I will set out my requirements that I wanted to satisfy.  Everyone’s requirements are different and each platform has different ways to handle those, it is up to you to pick the one that suits you best for each situation.
 
 My baseline requirements were:
 
@@ -45,7 +45,7 @@ My baseline requirements were:
 
 SO for the purpose of the review these were the kind of things I was looking for, there are various other scenarios for mobile devices / websites, if you have a specific case drop me a comment and I can feedback based on my experiences to date.
 
-Additionally during the trial the service should not incur any cost and have enough resources to complete at least the Beta.&nbsp; Preferably the running costs for the 1st year should be kept to minimum.
+Additionally during the trial the service should not incur any cost and have enough resources to complete at least the Beta.  Preferably the running costs for the 1st year should be kept to minimum.
 
 * * *
 
@@ -116,11 +116,11 @@ Xamarin
 
 # The story for App1
 
-For the backend service in App 1 I needed to be able to register friend data and use the backend to keep track of those friends, I wanted as little hassle as possible keeping both the backend in sync and the client plus I only wanted each user to see the data they owned and data that their friends said they could see.&nbsp;&nbsp; Also to keep things efficient and not over create data so there should only be one “connections” table between friends.
+For the backend service in App 1 I needed to be able to register friend data and use the backend to keep track of those friends, I wanted as little hassle as possible keeping both the backend in sync and the client plus I only wanted each user to see the data they owned and data that their friends said they could see.   Also to keep things efficient and not over create data so there should only be one “connections” table between friends.
 
 | ![src=]() | 
 
-WAMS alone would not surface the needs for my app but it has a very extensible custom API set using Javascript which makes it very flexible.&nbsp; By using SQLite or other DB service it would be easy to manage the requirements.
+WAMS alone would not surface the needs for my app but it has a very extensible custom API set using Javascript which makes it very flexible.  By using SQLite or other DB service it would be easy to manage the requirements.
 
 For an app where ALL clients would need to sync would not work even the trial in the FREE tier so the only option would be to pay due to the device and db limits.
 
@@ -142,7 +142,7 @@ Parse with a local SQLite local db would suffice however with the lack of custom
 
 ![src=]()
 
-For App1, Telerik’s Everlive service paired with the new Cloud sync controls was a no brainer really.&nbsp; The service is still in its infancy but that gives the ability for any developer getting involved at the ground level to help to shape it for the future.&nbsp; It also provides the best “out of the box” experience and removes a lot of the complexities with resolving conflict issues on data.
+For App1, Telerik’s Everlive service paired with the new Cloud sync controls was a no brainer really.  The service is still in its infancy but that gives the ability for any developer getting involved at the ground level to help to shape it for the future.  It also provides the best “out of the box” experience and removes a lot of the complexities with resolving conflict issues on data.
 
 Only downside is that because it is just getting started that there will be a few tricks to learn on the way which may put some beginners off.
 
@@ -150,7 +150,7 @@ Only downside is that because it is just getting started that there will be a fe
 
 # The Story about App2
 
-App2’s requirements are a lot simpler than App1, no synchronisation required for a start but it had more complex data to work with since it involved storing a lot of geo position data and detail behind it for reporting and tracking.&nbsp; The service would also have to support a rich backend website for a reporting dashboard (possibly also on tablets later)
+App2’s requirements are a lot simpler than App1, no synchronisation required for a start but it had more complex data to work with since it involved storing a lot of geo position data and detail behind it for reporting and tracking.  The service would also have to support a rich backend website for a reporting dashboard (possibly also on tablets later)
 
 | ![src=]() | 
 
@@ -159,7 +159,7 @@ WAMS seemed to be the obvious choice here but the Facebook authentication on Azu
  |
 | ![src=]() | 
 
-Everlive would work but does not currently support FB auth and did not want the hassle of two authentication systems to handle.&nbsp; Using the native SDK instead of the cloud sync works fine but is a bit overkill in this case.
+Everlive would work but does not currently support FB auth and did not want the hassle of two authentication systems to handle.  Using the native SDK instead of the cloud sync works fine but is a bit overkill in this case.
 
  |
 | ![src=]() | 
@@ -174,7 +174,7 @@ However it’s lack of support for complex objects does create some challenges.
 
 ![src=]()
 
-For App2’s use case where I just need to throw logging data at the server Parse is an excellent fit.&nbsp; There are some things to take into account though.&nbsp; The complex types I was using had to be flattened to store them in my structure (I will blog more about my Parse use in another article) but putting it simple, it just worked and the methods for interacting with Parse are the easiest I have come across (their documentation is first rate also).
+For App2’s use case where I just need to throw logging data at the server Parse is an excellent fit.  There are some things to take into account though.  The complex types I was using had to be flattened to store them in my structure (I will blog more about my Parse use in another article) but putting it simple, it just worked and the methods for interacting with Parse are the easiest I have come across (their documentation is first rate also).
 
 * * *
 
@@ -184,11 +184,11 @@ In my investigations I did also try a few other providers, some got a glance, so
 
 ![src=]()
 
-The most notable of these was Buddy (This is Nokia’s preferred go to solution for backend data for apps and games), I call this out because as it stands the system is awful.&nbsp; The documentation is unwieldy and substandard and their API is so hard to use it is a wonder it is used by anyone.
+The most notable of these was Buddy (This is Nokia’s preferred go to solution for backend data for apps and games), I call this out because as it stands the system is awful.  The documentation is unwieldy and substandard and their API is so hard to use it is a wonder it is used by anyone.
 
 This really is a shame because they obviously have really geared up their backend to offer lots of services that are very useful, especially to game developers (great leaderboard and ranking systems, Messaging, Friends and achievements, they really offer a great deal)
 
-But at the time of writing I would not recommend anyone try implementing it at this time.&nbsp; This really is a shame considering Nokia’s backing and free tokens to use their services.
+But at the time of writing I would not recommend anyone try implementing it at this time.  This really is a shame considering Nokia’s backing and free tokens to use their services.
 
 I will still keep an eye out and if I have time work with them as I have done others to help get things moving.
 
@@ -198,9 +198,9 @@ I will still keep an eye out and if I have time work with them as I have done ot
 
 I really tried to use Azure Mobile services for my solutions, is was in fact my platform of choice especially with their (now) per minute charging, fantastic range of capabilities and the extended API that is second to none.
 
-However myself and a lot of the community have been mulling over some of the forced limitations being placed on WAMS which makes it all but unusable in a Free bracket.&nbsp; in reality it should not be called free, more rather Developer sandbox or Test / POC bracket.&nbsp; a 20mb database or all your services is plain daft (20mb per service might have helped better) and the 100 device limit is crazy. A maximum of 100 registered user devices are allowed to access your service each month which is made worse if you support multiple platforms and users have more than one device.&nbsp; Guessing Microsoft really want to to just pay from the start for Azure which is fine but they just do not say that. (the notices about MSDN access cannot be used for Live services further deepens the divide but I cannot complain with that view, MSDN is not meant for that)
+However myself and a lot of the community have been mulling over some of the forced limitations being placed on WAMS which makes it all but unusable in a Free bracket.  in reality it should not be called free, more rather Developer sandbox or Test / POC bracket.  a 20mb database or all your services is plain daft (20mb per service might have helped better) and the 100 device limit is crazy. A maximum of 100 registered user devices are allowed to access your service each month which is made worse if you support multiple platforms and users have more than one device.  Guessing Microsoft really want to to just pay from the start for Azure which is fine but they just do not say that. (the notices about MSDN access cannot be used for Live services further deepens the divide but I cannot complain with that view, MSDN is not meant for that)
 
-This approach is leading many away from WAMS (at least almost every dev I have talked to), here is hoping that something comes back from the UserVoice requests regarding these issues else Azure will be unapproachable to all but enterprise customers.&nbsp; Certainly no way to run a Free Apps/Service from Azure let alone an Ad Supported ecosystem
+This approach is leading many away from WAMS (at least almost every dev I have talked to), here is hoping that something comes back from the UserVoice requests regarding these issues else Azure will be unapproachable to all but enterprise customers.  Certainly no way to run a Free Apps/Service from Azure let alone an Ad Supported ecosystem
 
 * * *
 

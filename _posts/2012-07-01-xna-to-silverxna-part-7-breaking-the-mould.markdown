@@ -69,19 +69,19 @@ Then alter the Silverlight renderer initialisation as follows:
         
         
         
-        > ![align=](http://www.dotnetscraps.com/samples/bullets/028.gif)&nbsp;&nbsp;&nbsp; Renderer Properties (in the XAML.cs header)
+        > ![align=](http://www.dotnetscraps.com/samples/bullets/028.gif)    Renderer Properties (in the XAML.cs header)
         > 
         >     
         > 
-        > &nbsp;&nbsp;&nbsp; Renderer initialisation (in the layout updated function, to replace the existing set of calls)
+        >     Renderer initialisation (in the layout updated function, to replace the existing set of calls)
         > 
         >     
         > 
-        > &nbsp;&nbsp;&nbsp; Renderer draw call
+        >     Renderer draw call
         > 
         > ![image](/Images/wordpress/2012/07/image_thumb104.png "image")
         >     
-        > So when you are doing individual control based Silverlight rendering it is important to remember that XNA takes control of where to place / size and position the output from the Silverlight renderer.&nbsp; the big advantage of using this method is that you can do post processing on the Silverlight controls before they are rendered to the screen and better integrate them in to 3D environments.
+        > So when you are doing individual control based Silverlight rendering it is important to remember that XNA takes control of where to place / size and position the output from the Silverlight renderer.  the big advantage of using this method is that you can do post processing on the Silverlight controls before they are rendered to the screen and better integrate them in to 3D environments.
         >     
         >     
         > * * *
@@ -108,7 +108,7 @@ Then alter the Silverlight renderer initialisation as follows:
         > I may follow up with a final article, as I mentioned in my last I did have a snazzy idea for a Dead Space style menu which would be very easy to reproduce with SilverXNA and make it look cool.
         >     
         >     
-        > #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the&nbsp;[SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
+        > #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
         
     
     

@@ -19,7 +19,7 @@ But now thanks to the World of Mango (Windows Phone 7.1 / 7.5), this image may n
 
 This sample aims to help educate XNA devs who are interested in this new world of possibility by simplifying visual layout controls that traditionally required massed of extra code to draw boxes, capture inputs and draw text to the screen, in such scenarios as Menus, HUD’s, text displays and such.
 
-#### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the&nbsp;[SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
+#### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
 
 * * *
 
@@ -52,11 +52,11 @@ So when you start up a new 3D / Rich Graphics project (depending on which projec
 
 In the project template you can see we have three projects:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)&nbsp;&nbsp;&nbsp; The Main Silverlight Project Template (where we will spend most of this article)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)&nbsp;&nbsp;&nbsp; The XNA multi-project library (looks like it derived from the core multi-project library)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)&nbsp;&nbsp;&nbsp; A Standard XNA content project
+> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    The Main Silverlight Project Template (where we will spend most of this article)  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    The XNA multi-project library (looks like it derived from the core multi-project library)  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    A Standard XNA content project
 
-It is interesting to see how they built up this bridge without actually breaking the rules of what types projects can reference each other (Silverlight cannot reference XNA and vice versa).&nbsp; In this project the Silverlight project makes a reference to the Portable library which contains all the XNA references, which then references (and exposes) the Content project.&nbsp; Very neatly done.
+It is interesting to see how they built up this bridge without actually breaking the rules of what types projects can reference each other (Silverlight cannot reference XNA and vice versa).  In this project the Silverlight project makes a reference to the Portable library which contains all the XNA references, which then references (and exposes) the Content project.  Very neatly done.
 
 Although if you look at all of the references in the Silverlight project, it does make reference to the XNA libraries, which is fully supported now (previously I believe only some of them could be references)
 
@@ -64,12 +64,12 @@ Although if you look at all of the references in the Silverlight project, it doe
 
 # Silverlight the big scary beast of Carthage
 
-So for those of you XNA devs who have not yet ventured into Silverlight as yet, here is a very brief overview (for a more detailed view and an overview of blend, check out my “[Intro to Silverlight](/2011/04/05/recap-video-for-the-at-amp-t-beginners-silverlight-for-windows-phone-webcast.aspx)” webcast blog)
+So for those of you XNA devs who have not yet ventured into Silverlight as yet, here is a very brief overview (for a more detailed view and an overview of blend, check out my “[Intro to Silverlight](/2011/04/05/recap-video-for-the-at-amp-t-beginners-silverlight-for-windows-phone-webcast)” webcast blog)
 
-Each Page in Silverlight is like a separate application in itself, it contains all information and controls in order to display that one screen.&nbsp; in the project this is made up of two parts:
+Each Page in Silverlight is like a separate application in itself, it contains all information and controls in order to display that one screen.  in the project this is made up of two parts:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)&nbsp;&nbsp;&nbsp; .XAML file – the core Silverlight design file which contains the XAML design  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)&nbsp;&nbsp;&nbsp; .XAML.CS – the code behind file for C# code to run (as the name suggest) behind the scenes
+> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    .XAML file – the core Silverlight design file which contains the XAML design  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    .XAML.CS – the code behind file for C# code to run (as the name suggest) behind the scenes
 
 ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/1104.image_5F00_thumb_5F00_4F835FD2.png)
 
@@ -83,7 +83,7 @@ XAML is a descriptive language and looks a bit like this:
 
 An example of XAML file – eXtensible Application Markup Language
 
-XAML (like XML) is just a descriptive file format which tells the Silverlight interpreter how to render a page (in my very simple speak ![Smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6787.wlEmoticon_2D00_smile_5F00_60D7890F.png)), once you get to know it it is very easy to read.&nbsp; However for most things you wo not even need to look at the XAML (especially with XNA), as that is what Blend is for, Expression Blend being the GUI design tool for Silverlight and WPF.
+XAML (like XML) is just a descriptive file format which tells the Silverlight interpreter how to render a page (in my very simple speak ![Smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6787.wlEmoticon_2D00_smile_5F00_60D7890F.png)), once you get to know it it is very easy to read.  However for most things you wo not even need to look at the XAML (especially with XNA), as that is what Blend is for, Expression Blend being the GUI design tool for Silverlight and WPF.
 
 The code behind is exactly what you would expect but has been updated slightly for XNA.
 
@@ -91,9 +91,9 @@ The code behind is exactly what you would expect but has been updated slightly f
 
 An XNA Game based Code behind
 
-Here you can see a set of XNA variables, a basic constructor plus the Draw and update loops.&nbsp; main difference of course is that you have to manually hook up the Update and Draw loops (because you are running off a Silverlight timer, not a Game class timer, but I’ll come to that later).
+Here you can see a set of XNA variables, a basic constructor plus the Draw and update loops.  main difference of course is that you have to manually hook up the Update and Draw loops (because you are running off a Silverlight timer, not a Game class timer, but I’ll come to that later).
 
-So from an XNA dev perspective things look almost exactly the same, although as some are pointing out we have initially lost our game components ([The App Hub has already solved with a little work around](http://create.msdn.com/en-US/education/catalog/sample/silverlight_xna_game_components)), for services we now have the power of dependency injection and IoC (If you do not know what these are…. Good luck.&nbsp; I will cover them another time)
+So from an XNA dev perspective things look almost exactly the same, although as some are pointing out we have initially lost our game components ([The App Hub has already solved with a little work around](http://create.msdn.com/en-US/education/catalog/sample/silverlight_xna_game_components)), for services we now have the power of dependency injection and IoC (If you do not know what these are…. Good luck.  I will cover them another time)
 
 SO what is running all this behind the covers, welcome to the App.XAML and it is code behind (App.XAML is the same as program.cs in XNA speak)
 
@@ -101,15 +101,15 @@ SO what is running all this behind the covers, welcome to the App.XAML and it is
 
 App.XAML and it’s code behind
 
-Now although App.XAML looks like any other Silverlight page, in fact it is not. Mainly because this page will never be rendered.&nbsp; In programming speak it is the entry point for any Silverlight application and also the GLOBAL reference for the project (it is always in memory).&nbsp; As it has it is two constituent parts, it has globals for both XAML and code.
+Now although App.XAML looks like any other Silverlight page, in fact it is not. Mainly because this page will never be rendered.  In programming speak it is the entry point for any Silverlight application and also the GLOBAL reference for the project (it is always in memory).  As it has it is two constituent parts, it has globals for both XAML and code.
 
-The XAML global is good for templates that will be used throughout the project to save on duplicating formatting and styling or if you use an image or resource constantly throughout the project, the Code behind is the same.&nbsp; We will skip the XAML because it is not all that important to us here (you can look if you wish):
+The XAML global is good for templates that will be used throughout the project to save on duplicating formatting and styling or if you use an image or resource constantly throughout the project, the Code behind is the same.  We will skip the XAML because it is not all that important to us here (you can look if you wish):
 
 ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6378.image_5F00_thumb_5F00_31EF017A.png)
 
 App.XAML.cs file
 
-Here you can some of the gubbin’s (boilerplate code) running the XAN framework within Silverlight.&nbsp; You have a Content manager 9which gets access to the content project through the portable library as described earlier), we also have a Framework Dispatcher Timer, which is the Game clock (in normal XNA this is all sealed within the Game Class).&nbsp; then finally within the constructor a new function is called from within the XNA framework to kick of the Framework dispatcher timer and begin the game.
+Here you can some of the gubbin’s (boilerplate code) running the XAN framework within Silverlight.  You have a Content manager 9which gets access to the content project through the portable library as described earlier), we also have a Framework Dispatcher Timer, which is the Game clock (in normal XNA this is all sealed within the Game Class).  then finally within the constructor a new function is called from within the XNA framework to kick of the Framework dispatcher timer and begin the game.
 
 Nuff said, phew, anyone need a drink now.
 
@@ -139,18 +139,18 @@ Expression Blend fired up
 
 I am not going to go into the very basics here of how to use Blend, I’m going to assume you either know a bit of blend (in which case you have probably dropped off by now) or you have now watched my little “intro to Silverlight video”, or even watch MS’s own Expression blend training course (which is where I got my wings)
 
-On the page we have, a Text box for the app title, a Text Box for the page name and a button for launching to our Game page, this is easily readable from the Visual Tree in the bottom left of the screen (always pay close attention to this window as you can select things even when you have chosen to hide them.&nbsp; it is also worth noting that visibility is determined downwards, the item/control at the bottom of the tree has the highest priority and is what is draw in the foreground, bottom to top / Background to foreground.
+On the page we have, a Text box for the app title, a Text Box for the page name and a button for launching to our Game page, this is easily readable from the Visual Tree in the bottom left of the screen (always pay close attention to this window as you can select things even when you have chosen to hide them.  it is also worth noting that visibility is determined downwards, the item/control at the bottom of the tree has the highest priority and is what is draw in the foreground, bottom to top / Background to foreground.
 
 ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5381.image_5F00_thumb_5F00_4AEB89C9.png)
 
 The other thing to note are the panels, there are four types at present that each control how items on the page are displayed, they are:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)&nbsp;&nbsp;&nbsp; Canvas – Free form panel where item placement is absolute  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)&nbsp;&nbsp;&nbsp; Grid – allows columns and rows to be determined on the page for control placement and alignment  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)&nbsp;&nbsp;&nbsp; inkPresenter (to be honest I have never used this and not sure what it is, what can I say I am honest)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)&nbsp;&nbsp;&nbsp; Stackpanel – A special control that acts list a list box for controls, will order controls in a stacked manner either horizontally or vertically
+> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    Canvas – Free form panel where item placement is absolute  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    Grid – allows columns and rows to be determined on the page for control placement and alignment  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    inkPresenter (to be honest I have never used this and not sure what it is, what can I say I am honest)  
+> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    Stackpanel – A special control that acts list a list box for controls, will order controls in a stacked manner either horizontally or vertically
 
-Each has it is own icon so once you get used to then they are easy to identify, if you have built up your page and want to change the type of layout you have used you can by right clicking on it and selecting “Change Layout Type to” and selecting another one.&nbsp; Although be warned this sometimes has unexpected results and can cause odd behaviour, use only when experienced with it.
+Each has it is own icon so once you get used to then they are easy to identify, if you have built up your page and want to change the type of layout you have used you can by right clicking on it and selecting “Change Layout Type to” and selecting another one.  Although be warned this sometimes has unexpected results and can cause odd behaviour, use only when experienced with it.
 
 * * *
 
@@ -168,7 +168,7 @@ First delete the button that is there already, easiest way to clear the board, j
 
 2. Setup the Content Grid
 
-For the view we are going for we want to setup the grid to do all the spacing and layout for us, so with the 2nd Grid in the layout view selected (the one that had the button on it) add some rows onto the Grid in the main window as shown below (by clicking in the margin area).&nbsp; If you accidentally had the main Grid selected, not to worry, just “Undo” until the grid lines you added are gone.
+For the view we are going for we want to setup the grid to do all the spacing and layout for us, so with the 2nd Grid in the layout view selected (the one that had the button on it) add some rows onto the Grid in the main window as shown below (by clicking in the margin area).  If you accidentally had the main Grid selected, not to worry, just “Undo” until the grid lines you added are gone.
 
 ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2158.image_5F00_thumb_5F00_41A8E41F.png)
 
@@ -212,19 +212,19 @@ Next you can double click on each button to change it is text to something more 
 
 6. Animation
 
-The quickest way to do Animation in Blend is to use Visual States, they are quick and easy and offer a variety of options, but they are fire and forget so that they just run.&nbsp; If you want more granular control or need to know when it beings / is in progress / or has completed, then you will need to use storyboards.
+The quickest way to do Animation in Blend is to use Visual States, they are quick and easy and offer a variety of options, but they are fire and forget so that they just run.  If you want more granular control or need to know when it beings / is in progress / or has completed, then you will need to use storyboards.
 
 Visual states are control by two things:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)&nbsp;&nbsp;&nbsp; Visual State Groups – a container for batching states together for a control or set of controls (each control can only be manipulated in a single visual state group.&nbsp; It also controls how the states within the group will be animated by time and using an easing function.
+> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    Visual State Groups – a container for batching states together for a control or set of controls (each control can only be manipulated in a single visual state group.  It also controls how the states within the group will be animated by time and using an easing function.
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)&nbsp;&nbsp;&nbsp; Visual State – a single state a control can be in, determined by its position on the screen and all the properties of that control
+> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    Visual State – a single state a control can be in, determined by its position on the screen and all the properties of that control
 
 So, change the tab in the top left hand corner of the screen and click on the “New Visual Stage Group” icon as shown below and call it “Button1VisualStateGroup”
 
 ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2664.image_5F00_thumb_5F00_08BE6485.png)
 
-Now before we get started creating our states, we need to get the app ready for it is default state, remember the effect we are aiming for is that when the app starts we want the buttons to swipe in, so they need to start off the screen. Quickly go through each of the buttons and alter their “Translate X” property shown below.&nbsp; I set them alternately off the screen, 1st and 3rd buttons off the left and 2nd / 4th off the right.&nbsp; To make it even easier blend allows you to drag the property and see it move, try it (alternately set the Translate X property as follows Button 1 = –350, Button 2 = 350, Button 3 = –350, button 4 = 400 (cus its bigger))
+Now before we get started creating our states, we need to get the app ready for it is default state, remember the effect we are aiming for is that when the app starts we want the buttons to swipe in, so they need to start off the screen. Quickly go through each of the buttons and alter their “Translate X” property shown below.  I set them alternately off the screen, 1st and 3rd buttons off the left and 2nd / 4th off the right.  To make it even easier blend allows you to drag the property and see it move, try it (alternately set the Translate X property as follows Button 1 = –350, Button 2 = 350, Button 3 = –350, button 4 = 400 (cus its bigger))
 
 ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5126.image_5F00_thumb_5F00_753104E3.png)
 
@@ -234,7 +234,7 @@ Note at this point that the screen has change and a new “red dot” has appear
 
 First we must record the Beginning state, which is the state the controls are in now, so job done, just Rename the state to something meaningful like “MenuItem1Hidden”
 
-Next add a second state, then change the “Translate X” property of button one back to 0, this should bring it back on the screen.&nbsp; Now just rename that state to “MenuItem1Visible”
+Next add a second state, then change the “Translate X” property of button one back to 0, this should bring it back on the screen.  Now just rename that state to “MenuItem1Visible”
 
 Lastly we just need to set how long our animation should take and any easing effect we want to add to it, Next to the “Default Transition” as shown in the visual state group image above, there is an icon and a value of 0s (yes I know it is 1s in the image), these are the transition effect options, set the time to 1s (one second) and click on the icon to select an easing function (go wild and select what ever you like), changing the function using the drop down on the combo box which should look like this.
 
@@ -260,11 +260,11 @@ This will list all the events available for the control you have selected, in th
 
 ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7357.image_5F00_thumb_5F00_023496ED.png)
 
-Next we just need to do the same for the page and show you one of the importent events with Silverlight (which if you do tombstoning you will use a lot.&nbsp; In the Visual Tree (Objects and Controls window), select the “Phone Application Page” object (the root object), you should see the list of events change now and a new event in particular, the “Loaded” event.&nbsp; This fires when ever a page has been loaded into memory and is ready to start presenting to the screen, great for animations or things you need to set once everything is ready but before the user sees it.
+Next we just need to do the same for the page and show you one of the importent events with Silverlight (which if you do tombstoning you will use a lot.  In the Visual Tree (Objects and Controls window), select the “Phone Application Page” object (the root object), you should see the list of events change now and a new event in particular, the “Loaded” event.  This fires when ever a page has been loaded into memory and is ready to start presenting to the screen, great for animations or things you need to set once everything is ready but before the user sees it.
 
 | ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6864.image_5F00_thumb_5F00_56C05025.png) | ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2642.image_5F00_thumb_5F00_780FCFF4.png) |
 
-Now one ting I have learnt over time is that Blend is great at visual representations and / or editing XAML, it is dreadful for editing code (at the moment).&nbsp; So we will switch back to Visual Studio.&nbsp; First though, save all of you project to update your changes (if you have not been doing it every 5 seconds already)
+Now one ting I have learnt over time is that Blend is great at visual representations and / or editing XAML, it is dreadful for editing code (at the moment).  So we will switch back to Visual Studio.  First though, save all of you project to update your changes (if you have not been doing it every 5 seconds already)
 
 When you return back to Visual Studio it will prompt you that it has detected changes in the code and asks you to reload!, Big lesson, always save when you switch between VS and Blend, else you will end up in a right mess and do not edit in both at once!!
 
@@ -292,20 +292,20 @@ And Here is the result:
 
 <iframe title="Quick Demo of Silverlight XNA integration" width="660" height="495" src="https://www.youtube.com/embed/0TzHuFY89hk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The first half show the demo from above, 4 simple buttons with very basic animation to show an easy to implement menu system, no XNA involved.&nbsp; Spend a little more time with the power of Silverlight (or do as I do and just read other peoples work for fantastic effect and learn on the job) and it can look amazing.&nbsp; I really should have used Storyboards for the animation then I could have walked each control in one at a time and had the selected animate out when the game started, but visual states are easier to show.
+The first half show the demo from above, 4 simple buttons with very basic animation to show an easy to implement menu system, no XNA involved.  Spend a little more time with the power of Silverlight (or do as I do and just read other peoples work for fantastic effect and learn on the job) and it can look amazing.  I really should have used Storyboards for the animation then I could have walked each control in one at a time and had the selected animate out when the game started, but visual states are easier to show.
 
 The second half is the App Hub sample for “My Little Teapot”, this shows a full screen XNA background with a 3D teapot model (actually generated in code from the primitives sample), on top of it is the Silverlight page and controls, some sliders interacting with the colour of the teapot, buttons to just set the colour and a button on the top to animate out the control panel and back in again (using visual states as I have shown above)
 
-Sample code can be found here in the Site Downloads section [\<Link\>](http://xna-uk.net/media/p/7954.aspx)
+Sample code can be found here in the Site Downloads section [\<Link\>](http://xna-uk.net/media/p/7954)
 
 * * *
 
 # Enough
 
-That is it, my life’s blood is drawn and now I need to get back to coding.&nbsp; Feel free to comment or post questions on the forums.
+That is it, my life’s blood is drawn and now I need to get back to coding.  Feel free to comment or post questions on the forums.
 
 Feel like bashing me, do it on Twitter ([@DDReaper](http://twitter.com/#!/DDReaper)), I feel better about that there ![Winking smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0820.wlEmoticon_2D00_winkingsmile_5F00_54BF9D5D.png)
 
 Laters.
 
-#### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the&nbsp;[SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
+#### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")

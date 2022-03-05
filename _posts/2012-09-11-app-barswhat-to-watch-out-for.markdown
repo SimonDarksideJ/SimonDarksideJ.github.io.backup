@@ -18,8 +18,8 @@ Adding AppBar’s is also very quick and painless as they are basically just Gri
 
 Not going to re-itterate over what are already good docs on the subject so you can check out the MSDN article on it and the AppBar sample provided by Microsoft:
 
-- &nbsp;[AppBar Class on MSDN](http://bit.ly/QCiCnB)
-- &nbsp;[XAML AppBar control sample](http://bit.ly/QgDvR1)
+-  [AppBar Class on MSDN](http://bit.ly/QCiCnB)
+-  [XAML AppBar control sample](http://bit.ly/QgDvR1)
 
 * * *
 
@@ -35,7 +35,7 @@ In the App Labs it was made clear on the correct use of AppBar’s which is not 
 
 The **Bottom** AppBar is for actions or commands and must also contain a “HOME” button to leave the page.
 
-The **Top** AppBar is for navigation or states ONLY, if in doubt do not do a Top AppBar just to be safe.&nbsp; If in doubt look at other MS apps using the top bar and follow that.&nbsp; I used it for changing players in game which was only allowed because it was a GAME, but it is a fine line.
+The **Top** AppBar is for navigation or states ONLY, if in doubt do not do a Top AppBar just to be safe.  If in doubt look at other MS apps using the top bar and follow that.  I used it for changing players in game which was only allowed because it was a GAME, but it is a fine line.
 
 * * *
 
@@ -52,7 +52,7 @@ What is strange is that MS has kept it is head on performance and Commented out 
     The trick then came to how to use this in Windows 8, which after a lot of searching (and quite a few dead ends) I came across [Tim Heuer’s](http://timheuer.com/blog) great article which spelled it all out.
     
     
-    #### [Using vector data for AppBar icons in XAML](http://timheuer.com/blog/archive/2012/09/03/using-vectors-as-appbar-button-icons.aspx)
+    #### [Using vector data for AppBar icons in XAML](http://timheuer.com/blog/archive/2012/09/03/using-vectors-as-appbar-button-icons)
     
     
     in short you create another base style (similar to the AppBarButtonStyle ) thus:
@@ -81,7 +81,7 @@ What is strange is that MS has kept it is head on performance and Commented out 
                 * * *
                 
                 
-                Right I am definitely stopping for today before My boss notices.&nbsp; But there are still a few more lessons to follow.
+                Right I am definitely stopping for today before My boss notices.  But there are still a few more lessons to follow.
                 
             
             

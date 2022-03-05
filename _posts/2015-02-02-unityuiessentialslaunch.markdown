@@ -15,12 +15,12 @@ tags:
 
 [![3560_Unity 3D GUI Essentials_0](/Images/wordpress/2014/11/3560_Unity-3D-GUI-Essentials_0-243x300.jpg)](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/)
 
-Just in time for February, my latest title [Unity 3D UI Essentials](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials"), has now burst forward on to all leading bookstores, in both electronic and print formats (whichever takes your fancy).&nbsp; It has certainly been a fun and wild ride producing this unique title. &nbsp;A title that takes the new Unity UI system for a wild ride and brings along it’s pals, such as the new Unity EventSystem and of course its best friend Open Source code. (See the [product page](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials") for the title for more info)
+Just in time for February, my latest title [Unity 3D UI Essentials](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials"), has now burst forward on to all leading bookstores, in both electronic and print formats (whichever takes your fancy).  It has certainly been a fun and wild ride producing this unique title.  A title that takes the new Unity UI system for a wild ride and brings along it’s pals, such as the new Unity EventSystem and of course its best friend Open Source code. (See the [product page](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials") for the title for more info)
 
-> ### \*Note, the Unity 3D UI Essentials launch party is now Finished&nbsp;and the winners have been notified.  
+> ### \*Note, the Unity 3D UI Essentials launch party is now Finished and the winners have been notified.  
 > Shall follow up with a result post once the winners accept.
 
-It follows on from the hugely successfully title [Mastering Unity 2D Game Development](http://darkgenesis.zenithmoon.com/portfolio/mastering-unity-2d-game-development/ "Mastering Unity 2D Game Development") which was released late last year.&nbsp; In fact if you have been following me closely, you will know that I have actually been writing books constantly (first M2D for a year and now this title) for over a year and a half now (not something I recommend if you like your sanity).
+It follows on from the hugely successfully title [Mastering Unity 2D Game Development](http://darkgenesis.zenithmoon.com/portfolio/mastering-unity-2d-game-development/ "Mastering Unity 2D Game Development") which was released late last year.  In fact if you have been following me closely, you will know that I have actually been writing books constantly (first M2D for a year and now this title) for over a year and a half now (not something I recommend if you like your sanity).
 
 In celebration for this launch I have been working hard behind the scenes, twisting arms and generally chasing down all my favours to bring you an amazing deal.
 
@@ -43,7 +43,7 @@ In following with a number of competitions around the web, you simply need to do
 - 
 ### Comment on this blog post
 
-> I use [Disqus](https://disqus.com/) for comments, so your details are safe. No details about you are stored on this blog.&nbsp; Just be sure to use an email I can contact you with after the competition for your prizes. See the [Terms and conditions](http://bit.ly/Unity3DUIEssentialsCompTandCs) for the competition for more details.
+> I use [Disqus](https://disqus.com/) for comments, so your details are safe. No details about you are stored on this blog.  Just be sure to use an email I can contact you with after the competition for your prizes. See the [Terms and conditions](http://bit.ly/Unity3DUIEssentialsCompTandCs) for the competition for more details.
 
 - 
 ### Retweet the launch promotion tweet ([here](https://twitter.com/SimonDarksideJ/status/563633357654081536 "Unity 3D UI Essentials launch Tweet"))
@@ -56,7 +56,7 @@ In following with a number of competitions around the web, you simply need to do
 - 
 ### “Like” the [Mastering Unity 2D Game development Facebook page](http://bit.ly/Unity3dUIEssentialsCompM2DFBPage)
 
-> ##### &nbsp;\*Note, liking posts is great &nbsp; ![Open-mouthed smile](/Images/wordpress/2015/02/wlEmoticon-openmouthedsmile.png)&nbsp;but only **sharing** gets you an entry!
+> #####  \*Note, liking posts is great   ![Open-mouthed smile](/Images/wordpress/2015/02/wlEmoticon-openmouthedsmile.png) but only **sharing** gets you an entry!
 
 ##### Additionally, for the prizes provided by the community (TextMeshPro and GUI Generator) you will also need to do the following:
 
@@ -74,15 +74,15 @@ In following with a number of competitions around the web, you simply need to do
 
 <!--EndFragment--><!--EndFragment-->
 
-&nbsp;
+ 
 
 You can follow me if you wish for news and updates but it is not essential for the comp ![Open-mouthed smile](/Images/wordpress/2015/02/wlEmoticon-openmouthedsmile.png)
 
-## Each entry above qualifies you for one entry in to the competition,&nbsp; more actions = more chances to win
+## Each entry above qualifies you for one entry in to the competition,  more actions = more chances to win
 
 > Please make sure you read the full [terms and conditions here](http://bit.ly/Unity3DUIEssentialsCompTandCs), we cannot accept responsibility if you do not follow the rules !
 
-&nbsp;
+ 
 
 * * *
 
@@ -94,7 +94,7 @@ I’d like to say the party never ends but it must, else how am I going to give 
 
 Draw will take place in the following week and winners will be notified shortly after that
 
-&nbsp;
+ 
 
 * * *
 
@@ -102,33 +102,33 @@ Draw will take place in the following week and winners will be notified shortly 
 
 ##### For full details about the book, please check out [my product page](darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/) which also include the purchase links for the book.
 
-&nbsp;
+ 
 
 If you wondering why you should buy the book, I was recently asked this very question:
 
 > “Why your book over any other resource? Still learning Unity, and literally reading everything I can find about it, but with the crazy amount of free content available on youtube about the 4.6 update content, why would I pay x (I would assume 30-40)$ for your book instead of just watching a couple of videos? This isn’t meant to be taken as an attack, just legitimately curious about what your book brings to the table.”
 
-&nbsp;
+ 
 
 In response I simply stated:
 
 > This book (like my last) is a learning exercise to teach you not just how to make UI but to understand what each and every component does and how to make the most of it. A lot of tutorials just show you how to build x, usually in one way. But for making your own UI, you really need to understand what makes all the different parts tick and how they slot together for different effects. There is also one chapter al about the new UnityEvent system (which I’ve not seen good examples for anywhere) that is very code heavy. It even discusses how to work with the Open source UI code.
 > 
-> &nbsp;
+>  
 > 
 > The one thing the book does not do, is to build UI recipes (bespoke UI layouts) as anyone can show that. Plus I’ll be following up with bonus content with some of my own on my blog.
 > 
-> &nbsp;
+>  
 > 
-> If your goal is just to replicate what others have done, then the video tutorials I’ve seen (and a fair few I highly rate) will do the job. If you want to learn what goes in to building the UI so you understand how it works and how to make the most of it, then my book will take you much further.&nbsp;&nbsp; Everyone is different and everyone learns in different ways, so the choice is yours 😀
+> If your goal is just to replicate what others have done, then the video tutorials I’ve seen (and a fair few I highly rate) will do the job. If you want to learn what goes in to building the UI so you understand how it works and how to make the most of it, then my book will take you much further.   Everyone is different and everyone learns in different ways, so the choice is yours 😀
 > 
-> &nbsp;
+>  
 > 
 > I’m frequently on the UI forums helping others out with their UI queries and a lot of the questions could have been avoided with the knowledge I impart 😛
 
-&nbsp;
+ 
 
-As ever this journey will likely never end and I will continue to help developers as much as I have ever done in the past.&nbsp; I hope you will join me on this wild ride!
+As ever this journey will likely never end and I will continue to help developers as much as I have ever done in the past.  I hope you will join me on this wild ride!
 
 * * *
 
@@ -142,7 +142,7 @@ A fantastic text management system that helps to bridge the gaps and the limitat
 
 > You can find **TextMeshPro** on the asset store here: [http://bit.ly/UnityUITextMeshPro](http://bit.ly/UnityUITextMeshPro).
 
-&nbsp;
+ 
 
 * * *
 

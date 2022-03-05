@@ -13,11 +13,11 @@ tags:
 - winrt
 ---
 
-One of the cardinal sins ousted round the MVVM circles involves putting any kind of code in your XAML pages code behind, which is all well and good until you actually need to.&nbsp; When you have implemented MVVM there are always cases where the line gets blurred between functionality and UI behaviour.
+One of the cardinal sins ousted round the MVVM circles involves putting any kind of code in your XAML pages code behind, which is all well and good until you actually need to.  When you have implemented MVVM there are always cases where the line gets blurred between functionality and UI behaviour.
 
 [/rant]
 
-One of these tricky situations revolves around the use of storyboards.&nbsp; Storyboards and animations are purely UI animations and snazzy effects, but what happens when it is your ViewModel wants to make something happen, like “it is game over” or just “you suck” ![Open-mouthed smile](/Images/wordpress/2012/09/wlEmoticon-openmouthedsmile2.png), here it gets very tricky.
+One of these tricky situations revolves around the use of storyboards.  Storyboards and animations are purely UI animations and snazzy effects, but what happens when it is your ViewModel wants to make something happen, like “it is game over” or just “you suck” ![Open-mouthed smile](/Images/wordpress/2012/09/wlEmoticon-openmouthedsmile2.png), here it gets very tricky.
 
 Now the way most people would to it is to either hook up an event in the code behind or wire in the ViewModel to the view to check for a situation that would cause the storyboard to fire, but there is a better way.
 

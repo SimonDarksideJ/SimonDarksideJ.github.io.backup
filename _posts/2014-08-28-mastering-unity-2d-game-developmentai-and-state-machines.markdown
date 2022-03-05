@@ -13,11 +13,11 @@ tags:
 - unitytips
 ---
 
-It’s finally here, my first title has now been published on Packt’s publishing site and all of the leading online bookstores (probably a few less reputable as well ??).&nbsp; If you like what you see in these snippets, they you are going to love the full book. Here is an overview of what is in store for you.
+It’s finally here, my first title has now been published on Packt’s publishing site and all of the leading online bookstores (probably a few less reputable as well ??).  If you like what you see in these snippets, they you are going to love the full book. Here is an overview of what is in store for you.
 
 > The sample project and code for this snippet can be found here: – [Mecanim State Machines.zip](http://bit.ly/MU2D-MecanimStateMachines "Mastering Unity 2D Game Development - Animation Curves snippet")
 
-&nbsp;
+ 
 
 <figure style="width: 500px" class="wp-caption alignnone"><img loading="lazy" class=" src=" https: alt=" width=" height="617"><figcaption class="wp-caption-text">Mastering Unity 2D Game Development on Packt</figcaption></figure>
 ### [Mastering Unity 2D Game Development](https://www.packtpub.com/mastering-unity/book)
@@ -26,7 +26,7 @@ It’s finally here, my first title has now been published on Packt’s publishi
 
 # About the book
 
-The book was an interesting challenge for me and is written with the same flair I use within my blog, I have always felt it is better to educate and show you, not only how to do things but also why you should do it one way over another, plus if there are any alternatives, I will point them out.&nbsp; As a reader you should be informed about your choices (and then make your own mind up ![Open-mouthed smile](/Images/wordpress/2014/08/wlEmoticon-openmouthedsmile.png)).
+The book was an interesting challenge for me and is written with the same flair I use within my blog, I have always felt it is better to educate and show you, not only how to do things but also why you should do it one way over another, plus if there are any alternatives, I will point them out.  As a reader you should be informed about your choices (and then make your own mind up ![Open-mouthed smile](/Images/wordpress/2014/08/wlEmoticon-openmouthedsmile.png)).
 
 Through its pages you will build an RPG game framework which you can then extend and make your own, the aim is to give you enough hints, tips and help to build your own finished game.
 
@@ -55,13 +55,13 @@ The second snippet in this series is more of a tease than a full snippet, simply
 
 (I still keep typing Mechanim and keep having to delete the H, lol )
 
-For any of you who have played with Mecanim you will have found it to be a great 3D animation system to animate your 3D models using rigs and prepared animations, plus it can blend those animations together to give a more realistic view. At its heart though, Mecanim is nothing more than a very fancy state machine with a wonderful graphical interface.&nbsp; It was they enhanced in Unity 4.3 to include 2D sprite animation as well.
+For any of you who have played with Mecanim you will have found it to be a great 3D animation system to animate your 3D models using rigs and prepared animations, plus it can blend those animations together to give a more realistic view. At its heart though, Mecanim is nothing more than a very fancy state machine with a wonderful graphical interface.  It was they enhanced in Unity 4.3 to include 2D sprite animation as well.
 
 What you may not realise is that you do not have to use Mecanim for just animation, you can use it for almost any scenario that requires a state machine, from Game state to even AI machines! Each have their own types of implementations and their own little tips and tricks to make the best of them.
 
 ### A simple game state machine
 
-The simplest example of a non-animator Mecanim system is a game’s&nbsp;battle&nbsp;state machine, there are a few complexities to the approach (mostly due to the way Mecanim handles current state) that we need to handle but in the end we get a much better system with a easy to manage interface,
+The simplest example of a non-animator Mecanim system is a game’s battle state machine, there are a few complexities to the approach (mostly due to the way Mecanim handles current state) that we need to handle but in the end we get a much better system with a easy to manage interface,
 
 If we try to do a simple game state system in code, we usually end up with a complicated mess of switch or if statements all competing to figure out what it supposed to happen in each game update (it is not always messy but it can easily get that way).
 
@@ -83,7 +83,7 @@ _You can see this more fully by checking out the **OldStyleStateMachine.cs** scr
 
 A very basic example indeed, but just imaging it 50x bigger with several complicated paths, each part of the code needing to know everything around it in order to make the right decision, now you may start to see the larger picture.
 
-&nbsp;
+ 
 
 ### So what has Mecanim ever done for us?
 
@@ -91,9 +91,9 @@ Using Mecanim itself to implement the flow of the state machine is very simple, 
 
 [![image](/Images/wordpress/2014/08/image_thumb1.png "image")](/Images/wordpress/2014/08/image1.png)
 
-We’ve replicated the flow of our game state design as empty Mecanim states and added some parameters to the Animator to track health, whether we are in battle and a trigger to denote an attack has occurred.&nbsp; So what about the code, how does using Mecanim simplify things?
+We’ve replicated the flow of our game state design as empty Mecanim states and added some parameters to the Animator to track health, whether we are in battle and a trigger to denote an attack has occurred.  So what about the code, how does using Mecanim simplify things?
 
-Putting it simply it removes all the choice and decision from code, that is now all moved to Mecanim and we simply need to tell the Animator when something changes.&nbsp; If we then apply this Animator to the BattleStateMachine GameObject in our example scene, using the above controller assigned to the controller property, we can then look to exploit it through script.
+Putting it simply it removes all the choice and decision from code, that is now all moved to Mecanim and we simply need to tell the Animator when something changes.  If we then apply this Animator to the BattleStateMachine GameObject in our example scene, using the above controller assigned to the controller property, we can then look to exploit it through script.
 
 > Even better, any state can be quickly joined to any other state with a simple and quick transition
 
@@ -109,7 +109,7 @@ There are a few gotcha’s we need to be aware of which are mainly to do with th
 - Inputs (like keyboard) can be true for several update loops (hence the boolean’s for keyboard input)
 - Mecanim will do EXACTLY what you tell it to, which can cause confusion and multiple paths can be true at the same time!
 
-Now that is almost the end of the story as you will note that at the beginning of each update we get the Animator’s current state.&nbsp; The problem is that Mecanim currently does not work with state names at all, it actually uses a hashing mechanism to track not only the current state the Animator is currently positioned at but also the exact point in the states life it’s currently up to (useful if you are doing blending or animation, less useful if you just want the state).&nbsp; As we like to work with names (optional of course, you can work with just the hashed numbers) we need to cache them, in the script I create a dictionary and cache them with the script starts, if you wished, you could cache them at build time.
+Now that is almost the end of the story as you will note that at the beginning of each update we get the Animator’s current state.  The problem is that Mecanim currently does not work with state names at all, it actually uses a hashing mechanism to track not only the current state the Animator is currently positioned at but also the exact point in the states life it’s currently up to (useful if you are doing blending or animation, less useful if you just want the state).  As we like to work with names (optional of course, you can work with just the hashed numbers) we need to cache them, in the script I create a dictionary and cache them with the script starts, if you wished, you could cache them at build time.
 
 > In testing I’ve not seen much of a hit but if you have a lot of states, it may be something to consider caching state names at build time.
 
@@ -123,19 +123,19 @@ As you can hopefully see this is very powerful and makes complex decisions throu
 
 This article truly only scratches the surface of what is possible with Mecanim using it as a pure state machine, in the book we explore a full system such as the above and even delve in to a basic AI system implemented through Mecanim
 
-&nbsp;
+ 
 
 * * *
 
 # We hope you enjoyed the show
 
-I do hope you like this little snippet, just one of (hopefully) many little break out sections from the book.&nbsp; These snippets do have a lot more detail as I have more space to work with (it is really surprising how restricting 500+ pages gives you ![Confused smile](/Images/wordpress/2014/08/wlEmoticon-confusedsmile.png)) but everything you need to know is covered in each section.
+I do hope you like this little snippet, just one of (hopefully) many little break out sections from the book.  These snippets do have a lot more detail as I have more space to work with (it is really surprising how restricting 500+ pages gives you ![Confused smile](/Images/wordpress/2014/08/wlEmoticon-confusedsmile.png)) but everything you need to know is covered in each section.
 
 I am so glad this title is finally published and out there for people to grab, any queries / questions / thoughts, just drop me a line using the Contact page on my blog and I promise to get back to you.
 
 > The sample project and code for this snippet can be found here: – [Mecanim State Machines.zip](http://bit.ly/MU2D-MecanimStateMachines "Mastering Unity 2D Game Development - Animation Curves snippet")
 
-&nbsp;
+ 
 
 * * *
 
@@ -145,7 +145,7 @@ Now that Unity has finally pulled back the covers on the new shiny and advanced 
 
 So if you want a leg up on how to make the best out of the new UI system and learn some cunning tips and tricks from many months of suffering through the beta then this will be a title for you.
 
-&nbsp;
+ 
 
-If you want more details or have any particular requests just&nbsp;let me know, I will do my best to cover as much as I can (Although being me, I’m already over budget in a lot of areas with more detail than you could ever need but that wo not stop me ![Open-mouthed smile](/Images/wordpress/2014/08/wlEmoticon-openmouthedsmile.png))
+If you want more details or have any particular requests just let me know, I will do my best to cover as much as I can (Although being me, I’m already over budget in a lot of areas with more detail than you could ever need but that wo not stop me ![Open-mouthed smile](/Images/wordpress/2014/08/wlEmoticon-openmouthedsmile.png))
 

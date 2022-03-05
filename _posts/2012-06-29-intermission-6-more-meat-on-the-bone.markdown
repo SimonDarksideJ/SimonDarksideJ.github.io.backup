@@ -10,15 +10,15 @@ tags:
 - xna-2d-tutorials
 ---
 
-&nbsp;
+ 
 
 Technorati Tags: [xna](http://technorati.com/tags/xna)
 
-When I started doing this section, it was meant to be quick and short as an intermission is supposed to be.&nbsp; The theory behind dynamic controls itself is quite simple and it is implementation fairly easy, unless you are like me and want to go that little bit further and add some flair.
+When I started doing this section, it was meant to be quick and short as an intermission is supposed to be.  The theory behind dynamic controls itself is quite simple and it is implementation fairly easy, unless you are like me and want to go that little bit further and add some flair.
 
-&nbsp;
+ 
 
-So this little intermission has grown a fair bit.&nbsp; So read on.
+So this little intermission has grown a fair bit.  So read on.
 
 The code for this section will be posted after the next post.
 
@@ -26,32 +26,32 @@ The code for this section will be posted after the next post.
 
 * * *
 
-&nbsp;
+ 
 
 ### Theory behind dynamic controls
 
-like the last post, we have a set of objectives, the control system for our game and we have our available controllers.&nbsp; Unlike the windows phone the options are various:
+like the last post, we have a set of objectives, the control system for our game and we have our available controllers.  Unlike the windows phone the options are various:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Gamepads – 4 push buttons, 4 way multi-directional D pad, 2 analogue sticks with buttons, 2 analogue triggers, a back and a start button. (whew)   
-> ![](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Keyboards and keypads – lots and lots of keys   
-> ![](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Mice – analogue pointer, a host of buttons (depending on model) and usually a scroll wheel (never mind 3D mice, but they aren’t supported yet)   
-> ![](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Joysticks – Do not get me started there!
+> ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Gamepads – 4 push buttons, 4 way multi-directional D pad, 2 analogue sticks with buttons, 2 analogue triggers, a back and a start button. (whew)   
+> ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Keyboards and keypads – lots and lots of keys   
+> ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Mice – analogue pointer, a host of buttons (depending on model) and usually a scroll wheel (never mind 3D mice, but they aren’t supported yet)   
+> ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Joysticks – Do not get me started there!
 
 With so many options we have a little bit more to think about.
 
-So when implementing our game control scheme we need a way to handle all these different inputs (unless you are only targeting a single platform) without overloading our actual game code.&nbsp; To do this we need to abstract our functionality a bit, this is what we are trying to aim for:
+So when implementing our game control scheme we need a way to handle all these different inputs (unless you are only targeting a single platform) without overloading our actual game code.  To do this we need to abstract our functionality a bit, this is what we are trying to aim for:
 
 ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_26BE8327.png)
 
 The diagram above details a level of abstraction we apply between our game controls and the available inputs we have for each platform.
 
-> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; Game Controls
+> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)    Game Controls
 > 
 > The detail what actions are available to the user, like Move Avatar Up, Select Menu Option, Fire, Change weapon
 > 
-> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; Input Manager
+> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)    Input Manager
 > 
-> Details what input controls are to be examined for each game control, so in order for the player to Fire, the input manager checks if the spacebar has been pressed or button A on the gamepad or the left mouse button.&nbsp; The actual buttons themselves are not mentioned here, they are checked in the control mappings for which actual button to use.
+> Details what input controls are to be examined for each game control, so in order for the player to Fire, the input manager checks if the spacebar has been pressed or button A on the gamepad or the left mouse button.  The actual buttons themselves are not mentioned here, they are checked in the control mappings for which actual button to use.
 > 
 > E.G.
 > 
@@ -62,9 +62,9 @@ The diagram above details a level of abstraction we apply between our game contr
 > 5. Input manager feeds back to the game if button has been pressed or not
 > 6. Game acts on the input manager feedback (E.G. puts a new fireball sprite on the screen if the player has fired) 
 > 
-> This sounds a lot more complicated than it actually is, but gives you a feel of what is required.&nbsp; The big benefit of this if that if you want to change the control scheme (what buttons to use), you do not need to rewrite all your game code or even the input manager, just update the key to be used in the mappings.
+> This sounds a lot more complicated than it actually is, but gives you a feel of what is required.  The big benefit of this if that if you want to change the control scheme (what buttons to use), you do not need to rewrite all your game code or even the input manager, just update the key to be used in the mappings.
 > 
-> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)&nbsp;&nbsp;&nbsp; Control Mappings
+> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)    Control Mappings
 > 
 > This part is much simpler, it stores the current setting for each input control, like:
 > 
@@ -72,15 +72,15 @@ The diagram above details a level of abstraction we apply between our game contr
 > - Gamepad fire = button A
 > - Mouse fire = let mouse button
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 ### Putting it together
 
-We need to start from the ground up, so first off we need our mappings (which buttons do what).&nbsp;
+We need to start from the ground up, so first off we need our mappings (which buttons do what). 
 
 #### 1. Key Mappings Struct for configuration
 
@@ -188,7 +188,7 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
     
     
     
-    A couple things to note before we go through this, ensure you update the namespace to the above, by default, when the new class is generated it also adds the folder name into the namespace, just something to be aware of.&nbsp; Second, we have added a using statement for the Microsoft.XNA.framework.Input class, we need this to identify things like Keys and Buttons.
+    A couple things to note before we go through this, ensure you update the namespace to the above, by default, when the new class is generated it also adds the folder name into the namespace, just something to be aware of.  Second, we have added a using statement for the Microsoft.XNA.framework.Input class, we need this to identify things like Keys and Buttons.
     
     
     
@@ -202,7 +202,7 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
     #### 2. Input Manager key/button recognisers
     
     
-    In the original DigiPen lesson 6, we had some very basic key recognisers, this was very basic and required you to put the actual keys in your game code.&nbsp; This checked if a specified key was pressed or triggered.
+    In the original DigiPen lesson 6, we had some very basic key recognisers, this was very basic and required you to put the actual keys in your game code.  This checked if a specified key was pressed or triggered.
     
     
     
@@ -320,7 +320,7 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                 
                 
                 
-                Note that I’ve now changed the above functions to Private, we do this in order to control access to the input states, it is also good practice to limit the visibility of functions in a class to only those you actually want to expose.&nbsp; Before the next step, you should also change the scope of the existing Key recognisers to Private as well.
+                Note that I’ve now changed the above functions to Private, we do this in order to control access to the input states, it is also good practice to limit the visibility of functions in a class to only those you actually want to expose.  Before the next step, you should also change the scope of the existing Key recognisers to Private as well.
                 
                 
                 #### 3. Input Manager Player control –\> key / button abstraction
@@ -466,7 +466,7 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                         
                         
                         
-                        Lastly, at this point we have the setup read but we are missing one little crucial factor, some actual configuration.&nbsp; So since the first time we run the game we have no settings, we need some defaults, then the player can change them later if need be (which we will cover in a later post).
+                        Lastly, at this point we have the setup read but we are missing one little crucial factor, some actual configuration.  So since the first time we run the game we have no settings, we need some defaults, then the player can change them later if need be (which we will cover in a later post).
                         
                         
                         
@@ -544,13 +544,13 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                             
                             
                             
-                            &nbsp;
+                             
                             
                             
                             * * *
                             
                             
-                            &nbsp;
+                             
                             
                             
                             ### Updating the player input
@@ -690,13 +690,13 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                         
                                         
                                         
-                                        &nbsp;
+                                         
                                         
                                         
                                         * * *
                                         
                                         
-                                        &nbsp;
+                                         
                                         
                                         
                                         ### Saving and Loading the configuration
@@ -706,7 +706,7 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                         
                                         
                                         
-                                        Saving and loading configuration it is.&nbsp; Again the theory behind this is quite simple, although it does have it is ways.
+                                        Saving and loading configuration it is.  Again the theory behind this is quite simple, although it does have it is ways.
                                         
                                         
                                         
@@ -714,9 +714,9 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                         
                                         
                                         
-                                        > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Storage Device – This is the drive or memory card where the settings are going to be saved.   
-                                        > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Storage Container – This is the folder structure on the storage device where we save a specific games files.   
-                                        > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Save file – An XML or binary file that holds the configuration
+                                        > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Storage Device – This is the drive or memory card where the settings are going to be saved.   
+                                        > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Storage Container – This is the folder structure on the storage device where we save a specific games files.   
+                                        > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Save file – An XML or binary file that holds the configuration
                                         
                                         
                                         #### 1. Storage Device
@@ -740,7 +740,7 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                             
                                             
                                             
-                                            This adds the Gamer Service Component to your games Components collection.&nbsp; The XNA Game components collection, is a part of the XNA game framework and a bit outside the scope of this tutorial for now.&nbsp; I used to use them a lot in the beginning but I (like a lot of people) seem to favour doing it ourselves, it is not that it is bad (it is actually quite powerful when used right), it is just that there is a certain way of writing game features to make use of the component system and developers usually want more control than it offers.&nbsp; Look them up in the XNA help by searching “XNA Components”.
+                                            This adds the Gamer Service Component to your games Components collection.  The XNA Game components collection, is a part of the XNA game framework and a bit outside the scope of this tutorial for now.  I used to use them a lot in the beginning but I (like a lot of people) seem to favour doing it ourselves, it is not that it is bad (it is actually quite powerful when used right), it is just that there is a certain way of writing game features to make use of the component system and developers usually want more control than it offers.  Look them up in the XNA help by searching “XNA Components”.
                                             
                                             
                                             
@@ -760,7 +760,7 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                                 #### 2. Storage Container
                                                 
                                                 
-                                                Storage containers are easier, they are just the area on the device for your game, they are supposed to be unique so that you do not use another games files, they can also be player specific so you can hold settings for as many players can play the game.&nbsp; They are simply created by calling:
+                                                Storage containers are easier, they are just the area on the device for your game, they are supposed to be unique so that you do not use another games files, they can also be player specific so you can hold settings for as many players can play the game.  They are simply created by calling:
                                                 
                                                 
                                                 
@@ -780,15 +780,15 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                                     
                                                     
                                                     
-                                                    The Filestream is just the way that the XNA framework uses to output data in memory onto the disk and as the name suggests, it does this by streaming the data on to the disk.&nbsp; When ever we work with files on the storage device we simply:
+                                                    The Filestream is just the way that the XNA framework uses to output data in memory onto the disk and as the name suggests, it does this by streaming the data on to the disk.  When ever we work with files on the storage device we simply:
                                                     
                                                     
                                                     
-                                                    > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Open the file, with options to create it if not already there (Warning, careful when using the option that always creates the file, even if present or you will sped a crazy few minutes trying to wonder why your settings are gone next time you load!!)   
-                                                    > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Stream the files contents in to memory   
-                                                    > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Do Stuff   
-                                                    > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Stream the changes back to the file   
-                                                    > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Close file / stream
+                                                    > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Open the file, with options to create it if not already there (Warning, careful when using the option that always creates the file, even if present or you will sped a crazy few minutes trying to wonder why your settings are gone next time you load!!)   
+                                                    > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Stream the files contents in to memory   
+                                                    > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Do Stuff   
+                                                    > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Stream the changes back to the file   
+                                                    > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Close file / stream
                                                     
                                                     
                                                     
@@ -846,21 +846,21 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                                         
                                                         
                                                         
-                                                        > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)&nbsp;&nbsp;&nbsp; Note: If you look in the XNA help for the samples above you will find them very similar (as that is where they came from), however, be warned the samples set the “FileMode” when creating a file to just “Create”, this will create a new file EVERY time you run it, overwriting what was there.&nbsp; Be very careful about which mode you need to use for your saves!.&nbsp; “OpenOrCreate” is usually a bit safer (unless you only want read access) which will only create new if it does not exist and if it does, then open it.
+                                                        > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)    Note: If you look in the XNA help for the samples above you will find them very similar (as that is where they came from), however, be warned the samples set the “FileMode” when creating a file to just “Create”, this will create a new file EVERY time you run it, overwriting what was there.  Be very careful about which mode you need to use for your saves!.  “OpenOrCreate” is usually a bit safer (unless you only want read access) which will only create new if it does not exist and if it does, then open it.
                                                         
                                                         
                                                         #### 4. Serialisation of configuration
                                                         
                                                         
-                                                        Finally we need to turn our configuration in memory into something we can save, that can be XML or a binary file or whatever format you wish (within reason).&nbsp; When I first started out I made the mistake of writing my own serialiser, I have since learned the errors of my ways.&nbsp; Serialisation is much easier and can do most of what you need.
+                                                        Finally we need to turn our configuration in memory into something we can save, that can be XML or a binary file or whatever format you wish (within reason).  When I first started out I made the mistake of writing my own serialiser, I have since learned the errors of my ways.  Serialisation is much easier and can do most of what you need.
                                                         
                                                         
                                                         
-                                                        One thing I will point out, if you are going to load levels in this fashion, a better answer would be to do it using the XNA Content pipeline (Content Manager), where it has more advanced serialisation techniques through the IntermediateSerializer.&nbsp; Read [Shawn Hargreaves article](http://blogs.msdn.com/b/shawnhar/archive/2008/07/28/intermediateserializer-vs-xmlserializer.aspx) for more information on that.&nbsp; The XMLSerializer though is the only one to work at runtime and allows saving!.
+                                                        One thing I will point out, if you are going to load levels in this fashion, a better answer would be to do it using the XNA Content pipeline (Content Manager), where it has more advanced serialisation techniques through the IntermediateSerializer.  Read [Shawn Hargreaves article](http://blogs.msdn.com/b/shawnhar/archive/2008/07/28/intermediateserializer-vs-xmlserializer) for more information on that.  The XMLSerializer though is the only one to work at runtime and allows saving!.
                                                         
                                                         
                                                         
-                                                        So what do we need, well very simply we already have what we need in the first section of this post, our Serialisable struct (remember the Serializable tag), where we set up our struct with strong types (using base types) and added the [Serializable] tag to the struct.&nbsp; This enables the XMLSerializer to recognise the struct when reading the class.
+                                                        So what do we need, well very simply we already have what we need in the first section of this post, our Serialisable struct (remember the Serializable tag), where we set up our struct with strong types (using base types) and added the [Serializable] tag to the struct.  This enables the XMLSerializer to recognise the struct when reading the class.
                                                         
                                                         
                                                         
@@ -886,13 +886,13 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                                             
                                                             
                                                             
-                                                            &nbsp;
+                                                             
                                                             
                                                             
                                                             * * *
                                                             
                                                             
-                                                            &nbsp;
+                                                             
                                                             
                                                             
                                                             ### Putting it together
@@ -924,7 +924,7 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                                                 
                                                                 
                                                                 
-                                                                This gives the storage container and storagedevice for the game, it also has a setting to signify if we are loading or saving.&nbsp; More on the iAsyncResult later.
+                                                                This gives the storage container and storagedevice for the game, it also has a setting to signify if we are loading or saving.  More on the iAsyncResult later.
                                                                 
                                                                 
                                                                 
@@ -1156,7 +1156,7 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                                                         
                                                                         
                                                                         
-                                                                        &nbsp;
+                                                                         
                                                                         
                                                                         
                                                                         
@@ -1246,7 +1246,7 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                                                             
                                                                             
                                                                             
-                                                                            &nbsp;
+                                                                             
                                                                             
                                                                             
                                                                             
@@ -1254,11 +1254,11 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                                                             
                                                                             
                                                                             
-                                                                            So be fore we start loading we call the “SelectStorage” function, which calls up the guide to the screen, but only if there is more than one storage device available, which is good so we do not pester the player unless there is a choice to be made.&nbsp;
+                                                                            So be fore we start loading we call the “SelectStorage” function, which calls up the guide to the screen, but only if there is more than one storage device available, which is good so we do not pester the player unless there is a choice to be made. 
                                                                             
                                                                             
                                                                             
-                                                                            Next is where the iAsyncResult comes in, when we call the guide there is a period of time between it displaying and the player making a choice, now you can either keep checking if the guide had been closed or simply let the guide tell you, I’ve opted for the second approach as it is much cleaner.&nbsp; So when the guide is closed, it calls the “GetDevice” function (not that it is mentioned in the BeginShowStorageDeviceSelector call) and passes the result of the users action as a IAsyncResult.&nbsp; we can then query this to get the storage device and then continue loading or saving.
+                                                                            Next is where the iAsyncResult comes in, when we call the guide there is a period of time between it displaying and the player making a choice, now you can either keep checking if the guide had been closed or simply let the guide tell you, I’ve opted for the second approach as it is much cleaner.  So when the guide is closed, it calls the “GetDevice” function (not that it is mentioned in the BeginShowStorageDeviceSelector call) and passes the result of the users action as a IAsyncResult.  we can then query this to get the storage device and then continue loading or saving.
                                                                             
                                                                             
                                                                             
@@ -1324,13 +1324,13 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                                                                 
                                                                                 
                                                                                 
-                                                                                &nbsp;
+                                                                                 
                                                                                 
                                                                                 
                                                                                 * * *
                                                                                 
                                                                                 
-                                                                                &nbsp;
+                                                                                 
                                                                                 
                                                                                 
                                                                                 ### Updating the Game to use the saved / loaded configuration
@@ -1368,23 +1368,23 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                                                                         
                                                                                         
                                                                                         
-                                                                                        And were done.&nbsp;&nbsp; Well almost, we currently have no way of actually saving the settings, so we will quickly add one extra game control, for saving.&nbsp; We will implement this better later when we add menus.
+                                                                                        And were done.   Well almost, we currently have no way of actually saving the settings, so we will quickly add one extra game control, for saving.  We will implement this better later when we add menus.
                                                                                         
                                                                                         
                                                                                         
-                                                                                        &nbsp;
+                                                                                         
                                                                                         
                                                                                         
                                                                                         * * *
                                                                                         
                                                                                         
-                                                                                        &nbsp;
+                                                                                         
                                                                                         
                                                                                         
                                                                                         ### Adding another setting
                                                                                         
                                                                                         
-                                                                                        In order to add a new setting, we simply need to add a new item to the configuration, create a new game control that checks it and then get our game to check for it and act accordingly.&nbsp; We will also need a very basic way for the game to change the setting in our configuration and to save it.
+                                                                                        In order to add a new setting, we simply need to add a new item to the configuration, create a new game control that checks it and then get our game to check for it and act accordingly.  We will also need a very basic way for the game to change the setting in our configuration and to save it.
                                                                                         
                                                                                         
                                                                                         
@@ -1542,7 +1542,7 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                                                                                             
                                                                                                             
                                                                                                             
-                                                                                                            If we now hit the F key or down on the gamepad Dpad, instead of firing as before, it will now use the new keys.&nbsp; but unless you hit the save key, next time you run the game it will go back to the original key.&nbsp; Hitting save will cause the configuration to be written to the configuration file and this will be loaded automatically when you next start the game (however, unless you coded it a bit better you cannot change it back without changing the code or deleting the save file).
+                                                                                                            If we now hit the F key or down on the gamepad Dpad, instead of firing as before, it will now use the new keys.  but unless you hit the save key, next time you run the game it will go back to the original key.  Hitting save will cause the configuration to be written to the configuration file and this will be loaded automatically when you next start the game (however, unless you coded it a bit better you cannot change it back without changing the code or deleting the save file).
                                                                                                             
                                                                                                             
                                                                                                             
@@ -1550,19 +1550,19 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                                                                                             
                                                                                                             
                                                                                                             
-                                                                                                            &nbsp;
+                                                                                                             
                                                                                                             
                                                                                                             
                                                                                                             * * *
                                                                                                             
                                                                                                             
-                                                                                                            &nbsp;
+                                                                                                             
                                                                                                             
                                                                                                             
                                                                                                             ### Conclusion
                                                                                                             
                                                                                                             
-                                                                                                            We almost a conclusion, this post ended up being larger than I anticipated, so the next intermission will follow on from this, main reason being that for the moment we have digital controls only, but the gamepad had 4 analogue controls, which provide a gradient to the players input, that being, if you hold the trigger half way down you get 50% back from the controller, where for the moment you have to pull the trigger all the way back to get a response.&nbsp; Same with the sticks we use to move the trooper.
+                                                                                                            We almost a conclusion, this post ended up being larger than I anticipated, so the next intermission will follow on from this, main reason being that for the moment we have digital controls only, but the gamepad had 4 analogue controls, which provide a gradient to the players input, that being, if you hold the trigger half way down you get 50% back from the controller, where for the moment you have to pull the trigger all the way back to get a response.  Same with the sticks we use to move the trooper.
                                                                                                             
                                                                                                             
                                                                                                             

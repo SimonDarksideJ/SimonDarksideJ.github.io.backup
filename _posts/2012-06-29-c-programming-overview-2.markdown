@@ -333,7 +333,7 @@ If _expression_ is false, the execution resumes at the following statement. In o
 
 <!--CRLF-->
 
-     10:&nbsp; 
+     10:  
 
 <!--CRLF-->
 
@@ -465,7 +465,7 @@ Facts:
 
 <!--CRLF-->
 
-     25:&nbsp; 
+     25:  
 
 <!--CRLF-->
 
@@ -510,7 +510,7 @@ The dot “.” operator is used to access the structure member. First write the
 
 ### Conclusion
 
-Well that is the overview done, next comes the full detail for the above.&nbsp; As before read only if you wish but for beginners, I’d highly recommend it (also also check out the [docs](http://msdn.microsoft.com/en-us/library/618ayhy6(VS.71).aspx "C# programmers reference on MSDN") on the [MSDN library](http://msdn.microsoft.com/en-us/library/ms123401(v=MSDN.10).aspx "MSDN Library jump point (wealth of madness)") which has a vast amount of information and free samples for the above and so much more.
+Well that is the overview done, next comes the full detail for the above.  As before read only if you wish but for beginners, I’d highly recommend it (also also check out the [docs](http://msdn.microsoft.com/en-us/library/618ayhy6(VS.71).aspx "C# programmers reference on MSDN") on the [MSDN library](http://msdn.microsoft.com/en-us/library/ms123401(v=MSDN.10).aspx "MSDN Library jump point (wealth of madness)") which has a vast amount of information and free samples for the above and so much more.
 
 More to come
 

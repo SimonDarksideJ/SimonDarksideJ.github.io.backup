@@ -37,4 +37,4 @@ If you are a SunBurn developer head over to the Synapse Gaming site and download
 
 **And if you’re not, what are you waiting for? [Become a SunBurn developer today!](http://www.synapsegaming.com/products/sunburn/engine/)**
 
-#### If you have more Queries on Sunburn or just want to ask questions on it, fee free to use the&nbsp;[SunBurn forum here](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis")
+#### If you have more Queries on Sunburn or just want to ask questions on it, fee free to use the [SunBurn forum here](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis")

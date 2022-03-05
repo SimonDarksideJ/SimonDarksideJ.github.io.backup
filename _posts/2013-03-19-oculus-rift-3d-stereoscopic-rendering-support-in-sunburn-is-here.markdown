@@ -11,15 +11,15 @@ tags:
 - xna
 ---
 
-A fantastic announcement over on the [SunBurn community blogs](http://www.synapsegaming.com/blogs/community_blogs/archive/2013/03/18/oculus-rift-3d-stereoscopic-rendering-support-in-sunburn-is-here.aspx) has just surfaced which is just amazing.&nbsp; HolPhone3D ad already built an amazing plug-in for SunBurn to allow easy stereoscopic rendering with just a few lines of code, todays announcement goes above and beyond hat, read the except from the blog below:
+A fantastic announcement over on the [SunBurn community blogs](http://www.synapsegaming.com/blogs/community_blogs/archive/2013/03/18/oculus-rift-3d-stereoscopic-rendering-support-in-sunburn-is-here) has just surfaced which is just amazing.  HolPhone3D ad already built an amazing plug-in for SunBurn to allow easy stereoscopic rendering with just a few lines of code, todays announcement goes above and beyond hat, read the except from the blog below:
 
 * * *
 
 > **Get ready for Oculus Rift ready titles powered by SunBurn**
 > 
-> The wait is nearly over and dev kits are shipping _this_ week! Lot’s of excitement is all over the web as people want to develop and experience new 3D games within the Oculus Rift. I’ll be getting mine as part of the first wave, so I’ve updated my Stereoscopic Renderer for Oculus Rift rendering support. Check out the video for what it looks like and how to use it. If you need a refresher on how easy it is to get Stereoscopic support in SunBurn check out my blog post here: [Stereo3D in SunBurn](http://www.synapsegaming.com/blogs/community_blogs/archive/2012/05/10/all-new-3d-stereoscopicrenderer-plugin-take-your-sunburn-games-into-the-next-dimension-with-full-stereoscopic-3d-support-in-less-than-5-lines-of-code.aspx)
+> The wait is nearly over and dev kits are shipping _this_ week! Lot’s of excitement is all over the web as people want to develop and experience new 3D games within the Oculus Rift. I’ll be getting mine as part of the first wave, so I’ve updated my Stereoscopic Renderer for Oculus Rift rendering support. Check out the video for what it looks like and how to use it. If you need a refresher on how easy it is to get Stereoscopic support in SunBurn check out my blog post here: [Stereo3D in SunBurn](http://www.synapsegaming.com/blogs/community_blogs/archive/2012/05/10/all-new-3d-stereoscopicrenderer-plugin-take-your-sunburn-games-into-the-next-dimension-with-full-stereoscopic-3d-support-in-less-than-5-lines-of-code)
 > 
-> **Start coding now:** [3D StereoscopicRenderer Plugin](http://www.synapsegaming.com/downloads/resource.aspx?guid=46f57a92-57b3-4e34-80e0-418d5cf737f3)
+> **Start coding now:** [3D StereoscopicRenderer Plugin](http://www.synapsegaming.com/downloads/resource?guid=46f57a92-57b3-4e34-80e0-418d5cf737f3)
 > 
 > <object width="448" height="252" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.youtube.com/v/HtGSyxf0huY?hl=en&amp;hd=1">
 > <embed width="448" height="252" type="application/x-shockwave-flash" src="http://www.youtube.com/v/HtGSyxf0huY?hl=en&amp;hd=1"></embed></object>
@@ -42,7 +42,7 @@ A fantastic announcement over on the [SunBurn community blogs](http://www.synaps
 > 
 > -Holophone3D
 
-&nbsp;
+ 
 
 * * *
 
@@ -64,4 +64,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js" language="javascript"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20) &nbsp;<script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList.aspx?amid=9502591)
+// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

@@ -13,7 +13,7 @@ tags:
 - syncfusion
 ---
 
-Knowledge is power and with what [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview)are doing to educate the masses , then they must be very powerful indeed. Training and educating developers far and wide, growing their own developer army.&nbsp; Or they could just be very nice people ![Open-mouthed smile](/Images/wordpress/2014/10/wlEmoticon-openmouthedsmile.png)
+Knowledge is power and with what [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview)are doing to educate the masses , then they must be very powerful indeed. Training and educating developers far and wide, growing their own developer army.  Or they could just be very nice people ![Open-mouthed smile](/Images/wordpress/2014/10/wlEmoticon-openmouthedsmile.png)
 
 > **Be sure to check out the giveaway comp at the end of the post, we have over 5 Syncfusion control packs to give away and one ultimate fantastic copy of Syncfusion’s Essentials complete collection! Mega$£**
 
@@ -26,11 +26,11 @@ Let’s see what has changed this time.
 ##### ![ /></h5>
 <p>It has been over 2 year now since <a href=](http://i2.wp.com/1.bp.blogspot.com/_Un0JJ6ChsQE/TDMGeB1LpyI/AAAAAAAAABU/VORQN7I2LVg/s1600/27.jpg?w=660)Syncfusion started shipping free [ebooks](http://www.syncfusion.com/resources/techportal/ebooks?UTM_medium=simonblogreview) to the developer community, you would think they would have run out steam by now but still they power on, they are relentless.
 
-Each book averages around 100 pages and contains targeted and focused knowledge to make use of some of the new and upcoming frameworks or development tools out there.&nbsp; In fact in this review they have even branched out in to some very interesting sectors, such as Neural Networks and Service Stack.
+Each book averages around 100 pages and contains targeted and focused knowledge to make use of some of the new and upcoming frameworks or development tools out there.  In fact in this review they have even branched out in to some very interesting sectors, such as Neural Networks and Service Stack.
 
 The series has grown to an immense 48 titles and still they are powering on with no end in sight. it really does show how much [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) value the community and it is a great business vehicle to get you interested in their commercial offerings.
 
-The free stuff does not stop there as [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) also offer an Icon repository tool with over 2500 icons called&nbsp; [MetroStudio](http://www.syncfusion.com/downloads/metrostudio?UTM_medium=simonblogreview) (or should that be ModernStudio now ![Smile with tongue out](/Images/wordpress/2013/07/wlEmoticon-smilewithtongueout.png?w=660))
+The free stuff does not stop there as [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) also offer an Icon repository tool with over 2500 icons called  [MetroStudio](http://www.syncfusion.com/downloads/metrostudio?UTM_medium=simonblogreview) (or should that be ModernStudio now ![Smile with tongue out](/Images/wordpress/2013/07/wlEmoticon-smilewithtongueout.png?w=660))
 
 * * *
 
@@ -330,17 +330,17 @@ Learn how to set up a Windows Azure SQL Database server, develop reports, and ma
 
 If [Syncfusion’s](http://www.syncfusion.com/?UTM_medium=simonblogreview)track history is anything to go by you can expect their commercial offerings are also going to be of the same grade and quality
 
-&nbsp;
+ 
 
-You really cannot go wrong here, whether you want to learn more about the topics at hand or need Icons for your project it would seem [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) is the place to look.&nbsp; If nothing else you have learned valuable lessons from known developers for the price of a click.
+You really cannot go wrong here, whether you want to learn more about the topics at hand or need Icons for your project it would seem [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) is the place to look.  If nothing else you have learned valuable lessons from known developers for the price of a click.
 
 * * *
 
 ![width=]()
 
-As if that were not enough, there is more.&nbsp; Seems [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) are really in the giving spirit again and in celebration for all their efforts and free ebooks they are also offering three lucky readers one of their premium essentials products for FREE ( **excluding** the Enterprise edition)
+As if that were not enough, there is more.  Seems [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) are really in the giving spirit again and in celebration for all their efforts and free ebooks they are also offering three lucky readers one of their premium essentials products for FREE ( **excluding** the Enterprise edition)
 
-All you have to do (same as with the Succinctly books) is comment [on my Dark Genesis blog](http://wp.me/p3o0M2-Pl) leaving a mail address that [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) can contact you on and **THREE** lucky winners will be chosen to receive an essentials package of their choice from the list below&nbsp; **(one per winner)** :
+All you have to do (same as with the Succinctly books) is comment [on my Dark Genesis blog](http://wp.me/p3o0M2-Pl) leaving a mail address that [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) can contact you on and **THREE** lucky winners will be chosen to receive an essentials package of their choice from the list below  **(one per winner)** :
 
 > #### Email addresses will not be shown in the comments!
 
@@ -356,13 +356,13 @@ All you have to do (same as with the Succinctly books) is comment [on my Dark Ge
 
 There is no rush in selecting, should you be picked as a winner you can check out the trials first and when your happy let them know which one you want.
 
-Additionally, we have two extra essential single packages for my twitter fans, simply **Tweet the hashtag [#SyncfusionGiveaway](http://twitter.com/search?q=%23SyncfusionGiveaway "SyncFusion Giveaway tweets")&nbsp;**with a gesture of why you should win or suitable humorous caption about the giveaway (Keep it clean though, there may be kids watching! :P)
+Additionally, we have two extra essential single packages for my twitter fans, simply **Tweet the hashtag [#SyncfusionGiveaway](http://twitter.com/search?q=%23SyncfusionGiveaway "SyncFusion Giveaway tweets") **with a gesture of why you should win or suitable humorous caption about the giveaway (Keep it clean though, there may be kids watching! :P)
 
 ![width=](http://roguegroupwriting.files.wordpress.com/2014/09/there-can-be-only-one.gif)
 
 ##### For one lucky entrant we have another extra special GRAND prize, the entire set of controls in the Essential Studio Enterprise Edition
 
-&nbsp;
+ 
 
 ##### Free draw ends 18th October 2014
 

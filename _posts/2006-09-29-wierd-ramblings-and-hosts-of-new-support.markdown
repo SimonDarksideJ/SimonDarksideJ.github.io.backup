@@ -11,7 +11,7 @@ Life is taking strange turns these days, work is getting dull, I have reverted t
 
 In working through the design for my main game, I have taken a little side step for a while and decided to split off one of the sub game components into a full game to actually get something out the door.
 
-The Sub game has to do with hacking (old skool but fun, remembering my days of playing [UPLINK – Hacker Elite](http://www.introversion.co.uk/uplink/about.html), damn fine game), the idea being based a bit on the hacking interface of System Shock 2, Light beam bouncing and pac man, figure that one out.&nbsp; May put some of my concept stuff here for all to see as I’ll probably put it on codeplex or somewhere when I start coding it (in heavy design mode at the mo).
+The Sub game has to do with hacking (old school but fun, remembering my days of playing [UPLINK – Hacker Elite](http://www.introversion.co.uk/uplink/about.html), damn fine game), the idea being based a bit on the hacking interface of System Shock 2, Light beam bouncing and pac man, figure that one out.  May put some of my concept stuff here for all to see as I’ll probably put it on codeplex or somewhere when I start coding it (in heavy design mode at the mo).
 
 In light of the requirements for the sub game i’ve turn from my usual research path and started looking a 2D graphics and Tile Based game development (the hacking game will be played in a single screen), I have come across a whole wealth of new XNA tutorial and development sites, see below:
 

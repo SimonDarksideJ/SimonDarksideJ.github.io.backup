@@ -128,7 +128,7 @@ Don’t worry, no one checks this except the store you are publishing to.
 - **Scripting backend** – with Unity’s move to IL2CPP, I recommend updating this if it’s set to Mono (unless you have compatibility issues with your project running on IL2CPP)  
 - **Target Architecture** – Try to limit which builds you select here, especially if you don’t want to wait for Unity to build the project multiple times. Especially in test, only select 1 (ARMv7 is a good default for most modern devices)
 
-Tinker and play with the rest, but it shouldn’t affect development much (except permissions). You will have to review this as you go to publish, but that is tomorrows problem :D.
+Tinker and play with the rest, but it should not affect development much (except permissions). You will have to review this as you go to publish, but that is tomorrows problem :D.
 
 ## 
 

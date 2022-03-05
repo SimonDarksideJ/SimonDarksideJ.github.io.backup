@@ -15,7 +15,7 @@ It happens every so often, you open up your mail or twitter feed and there is a 
 
 ![src=]()
 
-The aim is simple, get more dev’s interested and excited for (and if possible working on / buying) Microsoft’s latest and greatest server and backend offerings, just what do you have to do to enter this challenge?&nbsp; simple, download and try out either [Windows Server 2012](http://www.microsoft.com/en-us/server-cloud/windows-server/), [System Center 2012 SP1](http://www.microsoft.com/en-us/server-cloud/system-center/default.aspx) or grab a [FREE 90 day trial of Windows Azure](http://www.windowsazure.com/en-us/pricing/free-trial/) and give them your honest opinion about it.&nbsp; That and / or just keep tweeting / re-tweeting about [#TechEdChallenge](https://twitter.com/search?q=%23TechEdChallenge).
+The aim is simple, get more dev’s interested and excited for (and if possible working on / buying) Microsoft’s latest and greatest server and backend offerings, just what do you have to do to enter this challenge?  simple, download and try out either [Windows Server 2012](http://www.microsoft.com/en-us/server-cloud/windows-server/), [System Center 2012 SP1](http://www.microsoft.com/en-us/server-cloud/system-center/default) or grab a [FREE 90 day trial of Windows Azure](http://www.windowsazure.com/en-us/pricing/free-trial/) and give them your honest opinion about it.  That and / or just keep tweeting / re-tweeting about [#TechEdChallenge](https://twitter.com/search?q=%23TechEdChallenge).
 
 The full details are here: [http://www.microsoft.com/uk/techedchallenge](http://www.microsoft.com/uk/techedchallenge) but in brief, here’s the run down.
 
@@ -35,7 +35,7 @@ On top of that while the competition is running you can keep tweeting / ReTweeti
 
 # Well what are you waiting for?
 
-I have had experience with most of them before but I am still downloading all three and doing my own write up on them, so as a break from my normal schedule expect a few review articles coming very soon.&nbsp; In one way this has gotten me off the bench about Azure as I have been wanting to dig in to it for a while now and have a few projects that make a lot of use of their services but I have been preoccupied with other tasks, now I have got my trial and will get coding against it (may even blog about that experience as well on the side plus make use of Xamarin’s new Azure Mobile Services component plug-in for Xamarin solutions ![Smile](/Images/wordpress/2013/04/wlEmoticon-smile.png))
+I have had experience with most of them before but I am still downloading all three and doing my own write up on them, so as a break from my normal schedule expect a few review articles coming very soon.  In one way this has gotten me off the bench about Azure as I have been wanting to dig in to it for a while now and have a few projects that make a lot of use of their services but I have been preoccupied with other tasks, now I have got my trial and will get coding against it (may even blog about that experience as well on the side plus make use of Xamarin’s new Azure Mobile Services component plug-in for Xamarin solutions ![Smile](/Images/wordpress/2013/04/wlEmoticon-smile.png))
 
 Laters ![Open-mouthed smile](/Images/wordpress/2013/04/wlEmoticon-openmouthedsmile1.png)
 
@@ -53,4 +53,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js" language="javascript"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20) &nbsp;<script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList.aspx?amid=9502591)
+// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

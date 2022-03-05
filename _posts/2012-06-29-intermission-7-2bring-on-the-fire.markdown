@@ -10,9 +10,9 @@ tags:
 - xna-2d-tutorials
 ---
 
-2D,XNA,Game DevelopmentIn the last post we set the groundwork with the particle system itself.&nbsp; Now we can move on to making use of this and adding / customising our effects.
+2D,XNA,Game DevelopmentIn the last post we set the groundwork with the particle system itself.  Now we can move on to making use of this and adding / customising our effects.
 
-This post will be keenly followed by another post about monitoring the performance of your game.&nbsp; I had not originally planned on it but since I hit problems when applying the particle effects (completely my own fault but a good lesson to learn), I felt it was wise to impart some of this experience to you.
+This post will be keenly followed by another post about monitoring the performance of your game.  I had not originally planned on it but since I hit problems when applying the particle effects (completely my own fault but a good lesson to learn), I felt it was wise to impart some of this experience to you.
 
 After that we will roll up this phase of intermissions with an update to the Windows Phone 7 project and add all the extra bits (in their WP7 flavour) to that project (cannot wait to run everything from there come XNA 4 full release).
 
@@ -20,13 +20,13 @@ Then back the the tutorial series itself by adding some sound!!
 
 As usual all the code for this section can be found [here on codeplex](http://startrooper2dxna.codeplex.com/releases/view/46712).
 
-&nbsp;
+ 
 
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
 
-&nbsp;
+ 
 
 ### The aims of our fireball effect
 
@@ -34,13 +34,13 @@ Below is a diagram of what we are aiming for with our replacement fireball effec
 
 ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_23722C7D.png)
 
-We need the emitter to be thrown up spewing out fire as it does and trailed with a smoke plume to give it an extra edge.&nbsp; We could just launch out particles together from our trooper for the effect but we would loose cohesion from our fireball and loose a level of control should we wish to add similar effects for other weapons.
+We need the emitter to be thrown up spewing out fire as it does and trailed with a smoke plume to give it an extra edge.  We could just launch out particles together from our trooper for the effect but we would loose cohesion from our fireball and loose a level of control should we wish to add similar effects for other weapons.
 
-&nbsp;
+ 
 
 * * *
 
-&nbsp;
+ 
 
 ### Making use of the particle framework 
 
@@ -48,19 +48,19 @@ Below is a diagram of the framework we have setup:
 
 ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_7A2A48A4.png)
 
-From here you can see our standard particle system framework.&nbsp; Within our framework we will define several emitter effect definitions based on the emitter control template.&nbsp; This gives us a wide array of capabilities and options for setting up our effects, we can implement either:
+From here you can see our standard particle system framework.  Within our framework we will define several emitter effect definitions based on the emitter control template.  This gives us a wide array of capabilities and options for setting up our effects, we can implement either:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; Static Controlled effect
+> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Static Controlled effect
 > 
 > Where the game controls how the effect is generated and updated, including when new particles are generated, this is what is used in the CC particle sample.
 > 
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; Self sustaining effect
+> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Self sustaining effect
 > 
-> Where an effect is launched and generates a pattern of particles but the game still controls the emitter.&nbsp; Which is what we will use in this tutorial
+> Where an effect is launched and generates a pattern of particles but the game still controls the emitter.  Which is what we will use in this tutorial
 > 
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; Self controlled effect
+> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Self controlled effect
 > 
-> In this the game initiates the effect but after that has no direct control, the emitter is completely self controlled.&nbsp; Bit like a fire out of control (if you could program real fire)
+> In this the game initiates the effect but after that has no direct control, the emitter is completely self controlled.  Bit like a fire out of control (if you could program real fire)
 
 So lets get on and get this started.
 
@@ -244,7 +244,7 @@ Add the following to the beginning of the Particle Manager:
             
             
             
-            Here we simply loop through each emitter and update it (if it is active).&nbsp; If an emitter becomes inactive after it is update, we then remove it from the pool and free up a slot.
+            Here we simply loop through each emitter and update it (if it is active).  If an emitter becomes inactive after it is update, we then remove it from the pool and free up a slot.
             
             
             
@@ -434,7 +434,7 @@ Add the following to the beginning of the Particle Manager:
                 
                 
                 
-                Here we reuse the SpriteBatch from the main game class setting the corresponding Sprite Blend mode according to the Emitter (so we can use both additive and alpha blended effects (more on that when we use this).&nbsp; The rest of the code is well commented (from the original MS sample) were we use the particles lifetime to adjust the alpha part of the particle (making if fade out as it dies) and the scale (to make the particle grow as it dies).
+                Here we reuse the SpriteBatch from the main game class setting the corresponding Sprite Blend mode according to the Emitter (so we can use both additive and alpha blended effects (more on that when we use this).  The rest of the code is well commented (from the original MS sample) were we use the particles lifetime to adjust the alpha part of the particle (making if fade out as it dies) and the scale (to make the particle grow as it dies).
                 
                 
                 
@@ -446,7 +446,7 @@ Add the following to the beginning of the Particle Manager:
                 
                 
                 
-                &nbsp;
+                 
                 
                 
                 
@@ -520,7 +520,7 @@ Add the following to the beginning of the Particle Manager:
                     
                     
                     
-                    &nbsp;
+                     
                     
                     
                     
@@ -528,7 +528,7 @@ Add the following to the beginning of the Particle Manager:
                     
                     
                     
-                    &nbsp;
+                     
                     
                     
                     * * *
@@ -914,17 +914,17 @@ Add the following to the beginning of the Particle Manager:
                         
                         
                         
-                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; Update to Initialise Constants (Mandatory)
+                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Update to Initialise Constants (Mandatory)
                         > 
-                        > This is the only mandatory requirement for any new particle effect, to setup it is starting parameters which control how particles are generated when called.&nbsp; These are also the most tricky to configure to get the effect you want.
+                        > This is the only mandatory requirement for any new particle effect, to setup it is starting parameters which control how particles are generated when called.  These are also the most tricky to configure to get the effect you want.
                         > 
-                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; Supplemented Update
+                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Supplemented Update
                         > 
-                        > As we are aiming for a self sustained effect (a constant fireball) we want to generate new particles to replace those that die during the cause of our fireball shot, so we override update to add more particles each update.&nbsp; This is also supplemented by an effect specific attribute “CycleMeter” to control how often new particles should happen.&nbsp; (0 = every frame, 10 = every 10 seconds), the timing is set in the “ParticleCycleTime” attribute of the emitter.
+                        > As we are aiming for a self sustained effect (a constant fireball) we want to generate new particles to replace those that die during the cause of our fireball shot, so we override update to add more particles each update.  This is also supplemented by an effect specific attribute “CycleMeter” to control how often new particles should happen.  (0 = every frame, 10 = every 10 seconds), the timing is set in the “ParticleCycleTime” attribute of the emitter.
                         > 
-                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; Supplemented Initialise Particle
+                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Supplemented Initialise Particle
                         > 
-                        > As we want the particles to follow the emitter and not fly of in a random direction (which is the default), we fix the particles position to the emitters position.&nbsp; We could enhance this if we wished to make the particle circle around the emitter if we wished.
+                        > As we want the particles to follow the emitter and not fly of in a random direction (which is the default), we fix the particles position to the emitters position.  We could enhance this if we wished to make the particle circle around the emitter if we wished.
                         
                         
                         
@@ -932,13 +932,13 @@ Add the following to the beginning of the Particle Manager:
                         
                         
                         
-                        &nbsp;
+                         
                         
                         
                         * * *
                         
                         
-                        &nbsp;
+                         
                         
                         
                         ### Not forgetting our actual particle
@@ -965,13 +965,13 @@ Add the following to the beginning of the Particle Manager:
                         Now it may not look like much at the moment, but just wait and see what the particle engine makes of it.
                         
                         
-                        &nbsp;
+                         
                         
                         
                         * * *
                         
                         
-                        &nbsp;
+                         
                         
                         
                         ### Calling the effect
@@ -1040,23 +1040,23 @@ Add the following to the beginning of the Particle Manager:
                             
                             
                             
-                            &nbsp;
+                             
                             
                             
                             
-                            &nbsp;
+                             
                             
                             
                             * * *
                             
                             
-                            &nbsp;
+                             
                             
                             
                             ### But wait there is more.
                             
                             
-                            A good thing to remember with particle effects is that we do not just have to live with one effect, we can combine effects in many different ways to get a better result.&nbsp; If you look back the the previous post you will notice a nice little smoke plume emanating from the tail of our fireball, fire emits smoke does not it ![Smile](/blogs/darkgenesis/wlEmoticonsmile_66D55839.png)
+                            A good thing to remember with particle effects is that we do not just have to live with one effect, we can combine effects in many different ways to get a better result.  If you look back the the previous post you will notice a nice little smoke plume emanating from the tail of our fireball, fire emits smoke does not it ![Smile](/blogs/darkgenesis/wlEmoticonsmile_66D55839.png)
                             
                             
                             
@@ -1390,10 +1390,10 @@ Add the following to the beginning of the Particle Manager:
                                 
                                 
                                 
-                                > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; It lasts a bit longer (min and max lifetime are greater) as smoke lingers   
-                                > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; It is slower (min and max speed are reduced)   
-                                > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; The acceleration is also slower so that the smoke gets left behind   
-                                > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)&nbsp;&nbsp;&nbsp; We use a different blend effect for better results
+                                > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    It lasts a bit longer (min and max lifetime are greater) as smoke lingers   
+                                > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    It is slower (min and max speed are reduced)   
+                                > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    The acceleration is also slower so that the smoke gets left behind   
+                                > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    We use a different blend effect for better results
                                 
                                 
                                 
@@ -1487,7 +1487,7 @@ Add the following to the beginning of the Particle Manager:
                                     
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     
@@ -1509,11 +1509,11 @@ Add the following to the beginning of the Particle Manager:
                                         ### Draw Order
                                         
                                         
-                                        A quick note about draw order.&nbsp; The current particle implementation above does not have any facilities for managing draw order as part of the effects, that being which effect gets drawn on top of which.
+                                        A quick note about draw order.  The current particle implementation above does not have any facilities for managing draw order as part of the effects, that being which effect gets drawn on top of which.
                                         
                                         
                                         
-                                        For example reverse the order in which the smoke and explosion effects are drawn and have a look at the corresponding result.&nbsp; You should see this:
+                                        For example reverse the order in which the smoke and explosion effects are drawn and have a look at the corresponding result.  You should see this:
                                         
                                         
                                         
@@ -1525,7 +1525,7 @@ Add the following to the beginning of the Particle Manager:
                                         
                                         
                                         
-                                        So take care using this and consider in your experiments (see below) which order you want to draw your effects.&nbsp; There are a couple of ways to handle this more programmatically, like adding a sort to the Pool class based on an attribute in the emitter, but this would not give you as much flexibility as you might think.
+                                        So take care using this and consider in your experiments (see below) which order you want to draw your effects.  There are a couple of ways to handle this more programmatically, like adding a sort to the Pool class based on an attribute in the emitter, but this would not give you as much flexibility as you might think.
                                         
                                         
                                         
@@ -1537,13 +1537,13 @@ Add the following to the beginning of the Particle Manager:
                                         
                                         
                                         
-                                        &nbsp;
+                                         
                                         
                                         
                                         * * *
                                         
                                         
-                                        &nbsp;
+                                         
                                         
                                         
                                         
@@ -1551,19 +1551,19 @@ Add the following to the beginning of the Particle Manager:
                                         
                                         
                                         
-                                        Now the main thing with particle effects is experimentation.&nbsp; the above effect took me approx 1 hour to put together, here is a little run down of what it took to get to this point
+                                        Now the main thing with particle effects is experimentation.  the above effect took me approx 1 hour to put together, here is a little run down of what it took to get to this point
                                         
                                         
                                         
                                         
                                         | ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_58064CBB.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_7C971898.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_53F7EAEA.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_4AAB89DC.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_6BCB59EB.png) |
-                                        | 1st run, way too many particles and they did not follow the emitter, except flame up | Less particles but they did not last long enough or spawn quick enough.&nbsp; Also too big | Got the fireball right but we needed more | Great effect, something to keep for later.&nbsp; Not the ball I wanted.   
+                                        | 1st run, way too many particles and they did not follow the emitter, except flame up | Less particles but they did not last long enough or spawn quick enough.  Also too big | Got the fireball right but we needed more | Great effect, something to keep for later.  Not the ball I wanted.   
                                         May be to use in a different colour as a plasma ball? | The end result. |
                                         
                                         
                                         
                                         
-                                        This is why most AAA rated games have dedicated teams (not just individuals) for creating and managing effects like this.&nbsp; It can take a fair bit of time to get it right and within budget (both Time and game update/draw costs).
+                                        This is why most AAA rated games have dedicated teams (not just individuals) for creating and managing effects like this.  It can take a fair bit of time to get it right and within budget (both Time and game update/draw costs).
                                         
                                         
                                         
@@ -1572,15 +1572,15 @@ Add the following to the beginning of the Particle Manager:
                                         
                                         ### Conclusion and a final note.
                                         
-                                        &nbsp;
+                                         
                                         
-                                        With all this going on it is easy to forget that fantastic effects come at a cost, more effects means more to draw and heavy on the graphics card.&nbsp; You might be able to run big shiny and fabulous effects on you development machine with a lofty DX 10/11 graphics card and oodles of memory / cpu.&nbsp; But remember the audience you are aiming for, XBOX, laptops/networks?, Windows Mobile.
+                                        With all this going on it is easy to forget that fantastic effects come at a cost, more effects means more to draw and heavy on the graphics card.  You might be able to run big shiny and fabulous effects on you development machine with a lofty DX 10/11 graphics card and oodles of memory / cpu.  But remember the audience you are aiming for, XBOX, laptops/networks?, Windows Mobile.
                                         
-                                        &nbsp;
+                                         
                                         
                                         you have a few choices add some configuration to up the graphics to the max for high spec machines and lower settings for those of us on a budget or want to game on the go, or aim for a middle ground so you get the same look and feel no matter the device you use.
                                         
-                                        &nbsp;
+                                         
                                         
                                         For instance, the main reason I dropped the fiery wall of death, the first thing I ended up with (apart from it not being what I was aiming for), was because as soon as I hade more then 5 of then, my poor laptop slowed right down because it was spewing out millions of particles (pretty obvious really)
                                         

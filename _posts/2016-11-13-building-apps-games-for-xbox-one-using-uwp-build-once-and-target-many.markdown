@@ -16,19 +16,19 @@ tags:
 - windows-10
 ---
 
-&nbsp;
+ 
 
 [![image](/Images/wordpress/2016/11/image_thumb.png "image")](/Images/wordpress/2016/11/image.png)
 
-&nbsp;
+ 
 
-For my sins, I was asked back to [FutureDecoded](http://futuredecoded.com/) again this year to give a talk on the Microsoft UWP platform, specifically about bringing games to the XboxOne using UWP.&nbsp; By all accounts the session went well (especially as there was standing room only by the time the talk started). With it being just two days in the London ExCeL exhibition center, not everyone who wanted to make it could, in fact even some people were contacting me on the day saying they were in other sessions at that time but wanted more info.
+For my sins, I was asked back to [FutureDecoded](http://futuredecoded.com/) again this year to give a talk on the Microsoft UWP platform, specifically about bringing games to the XboxOne using UWP.  By all accounts the session went well (especially as there was standing room only by the time the talk started). With it being just two days in the London ExCeL exhibition center, not everyone who wanted to make it could, in fact even some people were contacting me on the day saying they were in other sessions at that time but wanted more info.
 
 So for everyone who could not make it on the day or missed the session (or for those wanting a recap), I have recorded the session at home and published it on my “[Darkside of MonoGame](http://bit.ly/darksideofmonogame)” Youtube channel. (I just have to hope my [MonoGame](http://www.monogame.rocks/) friends will forgive me for featuring Unity on there for a bit ![Open-mouthed smile](/Images/wordpress/2016/11/wlEmoticon-openmouthedsmile.png)
 
 <iframe loading="lazy" title="Building apps &amp; games for Xbox One using UWP - Build once and target many - FutureDecoded2016" width="660" height="371" src="https://www.youtube.com/embed/AAMToCwPy8s?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**You might also ask “Why all the Fuss?”.** Well the answer is simple, Microsoft just opened up the XboxOne to UWP developers, allowing any retail XboxOne to become a development machine and test / deploy and publish UWP projects to the XboxOne Store.&nbsp; It is like Christmas has come again for those of us who remember the Xbox Live Indie Game platform and the thrill of writing your own games and running them on your home Xbox.
+**You might also ask “Why all the Fuss?”.** Well the answer is simple, Microsoft just opened up the XboxOne to UWP developers, allowing any retail XboxOne to become a development machine and test / deploy and publish UWP projects to the XboxOne Store.  It is like Christmas has come again for those of us who remember the Xbox Live Indie Game platform and the thrill of writing your own games and running them on your home Xbox.
 
 * * *
 
@@ -47,13 +47,13 @@ I have posted a few times about the UWP platform, but to recap, UWP is Microsoft
 
 Plus, any other devices that Microsoft decides to roll out on to from now on.
 
-It pretty much sounds like a multi-platform dream, and it certainly is.&nbsp; But how does UWP handle all the different variations on its platform? Each device is different and has its own unique characteristics. The answer in this case is “Extensions”:
+It pretty much sounds like a multi-platform dream, and it certainly is.  But how does UWP handle all the different variations on its platform? Each device is different and has its own unique characteristics. The answer in this case is “Extensions”:
 
 [![image](/Images/wordpress/2016/11/image_thumb-2.png "image")](/Images/wordpress/2016/11/image-2.png)
 
-As you might expect, Windows 10 has a single “core” which runs on all devices, in exactly the same way.&nbsp; Then for those little extra’s, the UWP platform provides an “Extension” component that is specific to each platform.&nbsp; However, these extensions are also expressed on all the other platforms, so your code does not break and you write the same code as if you were writing for them all.&nbsp; Where a device does not support a certain feature (say the Holographic API on an Xbox), then the code simply does nothing, it does not error, it does not crash, your code still works but nothing actually happens. For those platforms with that feature, lights start shining, the bells ring and the choir sings out with joyful praise.
+As you might expect, Windows 10 has a single “core” which runs on all devices, in exactly the same way.  Then for those little extra’s, the UWP platform provides an “Extension” component that is specific to each platform.  However, these extensions are also expressed on all the other platforms, so your code does not break and you write the same code as if you were writing for them all.  Where a device does not support a certain feature (say the Holographic API on an Xbox), then the code simply does nothing, it does not error, it does not crash, your code still works but nothing actually happens. For those platforms with that feature, lights start shining, the bells ring and the choir sings out with joyful praise.
 
-Also as part of this “Extension” framework, Microsoft gives you the ability to test if a feature is available or not, allowing you to write different code depending on whether the feature is active, like if you want to use a devices accelerometer if it has one, or use a virtual joystick on a desktop with a touch screen, or fall back to keyboard if hat is not available.&nbsp; Sure, there is a bit of thought to go in to building for “Any” device but that is the trade-off for building one solution.
+Also as part of this “Extension” framework, Microsoft gives you the ability to test if a feature is available or not, allowing you to write different code depending on whether the feature is active, like if you want to use a devices accelerometer if it has one, or use a virtual joystick on a desktop with a touch screen, or fall back to keyboard if hat is not available.  Sure, there is a bit of thought to go in to building for “Any” device but that is the trade-off for building one solution.
 
 * * *
 
@@ -75,11 +75,11 @@ Under the hood, UWP Games are just a DirectX surface and you can write games usi
 
 [![image](/Images/wordpress/2016/11/image_thumb-5.png "image")](/Images/wordpress/2016/11/image-5.png)
 
-Now that UWP apps can be deployed / tested and run by anyone with a Retail Xbox, we can go wild and try out our own games to see how they run on the big screen.&nbsp; Once you lick all the bugs and get it just right, you can publish that game “as is” to the Xbox Store. Well, once you have your project accepted by the [ID@Xbox](http://xbox.com/id) team (which is even easier for UWP developers now)
+Now that UWP apps can be deployed / tested and run by anyone with a Retail Xbox, we can go wild and try out our own games to see how they run on the big screen.  Once you lick all the bugs and get it just right, you can publish that game “as is” to the Xbox Store. Well, once you have your project accepted by the [ID@Xbox](http://xbox.com/id) team (which is even easier for UWP developers now)
 
 So long as you have a Windows 10 PC and a retail Xbox, your good to go as everything else is free, the tools, the software, even the ability to switch your retail XboxOne over to a UWP dev kit. All from the comfort of your own home (or hotel room with free wifi)
 
-> There is one other caveat, that you need to also have a Windows Store developer account.&nbsp; This normally costs about £19 for an individual, a little more for a company account.&nbsp; You can either get this yourself, or when you are accepted by ID, you will get this account plus a load of other software completely FREE. Up to you.
+> There is one other caveat, that you need to also have a Windows Store developer account.  This normally costs about £19 for an individual, a little more for a company account.  You can either get this yourself, or when you are accepted by ID, you will get this account plus a load of other software completely FREE. Up to you.
 > 
 > P.S. If you have an MSDN account, you also get a code for FREE, check your benefits.
 
@@ -95,7 +95,7 @@ In short, what you need to do is:
 
 | 
 
-1:&nbsp; Install the “Dev Mode Activation” app on to your Xbox from the Xbox Store
+1:  Install the “Dev Mode Activation” app on to your Xbox from the Xbox Store
 
  | [![image](/Images/wordpress/2016/11/image_thumb-7.png "image")](/Images/wordpress/2016/11/image-7.png) |
 | [![image](/Images/wordpress/2016/11/image_thumb-8.png "image")](/Images/wordpress/2016/11/image-8.png) | 
@@ -109,7 +109,7 @@ In short, what you need to do is:
 
 This will now boot your Xbox in to UWP developer mode with a completely separate sandbox inside your Xbox.
 
-Your Retail settings / apps are still safe on your Xbox, you just ca not access them from developer mode.&nbsp; You can return to Retail mode at any time.
+Your Retail settings / apps are still safe on your Xbox, you just ca not access them from developer mode.  You can return to Retail mode at any time.
 
  | [![image](/Images/wordpress/2016/11/image_thumb-9.png "image")](/Images/wordpress/2016/11/image-9.png) |
 | [![image](/Images/wordpress/2016/11/image_thumb-10.png "image")](/Images/wordpress/2016/11/image-10.png) | 
@@ -131,7 +131,7 @@ Visual Studio and the Xbox must be signed in using the same Microsoft account yo
  | [![image](/Images/wordpress/2016/11/image_thumb-11.png "image")](/Images/wordpress/2016/11/image-11.png) |
 | [![image](/Images/wordpress/2016/11/image_thumb-12.png "image")](/Images/wordpress/2016/11/image-12.png) | 
 
-6: Done.&nbsp; You should now be able to deploy and run games from Visual Studio on your Xbox.
+6: Done.  You should now be able to deploy and run games from Visual Studio on your Xbox.
 
 You can also see debugging information from your Xbox (providing your local network supports it) while the game is running.
 
@@ -139,7 +139,7 @@ Just make sure you Run in “Release” or “Master” mode when looking at per
 
  |
 
-And that is it. You are up and running.&nbsp; The security of the setup ensures that you (and only you) can connect to your Xbox in dev mode and deploy apps, so long as you use the same Microsoft account for everything.&nbsp; You can still sign in other gamers, using their GamerTags for local multi-player (although you ca not grant gamerscore ![Open-mouthed smile](/Images/wordpress/2016/11/wlEmoticon-openmouthedsmile.png)).&nbsp;&nbsp; If you also are a member of ID and have access to to the Live SDK and services, you can also test networked multi-player and all the other Live services.
+And that is it. You are up and running.  The security of the setup ensures that you (and only you) can connect to your Xbox in dev mode and deploy apps, so long as you use the same Microsoft account for everything.  You can still sign in other gamers, using their GamerTags for local multi-player (although you ca not grant gamerscore ![Open-mouthed smile](/Images/wordpress/2016/11/wlEmoticon-openmouthedsmile.png)).   If you also are a member of ID and have access to to the Live SDK and services, you can also test networked multi-player and all the other Live services.
 
 * * *
 
@@ -151,7 +151,7 @@ For the demo’s, you are going to need to watch the video but here are some han
 
 _\*Click on images to view the demos_
 
-&nbsp;
+ 
 
 * * *
 
@@ -159,9 +159,9 @@ _\*Click on images to view the demos_
 
 [![image](/Images/wordpress/2016/11/image_thumb-13.png "image")](/Images/wordpress/2016/11/image-15.png)
 
-&nbsp;
+ 
 
-Right, so you have your project ready, plans are afoot and you know what you either want to build or have a tech-demo (or even a full project) ready.&nbsp; To get ready to be published on the Xbox and Windows Store (for games) you need to be registered with the awesome [ID@Xbox](http://xbox.com/id) program. in the past some developers have been a bit disillusioned with the responses to the program **but Times have changed**. The team has evolved (especially with UWP deploy now coming to light) and it is now even more streamlined to get access to the program.
+Right, so you have your project ready, plans are afoot and you know what you either want to build or have a tech-demo (or even a full project) ready.  To get ready to be published on the Xbox and Windows Store (for games) you need to be registered with the awesome [ID@Xbox](http://xbox.com/id) program. in the past some developers have been a bit disillusioned with the responses to the program **but Times have changed**. The team has evolved (especially with UWP deploy now coming to light) and it is now even more streamlined to get access to the program.
 
 Once registered and signed up, the ID team are fully behind you, giving you:
 
@@ -170,13 +170,13 @@ Once registered and signed up, the ID team are fully behind you, giving you:
 - Support through the MS Game Developer network
 - Enablement to Xbox Live for access to achievements, networking, leader boards and much more.
 
-My recommendation (especially if you have a mobile game already or the beginnings of a desktop app) is to apply just for Windows 10 first, get your project out there in the hands of players and then either publish it as a UWP to Xbox or then also apply for the Xbox tier to build a native game (although check the next section for more detail on that).&nbsp; Windows 10 has much easier access but has all the same rewards for all ID developers, it also has fewer requirements and certifications to get published (you ca not ship a game that randomly crashes for instance!).
+My recommendation (especially if you have a mobile game already or the beginnings of a desktop app) is to apply just for Windows 10 first, get your project out there in the hands of players and then either publish it as a UWP to Xbox or then also apply for the Xbox tier to build a native game (although check the next section for more detail on that).  Windows 10 has much easier access but has all the same rewards for all ID developers, it also has fewer requirements and certifications to get published (you ca not ship a game that randomly crashes for instance!).
 
-The key here is that you are getting your game out as early as possible, getting it in to the hands of players and gaining presence.&nbsp; I state this in the video but you must be prepared for the amount of footwork you need to put in to promoting your game with the general public.&nbsp; ID will be behind you every step of the way to take your content further (many ID games are now even getting in front of Major Nelson these days, thanks to ID). I will stress though, expect a lot of work, ID wo not do it for you and you need to be ready to produce high quality videos, marketing material and make yourself available. At least 80% of the effort in your game will come from the last 20% (as they say).
+The key here is that you are getting your game out as early as possible, getting it in to the hands of players and gaining presence.  I state this in the video but you must be prepared for the amount of footwork you need to put in to promoting your game with the general public.  ID will be behind you every step of the way to take your content further (many ID games are now even getting in front of Major Nelson these days, thanks to ID). I will stress though, expect a lot of work, ID wo not do it for you and you need to be ready to produce high quality videos, marketing material and make yourself available. At least 80% of the effort in your game will come from the last 20% (as they say).
 
 > **If you want your game to be successful, you need to be out there building presence and touting your game! Only you can promote your game the best way. (But ID will help with guidance and weight)**
 
-&nbsp;
+ 
 
 * * *
 
@@ -192,21 +192,21 @@ in short, UWP is simply easier. It is a friendlier platform and the key benefit 
 
 [![Future_Decoded_Banner](/Images/wordpress/2016/11/Future_Decoded_Banner_thumb.png "Future\_Decoded\_Banner")](/Images/wordpress/2016/11/Future_Decoded_Banner.png)
 
-While at [FutureDecoded](https://futuredecoded.microsoft.com/), the [VISR-VR](http://www.visr-vr.com/blog/futue-decoded-2016/) team showcased an awesome VR project called **Botanika** &nbsp;aimed at helping children and adults who struggle to cope with the&nbsp;effects of Autism.&nbsp; (it is also a fun game for anyone btw ![Open-mouthed smile](/Images/wordpress/2016/11/wlEmoticon-openmouthedsmile.png)).&nbsp; This game was written in Unity, running as a UWP using the Vive VR setup.&nbsp; To make it even more amazing, the lead developer spent 10 minutes converting the project over the HoloLens (the night before the event no less) and had it running perfectly. Granted it was not the full scope of the project but all the key elements were there, all now using HoloLens’s gestures to control the game instead of the Vive Controllers.
+While at [FutureDecoded](https://futuredecoded.microsoft.com/), the [VISR-VR](http://www.visr-vr.com/blog/futue-decoded-2016/) team showcased an awesome VR project called **Botanika**  aimed at helping children and adults who struggle to cope with the effects of Autism.  (it is also a fun game for anyone btw ![Open-mouthed smile](/Images/wordpress/2016/11/wlEmoticon-openmouthedsmile.png)).  This game was written in Unity, running as a UWP using the Vive VR setup.  To make it even more amazing, the lead developer spent 10 minutes converting the project over the HoloLens (the night before the event no less) and had it running perfectly. Granted it was not the full scope of the project but all the key elements were there, all now using HoloLens’s gestures to control the game instead of the Vive Controllers.
 
 > **Getting Botanika up and running in about 10 minutes on a HoloLens in Unity was an awesome effort Louis!**
 
-When publishing UWP games to the Xbox, there are slightly fewer resources to native games (about 70% of resources are available) but there are also fewer certification requirements, meaning less headaches trying to figure out why a controller keeps getting disconnected.&nbsp; As the demo’s show, there is a **LOT** you can get done with that 70% (remembering, it is 70% of a very powerful beast, do not be fooled in to thinking it is not much)
+When publishing UWP games to the Xbox, there are slightly fewer resources to native games (about 70% of resources are available) but there are also fewer certification requirements, meaning less headaches trying to figure out why a controller keeps getting disconnected.  As the demo’s show, there is a **LOT** you can get done with that 70% (remembering, it is 70% of a very powerful beast, do not be fooled in to thinking it is not much)
 
 ## <u>Native development</u>
 
 If you get invited in to the Xbox Native group, which is a tougher crowd and you need your project to shine, you will be given 2 developer enabled Xbox’s and a couple of years to get your project “finished”.
 
-> A great number of developers are also taking up Microsoft’s offer of getting a “ **Preview** ” version of their title out even earlier to consumers. Something not offered on other platforms.&nbsp; Yes, it is more work but it means you get to build more presence and get feedback direct from your players while building.
+> A great number of developers are also taking up Microsoft’s offer of getting a “ **Preview** ” version of their title out even earlier to consumers. Something not offered on other platforms.  Yes, it is more work but it means you get to build more presence and get feedback direct from your players while building.
 
-I cannot stress more, just how much extra effort is needed to get a native Xbox game out, apart from the stricter certification requirements (which with some engines, you can run into trouble if it is the engine causing the issue). Most certification builds take months of testing and validation to get ready.&nbsp; There are also stricter controls placed on console projects from a ratings perspective (and in some cases, quite costly), IARC has not reached Xbox native yet (like with the Windows Store) but hopefully it will be coming soon.
+I cannot stress more, just how much extra effort is needed to get a native Xbox game out, apart from the stricter certification requirements (which with some engines, you can run into trouble if it is the engine causing the issue). Most certification builds take months of testing and validation to get ready.  There are also stricter controls placed on console projects from a ratings perspective (and in some cases, quite costly), IARC has not reached Xbox native yet (like with the Windows Store) but hopefully it will be coming soon.
 
-There is also the fact that in a lot of cases, you will need C++ skills (or contract them) to work on the interconnectedness of things, or if you need the utmost performance on the platform.&nbsp; Although, I have known a fair few devs who have not had to go down this route but there are always compromises.
+There is also the fact that in a lot of cases, you will need C++ skills (or contract them) to work on the interconnectedness of things, or if you need the utmost performance on the platform.  Although, I have known a fair few devs who have not had to go down this route but there are always compromises.
 
 * * *
 
@@ -214,9 +214,9 @@ There is also the fact that in a lot of cases, you will need C++ skills (or cont
 
 [![image](/Images/wordpress/2016/11/image_thumb-15.png "image")](/Images/wordpress/2016/11/image-17.png)
 
-The world just got that little bit bigger and if you are already working on a project for Windows 10, the reach of your title has now opened up even more and for very little effort.&nbsp; If you want to then use the success of your game to then build the “Evolved” edition and build that native later, then you already have a foot in the door and it also becomes easier (although harder from an effort perspective ![Surprised smile](/Images/wordpress/2016/11/wlEmoticon-surprisedsmile.png))
+The world just got that little bit bigger and if you are already working on a project for Windows 10, the reach of your title has now opened up even more and for very little effort.  If you want to then use the success of your game to then build the “Evolved” edition and build that native later, then you already have a foot in the door and it also becomes easier (although harder from an effort perspective ![Surprised smile](/Images/wordpress/2016/11/wlEmoticon-surprisedsmile.png))
 
-So, if you want to build one game and ship it on to several platforms at once, then UWP is the answer (yes I know mobile share is small at present but MS is still committed to it ![Open-mouthed smile](/Images/wordpress/2016/11/wlEmoticon-openmouthedsmile.png)).&nbsp; You’ll still be able to take it to other platforms later as most engines and frameworks also support more than UWP, so if you architect your project right, the world is your oyster.
+So, if you want to build one game and ship it on to several platforms at once, then UWP is the answer (yes I know mobile share is small at present but MS is still committed to it ![Open-mouthed smile](/Images/wordpress/2016/11/wlEmoticon-openmouthedsmile.png)).  You’ll still be able to take it to other platforms later as most engines and frameworks also support more than UWP, so if you architect your project right, the world is your oyster.
 
 > **If you are making games these days, NEVER restrict or limit your dream to one platform. Go BIG, go WILD and get out there!**
 

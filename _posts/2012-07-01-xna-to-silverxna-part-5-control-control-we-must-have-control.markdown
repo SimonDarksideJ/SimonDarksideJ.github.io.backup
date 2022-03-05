@@ -17,15 +17,15 @@ Must admit I had a bit of a Star Wars relapse while thinking about what to call 
 
 So at this point in the SilverXNA series we now have our XNA game running with Silverlight side by side and all’s well, but surely we can use a but more muscle out of this thing, well yes we can.
 
-So in this section were going to add a few more elements to the game transferred from the XNA project where implementing these controls would be a fair amount of work and doing it in Silverlight is more like a 5 minute job and a bit of design work.&nbsp; It is all about making our job easier and you do not just have to stop with what I got here.
+So in this section were going to add a few more elements to the game transferred from the XNA project where implementing these controls would be a fair amount of work and doing it in Silverlight is more like a 5 minute job and a bit of design work.  It is all about making our job easier and you do not just have to stop with what I got here.
 
-You may have noticed (actually I did not until my daughter pointed it out) that we actually lost some of the game in the last article namely the screen overlays for winning, loosing and dying, this is because they were implemented in the HUD drawing section of the code originally, my guess is this was done so to centralise all the asset loading or it could have just been tacked on later.&nbsp; So now we are going to implement these with a bit more flash in Silverlight.
+You may have noticed (actually I did not until my daughter pointed it out) that we actually lost some of the game in the last article namely the screen overlays for winning, loosing and dying, this is because they were implemented in the HUD drawing section of the code originally, my guess is this was done so to centralise all the asset loading or it could have just been tacked on later.  So now we are going to implement these with a bit more flash in Silverlight.
 
 On top of that I will go over some of the challenges of actually doing this and some firm choices you are going to have to make (ca not all be plain sailing!!)
 
 As usual full source for this chapter can be found [here on Codeplex](http://silverxna.codeplex.com/releases/view/72312):
 
-(Please excuse the XAML code sections here, just found out our syntax highlighter does not support XAML, so bear with me while I try to find a better work around.&nbsp; Currently looking at SyntaxHighlighter evolved which supposedly will support XAML but it is wordpress only so will need a little magic) \* Update, still working on it but I lost my changes to my version of the highlighter so I need to re-create it or else loose what I currently have working dagnamit!.
+(Please excuse the XAML code sections here, just found out our syntax highlighter does not support XAML, so bear with me while I try to find a better work around.  Currently looking at SyntaxHighlighter evolved which supposedly will support XAML but it is wordpress only so will need a little magic) \* Update, still working on it but I lost my changes to my version of the highlighter so I need to re-create it or else loose what I currently have working dagnamit!.
 
 Follow along with the series here:
 
@@ -37,33 +37,33 @@ Follow along with the series here:
 > ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 6 – Adding Animation](http://darkgenesis.zenithmoon.com/?p=496 "SilverXNA Part 6 Animation")  
 > ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 7 – A different approach](http://darkgenesis.zenithmoon.com/?p=505 "SilverXNA Part 7 A different approach")
 
-#### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the&nbsp;[SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
+#### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
 
 * * *
 
 ## The Sticky Bits
 
-One of the big issues and decisions you will have to face when using Silverlight to render images over the traditional XNA route of using Texture2D’s is where to get your assets from,&nbsp; might sound like a daft question but let me explain.
+One of the big issues and decisions you will have to face when using Silverlight to render images over the traditional XNA route of using Texture2D’s is where to get your assets from,  might sound like a daft question but let me explain.
 
-This come from the small fact that at the time of writing (a little caveat in case this is changed in the future) Silverlight CANNOT access content currently held in the XNA content pipeline.&nbsp; Not too worry you may think, I will just have XNA get the assets and pass them to Silverlight to use, however to top this off Silverlight does not use XNA textures either so were left with a few options which all have their own issues:
+This come from the small fact that at the time of writing (a little caveat in case this is changed in the future) Silverlight CANNOT access content currently held in the XNA content pipeline.  Not too worry you may think, I will just have XNA get the assets and pass them to Silverlight to use, however to top this off Silverlight does not use XNA textures either so were left with a few options which all have their own issues:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Move/Copy the asset to the Silverlight project
+> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Move/Copy the asset to the Silverlight project
 > 
 > This is the simplest answer (and the one we will be using here) but it comes at a sacrifice, the content pipeline does compression of it is assets natively which you do not get in a Silverlight project (just be aware of your asset size!) and if you also need the same image to use in XNA as well then it is going to have to be duplicated in the project.
 > 
 > Also since Silverlight does not support picking / spritesheets, each image has to be separate.
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Use the Content pipeline to read the asset as a texture and write a converter to expose it as a Bitmap for Silverlight
+> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Use the Content pipeline to read the asset as a texture and write a converter to expose it as a Bitmap for Silverlight
 > 
-> This is probably the most intensive operation to use, granted Silverlight does not refresh the image as often as XNA does (as it caches images to the screen) but it is going to be costly especially if the images are rather large (which you should avoid on mobile anyway).&nbsp; This simply means writing an extension method or other function to read in the XNA Texture2D, convert it to JPEG using the in built XNA functions and then construct wither a WritableBitmap or BitmapImage from the resultant JPEG memory stream (you can also do it by hand by manipulating the memory array of the image)
+> This is probably the most intensive operation to use, granted Silverlight does not refresh the image as often as XNA does (as it caches images to the screen) but it is going to be costly especially if the images are rather large (which you should avoid on mobile anyway).  This simply means writing an extension method or other function to read in the XNA Texture2D, convert it to JPEG using the in built XNA functions and then construct wither a WritableBitmap or BitmapImage from the resultant JPEG memory stream (you can also do it by hand by manipulating the memory array of the image)
 > 
-> I have use this previously for a [Picture effect sample](/blogs/darkgenesis/archive/2010/09/17/pictures-barcodes-and-effects-oh-my.aspx "Pictures, barcodes and effects–oh my") and it does work but it is heavy loading especially if you have a lot of these images on screen.
+> I have use this previously for a [Picture effect sample](/blogs/darkgenesis/archive/2010/09/17/pictures-barcodes-and-effects-oh-my "Pictures, barcodes and effects–oh my") and it does work but it is heavy loading especially if you have a lot of these images on screen.
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Write a custom Content Importer to allow reading the asset as a Bitmap/PNG/Jpeg
+> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Write a custom Content Importer to allow reading the asset as a Bitmap/PNG/Jpeg
 > 
 > This would be a more efficient way of doing the same as the above but you run into similar issues as the first, if you use the image both in Silverlight and XNA you are going to need the same image twice, which also hampers the XNA project because both wo not be able to have the same asset name (not really a problem but worth pointing out) also you would need to add libraries to the content project that would not be available in a standard XNA project so be warned, it sounds nice in theory considering the extensibility of the content pipeline but untold issues are likely to unfold.
 
-So as stated above (and because they are only used in one place in this project) we are going to just move the three assets lock stock and barrel over to the Silverlight project.&nbsp; I could also create a new Asset project to mimic the way the XNA content pipeline separation but I’m more interested in showing the functionality here, KISS
+So as stated above (and because they are only used in one place in this project) we are going to just move the three assets lock stock and barrel over to the Silverlight project.  I could also create a new Asset project to mimic the way the XNA content pipeline separation but I’m more interested in showing the functionality here, KISS
 
 It is a good point to make here that this leads you to think about how your assets are managed in any project from a design point, if your assets are for the 3D portion of the game place them in the content pipeline, if they are for UI keep them in Silverlight, but understand the difference between the UI portion of your game which may include interactivity and the visual elements which are generally just for show.
 
@@ -73,11 +73,11 @@ It is a good point to make here that this leads you to think about how your asse
 
 Put simply, get your assets out of the car and on to that train right now!
 
-Thankfully Visual Studio makes this a snap, just Right-click in the Silverlight project and create a new folder called “Images”, it is always good to group images under one folder so as not to clog up your project,&nbsp; some my even make an Assets folder for all content or even make a completely separate project.
+Thankfully Visual Studio makes this a snap, just Right-click in the Silverlight project and create a new folder called “Images”, it is always good to group images under one folder so as not to clog up your project,  some my even make an Assets folder for all content or even make a completely separate project.
 
 Now drag over the “Overlays” folder from the Content project to the “Images” folder in the Silverlight project and then delete the old “Overlays” folder (just for good measure) in the content project.
 
-Next select each image file and change the “Build Action” in the properties window to “Content”.&nbsp; If you do not do this the image will not be available for the UI to use, do not ask why it is just how it is done!, ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile4.png)
+Next select each image file and change the “Build Action” in the properties window to “Content”.  If you do not do this the image will not be available for the UI to use, do not ask why it is just how it is done!, ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile4.png)
 
 Finally make sure you clean up the old code in the “GamePage.XAML” to remove the old references to the Texture2D versions of the overlay assets (properties and Load Content), else you will get a nasty surprise when you try and run the game).
 
@@ -89,29 +89,29 @@ Done, right then lets’ continue!
 
 The last section was so short you’d wonder why I bothered making it a section, well truth be told I am a neat and tidy person (you can also hear the wife’s screams of laughter at that one) in general, the last was in VS now lets move over to Blend.
 
-Launch up Blend if you have not already and open up the “GamePage.XAML” page, next find the images control in the asset library (in case you have forgotten how to do that just check the last article were not into free lunches here ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile4.png)) and add three Image controls onto our page, just make sure you have the “Content Panel” selected in the Visual tree first!!!! do not want these images just going anywhere.&nbsp; Name the Image controls “WinOverlay”, “LoseOverlay” and “DiedOverlay” just to match the names they had previously.
+Launch up Blend if you have not already and open up the “GamePage.XAML” page, next find the images control in the asset library (in case you have forgotten how to do that just check the last article were not into free lunches here ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile4.png)) and add three Image controls onto our page, just make sure you have the “Content Panel” selected in the Visual tree first!!!! do not want these images just going anywhere.  Name the Image controls “WinOverlay”, “LoseOverlay” and “DiedOverlay” just to match the names they had previously.
 
 Next we just need to set up their properties as follows:
 
 | ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0027.image_5F00_thumb_5F00_00BBA042.png) | 
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Set the RowSpan and ColumnSpan to “2”
+> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Set the RowSpan and ColumnSpan to “2”
 > 
 > Allows the control to spread across the entire grid
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Set the Horrizontal and Vertical Alignment to Stretch
+> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Set the Horrizontal and Vertical Alignment to Stretch
 > 
 > Allows the control to stretch across the entire space it is been given
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Reset margins using the “Advanced Options”
+> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Reset margins using the “Advanced Options”
 > 
 > Click box next to margins and select “Reset”, or you can play with the margins yourself
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Select the correct image for each overlay
+> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Select the correct image for each overlay
 > 
 > “you\_win.png” for the WinOverlay for example
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)&nbsp;&nbsp;&nbsp; Set the visibility to “Collapsed”
+> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Set the visibility to “Collapsed”
 > 
 > So it wo not show on the screen at startup
 
@@ -125,7 +125,7 @@ Now Save and Build your project so we can return to studio and complete the trai
 
 There is the right way and there is the easy way (well there is also the bad and worst ways but who’s counting), for now we will start with easy and then progress with the right way here.
 
-Now to keep things clear I have added a new function rather than embed the code in the Draw loop for controlling which overlay is shown at the correct time, this will just make it easier to rip out later with minimal impact.&nbsp; You might question why to add this to the “Draw” function and not the “Update” and that is because we are altering what&nbsp; is going to be draw from the Silverlight page, which can only be updated between draw calls, if you are already familiar with XNA you might question this logic however remember that update (in most games) can be called multiple times per frame to account for all the logic that goes on while the screen is always drawn to in fixed steps and in Silverlight things only change on screen each time it is drawn, also with Silverlight you want to limit how much you draw!
+Now to keep things clear I have added a new function rather than embed the code in the Draw loop for controlling which overlay is shown at the correct time, this will just make it easier to rip out later with minimal impact.  You might question why to add this to the “Draw” function and not the “Update” and that is because we are altering what  is going to be draw from the Silverlight page, which can only be updated between draw calls, if you are already familiar with XNA you might question this logic however remember that update (in most games) can be called multiple times per frame to account for all the logic that goes on while the screen is always drawn to in fixed steps and in Silverlight things only change on screen each time it is drawn, also with Silverlight you want to limit how much you draw!
 
 So let’s add the following function:
 
@@ -183,7 +183,7 @@ So let’s add the following function:
                 
                 
                 
-                As with any implementation there are multiple ways to achieve your goal and this is no different, you could replicate one to one what we have already having three separate image controls managed by three separate properties and updating / disabling the correct one’s depending on the state, as I said one way.&nbsp; A better way would be to have just ONE image control and have it updated depending on the conditions of the game.
+                As with any implementation there are multiple ways to achieve your goal and this is no different, you could replicate one to one what we have already having three separate image controls managed by three separate properties and updating / disabling the correct one’s depending on the state, as I said one way.  A better way would be to have just ONE image control and have it updated depending on the conditions of the game.
                 
                 
                 
@@ -218,7 +218,7 @@ So let’s add the following function:
                             ## User Controls
                             
                             
-                            Now if you like components in XNA, this should be right down your street, if you do not know what they are or have not then stop what your doing and go back to class ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile4.png).&nbsp; Well not really but you get the picture.
+                            Now if you like components in XNA, this should be right down your street, if you do not know what they are or have not then stop what your doing and go back to class ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile4.png).  Well not really but you get the picture.
                             
                             
                             
@@ -262,7 +262,7 @@ So let’s add the following function:
                             
                             
                             
-                            Now if you were directly referencing the old image control from code as we were doing before then you would have just broken the project because the original Image control is now embedded within our new user control, but because we are now using Data Binding everything is fine.&nbsp; Now if we were being clever I would have made it so that this user control could display any of the three states as mentioned earlier, but in keeping it simple we will just convert each of them independently, so go and do that now if you wish.
+                            Now if you were directly referencing the old image control from code as we were doing before then you would have just broken the project because the original Image control is now embedded within our new user control, but because we are now using Data Binding everything is fine.  Now if we were being clever I would have made it so that this user control could display any of the three states as mentioned earlier, but in keeping it simple we will just convert each of them independently, so go and do that now if you wish.
                             
                             
                             
@@ -308,7 +308,7 @@ So let’s add the following function:
                             So I’ve left you with a bit of homework to challenge you on your own.
                             
                             
-                            #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the&nbsp;[SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
+                            #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
                             
                             
                             Seeya!

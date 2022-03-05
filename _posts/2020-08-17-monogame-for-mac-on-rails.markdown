@@ -34,7 +34,7 @@ tags:
 <li>Fin</li>
 </ol>
 
-<p>The process is fairly easy and shouldn’t take you more than one or two cups of coffee to get through (depending on your internet connection)</p>
+<p>The process is fairly easy and should not take you more than one or two cups of coffee to get through (depending on your internet connection)</p>
 
 <p>If you prefer, I’ve uploaded a video walking through the process here:</p>
 

@@ -32,11 +32,11 @@ Now it should be clear from just using Unity for 5 minutes that there are some n
 
 - MonoBehaviour – because almost everything is a MonoBehaviour
 - Base types such as Vector2, Point, Canvas – because Unity already has those things and while you can use them, you wo not get the base functionality
-- Reserved names – Basically anything within the Unity namespaces.&nbsp; Just try creating your own “UnityEngine” class and see what happens!
+- Reserved names – Basically anything within the Unity namespaces.  Just try creating your own “UnityEngine” class and see what happens!
 
 There are more and Unity usually forewarns you if you are doing something it considers silly or inappropriate.
 
-However, the same cannot be said for the platforms you build upon…&nbsp; Does Unity also check those?
+However, the same cannot be said for the platforms you build upon…  Does Unity also check those?
 
 The answer sadly is NO.
 
@@ -48,12 +48,12 @@ This all came about as I was helping out one studio (as it is what I usually do)
 
 There was an error that only popped up in the compiled version of their project which showed itself in one of two ways:
 
-- A very helpful issue loading the project with the following error&nbsp; “Object reference not set to an instance of an object” (not very helpful)
+- A very helpful issue loading the project with the following error  “Object reference not set to an instance of an object” (not very helpful)
 - The project opens with no issues, but when its built, you are suddenly assaulted with numerous errors:  
-–&nbsp; “Class has no property called x” or  
-–&nbsp; “Cannot implicitly convert type X to Y”
+–  “Class has no property called x” or  
+–  “Cannot implicitly convert type X to Y”
 
-In this case I was testing, the developer had created a class called “ **SplashScreen** ” (which seems fairly innocuous), however when you dig under the hood you find that that BOTH Unity and the Microsoft platforms already have a type called SplashScreen.&nbsp; Unity was able to work around its own type in the internal build making sure the version of the SplashScreen class in the project was different to Unity’s version of SplashScreen (most likely by using different namespaces).&nbsp; When it came to the platform build however, **_the classes used in your project will OVERRIDE those used by the platform_**.
+In this case I was testing, the developer had created a class called “ **SplashScreen** ” (which seems fairly innocuous), however when you dig under the hood you find that that BOTH Unity and the Microsoft platforms already have a type called SplashScreen.  Unity was able to work around its own type in the internal build making sure the version of the SplashScreen class in the project was different to Unity’s version of SplashScreen (most likely by using different namespaces).  When it came to the platform build however, **_the classes used in your project will OVERRIDE those used by the platform_**.
 
 * * *
 
@@ -68,7 +68,7 @@ To replicate the issue, simply try the following:
 3. Build the project for any of the “Windows Store” platforms
 4. Open the built project in Visual Studio or MonoDevelop
 
-Look no errors, see.&nbsp; **Now build it.**
+Look no errors, see.  **Now build it.**
 
 And you will see a wrath of errors related to the SplashScreen class, as the project now thinks the classes in your project should be used over the type that is reserved for the platform.
 
@@ -92,7 +92,7 @@ If you are aware of any more, feel free to comment below.
 
 # How to avoid the problem completely
 
-It is important to note this affects any class or type defined in your base project.&nbsp; A simple way to avoid these headaches is to use your own namespaces in your classes, this means your code cannot be confuse with any other code or types of the same name (except your own ![Open-mouthed smile](/Images/wordpress/2016/02/wlEmoticon-openmouthedsmile.png)).  
+It is important to note this affects any class or type defined in your base project.  A simple way to avoid these headaches is to use your own namespaces in your classes, this means your code cannot be confuse with any other code or types of the same name (except your own ![Open-mouthed smile](/Images/wordpress/2016/02/wlEmoticon-openmouthedsmile.png)).  
 To learn more about using namespaces, simply check out these references on the Unity Learn site:
 
 - [http://docs.unity3d.com/Manual/Namespaces.html](http://docs.unity3d.com/Manual/Namespaces.html "http://docs.unity3d.com/Manual/Namespaces.html") – The manual reference to namespaces with a basic example

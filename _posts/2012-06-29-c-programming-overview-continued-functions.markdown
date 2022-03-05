@@ -10,7 +10,7 @@ tags:
 - xna-2d-tutorials
 ---
 
-#### Functions are at the core of the C# programming language, they define jobs to do in code, setting out a group of instructions to perform an action or resolve some calculation based a set of input.&nbsp; Functions of course do a lot more as you will see here.
+#### Functions are at the core of the C# programming language, they define jobs to do in code, setting out a group of instructions to perform an action or resolve some calculation based a set of input.  Functions of course do a lot more as you will see here.
 
 * * *
 
@@ -66,9 +66,9 @@ When a function is called, the sequential execution flow is interrupted, and the
 
 ### 4. “return” Statement Example
 
-A **return** statement stops the operation of the function and sends back the current return value of the function at that time.&nbsp;
+A **return** statement stops the operation of the function and sends back the current return value of the function at that time. 
 
-It is important to note that if a **return** is specified inside a loop contained in a function (this can also cause errors), then the function will stop, return the value and not perform any of the remaining code in the function.&nbsp; It is better (as shown below) for the return to be called at the conclusion of an opperation.&nbsp;
+It is important to note that if a **return** is specified inside a loop contained in a function (this can also cause errors), then the function will stop, return the value and not perform any of the remaining code in the function.  It is better (as shown below) for the return to be called at the conclusion of an opperation. 
 
 E.G. if x then return x else return y.
 
@@ -468,7 +468,7 @@ Example:
 
 <!--CRLF-->
 
-     22:&nbsp; 
+     22:  
 
 <!--CRLF-->
 

@@ -17,7 +17,7 @@ These are the best that are out there, some hard facts, some harsh realities and
 
 ### \*\*Update
 
-**[Paul Thurrott](https://twitter.com/#!/thurrott)** has made a welcome announcement over on [WinSuperSite](http://www.winsupersite.com/article/paul-thurrotts-wininfo/microsoft-xbox-2012-142599?utm_source=twitterfeed&utm_medium=twitter), that the rumoured XBOX Nxt, code-named TEN (and most definitely will NOT be called Xbox 720) will not be making an appearance this year or even announced as a current project.&nbsp; Instead they are still investing in their current platform the XBOX 360.
+**[Paul Thurrott](https://twitter.com/#!/thurrott)** has made a welcome announcement over on [WinSuperSite](http://www.winsupersite.com/article/paul-thurrotts-wininfo/microsoft-xbox-2012-142599?utm_source=twitterfeed&utm_medium=twitter), that the rumoured XBOX Nxt, code-named TEN (and most definitely will NOT be called Xbox 720) will not be making an appearance this year or even announced as a current project.  Instead they are still investing in their current platform the XBOX 360.
 
 So XNA has another stay of execution for at least another year if not two before we even have to worry about it’s gradual demise on this it’s most prominent platform, all herald XNA 😀
 
@@ -31,15 +31,15 @@ No change for Windows 8 (still desktop only)
 
 ### \*\*Update 3
 
-Recent things have come to light after several announcements from existing XNA MVP’s from Microsoft. &nbsp;The overall view is that Microsoft has finally pulled outward support for the XNA framework and has discontinued it’s XNA MVP program.
+Recent things have come to light after several announcements from existing XNA MVP’s from Microsoft.  The overall view is that Microsoft has finally pulled outward support for the XNA framework and has discontinued it’s XNA MVP program.
 
 What does this mean for XNA?
 
-In reality, not much. &nbsp;XNA will still be available for download from Microsoft, is still supported on the XBOX 360 (no indie mention for XBOX Next as yet) and the XNA Creators club and support for Windows Phone still stands.
+In reality, not much.  XNA will still be available for download from Microsoft, is still supported on the XBOX 360 (no indie mention for XBOX Next as yet) and the XNA Creators club and support for Windows Phone still stands.
 
-Also MonoGame has been going from strength to strength recently announcing more supported platforms, all based on XNA, in fact Xamarin have released impressive updates for Mono now allowing even iOS development on Windows. &nbsp;Since MonoGame is built on top of Mono this ensures it’s support going forward.
+Also MonoGame has been going from strength to strength recently announcing more supported platforms, all based on XNA, in fact Xamarin have released impressive updates for Mono now allowing even iOS development on Windows.  Since MonoGame is built on top of Mono this ensures it’s support going forward.
 
-Couple that with Synapse Gamings Sunburn&nbsp;announcements taking a native XNA platform and carrying it forward with their own version of the XNA framework delivered in a Platform&nbsp;independent&nbsp;API and full integration to their existing engine&nbsp;.
+Couple that with Synapse Gamings Sunburn announcements taking a native XNA platform and carrying it forward with their own version of the XNA framework delivered in a Platform independent API and full integration to their existing engine .
 
 So as far as Microsoft’s announcement goes, Meh – The future is bright, the future is still XNA 😀
 
@@ -49,13 +49,13 @@ So as far as Microsoft’s announcement goes, Meh – The future is bright, the 
 
 # Here is my view
 
-It’s certainly unclear in the long term what will happen to XNA or any other MDX equivalent provided by Microsoft but at least for the Short to Mid term XNA is still a stable and viable platform.&nbsp; The support for Windows / XBOX and Windows Phone as it stands today will continue to go forward under MS’s usual response of “Continued support”.
+It’s certainly unclear in the long term what will happen to XNA or any other MDX equivalent provided by Microsoft but at least for the Short to Mid term XNA is still a stable and viable platform.  The support for Windows / XBOX and Windows Phone as it stands today will continue to go forward under MS’s usual response of “Continued support”.
 
 In fact it has been clearly stated all current WP7 apps/games will run on WP8 which may indicate there will still be a chance to develop XNA games for WP8, however that is done (reading between the lines would that also mean there would be a way to code XNA in Metro, personally I do not see a problem providing a managed layer on top of the C++ infrastructure today)
 
 But they have made clear on many occasions that they are not or at least unwilling to expose any plans, but this is still normal for most of MS’s day to day (they either don’t want to commit to anything or scare away current customers or endanger any existing brands, granted saying nothing is doing just that anyway :D)
 
-Looking beyond there will still be community led MDX (Managed Direct X) replacements and even the possibility of some C++ wrapper layers to deliver the same thing.&nbsp; So my guess would be that the code we write today will still live on in the future without having to resort to writing it ourselves.
+Looking beyond there will still be community led MDX (Managed Direct X) replacements and even the possibility of some C++ wrapper layers to deliver the same thing.  So my guess would be that the code we write today will still live on in the future without having to resort to writing it ourselves.
 
 Other avenues that have seen the light of day (or at least been talked about) were the possibility of a Managed abstraction layer (or C++ version) for SunBurn, which JohntheCBuilder has said is not beyond the realms of possibility and something that is being looked towards (but nothing committed yet :D), there has also been talk of alternate versions of SunBurn as well.
 
@@ -87,7 +87,7 @@ _On Thursday morning at [GDC](http://www.armlessoctopus.com/tag/gdc), Chase Boyd
 
 _“When we implemented this new sample framework and set up the samples, we modelled it as close as we could with XNA. In fact, with a lot of the new syntax improvements which have been incorporated in Visual Studio [2011], the code can be pretty easily pasted over. We have also structured those example code bases to work the way an XNA person would expect the way they would want.”_ [http://www.armlessoctopus.com/2012/03/09/microsoft-outlines-their-unified-metro-vision-sans-xna/](http://www.armlessoctopus.com/2012/03/09/microsoft-outlines-their-unified-metro-vision-sans-xna/) (Note George Clingermans comment..)
 
-- Metro tablets (on ARM) won’t be able to run desktop applications (XNA would be a desktop application)&nbsp; [http://blogs.msdn.com/b/b8/archive/2012/02/09/building-windows-for-the-arm-processor-architecture.aspx](http://blogs.msdn.com/b/b8/archive/2012/02/09/building-windows-for-the-arm-processor-architecture.aspx)
+- Metro tablets (on ARM) won’t be able to run desktop applications (XNA would be a desktop application)  [http://blogs.msdn.com/b/b8/archive/2012/02/09/building-windows-for-the-arm-processor-architecture](http://blogs.msdn.com/b/b8/archive/2012/02/09/building-windows-for-the-arm-processor-architecture)
 
 - Microsoft’s Window 8 development forums (are garbage but if you can wade through them) you will notice that there is only a game development forum option for c++ [http://social.msdn.microsoft.com/Forums/en-US/wingameswithdirectx/threads](http://social.msdn.microsoft.com/Forums/en-US/wingameswithdirectx/threads)
 
@@ -95,7 +95,7 @@ _“When we implemented this new sample framework and set up the samples, we mod
 
 - & Here MS (Chuck Walbourn) has started recommending Sharp DX: [http://social.msdn.microsoft.com/Forums/en-US/wingameswithdirectx/thread/46687bc7-a18a-4c5a-a555-79b8537c0ad8](http://social.msdn.microsoft.com/Forums/en-US/wingameswithdirectx/thread/46687bc7-a18a-4c5a-a555-79b8537c0ad8)
 
-- Last night @gaspode\_t (who is a Microsoft Employee but all views are his own 🙂 posted this on twitter: “Xbox Live Web Games slides from GDC are now up for download: http://www.microsoft.com/download/en/details.aspx?id=29198&amp;WT.mc\_id=rss\_alldownloads\_devresources #xna #xblig #html5 #sayshi”
+- Last night @gaspode\_t (who is a Microsoft Employee but all views are his own 🙂 posted this on twitter: “Xbox Live Web Games slides from GDC are now up for download: http://www.microsoft.com/download/en/details?id=29198&amp;WT.mc\_id=rss\_alldownloads\_devresources #xna #xblig #html5 #sayshi”
 
 If you look at them they are so light on details so I asked “@gaspode\_t Those Web Game slides don’t have anything to do with XNA, do they?” – Only fair considering he wants to tag his post with #XNA and #xblig and then I got: “@DSebJ More like me pointing out to XNA dev’s the momentum behind the HTML5 wagon, frankly it might be smart to at least experiment with it” I think the momentum behind html 5 he is referring to is Microsoft pushing us in the Windows 8 “everything is a web app” on Metro direction.
 
@@ -119,7 +119,7 @@ John has said the future of SunBurn will continue and so far – that’s the on
 
 I don’t want to jump ship; I’m invested. But if my investment from here on in is going to take me no where, what’s the point?
 
-One last link; I wish I had found this at the start of this post as it has most of the references in it. Some Power Point slides from a company called Magenic which probably shouldn’t have been shared using meetup.com and probably shouldn’t be able to find it through google.com but suits me 🙂 [http://files.meetup.com/1604728/ **XNA** \_Future.pptx](http://files.meetup.com/1604728/XNA_Future.pptx)
+One last link; I wish I had found this at the start of this post as it has most of the references in it. Some Power Point slides from a company called Magenic which probably should not have been shared using meetup.com and probably should not be able to find it through google.com but suits me 🙂 [http://files.meetup.com/1604728/ **XNA** \_Future.pptx](http://files.meetup.com/1604728/XNA_Future.pptx)
 
 ## @MartinCaine (Retroburn Studios blog post)
 
@@ -137,7 +137,7 @@ Dave Voyles write a concise piece from talks at GDC and other contacts laying ou
 
 [http://www.armlessoctopus.com/2012/03/09/microsoft-outlines-their-unified-metro-vision-sans-xna/](http://www.armlessoctopus.com/2012/03/09/microsoft-outlines-their-unified-metro-vision-sans-xna/)
 
-[http://www.gamemarx.com/podcast/2012/03/17/gamemarx-ep81-unreal-conversation-with-dave-voyles.aspx](http://www.gamemarx.com/podcast/2012/03/17/gamemarx-ep81-unreal-conversation-with-dave-voyles.aspx)
+[http://www.gamemarx.com/podcast/2012/03/17/gamemarx-ep81-unreal-conversation-with-dave-voyles](http://www.gamemarx.com/podcast/2012/03/17/gamemarx-ep81-unreal-conversation-with-dave-voyles)
 
 * * *
 
@@ -145,31 +145,31 @@ Dave Voyles write a concise piece from talks at GDC and other contacts laying ou
 
 In short this is what we do know:
 
-> ![src=]()&nbsp;&nbsp;&nbsp; XNA is live and supported on the XBOX360 which has millions of consoles out there and a fair XBLIG following
+> ![src=]()    XNA is live and supported on the XBOX360 which has millions of consoles out there and a fair XBLIG following
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; XBLIG titles are still being bought and will likely to continue while there is an XBOX360
+> ![src=]()    XBLIG titles are still being bought and will likely to continue while there is an XBOX360
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; XNA runs perfectly fine on Windows 7 and Windows XP which between them have over 80% of the desktop/laptop market
+> ![src=]()    XNA runs perfectly fine on Windows 7 and Windows XP which between them have over 80% of the desktop/laptop market
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; The XBOX360 has many years of life still in it, comparing to the original XBOX which still has life left in it and the PS2
+> ![src=]()    The XBOX360 has many years of life still in it, comparing to the original XBOX which still has life left in it and the PS2
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; XBOX Live (which&nbsp; XNA depends on) is not going away and will be supported for many years
+> ![src=]()    XBOX Live (which  XNA depends on) is not going away and will be supported for many years
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; Windows Phone 7 runs XNA and has a growing market share which MS have committed to support through Windows Phone 8
+> ![src=]()    Windows Phone 7 runs XNA and has a growing market share which MS have committed to support through Windows Phone 8
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; Microsoft is working on tools / papers and tutorials to migrate to Metro Win 8 should you want to
+> ![src=]()    Microsoft is working on tools / papers and tutorials to migrate to Metro Win 8 should you want to
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; There are hundreds of Community Dev’s / MVP’s and people committed to XNA and still continue to write content and tutorials for it (myself included)
+> ![src=]()    There are hundreds of Community Dev’s / MVP’s and people committed to XNA and still continue to write content and tutorials for it (myself included)
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; There are community frameworks looking to replace or simulate XNA including plans for C++ Wrapped Managed support for Metro (the community will find a way)
+> ![src=]()    There are community frameworks looking to replace or simulate XNA including plans for C++ Wrapped Managed support for Metro (the community will find a way)
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; XNA DOES RUN ON WINDOWS 8 in DESKTOP MODE as will most legacy apps/games. MS is committed to this
+> ![src=]()    XNA DOES RUN ON WINDOWS 8 in DESKTOP MODE as will most legacy apps/games. MS is committed to this
 
-> ![src=]()&nbsp;&nbsp;&nbsp; DREAM BUILD PLAY is on this year with XNA as the focus (just how much more publicity do you want?)
+> ![src=]()    DREAM BUILD PLAY is on this year with XNA as the focus (just how much more publicity do you want?)
 
 Most if not all current premier XNA sites still fully back XNA, although we may see a trend to expand their network beyond XNA to encompass more of an INDIE theme for multiple platforms. This does not reduce the love for XNA or their support for it, just expanding their knowledge to show that the principles learned from XNA in game development are just as valid in other frameworks / platforms.
 
-I will say now that it looks like XNA-UK will also be taking this route following recent talks of late, we are very much still committed to XNA but will be expanding our borders, this will mean a move to a new site/domain but all existing content from here will be preserved.&nbsp; If you want XNA-UK to also retain it is current face then let us know.
+I will say now that it looks like XNA-UK will also be taking this route following recent talks of late, we are very much still committed to XNA but will be expanding our borders, this will mean a move to a new site/domain but all existing content from here will be preserved.  If you want XNA-UK to also retain it is current face then let us know.
 
 WE are NOT leaving XNA.
 
@@ -179,21 +179,21 @@ WE are NOT leaving XNA.
 
 ## What is unclear
 
-> ![src=]()&nbsp;&nbsp;&nbsp; Windows 8 is only an emerging platform and there is still lots coming out about it day by day
+> ![src=]()    Windows 8 is only an emerging platform and there is still lots coming out about it day by day
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; XBLA is in the same boat as XBLIG, just what this means for MS digital games distribution?
+> ![src=]()    XBLA is in the same boat as XBLIG, just what this means for MS digital games distribution?
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; No statements at all from Microsoft and/or the XNA team (yes there still is one) about support or future of XNA
+> ![src=]()    No statements at all from Microsoft and/or the XNA team (yes there still is one) about support or future of XNA
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; Nothing coming out of the XBOX Next camp about indies support (but then again XNA only got added to XBOX360 later)
+> ![src=]()    Nothing coming out of the XBOX Next camp about indies support (but then again XNA only got added to XBOX360 later)
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; What is Microsoft commitment to Indies?
+> ![src=]()    What is Microsoft commitment to Indies?
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; No Managed Direct X support for Windows 8 (granted they have to satisfy the big boys first)
+> ![src=]()    No Managed Direct X support for Windows 8 (granted they have to satisfy the big boys first)
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; Microsoft is killing the Indie realm for XNA by simply saying nothing, how far will this plague spread?
+> ![src=]()    Microsoft is killing the Indie realm for XNA by simply saying nothing, how far will this plague spread?
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; Just who will the winner be in the C# vs C++ war, there are still no clear winners just disinformation (granted it is more about what you need it for vs general ease of use vs performance as it always has (there are still some who prefer assembly FGS ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile13.png))
+> ![src=]()    Just who will the winner be in the C# vs C++ war, there are still no clear winners just disinformation (granted it is more about what you need it for vs general ease of use vs performance as it always has (there are still some who prefer assembly FGS ![Open-mouthed smile](/Images/wordpress/2012/07/wlEmoticon-openmouthedsmile13.png))
 
 * * *
 
@@ -203,19 +203,19 @@ My end belief is that there will always be a need to have a managed framework fo
 
 There will always be more than one tool for the job, from:
 
-> ![src=]()&nbsp;&nbsp;&nbsp; C++ native engines and languages for those who need the performance or have existing engines that wont be converted
+> ![src=]()    C++ native engines and languages for those who need the performance or have existing engines that wont be converted
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; Managed Languages for the intermediary level who do not want the hassles of C++ but still like to roll their own
+> ![src=]()    Managed Languages for the intermediary level who do not want the hassles of C++ but still like to roll their own
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; Game engines such as SunBurn, Unity, Unreal, Havok and even Game Maker Studio (DarkStudio/ADK) which provide the ability to just throw content in to make a game with some extensibility (usually in a managed language or script)
+> ![src=]()    Game engines such as SunBurn, Unity, Unreal, Havok and even Game Maker Studio (DarkStudio/ADK) which provide the ability to just throw content in to make a game with some extensibility (usually in a managed language or script)
 
 So as to what your future holds is up to you, but keep this in mind:
 
-MDX and XNA teach all the base principles for how to make games and make games well, all the skills you have learned on your journey with XNA (whether you keep with it or expand and move on) will still hold true tomorrow, you have learned HOW to makes games and what it takes to make a well rounded and founded platform for your game.&nbsp; All you have learned will instil you for the future no matter what direction it takes you.
+MDX and XNA teach all the base principles for how to make games and make games well, all the skills you have learned on your journey with XNA (whether you keep with it or expand and move on) will still hold true tomorrow, you have learned HOW to makes games and what it takes to make a well rounded and founded platform for your game.  All you have learned will instil you for the future no matter what direction it takes you.
 
-In a last thought with the direction XNA-UK is currently heading (out of my hands really) it is likely I will have to move my blog unless something changes, so keep tuned.&nbsp; As I have stated before I am still committed to XNA in all it is variants but I also (as well you should) keep my mind open and expand my knowledge for what else is out there.&nbsp; I am still going to be making projects and tutorials for what ever I am playing with so stay tuned.
+In a last thought with the direction XNA-UK is currently heading (out of my hands really) it is likely I will have to move my blog unless something changes, so keep tuned.  As I have stated before I am still committed to XNA in all it is variants but I also (as well you should) keep my mind open and expand my knowledge for what else is out there.  I am still going to be making projects and tutorials for what ever I am playing with so stay tuned.
 
-For now I return to Visual studio to continue my efforts to finish and Publish Vequencer on WP7.&nbsp; It is future is bright with likely publication to XBOX, Windows, IOS and Android (maybe even a PSVita version too??).&nbsp; Lets not also forget Web but anything is possible.
+For now I return to Visual studio to continue my efforts to finish and Publish Vequencer on WP7.  It is future is bright with likely publication to XBOX, Windows, IOS and Android (maybe even a PSVita version too??).  Lets not also forget Web but anything is possible.
 
 [![image](/Images/wordpress/2012/07/image_thumb138.png "image")](/Images/wordpress/2012/07/image135.png)
 

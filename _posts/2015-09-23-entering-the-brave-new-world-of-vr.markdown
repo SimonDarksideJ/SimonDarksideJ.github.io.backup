@@ -17,7 +17,7 @@ tags:
 
 ![oculus-rift-inside](http://lasttokengaming.com/wp-content/uploads/2015/09/oculus-rift-inside-585x300.jpg)
 
-It should come as no surprise to anyone that the dream of Virtual Reality (VR) and Augmented Reality (AR) experiences has accelerated in recent months/years with the evolution of newer and more modern technologies and techniques. Many companies, Kickstarter’s and freelance coders / architects are steadily bringing about the Reality revolution. Whether we are actually there yet or there is still a way to go before there is full consumer acceptance of VR/AR (like Cars and mobile phones do today) is a point of debate.&nbsp; Anyone however who has tried at least one Demo though will tell you they are very impressed.
+It should come as no surprise to anyone that the dream of Virtual Reality (VR) and Augmented Reality (AR) experiences has accelerated in recent months/years with the evolution of newer and more modern technologies and techniques. Many companies, Kickstarter’s and freelance coders / architects are steadily bringing about the Reality revolution. Whether we are actually there yet or there is still a way to go before there is full consumer acceptance of VR/AR (like Cars and mobile phones do today) is a point of debate.  Anyone however who has tried at least one Demo though will tell you they are very impressed.
 
 With all the recent announcements, the future is practically at our doorstep.
 
@@ -39,7 +39,7 @@ In this post I have two book reviews for those interested in getting in to VR an
 # [Developing AR Games for iOS and Android](http://bit.ly/1iuaftB) – published September 2013
 
 [ ![ /></a></p>
-<p>This title was published some time ago based on Unity 4.1 focusing on implementing the Augmented Reality <a href=](https://www.packtpub.com/sites/default/files/0032OS_Minicov.jpg)Vuforia SDK](http://bit.ly/1iuaftB) in to your Unity titles.&nbsp; You should not be deterred by this as [Vuforia](https://developer.vuforia.com/) have updated their SDK for Unity 5, so no worries there.
+<p>This title was published some time ago based on Unity 4.1 focusing on implementing the Augmented Reality <a href=](https://www.packtpub.com/sites/default/files/0032OS_Minicov.jpg)Vuforia SDK](http://bit.ly/1iuaftB) in to your Unity titles.  You should not be deterred by this as [Vuforia](https://developer.vuforia.com/) have updated their SDK for Unity 5, so no worries there.
 
 In its 5 Chapters, you are led through implementing the Vuforia SDK, getting started with all of its tracking options and the online services, the chapters are detailed as follows:
 
@@ -68,11 +68,11 @@ Detailed explanations on the difference between trackables, non-trackables and t
 
 Putting everything together and going through what is required to build an actual game using Vuforia AR.
 
-&nbsp;
+ 
 
 ## Pros / Cons and conclusion
 
-I have mixed feelings about this book, at its best it is a very detailed user manual for the Vuforia SDK focusing on its trackables services. On the other hand the title is very short and could have done with more detail on all of the other capabilities of the Vuforia SDK, so it does feel lacking.&nbsp; Overall, if you are looking in to creating a Vuforia based app/game, then this will be a useful reference to get started.
+I have mixed feelings about this book, at its best it is a very detailed user manual for the Vuforia SDK focusing on its trackables services. On the other hand the title is very short and could have done with more detail on all of the other capabilities of the Vuforia SDK, so it does feel lacking.  Overall, if you are looking in to creating a Vuforia based app/game, then this will be a useful reference to get started.
 
 ### Pro’s
 
@@ -84,7 +84,7 @@ I have mixed feelings about this book, at its best it is a very detailed user ma
 - Far too short for a full in depth AR title – its focus on pure AR tracking markers is good but needed more.
 - Does not cover the costs involved of using [Vuforia SDK](https://developer.vuforia.com/pricing), check their site for more info.
 
-&nbsp;
+ 
 
 > ## [Get this book here](http://bit.ly/1iuaftB) – Use code DARGIA40 to get 40% off the list price
 
@@ -111,39 +111,39 @@ In this chapter you will implement a gaze based control system (point and click 
 - 
 ## World space UI
 
-Time to start messing with the new UI system and building a World Space UI for your VR viewer to see and use in your VR scenes.&nbsp; Not quite the full Iron Man overlay but close.&nbsp; It does cover however, a basic Visor, reticule, windshield hud, info bubbles and much more.
+Time to start messing with the new UI system and building a World Space UI for your VR viewer to see and use in your VR scenes.  Not quite the full Iron Man overlay but close.  It does cover however, a basic Visor, reticule, windshield hud, info bubbles and much more.
 
 - 
 ## First-person character
 
-Switching gear, it is time to get behind the eyes of the player and allow them to “play as themselves”.&nbsp; Walking through all the tips and tricks necessary to not have your player vomiting all over the floor and ripping off the goggles, it is important to ensure your player has a good experience in your VR environment.
+Switching gear, it is time to get behind the eyes of the player and allow them to “play as themselves”.  Walking through all the tips and tricks necessary to not have your player vomiting all over the floor and ripping off the goggles, it is important to ensure your player has a good experience in your VR environment.
 
 - 
 ## Physics and the environment
 
-Taking the first-person view up a notch, the author adds a little physicality to the player’s experience, allowing them to jump and knock stuff over.&nbsp; Not quite the [VOID](https://thevoid.com/) experience (if you do not click on that link, you are truly missing out!)&nbsp; but virtually close.
+Taking the first-person view up a notch, the author adds a little physicality to the player’s experience, allowing them to jump and knock stuff over.  Not quite the [VOID](https://thevoid.com/) experience (if you do not click on that link, you are truly missing out!)  but virtually close.
 
 - 
 ## Walk-throughs and rendering
 
-So far the player has been in control, but some experiences work best if they just sit back and relax, letting&nbsp; you guide them around a scene or view (getting out of a rollercoaster while it is moving is not recommended, even in VR!). This chapter covers building a tour scene, putting some more blender content to work and making the best out of the scene, while keeping a firm eye on what you need to do to provide the best performance with the hardware you have at your disposal.
+So far the player has been in control, but some experiences work best if they just sit back and relax, letting  you guide them around a scene or view (getting out of a rollercoaster while it is moving is not recommended, even in VR!). This chapter covers building a tour scene, putting some more blender content to work and making the best out of the scene, while keeping a firm eye on what you need to do to provide the best performance with the hardware you have at your disposal.
 
 - 
 ## Using all 360 degrees
 
 (I Hands down love the image that introduces this chapter ![Open-mouthed smile](/Images/wordpress/2015/09/wlEmoticon-openmouthedsmile.png))  
-With another slant on VR we enter the art world, or more poignantly, 3D imagery and photosphere’s.&nbsp; Taking a whole world scene for the user to view and explore, taking a flat image and wrapping it around the viewers head.
+With another slant on VR we enter the art world, or more poignantly, 3D imagery and photosphere’s.  Taking a whole world scene for the user to view and explore, taking a flat image and wrapping it around the viewers head.
 
 - 
 ## Social VR Metaverse
 
 Akin to [Neil Stephenson’s Snow Crash](https://en.wikipedia.org/wiki/Snow_Crash), the author breaks down those single player walls in a VR experience and explores what more than one person can do in the MetaVerse, building a VR chat room when multiple VR participants can enter a room and talk (like your everyday meetings but FUN).
 
-&nbsp;
+ 
 
 ## Pros / Cons and conclusion
 
-Overall, I am very impressed with this title, both for its content and approach but also because the author writes and thinks like me ![Open-mouthed smile](/Images/wordpress/2015/09/wlEmoticon-openmouthedsmile.png).&nbsp; There is a very clear intention to structure the content so that it is easily read and informs the reader at a clear pace.&nbsp; Also unlike the previous title, it covers a much more varied level of content and approaches to VR.&nbsp; As books go, it is one of the best ones I have read recently (baring my own ![Smile with tongue out](/Images/wordpress/2015/09/wlEmoticon-smilewithtongueout.png) of course), certainly one to pick up if you want to get serious about VR.
+Overall, I am very impressed with this title, both for its content and approach but also because the author writes and thinks like me ![Open-mouthed smile](/Images/wordpress/2015/09/wlEmoticon-openmouthedsmile.png).  There is a very clear intention to structure the content so that it is easily read and informs the reader at a clear pace.  Also unlike the previous title, it covers a much more varied level of content and approaches to VR.  As books go, it is one of the best ones I have read recently (baring my own ![Smile with tongue out](/Images/wordpress/2015/09/wlEmoticon-smilewithtongueout.png) of course), certainly one to pick up if you want to get serious about VR.
 
 ### Pro’s
 
@@ -152,7 +152,7 @@ Overall, I am very impressed with this title, both for its content and approach 
 
 ### Con’s
 
-- For once I am stumped.&nbsp; I simply have nothing bad to say on this title. Fantastic effort!
+- For once I am stumped.  I simply have nothing bad to say on this title. Fantastic effort!
 
 > ## [Get this book here](http://bit.ly/1KwUngx) – Use code UVRP50 to get 50% off the list price
 

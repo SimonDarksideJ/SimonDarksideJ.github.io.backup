@@ -16,9 +16,9 @@ tags:
 - winrt
 ---
 
-The main reason I have been so quiet of late is because I have been focusing on entries for Nokia’s @DVLUP challenges in the hope to earn some XP and get some fantastic goodies.&nbsp; Just about finished on my last project and decided to have a breather (also they extended my current challenge, more time is always good for QA)
+The main reason I have been so quiet of late is because I have been focusing on entries for Nokia’s @DVLUP challenges in the hope to earn some XP and get some fantastic goodies.  Just about finished on my last project and decided to have a breather (also they extended my current challenge, more time is always good for QA)
 
-While up, I was looking at all the resources out there that is available to fellow programmers and developers (yes, there IS a difference so get off my back ![Smile with tongue out](/Images/wordpress/2013/07/wlEmoticon-smilewithtongueout.png)), more importantly those that are friendly to my family strained wallet.&nbsp; In other words FREE.
+While up, I was looking at all the resources out there that is available to fellow programmers and developers (yes, there IS a difference so get off my back ![Smile with tongue out](/Images/wordpress/2013/07/wlEmoticon-smilewithtongueout.png)), more importantly those that are friendly to my family strained wallet.  In other words FREE.
 
 One of the biggest out there is [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview)’s “[Succinctly](http://www.syncfusion.com/resources/techportal/ebooks?UTM_medium=simonblogreview)” series, one of the largest free (and still growing) set of technical books covering everything from languages, to source control systems and beyond.
 
@@ -28,13 +28,13 @@ So let’s see what we got.
 
 ### ![src=]()
 
-It feels an age ago when [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) started sending out tweets about new [ebooks](http://www.syncfusion.com/resources/techportal/ebooks?UTM_medium=simonblogreview) they were giving away for free alongside their commercial offerings.&nbsp; Surprisingly it is only been just over a year.&nbsp; I got the first Succinctly book (JQuery Succinctly) back in May 2012 only a couple of months after grabbing the initial release of Metro Studio.
+It feels an age ago when [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) started sending out tweets about new [ebooks](http://www.syncfusion.com/resources/techportal/ebooks?UTM_medium=simonblogreview) they were giving away for free alongside their commercial offerings.  Surprisingly it is only been just over a year.  I got the first Succinctly book (JQuery Succinctly) back in May 2012 only a couple of months after grabbing the initial release of Metro Studio.
 
-It was truly amazing that such a resource was being given out for FREE no less, they weren’t the longest books (averaging around 100 pages) or even bulging at the seams but they told you exactly what you needed to know to get the job done.&nbsp; For the price they were just out of this world.
+It was truly amazing that such a resource was being given out for FREE no less, they weren’t the longest books (averaging around 100 pages) or even bulging at the seams but they told you exactly what you needed to know to get the job done.  For the price they were just out of this world.
 
 The series has continued since that time with a staggering 19 books already out and the promise of much much more, it just goes to show how much [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) value the community and it is a great business vehicle to get you interested in their commercial offerings.
 
-The free stuff does not stop there as [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) also offer an Icon repository tool with over 2500 icons called&nbsp; [MetroStudio](http://www.syncfusion.com/downloads/metrostudio?UTM_medium=simonblogreview) (or should that be ModernStudio now ![Smile with tongue out](/Images/wordpress/2013/07/wlEmoticon-smilewithtongueout.png))
+The free stuff does not stop there as [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) also offer an Icon repository tool with over 2500 icons called  [MetroStudio](http://www.syncfusion.com/downloads/metrostudio?UTM_medium=simonblogreview) (or should that be ModernStudio now ![Smile with tongue out](/Images/wordpress/2013/07/wlEmoticon-smilewithtongueout.png))
 
 * * *
 
@@ -116,7 +116,7 @@ Formats: Amazon Kindle and PDF_jQuery Succinctly_ was written to express, in sho
 
 ### ![src=]()
 
-You cannot argue with the price and the wealth of information in each book is just fantastic.&nbsp; Need I say more?
+You cannot argue with the price and the wealth of information in each book is just fantastic.  Need I say more?
 
 ###### Pros:
 
@@ -133,7 +133,7 @@ You cannot argue with the price and the wealth of information in each book is ju
 
 ![src=]()
 
-You really cannot go wrong here, whether you want to learn more about the topics at hand or need Icons for your project it would seem [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) is the place to look.&nbsp; If nothing else you have learned valuable lessons from known developers for the price of a click.
+You really cannot go wrong here, whether you want to learn more about the topics at hand or need Icons for your project it would seem [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) is the place to look.  If nothing else you have learned valuable lessons from known developers for the price of a click.
 
 Happy hunting.
 
@@ -141,9 +141,9 @@ Happy hunting.
 
 ![src=]()
 
-As if that were not enough, there is more.&nbsp; Seems [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) are really in the giving spirit this month and in celebration for all their efforts and free ebooks they are also offering three lucky readers one of their premium essentials products for FREE ( **excluding** the Enterprise edition)
+As if that were not enough, there is more.  Seems [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) are really in the giving spirit this month and in celebration for all their efforts and free ebooks they are also offering three lucky readers one of their premium essentials products for FREE ( **excluding** the Enterprise edition)
 
-All you have to do (same as with the Succinctly books) is comment [on my Dark Genesis blog](http://wp.me/p3o0M2-Pl) leaving a mail address that [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) can contact you on and **THREE** lucky winners will be chosen to receive an essentials package of their choice from the list below&nbsp; **(one per winner)** :
+All you have to do (same as with the Succinctly books) is comment [on my Dark Genesis blog](http://wp.me/p3o0M2-Pl) leaving a mail address that [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) can contact you on and **THREE** lucky winners will be chosen to receive an essentials package of their choice from the list below  **(one per winner)** :
 
 - [ASP.NET](http://www.syncfusion.com/products/aspnet?UTM_medium=simonblogreview)
 - [ASP.NET MVC](http://www.syncfusion.com/products/aspnet-mvc?UTM_medium=simonblogreview)

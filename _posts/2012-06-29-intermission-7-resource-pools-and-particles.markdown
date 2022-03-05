@@ -10,59 +10,59 @@ tags:
 - xna-2d-tutorials
 ---
 
-I was going to do this as two separate articles, but after a refresh trawl at what is already our there and available I have decided to put them together.&nbsp; We do not need anything overly complex at this stage of the game, although I will point out some of the areas where you could go further (and point you in the right direction).
+I was going to do this as two separate articles, but after a refresh trawl at what is already our there and available I have decided to put them together.  We do not need anything overly complex at this stage of the game, although I will point out some of the areas where you could go further (and point you in the right direction).
 
-I’ve always been an advocate for “not re-inventing the wheel” and in these days of XNA development, you do not need to.&nbsp; There are many resources and code stores to find implementations of what you need and you can either learn the lesson of someone else’s approach or just copy it for your own use (make sure the original author gets a mention if you do.
+I’ve always been an advocate for “not re-inventing the wheel” and in these days of XNA development, you do not need to.  There are many resources and code stores to find implementations of what you need and you can either learn the lesson of someone else’s approach or just copy it for your own use (make sure the original author gets a mention if you do.
 
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
 
-&nbsp;
+ 
 
 ### Trawling through the net
 
-In looking around at what other particle and resource pool are around, I found very different levels of content available, some were old but good (that just need tweaking to get back up to date), some were new but were either too basic or did not offer enough flexibility.&nbsp; Some I really liked, here is a list of what is good that I have found so far:
+In looking around at what other particle and resource pool are around, I found very different levels of content available, some were old but good (that just need tweaking to get back up to date), some were new but were either too basic or did not offer enough flexibility.  Some I really liked, here is a list of what is good that I have found so far:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; [Resource Pools by the SwampThing](http://swampthingtom.blogspot.com/2007/06/generic-pool-collection-class.html) – best description of what is required&nbsp; for a full resource pool, implements this in the CC sample below (still in GS 2)   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; [An XNA resource pool on CodeCube](http://codecube.net/2010/01/xna-resource-pool/) – Quick and dirty yet ultimately flexible pool system   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; [An Honourable mention to my colleague NemoKrads particle tutorial series](/blogs/randomchaos/archive/2008/03/28/2d-particle-tutorial-iii.aspx) – Good graphics oriented particle tutorial (both 3D and 2D with shading)   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; [Creators club 2D particle sample](http://creators.xna.com/en-US/sample/particle) – Good resource but still in Game Studio 2 framework, needs a little love to get it going   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; [Riemers 2D game series particles section](http://www.riemers.net/eng/Tutorials/XNA/Csharp/Series2D/Particles.php) – Riemers has always been one of my favourites, the site has not been updated in a while and the tuts are in GS 3, but the forums are still alive and happening (I do not believe I actually wrote that then).
+> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    [Resource Pools by the SwampThing](http://swampthingtom.blogspot.com/2007/06/generic-pool-collection-class.html) – best description of what is required  for a full resource pool, implements this in the CC sample below (still in GS 2)   
+> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    [An XNA resource pool on CodeCube](http://codecube.net/2010/01/xna-resource-pool/) – Quick and dirty yet ultimately flexible pool system   
+> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    [An Honourable mention to my colleague NemoKrads particle tutorial series](/blogs/randomchaos/archive/2008/03/28/2d-particle-tutorial-iii) – Good graphics oriented particle tutorial (both 3D and 2D with shading)   
+> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    [Creators club 2D particle sample](http://creators.xna.com/en-US/sample/particle) – Good resource but still in Game Studio 2 framework, needs a little love to get it going   
+> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    [Riemers 2D game series particles section](http://www.riemers.net/eng/Tutorials/XNA/Csharp/Series2D/Particles.php) – Riemers has always been one of my favourites, the site has not been updated in a while and the tuts are in GS 3, but the forums are still alive and happening (I do not believe I actually wrote that then).
 
 * * *
 
 ### Resource Pools
 
-Resource pools are an attempt to make large lists of items as memory efficient as possible, the problem with using lists or fixed arrays are countless for areas where you need a large amount of objects that need to be created and destroyed on a regular basis.&nbsp; Lists incur garbage collection issues (which on the XBOX is really bad) and arrays are of fixed size so unless you know exactly how many you are going to need and how often you need to clear it our or loop through it, it becomes problematic.
+Resource pools are an attempt to make large lists of items as memory efficient as possible, the problem with using lists or fixed arrays are countless for areas where you need a large amount of objects that need to be created and destroyed on a regular basis.  Lists incur garbage collection issues (which on the XBOX is really bad) and arrays are of fixed size so unless you know exactly how many you are going to need and how often you need to clear it our or loop through it, it becomes problematic.
 
-Resources pools try to get through this by using several methods, they use the fixed limit of an array and combine it with a stack of some description (usually a Queue, which is a dynamic list of values which takes items from the top and adds them back to the bottom when done, like the queue in the bank, once you leave the front of the queue you have to go to the back if you want in again 🙂 ).&nbsp; Some just use a queue but this can be problematic.
+Resources pools try to get through this by using several methods, they use the fixed limit of an array and combine it with a stack of some description (usually a Queue, which is a dynamic list of values which takes items from the top and adds them back to the bottom when done, like the queue in the bank, once you leave the front of the queue you have to go to the back if you want in again 🙂 ).  Some just use a queue but this can be problematic.
 
-The idea is simple enough, have a group of people standing around waiting to do work&nbsp; (no pun intended in the current state of the economy) and have a manager sitting on the side calling names.&nbsp; When a workers name is called they are set off and when they are done they go to the back of the queue.
+The idea is simple enough, have a group of people standing around waiting to do work  (no pun intended in the current state of the economy) and have a manager sitting on the side calling names.  When a workers name is called they are set off and when they are done they go to the back of the queue.
 
-&nbsp;
+ 
 
 Now the XNA sample just uses a Queue with no management, which is too light. The CodeCube class is nice and neat and extends this basic format efficiently, but does not have enough umph to it (IMHO, but I may still use it for my own projects at some point where it is useful).
 
-So we are left with the SwampThing Resource pool, overall it provides a good framework for a memory efficient resource pool and there is good documentation for how to consume it.&nbsp; So add the [Pool.CS class](http://startrooper2dxna.codeplex.com/releases/46712/download/128393) to the engine of our project as is for now.&nbsp; Look in SwampThings post above for some of the background detail.
+So we are left with the SwampThing Resource pool, overall it provides a good framework for a memory efficient resource pool and there is good documentation for how to consume it.  So add the [Pool.CS class](http://startrooper2dxna.codeplex.com/releases/46712/download/128393) to the engine of our project as is for now.  Look in SwampThings post above for some of the background detail.
 
 * * *
 
 ### Particles
 
-Particle systems can be some of the most complex systems of many a game, where the desire for effect is key.&nbsp; It does not have to be though, it just depends on your implementation and how far you want to go with it.
+Particle systems can be some of the most complex systems of many a game, where the desire for effect is key.  It does not have to be though, it just depends on your implementation and how far you want to go with it.
 
 Particle systems are comprised of several Key components:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Particles – A single sprite texture or point sprite, the smallest component of particle effects.&nbsp; Like a single spark in a firework.   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Particle Managers – Managers control how long an individual particle lives for, destroying it when it is dead and updating the one’s still alive.   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Particle Emitters – Emitters are a point of flow, like a hosepipe flooding out water, how you squeeze the pipe effects the kind of flow or spray emitted.   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Particle Behaviours – Control what a particle does once it has been emitted, swirls, dives or splits in two.&nbsp; Many possibilities.   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Particle Animation – A scripted animation of several effects or particles.&nbsp; Bit like a firework show.
+> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Particles – A single sprite texture or point sprite, the smallest component of particle effects.  Like a single spark in a firework.   
+> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Particle Managers – Managers control how long an individual particle lives for, destroying it when it is dead and updating the one’s still alive.   
+> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Particle Emitters – Emitters are a point of flow, like a hosepipe flooding out water, how you squeeze the pipe effects the kind of flow or spray emitted.   
+> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Particle Behaviours – Control what a particle does once it has been emitted, swirls, dives or splits in two.  Many possibilities.   
+> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Particle Animation – A scripted animation of several effects or particles.  Bit like a firework show.
 
 We will only cover the first two or three here and maybe add more later, animations with particles in particular can be quite a bit of a challenge to get right.
 
-An individual particle, as described above, is like a spark in a firework, however that spark can either be very small like a coloured pixel on a screen (sometimes referred to as a point sprite) or it can be quite large, which is usually referred to as a billboard sprite.&nbsp; Of course it can also be in-between, point is that the actual texture used for the particle can be anything you want.
+An individual particle, as described above, is like a spark in a firework, however that spark can either be very small like a coloured pixel on a screen (sometimes referred to as a point sprite) or it can be quite large, which is usually referred to as a billboard sprite.  Of course it can also be in-between, point is that the actual texture used for the particle can be anything you want.
 
 If you look around there are several good test apps or samples of firework displays which are all driven by particle effects.
 
@@ -83,7 +83,7 @@ Explosion Particle
 
 #### 1. Particle class
 
-Now in keeping with reuse, the MS particle class example is as good an effort as any, so we will reuse that, grab it from [here off the codeplex](http://startrooper2dxna.codeplex.com/releases/46712/download/128395) site and add it to the engine folder (it has been updated slightly to fit in the project properly, just so you are aware, should you use the one direct from the CC particle sample).&nbsp; To keep things simple though we will update the namespace of the class to the same as our project this time.&nbsp; So update the namespace to:
+Now in keeping with reuse, the MS particle class example is as good an effort as any, so we will reuse that, grab it from [here off the codeplex](http://startrooper2dxna.codeplex.com/releases/46712/download/128395) site and add it to the engine folder (it has been updated slightly to fit in the project properly, just so you are aware, should you use the one direct from the CC particle sample).  To keep things simple though we will update the namespace of the class to the same as our project this time.  So update the namespace to:
 
     
     
@@ -95,18 +95,18 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
     
     
     
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Position – location on the screen of the particle   
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Velocity – it is velocity   
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Acceleration – Its acceleration state so the particle increases or decreases each update   
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Lifetime – how long the particle should live   
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Scale – so we can expand or reduce the particle size   
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Rotation Speed – how fast the particle rotates   
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Rotation – the particles current rotation, initialised to a random angle   
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Time Since Start – how long the particle has been alive for
+    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Position – location on the screen of the particle   
+    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Velocity – it is velocity   
+    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Acceleration – Its acceleration state so the particle increases or decreases each update   
+    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Lifetime – how long the particle should live   
+    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Scale – so we can expand or reduce the particle size   
+    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Rotation Speed – how fast the particle rotates   
+    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Rotation – the particles current rotation, initialised to a random angle   
+    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Time Since Start – how long the particle has been alive for
     
     
     
-    We do need to add a few bits to the StarTrooperGame.cs class to support the MS version, nothing major, just adding the “RandomBetween” function and changing the state of the m\_Random attribute/.&nbsp; First change the m\_Random attribute at the start of the StarTlrooperGame class to be static, like so:
+    We do need to add a few bits to the StarTrooperGame.cs class to support the MS version, nothing major, just adding the “RandomBetween” function and changing the state of the m\_Random attribute/.  First change the m\_Random attribute at the start of the StarTlrooperGame class to be static, like so:
     
     
     
@@ -182,7 +182,7 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
                 #### 2. Particle Manager
                 
                 
-                Now this class we will create from scratch as the sample that is available is a bit hard to read and Swampthings version although complete doe beat around the bush a bit.&nbsp; Since we also want to have more control over how the particles flow we need to remove some of the randomness (adding a but of particle behaviour)
+                Now this class we will create from scratch as the sample that is available is a bit hard to read and Swampthings version although complete doe beat around the bush a bit.  Since we also want to have more control over how the particles flow we need to remove some of the randomness (adding a but of particle behaviour)
                 
                 
                 
@@ -190,13 +190,13 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
                 
                 
                 
-                What you will see now is the standard framework for an XNA game component, however we need a drawable game component as we want it to draw to the screen, pretty obvious really (It is still a mystery why Drawable game component is not an option on the new item screen).&nbsp; So to change this into a drawable game component, we need to update the following:
+                What you will see now is the standard framework for an XNA game component, however we need a drawable game component as we want it to draw to the screen, pretty obvious really (It is still a mystery why Drawable game component is not an option on the new item screen).  So to change this into a drawable game component, we need to update the following:
                 
                 
                 
-                > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Change the inherited type from Game Component to Drawable Game component   
-                > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Add the Load and Unload Resource overloads   
-                > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)&nbsp;&nbsp;&nbsp; Add the overloaded Draw function
+                > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Change the inherited type from Game Component to Drawable Game component   
+                > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Add the Load and Unload Resource overloads   
+                > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Add the overloaded Draw function
                 
                 
                 
@@ -204,7 +204,7 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
                 
                 
                 
-                &nbsp;
+                 
                 
                 
                 
@@ -450,7 +450,7 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
                     
                     
                     
-                    &nbsp;
+                     
                     
                     
                     
@@ -462,7 +462,7 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
                     
                     
                     
-                    &nbsp;
+                     
                     
                     
                     
@@ -472,7 +472,7 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
                         
                         
                         
-                        There, now with the manager in place we can start defining how it should work.&nbsp;
+                        There, now with the manager in place we can start defining how it should work. 
                         
                         
                         #### 3. Particle Emitter
@@ -486,7 +486,7 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
                         
                         
                         
-                        As this section is quite long, we will go through it section by section.&nbsp; First off create a new class in the engine folder called “ParticleEmitter.cs” (do not forget to update the namespace and remove the .Engine part)
+                        As this section is quite long, we will go through it section by section.  First off create a new class in the engine folder called “ParticleEmitter.cs” (do not forget to update the namespace and remove the .Engine part)
                         
                         
                         
@@ -572,7 +572,7 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
                             
                             
                             
-                            The code is fairly well commented, the main thing to notice here (that is different from most the samples) is that the Emitter can move, so we have some attributes (like the Particles) to control movement.&nbsp; We could just leave the Emitter static so it is just the point at which particles are launched from and have them move themselves, but this limits us for certain effects which might revolve around the emitter or where outside forces can effect particle generation.&nbsp; We also could not effectively do collision detection against individual particles (more on that later in the series), although it has been done by others with more advanced particle engines.   
+                            The code is fairly well commented, the main thing to notice here (that is different from most the samples) is that the Emitter can move, so we have some attributes (like the Particles) to control movement.  We could just leave the Emitter static so it is just the point at which particles are launched from and have them move themselves, but this limits us for certain effects which might revolve around the emitter or where outside forces can effect particle generation.  We also could not effectively do collision detection against individual particles (more on that later in the series), although it has been done by others with more advanced particle engines.   
                             We also have an extra attribute to control how often particles are sent out from the emitter but more on that later.
                             
                             
@@ -715,7 +715,7 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
                                 
                                 
                                 
-                                We then call the Initialise Constants function which is the internal initialisation function for the different effects.&nbsp; In this Emitter template the initialisation constants function is an abstract function (meaning it has no code as it is provided by classes that inherit this template class)
+                                We then call the Initialise Constants function which is the internal initialisation function for the different effects.  In this Emitter template the initialisation constants function is an abstract function (meaning it has no code as it is provided by classes that inherit this template class)
                                 
                                 
                                 
@@ -1691,7 +1691,7 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
                                                 
                                                 
                                                 
-                                                &nbsp;
+                                                 
                                                 
                                                 
                                                 * * *
@@ -1699,7 +1699,7 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
                                                 ### Conclusion
                                                 
                                                 
-                                                What, that is it.&nbsp; Just a particle system and no actual implementation and my manager is still empty.&nbsp; (unfortunately, I’ve had to split off some of this post to the next one because it was just to big for the site to handle, we have plans to fix that, for now apologies)
+                                                What, that is it.  Just a particle system and no actual implementation and my manager is still empty.  (unfortunately, I’ve had to split off some of this post to the next one because it was just to big for the site to handle, we have plans to fix that, for now apologies)
                                                 
                                                 
                                                 
@@ -1711,7 +1711,7 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
                                                 
                                                 
                                                 
-                                                ![Fireball-New2](http://xna-uk.net/blogs/darkgenesis/FireballNew2_thumb_47140E97.png)&nbsp; ![Experiment 5](http://xna-uk.net/blogs/darkgenesis/Experiment5_thumb_3A35A47A.png)&nbsp;&nbsp; ![Fireball-New](http://xna-uk.net/blogs/darkgenesis/FireballNew_thumb_23DF3D8E.png)
+                                                ![Fireball-New2](http://xna-uk.net/blogs/darkgenesis/FireballNew2_thumb_47140E97.png)  ![Experiment 5](http://xna-uk.net/blogs/darkgenesis/Experiment5_thumb_3A35A47A.png)   ![Fireball-New](http://xna-uk.net/blogs/darkgenesis/FireballNew_thumb_23DF3D8E.png)
                                                 
                                                 
                                                 Technorati Tags: [XNA](http://technorati.com/tags/XNA)

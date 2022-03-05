@@ -10,17 +10,17 @@ At the time of writing this, I am nearing the end of my second journey in to boo
 
 <figure style="width: 500px" class="wp-caption alignnone"><a href="http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/"><img loading="lazy" src="https://www.packtpub.com/sites/default/files/3560_Unity%203D%20GUI%20Essentials.jpg" alt=" width=" height="617"></a><figcaption class="wp-caption-text">Unity 3D UI Essentials – published by packt Publishing</figcaption></figure>
 
-&nbsp;
+ 
 
 ## [Unity 3D UI Essentials](https://www.packtpub.com/game-development/unity-3d-gui-essentials)
 
 > As the book at the moment is still in preview (pre-order). Full details about the book can be found [here on my blog](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials"). (some of the notes on the Packt site are still very odd, working with the publisher to fix those ![Confused smile](/Images/wordpress/2015/01/wlEmoticon-confusedsmile.png))
 
-So for a little extra chapter which talks about setting up the 3D Demo scene for Chapter&nbsp;5, check it out here:
+So for a little extra chapter which talks about setting up the 3D Demo scene for Chapter 5, check it out here:
 
-> The appendix is all about creating a 3D demo scene for which to build our UI upon.&nbsp; There are lots of tips and tricks here for 3D scene setup, background cameras with effects and using the infamous trail renderers for drawing a line behind 3D objects.&nbsp; Enjoy.
+> The appendix is all about creating a 3D demo scene for which to build our UI upon.  There are lots of tips and tricks here for 3D scene setup, background cameras with effects and using the infamous trail renderers for drawing a line behind 3D objects.  Enjoy.
 
-&nbsp;
+ 
 
 > **Note this is not my usual sort of tutorial, as I usually explain things a lot more. This is more of a step by step tutorial (that I usually moan about) to setup the scene.**
 
@@ -58,7 +58,7 @@ It is truly amazing what free stuff is available for game creators these days!
 
 ## The initial 3D scene
 
-I almost had a little too much fun creating this basic scene and even learned some new tricks along the way.&nbsp; It is not crucial for the UI setup so you can skip it if you want to but it will only take 5 minutes or so to complete.
+I almost had a little too much fun creating this basic scene and even learned some new tricks along the way.  It is not crucial for the UI setup so you can skip it if you want to but it will only take 5 minutes or so to complete.
 
 1. Start with a new scene (if you have not done so already) and save it as **Example\_UI**
 2. Drag the **fbx** mesh asset in to the scene from the **Meshes** folder (either from the project root or the SciFi Fighter folder you created)
@@ -66,7 +66,7 @@ I almost had a little too much fun creating this basic scene and even learned so
 4. Drag the **Main Camera** (in the hierarchy) as a child of the **SciFi Fighter** and reset its transform (using the **cog** icon in the **top right hand corner** of the inspector with the **Main Camera** selected, then select **Reset** ). This ensures that the camera is always following the fighter and keeps it in view.
 5. Set up the **Main Camera** ’s transform as follows:
   - Position : X **38** , Y **48** , Z **-47**
-  - Rotation : X&nbsp; **31** , Y **340** , Z **30**
+  - Rotation : X  **31** , Y **340** , Z **30**
 6. Remove the **GUILayer** , **Flare layer** and **Audio Listener** from the Main Camera by right clicking on each component and selecting Remove Component, these just get in the way here because it is following the ship.
 7. Set the **Clear Flags** to **Depth Only** and the **Depth** to **0** of the **Main Camera** , since this is just a tracking camera in front of a background (which we will add in a bit)
 8. Add a **Directional Light** using **_Create -\> Light -\> Directional Light_** to the scene to light the way.
@@ -90,7 +90,7 @@ The Add Layer option in the inspector
 
 [![3617OS_APP_04](/Images/wordpress/2015/01/3617OS_APP_04_thumb1.png "3617OS\_APP\_04")](/Images/wordpress/2015/01/3617OS_APP_041.png)
 
-1. Add a **Skybox** component (Add _ **Component -\> Rendering -\> Skybox** _) to the Background Camera and set the **Custom Skybox** property to one of the skyboxes from the SkyBox Volume 2 folder. You do this by dragging the **DSG.mat** &nbsp;(the material, not the skybox images) asset to the **Custom Skybox** property of the **Skybox Component.** &nbsp; I personally went for the **DeepSpaceGreen** Skybox (in the folder of the same name under the **SkyBox Volume 2** folder).
+1. Add a **Skybox** component (Add _ **Component -\> Rendering -\> Skybox** _) to the Background Camera and set the **Custom Skybox** property to one of the skyboxes from the SkyBox Volume 2 folder. You do this by dragging the **DSG.mat**  (the material, not the skybox images) asset to the **Custom Skybox** property of the **Skybox Component.**   I personally went for the **DeepSpaceGreen** Skybox (in the folder of the same name under the **SkyBox Volume 2** folder).
 2. Finally add a new **Particle System** as a child of the **BackgroundCamera** (Right-Click on the **BackgroundCamera** and select **Particle System** ) with the following settings (any settings I do not alter are the defaults):
   - Transform
     - Position : X = **83** , Y = **28** , Z = **76**
@@ -134,7 +134,7 @@ Lastly, let’s kick our ship in to action and make it at least look like it is 
 4. Drag the **Smoke Trail** material from the **Standard Assets\Particles\Sources\Materials folder** on to **Element 1** of the **Trail Renderer** Materials
 5. Set the Time to **2** , Start width to **5** and End Width to **0.5**
 
-> The Trail render is a great way of adding simple trails to GameObjects, whether it is a light cycle, a car or in this case a space ship.&nbsp; They float along behind the object as it moves round the scene.
+> The Trail render is a great way of adding simple trails to GameObjects, whether it is a light cycle, a car or in this case a space ship.  They float along behind the object as it moves round the scene.
 
 The Trail Render in the inspector should now look like the following screenshot:
 
@@ -160,7 +160,7 @@ Now return to _ **Chapter 5** _ and start adding some UI to this amazing scene y
 
 # More to come
 
-In the run up to the book’s publication, I am also going to publish the preview chapter on my blog as well.&nbsp; FYI It is chapter 1 which walks through the legacy GUI system and gives a highlight overview of the new UI “Awesomesauce” system ![Open-mouthed smile](/Images/wordpress/2015/01/wlEmoticon-openmouthedsmile.png)
+In the run up to the book’s publication, I am also going to publish the preview chapter on my blog as well.  FYI It is chapter 1 which walks through the legacy GUI system and gives a highlight overview of the new UI “Awesomesauce” system ![Open-mouthed smile](/Images/wordpress/2015/01/wlEmoticon-openmouthedsmile.png)
 
 SO keep your ears peeled and half an eye on the books forum here.
 

@@ -33,7 +33,7 @@ The new UI system is a great start and a breath of fresh air to enhance the lega
 - Have a fully scalable event system to manage input and game events (even your own events)
 - Extend Unity ourselves and even get involved in Unity UI development (if you dare!)
 
-There is is a lot more “stuff” that is available, these are just the highlights.&nbsp; Unity has come a long way with these improvements to answer the majority of the trickier points with the legacy GUI system.
+There is is a lot more “stuff” that is available, these are just the highlights.  Unity has come a long way with these improvements to answer the majority of the trickier points with the legacy GUI system.
 
 * * *
 
@@ -41,9 +41,9 @@ There is is a lot more “stuff” that is available, these are just the highlig
 
 For the first time ever, Unity has made the new UI system completely open source, allowing developers everywhere to contribute to the development of the new UI system.
 
-&nbsp;
+ 
 
-Granted this is not the first system they have open sourced but it is certainly the first where they are accepting code back in from the public,&nbsp; in fact several adept devs have already started submitting changes already, check out their UI code repository here:
+Granted this is not the first system they have open sourced but it is certainly the first where they are accepting code back in from the public,  in fact several adept devs have already started submitting changes already, check out their UI code repository here:
 
 [https://bitbucket.org/Unity-Technologies/ui/overview](https://bitbucket.org/Unity-Technologies/ui/overview "https://bitbucket.org/Unity-Technologies/ui/overview")
 

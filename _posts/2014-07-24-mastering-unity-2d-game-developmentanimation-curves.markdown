@@ -12,11 +12,11 @@ tags:
 
 In the run up to the launch of my first published title (a book this time) I’m going to be doing some short snippets from some of the many exciting things you will learn within its pages.
 
-The sample project and code for this snippet can be found here: –&nbsp;[AnimationCurves.zip](http://bit.ly/MU2D-AnimationCurves "Mastering Unity 2D Game Development - Animation Curves snippet")
+The sample project and code for this snippet can be found here: – [AnimationCurves.zip](http://bit.ly/MU2D-AnimationCurves "Mastering Unity 2D Game Development - Animation Curves snippet")
 
-> \*Edit – seems only 5 minutes since I posted this article and already we fine other useful frameworks to assist with using AnimationCurves on their own. &nbsp;This [handy little project](https://github.com/JoshuaGlazer/AnimationCurveTools "Animation Curves editor extensions") enables some interesting Editor enhancements to allow copying, pasting and even the extraction of animation steps from a curve. &nbsp;Here’s [a nice article](http://www.joshuaglazer.com/blog/copy-and-paste-unity-animation-curves-extract-animation-curve-from-animation/ "Article on the Animation Curve extensions") that explains it all, fantastic effort!
+> \*Edit – seems only 5 minutes since I posted this article and already we fine other useful frameworks to assist with using AnimationCurves on their own.  This [handy little project](https://github.com/JoshuaGlazer/AnimationCurveTools "Animation Curves editor extensions") enables some interesting Editor enhancements to allow copying, pasting and even the extraction of animation steps from a curve.  Here’s [a nice article](http://www.joshuaglazer.com/blog/copy-and-paste-unity-animation-curves-extract-animation-curve-from-animation/ "Article on the Animation Curve extensions") that explains it all, fantastic effort!
 
-&nbsp;
+ 
 
 [![FrontCover](/Images/wordpress/2014/10/FrontCover-234x300.png)](/Images/wordpress/2014/10/FrontCover.png)
 
@@ -26,7 +26,7 @@ The sample project and code for this snippet can be found here: –&nbsp;[Animat
 
 # About the book
 
-The book was an interesting challenge for me and is written with the same flair I use within my blog, I have always felt it is better to educate and show you, not only how to do things but also why you should do it one way over another, plus if there are any alternatives, I will point them out.&nbsp; As a reader you should be informed about your choices (and then make your own mind up ![Open-mouthed smile](/Images/wordpress/2014/07/wlEmoticon-openmouthedsmile1.png)).
+The book was an interesting challenge for me and is written with the same flair I use within my blog, I have always felt it is better to educate and show you, not only how to do things but also why you should do it one way over another, plus if there are any alternatives, I will point them out.  As a reader you should be informed about your choices (and then make your own mind up ![Open-mouthed smile](/Images/wordpress/2014/07/wlEmoticon-openmouthedsmile1.png)).
 
 Through its pages you will build an RPG game framework which you can then extend and make your own, the aim is to give you enough hints, tips and help to build your own finished game.
 
@@ -57,16 +57,16 @@ Right, the first snippet from the book is about:
 
 <address>(Animation dope sheet Curve view)</address>
 
-Now for those of you who have dabbled, Animation curves are primarily use by the new Animation system, they give you a fine level of control over how editor properties should change over time, either gradually, sharply or according to some style of bezier curve.&nbsp; The curve editor in the animation sheet is very powerful (and keeps getting updated each release!).&nbsp; It basically allows you to:
+Now for those of you who have dabbled, Animation curves are primarily use by the new Animation system, they give you a fine level of control over how editor properties should change over time, either gradually, sharply or according to some style of bezier curve.  The curve editor in the animation sheet is very powerful (and keeps getting updated each release!).  It basically allows you to:
 
 - Set an animation over a defined length of time
 - Define key points in time where the animation property will change
 - Organise how the animation will transition through the animation keys, smooth, sharp, uniform, etc.
 - Set events to fire at specific times
 
-There are more but these are the key points.&nbsp; All well and good but did you know you can use this awesome system OUTSIDE of the animation system.
+There are more but these are the key points.  All well and good but did you know you can use this awesome system OUTSIDE of the animation system.
 
-At its core, all the Animation Curve system does is to change a value up or down over time according to a pre-set pattern, this is also referred to as tweening in some circles.&nbsp; So what if you could just make your own curves separate to an animation to control say:
+At its core, all the Animation Curve system does is to change a value up or down over time according to a pre-set pattern, this is also referred to as tweening in some circles.  So what if you could just make your own curves separate to an animation to control say:
 
 - A fading cycle – fading in and out of a scene or a menu
 - Controlling how fast or slow a character travels along a map
@@ -102,7 +102,7 @@ A bit boring as we have not configured it yet, if you click on one of the preset
 
 [![image](/Images/wordpress/2014/07/image8_thumb.png "image")](/Images/wordpress/2014/07/image8.png)
 
-From here you can do most of the tasks that you can do in the Animation Dope sheet curve editor (except add events).&nbsp; You can also save your curve (if you create a pretty tricky one you want to reuse) by clicking on the cog con in the bottom left
+From here you can do most of the tasks that you can do in the Animation Dope sheet curve editor (except add events).  You can also save your curve (if you create a pretty tricky one you want to reuse) by clicking on the cog con in the bottom left
 
 [![image](/Images/wordpress/2014/07/image12_thumb.png "image")](/Images/wordpress/2014/07/image12.png)
 
@@ -133,11 +133,11 @@ The line to take notice of is the following line:
 
     transform.position = Vector3.Lerp(StartLocation, TargetLocation, myTransitionPath.Evaluate(timer));
 
-Where we use the Evaluate function of our configured curve to denote the amount of movement the GameObject should move (in this case) for the current frame.&nbsp; This results in the following motion: (please be gentle this is my first animated GIF, got to be in with all the cool kids these days):
+Where we use the Evaluate function of our configured curve to denote the amount of movement the GameObject should move (in this case) for the current frame.  This results in the following motion: (please be gentle this is my first animated GIF, got to be in with all the cool kids these days):
 
 [![AnimationCurves](/Images/wordpress/2014/07/AnimationCurves_thumb.gif "AnimationCurves")](/Images/wordpress/2014/07/AnimationCurves.gif)
 
-So as you can see, depending on how far the sphere has to travel, the power curve quick to begin and slow to stop but steady in-between.&nbsp; By just altering the curve we can alter the behaviour without changing any code.
+So as you can see, depending on how far the sphere has to travel, the power curve quick to begin and slow to stop but steady in-between.  By just altering the curve we can alter the behaviour without changing any code.
 
 ## Extra Credit
 
@@ -153,9 +153,9 @@ Cosine Curve:
 
 Script:
 
-    using UnityEngine; public class CirclingSphere : MonoBehaviour { &nbsp;&nbsp;&nbsp; public AnimationCurve sinPath; &nbsp;&nbsp;&nbsp; public AnimationCurve coSinPath; &nbsp;&nbsp;&nbsp; float timer = 0; &nbsp;&nbsp;&nbsp; void Awake () { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (sinPath.keys.Length \< 1 || coSinPath.keys.Length \< 1) { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Debug.LogWarning("Transition Paths not configured"); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } &nbsp;&nbsp;&nbsp; } &nbsp;&nbsp;&nbsp; void Update () { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; timer += Time.deltaTime; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var pos = transform.position; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pos.x = sinPath.Evaluate (timer); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pos.y = coSinPath.Evaluate (timer); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; transform.position = pos; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (timer \> 2) { timer = 0;} &nbsp;&nbsp;&nbsp; } }
+    using UnityEngine; public class CirclingSphere : MonoBehaviour {     public AnimationCurve sinPath;     public AnimationCurve coSinPath;     float timer = 0;     void Awake () {         if (sinPath.keys.Length \< 1 || coSinPath.keys.Length \< 1) {             Debug.LogWarning("Transition Paths not configured");         }     }     void Update () {         timer += Time.deltaTime;         var pos = transform.position;         pos.x = sinPath.Evaluate (timer);         pos.y = coSinPath.Evaluate (timer);         transform.position = pos;         if (timer \> 2) { timer = 0;}     } }
 
-&nbsp;
+ 
 
 Resulting in the following animation:
 
@@ -169,15 +169,15 @@ Doesn’t have to be smooth, you could end up with something like this:
 
 [![masteringunity2d_06_09](/Images/wordpress/2014/07/masteringunity2d_06_09_thumb.png "masteringunity2d\_06\_09")](/Images/wordpress/2014/07/masteringunity2d_06_09.png)
 
-And goodness knows what that could do with that&nbsp; ![Open-mouthed smile](/Images/wordpress/2014/07/wlEmoticon-openmouthedsmile1.png)
+And goodness knows what that could do with that  ![Open-mouthed smile](/Images/wordpress/2014/07/wlEmoticon-openmouthedsmile1.png)
 
 * * *
 
 # We hope you enjoyed the show
 
-I do hope you like this little snippet, just one of (hopefully) many little break out sections from the book.&nbsp; These snippets do have a lot more detail as I have more space to work with (it is really surprising how restricting 500+ pages gives you ![Confused smile](/Images/wordpress/2014/07/wlEmoticon-confusedsmile.png)) but everything you need to know is covered in each section.
+I do hope you like this little snippet, just one of (hopefully) many little break out sections from the book.  These snippets do have a lot more detail as I have more space to work with (it is really surprising how restricting 500+ pages gives you ![Confused smile](/Images/wordpress/2014/07/wlEmoticon-confusedsmile.png)) but everything you need to know is covered in each section.
 
 The sample project and code for this snippet can be found here: – [AnimationCurves.zip](http://bit.ly/MU2D-AnimationCurves "Mastering Unity 2D Game Development - Animation Curves snippet")
 
-> Be sure to check out the [AnimationCurves editor extensions here](https://github.com/JoshuaGlazer/AnimationCurveTools "Animation Curves editor extensions") and the write-up about the extensions [here](http://www.joshuaglazer.com/blog/copy-and-paste-unity-animation-curves-extract-animation-curve-from-animation/ "Write-up of the AnimationCurve Extensions")! &nbsp;Fantastic effort community!.
+> Be sure to check out the [AnimationCurves editor extensions here](https://github.com/JoshuaGlazer/AnimationCurveTools "Animation Curves editor extensions") and the write-up about the extensions [here](http://www.joshuaglazer.com/blog/copy-and-paste-unity-animation-curves-extract-animation-curve-from-animation/ "Write-up of the AnimationCurve Extensions")!  Fantastic effort community!.
 

@@ -11,7 +11,7 @@ tags:
 - release
 ---
 
-Cross Posted from [this post](http://wp.me/p3yEc2-O) on AdRotator’s new site –&nbsp;[http://getadrotator.com/](http://getadrotator.com/)&nbsp;(still a work in progress but a start :D)
+Cross Posted from [this post](http://wp.me/p3yEc2-O) on AdRotator’s new site – [http://getadrotator.com/](http://getadrotator.com/) (still a work in progress but a start :D)
 
 Well it’s been a long time coming but we are really making progress on AdRotator V2.
 
@@ -37,13 +37,13 @@ The new configuration XML breaks compatibility with the old version but for very
 
 - Have as many instances of an Ad Provider as you wish (useful if you have multiple AdUnits with a provider)
 - More configuration options, almost every configuration option that was available before is available everywhere
-- AdGroup (coming soon), the configuration XML also now allows grouping of Ad Configuration, this will be useful if you want to set the order of provider checking yourself or have groups of House Ads and rotate through them as a group. It’s in the config but we don’t consume&nbsp;it as yet
+- AdGroup (coming soon), the configuration XML also now allows grouping of Ad Configuration, this will be useful if you want to set the order of provider checking yourself or have groups of House Ads and rotate through them as a group. It’s in the config but we don’t consume it as yet
 
 ### UnBound Provider dependencies
 
 One of the biggest headaches in V1 was that you had to have every ad provider registered in your project even if you weren’t using them, this was also a headache for us since we had to keep updating the NuGet package every time a provider dll was updated.
 
-In V2 we have broken that dependency&nbsp;(in a good way), now:
+In V2 we have broken that dependency (in a good way), now:
 
 - You only need to have Ad Providers that you use registered
 - If you specify a provider in Configuration that you don’t have, it will be ignored
@@ -54,7 +54,7 @@ You can also have just one configuration for all platforms because even if a pro
 
 ### Full Async support
 
-Getting on the async bandwagon, AdRotator now fully supports Async on all platforms. &nbsp;This is a huge performance boon and also simplifies how we manage the project.
+Getting on the async bandwagon, AdRotator now fully supports Async on all platforms.  This is a huge performance boon and also simplifies how we manage the project.
 
 All calls (inc web) are offloaded and handled correctly coming back so fewer multi-threading issues and better performance (and no UI blocking issues either)
 

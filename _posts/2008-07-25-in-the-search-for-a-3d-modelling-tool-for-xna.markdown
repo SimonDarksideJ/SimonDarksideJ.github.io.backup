@@ -23,7 +23,7 @@ Now I could just drag in an artist (which depending on your friends circle can a
 
 So leaving money behind I can embark on the search for a free 3d Modelling tool, so looking around we have:
 
-- [Blender](http://www.blender.org/)(free, powerful, tricky interface and not very intuitive.&nbsp; Exports are tricky to use in XNA)
+- [Blender](http://www.blender.org/)(free, powerful, tricky interface and not very intuitive.  Exports are tricky to use in XNA)
 - [Softimage XSI](http://community.softimage.com/index.php?)(Again free, has XNA integration, some training but still a bit clunky to use and importing seems hit and miss)
 - [Google Sketchup](http://sketchup.google.com/)(free and an importer has just been written for XNA, although I’ve not played with it Much)
 - [Truespace 3d](http://www.caligari.com/)
@@ -36,7 +36,7 @@ Well, no longer does Truespace cost you any cash whatsoever now that Microsoft h
 
 Since Microsoft Bought it in order to offer a competitive product to Goolge’s sketchup, they have now released it for free, there’s also some nice training material and other free stuff.
 
-### [See here](http://blogs.msdn.com/virtualearth/archive/2008/07/23/announcing-truespace-for-virtual-earth-3d-development.aspx)
+### [See here](http://blogs.msdn.com/virtualearth/archive/2008/07/23/announcing-truespace-for-virtual-earth-3d-development)
 
 It also supports the following formats
 

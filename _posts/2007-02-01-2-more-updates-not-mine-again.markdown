@@ -13,17 +13,17 @@ Time is short and "[Space Rangers 2 – The Dominators](http://www.excalibur-pub
 
 Back to the post
 
-<font size="3"><strong>Shawn Hargreaves</strong></font> has posted an [article on XNA and graphics debugging](http://blogs.msdn.com/shawnhar/archive/2007/01/31/debugging-xna-graphics-problems.aspx) which is very useful, be aware though, this talks about native DirectX debugging which will provide a lot of technical data back while running in DEBUG mode.&nbsp; Time to get out the DirectX guide book for this one, I can see&nbsp;questions on the forums rising soon!!.
+<font size="3"><strong>Shawn Hargreaves</strong></font> has posted an [article on XNA and graphics debugging](http://blogs.msdn.com/shawnhar/archive/2007/01/31/debugging-xna-graphics-problems) which is very useful, be aware though, this talks about native DirectX debugging which will provide a lot of technical data back while running in DEBUG mode.  Time to get out the DirectX guide book for this one, I can see questions on the forums rising soon!!.
 
-&nbsp;
+ 
 
 Also
 
-&nbsp;
+ 
 
-**<font size="3">Over on </font>** [**<font size="3">Manders Vs Machine</font>**](http://blogs.msdn.com/manders/archive/2007/01/31/bentmaze-1-0-a-jittered-maze-and-radial-culling.aspx), Mike has been working hard on his Line Drawing code, the previous samples included drawing everything from simple Lines to Fonts!,&nbsp; No he has put his code to drawing mazes, and damn good looking they are to, complete with sample code this is defiantly one to look at.
+**<font size="3">Over on </font>** [**<font size="3">Manders Vs Machine</font>**](http://blogs.msdn.com/manders/archive/2007/01/31/bentmaze-1-0-a-jittered-maze-and-radial-culling), Mike has been working hard on his Line Drawing code, the previous samples included drawing everything from simple Lines to Fonts!,  No he has put his code to drawing mazes, and damn good looking they are to, complete with sample code this is defiantly one to look at.
 
-&nbsp;
+ 
 
 Back to work now!!
 

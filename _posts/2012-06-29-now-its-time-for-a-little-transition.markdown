@@ -9,15 +9,15 @@ tags:
 - xna
 ---
 
-Hot on the heals of the updates to the CC GSM code, I decided to go that little bit further and add some neat effects.&nbsp; these are also good for reusing in games as it provides an insight on how to use RenderTargets effectively within the XNA framework.
+Hot on the heals of the updates to the CC GSM code, I decided to go that little bit further and add some neat effects.  these are also good for reusing in games as it provides an insight on how to use RenderTargets effectively within the XNA framework.
 
-Most of the code here comes direct from Shawn “God of XNA” Hargreaves [reach demo code](http://creators.xna.com/en-US/minigame/reachgraphicsdemo), which so far has been the easiest RenderTarget code I have been able to read.&nbsp; It is just been reworked slightly so it will work from the GSM code. (also check out Shawn’s other post on this [here for XNA 4.0](http://blogs.msdn.com/b/shawnhar/archive/2010/03/26/rendertarget-changes-in-xna-game-studio-4-0.aspx))
+Most of the code here comes direct from Shawn “God of XNA” Hargreaves [reach demo code](http://creators.xna.com/en-US/minigame/reachgraphicsdemo), which so far has been the easiest RenderTarget code I have been able to read.  It is just been reworked slightly so it will work from the GSM code. (also check out Shawn’s other post on this [here for XNA 4.0](http://blogs.msdn.com/b/shawnhar/archive/2010/03/26/rendertarget-changes-in-xna-game-studio-4-0))
 
-In case you are unaware, [RenderTargets](http://msdn.microsoft.com/en-us/library/microsoft.xna.framework.graphics.rendertarget.aspx) are used when you want to draw several screens in your game, like a Radar screen, separate missile tracking view, or like Charles “Shader god” Humphrey (aka Randomchaos) in his fantastic [flights of fancy](/blogs/randomchaos/archive/2010/07/30/deferred-lighting-teaser.aspx).
+In case you are unaware, [RenderTargets](http://msdn.microsoft.com/en-us/library/microsoft.xna.framework.graphics.rendertarget) are used when you want to draw several screens in your game, like a Radar screen, separate missile tracking view, or like Charles “Shader god” Humphrey (aka Randomchaos) in his fantastic [flights of fancy](/blogs/randomchaos/archive/2010/07/30/deferred-lighting-teaser).
 
-So with nothing more to do, lets bring on the first act. (Note the code for this article is the [same as the last](/blogs/darkgenesis/archive/2010/08/13/is-my-xna-game-dead-yet.aspx) , thought it better not to spilt the code for the sample, [still here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/50372))
+So with nothing more to do, lets bring on the first act. (Note the code for this article is the [same as the last](/blogs/darkgenesis/archive/2010/08/13/is-my-xna-game-dead-yet) , thought it better not to spilt the code for the sample, [still here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/50372))
 
-&nbsp;
+ 
 
 * * *
 
@@ -25,39 +25,39 @@ So with nothing more to do, lets bring on the first act. (Note the code for this
 
 now an actual rendertarget is just a texture stored in memory, what makes it different is that it is in exactly the same format as the graphics backbuffer (The area on the graphics card memory when the output to screen is stored).
 
-Rendertargets have been used for many things, baking light textures, displacement maps, multi-screen displays and much much more.&nbsp; But we can keep simple and use this functionality to add a little grace to our games.
+Rendertargets have been used for many things, baking light textures, displacement maps, multi-screen displays and much much more.  But we can keep simple and use this functionality to add a little grace to our games.
 
 If you download Shawn’s reach demo from the CC site and run it, you will notice that each time you open each of the effects from the menu or when you hit back, a little animation plays which shows the screen either:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)&nbsp;&nbsp;&nbsp; Being spun around and shrunk   
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)&nbsp;&nbsp;&nbsp; Sliding down the screen in lines   
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)&nbsp;&nbsp;&nbsp; Broken up in to little pieces and shattered   
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)&nbsp;&nbsp;&nbsp; Have sliding windows show the next screen   
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)&nbsp;&nbsp;&nbsp; Sliding chequered view
+> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Being spun around and shrunk   
+> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Sliding down the screen in lines   
+> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Broken up in to little pieces and shattered   
+> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Have sliding windows show the next screen   
+> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Sliding chequered view
 
-These all look very nice and looking at it you might wonder how he did that, must take lots of coding to do.&nbsp; Well if you thought that i;’m afraid you are just dead wrong, it is quite simple, as i’ll show here.
+These all look very nice and looking at it you might wonder how he did that, must take lots of coding to do.  Well if you thought that i;’m afraid you are just dead wrong, it is quite simple, as i’ll show here.
 
 All that is actually involved are two extra draw calls for every one of those effects and effectively resolves down to this:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)&nbsp;&nbsp;&nbsp; Draw your last view to a separate rendertarget texture   
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)&nbsp;&nbsp;&nbsp; Draw your game as normal to the screen   
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)&nbsp;&nbsp;&nbsp; Draw the render target texture to the screen.
+> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Draw your last view to a separate rendertarget texture   
+> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Draw your game as normal to the screen   
+> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Draw the render target texture to the screen.
 
 Sounds simple, because it is (and I cannot believe I swayed away from them for so long ![Open-mouthed smile](/Images/wordpress/2012/06/wlEmoticon-openmouthedsmile5.png))
 
 SO lets get to it.
 
-&nbsp;
+ 
 
 * * *
 
 ### Setting up a RenderTarget
 
-The first extra thing you should notice we need is this elusive RenderTarget texture.&nbsp; It is a special kind of texture in a specific format, one that is the same as the back buffer on the graphic device you are using, so it cannot just be any texture you like.
+The first extra thing you should notice we need is this elusive RenderTarget texture.  It is a special kind of texture in a specific format, one that is the same as the back buffer on the graphic device you are using, so it cannot just be any texture you like.
 
 TO set one up is simple, it is like this:
 
-&nbsp;
+ 
 
     
     
@@ -69,7 +69,7 @@ TO set one up is simple, it is like this:
     
     
     
-    &nbsp;
+     
     
     
     
@@ -77,13 +77,13 @@ TO set one up is simple, it is like this:
     
     
     
-    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)&nbsp;&nbsp;&nbsp; A link to the specific Graphicsdevice you are rendering to   
-    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)&nbsp;&nbsp;&nbsp; The size of the current back buffer you are drawing (can be different if you are drawing smaller screens to paint)   
-    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)&nbsp;&nbsp;&nbsp; A flag to see if you are using MipMaps ([see Shawns post on these](http://blogs.msdn.com/b/shawnhar/archive/2009/09/14/texture-filtering-mipmaps.aspx))   
-    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)&nbsp;&nbsp;&nbsp; The SurfaceFormat where it tells it the kind of texture being used   
-    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)&nbsp;&nbsp;&nbsp; The DepthFormat, sets the type of depth stencil to use in alpha blending and other such techniques   
-    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)&nbsp;&nbsp;&nbsp; The number of mipmaps to generate or expect (if mipmapping is turned on)   
-    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)&nbsp;&nbsp;&nbsp; The RenderTarget usage, so that the graphics card knows to either keep the texture in memory or discard it after use.
+    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    A link to the specific Graphicsdevice you are rendering to   
+    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    The size of the current back buffer you are drawing (can be different if you are drawing smaller screens to paint)   
+    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    A flag to see if you are using MipMaps ([see Shawns post on these](http://blogs.msdn.com/b/shawnhar/archive/2009/09/14/texture-filtering-mipmaps))   
+    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    The SurfaceFormat where it tells it the kind of texture being used   
+    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    The DepthFormat, sets the type of depth stencil to use in alpha blending and other such techniques   
+    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    The number of mipmaps to generate or expect (if mipmapping is turned on)   
+    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    The RenderTarget usage, so that the graphics card knows to either keep the texture in memory or discard it after use.
     
     
     
@@ -91,7 +91,7 @@ TO set one up is simple, it is like this:
     
     
     
-    &nbsp;
+     
     
     
     
@@ -125,11 +125,11 @@ TO set one up is simple, it is like this:
         
         
         
-        &nbsp;
+         
         
         
         
-        The first line tells the graphics card to draw to just the RenderTarget texture, then you draw as normal.&nbsp; To finish off so that you can then begin drawing back to the screen it is important to then turn off drawing to the rendertarget and back to the main screen, as shown in the last line.
+        The first line tells the graphics card to draw to just the RenderTarget texture, then you draw as normal.  To finish off so that you can then begin drawing back to the screen it is important to then turn off drawing to the rendertarget and back to the main screen, as shown in the last line.
         
         
         
@@ -137,7 +137,7 @@ TO set one up is simple, it is like this:
         
         
         
-        &nbsp;
+         
         
         
         
@@ -159,7 +159,7 @@ TO set one up is simple, it is like this:
             
             
             
-            &nbsp;
+             
             
             
             
@@ -167,7 +167,7 @@ TO set one up is simple, it is like this:
             
             
             
-            &nbsp;
+             
             
             
             * * *
@@ -175,11 +175,11 @@ TO set one up is simple, it is like this:
             ### Implementation
             
             
-            SO as stated before, we need to add a rendertarget definition to our code.&nbsp; So open up the ScreenManager class (which is where most of this code will go) and add the following variables to the start of that class:
+            SO as stated before, we need to add a rendertarget definition to our code.  So open up the ScreenManager class (which is where most of this code will go) and add the following variables to the start of that class:
             
             
             
-            &nbsp;
+             
             
             
             
@@ -233,7 +233,7 @@ TO set one up is simple, it is like this:
                 
                 
                 
-                &nbsp;
+                 
                 
                 
                 
@@ -245,7 +245,7 @@ TO set one up is simple, it is like this:
                 
                 
                 
-                &nbsp;
+                 
                 
                 
                 
@@ -271,11 +271,11 @@ TO set one up is simple, it is like this:
                     
                     
                     
-                    &nbsp;
+                     
                     
                     
                     
-                    You&nbsp; might notice when looking at the original CC GSM sample code that there was an existing Blank Texture, however I have cleaned it up in the final sample to use this new one as it is cleaner and does not require an asset to initialise.
+                    You  might notice when looking at the original CC GSM sample code that there was an existing Blank Texture, however I have cleaned it up in the final sample to use this new one as it is cleaner and does not require an asset to initialise.
                     
                     
                     
@@ -287,7 +287,7 @@ TO set one up is simple, it is like this:
                     
                     
                     
-                    &nbsp;
+                     
                     
                     
                     
@@ -393,7 +393,7 @@ TO set one up is simple, it is like this:
                         
                         
                         
-                        &nbsp;
+                         
                         
                         
                         
@@ -401,7 +401,7 @@ TO set one up is simple, it is like this:
                         
                         
                         
-                        Here I set the graphics device to draw to the render target, draw the screens that were active before the move to the next screen.&nbsp; This screenshot is then stored as a texture.&nbsp; It then sets the alpha channel of this texture as solid (opaque).
+                        Here I set the graphics device to draw to the render target, draw the screens that were active before the move to the next screen.  This screenshot is then stored as a texture.  It then sets the alpha channel of this texture as solid (opaque).
                         
                         
                         
@@ -417,11 +417,11 @@ TO set one up is simple, it is like this:
                         
                         
                         
-                        &nbsp;
+                         
                         
                         
                         
-                        &nbsp;
+                         
                         
                         
                         
@@ -531,7 +531,7 @@ TO set one up is simple, it is like this:
                             
                             
                             
-                            &nbsp;
+                             
                             
                             
                             
@@ -539,7 +539,7 @@ TO set one up is simple, it is like this:
                             
                             
                             
-                            Based on which transition was selected when Begin Transition was called, the switch statement then decides which actual effect it called.&nbsp; I have included on here in this example but the sample has several more (mainly from Shawn;s sample but I have added one myself to imitate the Page Flipping animation used primarily on the phone).&nbsp; You could even call several effects if you wished, especially if you are multi-sampling or doing any kind of alpha / additive blending in the effect.
+                            Based on which transition was selected when Begin Transition was called, the switch statement then decides which actual effect it called.  I have included on here in this example but the sample has several more (mainly from Shawn;s sample but I have added one myself to imitate the Page Flipping animation used primarily on the phone).  You could even call several effects if you wished, especially if you are multi-sampling or doing any kind of alpha / additive blending in the effect.
                             
                             
                             
@@ -547,7 +547,7 @@ TO set one up is simple, it is like this:
                             
                             
                             
-                            &nbsp;
+                             
                             
                             
                             
@@ -613,7 +613,7 @@ TO set one up is simple, it is like this:
                                 
                                 
                                 
-                                &nbsp;
+                                 
                                 
                                 
                                 
@@ -621,7 +621,7 @@ TO set one up is simple, it is like this:
                                 
                                 
                                 
-                                To finish off the implementation, just need to add the following line to the very end&nbsp; of the Draw function in the Screen Manager class:
+                                To finish off the implementation, just need to add the following line to the very end  of the Draw function in the Screen Manager class:
                                 
                                 
                                 
@@ -631,7 +631,7 @@ TO set one up is simple, it is like this:
                                     
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     
@@ -639,7 +639,7 @@ TO set one up is simple, it is like this:
                                     
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     * * *
@@ -647,7 +647,7 @@ TO set one up is simple, it is like this:
                                     ### Running with the effect.
                                     
                                     
-                                    Now like with anything else you have to implement any new feature carefully.&nbsp; In the CC GSM sample that we are building on there is a whole base of other transitions going on that you have to cater for, so be careful.&nbsp; To keep it simple, I have just implemented these new transition effects in to the Loading screen, so that when it has finished loading the next screen or after a certain amount of time, it transitions and flies away.
+                                    Now like with anything else you have to implement any new feature carefully.  In the CC GSM sample that we are building on there is a whole base of other transitions going on that you have to cater for, so be careful.  To keep it simple, I have just implemented these new transition effects in to the Loading screen, so that when it has finished loading the next screen or after a certain amount of time, it transitions and flies away.
                                     
                                     
                                     
@@ -655,7 +655,7 @@ TO set one up is simple, it is like this:
                                     
                                     
                                     
-                                    If you try to use the transition on any of the Menu screens, be aware that the base GSM transitions are still playing so wo not be affected by the transition and will still play in the back ground until it is finished.&nbsp; Turning this off and using another method can be tricky without ripping it all out, so be warned.&nbsp; Use this where it will have the greatest effect and use the GSM transition for other times, as with anything there are always choices.
+                                    If you try to use the transition on any of the Menu screens, be aware that the base GSM transitions are still playing so wo not be affected by the transition and will still play in the back ground until it is finished.  Turning this off and using another method can be tricky without ripping it all out, so be warned.  Use this where it will have the greatest effect and use the GSM transition for other times, as with anything there are always choices.
                                     
                                     
                                     
@@ -663,7 +663,7 @@ TO set one up is simple, it is like this:
                                     
                                     
                                     
-                                    &nbsp;
+                                     
                                     
                                     
                                     
@@ -785,15 +785,15 @@ TO set one up is simple, it is like this:
                                         
                                         
                                         
-                                        &nbsp;
+                                         
                                         
                                         
                                         
-                                        Now the splash screen and the Game loading screen will transition out that little bit flashier.&nbsp; The actual source as I stated above has a few additional tweaks and some extra transition effects just for fun.
+                                        Now the splash screen and the Game loading screen will transition out that little bit flashier.  The actual source as I stated above has a few additional tweaks and some extra transition effects just for fun.
                                         
                                         
                                         
-                                        &nbsp;
+                                         
                                         
                                         
                                         * * *
@@ -801,11 +801,11 @@ TO set one up is simple, it is like this:
                                         ### Conclusion
                                         
                                         
-                                        That is the GSM updated now to make it a bit more fun, we will return to this at some point at the end of the tutorial when we stat packaging the tutorial game up.&nbsp; just having game screen would not be all that fun now would it.
+                                        That is the GSM updated now to make it a bit more fun, we will return to this at some point at the end of the tutorial when we stat packaging the tutorial game up.  just having game screen would not be all that fun now would it.
                                         
                                         
                                         
-                                        More fun coming up including the final part of the original DigiPen series and another extra special bonus, courtesy of Charles “Is there anything he does not do” Humphries (aka RandomChaos).&nbsp; A web based leaderboard system for the WP7 ![Open-mouthed smile](/Images/wordpress/2012/06/wlEmoticon-openmouthedsmile5.png).
+                                        More fun coming up including the final part of the original DigiPen series and another extra special bonus, courtesy of Charles “Is there anything he does not do” Humphries (aka RandomChaos).  A web based leaderboard system for the WP7 ![Open-mouthed smile](/Images/wordpress/2012/06/wlEmoticon-openmouthedsmile5.png).
                                         
                                         
                                         
@@ -813,11 +813,11 @@ TO set one up is simple, it is like this:
                                         
                                         
                                         
-                                        (I sometimes feel sorry for those who do not understand British humour, you are really missing out.&nbsp; To start just watch all of Monty Python’s flying circus, follow up with the Monty Python films and then was copious amounts of Blackadder and Red Dwarf.&nbsp; And thus your education will have truly begun ![Open-mouthed smile](/Images/wordpress/2012/06/wlEmoticon-openmouthedsmile5.png))
+                                        (I sometimes feel sorry for those who do not understand British humour, you are really missing out.  To start just watch all of Monty Python’s flying circus, follow up with the Monty Python films and then was copious amounts of Blackadder and Red Dwarf.  And thus your education will have truly begun ![Open-mouthed smile](/Images/wordpress/2012/06/wlEmoticon-openmouthedsmile5.png))
                                         
                                         
                                         
-                                        &nbsp;
+                                         
                                         
                                         
                                         Technorati Tags: [XNA](http://technorati.com/tags/XNA),[wp7dev](http://technorati.com/tags/wp7dev),[windows Phone development](http://technorati.com/tags/windows+Phone+development)

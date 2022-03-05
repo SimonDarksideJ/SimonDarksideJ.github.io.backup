@@ -18,9 +18,9 @@ As a bit of history I did spend a great deal of my tech career building / instal
 
 Since then I have been out of touch with server OS’s, mainly due to work commitments (even my old test lab was decommissioned, when our second child came along) but other stuff as well, server was no longer my focus, I had moved to the client and app world.
 
-**\*Update,** due to time restrictions I am going to post about this in parts as I experience the full breadth of each product to get their full worth as I explore them to the full.&nbsp; Will post links to each update in all articles.
+**\*Update,** due to time restrictions I am going to post about this in parts as I experience the full breadth of each product to get their full worth as I explore them to the full.  Will post links to each update in all articles.
 
-So it is time to go back and see just what has changed with new eyes.&nbsp; This post is going to be written as I am experiencing it, so instead of playing with everything first and then trying to remember I am going to show you what I see when I see it.
+So it is time to go back and see just what has changed with new eyes.  This post is going to be written as I am experiencing it, so instead of playing with everything first and then trying to remember I am going to show you what I see when I see it.
 
 * * *
 
@@ -30,19 +30,19 @@ Well first impressions are the ones that usually stick, heading into Hyper-V ins
 
 ## Zero UI install option
 
-The first thing I really noticed is that Microsoft has finally relented to the backwash of Unix based server installs and provides an install with no UI, it is completely managed through a console screen and powershell scripts, very interesting.&nbsp; This was probably introduced with the DataCenter edition in the last release (unconfirmed) but is now available in Windows Server 2012 installs.
+The first thing I really noticed is that Microsoft has finally relented to the backwash of Unix based server installs and provides an install with no UI, it is completely managed through a console screen and powershell scripts, very interesting.  This was probably introduced with the DataCenter edition in the last release (unconfirmed) but is now available in Windows Server 2012 installs.
 
 ## It is FAST
 
-The whole install even on a low spec VM on my machine took minutes, seriously, I must have blinked a few times and did not notice it was sat there waiting for me and I had not even noticed.&nbsp; Was not expecting that.
+The whole install even on a low spec VM on my machine took minutes, seriously, I must have blinked a few times and did not notice it was sat there waiting for me and I had not even noticed.  Was not expecting that.
 
 ## Charmed Unsure
 
-Well there is always one curious one in the pot and this certainly falls into this category.&nbsp; Once the install was complete and the box was up and running I was greeted with the Windows 8 style experience, NOT the metro / modern look mind, but the charms bar and other features are fully enabled.&nbsp; Not sure if this really fits in the server world and I can understand Microsoft’s attempts to unify its user experience but the Admin community favour use over UX any day.
+Well there is always one curious one in the pot and this certainly falls into this category.  Once the install was complete and the box was up and running I was greeted with the Windows 8 style experience, NOT the metro / modern look mind, but the charms bar and other features are fully enabled.  Not sure if this really fits in the server world and I can understand Microsoft’s attempts to unify its user experience but the Admin community favour use over UX any day.
 
 ## Did I say it was fast?
 
-Granted there is not anything running on my VM yet but damn this thing is quick.&nbsp; It starts from cold in minutes and I can get back to trying stuff with almost no delay.&nbsp; This is a fantastic improvement from the old days where I was waiting minutes (if not longer) for the server to start, even on some really powerful kit.&nbsp; Microsoft has always aimed (especially since server 2008) to get the box up and running before starting components / services and “get you in quick” but in 2012 they really mean it.&nbsp; If you slapped an SSD in as the boot drive I am sure this would even be an instant on system from cold.&nbsp; (for reference I timed it and it was **3 seconds** to logon screen, **2 additional seconds** to desktop and **5 seconds more** to the welcome screen, **up in less than 10 seconds** )
+Granted there is not anything running on my VM yet but damn this thing is quick.  It starts from cold in minutes and I can get back to trying stuff with almost no delay.  This is a fantastic improvement from the old days where I was waiting minutes (if not longer) for the server to start, even on some really powerful kit.  Microsoft has always aimed (especially since server 2008) to get the box up and running before starting components / services and “get you in quick” but in 2012 they really mean it.  If you slapped an SSD in as the boot drive I am sure this would even be an instant on system from cold.  (for reference I timed it and it was **3 seconds** to logon screen, **2 additional seconds** to desktop and **5 seconds more** to the welcome screen, **up in less than 10 seconds** )
 
 **\*\*Even the shut down is fast**
 
@@ -58,7 +58,7 @@ With the box started up from a fresh install you are greeted with a nice “Welc
 
 [![image](/Images/wordpress/2013/04/image_thumb.png "image")](/Images/wordpress/2013/04/image1.png)
 
-From here as you would expect you start adding services, components and other such bits to get your server up and running.&nbsp; From first glance, gone are the old search for which components you need to run things and everything is plain and right in front of you.&nbsp; It has brought along the server 2008 roles and features look and feel (a big bonus even back then) and even gives you a limited management option to include more servers in your little management group, gone are the days of requiring a dashboard or having to remote in to every server just to check it is health, it is all right in front of you. (In fact I think the “it is right in front of you” is going the factor a lot in my view).
+From here as you would expect you start adding services, components and other such bits to get your server up and running.  From first glance, gone are the old search for which components you need to run things and everything is plain and right in front of you.  It has brought along the server 2008 roles and features look and feel (a big bonus even back then) and even gives you a limited management option to include more servers in your little management group, gone are the days of requiring a dashboard or having to remote in to every server just to check it is health, it is all right in front of you. (In fact I think the “it is right in front of you” is going the factor a lot in my view).
 
 The help shows you straight away just how important Microsoft feel about managing your “Environment” instead of a collection of servers.
 
@@ -76,7 +76,7 @@ Switching to look at our starting point, Microsoft certainly have given you a ve
 
 [![image](/Images/wordpress/2013/04/image_thumb3.png "image")](/Images/wordpress/2013/04/image4.png)
 
-My only complaint here is that the dashboard is fixed, I would have liked to have been able to arrange the dashboard to my liking and order and possibly even hide/add more views to it to meet my needs, a fairly simple thing I would have thought.&nbsp; Overall however this is light-years ahead from what I have experienced before, having such a performant global status screen for the server in one place (not like the old clunky Computer Management MMC view), it delights me that this one screen alone runs smoothly without affecting the performance of the server.
+My only complaint here is that the dashboard is fixed, I would have liked to have been able to arrange the dashboard to my liking and order and possibly even hide/add more views to it to meet my needs, a fairly simple thing I would have thought.  Overall however this is light-years ahead from what I have experienced before, having such a performant global status screen for the server in one place (not like the old clunky Computer Management MMC view), it delights me that this one screen alone runs smoothly without affecting the performance of the server.
 
 I also really like those hyperlinks all over the place, taking you straight to the configuration options without having to wade through pages of property screens ![Open-mouthed smile](/Images/wordpress/2013/04/wlEmoticon-openmouthedsmile2.png)
 
@@ -108,7 +108,7 @@ Running this already in a VM with no domain so only local works here for me.This
  | 
 ### Different roles, different dependencies
  |
-| Once you figured out where it goes, the next obvious step to to add Roles for what you want the server to do.&nbsp; Nice clearly defined boundaries | If your selection has dependencies then they are added automatically for you, no more dropping out the install to find yet another “feature” you need to have preinstalled first. | Pretty obvious but worth pointing out that the system intelligently only installs those bits needed for each role, even if features are needed for multiple roles |
+| Once you figured out where it goes, the next obvious step to to add Roles for what you want the server to do.  Nice clearly defined boundaries | If your selection has dependencies then they are added automatically for you, no more dropping out the install to find yet another “feature” you need to have preinstalled first. | Pretty obvious but worth pointing out that the system intelligently only installs those bits needed for each role, even if features are needed for multiple roles |
 | [![image](/Images/wordpress/2013/04/image_thumb7.png "image")](/Images/wordpress/2013/04/image8.png) | [![image](/Images/wordpress/2013/04/image_thumb8.png "image")](/Images/wordpress/2013/04/image9.png) | [![image](/Images/wordpress/2013/04/image_thumb9.png "image")](/Images/wordpress/2013/04/image10.png) |
 
 | 
@@ -118,7 +118,7 @@ Running this already in a VM with no domain so only local works here for me.This
  | 
 ### Configuring roles
  |
-| Once you have decided what you want the server to do, you can then also select any additional features you want enabled by default.&nbsp; Very useful if you intend to install “other” software. | Try to add a role or feature that your current environment cannot support (say trying to install Hyper-V in a Hyper-V image) and the install will just warn you. (As in not crap out the whole install) | With everything set you then get to customise the roles you have selected and customise how each role with operate |
+| Once you have decided what you want the server to do, you can then also select any additional features you want enabled by default.  Very useful if you intend to install “other” software. | Try to add a role or feature that your current environment cannot support (say trying to install Hyper-V in a Hyper-V image) and the install will just warn you. (As in not crap out the whole install) | With everything set you then get to customise the roles you have selected and customise how each role with operate |
 | [![image](/Images/wordpress/2013/04/image_thumb10.png "image")](/Images/wordpress/2013/04/image11.png) | [![image](/Images/wordpress/2013/04/image_thumb11.png "image")](/Images/wordpress/2013/04/image12.png) | [![image](/Images/wordpress/2013/04/image_thumb12.png "image")](/Images/wordpress/2013/04/image13.png) |
 
 | 
@@ -128,15 +128,15 @@ Running this already in a VM with no domain so only local works here for me.This
  | 
 ### Off it goes
  |
-| Configure it how you want when you want.&nbsp; Would you like Com+ with your app server sir/madam? | Review what you selected.  
+| Configure it how you want when you want.  Would you like Com+ with your app server sir/madam? | Review what you selected.  
 What’s nice here is that there is even an option to automatically restart the server when needed during install, however many times that may be.  
-Obviously not advised on a Live system ![Open-mouthed smile](/Images/wordpress/2013/04/wlEmoticon-openmouthedsmile2.png) | What is nice about the progress screen is that unlike other server installs, it can be closed.&nbsp; You can check on its status from the Notification pin in the Dashboard at any time.  
+Obviously not advised on a Live system ![Open-mouthed smile](/Images/wordpress/2013/04/wlEmoticon-openmouthedsmile2.png) | What is nice about the progress screen is that unlike other server installs, it can be closed.  You can check on its status from the Notification pin in the Dashboard at any time.  
 Acts more like Windows Update than an MSI install. |
 | [![image](/Images/wordpress/2013/04/image_thumb13.png "image")](/Images/wordpress/2013/04/image14.png) | [![image](/Images/wordpress/2013/04/image_thumb14.png "image")](/Images/wordpress/2013/04/image15.png) | [![image](/Images/wordpress/2013/04/image_thumb15.png "image")](/Images/wordpress/2013/04/image16.png) |
 
 After all this it does give a refreshing view that Microsoft are serious about making administrators and engineers lives easier plus making maintenance a doddle.
 
-There are a few things I could nit-pick at the process, like if an installation fails for whatever reason you are notified it and can review the error summary, however there is no way to re-submit or alter that installation to set it off going again, especially with lengthy configuration choices it forces you to start again.&nbsp; On the other hand such a system would force you to do smaller installs and in fact you can configure several simultaneously and each will kick off after the other has finished, so maybe smaller is better!
+There are a few things I could nit-pick at the process, like if an installation fails for whatever reason you are notified it and can review the error summary, however there is no way to re-submit or alter that installation to set it off going again, especially with lengthy configuration choices it forces you to start again.  On the other hand such a system would force you to do smaller installs and in fact you can configure several simultaneously and each will kick off after the other has finished, so maybe smaller is better!
 
 Overall it feels very smooth and well thought out, not having to keep jumping in and out to install this and that just to get the install moving is a real bonus (something I have do not far too many times), plus it installs everything in one go at the end and in the correct order, saves you so much time, just click and go.
 
@@ -148,7 +148,7 @@ After you have got the server up and running and installed your roles and featur
 
 [![image](/Images/wordpress/2013/04/image_thumb16.png "image")](/Images/wordpress/2013/04/image17.png)
 
-You can jump in and check out the events, service status and such for each role and server you wish without having to jump through hoops.&nbsp; Another +10 for Microsoft.
+You can jump in and check out the events, service status and such for each role and server you wish without having to jump through hoops.  Another +10 for Microsoft.
 
 * * *
 

@@ -116,7 +116,7 @@ _C#_ defines the following categories of function members:
 
 Statements contained in function members are executed through function member invocations. The argument list of a function member invocation provides actual values or variable references for the parameters of the function member.
 
-&nbsp;
+ 
 
 ### 5.1. The new Operator
 
@@ -204,7 +204,7 @@ Example:
 
 > ( type ) unary-expression
 > 
-> 1:&nbsp; 
+> 1:  
 > 
 > <!--CRLF-->
 > 

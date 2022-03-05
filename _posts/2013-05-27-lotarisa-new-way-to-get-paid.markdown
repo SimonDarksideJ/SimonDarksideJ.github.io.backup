@@ -11,7 +11,7 @@ tags:
 - tutorials-resources
 ---
 
-I was approached by Lotaris a while ago and asked if I would do a review of their platform.&nbsp; Having not heard of the company before, I waded in and started looking around and was quietly surprised by what I found.
+I was approached by Lotaris a while ago and asked if I would do a review of their platform.  Having not heard of the company before, I waded in and started looking around and was quietly surprised by what I found.
 
 If your interested in making more money for your paid apps or a higher revenue stream plus tracking and analytics, read on.
 
@@ -41,13 +41,13 @@ So at first glance you can see the [Lotaris](http://www.lotaris.com/) solution i
 
 There is a fine balance here when gauging user reaction to the monetisation model you select:
 
-> ![src=]()&nbsp;&nbsp;&nbsp; Paid app on Windows store, with or without trial  
-> ![src=]()&nbsp;&nbsp;&nbsp; Free app on Windows store only  
-> ![src=]()&nbsp;&nbsp;&nbsp; Free / Paid with Microsoft in app purchases  
-> ![src=]()&nbsp;&nbsp;&nbsp; Paid app on Windows store with Lotaris in-app purchases  
-> ![src=]()&nbsp;&nbsp;&nbsp; Free app on Windows store using Lotaris paid / trial system  
-> ![src=]()&nbsp;&nbsp;&nbsp; Free app on Windows store using Lotaris paid / trial system in-app purchases  
-> ![src=]()&nbsp;&nbsp;&nbsp; Free app on Windows store using Lotaris paid / trial system combined with in-app purchases
+> ![src=]()    Paid app on Windows store, with or without trial  
+> ![src=]()    Free app on Windows store only  
+> ![src=]()    Free / Paid with Microsoft in app purchases  
+> ![src=]()    Paid app on Windows store with Lotaris in-app purchases  
+> ![src=]()    Free app on Windows store using Lotaris paid / trial system  
+> ![src=]()    Free app on Windows store using Lotaris paid / trial system in-app purchases  
+> ![src=]()    Free app on Windows store using Lotaris paid / trial system combined with in-app purchases
 
 All of which have their merits, the only solution I would question would be putting it for Free on the Windows store and then using Lotaris paid / trial system, would need some careful planning so as not to anger users who got a free app but then asked to pay for use or extended services, however I have seen systems in games where you play up to a point or for a certain amount of time and then pay to unlock, using the Lotaris solution would be a lot cleaner here.
 
@@ -57,7 +57,7 @@ The only other query I have would be how users would react to being sent elsewhe
 
 # What are the options?
 
-The Microsoft store already has a robust system in place, granted the differences between the Windows and Phone stores are very apparent to anyone who has delved deeply enough but just what can Lotaris bring to the table.&nbsp; Quite a lot it seems, check this out:
+The Microsoft store already has a robust system in place, granted the differences between the Windows and Phone stores are very apparent to anyone who has delved deeply enough but just what can Lotaris bring to the table.  Quite a lot it seems, check this out:
 
 [![image](/Images/wordpress/2013/05/image_thumb5.png "image")](/Images/wordpress/2013/05/image6.png)
 
@@ -144,7 +144,7 @@ For the final cherry on the top, get access to all the analytics data to show wh
 
 As you can see from the get go you get a lot of information, clearly orchestrated and showing you how to get going with minimal fuss.
 
-So your accounts ready, now what?&nbsp; Lets Integrate.
+So your accounts ready, now what?  Lets Integrate.
 
 * * *
 
@@ -163,7 +163,7 @@ There is even the capability to test the trial offline, so if the user does not 
 | [![image](/Images/wordpress/2013/05/image_thumb24.png "image")](/Images/wordpress/2013/05/image25.png) |
 | Slimily to the above, when you want the user to buy an in-app offer, just add this additional segment. |
 | [![image](/Images/wordpress/2013/05/image_thumb25.png "image")](/Images/wordpress/2013/05/image26.png) |
-| As a last step, you can check the status of any in-app offer to verify what the user has already paid for, you can so this simple check.&nbsp; Also if you have a screen listing all paid for items, then you can use the ProductLicenses collection instead in implementing your own. |
+| As a last step, you can check the status of any in-app offer to verify what the user has already paid for, you can so this simple check.  Also if you have a screen listing all paid for items, then you can use the ProductLicenses collection instead in implementing your own. |
 
 * * *
 
@@ -176,15 +176,15 @@ Now due to the way that Windows Phone operates differently to Windows 8 at prese
 - Define an URI association to easily return to the app when a payment is completed in the browser.
 - Enable Fast Resume
 
-> ![src=]()&nbsp;&nbsp;&nbsp; Set the capability to fetch the phones identity – “ID\_CAP\_IDENTITY\_DEVICE” , set in your app manifest.  
-> ![src=]()&nbsp;&nbsp;&nbsp; Declare support for more locales. If you do not do this, service conversations will always appear in the default language (English), Just add the locales for the markets you app will support in the “Packaging” section of the app manifest  
-> ![src=]()&nbsp;&nbsp;&nbsp; Define an URI association to easily return to the app when a payment is completed in the browser , open your “WMAppManifest.xml” file using a text or XML editor and add a “Extensions” block in between the “Token” and “Screenshot” sections thus:
+> ![src=]()    Set the capability to fetch the phones identity – “ID\_CAP\_IDENTITY\_DEVICE” , set in your app manifest.  
+> ![src=]()    Declare support for more locales. If you do not do this, service conversations will always appear in the default language (English), Just add the locales for the markets you app will support in the “Packaging” section of the app manifest  
+> ![src=]()    Define an URI association to easily return to the app when a payment is completed in the browser , open your “WMAppManifest.xml” file using a text or XML editor and add a “Extensions” block in between the “Token” and “Screenshot” sections thus:
 > 
 >     
 > 
 > Be sure to change the name of the protocol to match the ID of you payment option in the Lotaris Console
 > 
-> ![src=]()&nbsp;&nbsp;&nbsp; Enable Fast App Resume – see [http://bit.ly/19DqDg5](http://bit.ly/19DqDg5 "http://bit.ly/19DqDg5") for more details but essentially, open your “WMAppManifest.xml” file using a text or XML editor and change
+> ![src=]()    Enable Fast App Resume – see [http://bit.ly/19DqDg5](http://bit.ly/19DqDg5 "http://bit.ly/19DqDg5") for more details but essentially, open your “WMAppManifest.xml” file using a text or XML editor and change
 > 
 >     
 > 
@@ -196,7 +196,7 @@ For more details about the above steps check the integration page on the Lotaris
 
 # What about other platforms?
 
-Lotaris does have support for other platforms such as iOS and Android plus even a WEB API interface for integrating with them, however at this time not through the self service portal. &nbsp;Anyone wishing to take advantage of Lotris e-commerce solutions on these platforms (iOS/Android/Web) should contact them directly at&nbsp;[info@lotaris.com](mailto:info@lotaris.com)
+Lotaris does have support for other platforms such as iOS and Android plus even a WEB API interface for integrating with them, however at this time not through the self service portal.  Anyone wishing to take advantage of Lotris e-commerce solutions on these platforms (iOS/Android/Web) should contact them directly at [info@lotaris.com](mailto:info@lotaris.com)
 
 * * *
 
@@ -204,11 +204,11 @@ Lotaris does have support for other platforms such as iOS and Android plus even 
 
 You can be certain that the Lotaris platform isn’t going to be sitting on it’s heals with everything they currently have to offer, they are constantly looking to improve their service and offerings, from what I’ve been told there are several other initiatives already underway including:
 
-![src=]()&nbsp;&nbsp;&nbsp; Support for consumable items  
- ![src=]()&nbsp;&nbsp;&nbsp; Paypal and Mobile network consumer billing  
- ![src=]()&nbsp;&nbsp;&nbsp; Sample demonstration applications  
- ![src=]()&nbsp;&nbsp;&nbsp; Further improvements to their online documentation and tools  
- ![src=]()&nbsp;&nbsp;&nbsp; Free cuddly toy with every purchase
+![src=]()    Support for consumable items  
+ ![src=]()    Paypal and Mobile network consumer billing  
+ ![src=]()    Sample demonstration applications  
+ ![src=]()    Further improvements to their online documentation and tools  
+ ![src=]()    Free cuddly toy with every purchase
 
 Ok, the last one was just a vain wish 😀 but as you can see their offerings are certainly looking to increase your revenue support options, one thing is certain, they will always be offering a cheaper service to their competitors but even if it wasn’t just for that they just offer so much more to you as an app builder.
 

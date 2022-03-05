@@ -166,7 +166,7 @@ Now in your project you should have a nice new and shiny SpriteFont file, if you
 
 [![image](/Images/wordpress/2016/10/image_thumb-8.png "image")](/Images/wordpress/2016/10/image-8.png)
 
-&nbsp;
+ 
 
 Of note in this Asset are:
 
@@ -373,7 +373,7 @@ To make our extension available, we need to build it. For simplicity (and to avo
 
 Now before we continue, be sure to build your project as we will need the Content Pipeline Extension project ready to be picked up for the next step.
 
-&nbsp;
+ 
 
 ## 6: Creating a new asset using your extension
 
@@ -455,7 +455,7 @@ In an extension of the original article (the one where the code actually comes f
 
 It does not have to be used with only Japanese, this Font Processor can be used with any font for any language to produce better font graphics.
 
-&nbsp;
+ 
 
 Feel free to browse through this extension (apologies to non-Japanese speakers, as the comments in the code are still in their original Japanese) in the source sample and use it how you wish.
 
@@ -468,11 +468,11 @@ Feel free to browse through this extension (apologies to non-Japanese speakers, 
 
 There is certainly a lot of content in this article and a lot to digest. This still only scratches the surface of the capabilities of the Content Pipeline, I will cover more on this in future tutorials, rest assured.
 
-&nbsp;
+ 
 
 For now, I need to sit back and finish up my presentation for Future Decoded 2016 and then maybe sleep for a little while. The next tutorial will be a review and round up of some of the many exciting extensions and add-on’s to MonoGame that many brave souls have created. From Engines, to extensions and bolt-on frameworks, plus a few other surprises that make building games in MonoGame even more fun for developers.
 
-&nbsp;
+ 
 
 As ever, Solidarity Brothers, and Sisters ![Open-mouthed smile](/Images/wordpress/2016/10/wlEmoticon-openmouthedsmile.png)
 

@@ -18,7 +18,7 @@ tags:
 
 I have written several articles on the use of VSCode with Unity through its evolution but time and tide waits for no man as the behemoth of technology marches on.
 
-> If you have not heard of Microsoft’s new multi-platform lightweight code editor before, go and check out its [homepage](https://code.visualstudio.com/) ([https://code.visualstudio.com](https://code.visualstudio.com "https://code.visualstudio.com/")), it is chock full of fantastic stuff to make you drop MonoDevelop or any other lightweight editor.&nbsp; You can also check out my previous articles here and here.
+> If you have not heard of Microsoft’s new multi-platform lightweight code editor before, go and check out its [homepage](https://code.visualstudio.com/) ([https://code.visualstudio.com](https://code.visualstudio.com "https://code.visualstudio.com/")), it is chock full of fantastic stuff to make you drop MonoDevelop or any other lightweight editor.  You can also check out my previous articles here and here.
 
 Microsoft VSCode has taken many great strides since last I donned my writing hat, most notably:
 
@@ -28,7 +28,7 @@ Microsoft VSCode has taken many great strides since last I donned my writing hat
 - Debugging support for web apps has improved greatly
 - Git and Source control support has been improved
 
-There is a lot more but these are my favorite highlights.&nbsp; If you have read my previous articles on the subject ([here](http://darkgenesis.zenithmoon.com/configuring-unity3d-to-use-the-new-lightweight-visual-studio-code-editor/) and [here](http://darkgenesis.zenithmoon.com/vscode-and-unity-take-another-bold-step-forward/)), you will also know that it has some great support for Unity, which has only gotten better now that Unity themselves have pulled in to the race:
+There is a lot more but these are my favorite highlights.  If you have read my previous articles on the subject ([here](http://darkgenesis.zenithmoon.com/configuring-unity3d-to-use-the-new-lightweight-visual-studio-code-editor/) and [here](http://darkgenesis.zenithmoon.com/vscode-and-unity-take-another-bold-step-forward/)), you will also know that it has some great support for Unity, which has only gotten better now that Unity themselves have pulled in to the race:
 
 * * *
 
@@ -36,11 +36,11 @@ There is a lot more but these are my favorite highlights.&nbsp; If you have read
 
 Since the early beta releases we have been able to configure VSCode manually as a code editor within Unity, slowly but surely through the beta phases this integration has been improved to add file and line support when calling VSCode.
 
-Back in VSCode Version 0.8.0, this took another bold leap forward with its&nbsp;first Unity asset (well, the only really) aimed at providing increased integration between these two products.
+Back in VSCode Version 0.8.0, this took another bold leap forward with its first Unity asset (well, the only really) aimed at providing increased integration between these two products.
 
 [![image](/Images/wordpress/2016/01/image-1.png "image")](https://www.assetstore.unity3d.com/en/#!/content/45320)
 
-Made by a community developer with some assistance from&nbsp;teams at&nbsp;Unity and Microsoft, they automated a lot of the menial setup required to make the most out of the integration, namely:
+Made by a community developer with some assistance from teams at Unity and Microsoft, they automated a lot of the menial setup required to make the most out of the integration, namely:
 
 - Support for Windows, Mac and eventually Linux
 - Streamlining Editor preferences setup
@@ -111,7 +111,7 @@ The short path to get this running is as follows:
 - **\*\*New As of VSCode Version 1.0.0** , you also now have to install C# support for VSCode, it no longer ships by default (most likely so they can update it separately).  
 To install this, repeat the instructions above for the Unity Debugger, but install the “C#” package instead (it’s actually the first in the list :D).  
 Once installed, you will have an option to restart VSCode to complete the install.
-- In the “Unity” extension search, you will also find&nbsp;[Tobiah Zarlez](https://marketplace.visualstudio.com/search?term=publisher%3A%22Tobiah%20Zarlez%22&target=VSCode)&nbsp;new Unity Tools extension, which enables both Unity and VSCode documentation lookup support by selecting a class / property and hitting “Ctrl and #” (CMD and # for Mac’s). &nbsp;Pretty useful.
+- In the “Unity” extension search, you will also find [Tobiah Zarlez](https://marketplace.visualstudio.com/search?term=publisher%3A%22Tobiah%20Zarlez%22&target=VSCode) new Unity Tools extension, which enables both Unity and VSCode documentation lookup support by selecting a class / property and hitting “Ctrl and #” (CMD and # for Mac’s).  Pretty useful.
 
 Almost there, we now have all the necessary components installed, however to enable debugging, there is one final step.
 
@@ -127,7 +127,7 @@ If all goes well you should see a new “Launch.json” configuration file in th
 
 You should be able to determine from looking at the default launch configuration that it only supports the Editor by default, however you can extend this to support projects too if you wish, just check the marketplace support page for more detail – [https://marketplace.visualstudio.com/items/Unity.unity-debug](https://marketplace.visualstudio.com/items/Unity.unity-debug "https://marketplace.visualstudio.com/items/Unity.unity-debug")
 
-&nbsp;
+ 
 
 All done, if you return to the Folder/File view you can set breakpoints as you would do in any other code debugger and have VSCode break on that line when it is hit.
 

@@ -99,15 +99,15 @@ At this point it is worth pointing out that Game.CS file and the Game1 class are
 > Within a namespace, you can declare one or more of the following types:
 > 
 > - another namespace
-> - [class](http://msdn.microsoft.com/en-us/library/0b0thckt.aspx)
-> - [interface](http://msdn.microsoft.com/en-us/library/87d83y5b.aspx)
-> - [struct](http://msdn.microsoft.com/en-us/library/ah19swz4.aspx)
-> - [enum](http://msdn.microsoft.com/en-us/library/sbbt4032.aspx)
-> - [delegate](http://msdn.microsoft.com/en-us/library/900fyy8e.aspx)
+> - [class](http://msdn.microsoft.com/en-us/library/0b0thckt)
+> - [interface](http://msdn.microsoft.com/en-us/library/87d83y5b)
+> - [struct](http://msdn.microsoft.com/en-us/library/ah19swz4)
+> - [enum](http://msdn.microsoft.com/en-us/library/sbbt4032)
+> - [delegate](http://msdn.microsoft.com/en-us/library/900fyy8e)
 > 
 > Whether or not you explicitly declare a namespace in a C# source file, the compiler adds a default namespace. This unnamed namespace, sometimes referred to as the global namespace, is present in every file. Any identifier in the global namespace is available for use in a named namespace.
 > 
-> Namespaces implicitly have public access and this is not modifiable. For a discussion of the access modifiers you can assign to elements in a namespace, see [Access Modifiers (C# Reference)](http://msdn.microsoft.com/en-us/library/wxh6fsc7.aspx).
+> Namespaces implicitly have public access and this is not modifiable. For a discussion of the access modifiers you can assign to elements in a namespace, see [Access Modifiers (C# Reference)](http://msdn.microsoft.com/en-us/library/wxh6fsc7).
 
 - Class and base game class 
 
@@ -211,7 +211,7 @@ These are some things you can do now when getting started.
 
 One idea first ventured by one of the XNA gods (no big build up there honest) Shawn “ever useful” Hargreaves, is to separate your content manager from your game code. The main reason for this is to cut down on build times. Shawn has stated that the content manager has been optimised to only rebuild if there has been a change but invariably this causes the entire content project in your game to be rebuilt with your code. This can cause quite lengthy build times if you have a lot of assets.
 
-The answer to this is quite simple, just separate your code and content into different projects and then just have your game code reference the separate content project. This just enables you to only build your assets when you need to and shortens build times when you are just testing new bits of code. See the discussion on this [here](http://blogs.msdn.com/shawnhar/archive/2009/08/14/why-does-my-content-rebuild-every-time.aspx).
+The answer to this is quite simple, just separate your code and content into different projects and then just have your game code reference the separate content project. This just enables you to only build your assets when you need to and shortens build times when you are just testing new bits of code. See the discussion on this [here](http://blogs.msdn.com/shawnhar/archive/2009/08/14/why-does-my-content-rebuild-every-time).
 
 ### 3.4. Use library for shared features vs copy project
 

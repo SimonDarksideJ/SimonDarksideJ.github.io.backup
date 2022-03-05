@@ -8,13 +8,13 @@ tags:
 - tutorials-resources
 ---
 
-Kurt Jagers has yet again &nbsp;excelled himself with his latest edition to the 2D ile engine tutorial, now written for XNA Beta 2 as well.
+Kurt Jagers has yet again  excelled himself with his latest edition to the 2D ile engine tutorial, now written for XNA Beta 2 as well.
 
 In his latest addition he creates a Tile Engine Component and a couple of demo examples for it’s use, fantastic stuff Kurt
 
-For more info, follow the link below to the latest tutorial or browse over to [XNAResources](http://www.xnaresources.com/blog.asp "Resources for XNA Game Developers") to see the rest of Kurts offerings
+For more info, follow the link below to the latest tutorial or browse over to [XNAResources](http://www.xnaresources.com/blog.asp "Resources for XNA Game Developers") to see the rest of Kurt's offerings
 
-> &nbsp;
+>  
 
 Source: [XNA Resources – XNA Tutorials, GSE Tutorials, XNA News, Game Studio Express News](http://www.xnaresources.com/pages.asp?pageid=20)
 
